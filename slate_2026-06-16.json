@@ -1,6 +1,6 @@
 {
   "date": "2026-06-16",
-  "generated": "2026-06-16T21:17:47",
+  "generated": "2026-06-16T22:56:14",
   "games": [
     {
       "game_pk": 823451,
@@ -34,8 +34,8 @@
       },
       "weather": {
         "temp_f": 75.6,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 202
+        "wind_mph": 7.7,
+        "wind_dir_deg": 197
       },
       "factors": [
         {
@@ -96,9 +96,9 @@
         "implied": 54.1
       },
       "weather": {
-        "temp_f": 79.3,
-        "wind_mph": 5.8,
-        "wind_dir_deg": 216
+        "temp_f": 78.9,
+        "wind_mph": 3.8,
+        "wind_dir_deg": 220
       },
       "factors": [],
       "lean": "even",
@@ -146,9 +146,9 @@
         "implied": 53.7
       },
       "weather": {
-        "temp_f": 77.7,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 273
+        "temp_f": 76.6,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 272
       },
       "factors": [
         {
@@ -203,9 +203,9 @@
         "implied": 63.2
       },
       "weather": {
-        "temp_f": 71.5,
-        "wind_mph": 11.5,
-        "wind_dir_deg": 172
+        "temp_f": 71.9,
+        "wind_mph": 11.3,
+        "wind_dir_deg": 171
       },
       "factors": [
         {
@@ -267,8 +267,8 @@
       },
       "weather": {
         "temp_f": 77.4,
-        "wind_mph": 11.2,
-        "wind_dir_deg": 233
+        "wind_mph": 13.3,
+        "wind_dir_deg": 230
       },
       "factors": [
         {
@@ -329,9 +329,9 @@
         "implied": 58.0
       },
       "weather": {
-        "temp_f": 70.0,
-        "wind_mph": 5.3,
-        "wind_dir_deg": 195
+        "temp_f": 69.6,
+        "wind_mph": 4.9,
+        "wind_dir_deg": 177
       },
       "factors": [
         {
@@ -385,11 +385,7 @@
         "ml": -118,
         "implied": 54.1
       },
-      "weather": {
-        "temp_f": 69.1,
-        "wind_mph": 12.2,
-        "wind_dir_deg": 283
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -455,14 +451,14 @@
       "weight": 1,
       "read": null,
       "total": {
-        "line": 8.0,
-        "over": -118,
-        "under": -104
+        "line": 8.5,
+        "over": 102,
+        "under": -124
       },
       "total_read": {
         "side": "under",
-        "line": 8.0,
-        "note": "Total 8.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.639 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 8.5,
+        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.639 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -539,8 +535,8 @@
         "pitcher_id": 805673,
         "pitcher_name": "Zebby Matthews",
         "pitcher_hand": null,
-        "ml": 114,
-        "implied": 46.7
+        "ml": 110,
+        "implied": 47.6
       },
       "home": {
         "team": "Rangers",
@@ -551,8 +547,8 @@
         "pitcher_id": 677958,
         "pitcher_name": "Kumar Rocker",
         "pitcher_hand": null,
-        "ml": -134,
-        "implied": 57.3
+        "ml": -130,
+        "implied": 56.5
       },
       "weather": null,
       "factors": [],
@@ -656,16 +652,16 @@
       "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "D-backs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Reid Detmers holds RHB to a 0.637 OPS; D-backs project 67% R-handed today."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Angels lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Merrill Kelly holds RHB to a 0.670 OPS; Angels project 67% R-handed today."
         }
       ],
       "lean": "even",
@@ -679,7 +675,7 @@
       "total_read": {
         "side": "under",
         "line": 9.5,
-        "note": "Total 9.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.690 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 9.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.653 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -712,14 +708,12 @@
         "ml": 108,
         "implied": 48.1
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 84.1,
+        "wind_mph": 11.5,
+        "wind_dir_deg": 224
+      },
       "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Athletics lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
         {
           "m": "~",
           "side": "none",
@@ -738,7 +732,7 @@
       "total_read": {
         "side": null,
         "line": 10.5,
-        "note": "Total 10.5: no clear lean \u2014 starters roughly average (avg 0.700 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 10.5: no clear lean \u2014 starters roughly average (avg 0.748 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -772,16 +766,16 @@
         "implied": 56.9
       },
       "weather": {
-        "temp_f": 69.0,
-        "wind_mph": 8.5,
-        "wind_dir_deg": 30
+        "temp_f": 68.5,
+        "wind_mph": 7.8,
+        "wind_dir_deg": 37
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Mariners lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Brandon Young holds LHB to a 0.639 OPS; Mariners project 62% L-handed today."
         },
         {
           "m": "~",
@@ -790,8 +784,8 @@
           "text": "Orioles lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 7.5,
@@ -801,7 +795,7 @@
       "total_read": {
         "side": "under",
         "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.686 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.672 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -835,16 +829,16 @@
         "implied": 67.2
       },
       "weather": {
-        "temp_f": 66.4,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 255
+        "temp_f": 67.2,
+        "wind_mph": 8.0,
+        "wind_dir_deg": 252
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Dodgers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Drew Rasmussen holds LHB to a 0.647 OPS; Dodgers project 62% L-handed today."
         },
         {
           "m": "~",
@@ -853,8 +847,8 @@
           "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 7.5,
@@ -864,7 +858,7 @@
       "total_read": {
         "side": "under",
         "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.575 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.647 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     }
   ]
