@@ -1,6 +1,6 @@
 {
   "date": "2026-06-16",
-  "generated": "2026-06-16T09:14:09",
+  "generated": "2026-06-16T09:19:08",
   "games": [
     {
       "game_pk": 823451,
@@ -395,8 +395,8 @@
         "pitcher_id": 677944,
         "pitcher_name": "Slade Cecconi",
         "pitcher_hand": null,
-        "ml": 126,
-        "implied": 44.2
+        "ml": 130,
+        "implied": 43.5
       },
       "home": {
         "team": "Brewers",
@@ -407,8 +407,8 @@
         "pitcher_id": 688107,
         "pitcher_name": "Robert Gasser",
         "pitcher_hand": null,
-        "ml": -148,
-        "implied": 59.7
+        "ml": -154,
+        "implied": 60.6
       },
       "weather": {
         "temp_f": 68.9,
@@ -536,11 +536,7 @@
         "ml": -198,
         "implied": 66.4
       },
-      "weather": {
-        "temp_f": 68.3,
-        "wind_mph": 14.4,
-        "wind_dir_deg": 275
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -599,11 +595,7 @@
         "ml": -134,
         "implied": 57.3
       },
-      "weather": {
-        "temp_f": 88.8,
-        "wind_mph": 7.8,
-        "wind_dir_deg": 129
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -662,11 +654,7 @@
         "ml": -154,
         "implied": 60.6
       },
-      "weather": {
-        "temp_f": 80.1,
-        "wind_mph": 5.8,
-        "wind_dir_deg": 118
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -725,11 +713,7 @@
         "ml": -112,
         "implied": 52.8
       },
-      "weather": {
-        "temp_f": 108.3,
-        "wind_mph": 14.3,
-        "wind_dir_deg": 267
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -788,11 +772,7 @@
         "ml": -132,
         "implied": 56.9
       },
-      "weather": {
-        "temp_f": 85.1,
-        "wind_mph": 12.0,
-        "wind_dir_deg": 223
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -851,11 +831,7 @@
         "ml": -148,
         "implied": 59.7
       },
-      "weather": {
-        "temp_f": 69.5,
-        "wind_mph": 8.2,
-        "wind_dir_deg": 26
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
