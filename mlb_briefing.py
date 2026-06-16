@@ -117,6 +117,8 @@ def _parse_game(g):
         "lean": "even",
         "weight": 1,
         "read": None,
+        "total": None,        # {line, over, under} from odds
+        "total_read": None,   # preliminary over/under lean
     }
 
 
@@ -256,40 +258,61 @@ def implied_prob(american):
 
 
 def get_odds(api_key):
-    """Map full team name -> moneyline (consensus of first book returned)."""
+    """Pull moneyline + full-game totals (first book listed per event).
+    Returns {'ml': {team_norm: price}, 'totals': {matchup_key: {line, over, under}}}."""
+    empty = {"ml": {}, "totals": {}}
     if not api_key:
-        return {}
+        return empty
     try:
         r = requests.get(ODDS_API, timeout=TIMEOUT, params={
-            "apiKey": api_key, "regions": "us", "markets": "h2h",
+            "apiKey": api_key, "regions": "us", "markets": "h2h,totals",
             "oddsFormat": "american",
         })
         r.raise_for_status()
-        prices = {}
+        ml, totals = {}, {}
         for ev in r.json():
+            mkey = _matchup_key(ev.get("home_team", ""), ev.get("away_team", ""))
             book = (ev.get("bookmakers") or [{}])[0]
             for mkt in book.get("markets", []):
-                if mkt.get("key") != "h2h":
-                    continue
-                for oc in mkt.get("outcomes", []):
-                    prices[_norm(oc.get("name", ""))] = oc.get("price")
-        return prices
+                k = mkt.get("key")
+                if k == "h2h":
+                    for oc in mkt.get("outcomes", []):
+                        ml[_norm(oc.get("name", ""))] = oc.get("price")
+                elif k == "totals":
+                    line = over = under = None
+                    for oc in mkt.get("outcomes", []):
+                        if oc.get("name") == "Over":
+                            over, line = oc.get("price"), oc.get("point")
+                        elif oc.get("name") == "Under":
+                            under, line = oc.get("price"), oc.get("point")
+                    if line is not None:
+                        totals[mkey] = {"line": line, "over": over, "under": under}
+        return {"ml": ml, "totals": totals}
     except (requests.RequestException, ValueError):
-        return {}
+        return empty
+
+
+def _matchup_key(home, away):
+    return tuple(sorted([_norm(home), _norm(away)]))
 
 
 def _norm(name):
     return "".join(ch for ch in name.lower() if ch.isalnum())
 
 
-def attach_odds(game, odds_map):
+def attach_odds(game, odds):
+    ml = odds.get("ml", {})
     for side in ("away", "home"):
         s = game[side]
-        ml = odds_map.get(_norm(s["team_full"])) or odds_map.get(_norm(s["team"]))
-        if ml is not None:
-            s["ml"] = ml
-            p = implied_prob(ml)
+        m = ml.get(_norm(s["team_full"])) or ml.get(_norm(s["team"]))
+        if m is not None:
+            s["ml"] = m
+            p = implied_prob(m)
             s["implied"] = round(p * 100, 1) if p is not None else None
+    totals = odds.get("totals", {})
+    key = _matchup_key(game["home"]["team_full"], game["away"]["team_full"])
+    game["total"] = totals.get(key) or totals.get(
+        _matchup_key(game["home"]["team"], game["away"]["team"]))
 
 
 # ───────────────────────── Factor scoring (transparent heuristic) ─────────────────────────
@@ -352,6 +375,52 @@ def build_factors(game, splits_by_pid, hands):
     return game
 
 
+def assess_total(game, splits_by_pid, hands):
+    """Preliminary over/under lean. Honest first pass: based on how well the two
+    starters suppress the opposing lineups, plus a weather mention. A fuller read
+    wants park run-factors, both starters' ERA, and wind DIRECTION (not in yet)."""
+    t = game.get("total")
+    if not t:
+        return
+    supps = []
+    for pside, oside in (("away", "home"), ("home", "away")):
+        sp = splits_by_pid.get(game[pside].get("pitcher_id"), {})
+        if not sp:
+            continue
+        dom = (hands.get(oside) or {}).get("dominant")
+        ops = sp.get(dom) if dom else None
+        if ops is None:  # fall back to the pitcher's overall split average
+            vals = [v for v in sp.values() if v is not None]
+            ops = sum(vals) / len(vals) if vals else None
+        if ops is not None:
+            supps.append(ops)
+
+    side = None
+    if len(supps) == 2:
+        avg = sum(supps) / 2
+        if avg <= 0.690:
+            side, why = "under", f"both starters project to suppress these lineups (avg {avg:.3f} OPS-against)"
+        elif avg >= 0.770:
+            side, why = "over", f"both starters look hittable (avg {avg:.3f} OPS-against)"
+        else:
+            why = f"starters roughly average (avg {avg:.3f} OPS-against)"
+    else:
+        why = "not enough split data yet"
+
+    w = game.get("weather") or {}
+    wnote = ""
+    if w.get("wind_mph") is not None and w["wind_mph"] >= WIND_NOTE_MPH:
+        wnote = f" Strong wind ({w['wind_mph']:.0f} mph) could swing it (direction effect pending)."
+
+    body = f"leans {side.upper()} — {why}." if side else f"no clear lean — {why}."
+    game["total_read"] = {
+        "side": side,
+        "line": t.get("line"),
+        "note": f"Total {t.get('line')}: {body}{wnote} "
+                "(Preliminary — park, ERA, and wind direction still to come.)",
+    }
+
+
 # ───────────────────────── Optional AI "read" ─────────────────────────
 
 def generate_read(game, api_key):
@@ -400,6 +469,7 @@ def build_slate(date_str, do_splits=True, do_odds=True, do_read=True):
                     splits_by_pid[pid] = get_pitcher_splits(pid)
 
         build_factors(g, splits_by_pid, hands)
+        assess_total(g, splits_by_pid, hands)
         g["read"] = generate_read(g, ai_key)
 
     return {"date": date_str, "generated": dt.datetime.now().isoformat(timespec="seconds"),
@@ -428,7 +498,9 @@ def demo_slate():
                                          "pitchHand": {"code": "R"}}},
         },
     })
-    attach_odds(g, {"newyorkyankees": 105, "bostonredsox": -125})
+    attach_odds(g, {"ml": {"newyorkyankees": 105, "bostonredsox": -125},
+                    "totals": {_matchup_key("Boston Red Sox", "New York Yankees"):
+                               {"line": 8.5, "over": -110, "under": -105}}})
     g["weather"] = {"temp_f": 63, "wind_mph": 17, "wind_dir_deg": 40}
     hands = {
         "away": _summarize_hand({"L": 3, "R": 6, "S": 0}, 9),   # NYY lineup
@@ -437,6 +509,7 @@ def demo_slate():
     splits = {543037: {"R": 0.612, "L": 0.701},   # Cole strong vs RHB
               657277: {"R": 0.745, "L": 0.690}}    # Houck ok
     build_factors(g, splits, hands)
+    assess_total(g, splits, hands)
     g["read"] = ("Cole's strong right-on-right numbers line up against a righty-heavy Boston "
                  "lineup, and a stiff wind trims Fenway's usual offense — which is why the "
                  "Yankees read as live at +105. The book already knows all of this; the lean "

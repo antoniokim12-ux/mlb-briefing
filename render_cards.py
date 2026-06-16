@@ -81,6 +81,12 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
 .sb-lab{color:var(--amber);letter-spacing:.16em;text-transform:uppercase;font-size:10.5px;}
 .sb-stat{color:var(--bone);}
 .sb-stat b{color:var(--muted);font-weight:500;}
+.lines{border-top:1px dashed var(--line);margin-top:13px;padding-top:12px;}
+.lines-h{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;}
+.line-row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:13px;}
+.line-name{font-family:'Archivo Narrow',sans-serif;font-weight:600;}
+.line-odds{font-family:'JetBrains Mono',monospace;color:var(--amber);font-size:12px;}
+.line-read{font-size:12px;color:var(--muted);line-height:1.5;margin-top:4px;}
 .foot{margin-top:30px;text-align:center;color:var(--muted);font-size:11px;font-family:'JetBrains Mono',monospace;letter-spacing:.05em;line-height:1.7;}
 @media (max-width:520px){h1{font-size:27px;}}
 """
@@ -176,6 +182,18 @@ def render_card(g):
     if g.get("read"):
         read = f'<div class="read"><b>The read</b>{esc(g["read"])}</div>'
 
+    lines_html = ""
+    t = g.get("total")
+    if t:
+        tr = g.get("total_read") or {}
+        lines_html = (
+            '<div class="lines"><div class="lines-h">Other lines</div>'
+            f'<div class="line-row"><span class="line-name">Total {esc(t.get("line"))}</span>'
+            f'<span class="line-odds">O {fmt_ml(t.get("over"))} &nbsp;/&nbsp; U {fmt_ml(t.get("under"))}</span></div>'
+            + (f'<div class="line-read">{esc(tr.get("note"))}</div>' if tr.get("note") else "")
+            + '</div>'
+        )
+
     w = g.get("weather") or {}
     wx = (f'{w.get("temp_f"):.0f}°F · wind {w.get("wind_mph"):.0f}mph'
           if w.get("temp_f") is not None else "—")
@@ -194,6 +212,7 @@ def render_card(g):
       <summary>Why</summary>
       <div class="factors">{factors or '<div class="f"><span class="fmark">~</span><span>No notable factors logged.</span></div>'}</div>
       {read}
+      {lines_html}
     </details>
   </div>
 </div>"""
