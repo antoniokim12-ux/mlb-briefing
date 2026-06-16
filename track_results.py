@@ -33,6 +33,7 @@ import argparse
 import datetime as dt
 import json
 import os
+import re
 import sys
 
 import requests
@@ -64,6 +65,10 @@ def profit_on_win(ml):
     """Units won per 1 unit staked if the bet hits (American odds)."""
     a = float(ml)
     return a / 100 if a > 0 else 100 / abs(a)
+
+
+def _norm(name):
+    return "".join(ch for ch in (name or "").lower() if ch.isalnum())
 
 
 # ───────────────────────── log store ─────────────────────────
@@ -244,21 +249,39 @@ def mode_close(slate_path):
     return 0
 
 
-def fetch_final_scores(date):
-    """{game_pk: {'state':..., 'away':score, 'home':score}} for a date."""
+def fetch_final_games(date):
+    """List of {pk, state, away, home, away_team, home_team} for a date."""
     r = requests.get(f"{MLB_API}/schedule", timeout=TIMEOUT,
                      params={"sportId": 1, "date": date})
     r.raise_for_status()
-    out = {}
+    out = []
     for d in r.json().get("dates", []):
         for g in d.get("games", []):
             teams = g.get("teams", {})
-            out[g.get("gamePk")] = {
+            out.append({
+                "pk": g.get("gamePk"),
                 "state": (g.get("status") or {}).get("abstractGameState"),
                 "away": (teams.get("away") or {}).get("score"),
                 "home": (teams.get("home") or {}).get("score"),
-            }
+                "away_team": ((teams.get("away") or {}).get("team") or {}).get("name", ""),
+                "home_team": ((teams.get("home") or {}).get("team") or {}).get("name", ""),
+            })
     return out
+
+
+_ALIASES = {"dbacks": "diamondbacks"}
+
+
+def _match_by_team(games, away, home):
+    """Find a game by team name (short name is a substring of the API's full name)."""
+    if not away or not home:
+        return None
+    na = _ALIASES.get(_norm(away), _norm(away))
+    nh = _ALIASES.get(_norm(home), _norm(home))
+    for g in games:
+        if na in _norm(g["away_team"]) and nh in _norm(g["home_team"]):
+            return g
+    return None
 
 
 def grade_entry(e, score):
@@ -301,12 +324,16 @@ def mode_grade():
     graded = 0
     for date in sorted({e["date"] for e in ungraded}):
         try:
-            scores = fetch_final_scores(date)
+            games = fetch_final_games(date)
         except requests.RequestException as ex:
             print(f"Could not fetch scores for {date}: {ex}", file=sys.stderr)
             continue
-        for e in ungraded:
-            if e["date"] == date and grade_entry(e, scores.get(e["game_pk"])):
+        pk_index = {g["pk"]: g for g in games}
+        for e in [x for x in ungraded if x["date"] == date]:
+            g = pk_index.get(e.get("game_pk"))
+            if g is None:  # imported picks have no game id — match on team names
+                g = _match_by_team(games, e.get("away_team"), e.get("home_team"))
+            if g and grade_entry(e, g):
                 graded += 1
 
     save_log(entries)
@@ -338,6 +365,74 @@ def _stat_block(rows, label):
               f"({beat}/{len(clv)} beat the close)")
     else:
         print("  CLV        no closing lines captured yet")
+
+
+def mode_import_slate(path):
+    """Backfill picks from a SAVED slate HTML. The rendered page preserves the lines
+    and prices the live odds feed drops once games finish, so a day you have on file
+    can still be added. Reusable for any saved slate; grades by team name."""
+    with open(path, encoding="utf-8") as f:
+        html = f.read()
+    m = re.search(r"Daily Matchup Briefing . ([0-9]{4}-[0-9]{2}-[0-9]{2})", html)
+    date = m.group(1) if m else os.path.basename(path).replace("slate_", "").replace(".html", "")
+
+    entries = load_log()
+    added = 0
+    for c in re.split(r'<div class="card">', html)[1:]:
+        teams = re.findall(r'<div class="team">([^<]+)</div>', c)
+        mls = re.findall(r'<span class="ml">([+\-]?\d+)</span>', c)
+        if len(teams) < 2 or len(mls) < 2:
+            continue
+        away, home = teams[0].strip(), teams[1].strip()
+        away_ml, home_ml = int(mls[0]), int(mls[1])
+        base = {"date": date, "game_pk": None, "away_team": away, "home_team": home,
+                "weight": 0, "is_top": False, "close_ml": None, "close_line": None,
+                "close_fair": None, "clv_pp": None, "result": None, "total_runs": None,
+                "pick_score": None, "opp_score": None, "profit": None}
+
+        pill = re.search(r'<span class="pill"[^>]*>([^<]+)</span>', c)
+        if pill:
+            ptxt = pill.group(1)
+            kind = "value" if "VALUE LOOK" in ptxt else ("lean" if "LEAN" in ptxt else None)
+            if kind:
+                pteam = ptxt.split("\u25b8")[-1].strip().upper()
+                side = "away" if away.upper() == pteam else ("home" if home.upper() == pteam else None)
+                if side:
+                    price = away_ml if side == "away" else home_ml
+                    li = implied_pct(price)
+                    oi = implied_pct(home_ml if side == "away" else away_ml)
+                    key = f"{date}:{_norm(away)}:{_norm(home)}"
+                    if key not in entries:
+                        entries[key] = {**base, "key": key, "kind": kind,
+                            "pick_team": away if side == "away" else home, "pick_side": side,
+                            "opp_team": home if side == "away" else away, "log_ml": price,
+                            "log_implied": round(li, 1) if li else None,
+                            "log_fair": round(fair_pct(li, oi), 1) if li and oi else None}
+                        added += 1
+
+        tline = re.search(r'<span class="line-name">Total ([0-9.]+)</span>', c)
+        todds = re.search(r'<span class="line-odds">O ([+\-]?\d+)\s*&nbsp;/&nbsp;\s*U ([+\-]?\d+)</span>', c)
+        tside = re.search(r'Total [0-9.]+: leans (OVER|UNDER)', c)
+        if tline and todds and tside:
+            line = float(tline.group(1))
+            over_ml, under_ml = int(todds.group(1)), int(todds.group(2))
+            side = tside.group(1).lower()
+            price = over_ml if side == "over" else under_ml
+            si = implied_pct(price)
+            oth = implied_pct(under_ml if side == "over" else over_ml)
+            key = f"{date}:{_norm(away)}:{_norm(home)}:total"
+            if key not in entries:
+                entries[key] = {**base, "key": key, "kind": "total",
+                    "pick_team": f"{side.title()} {line}", "pick_side": side, "line": line,
+                    "opp_team": f"{away} @ {home}", "log_ml": price,
+                    "log_implied": round(si, 1) if si else None,
+                    "log_fair": round(fair_pct(si, oth), 1) if si and oth else None}
+                added += 1
+
+    save_log(entries)
+    print(f"Imported {added} pick(s) from {os.path.basename(path)} (date {date}). "
+          "Now run 'grade' to score them from the final results.")
+    return 0
 
 
 def mode_report():
@@ -372,6 +467,8 @@ def main():
     p_log.add_argument("slate")
     p_close = sub.add_parser("close", help="capture closing lines for CLV from a fresh slate")
     p_close.add_argument("slate")
+    p_imp = sub.add_parser("import-slate", help="backfill picks from a saved slate HTML")
+    p_imp.add_argument("slate")
     sub.add_parser("grade", help="grade finished games from final scores")
     sub.add_parser("report", help="print the results scoreboard")
     args = ap.parse_args()
@@ -381,6 +478,8 @@ def main():
             return mode_log(args.slate)
         if args.cmd == "close":
             return mode_close(args.slate)
+        if args.cmd == "import-slate":
+            return mode_import_slate(args.slate)
         if args.cmd == "grade":
             return mode_grade()
         if args.cmd == "report":
