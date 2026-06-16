@@ -1,6 +1,6 @@
 {
   "date": "2026-06-16",
-  "generated": "2026-06-16T20:04:32",
+  "generated": "2026-06-16T21:17:47",
   "games": [
     {
       "game_pk": 823451,
@@ -33,9 +33,9 @@
         "implied": 55.0
       },
       "weather": {
-        "temp_f": 76.2,
-        "wind_mph": 6.9,
-        "wind_dir_deg": 205
+        "temp_f": 75.6,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 202
       },
       "factors": [
         {
@@ -96,9 +96,9 @@
         "implied": 54.1
       },
       "weather": {
-        "temp_f": 80.5,
-        "wind_mph": 7.3,
-        "wind_dir_deg": 192
+        "temp_f": 79.3,
+        "wind_mph": 5.8,
+        "wind_dir_deg": 216
       },
       "factors": [],
       "lean": "even",
@@ -130,8 +130,8 @@
         "pitcher_id": 656302,
         "pitcher_name": "Dylan Cease",
         "pitcher_hand": null,
-        "ml": -118,
-        "implied": 54.1
+        "ml": -102,
+        "implied": 50.5
       },
       "home": {
         "team": "Red Sox",
@@ -142,13 +142,13 @@
         "pitcher_id": 801139,
         "pitcher_name": "Payton Tolle",
         "pitcher_hand": null,
-        "ml": -102,
-        "implied": 50.5
+        "ml": -116,
+        "implied": 53.7
       },
       "weather": {
-        "temp_f": 78.2,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 277
+        "temp_f": 77.7,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 273
       },
       "factors": [
         {
@@ -162,14 +162,14 @@
       "weight": 1,
       "read": null,
       "total": {
-        "line": 7.5,
-        "over": -105,
-        "under": -114
+        "line": 9.5,
+        "over": 100,
+        "under": -122
       },
       "total_read": {
         "side": "under",
-        "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.554 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 9.5,
+        "note": "Total 9.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.554 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -205,14 +205,14 @@
       "weather": {
         "temp_f": 71.5,
         "wind_mph": 11.5,
-        "wind_dir_deg": 173
+        "wind_dir_deg": 172
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Yankees lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Davis Martin holds LHB to a 0.567 OPS; Yankees project 67% L-handed today."
         },
         {
           "m": "+",
@@ -221,8 +221,8 @@
           "text": "Gerrit Cole holds LHB to a 0.607 OPS; White Sox project 71% L-handed today."
         }
       ],
-      "lean": "home",
-      "weight": 1,
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": {
         "line": 8.5,
@@ -232,7 +232,7 @@
       "total_read": {
         "side": "under",
         "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.619 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.587 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -266,9 +266,9 @@
         "implied": 46.3
       },
       "weather": {
-        "temp_f": 78.7,
-        "wind_mph": 9.7,
-        "wind_dir_deg": 226
+        "temp_f": 77.4,
+        "wind_mph": 11.2,
+        "wind_dir_deg": 233
       },
       "factors": [
         {
@@ -278,14 +278,14 @@
           "text": "Kodai Senga is vulnerable to RHB (0.830 OPS) and Reds skew R-handed."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Mets lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Brady Singer is vulnerable to LHB (0.997 OPS) and Mets skew L-handed."
         }
       ],
-      "lean": "home",
-      "weight": 1,
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": {
         "line": 9.0,
@@ -295,7 +295,7 @@
       "total_read": {
         "side": "over",
         "line": 9.0,
-        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.875 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.913 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -329,9 +329,9 @@
         "implied": 58.0
       },
       "weather": {
-        "temp_f": 71.2,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 198
+        "temp_f": 70.0,
+        "wind_mph": 5.3,
+        "wind_dir_deg": 195
       },
       "factors": [
         {
@@ -385,23 +385,21 @@
         "ml": -118,
         "implied": 54.1
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 69.1,
+        "wind_mph": 12.2,
+        "wind_dir_deg": 283
+      },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Robert Gasser is vulnerable to RHB (0.803 OPS) and Guardians skew R-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 7.5,
@@ -409,9 +407,9 @@
         "under": 102
       },
       "total_read": {
-        "side": "over",
+        "side": null,
         "line": 7.5,
-        "note": "Total 7.5: leans OVER \u2014 both starters look hittable (avg 0.917 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 7.5: no clear lean \u2014 starters roughly average (avg 0.761 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -447,24 +445,24 @@
       "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Padres lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Andre Pallante holds RHB to a 0.659 OPS; Padres project 67% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -110,
-        "under": -110
+        "over": -118,
+        "under": -104
       },
       "total_read": {
         "side": "under",
         "line": 8.0,
-        "note": "Total 8.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.651 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 8.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.639 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -500,10 +498,10 @@
       "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Cubs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Ryan Feltner is vulnerable to RHB (0.877 OPS) and Cubs skew R-handed."
         },
         {
           "m": "-",
@@ -512,8 +510,8 @@
           "text": "Edward Cabrera is vulnerable to LHB (0.812 OPS) and Rockies skew L-handed."
         }
       ],
-      "lean": "away",
-      "weight": 1,
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": {
         "line": 10.0,
@@ -523,7 +521,7 @@
       "total_read": {
         "side": "over",
         "line": 10.0,
-        "note": "Total 10.0: leans OVER \u2014 both starters look hittable (avg 0.773 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 10.0: leans OVER \u2014 both starters look hittable (avg 0.845 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -557,20 +555,7 @@
         "implied": 57.3
       },
       "weather": null,
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rangers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Twins lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -580,9 +565,9 @@
         "under": -115
       },
       "total_read": {
-        "side": null,
+        "side": "under",
         "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.718 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.671 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -618,14 +603,14 @@
       "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Tigers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Hunter Brown holds LHB to a 0.306 OPS; Tigers project 67% L-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 8.5,
@@ -635,7 +620,7 @@
       "total_read": {
         "side": "under",
         "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.556 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.511 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -727,11 +712,7 @@
         "ml": 108,
         "implied": 48.1
       },
-      "weather": {
-        "temp_f": 85.4,
-        "wind_mph": 11.5,
-        "wind_dir_deg": 224
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -791,9 +772,9 @@
         "implied": 56.9
       },
       "weather": {
-        "temp_f": 66.2,
-        "wind_mph": 8.6,
-        "wind_dir_deg": 37
+        "temp_f": 69.0,
+        "wind_mph": 8.5,
+        "wind_dir_deg": 30
       },
       "factors": [
         {
@@ -854,9 +835,9 @@
         "implied": 67.2
       },
       "weather": {
-        "temp_f": 66.3,
-        "wind_mph": 7.2,
-        "wind_dir_deg": 256
+        "temp_f": 66.4,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 255
       },
       "factors": [
         {
