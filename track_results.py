@@ -142,9 +142,41 @@ def mode_log(slate_path):
         }
         added += 1
 
+    # Also log over/under picks wherever the bot has a totals lean.
+    added_t = 0
+    for g in slate.get("games", []):
+        tr = g.get("total_read") or {}
+        t = g.get("total") or {}
+        side = tr.get("side")
+        if side not in ("over", "under") or not t:
+            continue
+        price = t.get("over") if side == "over" else t.get("under")
+        if price is None:
+            continue
+        key = f'{date}:{g.get("game_pk")}:total'
+        if key in entries:
+            continue
+        oi, ui = implied_pct(t.get("over")), implied_pct(t.get("under"))
+        side_imp = oi if side == "over" else ui
+        lf = fair_pct(side_imp, ui if side == "over" else oi)
+        entries[key] = {
+            "key": key, "date": date, "game_pk": g.get("game_pk"), "kind": "total",
+            "pick_team": f'{side.title()} {t.get("line")}',          # label for display
+            "pick_side": side, "line": t.get("line"),
+            "opp_team": f'{g["away"].get("team")} @ {g["home"].get("team")}',
+            "log_ml": price,
+            "log_implied": round(side_imp, 1) if side_imp else None,
+            "log_fair": round(lf, 1) if lf else None,
+            "weight": 0, "is_top": False,
+            "close_ml": None, "close_line": None, "close_fair": None, "clv_pp": None,
+            "result": None, "total_runs": None, "pick_score": None, "opp_score": None,
+            "profit": None,
+        }
+        added_t += 1
+
     save_log(entries)
     top_name = top[top["lean"]].get("team") if top else "none"
-    print(f"Logged {added} new lean(s) for {date} "
+    print(f"Logged {added} new lean(s) + {added_t} total(s) for {date} "
           f"({sum(1 for r in rows if r[4] == 'value')} value, "
           f"{sum(1 for r in rows if r[4] == 'lean')} favorite; top look: {top_name}).")
     return 0
@@ -179,6 +211,24 @@ def mode_close(slate_path):
         gt = _parse_iso(g.get("game_time"))
         if gt is not None and gt <= now:
             continue  # game underway/finished -> keep the last pre-game capture
+
+        if e.get("kind") == "total":
+            t = g.get("total") or {}
+            if not t:
+                continue
+            oi, ui = implied_pct(t.get("over")), implied_pct(t.get("under"))
+            side_imp = oi if e["pick_side"] == "over" else ui
+            cf = fair_pct(side_imp, ui if e["pick_side"] == "over" else oi)
+            if cf is None:
+                continue
+            e["close_ml"] = t.get("over") if e["pick_side"] == "over" else t.get("under")
+            e["close_line"] = t.get("line")
+            e["close_fair"] = round(cf, 1)
+            e["clv_pp"] = (round(cf - e["log_fair"], 1)
+                           if e.get("log_fair") is not None else None)
+            updated += 1
+            continue
+
         side = e["pick_side"]
         opp = "home" if side == "away" else "away"
         cf = fair_pct(implied_pct(g[side].get("ml")), implied_pct(g[opp].get("ml")))
@@ -218,6 +268,21 @@ def grade_entry(e, score):
     a, h = score.get("away"), score.get("home")
     if a is None or h is None:
         return False
+
+    if e.get("kind") == "total":
+        line = e.get("line")
+        if line is None:
+            return False
+        runs = a + h
+        e["total_runs"] = runs
+        if runs == line:                      # exact integer line -> push
+            e["result"], e["profit"] = "P", 0.0
+        else:
+            won = (runs > line) if e["pick_side"] == "over" else (runs < line)
+            e["result"] = "W" if won else "L"
+            e["profit"] = round(profit_on_win(e["log_ml"]), 3) if won else -1.0
+        return True
+
     pick_won = (a > h) if e["pick_side"] == "away" else (h > a)
     e["result"] = "W" if pick_won else "L"
     e["pick_score"] = a if e["pick_side"] == "away" else h
@@ -282,13 +347,14 @@ def mode_report():
         return 0
     print(f"\n===== MLB Briefing — results scoreboard ({len(entries)} picks logged) =====")
     _stat_block(entries, "All picks")
-    _stat_block([e for e in entries if e.get("kind", "value") == "value"], "Value looks")
-    _stat_block([e for e in entries if e.get("kind") == "lean"], "Favorite leans")
+    _stat_block([e for e in entries if e.get("kind", "value") == "value"], "Value looks (ML)")
+    _stat_block([e for e in entries if e.get("kind") == "lean"], "Favorite leans (ML)")
+    _stat_block([e for e in entries if e.get("kind") == "total"], "Totals (O/U)")
     _stat_block([e for e in entries if e.get("is_top")], "Top Look only")
-    print("\nReminder: CLV is the early signal. A positive average CLV over ~30+ picks "
-          "is the first real sign the tool is finding something. Win/loss is noisier. "
-          "Watch whether VALUE LOOKS beat FAVORITE LEANS — if they don't, the value flag "
-          "isn't adding anything.\n")
+    print("\nReminder: CLV is the early signal — positive over ~30+ picks is the first real "
+          "sign the tool is finding something. Watch whether VALUE LOOKS beat FAVORITE LEANS, "
+          "and whether the TOTALS reads hold up on their own. Note: totals CLV here tracks "
+          "price only, not movement in the line itself (8.5 -> 9), so read it loosely.\n")
     return 0
 
 

@@ -290,7 +290,11 @@ def render_scoreboard():
                      f'({beat}/{len(clv)} beat close)</span>')
     nv = sum(1 for e in rows if e.get("kind", "value") == "value")
     nl = sum(1 for e in rows if e.get("kind") == "lean")
-    parts.append(f'<span class="sb-stat" style="color:var(--muted)">{nv} value · {nl} lean</span>')
+    nt = sum(1 for e in rows if e.get("kind") == "total")
+    split = f"{nv} value · {nl} lean"
+    if nt:
+        split += f" · {nt} O/U"
+    parts.append(f'<span class="sb-stat" style="color:var(--muted)">{split}</span>')
     if len(rows) < 30:
         parts.append(f'<span class="sb-stat" style="color:var(--muted)">building · '
                      f'{len(rows)}/30 picks</span>')
