@@ -1,0 +1,7 @@
+# daily intermediates — regenerated every run, no need to store
+slate_*.json
+slate_*.html
+
+# python cruft
+__pycache__/
+*.pyc
