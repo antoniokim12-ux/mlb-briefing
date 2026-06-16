@@ -1,0 +1,49 @@
+name: MLB Briefing
+
+on:
+  workflow_dispatch:        # lets you run it by hand from the GitHub website/app
+  schedule:                 # times are UTC; these land in the afternoon/evening in California
+    - cron: '0 19 * * *'    # ~12pm Pacific
+    - cron: '0 21 * * *'    # ~2pm Pacific
+    - cron: '0 23 * * *'    # ~4pm Pacific
+    - cron: '0 1 * * *'     # ~6pm Pacific
+    - cron: '30 2 * * *'    # ~7:30pm Pacific
+
+permissions:
+  contents: write           # so the run can save your picks log + page back to the repo
+
+concurrency:
+  group: mlb-briefing
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+
+      - name: Build today's briefing
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: |
+          DAY=$(python -c "import datetime, zoneinfo as z; print(datetime.datetime.now(z.ZoneInfo('America/Los_Angeles')).date().isoformat())")
+          echo "Building slate for $DAY (Pacific date)"
+          python mlb_briefing.py --date "$DAY"
+          python track_results.py log "slate_$DAY.json" || true
+          python track_results.py close "slate_$DAY.json" || true
+          python track_results.py grade || true
+          python render_cards.py "slate_$DAY.json"
+          mkdir -p docs
+          cp "slate_$DAY.html" docs/index.html
+
+      - name: Publish
+        run: |
+          git config user.name "mlb-briefing-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Update briefing" || echo "nothing to commit"
+          git push
