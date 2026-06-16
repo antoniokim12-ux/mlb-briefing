@@ -1,6 +1,6 @@
 {
   "date": "2026-06-15",
-  "generated": "2026-06-16T04:38:57",
+  "generated": "2026-06-16T05:00:48",
   "games": [
     {
       "game_pk": 823452,
@@ -40,7 +40,17 @@
       "factors": [],
       "lean": "even",
       "weight": 0,
-      "read": null
+      "read": null,
+      "total": {
+        "line": 8.5,
+        "over": 102,
+        "under": -124
+      },
+      "total_read": {
+        "side": null,
+        "line": 8.5,
+        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.698 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
     },
     {
       "game_pk": 822724,
@@ -87,7 +97,17 @@
       ],
       "lean": "home",
       "weight": 1,
-      "read": null
+      "read": null,
+      "total": {
+        "line": 8.5,
+        "over": -112,
+        "under": -108
+      },
+      "total_read": {
+        "side": "over",
+        "line": 8.5,
+        "note": "Total 8.5: leans OVER \u2014 both starters look hittable (avg 0.982 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
     },
     {
       "game_pk": 824505,
@@ -140,7 +160,17 @@
       ],
       "lean": "home",
       "weight": 2,
-      "read": null
+      "read": null,
+      "total": {
+        "line": 9.5,
+        "over": -106,
+        "under": -114
+      },
+      "total_read": {
+        "side": "over",
+        "line": 9.5,
+        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.780 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
     },
     {
       "game_pk": 823046,
@@ -180,7 +210,17 @@
       "factors": [],
       "lean": "even",
       "weight": 0,
-      "read": null
+      "read": null,
+      "total": {
+        "line": 8.5,
+        "over": 104,
+        "under": -128
+      },
+      "total_read": {
+        "side": "under",
+        "line": 8.5,
+        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.632 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
     },
     {
       "game_pk": 824666,
@@ -220,7 +260,17 @@
       "factors": [],
       "lean": "even",
       "weight": 0,
-      "read": null
+      "read": null,
+      "total": {
+        "line": 9.5,
+        "over": -110,
+        "under": -110
+      },
+      "total_read": {
+        "side": null,
+        "line": 9.5,
+        "note": "Total 9.5: no clear lean \u2014 starters roughly average (avg 0.718 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
     },
     {
       "game_pk": 822887,
@@ -267,7 +317,17 @@
       ],
       "lean": "home",
       "weight": 1,
-      "read": null
+      "read": null,
+      "total": {
+        "line": 8.5,
+        "over": -102,
+        "under": -120
+      },
+      "total_read": {
+        "side": "under",
+        "line": 8.5,
+        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.575 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
     },
     {
       "game_pk": 824181,
@@ -299,11 +359,25 @@
         "ml": -148,
         "implied": 59.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.4,
+        "wind_mph": 1.7,
+        "wind_dir_deg": 310
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
-      "read": null
+      "read": null,
+      "total": {
+        "line": 8.0,
+        "over": 102,
+        "under": -124
+      },
+      "total_read": {
+        "side": "over",
+        "line": 8.0,
+        "note": "Total 8.0: leans OVER \u2014 both starters look hittable (avg 0.839 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
     },
     {
       "game_pk": 825071,
@@ -352,7 +426,17 @@
       ],
       "lean": "away",
       "weight": 2,
-      "read": null
+      "read": null,
+      "total": {
+        "line": 8.5,
+        "over": -124,
+        "under": 102
+      },
+      "total_read": {
+        "side": null,
+        "line": 8.5,
+        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.726 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
     },
     {
       "game_pk": 824993,
@@ -388,7 +472,17 @@
       "factors": [],
       "lean": "even",
       "weight": 0,
-      "read": null
+      "read": null,
+      "total": {
+        "line": 10.5,
+        "over": -120,
+        "under": -102
+      },
+      "total_read": {
+        "side": "over",
+        "line": 10.5,
+        "note": "Total 10.5: leans OVER \u2014 both starters look hittable (avg 0.891 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
     },
     {
       "game_pk": 823938,
@@ -401,7 +495,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "41-27",
+        "record": "41-28",
         "pitcher_id": 607259,
         "pitcher_name": "Nick Martinez",
         "pitcher_hand": null,
@@ -413,7 +507,7 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "45-27",
+        "record": "46-27",
         "pitcher_id": 641778,
         "pitcher_name": "Eric Lauer",
         "pitcher_hand": null,
@@ -424,7 +518,17 @@
       "factors": [],
       "lean": "even",
       "weight": 0,
-      "read": null
+      "read": null,
+      "total": {
+        "line": 8.5,
+        "over": 102,
+        "under": -124
+      },
+      "total_read": {
+        "side": null,
+        "line": 8.5,
+        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.717 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
     }
   ]
 }
