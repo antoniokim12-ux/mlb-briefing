@@ -71,6 +71,17 @@ def _norm(name):
     return "".join(ch for ch in (name or "").lower() if ch.isalnum())
 
 
+def _sig(e):
+    """A pick's identity, independent of key format: same day, bet type, side, teams.
+    Lets us recognize the same pick whether it was logged live or imported."""
+    return (e.get("date"), e.get("kind"), e.get("pick_side"),
+            _norm(e.get("pick_team")), _norm(e.get("opp_team")))
+
+
+def _seen_sigs(entries):
+    return {_sig(e) for e in entries.values()}
+
+
 # ───────────────────────── log store ─────────────────────────
 
 def load_log():
@@ -126,12 +137,16 @@ def mode_log(slate_path):
     top = max(value_rows, key=lambda x: x[0].get("weight", 0))[0] if value_rows else None
 
     entries = load_log()
+    seen = _seen_sigs(entries)
     added = 0
     for g, lean, li, oi, kind in rows:
-        key = f'{date}:{g.get("game_pk")}'
-        if key in entries:
-            continue  # keep the first price we saw as "your price"
         opp = "home" if lean == "away" else "away"
+        sig = _sig({"date": date, "kind": kind, "pick_side": lean,
+                    "pick_team": g[lean].get("team"), "opp_team": g[opp].get("team")})
+        if sig in seen:
+            continue  # already logged this pick (live or imported)
+        seen.add(sig)
+        key = f'{date}:{g.get("game_pk")}'
         entries[key] = {
             "key": key, "date": date, "game_pk": g.get("game_pk"),
             "pick_team": g[lean].get("team"), "pick_side": lean,
@@ -158,17 +173,22 @@ def mode_log(slate_path):
         price = t.get("over") if side == "over" else t.get("under")
         if price is None:
             continue
-        key = f'{date}:{g.get("game_pk")}:total'
-        if key in entries:
+        opp_label = f'{g["away"].get("team")} @ {g["home"].get("team")}'
+        pick_label = f'{side.title()} {t.get("line")}'
+        sig = _sig({"date": date, "kind": "total", "pick_side": side,
+                    "pick_team": pick_label, "opp_team": opp_label})
+        if sig in seen:
             continue
+        seen.add(sig)
+        key = f'{date}:{g.get("game_pk")}:total'
         oi, ui = implied_pct(t.get("over")), implied_pct(t.get("under"))
         side_imp = oi if side == "over" else ui
         lf = fair_pct(side_imp, ui if side == "over" else oi)
         entries[key] = {
             "key": key, "date": date, "game_pk": g.get("game_pk"), "kind": "total",
-            "pick_team": f'{side.title()} {t.get("line")}',          # label for display
+            "pick_team": pick_label,          # label for display
             "pick_side": side, "line": t.get("line"),
-            "opp_team": f'{g["away"].get("team")} @ {g["home"].get("team")}',
+            "opp_team": opp_label,
             "log_ml": price,
             "log_implied": round(side_imp, 1) if side_imp else None,
             "log_fair": round(lf, 1) if lf else None,
@@ -377,6 +397,7 @@ def mode_import_slate(path):
     date = m.group(1) if m else os.path.basename(path).replace("slate_", "").replace(".html", "")
 
     entries = load_log()
+    seen = _seen_sigs(entries)
     added = 0
     for c in re.split(r'<div class="card">', html)[1:]:
         teams = re.findall(r'<div class="team">([^<]+)</div>', c)
@@ -401,11 +422,16 @@ def mode_import_slate(path):
                     price = away_ml if side == "away" else home_ml
                     li = implied_pct(price)
                     oi = implied_pct(home_ml if side == "away" else away_ml)
-                    key = f"{date}:{_norm(away)}:{_norm(home)}"
-                    if key not in entries:
+                    pick_team = away if side == "away" else home
+                    opp_team = home if side == "away" else away
+                    sig = _sig({"date": date, "kind": kind, "pick_side": side,
+                                "pick_team": pick_team, "opp_team": opp_team})
+                    if sig not in seen:
+                        seen.add(sig)
+                        key = f"{date}:{_norm(away)}:{_norm(home)}"
                         entries[key] = {**base, "key": key, "kind": kind,
-                            "pick_team": away if side == "away" else home, "pick_side": side,
-                            "opp_team": home if side == "away" else away, "log_ml": price,
+                            "pick_team": pick_team, "pick_side": side,
+                            "opp_team": opp_team, "log_ml": price,
                             "log_implied": round(li, 1) if li else None,
                             "log_fair": round(fair_pct(li, oi), 1) if li and oi else None}
                         added += 1
@@ -420,11 +446,16 @@ def mode_import_slate(path):
             price = over_ml if side == "over" else under_ml
             si = implied_pct(price)
             oth = implied_pct(under_ml if side == "over" else over_ml)
-            key = f"{date}:{_norm(away)}:{_norm(home)}:total"
-            if key not in entries:
+            pick_label = f"{side.title()} {line}"
+            opp_label = f"{away} @ {home}"
+            sig = _sig({"date": date, "kind": "total", "pick_side": side,
+                        "pick_team": pick_label, "opp_team": opp_label})
+            if sig not in seen:
+                seen.add(sig)
+                key = f"{date}:{_norm(away)}:{_norm(home)}:total"
                 entries[key] = {**base, "key": key, "kind": "total",
-                    "pick_team": f"{side.title()} {line}", "pick_side": side, "line": line,
-                    "opp_team": f"{away} @ {home}", "log_ml": price,
+                    "pick_team": pick_label, "pick_side": side, "line": line,
+                    "opp_team": opp_label, "log_ml": price,
                     "log_implied": round(si, 1) if si else None,
                     "log_fair": round(fair_pct(si, oth), 1) if si and oth else None}
                 added += 1
