@@ -1,0 +1,340 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MLB Briefing 2026-06-15</title><style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Narrow:wght@500;600;700&family=JetBrains+Mono:wght@500;700&display=swap');
+:root{--ink:#0C1418;--panel:#13202A;--panel2:#0F1A22;--line:#24333D;--bone:#E9E6DC;--muted:#8A9AA3;--amber:#F2B53B;--turf:#46B47A;--clay:#E2603E;--steel:#6FA8C7;}
+*{box-sizing:border-box;}
+body{background:var(--ink);color:var(--bone);font-family:'Archivo',system-ui,sans-serif;margin:0;padding:28px 16px 56px;}
+.wrap{max-width:760px;margin:0 auto;}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--amber);}
+h1{font-family:'Archivo Narrow',sans-serif;font-weight:700;font-size:34px;letter-spacing:.01em;margin:6px 0 4px;}
+.sub{color:var(--muted);font-size:14px;max-width:60ch;line-height:1.5;}
+.note{margin:18px 0 26px;border:1px solid var(--line);border-left:3px solid var(--amber);background:var(--panel2);padding:13px 15px;border-radius:6px;font-size:12.5px;color:#C7CFD3;line-height:1.55;}
+.note b{color:var(--bone);}
+.card{border:1px solid var(--line);background:var(--panel);border-radius:10px;margin-bottom:16px;overflow:hidden;}
+.head{display:flex;}
+.side{flex:1;padding:14px 16px;}
+.side.away{border-right:1px solid var(--line);}
+.team{font-family:'Archivo Narrow',sans-serif;font-weight:700;font-size:20px;letter-spacing:.02em;}
+.rec{color:var(--muted);font-size:11.5px;font-family:'JetBrains Mono',monospace;margin-top:1px;}
+.pit{color:var(--steel);font-size:11.5px;font-family:'JetBrains Mono',monospace;margin-top:5px;}
+.oddsrow{display:flex;align-items:baseline;gap:8px;margin-top:8px;}
+.ml{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:18px;color:var(--amber);}
+.imp{font-size:11px;color:var(--muted);font-family:'JetBrains Mono',monospace;}
+.bar{height:7px;display:flex;border-top:1px solid var(--line);}
+.bar i{display:block;height:100%;}
+.meta{display:flex;gap:14px;flex-wrap:wrap;padding:10px 16px;background:var(--panel2);border-top:1px solid var(--line);font-size:11.5px;color:var(--muted);font-family:'JetBrains Mono',monospace;}
+.meta b{color:var(--steel);font-weight:500;}
+.body{padding:13px 16px 16px;}
+.leanrow{display:flex;align-items:center;gap:10px;}
+.pill{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:4px 9px;border-radius:4px;}
+.dots{display:flex;gap:3px;}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--line);}
+.dot.on{background:var(--turf);}
+.dlabel{font-size:11.5px;color:var(--muted);}
+.vnote{margin-top:11px;font-size:12.5px;line-height:1.5;color:#C7CFD3;}
+.vnote.val{color:var(--bone);}
+.vnote b{color:var(--amber);}
+details{margin-top:13px;}
+summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);color:var(--bone);font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:6px 11px;border-radius:5px;}
+summary::-webkit-details-marker{display:none;}
+summary::marker{content:"";}
+summary::before{content:"\25B8";display:inline-block;transition:transform .15s;color:var(--muted);}
+details[open] summary::before{transform:rotate(90deg);}
+summary:hover{border-color:var(--amber);color:var(--amber);}
+.factors{border-top:1px dashed var(--line);margin-top:13px;padding-top:13px;display:grid;gap:9px;}
+.f{display:grid;grid-template-columns:30px 1fr;gap:10px;align-items:start;font-size:13px;line-height:1.45;}
+.fmark{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;text-align:center;border-radius:3px;padding:1px 0;background:rgba(0,0,0,.25);}
+.flabel{color:var(--muted);font-weight:600;}
+.read{margin-top:13px;padding:12px 14px;background:var(--panel2);border:1px solid var(--line);border-radius:7px;font-size:13px;line-height:1.6;color:#D4D9DB;}
+.read b{color:var(--amber);font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;display:block;margin-bottom:5px;}
+.pick{margin:0 0 22px;border:1px solid var(--amber);background:linear-gradient(180deg,rgba(242,181,59,.10),rgba(242,181,59,.03));border-radius:10px;padding:16px 18px;}
+.pick .lab{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--amber);}
+.pick .team{font-family:'Archivo Narrow',sans-serif;font-weight:700;font-size:26px;margin:6px 0 2px;}
+.pick .team .ml{font-family:'JetBrains Mono',monospace;font-size:18px;color:var(--amber);margin-left:9px;}
+.pick .why{font-size:13px;color:#D4D9DB;line-height:1.55;margin-top:6px;}
+.pick.none{border-color:var(--line);background:var(--panel2);}
+.pick.none .lab{color:var(--muted);}
+.scoreboard{display:flex;flex-wrap:wrap;gap:7px 16px;align-items:center;margin:0 0 16px;padding:9px 14px;border:1px solid var(--line);border-radius:8px;background:var(--panel2);font-family:'JetBrains Mono',monospace;font-size:12px;}
+.sb-lab{color:var(--amber);letter-spacing:.16em;text-transform:uppercase;font-size:10.5px;}
+.sb-stat{color:var(--bone);}
+.sb-stat b{color:var(--muted);font-weight:500;}
+.foot{margin-top:30px;text-align:center;color:var(--muted);font-size:11px;font-family:'JetBrains Mono',monospace;letter-spacing:.05em;line-height:1.7;}
+@media (max-width:520px){h1{font-size:27px;}}
+</style></head>
+<body><div class="wrap">
+<div class="eyebrow">Daily Matchup Briefing · 2026-06-15</div>
+<h1>The Lineup Card</h1>
+<p class="sub">The day's slate with the context that moves games — pitchers, platoon splits, park, weather — so you can read each matchup at a glance.</p>
+<div class="note"><b>How to read this.</b> <b style="color:var(--amber)">VALUE LOOK</b> flags games where today's factors lean toward the side the market rates <i>lower</i> — the classic place to hunt value. But it's a <i>candidate, not a verdict</i>: the market already prices these same factors into the line, so a VALUE LOOK means "worth checking against your price," not "the market is wrong." The strength dots show how many factors agree. Log your results over time to learn whether the flags actually hold up.</div>
+<div class="scoreboard"><span class="sb-lab">Scoreboard</span><span class="sb-stat"><b>Record</b> 2-2</span><span class="sb-stat"><b>Units</b> -0.1</span><span class="sb-stat"><b>ROI</b> -2%</span><span class="sb-stat" style="color:var(--muted)">2 value · 2 lean</span><span class="sb-stat" style="color:var(--muted)">building · 4/30 picks</span></div>
+<div class="pick"><div class="lab">Today's Top Look</div><div class="team">Reds<span class="ml">+108</span></div><div class="why">The factors lean Reds even though the market makes them the underdog at 48%. It's a modest look — two factors agree. Strongest signal of the day — but still a candidate, not a lock: the price already reflects these factors, so this is the game most worth your own closer look.</div></div>
+<div class="card">
+  <div class="head"><div class="side away">
+  <div class="team">Marlins</div>
+  <div class="rec">MIA · 36-37</div>
+  <div class="pit">Ryan Gusto (?)</div>
+  <div class="oddsrow"><span class="ml">+146</span><span class="imp">41% implied</span></div>
+</div><div class="side home">
+  <div class="team">Phillies</div>
+  <div class="rec">PHI · 39-33</div>
+  <div class="pit">Zack Wheeler (?)</div>
+  <div class="oddsrow"><span class="ml">-174</span><span class="imp">64% implied</span></div>
+</div></div>
+  <div class="bar"><i style="width:39%;background:var(--amber)"></i><i style="width:61%;background:var(--steel)"></i></div>
+  <div class="meta"><span><b>Park</b> Citizens Bank Park</span><span><b>Wx</b> 75°F · wind 8mph</span></div>
+  <div class="body">
+    <div class="leanrow">
+      <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
+      
+    </div>
+    
+    <details>
+      <summary>Why</summary>
+      <div class="factors"><div class="f"><span class="fmark">~</span><span>No notable factors logged.</span></div></div>
+      
+    </details>
+  </div>
+</div><div class="card">
+  <div class="head"><div class="side away">
+  <div class="team">Royals</div>
+  <div class="rec">KC · 29-44</div>
+  <div class="pit">Mitch Spence (?)</div>
+  <div class="oddsrow"><span class="ml">+104</span><span class="imp">49% implied</span></div>
+</div><div class="side home">
+  <div class="team">Nationals</div>
+  <div class="rec">WSH · 38-35</div>
+  <div class="pit">Andrew Alvarez (?)</div>
+  <div class="oddsrow"><span class="ml">-122</span><span class="imp">55% implied</span></div>
+</div></div>
+  <div class="bar"><i style="width:47%;background:var(--amber)"></i><i style="width:53%;background:var(--steel)"></i></div>
+  <div class="meta"><span><b>Park</b> Nationals Park</span><span><b>Wx</b> 77°F · wind 10mph</span></div>
+  <div class="body">
+    <div class="leanrow">
+      <span class="pill" style="background:rgba(70,180,122,.14);color:#46B47A">LEAN ▸ NATIONALS</span>
+      <div class="dots"><span class="dot on"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div><span class="dlabel">lean strength</span>
+    </div>
+    <div class="vnote">Factors lean Nationals, who the market already favors (55%) — price and read agree, so not a value spot.</div>
+    <details>
+      <summary>Why</summary>
+      <div class="factors"><div class="f"><span class="fmark" style="color:var(--turf)">+</span>
+<span><span class="flabel">Handedness matchup — </span>Andrew Alvarez holds RHB to a 0.668 OPS; Royals project 62% R-handed today.</span></div></div>
+      
+    </details>
+  </div>
+</div><div class="card">
+  <div class="head"><div class="side away">
+  <div class="team">Mets</div>
+  <div class="rec">NYM · 32-40</div>
+  <div class="pit">Tobias Myers (?)</div>
+  <div class="oddsrow"><span class="ml">-126</span><span class="imp">56% implied</span></div>
+</div><div class="side home">
+  <div class="team">Reds</div>
+  <div class="rec">CIN · 34-37</div>
+  <div class="pit">Chase Burns (?)</div>
+  <div class="oddsrow"><span class="ml">+108</span><span class="imp">48% implied</span></div>
+</div></div>
+  <div class="bar"><i style="width:54%;background:var(--amber)"></i><i style="width:46%;background:var(--steel)"></i></div>
+  <div class="meta"><span><b>Park</b> Great American Ball Park</span><span><b>Wx</b> 72°F · wind 4mph</span></div>
+  <div class="body">
+    <div class="leanrow">
+      <span class="pill" style="background:rgba(242,181,59,.16);color:#F2B53B">VALUE LOOK ▸ REDS</span>
+      <div class="dots"><span class="dot on"></span><span class="dot on"></span><span class="dot"></span><span class="dot"></span></div><span class="dlabel">lean strength</span>
+    </div>
+    <div class="vnote val"><b>Possible value.</b> The market has Reds as the underdog at 48%, but today's factors lean Reds — worth checking against your price.</div>
+    <details>
+      <summary>Why</summary>
+      <div class="factors"><div class="f"><span class="fmark" style="color:var(--clay)">-</span>
+<span><span class="flabel">Handedness matchup — </span>Tobias Myers is vulnerable to RHB (1.062 OPS) and Reds skew R-handed.</span></div><div class="f"><span class="fmark" style="color:var(--turf)">+</span>
+<span><span class="flabel">Handedness matchup — </span>Chase Burns holds RHB to a 0.498 OPS; Mets project 62% R-handed today.</span></div></div>
+      
+    </details>
+  </div>
+</div><div class="card">
+  <div class="head"><div class="side away">
+  <div class="team">Padres</div>
+  <div class="rec">SD · 37-34</div>
+  <div class="pit">Wandy Peralta (?)</div>
+  <div class="oddsrow"><span class="ml">-102</span><span class="imp">50% implied</span></div>
+</div><div class="side home">
+  <div class="team">Cardinals</div>
+  <div class="rec">STL · 39-31</div>
+  <div class="pit">Dustin May (?)</div>
+  <div class="oddsrow"><span class="ml">-116</span><span class="imp">54% implied</span></div>
+</div></div>
+  <div class="bar"><i style="width:48%;background:var(--amber)"></i><i style="width:52%;background:var(--steel)"></i></div>
+  <div class="meta"><span><b>Park</b> Busch Stadium</span><span><b>Wx</b> 77°F · wind 4mph</span></div>
+  <div class="body">
+    <div class="leanrow">
+      <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
+      
+    </div>
+    
+    <details>
+      <summary>Why</summary>
+      <div class="factors"><div class="f"><span class="fmark">~</span><span>No notable factors logged.</span></div></div>
+      
+    </details>
+  </div>
+</div><div class="card">
+  <div class="head"><div class="side away">
+  <div class="team">Rockies</div>
+  <div class="rec">COL · 27-46</div>
+  <div class="pit">Michael Lorenzen (?)</div>
+  <div class="oddsrow"><span class="ml">+160</span><span class="imp">38% implied</span></div>
+</div><div class="side home">
+  <div class="team">Cubs</div>
+  <div class="rec">CHC · 38-35</div>
+  <div class="pit">Shota Imanaga (?)</div>
+  <div class="oddsrow"><span class="ml">-190</span><span class="imp">66% implied</span></div>
+</div></div>
+  <div class="bar"><i style="width:37%;background:var(--amber)"></i><i style="width:63%;background:var(--steel)"></i></div>
+  <div class="meta"><span><b>Park</b> Wrigley Field</span><span><b>Wx</b> 71°F · wind 6mph</span></div>
+  <div class="body">
+    <div class="leanrow">
+      <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
+      
+    </div>
+    
+    <details>
+      <summary>Why</summary>
+      <div class="factors"><div class="f"><span class="fmark">~</span><span>No notable factors logged.</span></div></div>
+      
+    </details>
+  </div>
+</div><div class="card">
+  <div class="head"><div class="side away">
+  <div class="team">Twins</div>
+  <div class="rec">MIN · 34-40</div>
+  <div class="pit">Mike Paredes (?)</div>
+  <div class="oddsrow"><span class="ml">+116</span><span class="imp">46% implied</span></div>
+</div><div class="side home">
+  <div class="team">Rangers</div>
+  <div class="rec">TEX · 35-37</div>
+  <div class="pit">MacKenzie Gore (?)</div>
+  <div class="oddsrow"><span class="ml">-134</span><span class="imp">57% implied</span></div>
+</div></div>
+  <div class="bar"><i style="width:45%;background:var(--amber)"></i><i style="width:55%;background:var(--steel)"></i></div>
+  <div class="meta"><span><b>Park</b> Globe Life Field</span><span><b>Wx</b> 84°F · wind 8mph</span></div>
+  <div class="body">
+    <div class="leanrow">
+      <span class="pill" style="background:rgba(70,180,122,.14);color:#46B47A">LEAN ▸ RANGERS</span>
+      <div class="dots"><span class="dot on"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div><span class="dlabel">lean strength</span>
+    </div>
+    <div class="vnote">Factors lean Rangers, who the market already favors (57%) — price and read agree, so not a value spot.</div>
+    <details>
+      <summary>Why</summary>
+      <div class="factors"><div class="f"><span class="fmark" style="color:var(--turf)">+</span>
+<span><span class="flabel">Handedness matchup — </span>MacKenzie Gore holds RHB to a 0.664 OPS; Twins project 86% R-handed today.</span></div></div>
+      
+    </details>
+  </div>
+</div><div class="card">
+  <div class="head"><div class="side away">
+  <div class="team">Tigers</div>
+  <div class="rec">DET · 30-42</div>
+  <div class="pit">Drew Anderson (?)</div>
+  <div class="oddsrow"><span class="ml">+126</span><span class="imp">44% implied</span></div>
+</div><div class="side home">
+  <div class="team">Astros</div>
+  <div class="rec">HOU · 33-41</div>
+  <div class="pit">Kai-Wei Teng (?)</div>
+  <div class="oddsrow"><span class="ml">-148</span><span class="imp">60% implied</span></div>
+</div></div>
+  <div class="bar"><i style="width:43%;background:var(--amber)"></i><i style="width:57%;background:var(--steel)"></i></div>
+  <div class="meta"><span><b>Park</b> Daikin Park</span><span><b>Wx</b> —</span></div>
+  <div class="body">
+    <div class="leanrow">
+      <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
+      
+    </div>
+    
+    <details>
+      <summary>Why</summary>
+      <div class="factors"><div class="f"><span class="fmark">~</span><span>No notable factors logged.</span></div></div>
+      
+    </details>
+  </div>
+</div><div class="card">
+  <div class="head"><div class="side away">
+  <div class="team">Angels</div>
+  <div class="rec">LAA · 29-44</div>
+  <div class="pit">Walbert Ureña (?)</div>
+  <div class="oddsrow"><span class="ml">-104</span><span class="imp">51% implied</span></div>
+</div><div class="side home">
+  <div class="team">D-backs</div>
+  <div class="rec">AZ · 37-35</div>
+  <div class="pit">Ryne Nelson (?)</div>
+  <div class="oddsrow"><span class="ml">-112</span><span class="imp">53% implied</span></div>
+</div></div>
+  <div class="bar"><i style="width:49%;background:var(--amber)"></i><i style="width:51%;background:var(--steel)"></i></div>
+  <div class="meta"><span><b>Park</b> Chase Field</span><span><b>Wx</b> —</span></div>
+  <div class="body">
+    <div class="leanrow">
+      <span class="pill" style="background:rgba(242,181,59,.16);color:#F2B53B">VALUE LOOK ▸ ANGELS</span>
+      <div class="dots"><span class="dot on"></span><span class="dot on"></span><span class="dot"></span><span class="dot"></span></div><span class="dlabel">lean strength</span>
+    </div>
+    <div class="vnote val"><b>Possible value.</b> The market has Angels as the underdog at 51%, but today's factors lean Angels — worth checking against your price.</div>
+    <details>
+      <summary>Why</summary>
+      <div class="factors"><div class="f"><span class="fmark" style="color:var(--turf)">+</span>
+<span><span class="flabel">Handedness matchup — </span>Walbert Ureña holds RHB to a 0.641 OPS; D-backs project 80% R-handed today.</span></div><div class="f"><span class="fmark" style="color:var(--clay)">-</span>
+<span><span class="flabel">Handedness matchup — </span>Ryne Nelson is vulnerable to RHB (0.811 OPS) and Angels skew R-handed.</span></div></div>
+      
+    </details>
+  </div>
+</div><div class="card">
+  <div class="head"><div class="side away">
+  <div class="team">Pirates</div>
+  <div class="rec">PIT · 36-37</div>
+  <div class="pit">Jared Jones (?)</div>
+  <div class="oddsrow"><span class="ml">+112</span><span class="imp">47% implied</span></div>
+</div><div class="side home">
+  <div class="team">Athletics</div>
+  <div class="rec">ATH · 36-36</div>
+  <div class="pit">J.T. Ginn (?)</div>
+  <div class="oddsrow"><span class="ml">-132</span><span class="imp">57% implied</span></div>
+</div></div>
+  <div class="bar"><i style="width:45%;background:var(--amber)"></i><i style="width:55%;background:var(--steel)"></i></div>
+  <div class="meta"><span><b>Park</b> Sutter Health Park</span><span><b>Wx</b> —</span></div>
+  <div class="body">
+    <div class="leanrow">
+      <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
+      
+    </div>
+    
+    <details>
+      <summary>Why</summary>
+      <div class="factors"><div class="f"><span class="fmark">~</span><span>No notable factors logged.</span></div></div>
+      
+    </details>
+  </div>
+</div><div class="card">
+  <div class="head"><div class="side away">
+  <div class="team">Rays</div>
+  <div class="rec">TB · 41-27</div>
+  <div class="pit">Nick Martinez (?)</div>
+  <div class="oddsrow"><span class="ml">+128</span><span class="imp">44% implied</span></div>
+</div><div class="side home">
+  <div class="team">Dodgers</div>
+  <div class="rec">LAD · 45-27</div>
+  <div class="pit">Eric Lauer (?)</div>
+  <div class="oddsrow"><span class="ml">-152</span><span class="imp">60% implied</span></div>
+</div></div>
+  <div class="bar"><i style="width:42%;background:var(--amber)"></i><i style="width:58%;background:var(--steel)"></i></div>
+  <div class="meta"><span><b>Park</b> UNIQLO Field at Dodger Stadium</span><span><b>Wx</b> —</span></div>
+  <div class="body">
+    <div class="leanrow">
+      <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
+      
+    </div>
+    
+    <details>
+      <summary>Why</summary>
+      <div class="factors"><div class="f"><span class="fmark">~</span><span>No notable factors logged.</span></div></div>
+      
+    </details>
+  </div>
+</div>
+<div class="foot">+ favorable · ~ neutral · − caution&nbsp;&nbsp;|&nbsp;&nbsp;decision-support only<br>bet what you can afford to lose · 21+ where legal</div>
+</div></body></html>
