@@ -1,6 +1,6 @@
 {
   "date": "2026-06-16",
-  "generated": "2026-06-16T22:56:14",
+  "generated": "2026-06-17T00:05:36",
   "games": [
     {
       "game_pk": 823451,
@@ -33,9 +33,9 @@
         "implied": 55.0
       },
       "weather": {
-        "temp_f": 75.6,
-        "wind_mph": 7.7,
-        "wind_dir_deg": 197
+        "temp_f": 72.6,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 189
       },
       "factors": [
         {
@@ -96,9 +96,9 @@
         "implied": 54.1
       },
       "weather": {
-        "temp_f": 78.9,
-        "wind_mph": 3.8,
-        "wind_dir_deg": 220
+        "temp_f": 76.9,
+        "wind_mph": 3.5,
+        "wind_dir_deg": 153
       },
       "factors": [],
       "lean": "even",
@@ -146,9 +146,9 @@
         "implied": 53.7
       },
       "weather": {
-        "temp_f": 76.6,
-        "wind_mph": 6.7,
-        "wind_dir_deg": 272
+        "temp_f": 73.6,
+        "wind_mph": 3.8,
+        "wind_dir_deg": 216
       },
       "factors": [
         {
@@ -203,9 +203,9 @@
         "implied": 63.2
       },
       "weather": {
-        "temp_f": 71.9,
-        "wind_mph": 11.3,
-        "wind_dir_deg": 171
+        "temp_f": 68.7,
+        "wind_mph": 9.7,
+        "wind_dir_deg": 173
       },
       "factors": [
         {
@@ -266,9 +266,9 @@
         "implied": 46.3
       },
       "weather": {
-        "temp_f": 77.4,
-        "wind_mph": 13.3,
-        "wind_dir_deg": 230
+        "temp_f": 73.4,
+        "wind_mph": 8.0,
+        "wind_dir_deg": 207
       },
       "factors": [
         {
@@ -329,20 +329,13 @@
         "implied": 58.0
       },
       "weather": {
-        "temp_f": 69.6,
-        "wind_mph": 4.9,
-        "wind_dir_deg": 177
+        "temp_f": 68.9,
+        "wind_mph": 2.2,
+        "wind_dir_deg": 156
       },
-      "factors": [
-        {
-          "m": "-",
-          "side": "away",
-          "label": "Handedness matchup",
-          "text": "Adrian Houser is vulnerable to LHB (1.022 OPS) and Braves skew L-handed."
-        }
-      ],
-      "lean": "home",
-      "weight": 1,
+      "factors": [],
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": {
         "line": 9.0,
@@ -350,9 +343,9 @@
         "under": -110
       },
       "total_read": {
-        "side": "over",
+        "side": "under",
         "line": 9.0,
-        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.886 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 9.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.665 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -385,7 +378,11 @@
         "ml": -118,
         "implied": 54.1
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 66.8,
+        "wind_mph": 10.8,
+        "wind_dir_deg": 275
+      },
       "factors": [
         {
           "m": "-",
@@ -423,8 +420,8 @@
         "pitcher_id": 650633,
         "pitcher_name": "Michael King",
         "pitcher_hand": null,
-        "ml": 100,
-        "implied": 50.0
+        "ml": -111,
+        "implied": 52.6
       },
       "home": {
         "team": "Cardinals",
@@ -435,10 +432,14 @@
         "pitcher_id": 669467,
         "pitcher_name": "Andre Pallante",
         "pitcher_hand": null,
-        "ml": -118,
-        "implied": 54.1
+        "ml": -115,
+        "implied": 53.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 78.7,
+        "wind_mph": 7.5,
+        "wind_dir_deg": 258
+      },
       "factors": [
         {
           "m": "+",
@@ -451,14 +452,14 @@
       "weight": 1,
       "read": null,
       "total": {
-        "line": 8.5,
-        "over": 102,
-        "under": -124
+        "line": 7.5,
+        "over": 110,
+        "under": -146
       },
       "total_read": {
         "side": "under",
-        "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.639 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 7.5,
+        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.639 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -491,7 +492,11 @@
         "ml": -180,
         "implied": 64.3
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 67.7,
+        "wind_mph": 10.7,
+        "wind_dir_deg": 268
+      },
       "factors": [
         {
           "m": "-",
@@ -550,7 +555,11 @@
         "ml": -130,
         "implied": 56.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.3,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 139
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -596,7 +605,11 @@
         "ml": -104,
         "implied": 51.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 80.6,
+        "wind_mph": 1.6,
+        "wind_dir_deg": 74
+      },
       "factors": [
         {
           "m": "+",
@@ -708,21 +721,17 @@
         "ml": 108,
         "implied": 48.1
       },
-      "weather": {
-        "temp_f": 84.1,
-        "wind_mph": 11.5,
-        "wind_dir_deg": 224
-      },
+      "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Pirates lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Jack Perkins holds LHB to a 0.550 OPS; Pirates project 67% L-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 10.5,
@@ -730,9 +739,9 @@
         "under": -115
       },
       "total_read": {
-        "side": null,
+        "side": "under",
         "line": 10.5,
-        "note": "Total 10.5: no clear lean \u2014 starters roughly average (avg 0.748 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 10.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.661 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -765,23 +774,13 @@
         "ml": -132,
         "implied": 56.9
       },
-      "weather": {
-        "temp_f": 68.5,
-        "wind_mph": 7.8,
-        "wind_dir_deg": 37
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
           "text": "Brandon Young holds LHB to a 0.639 OPS; Mariners project 62% L-handed today."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Orioles lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
       "lean": "away",
@@ -795,7 +794,7 @@
       "total_read": {
         "side": "under",
         "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.672 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.678 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -813,8 +812,8 @@
         "pitcher_id": 656876,
         "pitcher_name": "Drew Rasmussen",
         "pitcher_hand": null,
-        "ml": 172,
-        "implied": 36.8
+        "ml": 164,
+        "implied": 37.9
       },
       "home": {
         "team": "Dodgers",
@@ -825,14 +824,10 @@
         "pitcher_id": 680736,
         "pitcher_name": "Justin Wrobleski",
         "pitcher_hand": null,
-        "ml": -205,
-        "implied": 67.2
+        "ml": -196,
+        "implied": 66.2
       },
-      "weather": {
-        "temp_f": 67.2,
-        "wind_mph": 8.0,
-        "wind_dir_deg": 252
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -841,14 +836,14 @@
           "text": "Drew Rasmussen holds LHB to a 0.647 OPS; Dodgers project 62% L-handed today."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Justin Wrobleski holds RHB to a 0.542 OPS; Rays project 75% R-handed today."
         }
       ],
-      "lean": "away",
-      "weight": 1,
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": {
         "line": 7.5,
@@ -858,7 +853,7 @@
       "total_read": {
         "side": "under",
         "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.647 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.595 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     }
   ]
