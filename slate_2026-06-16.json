@@ -1,6 +1,6 @@
 {
   "date": "2026-06-16",
-  "generated": "2026-06-17T04:19:18",
+  "generated": "2026-06-17T05:21:33",
   "games": [
     {
       "game_pk": 823451,
@@ -353,7 +353,11 @@
         "ml": -118,
         "implied": 54.1
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 65.5,
+        "wind_mph": 12.5,
+        "wind_dir_deg": 271
+      },
       "factors": [
         {
           "m": "-",
@@ -406,7 +410,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 81.1,
+        "wind_mph": 12.3,
+        "wind_dir_deg": 270
+      },
       "factors": [
         {
           "m": "+",
@@ -451,7 +459,11 @@
         "ml": -180,
         "implied": 64.3
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 68.4,
+        "wind_mph": 13.7,
+        "wind_dir_deg": 277
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -497,7 +509,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.2,
+        "wind_mph": 7.0,
+        "wind_dir_deg": 138
+      },
       "factors": [
         {
           "m": "+",
@@ -629,7 +645,7 @@
         "team_full": "Pittsburgh Pirates",
         "abbr": "PIT",
         "team_id": 134,
-        "record": "36-37",
+        "record": "37-37",
         "pitcher_id": 656605,
         "pitcher_name": "Mitch Keller",
         "pitcher_hand": null,
@@ -641,34 +657,24 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "36-36",
+        "record": "36-37",
         "pitcher_id": 678022,
         "pitcher_name": "Jack Perkins",
         "pitcher_hand": null,
         "ml": 108,
         "implied": 48.1
       },
-      "weather": {
-        "temp_f": 87.7,
-        "wind_mph": 10.1,
-        "wind_dir_deg": 221
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Mitch Keller holds RHB to a 0.579 OPS; Athletics project 78% R-handed today."
-        },
-        {
-          "m": "+",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Jack Perkins holds LHB to a 0.550 OPS; Pirates project 67% L-handed today."
+          "text": "Mitch Keller holds RHB to a 0.627 OPS; Athletics project 78% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 10.5,
@@ -676,9 +682,9 @@
         "under": -115
       },
       "total_read": {
-        "side": "under",
+        "side": null,
         "line": 10.5,
-        "note": "Total 10.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.565 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 10.5: no clear lean \u2014 starters roughly average (avg 0.750 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -711,11 +717,7 @@
         "ml": -138,
         "implied": 58.0
       },
-      "weather": {
-        "temp_f": 73.1,
-        "wind_mph": 6.9,
-        "wind_dir_deg": 25
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -768,11 +770,7 @@
         "ml": -184,
         "implied": 64.8
       },
-      "weather": {
-        "temp_f": 67.4,
-        "wind_mph": 8.3,
-        "wind_dir_deg": 256
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -786,8 +784,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -124,
-        "under": 102
+        "over": -118,
+        "under": -104
       },
       "total_read": {
         "side": "under",
