@@ -1,6 +1,6 @@
 {
   "date": "2026-06-17",
-  "generated": "2026-06-17T13:01:19",
+  "generated": "2026-06-17T14:26:32",
   "games": [
     {
       "game_pk": 824503,
@@ -33,26 +33,26 @@
         "implied": 46.7
       },
       "weather": {
-        "temp_f": 77.6,
-        "wind_mph": 10.4,
-        "wind_dir_deg": 203
+        "temp_f": 78.0,
+        "wind_mph": 9.2,
+        "wind_dir_deg": 209
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Reds lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Nolan McLean holds RHB to a 0.556 OPS; Reds project 75% R-handed today."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Mets lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Nick Lodolo is vulnerable to RHB (0.830 OPS) and Mets skew R-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 2,
       "read": null,
       "total": {
         "line": 9.0,
@@ -60,9 +60,9 @@
         "under": -105
       },
       "total_read": {
-        "side": "over",
+        "side": null,
         "line": 9.0,
-        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.778 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 9.0: no clear lean \u2014 starters roughly average (avg 0.693 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -80,8 +80,8 @@
         "pitcher_id": 679883,
         "pitcher_name": "Luinder Avila",
         "pitcher_hand": null,
-        "ml": 110,
-        "implied": 47.6
+        "ml": 116,
+        "implied": 46.3
       },
       "home": {
         "team": "Nationals",
@@ -92,13 +92,13 @@
         "pitcher_id": 641793,
         "pitcher_name": "Zack Littell",
         "pitcher_hand": null,
-        "ml": -130,
-        "implied": 56.5
+        "ml": -136,
+        "implied": 57.6
       },
       "weather": {
-        "temp_f": 86.4,
-        "wind_mph": 8.4,
-        "wind_dir_deg": 200
+        "temp_f": 86.6,
+        "wind_mph": 9.5,
+        "wind_dir_deg": 199
       },
       "factors": [
         {
@@ -106,12 +106,6 @@
           "side": "none",
           "label": "Lineups",
           "text": "Nationals lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Royals lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
       "lean": "even",
@@ -125,7 +119,7 @@
       "total_read": {
         "side": "over",
         "line": 10.5,
-        "note": "Total 10.5: leans OVER \u2014 both starters look hittable (avg 0.844 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 10.5: leans OVER \u2014 both starters look hittable (avg 0.774 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -143,8 +137,8 @@
         "pitcher_id": 645261,
         "pitcher_name": "Sandy Alcantara",
         "pitcher_hand": null,
-        "ml": 100,
-        "implied": 50.0
+        "ml": 102,
+        "implied": 49.5
       },
       "home": {
         "team": "Phillies",
@@ -155,21 +149,15 @@
         "pitcher_id": 691725,
         "pitcher_name": "Andrew Painter",
         "pitcher_hand": null,
-        "ml": -118,
-        "implied": 54.1
+        "ml": -120,
+        "implied": 54.5
       },
       "weather": {
-        "temp_f": 82.7,
-        "wind_mph": 8.8,
-        "wind_dir_deg": 204
+        "temp_f": 81.5,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 183
       },
       "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Phillies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
         {
           "m": "~",
           "side": "none",
@@ -181,14 +169,14 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 9.0,
-        "over": -118,
-        "under": -104
+        "line": 9.5,
+        "over": 100,
+        "under": -122
       },
       "total_read": {
         "side": "over",
-        "line": 9.0,
-        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.784 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 9.5,
+        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.816 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -222,9 +210,9 @@
         "implied": 59.7
       },
       "weather": {
-        "temp_f": 81.7,
-        "wind_mph": 7.6,
-        "wind_dir_deg": 220
+        "temp_f": 82.1,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 225
       },
       "factors": [],
       "lean": "even",
@@ -272,9 +260,9 @@
         "implied": 51.0
       },
       "weather": {
-        "temp_f": 82.5,
-        "wind_mph": 13.8,
-        "wind_dir_deg": 97
+        "temp_f": 82.3,
+        "wind_mph": 12.7,
+        "wind_dir_deg": 134
       },
       "factors": [
         {
@@ -319,8 +307,8 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": 102,
-        "implied": 49.5
+        "ml": 110,
+        "implied": 47.6
       },
       "home": {
         "team": "Cardinals",
@@ -331,13 +319,13 @@
         "pitcher_id": 681517,
         "pitcher_name": "Kyle Leahy",
         "pitcher_hand": null,
-        "ml": -120,
-        "implied": 54.5
+        "ml": -130,
+        "implied": 56.5
       },
       "weather": {
-        "temp_f": 89.5,
-        "wind_mph": 24.3,
-        "wind_dir_deg": 198
+        "temp_f": 89.7,
+        "wind_mph": 24.7,
+        "wind_dir_deg": 200
       },
       "factors": [
         {
@@ -356,7 +344,7 @@
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "24 mph wind (dir 198\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "25 mph wind (dir 200\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -364,13 +352,13 @@
       "read": null,
       "total": {
         "line": 10.5,
-        "over": 100,
-        "under": -122
+        "over": -102,
+        "under": -120
       },
       "total_read": {
         "side": null,
         "line": 10.5,
-        "note": "Total 10.5: no clear lean \u2014 not enough split data yet. Strong wind (24 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 10.5: no clear lean \u2014 not enough split data yet. Strong wind (25 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -388,8 +376,8 @@
         "pitcher_id": 663556,
         "pitcher_name": "Shane McClanahan",
         "pitcher_hand": null,
-        "ml": 154,
-        "implied": 39.4
+        "ml": 142,
+        "implied": 41.3
       },
       "home": {
         "team": "Dodgers",
@@ -400,13 +388,13 @@
         "pitcher_id": 660271,
         "pitcher_name": "Shohei Ohtani",
         "pitcher_hand": null,
-        "ml": -184,
-        "implied": 64.8
+        "ml": -168,
+        "implied": 62.7
       },
       "weather": {
-        "temp_f": 73.3,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 209
+        "temp_f": 75.0,
+        "wind_mph": 6.0,
+        "wind_dir_deg": 202
       },
       "factors": [
         {
@@ -451,8 +439,8 @@
         "pitcher_id": 691951,
         "pitcher_name": "Sam Aldegheri",
         "pitcher_hand": null,
-        "ml": 142,
-        "implied": 41.3
+        "ml": 146,
+        "implied": 40.7
       },
       "home": {
         "team": "D-backs",
@@ -463,10 +451,14 @@
         "pitcher_id": 593958,
         "pitcher_name": "Eduardo Rodriguez",
         "pitcher_hand": null,
-        "ml": -168,
-        "implied": 62.7
+        "ml": -174,
+        "implied": 63.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 106.0,
+        "wind_mph": 12.5,
+        "wind_dir_deg": 261
+      },
       "factors": [
         {
           "m": "~",
@@ -525,7 +517,11 @@
         "ml": -124,
         "implied": 55.4
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 80.2,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 120
+      },
       "factors": [
         {
           "m": "~",
@@ -545,8 +541,8 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -106,
-        "under": -114
+        "over": -108,
+        "under": -112
       },
       "total_read": {
         "side": "over",
@@ -584,7 +580,11 @@
         "ml": -184,
         "implied": 64.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 71.9,
+        "wind_mph": 11.7,
+        "wind_dir_deg": 154
+      },
       "factors": [
         {
           "m": "~",
@@ -643,7 +643,11 @@
         "ml": -148,
         "implied": 59.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 85.4,
+        "wind_mph": 10.8,
+        "wind_dir_deg": 230
+      },
       "factors": [
         {
           "m": "~",
@@ -702,7 +706,11 @@
         "ml": -120,
         "implied": 54.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 58.7,
+        "wind_mph": 7.7,
+        "wind_dir_deg": 100
+      },
       "factors": [
         {
           "m": "~",
@@ -820,11 +828,7 @@
         "ml": 106,
         "implied": 48.5
       },
-      "weather": {
-        "temp_f": 81.8,
-        "wind_mph": 12.2,
-        "wind_dir_deg": 227
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -868,8 +872,8 @@
         "pitcher_id": 680694,
         "pitcher_name": "Kyle Bradish",
         "pitcher_hand": null,
-        "ml": 120,
-        "implied": 45.5
+        "ml": 114,
+        "implied": 46.7
       },
       "home": {
         "team": "Mariners",
@@ -880,14 +884,10 @@
         "pitcher_id": 669923,
         "pitcher_name": "George Kirby",
         "pitcher_hand": null,
-        "ml": -142,
-        "implied": 58.7
+        "ml": -134,
+        "implied": 57.3
       },
-      "weather": {
-        "temp_f": 72.7,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 338
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
