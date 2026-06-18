@@ -1,0 +1,583 @@
+{
+  "date": "2026-06-18",
+  "generated": "2026-06-18T08:06:07",
+  "games": [
+    {
+      "game_pk": 824748,
+      "game_time": "2026-06-18T17:35:00Z",
+      "venue": "Fenway Park",
+      "lat": 42.346456,
+      "lon": -71.097441,
+      "away": {
+        "team": "Blue Jays",
+        "team_full": "Toronto Blue Jays",
+        "abbr": "TOR",
+        "team_id": 141,
+        "record": "36-38",
+        "pitcher_id": 702056,
+        "pitcher_name": "Trey Yesavage",
+        "pitcher_hand": null,
+        "ml": 102,
+        "implied": 49.5
+      },
+      "home": {
+        "team": "Red Sox",
+        "team_full": "Boston Red Sox",
+        "abbr": "BOS",
+        "team_id": 111,
+        "record": "29-42",
+        "pitcher_id": 543243,
+        "pitcher_name": "Sonny Gray",
+        "pitcher_hand": null,
+        "ml": -120,
+        "implied": 54.5
+      },
+      "weather": {
+        "temp_f": 77.1,
+        "wind_mph": 19.5,
+        "wind_dir_deg": 170
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Red Sox lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Blue Jays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "20 mph wind (dir 170\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": {
+        "line": 8.5,
+        "over": -118,
+        "under": -104
+      },
+      "total_read": {
+        "side": "under",
+        "line": 8.5,
+        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.669 OPS-against). Strong wind (20 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
+    },
+    {
+      "game_pk": 823772,
+      "game_time": "2026-06-18T18:10:00Z",
+      "venue": "American Family Field",
+      "lat": 43.02838,
+      "lon": -87.97099,
+      "away": {
+        "team": "Guardians",
+        "team_full": "Cleveland Guardians",
+        "abbr": "CLE",
+        "team_id": 114,
+        "record": "39-35",
+        "pitcher_id": 800048,
+        "pitcher_name": "Parker Messick",
+        "pitcher_hand": null,
+        "ml": 124,
+        "implied": 44.6
+      },
+      "home": {
+        "team": "Brewers",
+        "team_full": "Milwaukee Brewers",
+        "abbr": "MIL",
+        "team_id": 158,
+        "record": "45-26",
+        "pitcher_id": 675660,
+        "pitcher_name": "Shane Drohan",
+        "pitcher_hand": null,
+        "ml": -146,
+        "implied": 59.3
+      },
+      "weather": {
+        "temp_f": 67.7,
+        "wind_mph": 11.4,
+        "wind_dir_deg": 280
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": {
+        "line": 7.5,
+        "over": -104,
+        "under": -118
+      },
+      "total_read": {
+        "side": "under",
+        "line": 7.5,
+        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.655 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
+    },
+    {
+      "game_pk": 822889,
+      "game_time": "2026-06-18T18:35:00Z",
+      "venue": "Globe Life Field",
+      "lat": 32.747299,
+      "lon": -97.081818,
+      "away": {
+        "team": "Twins",
+        "team_full": "Minnesota Twins",
+        "abbr": "MIN",
+        "team_id": 142,
+        "record": "35-40",
+        "pitcher_id": 657746,
+        "pitcher_name": "Joe Ryan",
+        "pitcher_hand": null,
+        "ml": -124,
+        "implied": 55.4
+      },
+      "home": {
+        "team": "Rangers",
+        "team_full": "Texas Rangers",
+        "abbr": "TEX",
+        "team_id": 140,
+        "record": "35-38",
+        "pitcher_id": 683004,
+        "pitcher_name": "Jack Leiter",
+        "pitcher_hand": null,
+        "ml": 106,
+        "implied": 48.5
+      },
+      "weather": {
+        "temp_f": 92.5,
+        "wind_mph": 11.6,
+        "wind_dir_deg": 113
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Rangers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Twins lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": {
+        "line": 7.5,
+        "over": -114,
+        "under": -106
+      },
+      "total_read": {
+        "side": "under",
+        "line": 7.5,
+        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.672 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
+    },
+    {
+      "game_pk": 823125,
+      "game_time": "2026-06-18T20:10:00Z",
+      "venue": "T-Mobile Park",
+      "lat": 47.591333,
+      "lon": -122.33251,
+      "away": {
+        "team": "Orioles",
+        "team_full": "Baltimore Orioles",
+        "abbr": "BAL",
+        "team_id": 110,
+        "record": "35-40",
+        "pitcher_id": 669358,
+        "pitcher_name": "Shane Baz",
+        "pitcher_hand": null,
+        "ml": 132,
+        "implied": 43.1
+      },
+      "home": {
+        "team": "Mariners",
+        "team_full": "Seattle Mariners",
+        "abbr": "SEA",
+        "team_id": 136,
+        "record": "38-37",
+        "pitcher_id": 693433,
+        "pitcher_name": "Bryan Woo",
+        "pitcher_hand": null,
+        "ml": -156,
+        "implied": 60.9
+      },
+      "weather": {
+        "temp_f": 74.2,
+        "wind_mph": 8.8,
+        "wind_dir_deg": 354
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Mariners lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Orioles lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": {
+        "line": 7.5,
+        "over": -114,
+        "under": -106
+      },
+      "total_read": {
+        "side": "under",
+        "line": 7.5,
+        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.686 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
+    },
+    {
+      "game_pk": 823448,
+      "game_time": "2026-06-18T22:40:00Z",
+      "venue": "Citizens Bank Park",
+      "lat": 39.90539086,
+      "lon": -75.16716957,
+      "away": {
+        "team": "Mets",
+        "team_full": "New York Mets",
+        "abbr": "NYM",
+        "team_id": 121,
+        "record": "33-41",
+        "pitcher_id": 640455,
+        "pitcher_name": "Sean Manaea",
+        "pitcher_hand": null,
+        "ml": 108,
+        "implied": 48.1
+      },
+      "home": {
+        "team": "Phillies",
+        "team_full": "Philadelphia Phillies",
+        "abbr": "PHI",
+        "team_id": 143,
+        "record": "40-34",
+        "pitcher_id": 605400,
+        "pitcher_name": "Aaron Nola",
+        "pitcher_hand": null,
+        "ml": -126,
+        "implied": 55.8
+      },
+      "weather": {
+        "temp_f": 91.5,
+        "wind_mph": 17.7,
+        "wind_dir_deg": 244
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Phillies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Mets lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "18 mph wind (dir 244\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": {
+        "line": 9.5,
+        "over": -102,
+        "under": -120
+      },
+      "total_read": {
+        "side": "over",
+        "line": 9.5,
+        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.784 OPS-against). Strong wind (18 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
+    },
+    {
+      "game_pk": 823533,
+      "game_time": "2026-06-18T23:05:00Z",
+      "venue": "Yankee Stadium",
+      "lat": 40.82919482,
+      "lon": -73.9264977,
+      "away": {
+        "team": "White Sox",
+        "team_full": "Chicago White Sox",
+        "abbr": "CWS",
+        "team_id": 145,
+        "record": "38-34",
+        "pitcher_id": 680732,
+        "pitcher_name": "Sean Burke",
+        "pitcher_hand": null,
+        "ml": 130,
+        "implied": 43.5
+      },
+      "home": {
+        "team": "Yankees",
+        "team_full": "New York Yankees",
+        "abbr": "NYY",
+        "team_id": 147,
+        "record": "45-27",
+        "pitcher_id": 677960,
+        "pitcher_name": "Ryan Weathers",
+        "pitcher_hand": null,
+        "ml": -154,
+        "implied": 60.6
+      },
+      "weather": {
+        "temp_f": 88.9,
+        "wind_mph": 17.1,
+        "wind_dir_deg": 255
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Yankees lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "White Sox lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "17 mph wind (dir 255\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": {
+        "line": 9.5,
+        "over": -102,
+        "under": -120
+      },
+      "total_read": {
+        "side": null,
+        "line": 9.5,
+        "note": "Total 9.5: no clear lean \u2014 starters roughly average (avg 0.711 OPS-against). Strong wind (17 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
+    },
+    {
+      "game_pk": 824911,
+      "game_time": "2026-06-18T23:15:00Z",
+      "venue": "Truist Park",
+      "lat": 33.890672,
+      "lon": -84.467641,
+      "away": {
+        "team": "Giants",
+        "team_full": "San Francisco Giants",
+        "abbr": "SF",
+        "team_id": 137,
+        "record": "31-43",
+        "pitcher_id": 694738,
+        "pitcher_name": "Landen Roupp",
+        "pitcher_hand": null,
+        "ml": 120,
+        "implied": 45.5
+      },
+      "home": {
+        "team": "Braves",
+        "team_full": "Atlanta Braves",
+        "abbr": "ATL",
+        "team_id": 144,
+        "record": "46-27",
+        "pitcher_id": 527048,
+        "pitcher_name": "Mart\u00edn P\u00e9rez",
+        "pitcher_hand": null,
+        "ml": -142,
+        "implied": 58.7
+      },
+      "weather": {
+        "temp_f": 76.6,
+        "wind_mph": 6.1,
+        "wind_dir_deg": 184
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Braves lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Giants lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": {
+        "line": 8.5,
+        "over": 102,
+        "under": -124
+      },
+      "total_read": {
+        "side": "under",
+        "line": 8.5,
+        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.653 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
+    },
+    {
+      "game_pk": 824098,
+      "game_time": "2026-06-18T23:40:00Z",
+      "venue": "Kauffman Stadium",
+      "lat": 39.051567,
+      "lon": -94.480483,
+      "away": {
+        "team": "Cardinals",
+        "team_full": "St. Louis Cardinals",
+        "abbr": "STL",
+        "team_id": 138,
+        "record": "40-32",
+        "pitcher_id": 669461,
+        "pitcher_name": "Matthew Liberatore",
+        "pitcher_hand": null,
+        "ml": 104,
+        "implied": 49.0
+      },
+      "home": {
+        "team": "Royals",
+        "team_full": "Kansas City Royals",
+        "abbr": "KC",
+        "team_id": 118,
+        "record": "30-45",
+        "pitcher_id": 702070,
+        "pitcher_name": "Noah Cameron",
+        "pitcher_hand": null,
+        "ml": -122,
+        "implied": 55.0
+      },
+      "weather": null,
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Royals lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Cardinals lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": {
+        "line": 9.0,
+        "over": 100,
+        "under": -122
+      },
+      "total_read": {
+        "side": "over",
+        "line": 9.0,
+        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.799 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
+    },
+    {
+      "game_pk": 824989,
+      "game_time": "2026-06-19T01:40:00Z",
+      "venue": "Sutter Health Park",
+      "lat": 38.57994,
+      "lon": -121.51246,
+      "away": {
+        "team": "Angels",
+        "team_full": "Los Angeles Angels",
+        "abbr": "LAA",
+        "team_id": 108,
+        "record": "30-45",
+        "pitcher_id": null,
+        "pitcher_name": "TBD",
+        "pitcher_hand": null,
+        "ml": 114,
+        "implied": 46.7
+      },
+      "home": {
+        "team": "Athletics",
+        "team_full": "Athletics",
+        "abbr": "ATH",
+        "team_id": 133,
+        "record": "36-38",
+        "pitcher_id": 695611,
+        "pitcher_name": "Gage Jump",
+        "pitcher_hand": null,
+        "ml": -134,
+        "implied": 57.3
+      },
+      "weather": null,
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Athletics lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Angels lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": {
+        "line": 9.5,
+        "over": -122,
+        "under": 100
+      },
+      "total_read": {
+        "side": null,
+        "line": 9.5,
+        "note": "Total 9.5: no clear lean \u2014 not enough split data yet. (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      }
+    }
+  ]
+}
