@@ -263,6 +263,14 @@ def render_pick(games):
             f'<div class="why">{why}</div></div>')
 
 
+def _cat(rows, kinds):
+    """(wins, losses, graded_count, logged_count) for the given pick kinds."""
+    logged = [e for e in rows if e.get("kind", "value") in kinds]
+    graded = [e for e in logged if e.get("result") in ("W", "L")]
+    w = sum(1 for e in graded if e["result"] == "W")
+    return w, len(graded) - w, len(graded), len(logged)
+
+
 def render_scoreboard():
     """Compact results strip from picks_log.json (if the tracker has run)."""
     try:
@@ -272,32 +280,35 @@ def render_scoreboard():
         return ""
     if not rows:
         return ""
-    graded = [e for e in rows if e.get("result") in ("W", "L")]
-    clv = [e["clv_pp"] for e in rows if e.get("clv_pp") is not None]
+    cats = (("Value", ("value",)), ("Lean", ("lean",)), ("O/U", ("total",)))
     parts = ['<span class="sb-lab">Scoreboard</span>']
+
+    # one W-L record per bet type
+    for label, kinds in cats:
+        w, l, n, _ = _cat(rows, kinds)
+        parts.append(f'<span class="sb-stat"><b>{label}</b> {w}-{l}</span>')
+
+    graded = [e for e in rows if e.get("result") in ("W", "L")]
     if graded:
-        w = sum(1 for e in graded if e["result"] == "W")
-        n = len(graded)
         profit = sum(e["profit"] for e in graded if e.get("profit") is not None)
-        parts.append(f'<span class="sb-stat"><b>Record</b> {w}-{n - w}</span>')
         parts.append(f'<span class="sb-stat"><b>Units</b> {profit:+.1f}</span>')
-        parts.append(f'<span class="sb-stat"><b>ROI</b> {profit / n * 100:+.0f}%</span>')
+        parts.append(f'<span class="sb-stat"><b>ROI</b> {profit / len(graded) * 100:+.0f}%</span>')
     else:
-        parts.append('<span class="sb-stat">no graded picks yet</span>')
+        parts.append('<span class="sb-stat" style="color:var(--muted)">no graded picks yet</span>')
+
+    clv = [e["clv_pp"] for e in rows if e.get("clv_pp") is not None]
     if clv:
         beat = sum(1 for c in clv if c > 0)
         parts.append(f'<span class="sb-stat"><b>CLV</b> {sum(clv) / len(clv):+.1f}pts '
                      f'({beat}/{len(clv)} beat close)</span>')
-    nv = sum(1 for e in rows if e.get("kind", "value") == "value")
-    nl = sum(1 for e in rows if e.get("kind") == "lean")
-    nt = sum(1 for e in rows if e.get("kind") == "total")
-    split = f"{nv} value · {nl} lean"
-    if nt:
-        split += f" · {nt} O/U"
-    parts.append(f'<span class="sb-stat" style="color:var(--muted)">{split}</span>')
-    if len(rows) < 30:
-        parts.append(f'<span class="sb-stat" style="color:var(--muted)">building · '
-                     f'{len(rows)}/30 picks</span>')
+
+    # progress toward a readable sample — each bet type counts toward its own ~30
+    prog = [f"{label} {_cat(rows, kinds)[3]}/30"
+            for label, kinds in cats if _cat(rows, kinds)[3] < 30]
+    if prog:
+        parts.append('<span class="sb-stat" style="color:var(--muted)">building · '
+                     + " · ".join(prog) + "</span>")
+
     return f'<div class="scoreboard">{"".join(parts)}</div>'
 
 
