@@ -1,6 +1,6 @@
 {
   "date": "2026-06-18",
-  "generated": "2026-06-18T15:22:49",
+  "generated": "2026-06-18T16:04:00",
   "games": [
     {
       "game_pk": 824748,
@@ -17,8 +17,8 @@
         "pitcher_id": 702056,
         "pitcher_name": "Trey Yesavage",
         "pitcher_hand": null,
-        "ml": 106,
-        "implied": 48.5
+        "ml": 108,
+        "implied": 48.1
       },
       "home": {
         "team": "Red Sox",
@@ -29,13 +29,13 @@
         "pitcher_id": 543243,
         "pitcher_name": "Sonny Gray",
         "pitcher_hand": null,
-        "ml": -124,
-        "implied": 55.4
+        "ml": -126,
+        "implied": 55.8
       },
       "weather": {
         "temp_f": 84.3,
-        "wind_mph": 20.9,
-        "wind_dir_deg": 166
+        "wind_mph": 20.7,
+        "wind_dir_deg": 164
       },
       "factors": [
         {
@@ -48,21 +48,21 @@
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "21 mph wind (dir 166\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "21 mph wind (dir 164\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "away",
       "weight": 1,
       "read": null,
       "total": {
-        "line": 9.0,
-        "over": -118,
-        "under": -104
+        "line": 9.5,
+        "over": 102,
+        "under": -124
       },
       "total_read": {
         "side": "under",
-        "line": 9.0,
-        "note": "Total 9.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.641 OPS-against). Strong wind (21 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 9.5,
+        "note": "Total 9.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.641 OPS-against). Strong wind (21 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -97,21 +97,21 @@
       },
       "weather": {
         "temp_f": 67.9,
-        "wind_mph": 11.2,
-        "wind_dir_deg": 301
+        "wind_mph": 11.1,
+        "wind_dir_deg": 300
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Parker Messick holds RHB to a 0.609 OPS; Brewers project 62% R-handed today."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Shane Drohan holds RHB to a 0.592 OPS; Guardians project 62% R-handed today."
         }
       ],
       "lean": "even",
@@ -125,7 +125,7 @@
       "total_read": {
         "side": "under",
         "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.655 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.601 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -160,23 +160,10 @@
       },
       "weather": {
         "temp_f": 92.3,
-        "wind_mph": 10.3,
-        "wind_dir_deg": 117
+        "wind_mph": 10.8,
+        "wind_dir_deg": 130
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rangers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Twins lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -188,7 +175,7 @@
       "total_read": {
         "side": "under",
         "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.672 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.630 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -223,8 +210,8 @@
       },
       "weather": {
         "temp_f": 72.5,
-        "wind_mph": 8.6,
-        "wind_dir_deg": 353
+        "wind_mph": 9.4,
+        "wind_dir_deg": 355
       },
       "factors": [
         {
@@ -269,8 +256,8 @@
         "pitcher_id": 640455,
         "pitcher_name": "Sean Manaea",
         "pitcher_hand": null,
-        "ml": 104,
-        "implied": 49.0
+        "ml": 102,
+        "implied": 49.5
       },
       "home": {
         "team": "Phillies",
@@ -281,13 +268,13 @@
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": null,
-        "ml": -122,
-        "implied": 55.0
+        "ml": -120,
+        "implied": 54.5
       },
       "weather": {
         "temp_f": 88.4,
-        "wind_mph": 19.8,
-        "wind_dir_deg": 254
+        "wind_mph": 20.7,
+        "wind_dir_deg": 250
       },
       "factors": [
         {
@@ -306,7 +293,7 @@
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "20 mph wind (dir 254\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "21 mph wind (dir 250\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -314,13 +301,13 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -105,
-        "under": -115
+        "over": -108,
+        "under": -112
       },
       "total_read": {
         "side": "over",
         "line": 9.5,
-        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.784 OPS-against). Strong wind (20 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.784 OPS-against). Strong wind (21 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -355,8 +342,8 @@
       },
       "weather": {
         "temp_f": 89.0,
-        "wind_mph": 16.0,
-        "wind_dir_deg": 242
+        "wind_mph": 18.2,
+        "wind_dir_deg": 251
       },
       "factors": [
         {
@@ -375,7 +362,7 @@
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "16 mph wind (dir 242\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "18 mph wind (dir 251\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -389,7 +376,7 @@
       "total_read": {
         "side": null,
         "line": 9.5,
-        "note": "Total 9.5: no clear lean \u2014 starters roughly average (avg 0.711 OPS-against). Strong wind (16 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 9.5: no clear lean \u2014 starters roughly average (avg 0.711 OPS-against). Strong wind (18 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -424,8 +411,8 @@
       },
       "weather": {
         "temp_f": 74.2,
-        "wind_mph": 10.3,
-        "wind_dir_deg": 153
+        "wind_mph": 8.9,
+        "wind_dir_deg": 190
       },
       "factors": [
         {
@@ -487,8 +474,8 @@
       },
       "weather": {
         "temp_f": 78.3,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 304
+        "wind_mph": 6.9,
+        "wind_dir_deg": 324
       },
       "factors": [
         {
@@ -550,8 +537,8 @@
       },
       "weather": {
         "temp_f": 75.6,
-        "wind_mph": 14.9,
-        "wind_dir_deg": 227
+        "wind_mph": 14.7,
+        "wind_dir_deg": 228
       },
       "factors": [
         {
