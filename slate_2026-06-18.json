@@ -1,6 +1,6 @@
 {
   "date": "2026-06-18",
-  "generated": "2026-06-18T11:41:04",
+  "generated": "2026-06-18T12:07:52",
   "games": [
     {
       "game_pk": 824748,
@@ -33,9 +33,9 @@
         "implied": 55.4
       },
       "weather": {
-        "temp_f": 78.7,
-        "wind_mph": 19.2,
-        "wind_dir_deg": 173
+        "temp_f": 81.2,
+        "wind_mph": 20.9,
+        "wind_dir_deg": 171
       },
       "factors": [
         {
@@ -54,7 +54,7 @@
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "19 mph wind (dir 173\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "21 mph wind (dir 171\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -68,7 +68,7 @@
       "total_read": {
         "side": "under",
         "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.669 OPS-against). Strong wind (19 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.669 OPS-against). Strong wind (21 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -102,9 +102,9 @@
         "implied": 59.3
       },
       "weather": {
-        "temp_f": 68.1,
-        "wind_mph": 10.1,
-        "wind_dir_deg": 301
+        "temp_f": 67.7,
+        "wind_mph": 11.7,
+        "wind_dir_deg": 302
       },
       "factors": [
         {
@@ -165,9 +165,9 @@
         "implied": 48.5
       },
       "weather": {
-        "temp_f": 94.5,
-        "wind_mph": 8.9,
-        "wind_dir_deg": 127
+        "temp_f": 93.1,
+        "wind_mph": 9.4,
+        "wind_dir_deg": 128
       },
       "factors": [
         {
@@ -212,8 +212,8 @@
         "pitcher_id": 669358,
         "pitcher_name": "Shane Baz",
         "pitcher_hand": null,
-        "ml": 130,
-        "implied": 43.5
+        "ml": 124,
+        "implied": 44.6
       },
       "home": {
         "team": "Mariners",
@@ -224,13 +224,13 @@
         "pitcher_id": 693433,
         "pitcher_name": "Bryan Woo",
         "pitcher_hand": null,
-        "ml": -154,
-        "implied": 60.6
+        "ml": -146,
+        "implied": 59.3
       },
       "weather": {
-        "temp_f": 73.2,
-        "wind_mph": 9.2,
-        "wind_dir_deg": 356
+        "temp_f": 73.3,
+        "wind_mph": 8.8,
+        "wind_dir_deg": 353
       },
       "factors": [
         {
@@ -291,9 +291,9 @@
         "implied": 55.0
       },
       "weather": {
-        "temp_f": 90.8,
-        "wind_mph": 19.6,
-        "wind_dir_deg": 241
+        "temp_f": 89.3,
+        "wind_mph": 21.5,
+        "wind_dir_deg": 245
       },
       "factors": [
         {
@@ -312,7 +312,7 @@
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "20 mph wind (dir 241\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "22 mph wind (dir 245\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -326,7 +326,7 @@
       "total_read": {
         "side": "over",
         "line": 9.5,
-        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.784 OPS-against). Strong wind (20 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.784 OPS-against). Strong wind (22 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -344,8 +344,8 @@
         "pitcher_id": 680732,
         "pitcher_name": "Sean Burke",
         "pitcher_hand": null,
-        "ml": 130,
-        "implied": 43.5
+        "ml": 134,
+        "implied": 42.7
       },
       "home": {
         "team": "Yankees",
@@ -356,14 +356,10 @@
         "pitcher_id": 677960,
         "pitcher_name": "Ryan Weathers",
         "pitcher_hand": null,
-        "ml": -154,
-        "implied": 60.6
+        "ml": -158,
+        "implied": 61.2
       },
-      "weather": {
-        "temp_f": 88.9,
-        "wind_mph": 16.8,
-        "wind_dir_deg": 249
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -376,12 +372,6 @@
           "side": "none",
           "label": "Lineups",
           "text": "White Sox lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "17 mph wind (dir 249\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -389,13 +379,13 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -102,
-        "under": -120
+        "over": -108,
+        "under": -112
       },
       "total_read": {
         "side": null,
         "line": 9.5,
-        "note": "Total 9.5: no clear lean \u2014 starters roughly average (avg 0.711 OPS-against). Strong wind (17 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 9.5: no clear lean \u2014 starters roughly average (avg 0.711 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -428,11 +418,7 @@
         "ml": -142,
         "implied": 58.7
       },
-      "weather": {
-        "temp_f": 74.8,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 164
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -491,11 +477,7 @@
         "ml": -120,
         "implied": 54.5
       },
-      "weather": {
-        "temp_f": 78.1,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 303
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -539,8 +521,8 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": 114,
-        "implied": 46.7
+        "ml": 116,
+        "implied": 46.3
       },
       "home": {
         "team": "Athletics",
@@ -551,14 +533,10 @@
         "pitcher_id": 695611,
         "pitcher_name": "Gage Jump",
         "pitcher_hand": null,
-        "ml": -134,
-        "implied": 57.3
+        "ml": -136,
+        "implied": 57.6
       },
-      "weather": {
-        "temp_f": 75.8,
-        "wind_mph": 15.4,
-        "wind_dir_deg": 230
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -571,26 +549,20 @@
           "side": "none",
           "label": "Lineups",
           "text": "Angels lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "15 mph wind (dir 230\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": {
-        "line": 10.0,
-        "over": -115,
-        "under": -105
+        "line": 10.5,
+        "over": -102,
+        "under": -120
       },
       "total_read": {
         "side": null,
-        "line": 10.0,
-        "note": "Total 10.0: no clear lean \u2014 not enough split data yet. Strong wind (15 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 10.5,
+        "note": "Total 10.5: no clear lean \u2014 not enough split data yet. (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     }
   ]
