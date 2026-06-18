@@ -69,7 +69,7 @@ def get_schedule(date_str):
     params = {
         "sportId": 1,
         "date": date_str,
-        "hydrate": "probablePitcher,venue(location),team",
+        "hydrate": "probablePitcher,venue(location),team,lineups",
     }
     r = requests.get(f"{MLB_API}/schedule", params=params, timeout=TIMEOUT)
     r.raise_for_status()
@@ -104,12 +104,18 @@ def _parse_game(g):
 
     venue = g.get("venue", {})
     coords = (venue.get("location") or {}).get("defaultCoordinates") or {}
+    lu = g.get("lineups") or {}
+    lineup_ids = {
+        "away": [p.get("id") for p in (lu.get("awayPlayers") or []) if p.get("id")],
+        "home": [p.get("id") for p in (lu.get("homePlayers") or []) if p.get("id")],
+    }
     return {
         "game_pk": g.get("gamePk"),
         "game_time": g.get("gameDate"),     # ISO UTC
         "venue": venue.get("name", ""),
         "lat": coords.get("latitude"),
         "lon": coords.get("longitude"),
+        "lineup_ids": lineup_ids,           # batting order from the lineups feed (if posted)
         "away": side("away"),
         "home": side("home"),
         "weather": None,
@@ -150,35 +156,42 @@ def get_pitcher_splits(pitcher_id, season=SEASON):
         return {}
 
 
-def get_lineup_handedness(game_pk):
-    """Count L/R batters per side from the posted boxscore lineup.
-
-    Returns {'away': {...}, 'home': {...}} where each holds counts and the
-    dominant hand, or marks the lineup as not yet posted.
-    """
+def get_lineup_handedness(game):
+    """Count L/R batters per side. Prefers the schedule 'lineups' feed (the same
+    source as mlb.com's Lineups tab, which posts well before the official boxscore),
+    and falls back to the boxscore batting order. Returns per-side counts, or marks
+    the lineup as not yet posted."""
     result = {"away": _empty_hand(), "home": _empty_hand()}
-    try:
-        r = requests.get(f"{MLB_API}/game/{game_pk}/boxscore", timeout=TIMEOUT)
-        r.raise_for_status()
-        box = r.json().get("teams", {})
 
-        # The boxscore gives the batting order but NOT each batter's handedness,
-        # so collect the lineup IDs and fetch bat sides in one batched call.
-        orders = {s: (box.get(s, {}).get("battingOrder") or []) for s in ("away", "home")}
-        hands_by_id = _fetch_bat_sides([pid for ids in orders.values() for pid in ids])
+    # 1) Preferred: lineups feed, hydrated onto the game at schedule time.
+    orders = {s: list((game.get("lineup_ids") or {}).get(s) or []) for s in ("away", "home")}
 
-        for side in ("away", "home"):
-            counts = {"L": 0, "R": 0, "S": 0}
-            for pid in orders[side]:
-                hand = hands_by_id.get(pid)
-                if hand in counts:
-                    counts[hand] += 1
-            total = sum(counts.values())
-            if total >= 6:  # lineup is posted
-                result[side] = _summarize_hand(counts, total)
+    # 2) Fallback: the official boxscore batting order (slower to populate pre-game).
+    if sum(len(orders[s]) for s in ("away", "home")) < 6:
+        try:
+            r = requests.get(f'{MLB_API}/game/{game.get("game_pk")}/boxscore', timeout=TIMEOUT)
+            r.raise_for_status()
+            box = r.json().get("teams", {})
+            for s in ("away", "home"):
+                if not orders[s]:
+                    orders[s] = list(box.get(s, {}).get("battingOrder") or [])
+        except (requests.RequestException, ValueError):
+            pass
+
+    ids = [pid for s in ("away", "home") for pid in orders[s]]
+    if not ids:
         return result
-    except (requests.RequestException, ValueError):
-        return result
+    hands_by_id = _fetch_bat_sides(ids)
+    for side in ("away", "home"):
+        counts = {"L": 0, "R": 0, "S": 0}
+        for pid in orders[side]:
+            hand = hands_by_id.get(pid)
+            if hand in counts:
+                counts[hand] += 1
+        total = sum(counts.values())
+        if total >= 6:  # lineup is posted
+            result[side] = _summarize_hand(counts, total)
+    return result
 
 
 def _fetch_bat_sides(player_ids):
@@ -459,7 +472,7 @@ def build_slate(date_str, do_splits=True, do_odds=True, do_read=True):
     for g in games:
         attach_odds(g, odds_map)
         g["weather"] = get_weather(g["lat"], g["lon"], g["game_time"])
-        hands = get_lineup_handedness(g["game_pk"])
+        hands = get_lineup_handedness(g)
 
         splits_by_pid = {}
         if do_splits:
