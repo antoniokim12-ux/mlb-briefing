@@ -1,6 +1,6 @@
 {
   "date": "2026-06-17",
-  "generated": "2026-06-18T04:25:35",
+  "generated": "2026-06-18T05:50:29",
   "games": [
     {
       "game_pk": 824503,
@@ -196,8 +196,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": 100,
-        "under": -122
+        "over": 102,
+        "under": -124
       },
       "total_read": {
         "side": "under",
@@ -284,11 +284,7 @@
         "ml": 104,
         "implied": 49.0
       },
-      "weather": {
-        "temp_f": 86.5,
-        "wind_mph": 11.5,
-        "wind_dir_deg": 197
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -326,11 +322,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 73.1,
-        "wind_mph": 9.0,
-        "wind_dir_deg": 240
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -381,11 +373,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 106.9,
-        "wind_mph": 14.9,
-        "wind_dir_deg": 258
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -415,8 +403,8 @@
         "pitcher_id": 680755,
         "pitcher_name": "Braydon Fisher",
         "pitcher_hand": null,
-        "ml": -102,
-        "implied": 50.5
+        "ml": 100,
+        "implied": 50.0
       },
       "home": {
         "team": "Red Sox",
@@ -427,14 +415,10 @@
         "pitcher_id": 687562,
         "pitcher_name": "Jake Bennett",
         "pitcher_hand": null,
-        "ml": -116,
-        "implied": 53.7
+        "ml": -118,
+        "implied": 54.1
       },
-      "weather": {
-        "temp_f": 74.3,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 175
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -501,8 +485,8 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -105,
-        "under": -115
+        "over": -102,
+        "under": -120
       },
       "total_read": {
         "side": "over",
@@ -540,15 +524,19 @@
         "ml": -142,
         "implied": 58.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 81.4,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 211
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": {
         "line": 8.5,
-        "over": 100,
-        "under": -122
+        "over": 102,
+        "under": -124
       },
       "total_read": {
         "side": "over",
@@ -586,7 +574,11 @@
         "ml": -142,
         "implied": 58.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 61.3,
+        "wind_mph": 3.4,
+        "wind_dir_deg": 32
+      },
       "factors": [
         {
           "m": "-",
@@ -639,7 +631,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 66.0,
+        "wind_mph": 9.9,
+        "wind_dir_deg": 188
+      },
       "factors": [
         {
           "m": "-",
@@ -665,7 +661,7 @@
         "team_full": "Pittsburgh Pirates",
         "abbr": "PIT",
         "team_id": 134,
-        "record": "37-37",
+        "record": "38-37",
         "pitcher_id": 677952,
         "pitcher_name": "Braxton Ashcraft",
         "pitcher_hand": null,
@@ -677,35 +673,31 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "36-37",
+        "record": "36-38",
         "pitcher_id": 650644,
         "pitcher_name": "Aaron Civale",
         "pitcher_hand": null,
         "ml": -134,
         "implied": 57.3
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 84.9,
+        "wind_mph": 11.4,
+        "wind_dir_deg": 223
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Braxton Ashcraft holds RHB to a 0.581 OPS; Athletics project 62% R-handed today."
+          "text": "Braxton Ashcraft holds RHB to a 0.561 OPS; Athletics project 62% R-handed today."
         }
       ],
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 15.5,
-        "over": 280,
-        "under": -420
-      },
-      "total_read": {
-        "side": "under",
-        "line": 15.5,
-        "note": "Total 15.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.677 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
-      }
+      "total": null,
+      "total_read": null
     },
     {
       "game_pk": 823127,
@@ -737,7 +729,11 @@
         "ml": -156,
         "implied": 60.9
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 73.0,
+        "wind_mph": 3.9,
+        "wind_dir_deg": 301
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
