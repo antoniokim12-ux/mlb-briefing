@@ -1,6 +1,6 @@
 {
   "date": "2026-06-17",
-  "generated": "2026-06-18T02:48:27",
+  "generated": "2026-06-18T04:25:35",
   "games": [
     {
       "game_pk": 824503,
@@ -366,8 +366,8 @@
         "pitcher_id": 691951,
         "pitcher_name": "Sam Aldegheri",
         "pitcher_hand": null,
-        "ml": 116,
-        "implied": 46.3
+        "ml": 114,
+        "implied": 46.7
       },
       "home": {
         "team": "D-backs",
@@ -571,8 +571,8 @@
         "pitcher_id": 668909,
         "pitcher_name": "Gavin Williams",
         "pitcher_hand": null,
-        "ml": 118,
-        "implied": 45.9
+        "ml": 120,
+        "implied": 45.5
       },
       "home": {
         "team": "Brewers",
@@ -583,8 +583,8 @@
         "pitcher_id": 687075,
         "pitcher_name": "Brandon Sproat",
         "pitcher_hand": null,
-        "ml": -138,
-        "implied": 58.0
+        "ml": -142,
+        "implied": 58.7
       },
       "weather": null,
       "factors": [
@@ -600,8 +600,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -110,
-        "under": -110
+        "over": -104,
+        "under": -118
       },
       "total_read": {
         "side": null,
@@ -651,16 +651,8 @@
       "lean": "home",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 14.5,
-        "over": 1200,
-        "under": -5000
-      },
-      "total_read": {
-        "side": "over",
-        "line": 14.5,
-        "note": "Total 14.5: leans OVER \u2014 both starters look hittable (avg 0.793 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
-      }
+      "total": null,
+      "total_read": null
     },
     {
       "game_pk": 824992,
@@ -677,8 +669,8 @@
         "pitcher_id": 677952,
         "pitcher_name": "Braxton Ashcraft",
         "pitcher_hand": null,
-        "ml": -4000,
-        "implied": 97.6
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Athletics",
@@ -693,19 +685,26 @@
         "implied": 57.3
       },
       "weather": null,
-      "factors": [],
-      "lean": "even",
-      "weight": 0,
+      "factors": [
+        {
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Braxton Ashcraft holds RHB to a 0.581 OPS; Athletics project 62% R-handed today."
+        }
+      ],
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": {
-        "line": 11.5,
-        "over": -110,
-        "under": -120
+        "line": 15.5,
+        "over": 280,
+        "under": -420
       },
       "total_read": {
         "side": "under",
-        "line": 11.5,
-        "note": "Total 11.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.677 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 15.5,
+        "note": "Total 15.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.677 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -719,7 +718,7 @@
         "team_full": "Baltimore Orioles",
         "abbr": "BAL",
         "team_id": 110,
-        "record": "34-40",
+        "record": "35-40",
         "pitcher_id": 680694,
         "pitcher_name": "Kyle Bradish",
         "pitcher_hand": null,
@@ -731,7 +730,7 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "38-36",
+        "record": "38-37",
         "pitcher_id": 669923,
         "pitcher_name": "George Kirby",
         "pitcher_hand": null,
@@ -739,26 +738,19 @@
         "implied": 60.9
       },
       "weather": null,
-      "factors": [
-        {
-          "m": "-",
-          "side": "away",
-          "label": "Handedness matchup",
-          "text": "Kyle Bradish is vulnerable to LHB (0.784 OPS) and Mariners skew L-handed."
-        }
-      ],
-      "lean": "home",
-      "weight": 1,
+      "factors": [],
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -122,
-        "under": 100
+        "over": -114,
+        "under": -106
       },
       "total_read": {
         "side": null,
         "line": 7.5,
-        "note": "Total 7.5: no clear lean \u2014 starters roughly average (avg 0.764 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 7.5: no clear lean \u2014 starters roughly average (avg 0.746 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     }
   ]
