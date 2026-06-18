@@ -1,6 +1,6 @@
 {
   "date": "2026-06-18",
-  "generated": "2026-06-18T12:07:52",
+  "generated": "2026-06-18T12:40:10",
   "games": [
     {
       "game_pk": 824748,
@@ -61,14 +61,14 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.5,
-        "over": -122,
-        "under": 100
+        "line": 9.0,
+        "over": -105,
+        "under": -115
       },
       "total_read": {
         "side": "under",
-        "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.669 OPS-against). Strong wind (21 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 9.0,
+        "note": "Total 9.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.669 OPS-against). Strong wind (21 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -188,8 +188,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -114,
-        "under": -106
+        "over": -120,
+        "under": -102
       },
       "total_read": {
         "side": "under",
@@ -359,7 +359,11 @@
         "ml": -158,
         "implied": 61.2
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 87.9,
+        "wind_mph": 20.7,
+        "wind_dir_deg": 252
+      },
       "factors": [
         {
           "m": "~",
@@ -372,6 +376,12 @@
           "side": "none",
           "label": "Lineups",
           "text": "White Sox lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "21 mph wind (dir 252\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -385,7 +395,7 @@
       "total_read": {
         "side": null,
         "line": 9.5,
-        "note": "Total 9.5: no clear lean \u2014 starters roughly average (avg 0.711 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 9.5: no clear lean \u2014 starters roughly average (avg 0.711 OPS-against). Strong wind (21 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -418,7 +428,11 @@
         "ml": -142,
         "implied": 58.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 73.6,
+        "wind_mph": 6.1,
+        "wind_dir_deg": 123
+      },
       "factors": [
         {
           "m": "~",
