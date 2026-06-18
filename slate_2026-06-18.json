@@ -1,6 +1,6 @@
 {
   "date": "2026-06-18",
-  "generated": "2026-06-18T16:18:50",
+  "generated": "2026-06-18T18:20:12",
   "games": [
     {
       "game_pk": 824748,
@@ -41,8 +41,8 @@
         "pitcher_id": 702056,
         "pitcher_name": "Trey Yesavage",
         "pitcher_hand": null,
-        "ml": 114,
-        "implied": 46.7
+        "ml": -330,
+        "implied": 76.7
       },
       "home": {
         "team": "Red Sox",
@@ -53,13 +53,13 @@
         "pitcher_id": 543243,
         "pitcher_name": "Sonny Gray",
         "pitcher_hand": null,
-        "ml": -134,
-        "implied": 57.3
+        "ml": 100,
+        "implied": 50.0
       },
       "weather": {
-        "temp_f": 84.7,
-        "wind_mph": 20.7,
-        "wind_dir_deg": 164
+        "temp_f": 80.4,
+        "wind_mph": 20.5,
+        "wind_dir_deg": 167
       },
       "factors": [
         {
@@ -72,21 +72,21 @@
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "21 mph wind (dir 164\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "20 mph wind (dir 167\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "away",
       "weight": 1,
       "read": null,
       "total": {
-        "line": 9.5,
-        "over": 102,
-        "under": -124
+        "line": 8.5,
+        "over": -106,
+        "under": -125
       },
       "total_read": {
         "side": "under",
-        "line": 9.5,
-        "note": "Total 9.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.641 OPS-against). Strong wind (21 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 8.5,
+        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.641 OPS-against). Strong wind (20 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -128,8 +128,8 @@
         "pitcher_id": 800048,
         "pitcher_name": "Parker Messick",
         "pitcher_hand": null,
-        "ml": 126,
-        "implied": 44.2
+        "ml": 102,
+        "implied": 49.5
       },
       "home": {
         "team": "Brewers",
@@ -140,13 +140,13 @@
         "pitcher_id": 675660,
         "pitcher_name": "Shane Drohan",
         "pitcher_hand": null,
-        "ml": -148,
-        "implied": 59.7
+        "ml": -186,
+        "implied": 65.0
       },
       "weather": {
-        "temp_f": 68.1,
-        "wind_mph": 11.1,
-        "wind_dir_deg": 300
+        "temp_f": 67.4,
+        "wind_mph": 10.3,
+        "wind_dir_deg": 294
       },
       "factors": [
         {
@@ -166,14 +166,14 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 7.5,
-        "over": -104,
-        "under": -118
+        "line": 6.5,
+        "over": -146,
+        "under": 110
       },
       "total_read": {
         "side": "under",
-        "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.601 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 6.5,
+        "note": "Total 6.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.601 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -215,8 +215,8 @@
         "pitcher_id": 657746,
         "pitcher_name": "Joe Ryan",
         "pitcher_hand": null,
-        "ml": -120,
-        "implied": 54.5
+        "ml": 144,
+        "implied": 41.0
       },
       "home": {
         "team": "Rangers",
@@ -227,13 +227,13 @@
         "pitcher_id": 683004,
         "pitcher_name": "Jack Leiter",
         "pitcher_hand": null,
-        "ml": 102,
-        "implied": 49.5
+        "ml": -158,
+        "implied": 61.2
       },
       "weather": {
-        "temp_f": 92.2,
-        "wind_mph": 10.8,
-        "wind_dir_deg": 130
+        "temp_f": 93.2,
+        "wind_mph": 8.4,
+        "wind_dir_deg": 140
       },
       "factors": [],
       "lean": "even",
@@ -257,8 +257,28 @@
       "lat": 47.591333,
       "lon": -122.33251,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          621493,
+          683002,
+          668939,
+          624413,
+          694212,
+          665750,
+          681297,
+          677942,
+          702616
+        ],
+        "home": [
+          641487,
+          663728,
+          647304,
+          686527,
+          702284,
+          806068,
+          641598,
+          645302,
+          670156
+        ]
       },
       "away": {
         "team": "Orioles",
@@ -269,8 +289,8 @@
         "pitcher_id": 669358,
         "pitcher_name": "Shane Baz",
         "pitcher_hand": null,
-        "ml": 118,
-        "implied": 45.9
+        "ml": 154,
+        "implied": 39.4
       },
       "home": {
         "team": "Mariners",
@@ -281,30 +301,24 @@
         "pitcher_id": 693433,
         "pitcher_name": "Bryan Woo",
         "pitcher_hand": null,
-        "ml": -138,
-        "implied": 58.0
+        "ml": -118,
+        "implied": 54.1
       },
       "weather": {
-        "temp_f": 71.8,
-        "wind_mph": 9.4,
-        "wind_dir_deg": 355
+        "temp_f": 71.9,
+        "wind_mph": 9.3,
+        "wind_dir_deg": 349
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Mariners lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Orioles lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Shane Baz is vulnerable to LHB (0.834 OPS) and Mariners skew L-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 7.5,
@@ -312,9 +326,9 @@
         "under": -105
       },
       "total_read": {
-        "side": "under",
+        "side": null,
         "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.686 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 7.5: no clear lean \u2014 starters roughly average (avg 0.734 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -352,9 +366,9 @@
         "implied": 54.5
       },
       "weather": {
-        "temp_f": 88.8,
-        "wind_mph": 20.7,
-        "wind_dir_deg": 250
+        "temp_f": 88.4,
+        "wind_mph": 19.6,
+        "wind_dir_deg": 248
       },
       "factors": [
         {
@@ -373,7 +387,7 @@
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "21 mph wind (dir 250\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "20 mph wind (dir 248\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -387,7 +401,7 @@
       "total_read": {
         "side": "over",
         "line": 9.5,
-        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.784 OPS-against). Strong wind (21 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.784 OPS-against). Strong wind (20 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -409,8 +423,8 @@
         "pitcher_id": 680732,
         "pitcher_name": "Sean Burke",
         "pitcher_hand": null,
-        "ml": 134,
-        "implied": 42.7
+        "ml": 198,
+        "implied": 33.6
       },
       "home": {
         "team": "Yankees",
@@ -421,13 +435,13 @@
         "pitcher_id": 677960,
         "pitcher_name": "Ryan Weathers",
         "pitcher_hand": null,
-        "ml": -158,
-        "implied": 61.2
+        "ml": -166,
+        "implied": 62.4
       },
       "weather": {
-        "temp_f": 88.2,
-        "wind_mph": 18.2,
-        "wind_dir_deg": 251
+        "temp_f": 88.1,
+        "wind_mph": 16.5,
+        "wind_dir_deg": 248
       },
       "factors": [
         {
@@ -446,7 +460,7 @@
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "18 mph wind (dir 251\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "16 mph wind (dir 248\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -454,13 +468,13 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -110,
-        "under": -110
+        "over": -118,
+        "under": -104
       },
       "total_read": {
         "side": null,
         "line": 9.5,
-        "note": "Total 9.5: no clear lean \u2014 starters roughly average (avg 0.711 OPS-against). Strong wind (18 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 9.5: no clear lean \u2014 starters roughly average (avg 0.711 OPS-against). Strong wind (16 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -482,8 +496,8 @@
         "pitcher_id": 694738,
         "pitcher_name": "Landen Roupp",
         "pitcher_hand": null,
-        "ml": 118,
-        "implied": 45.9
+        "ml": 116,
+        "implied": 46.3
       },
       "home": {
         "team": "Braves",
@@ -494,13 +508,13 @@
         "pitcher_id": 527048,
         "pitcher_name": "Mart\u00edn P\u00e9rez",
         "pitcher_hand": null,
-        "ml": -138,
-        "implied": 58.0
+        "ml": -134,
+        "implied": 57.3
       },
       "weather": {
-        "temp_f": 73.2,
-        "wind_mph": 8.9,
-        "wind_dir_deg": 190
+        "temp_f": 74.3,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 166
       },
       "factors": [
         {
@@ -520,14 +534,14 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.0,
-        "over": -102,
-        "under": -120
+        "line": 7.5,
+        "over": -124,
+        "under": 102
       },
       "total_read": {
         "side": "under",
-        "line": 8.0,
-        "note": "Total 8.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.653 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 7.5,
+        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.653 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -549,8 +563,8 @@
         "pitcher_id": 669461,
         "pitcher_name": "Matthew Liberatore",
         "pitcher_hand": null,
-        "ml": 100,
-        "implied": 50.0
+        "ml": -118,
+        "implied": 54.1
       },
       "home": {
         "team": "Royals",
@@ -561,10 +575,14 @@
         "pitcher_id": 702070,
         "pitcher_name": "Noah Cameron",
         "pitcher_hand": null,
-        "ml": -118,
-        "implied": 54.1
+        "ml": 100,
+        "implied": 50.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.3,
+        "wind_mph": 4.7,
+        "wind_dir_deg": 315
+      },
       "factors": [
         {
           "m": "~",
@@ -583,14 +601,14 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 9.0,
-        "over": -104,
-        "under": -118
+        "line": 9.5,
+        "over": 100,
+        "under": -122
       },
       "total_read": {
         "side": "over",
-        "line": 9.0,
-        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.799 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 9.5,
+        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.799 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -612,8 +630,8 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": 116,
-        "implied": 46.3
+        "ml": 136,
+        "implied": 42.4
       },
       "home": {
         "team": "Athletics",
@@ -624,10 +642,14 @@
         "pitcher_id": 695611,
         "pitcher_name": "Gage Jump",
         "pitcher_hand": null,
-        "ml": -136,
-        "implied": 57.6
+        "ml": -162,
+        "implied": 61.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 75.0,
+        "wind_mph": 15.4,
+        "wind_dir_deg": 228
+      },
       "factors": [
         {
           "m": "~",
@@ -640,20 +662,26 @@
           "side": "none",
           "label": "Lineups",
           "text": "Angels lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "15 mph wind (dir 228\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": {
-        "line": 10.5,
-        "over": -106,
-        "under": -114
+        "line": 10.0,
+        "over": -110,
+        "under": -110
       },
       "total_read": {
         "side": null,
-        "line": 10.5,
-        "note": "Total 10.5: no clear lean \u2014 not enough split data yet. (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 10.0,
+        "note": "Total 10.0: no clear lean \u2014 not enough split data yet. Strong wind (15 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     }
   ]
