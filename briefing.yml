@@ -8,6 +8,8 @@ on:
     - cron: '0 23 * * *'    # ~4pm Pacific
     - cron: '0 1 * * *'     # ~6pm Pacific
     - cron: '30 2 * * *'    # ~7:30pm Pacific
+    - cron: '45 5 * * *'    # ~10:45pm Pacific — wrap-up (no odds), grade finals
+    - cron: '45 7 * * *'    # ~12:45am Pacific — wrap-up (no odds), grade late finals
 
 permissions:
   contents: write           # so the run can save your picks log + page back to the repo
@@ -31,13 +33,24 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: |
           DAY=$(python -c "import datetime, zoneinfo as z; print(datetime.datetime.now(z.ZoneInfo('America/Los_Angeles')).date().isoformat())")
-          echo "Building slate for $DAY (Pacific date)"
-          python mlb_briefing.py --date "$DAY"
-          python track_results.py log "slate_$DAY.json" || true
-          python track_results.py close "slate_$DAY.json" || true
-          python track_results.py grade || true
-          python render_cards.py "slate_$DAY.json"
+          HOUR=$(python -c "import datetime, zoneinfo as z; print(datetime.datetime.now(z.ZoneInfo('America/Los_Angeles')).hour)")
           mkdir -p docs
+          if [ "$HOUR" -ge 22 ] || [ "$HOUR" -lt 9 ]; then
+            # Late-night wrap-up: the day's games are underway, so don't pull odds
+            # (saves credits, doesn't re-run the slate). Just grade finals + re-render,
+            # which the renderer turns into the "day's done" results page.
+            echo "Wrap-up run for $DAY (no odds) — grading and re-rendering"
+            python mlb_briefing.py --date "$DAY" --no-odds
+            python track_results.py grade || true
+          else
+            echo "Building slate for $DAY (Pacific date)"
+            python mlb_briefing.py --date "$DAY"
+            python track_results.py log "slate_$DAY.json" || true
+            python track_results.py close "slate_$DAY.json" || true
+            python track_results.py grade || true
+          fi
+          python render_cards.py "slate_$DAY.json"
+          cp "slate_$DAY.html" docs/index.html
           cp "slate_$DAY.html" docs/index.html
 
       - name: Publish

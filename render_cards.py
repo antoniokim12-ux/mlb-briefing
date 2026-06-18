@@ -81,6 +81,10 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
 .sb-lab{color:var(--amber);letter-spacing:.16em;text-transform:uppercase;font-size:10.5px;}
 .sb-stat{color:var(--bone);}
 .sb-stat b{color:var(--muted);font-weight:500;}
+.dayover{border:1px solid var(--line);border-radius:10px;background:var(--panel2);padding:30px 24px;text-align:center;margin:6px 0 0;}
+.dayover .lab{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--amber);}
+.dayover .big{font-family:'Archivo Narrow',sans-serif;font-weight:700;font-size:24px;margin:10px 0 6px;}
+.dayover .msg{font-size:14px;color:#D4D9DB;line-height:1.6;max-width:500px;margin:0 auto;}
 .lines{border-top:1px dashed var(--line);margin-top:13px;padding-top:12px;}
 .lines-h{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;}
 .line-row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:13px;}
@@ -271,6 +275,50 @@ def _cat(rows, kinds):
     return w, len(graded) - w, len(graded), len(logged)
 
 
+def _parse_game_time(s):
+    if not s:
+        return None
+    try:
+        return dt.datetime.fromisoformat(s.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def slate_is_over(slate):
+    """True once every game in the slate has started — nothing left to bet.
+    Uses each game's first-pitch time; if no times are known, treats the day as live."""
+    times = [t for g in slate.get("games", [])
+             if (t := _parse_game_time(g.get("game_time")))]
+    if not times:
+        return False
+    return max(times) <= dt.datetime.now(dt.timezone.utc)
+
+
+def _today_record(date):
+    """(wins, losses) for picks logged on this date, or None if nothing graded yet."""
+    try:
+        with open("picks_log.json") as f:
+            rows = json.load(f)
+    except (FileNotFoundError, ValueError):
+        return None
+    g = [e for e in rows if e.get("date") == date and e.get("result") in ("W", "L")]
+    if not g:
+        return None
+    w = sum(1 for e in g if e["result"] == "W")
+    return w, len(g) - w
+
+
+def render_dayover(slate):
+    """The end-of-day view: a wrap notice instead of the matchup cards."""
+    rec = _today_record(slate.get("date", ""))
+    today = (f'<div class="big">Today: {rec[0]}-{rec[1]}</div>'
+             if rec else '<div class="big">That\'s a wrap</div>')
+    return (f'<div class="dayover"><div class="lab">Day\'s done</div>{today}'
+            '<div class="msg">All of today\'s games are underway — nothing left to bet. '
+            'The scoreboard above keeps updating as games go final. '
+            'Check back tomorrow for the next card.</div></div>')
+
+
 def render_scoreboard():
     """Compact results strip from picks_log.json (if the tracker has run)."""
     try:
@@ -314,21 +362,29 @@ def render_scoreboard():
 
 def render(slate):
     date = slate.get("date", "")
-    cards = "".join(render_card(g) for g in slate.get("games", []))
     demo = " · SAMPLE DATA" if slate.get("_note") else ""
-    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
+    head = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MLB Briefing {esc(date)}</title><style>{CSS}</style></head>
 <body><div class="wrap">
 <div class="eyebrow">Daily Matchup Briefing · {esc(date)}{demo}</div>
-<h1>The Lineup Card</h1>
+<h1>The Lineup Card</h1>"""
+    foot = ('<div class="foot">+ favorable · ~ neutral · − caution&nbsp;&nbsp;|&nbsp;&nbsp;'
+            'decision-support only<br>bet what you can afford to lose · 21+ where legal</div>'
+            '</div></body></html>')
+
+    if slate_is_over(slate):
+        # Day's done — show results + a wrap notice, not the slate.
+        return f"{head}\n{render_scoreboard()}\n{render_dayover(slate)}\n{foot}"
+
+    cards = "".join(render_card(g) for g in slate.get("games", []))
+    return f"""{head}
 <p class="sub">The day's slate with the context that moves games — pitchers, platoon splits, park, weather — so you can read each matchup at a glance.</p>
 <div class="note"><b>How to read this.</b> <b style="color:var(--amber)">VALUE LOOK</b> flags games where today's factors lean toward the side the market rates <i>lower</i> — the classic place to hunt value. But it's a <i>candidate, not a verdict</i>: the market already prices these same factors into the line, so a VALUE LOOK means "worth checking against your price," not "the market is wrong." The strength dots show how many factors agree. Log your results over time to learn whether the flags actually hold up.</div>
 {render_scoreboard()}
 {render_pick(slate.get("games", []))}
 {cards if cards else '<p class="sub">No games in this slate.</p>'}
-<div class="foot">+ favorable · ~ neutral · − caution&nbsp;&nbsp;|&nbsp;&nbsp;decision-support only<br>bet what you can afford to lose · 21+ where legal</div>
-</div></body></html>"""
+{foot}"""
 
 
 def main():
