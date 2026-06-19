@@ -1,6 +1,6 @@
 {
   "date": "2026-06-19",
-  "generated": "2026-06-19T20:26:46",
+  "generated": "2026-06-19T21:10:09",
   "games": [
     {
       "game_pk": 824663,
@@ -73,14 +73,14 @@
       "weight": 1,
       "read": null,
       "total": {
-        "line": 14.5,
-        "over": -105,
-        "under": -124
+        "line": 18.5,
+        "over": -147,
+        "under": 113
       },
       "total_read": {
         "side": "under",
-        "line": 14.5,
-        "note": "Total 14.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.543 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 18.5,
+        "note": "Total 18.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.543 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -139,9 +139,9 @@
         "implied": 67.6
       },
       "weather": {
-        "temp_f": 76.3,
-        "wind_mph": 12.0,
-        "wind_dir_deg": 291
+        "temp_f": 75.9,
+        "wind_mph": 12.5,
+        "wind_dir_deg": 288
       },
       "factors": [
         {
@@ -205,8 +205,8 @@
         "pitcher_id": 695076,
         "pitcher_name": "Rhett Lowder",
         "pitcher_hand": null,
-        "ml": 224,
-        "implied": 30.9
+        "ml": 229,
+        "implied": 30.4
       },
       "home": {
         "team": "Yankees",
@@ -217,13 +217,13 @@
         "pitcher_id": 693645,
         "pitcher_name": "Cam Schlittler",
         "pitcher_hand": null,
-        "ml": -281,
-        "implied": 73.8
+        "ml": -286,
+        "implied": 74.1
       },
       "weather": {
-        "temp_f": 81.3,
-        "wind_mph": 13.2,
-        "wind_dir_deg": 288
+        "temp_f": 80.2,
+        "wind_mph": 9.9,
+        "wind_dir_deg": 265
       },
       "factors": [
         {
@@ -287,8 +287,8 @@
         "pitcher_id": 676571,
         "pitcher_name": "PJ Poulin",
         "pitcher_hand": null,
-        "ml": 129,
-        "implied": 43.7
+        "ml": 130,
+        "implied": 43.5
       },
       "home": {
         "team": "Rays",
@@ -299,13 +299,13 @@
         "pitcher_id": 643377,
         "pitcher_name": "Griffin Jax",
         "pitcher_hand": null,
-        "ml": -156,
-        "implied": 60.9
+        "ml": -157,
+        "implied": 61.1
       },
       "weather": {
-        "temp_f": 86.5,
-        "wind_mph": 11.0,
-        "wind_dir_deg": 243
+        "temp_f": 87.1,
+        "wind_mph": 10.0,
+        "wind_dir_deg": 241
       },
       "factors": [
         {
@@ -391,9 +391,9 @@
         "implied": 54.5
       },
       "weather": {
-        "temp_f": 86.6,
-        "wind_mph": 9.8,
-        "wind_dir_deg": 156
+        "temp_f": 86.9,
+        "wind_mph": 8.9,
+        "wind_dir_deg": 162
       },
       "factors": [],
       "lean": "even",
@@ -466,9 +466,9 @@
         "implied": 41.2
       },
       "weather": {
-        "temp_f": 83.5,
-        "wind_mph": 5.4,
-        "wind_dir_deg": 294
+        "temp_f": 83.2,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 311
       },
       "factors": [
         {
@@ -500,8 +500,28 @@
       "lat": 32.747299,
       "lon": -97.081818,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          665487,
+          669392,
+          701538,
+          592518,
+          657757,
+          593428,
+          664034,
+          695238,
+          660710
+        ],
+        "home": [
+          592626,
+          673962,
+          694671,
+          607043,
+          677649,
+          696030,
+          669394,
+          670032,
+          553869
+        ]
       },
       "away": {
         "team": "Padres",
@@ -512,8 +532,8 @@
         "pitcher_id": 681190,
         "pitcher_name": "Randy V\u00e1squez",
         "pitcher_hand": null,
-        "ml": 135,
-        "implied": 42.6
+        "ml": 136,
+        "implied": 42.4
       },
       "home": {
         "team": "Rangers",
@@ -524,40 +544,30 @@
         "pitcher_id": 594798,
         "pitcher_name": "Jacob deGrom",
         "pitcher_hand": null,
-        "ml": -163,
-        "implied": 62.0
+        "ml": -164,
+        "implied": 62.1
       },
-      "weather": {
-        "temp_f": 78.9,
-        "wind_mph": 10.3,
-        "wind_dir_deg": 74
-      },
+      "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rangers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Padres lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Jacob deGrom holds RHB to a 0.615 OPS; Padres project 67% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 7.0,
-        "over": -122,
-        "under": 102
+        "over": -120,
+        "under": -101
       },
       "total_read": {
         "side": null,
         "line": 7.0,
-        "note": "Total 7.0: no clear lean \u2014 starters roughly average (avg 0.699 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 7.0: no clear lean \u2014 starters roughly average (avg 0.702 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -568,7 +578,17 @@
       "lat": 29.756967,
       "lon": -95.355509,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          683953,
+          700932,
+          677587,
+          656555,
+          682177,
+          672356,
+          696135,
+          672275,
+          680757
+        ],
         "home": [
           665161,
           670541,
@@ -590,8 +610,8 @@
         "pitcher_id": 676440,
         "pitcher_name": "Tanner Bibee",
         "pitcher_hand": null,
-        "ml": 108,
-        "implied": 48.1
+        "ml": 104,
+        "implied": 49.0
       },
       "home": {
         "team": "Astros",
@@ -602,20 +622,20 @@
         "pitcher_id": 837227,
         "pitcher_name": "Tatsuya Imai",
         "pitcher_hand": null,
-        "ml": -131,
-        "implied": 56.7
+        "ml": -126,
+        "implied": 55.8
       },
       "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Tatsuya Imai is vulnerable to LHB (0.831 OPS) and Guardians skew L-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 8.5,
@@ -625,7 +645,7 @@
       "total_read": {
         "side": null,
         "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.707 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.768 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -636,7 +656,17 @@
       "lat": 39.051567,
       "lon": -94.480483,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          802139,
+          671056,
+          676475,
+          691023,
+          663457,
+          691026,
+          699625,
+          691458,
+          701675
+        ],
         "home": [
           695600,
           657041,
@@ -674,14 +704,7 @@
         "implied": 50.0
       },
       "weather": null,
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Cardinals lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -693,7 +716,7 @@
       "total_read": {
         "side": null,
         "line": 9.0,
-        "note": "Total 9.0: no clear lean \u2014 starters roughly average (avg 0.707 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 9.0: no clear lean \u2014 starters roughly average (avg 0.711 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -848,8 +871,8 @@
         "pitcher_id": 687570,
         "pitcher_name": "Connor Prielipp",
         "pitcher_hand": null,
-        "ml": 140,
-        "implied": 41.7
+        "ml": 144,
+        "implied": 41.0
       },
       "home": {
         "team": "D-backs",
@@ -860,8 +883,8 @@
         "pitcher_id": 647336,
         "pitcher_name": "Michael Soroka",
         "pitcher_hand": null,
-        "ml": -170,
-        "implied": 63.0
+        "ml": -175,
+        "implied": 63.6
       },
       "weather": null,
       "factors": [
@@ -927,7 +950,11 @@
         "ml": -219,
         "implied": 68.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 64.9,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 253
+      },
       "factors": [
         {
           "m": "~",
@@ -992,9 +1019,9 @@
         "implied": 52.8
       },
       "weather": {
-        "temp_f": 78.8,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 360
+        "temp_f": 79.7,
+        "wind_mph": 5.3,
+        "wind_dir_deg": 338
       },
       "factors": [
         {
