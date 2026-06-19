@@ -1,6 +1,6 @@
 {
   "date": "2026-06-19",
-  "generated": "2026-06-19T12:56:54",
+  "generated": "2026-06-19T13:56:40",
   "games": [
     {
       "game_pk": 824663,
@@ -59,14 +59,14 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 7.5,
-        "over": 102,
-        "under": -124
+        "line": 7.0,
+        "over": -118,
+        "under": -104
       },
       "total_read": {
         "side": "under",
-        "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.557 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 7.0,
+        "note": "Total 7.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.557 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -127,8 +127,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -110,
-        "under": -110
+        "over": -106,
+        "under": -114
       },
       "total_read": {
         "side": null,
@@ -260,14 +260,14 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.0,
-        "over": -110,
-        "under": -110
+        "line": 7.5,
+        "over": -120,
+        "under": -102
       },
       "total_read": {
         "side": null,
-        "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 starters roughly average (avg 0.719 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 7.5,
+        "note": "Total 7.5: no clear lean \u2014 starters roughly average (avg 0.719 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -289,8 +289,8 @@
         "pitcher_id": 694738,
         "pitcher_name": "Landen Roupp",
         "pitcher_hand": null,
-        "ml": 110,
-        "implied": 47.6
+        "ml": 100,
+        "implied": 50.0
       },
       "home": {
         "team": "Marlins",
@@ -301,8 +301,8 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": -130,
-        "implied": 56.5
+        "ml": -118,
+        "implied": 54.1
       },
       "weather": {
         "temp_f": 87.0,
@@ -328,8 +328,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -110,
-        "under": -110
+        "over": -115,
+        "under": -105
       },
       "total_read": {
         "side": null,
@@ -356,8 +356,8 @@
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": null,
-        "ml": -186,
-        "implied": 65.0
+        "ml": -166,
+        "implied": 62.4
       },
       "home": {
         "team": "Braves",
@@ -368,8 +368,8 @@
         "pitcher_id": 527048,
         "pitcher_name": "Mart\u00edn P\u00e9rez",
         "pitcher_hand": null,
-        "ml": 156,
-        "implied": 39.1
+        "ml": 140,
+        "implied": 41.7
       },
       "weather": {
         "temp_f": 84.6,
@@ -505,7 +505,11 @@
         "ml": -120,
         "implied": 54.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.4,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 16
+      },
       "factors": [
         {
           "m": "~",
@@ -525,8 +529,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -104,
-        "under": -118
+        "over": -106,
+        "under": -114
       },
       "total_read": {
         "side": null,
@@ -568,7 +572,11 @@
         "ml": 102,
         "implied": 49.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 86.2,
+        "wind_mph": 4.5,
+        "wind_dir_deg": 177
+      },
       "factors": [
         {
           "m": "~",
@@ -631,7 +639,11 @@
         "ml": 116,
         "implied": 46.3
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 85.2,
+        "wind_mph": 6.3,
+        "wind_dir_deg": 67
+      },
       "factors": [
         {
           "m": "~",
@@ -679,8 +691,8 @@
         "pitcher_id": 667755,
         "pitcher_name": "Jos\u00e9 Soriano",
         "pitcher_hand": null,
-        "ml": 130,
-        "implied": 43.5
+        "ml": 136,
+        "implied": 42.4
       },
       "home": {
         "team": "Athletics",
@@ -691,10 +703,14 @@
         "pitcher_id": 605488,
         "pitcher_name": "Jeffrey Springs",
         "pitcher_hand": null,
-        "ml": -154,
-        "implied": 60.6
+        "ml": -162,
+        "implied": 61.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 76.0,
+        "wind_mph": 12.0,
+        "wind_dir_deg": 235
+      },
       "factors": [
         {
           "m": "~",
@@ -757,11 +773,7 @@
         "ml": -168,
         "implied": 62.7
       },
-      "weather": {
-        "temp_f": 103.7,
-        "wind_mph": 12.6,
-        "wind_dir_deg": 237
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -824,11 +836,7 @@
         "ml": -200,
         "implied": 66.7
       },
-      "weather": {
-        "temp_f": 65.0,
-        "wind_mph": 8.8,
-        "wind_dir_deg": 254
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -891,11 +899,7 @@
         "ml": -130,
         "implied": 56.5
       },
-      "weather": {
-        "temp_f": 79.9,
-        "wind_mph": 5.3,
-        "wind_dir_deg": 345
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
