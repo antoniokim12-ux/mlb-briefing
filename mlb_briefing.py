@@ -48,6 +48,9 @@ import requests
 MLB_API = "https://statsapi.mlb.com/api/v1"
 OPEN_METEO = "https://api.open-meteo.com/v1/forecast"
 ODDS_API = "https://api.the-odds-api.com/v4/sports/baseball_mlb/odds"
+# Price off ONE consistent, liquid book so the favorite is stable and explainable.
+# Change to any The Odds API key: 'fanduel', 'betmgm', 'caesars', 'pinnacle', etc.
+PREFERRED_BOOK = "draftkings"
 ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
 TIMEOUT = 20
 SEASON = dt.date.today().year
@@ -271,36 +274,43 @@ def implied_prob(american):
 
 
 def get_odds(api_key):
-    """Pull moneyline + full-game totals (first book listed per event).
-    Returns {'ml': {team_norm: price}, 'totals': {matchup_key: {line, over, under}}}."""
-    empty = {"ml": {}, "totals": {}}
+    """Pull moneyline + totals from ONE named book (PREFERRED_BOOK), keeping each
+    game's prices paired and tagged with its start time so the right game in a
+    series/doubleheader can be matched. Returns {'events': [...], 'book': title}."""
+    empty = {"events": [], "book": None}
     if not api_key:
         return empty
     try:
         r = requests.get(ODDS_API, timeout=TIMEOUT, params={
-            "apiKey": api_key, "regions": "us", "markets": "h2h,totals",
+            "apiKey": api_key, "bookmakers": PREFERRED_BOOK, "markets": "h2h,totals",
             "oddsFormat": "american",
         })
         r.raise_for_status()
-        ml, totals = {}, {}
+        events, book_title = [], None
         for ev in r.json():
-            mkey = _matchup_key(ev.get("home_team", ""), ev.get("away_team", ""))
-            book = (ev.get("bookmakers") or [{}])[0]
-            for mkt in book.get("markets", []):
-                k = mkt.get("key")
-                if k == "h2h":
+            bk = (ev.get("bookmakers") or [{}])[0]
+            if not bk:
+                continue
+            book_title = bk.get("title") or book_title
+            ml, line, over, under = {}, None, None, None
+            for mkt in bk.get("markets", []):
+                if mkt.get("key") == "h2h":
                     for oc in mkt.get("outcomes", []):
                         ml[_norm(oc.get("name", ""))] = oc.get("price")
-                elif k == "totals":
-                    line = over = under = None
+                elif mkt.get("key") == "totals":
                     for oc in mkt.get("outcomes", []):
                         if oc.get("name") == "Over":
                             over, line = oc.get("price"), oc.get("point")
                         elif oc.get("name") == "Under":
                             under, line = oc.get("price"), oc.get("point")
-                    if line is not None:
-                        totals[mkey] = {"line": line, "over": over, "under": under}
-        return {"ml": ml, "totals": totals}
+            events.append({
+                "mkey": _matchup_key(ev.get("home_team", ""), ev.get("away_team", "")),
+                "commence": ev.get("commence_time"),
+                "ml": ml,
+                "total": ({"line": line, "over": over, "under": under}
+                          if line is not None else None),
+            })
+        return {"events": events, "book": book_title}
     except (requests.RequestException, ValueError):
         return empty
 
@@ -313,8 +323,27 @@ def _norm(name):
     return "".join(ch for ch in name.lower() if ch.isalnum())
 
 
+def _parse_iso(s):
+    if not s:
+        return None
+    try:
+        return dt.datetime.fromisoformat(s.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
 def attach_odds(game, odds):
-    ml = odds.get("ml", {})
+    """Attach the odds event that matches THIS game — same matchup AND closest start
+    time, so a series or doubleheader can't pull the wrong day's line."""
+    mkey = _matchup_key(game["home"]["team_full"], game["away"]["team_full"])
+    evs = [e for e in odds.get("events", []) if e["mkey"] == mkey]
+    if not evs:
+        return
+    gt = _parse_iso(game.get("game_time"))
+    if gt:  # pick the event whose first pitch is nearest this game's
+        evs.sort(key=lambda e: abs(((_parse_iso(e.get("commence")) or gt) - gt).total_seconds()))
+    ev = evs[0]
+    ml = ev["ml"]
     for side in ("away", "home"):
         s = game[side]
         m = ml.get(_norm(s["team_full"])) or ml.get(_norm(s["team"]))
@@ -322,10 +351,8 @@ def attach_odds(game, odds):
             s["ml"] = m
             p = implied_prob(m)
             s["implied"] = round(p * 100, 1) if p is not None else None
-    totals = odds.get("totals", {})
-    key = _matchup_key(game["home"]["team_full"], game["away"]["team_full"])
-    game["total"] = totals.get(key) or totals.get(
-        _matchup_key(game["home"]["team"], game["away"]["team"]))
+    game["total"] = ev.get("total")
+    game["odds_book"] = odds.get("book")
 
 
 # ───────────────────────── Factor scoring (transparent heuristic) ─────────────────────────

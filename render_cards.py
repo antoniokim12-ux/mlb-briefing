@@ -213,11 +213,13 @@ def render_card(g):
     w = g.get("weather") or {}
     wx = (f'{w.get("temp_f"):.0f}°F · wind {w.get("wind_mph"):.0f}mph'
           if w.get("temp_f") is not None else "—")
+    book = (f'<span><b>Book</b> {esc(g.get("odds_book"))}</span>'
+            if g.get("odds_book") else "")
 
     return f"""<div class="card">
   <div class="head">{side_html(away, "away")}{side_html(home, "home")}</div>
   <div class="bar"><i style="width:{aw:.0f}%;background:var(--amber)"></i><i style="width:{100-aw:.0f}%;background:var(--steel)"></i></div>
-  <div class="meta"><span><b>Park</b> {esc(g.get('venue'))}</span><span><b>Wx</b> {wx}</span></div>
+  <div class="meta"><span><b>Park</b> {esc(g.get('venue'))}</span><span><b>Wx</b> {wx}</span>{book}</div>
   <div class="body">
     <div class="leanrow">
       <span class="pill" style="background:{pbg};color:{pfg}">{txt}</span>
