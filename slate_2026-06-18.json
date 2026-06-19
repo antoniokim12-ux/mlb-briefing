@@ -1,6 +1,6 @@
 {
   "date": "2026-06-18",
-  "generated": "2026-06-18T23:30:47",
+  "generated": "2026-06-19T00:16:23",
   "games": [
     {
       "game_pk": 824748,
@@ -57,9 +57,9 @@
         "implied": 47.6
       },
       "weather": {
-        "temp_f": 79.2,
-        "wind_mph": 17.1,
-        "wind_dir_deg": 158
+        "temp_f": 69.5,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 232
       },
       "factors": [
         {
@@ -67,12 +67,6 @@
           "side": "away",
           "label": "Handedness matchup",
           "text": "Trey Yesavage holds RHB to a 0.659 OPS; Red Sox project 75% R-handed today."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "17 mph wind (dir 158\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "away",
@@ -136,9 +130,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 68.7,
-        "wind_mph": 11.6,
-        "wind_dir_deg": 293
+        "temp_f": 70.8,
+        "wind_mph": 9.7,
+        "wind_dir_deg": 265
       },
       "factors": [
         {
@@ -211,13 +205,13 @@
         "pitcher_id": 683004,
         "pitcher_name": "Jack Leiter",
         "pitcher_hand": null,
-        "ml": -158,
-        "implied": 61.2
+        "ml": -162,
+        "implied": 61.8
       },
       "weather": {
-        "temp_f": 93.5,
-        "wind_mph": 10.8,
-        "wind_dir_deg": 132
+        "temp_f": 91.8,
+        "wind_mph": 10.0,
+        "wind_dir_deg": 119
       },
       "factors": [],
       "lean": "even",
@@ -281,9 +275,9 @@
         "implied": 56.5
       },
       "weather": {
-        "temp_f": 73.4,
-        "wind_mph": 9.9,
-        "wind_dir_deg": 355
+        "temp_f": 76.5,
+        "wind_mph": 9.0,
+        "wind_dir_deg": 356
       },
       "factors": [
         {
@@ -338,8 +332,8 @@
         "pitcher_id": 640455,
         "pitcher_name": "Sean Manaea",
         "pitcher_hand": null,
-        "ml": -250,
-        "implied": 71.4
+        "ml": 130,
+        "implied": 43.5
       },
       "home": {
         "team": "Phillies",
@@ -350,13 +344,13 @@
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": null,
-        "ml": 190,
-        "implied": 34.5
+        "ml": -166,
+        "implied": 62.4
       },
       "weather": {
-        "temp_f": 86.6,
-        "wind_mph": 18.4,
-        "wind_dir_deg": 237
+        "temp_f": 81.6,
+        "wind_mph": 13.9,
+        "wind_dir_deg": 233
       },
       "factors": [
         {
@@ -364,26 +358,20 @@
           "side": "home",
           "label": "Handedness matchup",
           "text": "Aaron Nola is vulnerable to LHB (0.881 OPS) and Mets skew L-handed."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "18 mph wind (dir 237\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "away",
       "weight": 1,
       "read": null,
       "total": {
-        "line": 11.5,
-        "over": -102,
-        "under": -130
+        "line": 10.5,
+        "over": -118,
+        "under": -112
       },
       "total_read": {
         "side": "over",
-        "line": 11.5,
-        "note": "Total 11.5: leans OVER \u2014 both starters look hittable (avg 0.838 OPS-against). Strong wind (18 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 10.5,
+        "note": "Total 10.5: leans OVER \u2014 both starters look hittable (avg 0.838 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -441,9 +429,9 @@
         "implied": 70.6
       },
       "weather": {
-        "temp_f": 86.1,
-        "wind_mph": 19.0,
-        "wind_dir_deg": 245
+        "temp_f": 82.6,
+        "wind_mph": 13.6,
+        "wind_dir_deg": 228
       },
       "factors": [
         {
@@ -451,26 +439,20 @@
           "side": "away",
           "label": "Handedness matchup",
           "text": "Bryan Hudson is vulnerable to LHB (0.814 OPS) and Yankees skew L-handed."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "19 mph wind (dir 245\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "home",
       "weight": 1,
       "read": null,
       "total": {
-        "line": 9.5,
-        "over": 102,
-        "under": -136
+        "line": 6.5,
+        "over": -146,
+        "under": 110
       },
       "total_read": {
         "side": null,
-        "line": 9.5,
-        "note": "Total 9.5: no clear lean \u2014 starters roughly average (avg 0.761 OPS-against). Strong wind (19 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 6.5,
+        "note": "Total 6.5: no clear lean \u2014 starters roughly average (avg 0.761 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -528,9 +510,9 @@
         "implied": 50.0
       },
       "weather": {
-        "temp_f": 75.5,
-        "wind_mph": 6.6,
-        "wind_dir_deg": 327
+        "temp_f": 74.5,
+        "wind_mph": 4.9,
+        "wind_dir_deg": 321
       },
       "factors": [
         {
@@ -599,9 +581,9 @@
         "implied": 64.8
       },
       "weather": {
-        "temp_f": 75.6,
-        "wind_mph": 15.1,
-        "wind_dir_deg": 229
+        "temp_f": 75.9,
+        "wind_mph": 14.7,
+        "wind_dir_deg": 227
       },
       "factors": [
         {
@@ -609,12 +591,6 @@
           "side": "none",
           "label": "Lineups",
           "text": "Angels lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "15 mph wind (dir 229\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -622,13 +598,13 @@
       "read": null,
       "total": {
         "line": 10.0,
-        "over": -110,
-        "under": -110
+        "over": -115,
+        "under": -105
       },
       "total_read": {
         "side": "over",
         "line": 10.0,
-        "note": "Total 10.0: leans OVER \u2014 both starters look hittable (avg 0.896 OPS-against). Strong wind (15 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 10.0: leans OVER \u2014 both starters look hittable (avg 0.896 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -666,9 +642,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 76.9,
-        "wind_mph": 7.6,
-        "wind_dir_deg": 180
+        "temp_f": 72.9,
+        "wind_mph": 10.4,
+        "wind_dir_deg": 174
       },
       "factors": [
         {
