@@ -1,6 +1,6 @@
 {
   "date": "2026-06-18",
-  "generated": "2026-06-19T00:36:13",
+  "generated": "2026-06-19T00:44:54",
   "games": [
     {
       "game_pk": 824748,
@@ -126,8 +126,8 @@
         "pitcher_id": 675660,
         "pitcher_name": "Shane Drohan",
         "pitcher_hand": null,
-        "ml": null,
-        "implied": null
+        "ml": -148,
+        "implied": 59.7
       },
       "weather": {
         "temp_f": 70.8,
@@ -332,8 +332,8 @@
         "pitcher_id": 640455,
         "pitcher_name": "Sean Manaea",
         "pitcher_hand": null,
-        "ml": 116,
-        "implied": 46.3
+        "ml": -102,
+        "implied": 50.5
       },
       "home": {
         "team": "Phillies",
@@ -344,8 +344,8 @@
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": null,
-        "ml": -148,
-        "implied": 59.7
+        "ml": -125,
+        "implied": 55.6
       },
       "weather": {
         "temp_f": 81.6,
@@ -365,8 +365,8 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": 114,
-        "under": -152
+        "over": 128,
+        "under": -172
       },
       "total_read": {
         "side": "over",
@@ -446,8 +446,8 @@
       "read": null,
       "total": {
         "line": 5.5,
-        "over": -130,
-        "under": -102
+        "over": 114,
+        "under": -152
       },
       "total_read": {
         "side": null,
@@ -543,7 +543,17 @@
       "lat": 38.57994,
       "lon": -121.51246,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          687263,
+          663611,
+          666176,
+          687093,
+          672724,
+          695681,
+          694203,
+          681351,
+          642350
+        ],
         "home": [
           680869,
           701762,
@@ -583,14 +593,14 @@
       "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Angels lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Gage Jump holds RHB to a 0.542 OPS; Angels project 100% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 10.0,
@@ -600,7 +610,7 @@
       "total_read": {
         "side": "over",
         "line": 10.0,
-        "note": "Total 10.0: leans OVER \u2014 both starters look hittable (avg 0.896 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 10.0: leans OVER \u2014 both starters look hittable (avg 0.880 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -634,8 +644,8 @@
         "pitcher_id": 527048,
         "pitcher_name": "Mart\u00edn P\u00e9rez",
         "pitcher_hand": null,
-        "ml": null,
-        "implied": null
+        "ml": 126,
+        "implied": 44.2
       },
       "weather": null,
       "factors": [
