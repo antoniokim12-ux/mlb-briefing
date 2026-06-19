@@ -85,6 +85,18 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
 .dayover .lab{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--amber);}
 .dayover .big{font-family:'Archivo Narrow',sans-serif;font-weight:700;font-size:24px;margin:10px 0 6px;}
 .dayover .msg{font-size:14px;color:#D4D9DB;line-height:1.6;max-width:500px;margin:0 auto;}
+.todays{border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:15px 17px;margin:6px 0 0;}
+.todays .lab{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--amber);margin-bottom:8px;}
+.todays .grp{display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin:8px 0;}
+.todays .gl{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);width:42px;flex:none;}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;padding:4px 9px;border-radius:7px;border:1px solid var(--line);background:var(--panel2);}
+.chip.val{border-color:rgba(242,181,59,.5);}
+.chip.lean{border-color:rgba(70,180,122,.45);}
+.chip.ou{border-color:rgba(111,168,199,.45);}
+.chip .px{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--muted);font-size:12px;}
+.chip .gm{color:var(--muted);font-weight:500;font-size:11px;}
+.todays .none{color:var(--muted);font-size:12px;}
+.todays .dis{color:var(--muted);font-size:11.5px;margin-top:10px;line-height:1.5;}
 .lines{border-top:1px dashed var(--line);margin-top:13px;padding-top:12px;}
 .lines-h{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;}
 .line-row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:13px;}
@@ -241,6 +253,51 @@ def pick_of_the_day(games):
     return best
 
 
+def render_picks_today(games):
+    """A roundup of every pick the bot is following today, grouped by bet type."""
+    values, leans_, totals = [], [], []
+    for g in games:
+        txt = value_assessment(g)[0]
+        lean = g.get("lean")
+        if lean in ("away", "home"):
+            team = g[lean].get("team") or lean.title()
+            chip = (esc(team), fmt_ml(g[lean].get("ml")))
+            if txt.startswith("VALUE"):
+                values.append(chip)
+            elif txt.startswith("LEAN"):
+                leans_.append(chip)
+        tr = g.get("total_read") or {}
+        t = g.get("total") or {}
+        if tr.get("side") in ("over", "under") and t:
+            price = t.get("over") if tr["side"] == "over" else t.get("under")
+            gm = f'{g["away"].get("abbr", "")}@{g["home"].get("abbr", "")}'
+            totals.append((f'{tr["side"].title()} {esc(t.get("line"))}', fmt_ml(price), gm))
+
+    if not (values or leans_ or totals):
+        return ('<div class="todays"><div class="lab">Today\'s Picks</div>'
+                '<div class="none">No leans against the prices yet — common before lineups '
+                'post. Check back a couple hours before first pitch.</div></div>')
+
+    def ml_chips(items, cls):
+        if not items:
+            return '<span class="none">none</span>'
+        return "".join(f'<span class="chip {cls}">{t}<span class="px">{p}</span></span>'
+                       for t, p in items)
+
+    def ou_chips(items):
+        if not items:
+            return '<span class="none">none</span>'
+        return "".join(f'<span class="chip ou">{lbl}<span class="px">{p}</span>'
+                       f'<span class="gm">{gm}</span></span>' for lbl, p, gm in items)
+
+    return ('<div class="todays"><div class="lab">Today\'s Picks</div>'
+            f'<div class="grp"><span class="gl">Lean</span>{ml_chips(leans_, "lean")}</div>'
+            f'<div class="grp"><span class="gl">Value</span>{ml_chips(values, "val")}</div>'
+            f'<div class="grp"><span class="gl">O/U</span>{ou_chips(totals)}</div>'
+            '<div class="dis">Candidates to check against your price — not locks. '
+            'The market already prices the same factors in.</div></div>')
+
+
 def render_pick(games):
     best = pick_of_the_day(games)
     if not best:
@@ -382,7 +439,7 @@ def render(slate):
 <p class="sub">The day's slate with the context that moves games — pitchers, platoon splits, park, weather — so you can read each matchup at a glance.</p>
 <div class="note"><b>How to read this.</b> <b style="color:var(--amber)">VALUE LOOK</b> flags games where today's factors lean toward the side the market rates <i>lower</i> — the classic place to hunt value. But it's a <i>candidate, not a verdict</i>: the market already prices these same factors into the line, so a VALUE LOOK means "worth checking against your price," not "the market is wrong." The strength dots show how many factors agree. Log your results over time to learn whether the flags actually hold up.</div>
 {render_scoreboard()}
-{render_pick(slate.get("games", []))}
+{render_picks_today(slate.get("games", []))}
 {cards if cards else '<p class="sub">No games in this slate.</p>'}
 {foot}"""
 
