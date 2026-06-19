@@ -1,6 +1,6 @@
 {
   "date": "2026-06-19",
-  "generated": "2026-06-19T22:16:56",
+  "generated": "2026-06-19T22:36:57",
   "games": [
     {
       "game_pk": 824663,
@@ -205,8 +205,8 @@
         "pitcher_id": 695076,
         "pitcher_name": "Rhett Lowder",
         "pitcher_hand": null,
-        "ml": 233,
-        "implied": 30.0
+        "ml": 230,
+        "implied": 30.3
       },
       "home": {
         "team": "Yankees",
@@ -217,8 +217,8 @@
         "pitcher_id": 693645,
         "pitcher_name": "Cam Schlittler",
         "pitcher_hand": null,
-        "ml": -292,
-        "implied": 74.5
+        "ml": -288,
+        "implied": 74.2
       },
       "weather": {
         "temp_f": 80.6,
@@ -450,8 +450,8 @@
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": null,
-        "ml": -180,
-        "implied": 64.3
+        "ml": -175,
+        "implied": 63.6
       },
       "home": {
         "team": "Braves",
@@ -462,8 +462,8 @@
         "pitcher_id": 527048,
         "pitcher_name": "Mart\u00edn P\u00e9rez",
         "pitcher_hand": null,
-        "ml": 148,
-        "implied": 40.3
+        "ml": 144,
+        "implied": 41.0
       },
       "weather": {
         "temp_f": 80.8,
@@ -814,7 +814,17 @@
       "lat": 38.57994,
       "lon": -121.51246,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          687263,
+          694384,
+          666176,
+          672724,
+          695681,
+          694203,
+          681351,
+          685133,
+          642350
+        ],
         "home": [
           680869,
           701762,
@@ -836,8 +846,8 @@
         "pitcher_id": 667755,
         "pitcher_name": "Jos\u00e9 Soriano",
         "pitcher_hand": null,
-        "ml": 135,
-        "implied": 42.6
+        "ml": 130,
+        "implied": 43.5
       },
       "home": {
         "team": "Athletics",
@@ -848,8 +858,8 @@
         "pitcher_id": 605488,
         "pitcher_name": "Jeffrey Springs",
         "pitcher_hand": null,
-        "ml": -163,
-        "implied": 62.0
+        "ml": -157,
+        "implied": 61.1
       },
       "weather": {
         "temp_f": 75.1,
@@ -858,14 +868,14 @@
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Angels lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Jeffrey Springs is vulnerable to RHB (0.831 OPS) and Angels skew R-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 10.0,
@@ -873,9 +883,9 @@
         "under": -110
       },
       "total_read": {
-        "side": null,
+        "side": "over",
         "line": 10.0,
-        "note": "Total 10.0: no clear lean \u2014 starters roughly average (avg 0.766 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 10.0: leans OVER \u2014 both starters look hittable (avg 0.777 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -1021,7 +1031,17 @@
       "lat": 47.591333,
       "lon": -122.33251,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          681508,
+          678882,
+          677800,
+          575929,
+          680776,
+          643396,
+          702332,
+          665966,
+          655316
+        ],
         "home": [
           608701,
           663728,
@@ -1061,14 +1081,14 @@
       "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Red Sox lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Bryce Miller holds RHB to a 0.550 OPS; Red Sox project 75% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 6.5,
@@ -1078,7 +1098,7 @@
       "total_read": {
         "side": "under",
         "line": 6.5,
-        "note": "Total 6.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.550 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 6.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.568 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     }
