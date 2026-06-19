@@ -1,6 +1,6 @@
 {
   "date": "2026-06-18",
-  "generated": "2026-06-19T00:16:23",
+  "generated": "2026-06-19T00:36:13",
   "games": [
     {
       "game_pk": 824748,
@@ -332,8 +332,8 @@
         "pitcher_id": 640455,
         "pitcher_name": "Sean Manaea",
         "pitcher_hand": null,
-        "ml": 130,
-        "implied": 43.5
+        "ml": 116,
+        "implied": 46.3
       },
       "home": {
         "team": "Phillies",
@@ -344,8 +344,8 @@
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": null,
-        "ml": -166,
-        "implied": 62.4
+        "ml": -148,
+        "implied": 59.7
       },
       "weather": {
         "temp_f": 81.6,
@@ -364,14 +364,14 @@
       "weight": 1,
       "read": null,
       "total": {
-        "line": 10.5,
-        "over": -118,
-        "under": -112
+        "line": 9.5,
+        "over": 114,
+        "under": -152
       },
       "total_read": {
         "side": "over",
-        "line": 10.5,
-        "note": "Total 10.5: leans OVER \u2014 both starters look hittable (avg 0.838 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 9.5,
+        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.838 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -445,14 +445,14 @@
       "weight": 1,
       "read": null,
       "total": {
-        "line": 6.5,
-        "over": -146,
-        "under": 110
+        "line": 5.5,
+        "over": -130,
+        "under": -102
       },
       "total_read": {
         "side": null,
-        "line": 6.5,
-        "note": "Total 6.5: no clear lean \u2014 starters roughly average (avg 0.761 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 5.5,
+        "note": "Total 5.5: no clear lean \u2014 starters roughly average (avg 0.761 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -580,11 +580,7 @@
         "ml": -184,
         "implied": 64.8
       },
-      "weather": {
-        "temp_f": 75.9,
-        "wind_mph": 14.7,
-        "wind_dir_deg": 227
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -641,11 +637,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 72.9,
-        "wind_mph": 10.4,
-        "wind_dir_deg": 174
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
