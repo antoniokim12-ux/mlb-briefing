@@ -1,6 +1,6 @@
 {
   "date": "2026-06-18",
-  "generated": "2026-06-19T00:44:54",
+  "generated": "2026-06-19T04:04:58",
   "games": [
     {
       "game_pk": 824748,
@@ -41,8 +41,8 @@
         "pitcher_id": 702056,
         "pitcher_name": "Trey Yesavage",
         "pitcher_hand": null,
-        "ml": null,
-        "implied": null
+        "ml": 100,
+        "implied": 50.0
       },
       "home": {
         "team": "Red Sox",
@@ -57,9 +57,9 @@
         "implied": 47.6
       },
       "weather": {
-        "temp_f": 69.5,
-        "wind_mph": 5.4,
-        "wind_dir_deg": 232
+        "temp_f": 68.0,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 207
       },
       "factors": [
         {
@@ -126,13 +126,13 @@
         "pitcher_id": 675660,
         "pitcher_name": "Shane Drohan",
         "pitcher_hand": null,
-        "ml": -148,
-        "implied": 59.7
+        "ml": -174,
+        "implied": 63.5
       },
       "weather": {
-        "temp_f": 70.8,
-        "wind_mph": 9.7,
-        "wind_dir_deg": 265
+        "temp_f": 71.5,
+        "wind_mph": 8.3,
+        "wind_dir_deg": 268
       },
       "factors": [
         {
@@ -209,8 +209,8 @@
         "implied": 61.8
       },
       "weather": {
-        "temp_f": 91.8,
-        "wind_mph": 10.0,
+        "temp_f": 93.2,
+        "wind_mph": 10.2,
         "wind_dir_deg": 119
       },
       "factors": [],
@@ -275,9 +275,9 @@
         "implied": 56.5
       },
       "weather": {
-        "temp_f": 76.5,
-        "wind_mph": 9.0,
-        "wind_dir_deg": 356
+        "temp_f": 78.4,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 346
       },
       "factors": [
         {
@@ -328,51 +328,43 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "33-41",
+        "record": "34-41",
         "pitcher_id": 640455,
         "pitcher_name": "Sean Manaea",
         "pitcher_hand": null,
-        "ml": -102,
-        "implied": 50.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Phillies",
         "team_full": "Philadelphia Phillies",
         "abbr": "PHI",
         "team_id": 143,
-        "record": "40-34",
+        "record": "40-35",
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": null,
-        "ml": -125,
-        "implied": 55.6
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 81.6,
-        "wind_mph": 13.9,
-        "wind_dir_deg": 233
+        "temp_f": 84.8,
+        "wind_mph": 14.9,
+        "wind_dir_deg": 234
       },
       "factors": [
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Aaron Nola is vulnerable to LHB (0.881 OPS) and Mets skew L-handed."
+          "text": "Aaron Nola is vulnerable to LHB (0.908 OPS) and Mets skew L-handed."
         }
       ],
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 9.5,
-        "over": 128,
-        "under": -172
-      },
-      "total_read": {
-        "side": "over",
-        "line": 9.5,
-        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.838 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
-      }
+      "total": null,
+      "total_read": null
     },
     {
       "game_pk": 823533,
@@ -409,51 +401,49 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "38-34",
+        "record": "39-34",
         "pitcher_id": 663542,
         "pitcher_name": "Bryan Hudson",
         "pitcher_hand": null,
-        "ml": 198,
-        "implied": 33.6
+        "ml": 205,
+        "implied": 32.8
       },
       "home": {
         "team": "Yankees",
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "45-27",
+        "record": "45-28",
         "pitcher_id": 677960,
         "pitcher_name": "Ryan Weathers",
         "pitcher_hand": null,
-        "ml": -240,
-        "implied": 70.6
+        "ml": -270,
+        "implied": 73.0
       },
       "weather": {
-        "temp_f": 82.6,
-        "wind_mph": 13.6,
-        "wind_dir_deg": 228
+        "temp_f": 83.9,
+        "wind_mph": 13.8,
+        "wind_dir_deg": 230
       },
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Bryan Hudson is vulnerable to LHB (0.814 OPS) and Yankees skew L-handed."
+          "text": "Bryan Hudson is vulnerable to LHB (0.810 OPS) and Yankees skew L-handed."
+        },
+        {
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Ryan Weathers holds RHB to a 0.675 OPS; White Sox project 71% R-handed today."
         }
       ],
       "lean": "home",
-      "weight": 1,
+      "weight": 2,
       "read": null,
-      "total": {
-        "line": 5.5,
-        "over": 114,
-        "under": -152
-      },
-      "total_read": {
-        "side": null,
-        "line": 5.5,
-        "note": "Total 5.5: no clear lean \u2014 starters roughly average (avg 0.761 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
-      }
+      "total": null,
+      "total_read": null
     },
     {
       "game_pk": 824098,
@@ -490,50 +480,56 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "40-32",
+        "record": "40-33",
         "pitcher_id": 669461,
         "pitcher_name": "Matthew Liberatore",
         "pitcher_hand": null,
-        "ml": -118,
-        "implied": 54.1
+        "ml": -124,
+        "implied": 55.4
       },
       "home": {
         "team": "Royals",
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "30-45",
+        "record": "31-45",
         "pitcher_id": 702070,
         "pitcher_name": "Noah Cameron",
         "pitcher_hand": null,
-        "ml": 100,
-        "implied": 50.0
+        "ml": 106,
+        "implied": 48.5
       },
       "weather": {
-        "temp_f": 74.5,
-        "wind_mph": 4.9,
-        "wind_dir_deg": 321
+        "temp_f": 75.2,
+        "wind_mph": 3.3,
+        "wind_dir_deg": 318
       },
       "factors": [
+        {
+          "m": "-",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Matthew Liberatore is vulnerable to RHB (0.830 OPS) and Royals skew R-handed."
+        },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Noah Cameron holds RHB to a 0.657 OPS; Cardinals project 78% R-handed today."
+          "text": "Noah Cameron holds RHB to a 0.676 OPS; Cardinals project 78% R-handed today."
         }
       ],
       "lean": "home",
-      "weight": 1,
+      "weight": 2,
       "read": null,
       "total": {
-        "line": 9.5,
-        "over": 100,
-        "under": -122
+        "line": 9.0,
+        "over": -115,
+        "under": -105
       },
       "total_read": {
         "side": null,
-        "line": 9.5,
-        "note": "Total 9.5: no clear lean \u2014 starters roughly average (avg 0.716 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 9.0,
+        "note": "Total 9.0: no clear lean \u2014 starters roughly average (avg 0.753 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -575,8 +571,8 @@
         "pitcher_id": 696270,
         "pitcher_name": "Ryan Johnson",
         "pitcher_hand": null,
-        "ml": 154,
-        "implied": 39.4
+        "ml": 136,
+        "implied": 42.4
       },
       "home": {
         "team": "Athletics",
@@ -587,10 +583,14 @@
         "pitcher_id": 695611,
         "pitcher_name": "Gage Jump",
         "pitcher_hand": null,
-        "ml": -184,
-        "implied": 64.8
+        "ml": -162,
+        "implied": 61.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 77.8,
+        "wind_mph": 13.1,
+        "wind_dir_deg": 226
+      },
       "factors": [
         {
           "m": "+",
@@ -604,8 +604,8 @@
       "read": null,
       "total": {
         "line": 10.0,
-        "over": -115,
-        "under": -105
+        "over": -104,
+        "under": -118
       },
       "total_read": {
         "side": "over",
@@ -644,10 +644,14 @@
         "pitcher_id": 527048,
         "pitcher_name": "Mart\u00edn P\u00e9rez",
         "pitcher_hand": null,
-        "ml": 126,
-        "implied": 44.2
+        "ml": 146,
+        "implied": 40.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 72.7,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 138
+      },
       "factors": [
         {
           "m": "~",

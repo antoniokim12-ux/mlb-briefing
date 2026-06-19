@@ -1377,19 +1377,19 @@
     "pick_team": "Blue Jays",
     "pick_side": "away",
     "opp_team": "Red Sox",
-    "log_ml": 126,
-    "log_implied": 44.2,
-    "log_fair": 46.9,
+    "log_ml": 100,
+    "log_implied": 50.0,
+    "log_fair": 51.2,
     "weight": 1,
-    "kind": "value",
-    "is_top": true,
+    "kind": "lean",
+    "is_top": false,
     "close_ml": null,
     "close_fair": null,
     "clv_pp": null,
     "result": "W",
     "pick_score": 4,
     "opp_score": 3,
-    "profit": 1.26
+    "profit": 1.0
   },
   {
     "key": "2026-06-18:824748:total",
@@ -1505,11 +1505,11 @@
     "close_line": null,
     "close_fair": null,
     "clv_pp": null,
-    "result": null,
-    "total_runs": null,
+    "result": "W",
+    "total_runs": 10,
     "pick_score": null,
     "opp_score": null,
-    "profit": null
+    "profit": 1.14
   },
   {
     "key": "2026-06-18:824911:total",
@@ -1553,11 +1553,11 @@
     "close_line": 9.5,
     "close_fair": 47.6,
     "clv_pp": 0.0,
-    "result": null,
-    "total_runs": null,
+    "result": "W",
+    "total_runs": 20,
     "pick_score": null,
     "opp_score": null,
-    "profit": null
+    "profit": 1.0
   },
   {
     "key": "2026-06-18:823125",
@@ -1596,10 +1596,10 @@
     "close_ml": -240,
     "close_fair": 67.8,
     "clv_pp": 3.1,
-    "result": null,
-    "pick_score": null,
-    "opp_score": null,
-    "profit": null
+    "result": "L",
+    "pick_score": 1,
+    "opp_score": 5,
+    "profit": -1.0
   },
   {
     "key": "2026-06-18:824098",
@@ -1617,10 +1617,10 @@
     "close_ml": 100,
     "close_fair": 48.0,
     "clv_pp": 0.0,
-    "result": null,
-    "pick_score": null,
-    "opp_score": null,
-    "profit": null
+    "result": "W",
+    "pick_score": 14,
+    "opp_score": 6,
+    "profit": 1.0
   },
   {
     "key": "2026-06-18:823448",
@@ -1638,10 +1638,10 @@
     "close_ml": null,
     "close_fair": null,
     "clv_pp": null,
-    "result": null,
-    "pick_score": null,
-    "opp_score": null,
-    "profit": null
+    "result": "W",
+    "pick_score": 6,
+    "opp_score": 4,
+    "profit": 1.3
   },
   {
     "key": "2026-06-18:824989:total",
