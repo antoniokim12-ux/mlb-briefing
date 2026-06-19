@@ -1,6 +1,6 @@
 {
   "date": "2026-06-19",
-  "generated": "2026-06-19T19:49:40",
+  "generated": "2026-06-19T20:05:36",
   "games": [
     {
       "game_pk": 824663,
@@ -413,7 +413,17 @@
       "lat": 33.890672,
       "lon": -84.467641,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          592885,
+          694192,
+          668930,
+          661388,
+          669003,
+          683734,
+          663368,
+          806198,
+          687401
+        ],
         "home": [
           686948,
           645277,
@@ -457,14 +467,14 @@
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Mart\u00edn P\u00e9rez holds RHB to a 0.626 OPS; Brewers project 62% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 7.5,
@@ -474,7 +484,7 @@
       "total_read": {
         "side": "under",
         "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.549 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.544 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -552,7 +562,17 @@
       "lon": -95.355509,
       "lineup_ids": {
         "away": [],
-        "home": []
+        "home": [
+          665161,
+          670541,
+          572233,
+          670623,
+          514888,
+          673237,
+          701358,
+          694388,
+          676694
+        ]
       },
       "away": {
         "team": "Guardians",
@@ -584,12 +604,6 @@
         "wind_dir_deg": 63
       },
       "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Astros lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
         {
           "m": "~",
           "side": "none",
@@ -661,7 +675,11 @@
         "ml": 106,
         "implied": 48.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 86.4,
+        "wind_mph": 6.3,
+        "wind_dir_deg": 197
+      },
       "factors": [
         {
           "m": "~",
@@ -728,7 +746,11 @@
         "ml": 176,
         "implied": 36.2
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 84.6,
+        "wind_mph": 7.8,
+        "wind_dir_deg": 78
+      },
       "factors": [
         {
           "m": "~",
@@ -785,7 +807,11 @@
         "ml": -156,
         "implied": 60.9
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 74.6,
+        "wind_mph": 12.5,
+        "wind_dir_deg": 235
+      },
       "factors": [
         {
           "m": "~",
