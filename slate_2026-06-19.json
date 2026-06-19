@@ -1,6 +1,6 @@
 {
   "date": "2026-06-19",
-  "generated": "2026-06-19T14:24:23",
+  "generated": "2026-06-19T15:45:32",
   "games": [
     {
       "game_pk": 824663,
@@ -9,8 +9,28 @@
       "lat": 41.948171,
       "lon": -87.655503,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          543807,
+          665489,
+          660821,
+          682818,
+          672386,
+          664770,
+          672960,
+          676914,
+          665926
+        ],
+        "home": [
+          691718,
+          608324,
+          683737,
+          673548,
+          664023,
+          807713,
+          663538,
+          608348,
+          621020
+        ]
       },
       "away": {
         "team": "Blue Jays",
@@ -37,26 +57,20 @@
         "implied": 54.5
       },
       "weather": {
-        "temp_f": 75.2,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 304
+        "temp_f": 75.1,
+        "wind_mph": 9.5,
+        "wind_dir_deg": 289
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Cubs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Blue Jays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Kevin Gausman holds RHB to a 0.605 OPS; Cubs project 75% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 7.0,
@@ -66,7 +80,7 @@
       "total_read": {
         "side": "under",
         "line": 7.0,
-        "note": "Total 7.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.557 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 7.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.499 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -88,8 +102,8 @@
         "pitcher_id": 607200,
         "pitcher_name": "Erick Fedde",
         "pitcher_hand": null,
-        "ml": 194,
-        "implied": 34.0
+        "ml": 172,
+        "implied": 36.8
       },
       "home": {
         "team": "Tigers",
@@ -100,13 +114,13 @@
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": null,
-        "ml": -235,
-        "implied": 70.1
+        "ml": -205,
+        "implied": 67.2
       },
       "weather": {
-        "temp_f": 76.3,
-        "wind_mph": 13.4,
-        "wind_dir_deg": 288
+        "temp_f": 76.0,
+        "wind_mph": 12.5,
+        "wind_dir_deg": 291
       },
       "factors": [
         {
@@ -127,8 +141,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -106,
-        "under": -114
+        "over": -122,
+        "under": 100
       },
       "total_read": {
         "side": null,
@@ -171,9 +185,9 @@
         "implied": 73.0
       },
       "weather": {
-        "temp_f": 81.3,
-        "wind_mph": 12.9,
-        "wind_dir_deg": 283
+        "temp_f": 81.7,
+        "wind_mph": 13.2,
+        "wind_dir_deg": 286
       },
       "factors": [
         {
@@ -238,9 +252,9 @@
         "implied": 55.8
       },
       "weather": {
-        "temp_f": 85.1,
-        "wind_mph": 13.5,
-        "wind_dir_deg": 266
+        "temp_f": 85.0,
+        "wind_mph": 9.8,
+        "wind_dir_deg": 253
       },
       "factors": [
         {
@@ -289,8 +303,8 @@
         "pitcher_id": 694738,
         "pitcher_name": "Landen Roupp",
         "pitcher_hand": null,
-        "ml": 100,
-        "implied": 50.0
+        "ml": -104,
+        "implied": 51.0
       },
       "home": {
         "team": "Marlins",
@@ -298,16 +312,16 @@
         "abbr": "MIA",
         "team_id": 146,
         "record": "37-38",
-        "pitcher_id": null,
-        "pitcher_name": "TBD",
+        "pitcher_id": 669199,
+        "pitcher_name": "Lake Bachar",
         "pitcher_hand": null,
-        "ml": -118,
-        "implied": 54.1
+        "ml": -112,
+        "implied": 52.8
       },
       "weather": {
-        "temp_f": 86.6,
-        "wind_mph": 11.2,
-        "wind_dir_deg": 157
+        "temp_f": 87.1,
+        "wind_mph": 9.0,
+        "wind_dir_deg": 161
       },
       "factors": [
         {
@@ -328,13 +342,13 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -115,
-        "under": -105
+        "over": -122,
+        "under": 100
       },
       "total_read": {
-        "side": null,
+        "side": "under",
         "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 not enough split data yet. (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 8.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.604 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       }
     },
     {
@@ -372,9 +386,9 @@
         "implied": 41.7
       },
       "weather": {
-        "temp_f": 83.7,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 302
+        "temp_f": 83.9,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 306
       },
       "factors": [
         {
@@ -423,8 +437,8 @@
         "pitcher_id": 681190,
         "pitcher_name": "Randy V\u00e1squez",
         "pitcher_hand": null,
-        "ml": 136,
-        "implied": 42.4
+        "ml": 134,
+        "implied": 42.7
       },
       "home": {
         "team": "Rangers",
@@ -435,13 +449,13 @@
         "pitcher_id": 594798,
         "pitcher_name": "Jacob deGrom",
         "pitcher_hand": null,
-        "ml": -162,
-        "implied": 61.8
+        "ml": -158,
+        "implied": 61.2
       },
       "weather": {
-        "temp_f": 80.6,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 143
+        "temp_f": 79.1,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 116
       },
       "factors": [
         {
@@ -462,8 +476,8 @@
       "read": null,
       "total": {
         "line": 7.0,
-        "over": -120,
-        "under": -102
+        "over": -122,
+        "under": 100
       },
       "total_read": {
         "side": null,
@@ -506,9 +520,9 @@
         "implied": 54.5
       },
       "weather": {
-        "temp_f": 77.9,
-        "wind_mph": 9.9,
-        "wind_dir_deg": 54
+        "temp_f": 85.9,
+        "wind_mph": 8.9,
+        "wind_dir_deg": 139
       },
       "factors": [
         {
@@ -573,8 +587,8 @@
         "implied": 49.5
       },
       "weather": {
-        "temp_f": 86.2,
-        "wind_mph": 4.7,
+        "temp_f": 86.7,
+        "wind_mph": 7.0,
         "wind_dir_deg": 211
       },
       "factors": [
@@ -640,9 +654,9 @@
         "implied": 46.3
       },
       "weather": {
-        "temp_f": 85.4,
-        "wind_mph": 6.1,
-        "wind_dir_deg": 66
+        "temp_f": 85.3,
+        "wind_mph": 5.7,
+        "wind_dir_deg": 79
       },
       "factors": [
         {
@@ -691,8 +705,8 @@
         "pitcher_id": 667755,
         "pitcher_name": "Jos\u00e9 Soriano",
         "pitcher_hand": null,
-        "ml": 136,
-        "implied": 42.4
+        "ml": 132,
+        "implied": 43.1
       },
       "home": {
         "team": "Athletics",
@@ -703,13 +717,13 @@
         "pitcher_id": 605488,
         "pitcher_name": "Jeffrey Springs",
         "pitcher_hand": null,
-        "ml": -162,
-        "implied": 61.8
+        "ml": -156,
+        "implied": 60.9
       },
       "weather": {
-        "temp_f": 75.3,
-        "wind_mph": 12.8,
-        "wind_dir_deg": 237
+        "temp_f": 75.1,
+        "wind_mph": 13.0,
+        "wind_dir_deg": 238
       },
       "factors": [
         {
@@ -793,8 +807,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -112,
-        "under": -108
+        "over": -115,
+        "under": -105
       },
       "total_read": {
         "side": "under",
@@ -821,8 +835,8 @@
         "pitcher_id": 694346,
         "pitcher_name": "Trey Gibson",
         "pitcher_hand": null,
-        "ml": 168,
-        "implied": 37.3
+        "ml": 172,
+        "implied": 36.8
       },
       "home": {
         "team": "Dodgers",
@@ -833,8 +847,8 @@
         "pitcher_id": 808963,
         "pitcher_name": "Roki Sasaki",
         "pitcher_hand": null,
-        "ml": -200,
-        "implied": 66.7
+        "ml": -205,
+        "implied": 67.2
       },
       "weather": null,
       "factors": [
@@ -884,8 +898,8 @@
         "pitcher_id": 624133,
         "pitcher_name": "Ranger Suarez",
         "pitcher_hand": null,
-        "ml": 110,
-        "implied": 47.6
+        "ml": -102,
+        "implied": 50.5
       },
       "home": {
         "team": "Mariners",
@@ -896,8 +910,8 @@
         "pitcher_id": 682243,
         "pitcher_name": "Bryce Miller",
         "pitcher_hand": null,
-        "ml": -130,
-        "implied": 56.5
+        "ml": -116,
+        "implied": 53.7
       },
       "weather": null,
       "factors": [
