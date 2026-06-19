@@ -1,6 +1,6 @@
 {
   "date": "2026-06-19",
-  "generated": "2026-06-19T12:34:59",
+  "generated": "2026-06-19T12:56:54",
   "games": [
     {
       "game_pk": 824663,
@@ -37,9 +37,9 @@
         "implied": 54.5
       },
       "weather": {
-        "temp_f": 75.0,
-        "wind_mph": 4.6,
-        "wind_dir_deg": 309
+        "temp_f": 74.2,
+        "wind_mph": 1.8,
+        "wind_dir_deg": 346
       },
       "factors": [
         {
@@ -104,9 +104,9 @@
         "implied": 70.1
       },
       "weather": {
-        "temp_f": 75.8,
-        "wind_mph": 13.0,
-        "wind_dir_deg": 292
+        "temp_f": 76.0,
+        "wind_mph": 12.9,
+        "wind_dir_deg": 288
       },
       "factors": [
         {
@@ -172,8 +172,8 @@
       },
       "weather": {
         "temp_f": 81.4,
-        "wind_mph": 12.9,
-        "wind_dir_deg": 284
+        "wind_mph": 13.5,
+        "wind_dir_deg": 286
       },
       "factors": [
         {
@@ -238,9 +238,9 @@
         "implied": 55.8
       },
       "weather": {
-        "temp_f": 85.0,
-        "wind_mph": 11.7,
-        "wind_dir_deg": 265
+        "temp_f": 84.9,
+        "wind_mph": 10.9,
+        "wind_dir_deg": 259
       },
       "factors": [
         {
@@ -305,9 +305,9 @@
         "implied": 56.5
       },
       "weather": {
-        "temp_f": 87.1,
-        "wind_mph": 9.8,
-        "wind_dir_deg": 160
+        "temp_f": 87.0,
+        "wind_mph": 9.3,
+        "wind_dir_deg": 153
       },
       "factors": [
         {
@@ -372,9 +372,9 @@
         "implied": 39.1
       },
       "weather": {
-        "temp_f": 84.2,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 302
+        "temp_f": 84.6,
+        "wind_mph": 7.6,
+        "wind_dir_deg": 284
       },
       "factors": [
         {
@@ -438,7 +438,11 @@
         "ml": -162,
         "implied": 61.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.4,
+        "wind_mph": 6.9,
+        "wind_dir_deg": 86
+      },
       "factors": [
         {
           "m": "~",
@@ -521,8 +525,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -106,
-        "under": -114
+        "over": -104,
+        "under": -118
       },
       "total_read": {
         "side": null,
@@ -549,8 +553,8 @@
         "pitcher_id": 700241,
         "pitcher_name": "Michael McGreevy",
         "pitcher_hand": null,
-        "ml": -124,
-        "implied": 55.4
+        "ml": -120,
+        "implied": 54.5
       },
       "home": {
         "team": "Royals",
@@ -561,8 +565,8 @@
         "pitcher_id": 607625,
         "pitcher_name": "Seth Lugo",
         "pitcher_hand": null,
-        "ml": 106,
-        "implied": 48.5
+        "ml": 102,
+        "implied": 49.5
       },
       "weather": null,
       "factors": [
@@ -675,8 +679,8 @@
         "pitcher_id": 667755,
         "pitcher_name": "Jos\u00e9 Soriano",
         "pitcher_hand": null,
-        "ml": 138,
-        "implied": 42.0
+        "ml": 130,
+        "implied": 43.5
       },
       "home": {
         "team": "Athletics",
@@ -687,8 +691,8 @@
         "pitcher_id": 605488,
         "pitcher_name": "Jeffrey Springs",
         "pitcher_hand": null,
-        "ml": -164,
-        "implied": 62.1
+        "ml": -154,
+        "implied": 60.6
       },
       "weather": null,
       "factors": [
@@ -738,8 +742,8 @@
         "pitcher_id": 687570,
         "pitcher_name": "Connor Prielipp",
         "pitcher_hand": null,
-        "ml": 144,
-        "implied": 41.0
+        "ml": 142,
+        "implied": 41.3
       },
       "home": {
         "team": "D-backs",
@@ -750,13 +754,13 @@
         "pitcher_id": 647336,
         "pitcher_name": "Michael Soroka",
         "pitcher_hand": null,
-        "ml": -172,
-        "implied": 63.2
+        "ml": -168,
+        "implied": 62.7
       },
       "weather": {
-        "temp_f": 103.2,
-        "wind_mph": 13.9,
-        "wind_dir_deg": 249
+        "temp_f": 103.7,
+        "wind_mph": 12.6,
+        "wind_dir_deg": 237
       },
       "factors": [
         {
@@ -822,8 +826,8 @@
       },
       "weather": {
         "temp_f": 65.0,
-        "wind_mph": 9.0,
-        "wind_dir_deg": 251
+        "wind_mph": 8.8,
+        "wind_dir_deg": 254
       },
       "factors": [
         {
@@ -888,9 +892,9 @@
         "implied": 56.5
       },
       "weather": {
-        "temp_f": 79.1,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 351
+        "temp_f": 79.9,
+        "wind_mph": 5.3,
+        "wind_dir_deg": 345
       },
       "factors": [
         {
