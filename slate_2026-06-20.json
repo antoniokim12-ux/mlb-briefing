@@ -1,6 +1,6 @@
 {
   "date": "2026-06-20",
-  "generated": "2026-06-20T10:16:32",
+  "generated": "2026-06-20T10:41:55",
   "games": [
     {
       "game_pk": 824263,
@@ -89,8 +89,8 @@
         "pitcher_id": 671096,
         "pitcher_name": "Andrew Abbott",
         "pitcher_hand": null,
-        "ml": 163,
-        "implied": 38.0
+        "ml": 168,
+        "implied": 37.3
       },
       "home": {
         "team": "Yankees",
@@ -101,8 +101,8 @@
         "pitcher_id": 701542,
         "pitcher_name": "Will Warren",
         "pitcher_hand": null,
-        "ml": -199,
-        "implied": 66.6
+        "ml": -205,
+        "implied": 67.2
       },
       "weather": {
         "temp_f": 82.2,
@@ -382,11 +382,7 @@
         "ml": -143,
         "implied": 58.8
       },
-      "weather": {
-        "temp_f": 87.7,
-        "wind_mph": 7.5,
-        "wind_dir_deg": 190
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -450,11 +446,7 @@
         "ml": -131,
         "implied": 56.7
       },
-      "weather": {
-        "temp_f": 85.8,
-        "wind_mph": 6.3,
-        "wind_dir_deg": 312
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -518,11 +510,7 @@
         "ml": -143,
         "implied": 58.8
       },
-      "weather": {
-        "temp_f": 78.2,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 21
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -586,11 +574,7 @@
         "ml": -185,
         "implied": 64.9
       },
-      "weather": {
-        "temp_f": 82.4,
-        "wind_mph": 10.1,
-        "wind_dir_deg": 283
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -654,11 +638,7 @@
         "ml": 168,
         "implied": 37.3
       },
-      "weather": {
-        "temp_f": 92.4,
-        "wind_mph": 14.6,
-        "wind_dir_deg": 276
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -707,8 +687,8 @@
         "pitcher_id": 700712,
         "pitcher_name": "Walbert Ure\u00f1a",
         "pitcher_hand": null,
-        "ml": 147,
-        "implied": 40.5
+        "ml": 141,
+        "implied": 41.5
       },
       "home": {
         "team": "Athletics",
@@ -719,8 +699,8 @@
         "pitcher_id": 669372,
         "pitcher_name": "J.T. Ginn",
         "pitcher_hand": null,
-        "ml": -179,
-        "implied": 64.2
+        "ml": -171,
+        "implied": 63.1
       },
       "weather": {
         "temp_f": 75.9,
@@ -746,8 +726,8 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -115,
-        "under": -105
+        "over": -112,
+        "under": -108
       },
       "total_read": {
         "side": "under",
@@ -814,8 +794,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -115,
-        "under": -105
+        "over": -112,
+        "under": -107
       },
       "total_read": {
         "side": "under",
@@ -858,7 +838,11 @@
         "ml": -126,
         "implied": 55.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 73.3,
+        "wind_mph": 5.5,
+        "wind_dir_deg": 249
+      },
       "factors": [
         {
           "m": "~",
@@ -922,7 +906,11 @@
         "ml": -136,
         "implied": 57.6
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 101.0,
+        "wind_mph": 8.7,
+        "wind_dir_deg": 269
+      },
       "factors": [
         {
           "m": "~",
