@@ -197,6 +197,25 @@ def get_lineup_handedness(game):
     return result
 
 
+def _fetch_pitch_hands(player_ids):
+    """Map pitcher_id -> throwing hand code ('L'/'R') via one /people call.
+    The schedule's probablePitcher hydration omits the hand, so fetch it here."""
+    if not player_ids:
+        return {}
+    try:
+        ids = ",".join(str(p) for p in player_ids if p)
+        r = requests.get(f"{MLB_API}/people", params={"personIds": ids}, timeout=TIMEOUT)
+        r.raise_for_status()
+        out = {}
+        for p in r.json().get("people", []):
+            code = (p.get("pitchHand") or {}).get("code")
+            if code:
+                out[p.get("id")] = code
+        return out
+    except (requests.RequestException, ValueError):
+        return {}
+
+
 def _fetch_bat_sides(player_ids):
     """Map player_id -> bat side code ('L'/'R'/'S') via one /people call."""
     if not player_ids:
@@ -495,6 +514,15 @@ def build_slate(date_str, do_splits=True, do_odds=True, do_read=True):
 
     games = get_schedule(date_str)
     odds_map = get_odds(odds_key)
+
+    # The schedule omits each probable pitcher's throwing hand, so fetch them all
+    # in one call and backfill (otherwise the card shows "(?)" next to the name).
+    pitcher_ids = [g[s].get("pitcher_id") for g in games for s in ("away", "home")]
+    pitch_hands = _fetch_pitch_hands(pitcher_ids)
+    for g in games:
+        for s in ("away", "home"):
+            if not g[s].get("pitcher_hand"):
+                g[s]["pitcher_hand"] = pitch_hands.get(g[s].get("pitcher_id"))
 
     for g in games:
         attach_odds(g, odds_map)
