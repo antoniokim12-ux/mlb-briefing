@@ -1,6 +1,6 @@
 {
   "date": "2026-06-20",
-  "generated": "2026-06-20T08:34:40",
+  "generated": "2026-06-20T10:16:32",
   "games": [
     {
       "game_pk": 824263,
@@ -37,9 +37,9 @@
         "implied": 58.8
       },
       "weather": {
-        "temp_f": 74.7,
-        "wind_mph": 13.9,
-        "wind_dir_deg": 260
+        "temp_f": 77.2,
+        "wind_mph": 14.6,
+        "wind_dir_deg": 255
       },
       "factors": [
         {
@@ -60,8 +60,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -115,
-        "under": -105
+        "over": -112,
+        "under": -108
       },
       "total_read": {
         "side": null,
@@ -105,9 +105,9 @@
         "implied": 66.6
       },
       "weather": {
-        "temp_f": 81.9,
-        "wind_mph": 16.0,
-        "wind_dir_deg": 278
+        "temp_f": 82.2,
+        "wind_mph": 16.2,
+        "wind_dir_deg": 284
       },
       "factors": [
         {
@@ -126,7 +126,7 @@
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "16 mph wind (dir 278\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "16 mph wind (dir 284\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -179,9 +179,9 @@
         "implied": 56.7
       },
       "weather": {
-        "temp_f": 75.9,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 305
+        "temp_f": 74.7,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 338
       },
       "factors": [
         {
@@ -202,8 +202,8 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": -119,
-        "under": -102
+        "over": -120,
+        "under": 100
       },
       "total_read": {
         "side": null,
@@ -247,9 +247,9 @@
         "implied": 57.6
       },
       "weather": {
-        "temp_f": 87.9,
-        "wind_mph": 5.1,
-        "wind_dir_deg": 135
+        "temp_f": 87.2,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 145
       },
       "factors": [
         {
@@ -315,9 +315,9 @@
         "implied": 55.0
       },
       "weather": {
-        "temp_f": 90.2,
-        "wind_mph": 12.2,
-        "wind_dir_deg": 262
+        "temp_f": 87.4,
+        "wind_mph": 13.1,
+        "wind_dir_deg": 257
       },
       "factors": [
         {
@@ -383,9 +383,9 @@
         "implied": 58.8
       },
       "weather": {
-        "temp_f": 89.2,
-        "wind_mph": 11.1,
-        "wind_dir_deg": 155
+        "temp_f": 87.7,
+        "wind_mph": 7.5,
+        "wind_dir_deg": 190
       },
       "factors": [
         {
@@ -451,9 +451,9 @@
         "implied": 56.7
       },
       "weather": {
-        "temp_f": 85.2,
-        "wind_mph": 5.5,
-        "wind_dir_deg": 317
+        "temp_f": 85.8,
+        "wind_mph": 6.3,
+        "wind_dir_deg": 312
       },
       "factors": [
         {
@@ -474,8 +474,8 @@
       "read": null,
       "total": {
         "line": 7.0,
-        "over": -119,
-        "under": -102
+        "over": -122,
+        "under": 101
       },
       "total_read": {
         "side": "under",
@@ -519,9 +519,9 @@
         "implied": 58.8
       },
       "weather": {
-        "temp_f": 83.4,
-        "wind_mph": 8.4,
-        "wind_dir_deg": 112
+        "temp_f": 78.2,
+        "wind_mph": 5.7,
+        "wind_dir_deg": 21
       },
       "factors": [
         {
@@ -587,9 +587,9 @@
         "implied": 64.9
       },
       "weather": {
-        "temp_f": 82.8,
+        "temp_f": 82.4,
         "wind_mph": 10.1,
-        "wind_dir_deg": 271
+        "wind_dir_deg": 283
       },
       "factors": [
         {
@@ -655,9 +655,9 @@
         "implied": 37.3
       },
       "weather": {
-        "temp_f": 91.9,
-        "wind_mph": 14.2,
-        "wind_dir_deg": 277
+        "temp_f": 92.4,
+        "wind_mph": 14.6,
+        "wind_dir_deg": 276
       },
       "factors": [
         {
@@ -707,8 +707,8 @@
         "pitcher_id": 700712,
         "pitcher_name": "Walbert Ure\u00f1a",
         "pitcher_hand": null,
-        "ml": null,
-        "implied": null
+        "ml": 147,
+        "implied": 40.5
       },
       "home": {
         "team": "Athletics",
@@ -719,11 +719,11 @@
         "pitcher_id": 669372,
         "pitcher_name": "J.T. Ginn",
         "pitcher_hand": null,
-        "ml": null,
-        "implied": null
+        "ml": -179,
+        "implied": 64.2
       },
       "weather": {
-        "temp_f": 76.1,
+        "temp_f": 75.9,
         "wind_mph": 12.3,
         "wind_dir_deg": 232
       },
@@ -744,8 +744,17 @@
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": null,
-      "total_read": null
+      "total": {
+        "line": 9.5,
+        "over": -115,
+        "under": -105
+      },
+      "total_read": {
+        "side": "under",
+        "line": 9.5,
+        "note": "Total 9.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.622 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      },
+      "odds_book": "DraftKings"
     },
     {
       "game_pk": 823937,
@@ -783,8 +792,8 @@
       },
       "weather": {
         "temp_f": 65.0,
-        "wind_mph": 8.6,
-        "wind_dir_deg": 249
+        "wind_mph": 8.8,
+        "wind_dir_deg": 251
       },
       "factors": [
         {
@@ -805,8 +814,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -112,
-        "under": -107
+        "over": -115,
+        "under": -105
       },
       "total_read": {
         "side": "under",
@@ -934,7 +943,7 @@
       "total": {
         "line": 9.5,
         "over": 101,
-        "under": -121
+        "under": -122
       },
       "total_read": {
         "side": "over",
