@@ -1,6 +1,6 @@
 {
   "date": "2026-06-19",
-  "generated": "2026-06-19T23:23:25",
+  "generated": "2026-06-20T00:00:08",
   "games": [
     {
       "game_pk": 824663,
@@ -123,8 +123,8 @@
         "pitcher_id": 685126,
         "pitcher_name": "Brandon Eisert",
         "pitcher_hand": null,
-        "ml": 225,
-        "implied": 30.8
+        "ml": 153,
+        "implied": 39.5
       },
       "home": {
         "team": "Tigers",
@@ -135,13 +135,13 @@
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": null,
-        "ml": -311,
-        "implied": 75.7
+        "ml": -202,
+        "implied": 66.9
       },
       "weather": {
-        "temp_f": 75.6,
-        "wind_mph": 11.8,
-        "wind_dir_deg": 285
+        "temp_f": 75.7,
+        "wind_mph": 11.7,
+        "wind_dir_deg": 282
       },
       "factors": [
         {
@@ -155,14 +155,14 @@
       "weight": 1,
       "read": null,
       "total": {
-        "line": 9.5,
-        "over": 111,
-        "under": -144
+        "line": 8.5,
+        "over": 104,
+        "under": -135
       },
       "total_read": {
         "side": "under",
-        "line": 9.5,
-        "note": "Total 9.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.600 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 8.5,
+        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.600 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -205,8 +205,8 @@
         "pitcher_id": 695076,
         "pitcher_name": "Rhett Lowder",
         "pitcher_hand": null,
-        "ml": 241,
-        "implied": 29.3
+        "ml": 1360,
+        "implied": 6.8
       },
       "home": {
         "team": "Yankees",
@@ -217,13 +217,13 @@
         "pitcher_id": 693645,
         "pitcher_name": "Cam Schlittler",
         "pitcher_hand": null,
-        "ml": -336,
-        "implied": 77.1
+        "ml": -10000,
+        "implied": 99.0
       },
       "weather": {
-        "temp_f": 80.0,
-        "wind_mph": 12.1,
-        "wind_dir_deg": 286
+        "temp_f": 80.9,
+        "wind_mph": 11.7,
+        "wind_dir_deg": 290
       },
       "factors": [
         {
@@ -237,14 +237,14 @@
       "weight": 1,
       "read": null,
       "total": {
-        "line": 8.5,
-        "over": -101,
-        "under": -129
+        "line": 10.5,
+        "over": 106,
+        "under": -138
       },
       "total_read": {
         "side": "under",
-        "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.606 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 10.5,
+        "note": "Total 10.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.606 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -287,8 +287,8 @@
         "pitcher_id": 676571,
         "pitcher_name": "PJ Poulin",
         "pitcher_hand": null,
-        "ml": 135,
-        "implied": 42.6
+        "ml": 203,
+        "implied": 33.0
       },
       "home": {
         "team": "Rays",
@@ -299,13 +299,13 @@
         "pitcher_id": 643377,
         "pitcher_name": "Griffin Jax",
         "pitcher_hand": null,
-        "ml": -177,
-        "implied": 63.9
+        "ml": -277,
+        "implied": 73.5
       },
       "weather": {
-        "temp_f": 86.7,
-        "wind_mph": 10.5,
-        "wind_dir_deg": 258
+        "temp_f": 87.0,
+        "wind_mph": 11.9,
+        "wind_dir_deg": 270
       },
       "factors": [
         {
@@ -325,14 +325,14 @@
       "weight": 2,
       "read": null,
       "total": {
-        "line": 7.5,
-        "over": -103,
-        "under": -126
+        "line": 10.5,
+        "over": -120,
+        "under": -108
       },
       "total_read": {
         "side": null,
-        "line": 7.5,
-        "note": "Total 7.5: no clear lean \u2014 starters roughly average (avg 0.738 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 10.5,
+        "note": "Total 10.5: no clear lean \u2014 starters roughly average (avg 0.738 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -375,8 +375,8 @@
         "pitcher_id": 694738,
         "pitcher_name": "Landen Roupp",
         "pitcher_hand": null,
-        "ml": 115,
-        "implied": 46.5
+        "ml": -124,
+        "implied": 55.4
       },
       "home": {
         "team": "Marlins",
@@ -387,27 +387,27 @@
         "pitcher_id": 669199,
         "pitcher_name": "Lake Bachar",
         "pitcher_hand": null,
-        "ml": -150,
-        "implied": 60.0
+        "ml": -105,
+        "implied": 51.2
       },
       "weather": {
         "temp_f": 86.6,
         "wind_mph": 10.8,
-        "wind_dir_deg": 158
+        "wind_dir_deg": 146
       },
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": {
-        "line": 7.5,
-        "over": -112,
-        "under": -116
+        "line": 8.5,
+        "over": -115,
+        "under": -113
       },
       "total_read": {
         "side": "under",
-        "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.627 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 8.5,
+        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.627 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -450,8 +450,8 @@
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": null,
-        "ml": -156,
-        "implied": 60.9
+        "ml": -308,
+        "implied": 75.5
       },
       "home": {
         "team": "Braves",
@@ -462,13 +462,13 @@
         "pitcher_id": 527048,
         "pitcher_name": "Mart\u00edn P\u00e9rez",
         "pitcher_hand": null,
-        "ml": 119,
-        "implied": 45.7
+        "ml": 223,
+        "implied": 31.0
       },
       "weather": {
-        "temp_f": 83.7,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 314
+        "temp_f": 83.8,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 316
       },
       "factors": [
         {
@@ -482,14 +482,14 @@
       "weight": 1,
       "read": null,
       "total": {
-        "line": 6.5,
-        "over": -142,
-        "under": 109
+        "line": 5.5,
+        "over": -110,
+        "under": -118
       },
       "total_read": {
         "side": "under",
-        "line": 6.5,
-        "note": "Total 6.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.544 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 5.5,
+        "note": "Total 5.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.544 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -547,7 +547,11 @@
         "ml": -163,
         "implied": 62.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 75.3,
+        "wind_mph": 2.9,
+        "wind_dir_deg": 58
+      },
       "factors": [
         {
           "m": "+",
@@ -622,10 +626,14 @@
         "pitcher_id": 837227,
         "pitcher_name": "Tatsuya Imai",
         "pitcher_hand": null,
-        "ml": -126,
-        "implied": 55.8
+        "ml": -125,
+        "implied": 55.6
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.5,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 347
+      },
       "factors": [
         {
           "m": "-",
@@ -639,8 +647,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -105,
-        "under": -114
+        "over": -108,
+        "under": -111
       },
       "total_read": {
         "side": null,
@@ -703,7 +711,11 @@
         "ml": 100,
         "implied": 50.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.3,
+        "wind_mph": 6.9,
+        "wind_dir_deg": 29
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -774,7 +786,11 @@
         "ml": 119,
         "implied": 45.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.7,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 70
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -984,11 +1000,7 @@
         "ml": -219,
         "implied": 68.7
       },
-      "weather": {
-        "temp_f": 64.7,
-        "wind_mph": 8.4,
-        "wind_dir_deg": 254
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -1066,11 +1078,7 @@
         "ml": -117,
         "implied": 53.9
       },
-      "weather": {
-        "temp_f": 80.0,
-        "wind_mph": 4.6,
-        "wind_dir_deg": 321
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
