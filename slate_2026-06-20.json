@@ -1,6 +1,6 @@
 {
   "date": "2026-06-20",
-  "generated": "2026-06-20T16:53:28",
+  "generated": "2026-06-20T18:29:12",
   "games": [
     {
       "game_pk": 824263,
@@ -41,8 +41,8 @@
         "pitcher_id": 656794,
         "pitcher_name": "Sean Newcomb",
         "pitcher_hand": null,
-        "ml": 108,
-        "implied": 48.1
+        "ml": -166,
+        "implied": 62.4
       },
       "home": {
         "team": "Tigers",
@@ -53,13 +53,13 @@
         "pitcher_id": 675512,
         "pitcher_name": "Troy Melton",
         "pitcher_hand": null,
-        "ml": -130,
-        "implied": 56.5
+        "ml": 127,
+        "implied": 44.1
       },
       "weather": {
-        "temp_f": 74.5,
-        "wind_mph": 13.3,
-        "wind_dir_deg": 257
+        "temp_f": 74.3,
+        "wind_mph": 11.0,
+        "wind_dir_deg": 250
       },
       "factors": [
         {
@@ -73,14 +73,14 @@
       "weight": 1,
       "read": null,
       "total": {
-        "line": 9.0,
-        "over": -105,
-        "under": -115
+        "line": 4.5,
+        "over": -138,
+        "under": 106
       },
       "total_read": {
         "side": "under",
-        "line": 9.0,
-        "note": "Total 9.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.627 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 4.5,
+        "note": "Total 4.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.627 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -123,8 +123,8 @@
         "pitcher_id": 671096,
         "pitcher_name": "Andrew Abbott",
         "pitcher_hand": null,
-        "ml": 164,
-        "implied": 37.9
+        "ml": 157,
+        "implied": 38.9
       },
       "home": {
         "team": "Yankees",
@@ -135,13 +135,13 @@
         "pitcher_id": 701542,
         "pitcher_name": "Will Warren",
         "pitcher_hand": null,
-        "ml": -201,
-        "implied": 66.8
+        "ml": -208,
+        "implied": 67.5
       },
       "weather": {
-        "temp_f": 81.1,
-        "wind_mph": 15.3,
-        "wind_dir_deg": 285
+        "temp_f": 80.6,
+        "wind_mph": 14.9,
+        "wind_dir_deg": 282
       },
       "factors": [
         {
@@ -149,26 +149,20 @@
           "side": "home",
           "label": "Handedness matchup",
           "text": "Will Warren holds RHB to a 0.657 OPS; Reds project 75% R-handed today."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "15 mph wind (dir 285\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "home",
       "weight": 1,
       "read": null,
       "total": {
-        "line": 9.5,
-        "over": -111,
-        "under": -109
+        "line": 10.5,
+        "over": -121,
+        "under": -107
       },
       "total_read": {
         "side": "under",
-        "line": 9.5,
-        "note": "Total 9.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.687 OPS-against). Strong wind (15 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 10.5,
+        "note": "Total 10.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.687 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -211,8 +205,8 @@
         "pitcher_id": 571578,
         "pitcher_name": "Patrick Corbin",
         "pitcher_hand": null,
-        "ml": 113,
-        "implied": 46.9
+        "ml": 138,
+        "implied": 42.0
       },
       "home": {
         "team": "Cubs",
@@ -223,13 +217,13 @@
         "pitcher_id": 607067,
         "pitcher_name": "Colin Rea",
         "pitcher_hand": null,
-        "ml": -136,
-        "implied": 57.6
+        "ml": -181,
+        "implied": 64.4
       },
       "weather": {
-        "temp_f": 75.8,
-        "wind_mph": 7.5,
-        "wind_dir_deg": 293
+        "temp_f": 75.2,
+        "wind_mph": 8.0,
+        "wind_dir_deg": 300
       },
       "factors": [
         {
@@ -243,14 +237,14 @@
       "weight": 1,
       "read": null,
       "total": {
-        "line": 9.0,
-        "over": -123,
+        "line": 8.5,
+        "over": -132,
         "under": 102
       },
       "total_read": {
         "side": "over",
-        "line": 9.0,
-        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.795 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 8.5,
+        "note": "Total 8.5: leans OVER \u2014 both starters look hittable (avg 0.795 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -305,13 +299,13 @@
         "pitcher_id": 669022,
         "pitcher_name": "MacKenzie Gore",
         "pitcher_hand": null,
-        "ml": -132,
-        "implied": 56.9
+        "ml": -131,
+        "implied": 56.7
       },
       "weather": {
-        "temp_f": 87.6,
-        "wind_mph": 5.5,
-        "wind_dir_deg": 69
+        "temp_f": 87.5,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 159
       },
       "factors": [
         {
@@ -326,8 +320,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -107,
-        "under": -113
+        "over": -109,
+        "under": -110
       },
       "total_read": {
         "side": "under",
@@ -391,8 +385,8 @@
         "implied": 56.5
       },
       "weather": {
-        "temp_f": 90.6,
-        "wind_mph": 12.6,
+        "temp_f": 90.4,
+        "wind_mph": 12.3,
         "wind_dir_deg": 266
       },
       "factors": [
@@ -457,8 +451,8 @@
         "pitcher_id": 686790,
         "pitcher_name": "Trevor McDonald",
         "pitcher_hand": null,
-        "ml": 119,
-        "implied": 45.7
+        "ml": 123,
+        "implied": 44.8
       },
       "home": {
         "team": "Marlins",
@@ -469,13 +463,13 @@
         "pitcher_id": 676974,
         "pitcher_name": "Max Meyer",
         "pitcher_hand": null,
-        "ml": -144,
-        "implied": 59.0
+        "ml": -149,
+        "implied": 59.8
       },
       "weather": {
-        "temp_f": 87.9,
-        "wind_mph": 6.7,
-        "wind_dir_deg": 210
+        "temp_f": 84.8,
+        "wind_mph": 6.6,
+        "wind_dir_deg": 152
       },
       "factors": [
         {
@@ -490,7 +484,7 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -107,
+        "over": -108,
         "under": -112
       },
       "total_read": {
@@ -507,8 +501,28 @@
       "lat": 33.890672,
       "lon": -84.467641,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          694192,
+          668930,
+          661388,
+          596142,
+          683734,
+          663368,
+          669003,
+          806198,
+          687401
+        ],
+        "home": [
+          643289,
+          686948,
+          621566,
+          645277,
+          671739,
+          663586,
+          642201,
+          663698,
+          622761
+        ]
       },
       "away": {
         "team": "Brewers",
@@ -534,19 +548,23 @@
         "ml": -142,
         "implied": 58.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.0,
+        "wind_mph": 6.2,
+        "wind_dir_deg": 283
+      },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Braves lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Kyle Harrison holds RHB to a 0.635 OPS; Braves project 62% R-handed today."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Chris Sale holds RHB to a 0.598 OPS; Brewers project 75% R-handed today."
         }
       ],
       "lean": "even",
@@ -554,13 +572,13 @@
       "read": null,
       "total": {
         "line": 7.0,
-        "over": -114,
-        "under": -105
+        "over": -116,
+        "under": -104
       },
       "total_read": {
         "side": "under",
         "line": 7.0,
-        "note": "Total 7.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.613 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 7.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.617 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -598,7 +616,11 @@
         "ml": -148,
         "implied": 59.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 81.4,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 164
+      },
       "factors": [
         {
           "m": "~",
@@ -647,8 +669,8 @@
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": null,
-        "ml": 159,
-        "implied": 38.6
+        "ml": 162,
+        "implied": 38.2
       },
       "home": {
         "team": "Phillies",
@@ -659,10 +681,14 @@
         "pitcher_id": 650911,
         "pitcher_name": "Cristopher S\u00e1nchez",
         "pitcher_hand": null,
-        "ml": -194,
-        "implied": 66.0
+        "ml": -198,
+        "implied": 66.4
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.4,
+        "wind_mph": 10.5,
+        "wind_dir_deg": 259
+      },
       "factors": [
         {
           "m": "~",
@@ -711,8 +737,8 @@
         "pitcher_id": 694973,
         "pitcher_name": "Paul Skenes",
         "pitcher_hand": null,
-        "ml": -218,
-        "implied": 68.6
+        "ml": -219,
+        "implied": 68.7
       },
       "home": {
         "team": "Rockies",
@@ -726,7 +752,11 @@
         "ml": 178,
         "implied": 36.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 89.5,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 272
+      },
       "factors": [
         {
           "m": "~",
@@ -746,8 +776,8 @@
       "read": null,
       "total": {
         "line": 10.5,
-        "over": -109,
-        "under": -110
+        "over": -113,
+        "under": -106
       },
       "total_read": {
         "side": null,
@@ -790,7 +820,11 @@
         "ml": -171,
         "implied": 63.1
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 76.7,
+        "wind_mph": 12.1,
+        "wind_dir_deg": 231
+      },
       "factors": [
         {
           "m": "~",
@@ -918,11 +952,7 @@
         "ml": -126,
         "implied": 55.8
       },
-      "weather": {
-        "temp_f": 70.6,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 250
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -942,8 +972,8 @@
       "read": null,
       "total": {
         "line": 7.0,
-        "over": -123,
-        "under": 102
+        "over": -124,
+        "under": 103
       },
       "total_read": {
         "side": "under",
@@ -986,11 +1016,7 @@
         "ml": -131,
         "implied": 56.7
       },
-      "weather": {
-        "temp_f": 101.1,
-        "wind_mph": 7.8,
-        "wind_dir_deg": 270
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
