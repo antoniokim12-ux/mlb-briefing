@@ -1,6 +1,6 @@
 {
   "date": "2026-06-21",
-  "generated": "2026-06-21T11:38:03",
+  "generated": "2026-06-21T12:02:32",
   "games": [
     {
       "game_pk": 823531,
@@ -38,8 +38,8 @@
       },
       "weather": {
         "temp_f": 82.5,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 291
+        "wind_mph": 7.8,
+        "wind_dir_deg": 297
       },
       "factors": [
         {
@@ -61,7 +61,7 @@
       "total": {
         "line": 8.5,
         "over": -105,
-        "under": -115
+        "under": -114
       },
       "total_read": {
         "side": "under",
@@ -89,8 +89,8 @@
         "pitcher_id": 688107,
         "pitcher_name": "Robert Gasser",
         "pitcher_hand": "L",
-        "ml": 108,
-        "implied": 48.1
+        "ml": 104,
+        "implied": 49.0
       },
       "home": {
         "team": "Braves",
@@ -101,13 +101,13 @@
         "pitcher_id": 693821,
         "pitcher_name": "Bryce Elder",
         "pitcher_hand": "R",
-        "ml": -131,
-        "implied": 56.7
+        "ml": -125,
+        "implied": 55.6
       },
       "weather": {
-        "temp_f": 83.0,
-        "wind_mph": 7.1,
-        "wind_dir_deg": 252
+        "temp_f": 82.1,
+        "wind_mph": 7.2,
+        "wind_dir_deg": 231
       },
       "factors": [
         {
@@ -127,14 +127,14 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 9.0,
-        "over": 102,
-        "under": -122
+        "line": 8.5,
+        "over": -121,
+        "under": 100
       },
       "total_read": {
         "side": null,
-        "line": 9.0,
-        "note": "Total 9.0: no clear lean \u2014 starters roughly average (avg 0.769 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 8.5,
+        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.769 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -173,9 +173,9 @@
         "implied": 57.6
       },
       "weather": {
-        "temp_f": 90.3,
-        "wind_mph": 10.8,
-        "wind_dir_deg": 240
+        "temp_f": 90.8,
+        "wind_mph": 11.3,
+        "wind_dir_deg": 236
       },
       "factors": [
         {
@@ -196,8 +196,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -115,
-        "under": -104
+        "over": -119,
+        "under": -101
       },
       "total_read": {
         "side": null,
@@ -241,9 +241,9 @@
         "implied": 53.3
       },
       "weather": {
-        "temp_f": 75.5,
-        "wind_mph": 2.1,
-        "wind_dir_deg": 32
+        "temp_f": 75.4,
+        "wind_mph": 1.6,
+        "wind_dir_deg": 286
       },
       "factors": [
         {
@@ -310,8 +310,8 @@
       },
       "weather": {
         "temp_f": 86.6,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 146
+        "wind_mph": 7.5,
+        "wind_dir_deg": 153
       },
       "factors": [
         {
@@ -332,8 +332,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -105,
-        "under": -115
+        "over": -104,
+        "under": -116
       },
       "total_read": {
         "side": null,
@@ -377,9 +377,9 @@
         "implied": 57.6
       },
       "weather": {
-        "temp_f": 78.8,
-        "wind_mph": 15.6,
-        "wind_dir_deg": 145
+        "temp_f": 83.1,
+        "wind_mph": 9.3,
+        "wind_dir_deg": 170
       },
       "factors": [
         {
@@ -393,12 +393,6 @@
           "side": "none",
           "label": "Lineups",
           "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "16 mph wind (dir 145\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -412,7 +406,7 @@
       "total_read": {
         "side": null,
         "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.756 OPS-against). Strong wind (16 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.756 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -451,9 +445,9 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 73.9,
-        "wind_mph": 12.1,
-        "wind_dir_deg": 270
+        "temp_f": 76.2,
+        "wind_mph": 10.1,
+        "wind_dir_deg": 264
       },
       "factors": [
         {
@@ -695,8 +689,8 @@
         "pitcher_id": 702474,
         "pitcher_name": "Mike Paredes",
         "pitcher_hand": "R",
-        "ml": null,
-        "implied": null
+        "ml": 104,
+        "implied": 49.0
       },
       "home": {
         "team": "D-backs",
@@ -707,8 +701,8 @@
         "pitcher_id": 703615,
         "pitcher_name": "Jose Cabrera",
         "pitcher_hand": "R",
-        "ml": null,
-        "implied": null
+        "ml": -126,
+        "implied": 55.8
       },
       "weather": null,
       "factors": [
@@ -728,8 +722,17 @@
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": null,
-      "total_read": null
+      "total": {
+        "line": 9.0,
+        "over": -120,
+        "under": 100
+      },
+      "total_read": {
+        "side": null,
+        "line": 9.0,
+        "note": "Total 9.0: no clear lean \u2014 not enough split data yet. (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      },
+      "odds_book": "DraftKings"
     },
     {
       "game_pk": 824987,
@@ -765,11 +768,7 @@
         "ml": -126,
         "implied": 55.8
       },
-      "weather": {
-        "temp_f": 84.6,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 231
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -789,8 +788,8 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": -114,
-        "under": -106
+        "over": -118,
+        "under": -102
       },
       "total_read": {
         "side": "under",
@@ -833,11 +832,7 @@
         "ml": -225,
         "implied": 69.2
       },
-      "weather": {
-        "temp_f": 75.6,
-        "wind_mph": 8.8,
-        "wind_dir_deg": 243
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -902,9 +897,9 @@
         "implied": 58.8
       },
       "weather": {
-        "temp_f": 70.6,
-        "wind_mph": 7.6,
-        "wind_dir_deg": 315
+        "temp_f": 70.9,
+        "wind_mph": 7.3,
+        "wind_dir_deg": 317
       },
       "factors": [
         {
@@ -969,7 +964,11 @@
         "ml": -205,
         "implied": 67.2
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 84.3,
+        "wind_mph": 6.2,
+        "wind_dir_deg": 249
+      },
       "factors": [
         {
           "m": "~",
