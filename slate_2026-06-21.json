@@ -1,6 +1,6 @@
 {
   "date": "2026-06-21",
-  "generated": "2026-06-21T10:58:07",
+  "generated": "2026-06-21T11:38:03",
   "games": [
     {
       "game_pk": 823531,
@@ -21,8 +21,8 @@
         "pitcher_id": 695505,
         "pitcher_name": "Chase Burns",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": -110,
+        "implied": 52.4
       },
       "home": {
         "team": "Yankees",
@@ -33,8 +33,8 @@
         "pitcher_id": 695684,
         "pitcher_name": "Elmer Rodr\u00edguez",
         "pitcher_hand": "R",
-        "ml": -115,
-        "implied": 53.5
+        "ml": -109,
+        "implied": 52.2
       },
       "weather": {
         "temp_f": 82.5,
@@ -89,8 +89,8 @@
         "pitcher_id": 688107,
         "pitcher_name": "Robert Gasser",
         "pitcher_hand": "L",
-        "ml": 109,
-        "implied": 47.8
+        "ml": 108,
+        "implied": 48.1
       },
       "home": {
         "team": "Braves",
@@ -127,14 +127,14 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.5,
-        "over": -121,
-        "under": 101
+        "line": 9.0,
+        "over": 102,
+        "under": -122
       },
       "total_read": {
         "side": null,
-        "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.769 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 9.0,
+        "note": "Total 9.0: no clear lean \u2014 starters roughly average (avg 0.769 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -225,8 +225,8 @@
         "pitcher_id": 663436,
         "pitcher_name": "Davis Martin",
         "pitcher_hand": "R",
-        "ml": -101,
-        "implied": 50.2
+        "ml": -105,
+        "implied": 51.2
       },
       "home": {
         "team": "Tigers",
@@ -237,8 +237,8 @@
         "pitcher_id": 672456,
         "pitcher_name": "Keider Montero",
         "pitcher_hand": "R",
-        "ml": -120,
-        "implied": 54.5
+        "ml": -114,
+        "implied": 53.3
       },
       "weather": {
         "temp_f": 75.5,
@@ -264,7 +264,7 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -115,
+        "over": -114,
         "under": -105
       },
       "total_read": {
@@ -518,11 +518,7 @@
         "ml": 101,
         "implied": 49.8
       },
-      "weather": {
-        "temp_f": 72.9,
-        "wind_mph": 9.6,
-        "wind_dir_deg": 123
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -586,11 +582,7 @@
         "ml": -149,
         "implied": 59.8
       },
-      "weather": {
-        "temp_f": 90.3,
-        "wind_mph": 13.3,
-        "wind_dir_deg": 194
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -610,8 +602,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -110,
-        "under": -110
+        "over": -111,
+        "under": -108
       },
       "total_read": {
         "side": null,
@@ -654,11 +646,7 @@
         "ml": 123,
         "implied": 44.8
       },
-      "weather": {
-        "temp_f": 89.3,
-        "wind_mph": 15.7,
-        "wind_dir_deg": 329
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -671,12 +659,6 @@
           "side": "none",
           "label": "Lineups",
           "text": "Pirates lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "16 mph wind (dir 329\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -690,7 +672,7 @@
       "total_read": {
         "side": "over",
         "line": 12.0,
-        "note": "Total 12.0: leans OVER \u2014 both starters look hittable (avg 0.899 OPS-against). Strong wind (16 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 12.0: leans OVER \u2014 both starters look hittable (avg 0.899 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -783,7 +765,11 @@
         "ml": -126,
         "implied": 55.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 84.6,
+        "wind_mph": 5.7,
+        "wind_dir_deg": 231
+      },
       "factors": [
         {
           "m": "~",
@@ -832,8 +818,8 @@
         "pitcher_id": 687064,
         "pitcher_name": "Brandon Young",
         "pitcher_hand": "R",
-        "ml": 178,
-        "implied": 36.0
+        "ml": 183,
+        "implied": 35.3
       },
       "home": {
         "team": "Dodgers",
@@ -844,10 +830,14 @@
         "pitcher_id": 686218,
         "pitcher_name": "Emmet Sheehan",
         "pitcher_hand": "R",
-        "ml": -219,
-        "implied": 68.7
+        "ml": -225,
+        "implied": 69.2
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 75.6,
+        "wind_mph": 8.8,
+        "wind_dir_deg": 243
+      },
       "factors": [
         {
           "m": "~",
@@ -911,7 +901,11 @@
         "ml": -143,
         "implied": 58.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 70.6,
+        "wind_mph": 7.6,
+        "wind_dir_deg": 315
+      },
       "factors": [
         {
           "m": "~",
