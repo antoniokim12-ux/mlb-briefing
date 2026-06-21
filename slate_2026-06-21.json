@@ -1,6 +1,6 @@
 {
   "date": "2026-06-21",
-  "generated": "2026-06-21T22:52:18",
+  "generated": "2026-06-21T23:25:06",
   "games": [
     {
       "game_pk": 823531,
@@ -590,7 +590,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 86.5,
+        "wind_mph": 12.9,
+        "wind_dir_deg": 170
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -652,19 +656,23 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 90.0,
+        "wind_mph": 14.4,
+        "wind_dir_deg": 316
+      },
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Jared Jones is vulnerable to LHB (1.120 OPS) and Rockies skew L-handed."
+          "text": "Jared Jones is vulnerable to LHB (1.306 OPS) and Rockies skew L-handed."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Michael Lorenzen is vulnerable to LHB (1.114 OPS) and Pirates skew L-handed."
+          "text": "Michael Lorenzen is vulnerable to LHB (1.196 OPS) and Pirates skew L-handed."
         }
       ],
       "lean": "even",
@@ -727,7 +735,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 101.0,
+        "wind_mph": 1.4,
+        "wind_dir_deg": 279
+      },
       "factors": [
         {
           "m": "+",
@@ -783,7 +795,7 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "31-47",
+        "record": "32-47",
         "pitcher_id": 672282,
         "pitcher_name": "Reid Detmers",
         "pitcher_hand": "L",
@@ -795,42 +807,37 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "38-39",
+        "record": "38-40",
         "pitcher_id": 678022,
         "pitcher_name": "Jack Perkins",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.6,
+        "wind_mph": 3.2,
+        "wind_dir_deg": 245
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Reid Detmers holds RHB to a 0.612 OPS; Athletics project 75% R-handed today."
+          "text": "Reid Detmers holds RHB to a 0.609 OPS; Athletics project 75% R-handed today."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Jack Perkins is vulnerable to RHB (0.873 OPS) and Angels skew R-handed."
+          "text": "Jack Perkins is vulnerable to RHB (0.787 OPS) and Angels skew R-handed."
         }
       ],
       "lean": "away",
       "weight": 2,
       "read": null,
-      "total": {
-        "line": 16.5,
-        "over": 1020,
-        "under": -3900
-      },
-      "total_read": {
-        "side": null,
-        "line": 16.5,
-        "note": "Total 16.5: no clear lean \u2014 starters roughly average (avg 0.742 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
-      },
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null
     },
     {
       "game_pk": 823934,
@@ -867,7 +874,7 @@
         "team_full": "Baltimore Orioles",
         "abbr": "BAL",
         "team_id": 110,
-        "record": "36-42",
+        "record": "37-42",
         "pitcher_id": 687064,
         "pitcher_name": "Brandon Young",
         "pitcher_hand": "R",
@@ -879,7 +886,7 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "49-28",
+        "record": "49-29",
         "pitcher_id": 686218,
         "pitcher_name": "Emmet Sheehan",
         "pitcher_hand": "R",
@@ -892,23 +899,14 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Brandon Young holds LHB to a 0.626 OPS; Dodgers project 62% L-handed today."
+          "text": "Brandon Young holds LHB to a 0.625 OPS; Dodgers project 62% L-handed today."
         }
       ],
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 14.5,
-        "over": 109,
-        "under": -141
-      },
-      "total_read": {
-        "side": "under",
-        "line": 14.5,
-        "note": "Total 14.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.669 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
-      },
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null
     },
     {
       "game_pk": 823123,
@@ -1011,8 +1009,8 @@
         "pitcher_id": 656849,
         "pitcher_name": "David Peterson",
         "pitcher_hand": "L",
-        "ml": 153,
-        "implied": 39.5
+        "ml": 149,
+        "implied": 40.2
       },
       "home": {
         "team": "Phillies",
@@ -1023,22 +1021,18 @@
         "pitcher_id": 554430,
         "pitcher_name": "Zack Wheeler",
         "pitcher_hand": "R",
-        "ml": -186,
-        "implied": 65.0
+        "ml": -181,
+        "implied": 64.4
       },
-      "weather": {
-        "temp_f": 82.3,
-        "wind_mph": 9.1,
-        "wind_dir_deg": 254
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -114,
-        "under": -105
+        "over": -115,
+        "under": -104
       },
       "total_read": {
         "side": "under",
@@ -1081,11 +1075,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 68.5,
-        "wind_mph": 8.0,
-        "wind_dir_deg": 128
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
