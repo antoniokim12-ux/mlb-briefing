@@ -1,6 +1,6 @@
 {
   "date": "2026-06-22",
-  "generated": "2026-06-22T15:59:29",
+  "generated": "2026-06-22T16:20:53",
   "games": [
     {
       "game_pk": 824261,
@@ -429,8 +429,8 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": -157,
-        "implied": 61.1
+        "ml": -149,
+        "implied": 59.8
       },
       "home": {
         "team": "Reds",
@@ -441,8 +441,8 @@
         "pitcher_id": 663903,
         "pitcher_name": "Brady Singer",
         "pitcher_hand": "R",
-        "ml": 130,
-        "implied": 43.5
+        "ml": 124,
+        "implied": 44.6
       },
       "weather": {
         "temp_f": 69.6,
@@ -844,11 +844,7 @@
         "ml": -110,
         "implied": 52.4
       },
-      "weather": {
-        "temp_f": 66.0,
-        "wind_mph": 5.6,
-        "wind_dir_deg": 286
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -868,8 +864,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -110,
-        "under": -110
+        "over": -102,
+        "under": -119
       },
       "total_read": {
         "side": null,
