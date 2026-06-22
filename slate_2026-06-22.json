@@ -1,6 +1,6 @@
 {
   "date": "2026-06-22",
-  "generated": "2026-06-22T21:36:42",
+  "generated": "2026-06-22T22:24:40",
   "games": [
     {
       "game_pk": 824261,
@@ -41,8 +41,8 @@
         "pitcher_id": 543037,
         "pitcher_name": "Gerrit Cole",
         "pitcher_hand": "R",
-        "ml": -125,
-        "implied": 55.6
+        "ml": -112,
+        "implied": 52.8
       },
       "home": {
         "team": "Tigers",
@@ -53,13 +53,13 @@
         "pitcher_id": 664285,
         "pitcher_name": "Framber Valdez",
         "pitcher_hand": "L",
-        "ml": 104,
-        "implied": 49.0
+        "ml": -115,
+        "implied": 53.5
       },
       "weather": {
-        "temp_f": 71.5,
-        "wind_mph": 9.9,
-        "wind_dir_deg": 18
+        "temp_f": 72.0,
+        "wind_mph": 8.0,
+        "wind_dir_deg": 36
       },
       "factors": [
         {
@@ -73,14 +73,14 @@
       "weight": 1,
       "read": null,
       "total": {
-        "line": 8.5,
-        "over": -112,
-        "under": -108
+        "line": 7.5,
+        "over": -131,
+        "under": 100
       },
       "total_read": {
         "side": "under",
-        "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.656 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 7.5,
+        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.656 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -123,8 +123,8 @@
         "pitcher_id": 608379,
         "pitcher_name": "Michael Wacha",
         "pitcher_hand": "R",
-        "ml": 153,
-        "implied": 39.5
+        "ml": 158,
+        "implied": 38.8
       },
       "home": {
         "team": "Rays",
@@ -135,13 +135,13 @@
         "pitcher_id": 656876,
         "pitcher_name": "Drew Rasmussen",
         "pitcher_hand": "R",
-        "ml": -186,
-        "implied": 65.0
+        "ml": -193,
+        "implied": 65.9
       },
       "weather": {
-        "temp_f": 89.9,
-        "wind_mph": 10.3,
-        "wind_dir_deg": 259
+        "temp_f": 89.8,
+        "wind_mph": 10.0,
+        "wind_dir_deg": 260
       },
       "factors": [],
       "lean": "even",
@@ -214,9 +214,9 @@
         "implied": 57.6
       },
       "weather": {
-        "temp_f": 87.6,
-        "wind_mph": 9.3,
-        "wind_dir_deg": 145
+        "temp_f": 87.9,
+        "wind_mph": 9.7,
+        "wind_dir_deg": 148
       },
       "factors": [],
       "lean": "even",
@@ -224,8 +224,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -107,
-        "under": -112
+        "over": -110,
+        "under": -109
       },
       "total_read": {
         "side": "under",
@@ -289,9 +289,9 @@
         "implied": 55.8
       },
       "weather": {
-        "temp_f": 74.5,
-        "wind_mph": 3.7,
-        "wind_dir_deg": 52
+        "temp_f": 75.3,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 48
       },
       "factors": [],
       "lean": "even",
@@ -299,8 +299,8 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -115,
-        "under": -104
+        "over": -111,
+        "under": -108
       },
       "total_read": {
         "side": "under",
@@ -364,9 +364,9 @@
         "implied": 56.7
       },
       "weather": {
-        "temp_f": 60.7,
-        "wind_mph": 6.1,
-        "wind_dir_deg": 54
+        "temp_f": 59.9,
+        "wind_mph": 8.5,
+        "wind_dir_deg": 63
       },
       "factors": [
         {
@@ -430,8 +430,8 @@
         "pitcher_id": 684007,
         "pitcher_name": "Shota Imanaga",
         "pitcher_hand": "L",
-        "ml": -126,
-        "implied": 55.8
+        "ml": -131,
+        "implied": 56.7
       },
       "home": {
         "team": "Mets",
@@ -442,13 +442,13 @@
         "pitcher_id": 673540,
         "pitcher_name": "Kodai Senga",
         "pitcher_hand": "R",
-        "ml": 105,
-        "implied": 48.8
+        "ml": 108,
+        "implied": 48.1
       },
       "weather": {
-        "temp_f": 71.3,
-        "wind_mph": 10.5,
-        "wind_dir_deg": 138
+        "temp_f": 71.8,
+        "wind_mph": 9.4,
+        "wind_dir_deg": 142
       },
       "factors": [
         {
@@ -533,11 +533,7 @@
         "ml": 129,
         "implied": 43.7
       },
-      "weather": {
-        "temp_f": 71.0,
-        "wind_mph": 10.1,
-        "wind_dir_deg": 339
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -615,11 +611,7 @@
         "ml": 129,
         "implied": 43.7
       },
-      "weather": {
-        "temp_f": 75.7,
-        "wind_mph": 7.1,
-        "wind_dir_deg": 11
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -697,11 +689,7 @@
         "ml": -109,
         "implied": 52.2
       },
-      "weather": {
-        "temp_f": 64.1,
-        "wind_mph": 11.6,
-        "wind_dir_deg": 1
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -864,7 +852,7 @@
       "total": {
         "line": 12.0,
         "over": -103,
-        "under": -117
+        "under": -116
       },
       "total_read": {
         "side": null,
@@ -917,7 +905,11 @@
         "ml": 135,
         "implied": 42.6
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 74.5,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 235
+      },
       "factors": [
         {
           "m": "-",
@@ -954,8 +946,28 @@
       "lat": 32.707861,
       "lon": -117.157278,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          643289,
+          686948,
+          621566,
+          645277,
+          671739,
+          663586,
+          642086,
+          573262,
+          622761
+        ],
+        "home": [
+          665487,
+          701538,
+          592518,
+          657757,
+          664034,
+          593428,
+          695238,
+          660710,
+          669392
+        ]
       },
       "away": {
         "team": "Braves",
@@ -966,8 +978,8 @@
         "pitcher_id": 656550,
         "pitcher_name": "Grant Holmes",
         "pitcher_hand": "R",
-        "ml": -109,
-        "implied": 52.2
+        "ml": -107,
+        "implied": 51.7
       },
       "home": {
         "team": "Padres",
@@ -978,26 +990,24 @@
         "pitcher_id": 650633,
         "pitcher_name": "Michael King",
         "pitcher_hand": "R",
-        "ml": -110,
-        "implied": 52.4
+        "ml": -112,
+        "implied": 52.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 68.7,
+        "wind_mph": 5.9,
+        "wind_dir_deg": 281
+      },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Padres lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Braves lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Michael King holds LHB to a 0.641 OPS; Braves project 62% L-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 7.5,
@@ -1005,9 +1015,9 @@
         "under": -122
       },
       "total_read": {
-        "side": null,
+        "side": "under",
         "line": 7.5,
-        "note": "Total 7.5: no clear lean \u2014 starters roughly average (avg 0.713 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.683 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     }
