@@ -1,6 +1,6 @@
 {
   "date": "2026-06-22",
-  "generated": "2026-06-22T20:57:45",
+  "generated": "2026-06-22T21:36:42",
   "games": [
     {
       "game_pk": 824261,
@@ -469,8 +469,8 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": 101,
-        "under": -122
+        "over": -101,
+        "under": -120
       },
       "total_read": {
         "side": "over",
@@ -682,8 +682,8 @@
         "pitcher_id": 668909,
         "pitcher_name": "Gavin Williams",
         "pitcher_hand": "R",
-        "ml": -112,
-        "implied": 52.8
+        "ml": -110,
+        "implied": 52.4
       },
       "home": {
         "team": "White Sox",
@@ -694,8 +694,8 @@
         "pitcher_id": 641743,
         "pitcher_name": "Anthony Kay",
         "pitcher_hand": "L",
-        "ml": -107,
-        "implied": 51.7
+        "ml": -109,
+        "implied": 52.2
       },
       "weather": {
         "temp_f": 64.1,
@@ -721,8 +721,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -105,
-        "under": -114
+        "over": -103,
+        "under": -117
       },
       "total_read": {
         "side": "over",
@@ -785,11 +785,7 @@
         "ml": -144,
         "implied": 59.0
       },
-      "weather": {
-        "temp_f": 69.2,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 351
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -813,8 +809,28 @@
       "lat": 39.756042,
       "lon": -104.994136,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          681508,
+          678882,
+          677800,
+          575929,
+          680776,
+          702332,
+          807799,
+          678011,
+          691785
+        ],
+        "home": [
+          650489,
+          671289,
+          681198,
+          696100,
+          694249,
+          664983,
+          690924,
+          678662,
+          691720
+        ]
       },
       "away": {
         "team": "Red Sox",
@@ -825,8 +841,8 @@
         "pitcher_id": 687562,
         "pitcher_name": "Jake Bennett",
         "pitcher_hand": "L",
-        "ml": -131,
-        "implied": 56.7
+        "ml": -137,
+        "implied": 57.8
       },
       "home": {
         "team": "Rockies",
@@ -837,40 +853,23 @@
         "pitcher_id": 663372,
         "pitcher_name": "Ryan Feltner",
         "pitcher_hand": "R",
-        "ml": 108,
-        "implied": 48.1
+        "ml": 114,
+        "implied": 46.7
       },
-      "weather": {
-        "temp_f": 89.6,
-        "wind_mph": 11.4,
-        "wind_dir_deg": 1
-      },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rockies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Red Sox lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "weather": null,
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": {
-        "line": 11.5,
-        "over": -114,
-        "under": -105
+        "line": 12.0,
+        "over": -103,
+        "under": -117
       },
       "total_read": {
-        "side": "under",
-        "line": 11.5,
-        "note": "Total 11.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.680 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "side": null,
+        "line": 12.0,
+        "note": "Total 12.0: no clear lean \u2014 starters roughly average (avg 0.701 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -882,7 +881,17 @@
       "lon": -117.8823996,
       "lineup_ids": {
         "away": [],
-        "home": []
+        "home": [
+          687263,
+          694384,
+          666176,
+          624585,
+          685133,
+          694203,
+          622268,
+          681351,
+          642350
+        ]
       },
       "away": {
         "team": "Orioles",
@@ -911,10 +920,10 @@
       "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Angels lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Kyle Bradish is vulnerable to RHB (0.853 OPS) and Angels skew R-handed."
         },
         {
           "m": "~",
@@ -923,8 +932,8 @@
           "text": "Orioles lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 9.0,
@@ -934,7 +943,7 @@
       "total_read": {
         "side": "over",
         "line": 9.0,
-        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.843 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.870 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
