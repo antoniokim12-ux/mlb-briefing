@@ -1,6 +1,6 @@
 {
   "date": "2026-06-21",
-  "generated": "2026-06-21T23:25:06",
+  "generated": "2026-06-22T02:23:53",
   "games": [
     {
       "game_pk": 823531,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 81.5,
-        "wind_mph": 9.6,
-        "wind_dir_deg": 282
+        "temp_f": 77.3,
+        "wind_mph": 6.2,
+        "wind_dir_deg": 64
       },
       "factors": [
         {
@@ -136,9 +136,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 79.7,
-        "wind_mph": 5.3,
-        "wind_dir_deg": 216
+        "temp_f": 82.0,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 251
       },
       "factors": [
         {
@@ -215,9 +215,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 90.1,
-        "wind_mph": 10.2,
-        "wind_dir_deg": 237
+        "temp_f": 87.2,
+        "wind_mph": 6.6,
+        "wind_dir_deg": 298
       },
       "factors": [
         {
@@ -294,9 +294,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 72.4,
-        "wind_mph": 4.5,
-        "wind_dir_deg": 180
+        "temp_f": 68.5,
+        "wind_mph": 4.9,
+        "wind_dir_deg": 175
       },
       "factors": [
         {
@@ -373,9 +373,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 90.4,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 153
+        "temp_f": 86.2,
+        "wind_mph": 5.1,
+        "wind_dir_deg": 229
       },
       "factors": [
         {
@@ -446,9 +446,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 84.2,
-        "wind_mph": 8.8,
-        "wind_dir_deg": 161
+        "temp_f": 84.3,
+        "wind_mph": 12.7,
+        "wind_dir_deg": 170
       },
       "factors": [
         {
@@ -524,11 +524,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 73.2,
-        "wind_mph": 9.9,
-        "wind_dir_deg": 256
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -590,11 +586,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 86.5,
-        "wind_mph": 12.9,
-        "wind_dir_deg": 170
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -656,23 +648,19 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 90.0,
-        "wind_mph": 14.4,
-        "wind_dir_deg": 316
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Jared Jones is vulnerable to LHB (1.306 OPS) and Rockies skew L-handed."
+          "text": "Jared Jones is vulnerable to LHB (1.120 OPS) and Rockies skew L-handed."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Michael Lorenzen is vulnerable to LHB (1.196 OPS) and Pirates skew L-handed."
+          "text": "Michael Lorenzen is vulnerable to LHB (1.114 OPS) and Pirates skew L-handed."
         }
       ],
       "lean": "even",
@@ -735,11 +723,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 101.0,
-        "wind_mph": 1.4,
-        "wind_dir_deg": 279
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -814,11 +798,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 82.6,
-        "wind_mph": 3.2,
-        "wind_dir_deg": 245
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -893,7 +873,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 73.5,
+        "wind_mph": 9.1,
+        "wind_dir_deg": 253
+      },
       "factors": [
         {
           "m": "+",
@@ -962,7 +946,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 76.1,
+        "wind_mph": 6.1,
+        "wind_dir_deg": 324
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1005,39 +993,43 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "34-42",
+        "record": "34-43",
         "pitcher_id": 656849,
         "pitcher_name": "David Peterson",
         "pitcher_hand": "L",
-        "ml": 149,
-        "implied": 40.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Phillies",
         "team_full": "Philadelphia Phillies",
         "abbr": "PHI",
         "team_id": 143,
-        "record": "41-35",
+        "record": "42-35",
         "pitcher_id": 554430,
         "pitcher_name": "Zack Wheeler",
         "pitcher_hand": "R",
-        "ml": -181,
-        "implied": 64.4
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 80.6,
+        "wind_mph": 3.6,
+        "wind_dir_deg": 266
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.0,
-        "over": -115,
-        "under": -104
+        "line": 8.5,
+        "over": 600,
+        "under": -1180
       },
       "total_read": {
-        "side": "under",
-        "line": 8.0,
-        "note": "Total 8.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.686 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "side": null,
+        "line": 8.5,
+        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.707 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -1075,7 +1067,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 59.0,
+        "wind_mph": 12.4,
+        "wind_dir_deg": 83
+      },
       "factors": [
         {
           "m": "~",
