@@ -1,6 +1,6 @@
 {
   "date": "2026-06-22",
-  "generated": "2026-06-22T16:20:53",
+  "generated": "2026-06-22T18:08:56",
   "games": [
     {
       "game_pk": 824261,
@@ -10,7 +10,17 @@
       "lon": -83.048695,
       "lineup_ids": {
         "away": [],
-        "home": []
+        "home": [
+          805808,
+          693307,
+          681481,
+          682985,
+          679529,
+          690993,
+          681546,
+          701678,
+          656716
+        ]
       },
       "away": {
         "team": "Yankees",
@@ -37,16 +47,16 @@
         "implied": 48.1
       },
       "weather": {
-        "temp_f": 71.2,
-        "wind_mph": 9.9,
-        "wind_dir_deg": 25
+        "temp_f": 71.4,
+        "wind_mph": 10.1,
+        "wind_dir_deg": 21
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Tigers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Gerrit Cole holds LHB to a 0.599 OPS; Tigers project 67% L-handed today."
         },
         {
           "m": "~",
@@ -55,18 +65,18 @@
           "text": "Yankees lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -114,
-        "under": -105
+        "over": -112,
+        "under": -107
       },
       "total_read": {
         "side": "under",
         "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.664 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.651 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -105,9 +115,9 @@
         "implied": 66.0
       },
       "weather": {
-        "temp_f": 89.5,
-        "wind_mph": 10.4,
-        "wind_dir_deg": 264
+        "temp_f": 89.8,
+        "wind_mph": 10.1,
+        "wind_dir_deg": 265
       },
       "factors": [
         {
@@ -128,7 +138,7 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": 100,
+        "over": -101,
         "under": -120
       },
       "total_read": {
@@ -173,9 +183,9 @@
         "implied": 56.7
       },
       "weather": {
-        "temp_f": 86.9,
-        "wind_mph": 8.4,
-        "wind_dir_deg": 155
+        "temp_f": 87.6,
+        "wind_mph": 8.7,
+        "wind_dir_deg": 151
       },
       "factors": [
         {
@@ -225,8 +235,8 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": 102,
-        "implied": 49.5
+        "ml": 104,
+        "implied": 49.0
       },
       "home": {
         "team": "Nationals",
@@ -237,13 +247,13 @@
         "pitcher_id": 656492,
         "pitcher_name": "Foster Griffin",
         "pitcher_hand": "L",
-        "ml": -123,
-        "implied": 55.2
+        "ml": -125,
+        "implied": 55.6
       },
       "weather": {
-        "temp_f": 75.3,
-        "wind_mph": 11.5,
-        "wind_dir_deg": 7
+        "temp_f": 78.9,
+        "wind_mph": 1.1,
+        "wind_dir_deg": 259
       },
       "factors": [
         {
@@ -293,8 +303,8 @@
         "pitcher_id": 686613,
         "pitcher_name": "Hunter Brown",
         "pitcher_hand": "R",
-        "ml": 104,
-        "implied": 49.0
+        "ml": 108,
+        "implied": 48.1
       },
       "home": {
         "team": "Blue Jays",
@@ -305,12 +315,12 @@
         "pitcher_id": 656302,
         "pitcher_name": "Dylan Cease",
         "pitcher_hand": "R",
-        "ml": -126,
-        "implied": 55.8
+        "ml": -131,
+        "implied": 56.7
       },
       "weather": {
-        "temp_f": 59.2,
-        "wind_mph": 7.2,
+        "temp_f": 58.7,
+        "wind_mph": 5.7,
         "wind_dir_deg": 64
       },
       "factors": [
@@ -331,14 +341,14 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 7.5,
-        "over": 102,
-        "under": -123
+        "line": 7.0,
+        "over": -126,
+        "under": 104
       },
       "total_read": {
         "side": "under",
-        "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.508 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 7.0,
+        "note": "Total 7.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.508 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -377,9 +387,9 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 71.5,
-        "wind_mph": 8.8,
-        "wind_dir_deg": 126
+        "temp_f": 73.0,
+        "wind_mph": 11.3,
+        "wind_dir_deg": 146
       },
       "factors": [
         {
@@ -400,8 +410,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -117,
-        "under": -103
+        "over": -120,
+        "under": -101
       },
       "total_read": {
         "side": "over",
@@ -444,11 +454,7 @@
         "ml": 124,
         "implied": 44.6
       },
-      "weather": {
-        "temp_f": 69.6,
-        "wind_mph": 10.4,
-        "wind_dir_deg": 337
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -512,11 +518,7 @@
         "ml": 128,
         "implied": 43.9
       },
-      "weather": {
-        "temp_f": 78.5,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 49
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -536,8 +538,8 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -108,
-        "under": -111
+        "over": -114,
+        "under": -105
       },
       "total_read": {
         "side": "over",
@@ -580,11 +582,7 @@
         "ml": -108,
         "implied": 51.9
       },
-      "weather": {
-        "temp_f": 63.9,
-        "wind_mph": 11.7,
-        "wind_dir_deg": 356
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -648,11 +646,7 @@
         "ml": -144,
         "implied": 59.0
       },
-      "weather": {
-        "temp_f": 67.9,
-        "wind_mph": 7.7,
-        "wind_dir_deg": 8
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -844,7 +838,11 @@
         "ml": -110,
         "implied": 52.4
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 65.9,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 287
+      },
       "factors": [
         {
           "m": "~",
@@ -864,8 +862,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -102,
-        "under": -119
+        "over": 101,
+        "under": -122
       },
       "total_read": {
         "side": null,
