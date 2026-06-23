@@ -1,6 +1,6 @@
 {
   "date": "2026-06-23",
-  "generated": "2026-06-23T08:49:08",
+  "generated": "2026-06-23T10:51:50",
   "games": [
     {
       "game_pk": 822799,
@@ -37,9 +37,9 @@
         "implied": 57.6
       },
       "weather": {
-        "temp_f": 75.5,
-        "wind_mph": 9.1,
-        "wind_dir_deg": 350
+        "temp_f": 75.9,
+        "wind_mph": 9.8,
+        "wind_dir_deg": 344
       },
       "factors": [
         {
@@ -105,7 +105,7 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 75.1,
+        "temp_f": 75.3,
         "wind_mph": 10.1,
         "wind_dir_deg": 329
       },
@@ -128,7 +128,7 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -116,
+        "over": -117,
         "under": -103
       },
       "total_read": {
@@ -174,8 +174,8 @@
       },
       "weather": {
         "temp_f": 89.5,
-        "wind_mph": 11.0,
-        "wind_dir_deg": 270
+        "wind_mph": 11.7,
+        "wind_dir_deg": 277
       },
       "factors": [
         {
@@ -241,9 +241,9 @@
         "implied": 60.9
       },
       "weather": {
-        "temp_f": 85.2,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 230
+        "temp_f": 82.9,
+        "wind_mph": 4.8,
+        "wind_dir_deg": 208
       },
       "factors": [
         {
@@ -309,9 +309,9 @@
         "implied": 50.5
       },
       "weather": {
-        "temp_f": 74.2,
-        "wind_mph": 10.0,
-        "wind_dir_deg": 56
+        "temp_f": 74.8,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 53
       },
       "factors": [
         {
@@ -361,8 +361,8 @@
         "pitcher_id": 666200,
         "pitcher_name": "Jes\u00fas Luzardo",
         "pitcher_hand": "L",
-        "ml": -167,
-        "implied": 62.5
+        "ml": -163,
+        "implied": 62.0
       },
       "home": {
         "team": "Nationals",
@@ -373,13 +373,13 @@
         "pitcher_id": 641793,
         "pitcher_name": "Zack Littell",
         "pitcher_hand": "R",
-        "ml": 138,
-        "implied": 42.0
+        "ml": 135,
+        "implied": 42.6
       },
       "weather": {
-        "temp_f": 72.5,
-        "wind_mph": 4.7,
-        "wind_dir_deg": 352
+        "temp_f": 73.1,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 21
       },
       "factors": [
         {
@@ -444,11 +444,7 @@
         "ml": -120,
         "implied": 54.5
       },
-      "weather": {
-        "temp_f": 71.5,
-        "wind_mph": 6.7,
-        "wind_dir_deg": 178
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -497,8 +493,8 @@
         "pitcher_id": 687075,
         "pitcher_name": "Brandon Sproat",
         "pitcher_hand": "R",
-        "ml": -122,
-        "implied": 55.0
+        "ml": -123,
+        "implied": 55.2
       },
       "home": {
         "team": "Reds",
@@ -509,14 +505,10 @@
         "pitcher_id": 666157,
         "pitcher_name": "Nick Lodolo",
         "pitcher_hand": "L",
-        "ml": 101,
-        "implied": 49.8
+        "ml": 102,
+        "implied": 49.5
       },
-      "weather": {
-        "temp_f": 77.8,
-        "wind_mph": 6.7,
-        "wind_dir_deg": 346
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -535,14 +527,14 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 10.0,
-        "over": -102,
-        "under": -118
+        "line": 9.5,
+        "over": -118,
+        "under": -102
       },
       "total_read": {
         "side": "over",
-        "line": 10.0,
-        "note": "Total 10.0: leans OVER \u2014 both starters look hittable (avg 0.882 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 9.5,
+        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.882 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -580,11 +572,7 @@
         "ml": 144,
         "implied": 41.0
       },
-      "weather": {
-        "temp_f": 66.9,
-        "wind_mph": 7.7,
-        "wind_dir_deg": 150
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -605,7 +593,7 @@
       "total": {
         "line": 9.0,
         "over": -101,
-        "under": -120
+        "under": -119
       },
       "total_read": {
         "side": "under",
@@ -840,7 +828,11 @@
         "ml": 129,
         "implied": 43.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 73.0,
+        "wind_mph": 7.6,
+        "wind_dir_deg": 227
+      },
       "factors": [
         {
           "m": "~",
@@ -904,7 +896,11 @@
         "ml": -108,
         "implied": 51.9
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 70.5,
+        "wind_mph": 6.1,
+        "wind_dir_deg": 306
+      },
       "factors": [
         {
           "m": "~",
@@ -968,7 +964,11 @@
         "ml": -125,
         "implied": 55.6
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 60.5,
+        "wind_mph": 11.0,
+        "wind_dir_deg": 274
+      },
       "factors": [
         {
           "m": "~",
