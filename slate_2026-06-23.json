@@ -1,6 +1,6 @@
 {
   "date": "2026-06-23",
-  "generated": "2026-06-23T10:51:50",
+  "generated": "2026-06-23T12:20:22",
   "games": [
     {
       "game_pk": 822799,
@@ -37,9 +37,9 @@
         "implied": 57.6
       },
       "weather": {
-        "temp_f": 75.9,
-        "wind_mph": 9.8,
-        "wind_dir_deg": 344
+        "temp_f": 75.4,
+        "wind_mph": 9.0,
+        "wind_dir_deg": 346
       },
       "factors": [
         {
@@ -60,8 +60,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -113,
-        "under": -107
+        "over": -115,
+        "under": -105
       },
       "total_read": {
         "side": null,
@@ -105,9 +105,9 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 75.3,
+        "temp_f": 74.9,
         "wind_mph": 10.1,
-        "wind_dir_deg": 329
+        "wind_dir_deg": 323
       },
       "factors": [
         {
@@ -128,7 +128,7 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -117,
+        "over": -116,
         "under": -103
       },
       "total_read": {
@@ -157,8 +157,8 @@
         "pitcher_id": 679883,
         "pitcher_name": "Luinder Avila",
         "pitcher_hand": "R",
-        "ml": 158,
-        "implied": 38.8
+        "ml": 154,
+        "implied": 39.4
       },
       "home": {
         "team": "Rays",
@@ -169,13 +169,13 @@
         "pitcher_id": 663556,
         "pitcher_name": "Shane McClanahan",
         "pitcher_hand": "L",
-        "ml": -193,
-        "implied": 65.9
+        "ml": -188,
+        "implied": 65.3
       },
       "weather": {
-        "temp_f": 89.5,
-        "wind_mph": 11.7,
-        "wind_dir_deg": 277
+        "temp_f": 90.2,
+        "wind_mph": 11.2,
+        "wind_dir_deg": 287
       },
       "factors": [
         {
@@ -196,8 +196,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -113,
-        "under": -106
+        "over": -111,
+        "under": -108
       },
       "total_read": {
         "side": "under",
@@ -241,9 +241,9 @@
         "implied": 60.9
       },
       "weather": {
-        "temp_f": 82.9,
-        "wind_mph": 4.8,
-        "wind_dir_deg": 208
+        "temp_f": 77.6,
+        "wind_mph": 7.6,
+        "wind_dir_deg": 246
       },
       "factors": [
         {
@@ -264,8 +264,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -105,
-        "under": -115
+        "over": -103,
+        "under": -117
       },
       "total_read": {
         "side": null,
@@ -309,9 +309,9 @@
         "implied": 50.5
       },
       "weather": {
-        "temp_f": 74.8,
-        "wind_mph": 8.6,
-        "wind_dir_deg": 53
+        "temp_f": 74.7,
+        "wind_mph": 9.6,
+        "wind_dir_deg": 59
       },
       "factors": [
         {
@@ -361,8 +361,8 @@
         "pitcher_id": 666200,
         "pitcher_name": "Jes\u00fas Luzardo",
         "pitcher_hand": "L",
-        "ml": -163,
-        "implied": 62.0
+        "ml": -167,
+        "implied": 62.5
       },
       "home": {
         "team": "Nationals",
@@ -373,13 +373,13 @@
         "pitcher_id": 641793,
         "pitcher_name": "Zack Littell",
         "pitcher_hand": "R",
-        "ml": 135,
-        "implied": 42.6
+        "ml": 138,
+        "implied": 42.0
       },
       "weather": {
-        "temp_f": 73.1,
-        "wind_mph": 4.3,
-        "wind_dir_deg": 21
+        "temp_f": 72.5,
+        "wind_mph": 0.7,
+        "wind_dir_deg": 90
       },
       "factors": [
         {
@@ -444,7 +444,11 @@
         "ml": -120,
         "implied": 54.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 70.2,
+        "wind_mph": 3.2,
+        "wind_dir_deg": 214
+      },
       "factors": [
         {
           "m": "~",
@@ -621,8 +625,8 @@
         "pitcher_id": 800048,
         "pitcher_name": "Parker Messick",
         "pitcher_hand": "L",
-        "ml": -114,
-        "implied": 53.3
+        "ml": -117,
+        "implied": 53.9
       },
       "home": {
         "team": "White Sox",
@@ -633,8 +637,8 @@
         "pitcher_id": 680732,
         "pitcher_name": "Sean Burke",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": -103,
+        "implied": 50.7
       },
       "weather": null,
       "factors": [
@@ -828,11 +832,7 @@
         "ml": 129,
         "implied": 43.7
       },
-      "weather": {
-        "temp_f": 73.0,
-        "wind_mph": 7.6,
-        "wind_dir_deg": 227
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -898,8 +898,8 @@
       },
       "weather": {
         "temp_f": 70.5,
-        "wind_mph": 6.1,
-        "wind_dir_deg": 306
+        "wind_mph": 6.5,
+        "wind_dir_deg": 308
       },
       "factors": [
         {
@@ -965,9 +965,9 @@
         "implied": 55.6
       },
       "weather": {
-        "temp_f": 60.5,
-        "wind_mph": 11.0,
-        "wind_dir_deg": 274
+        "temp_f": 60.0,
+        "wind_mph": 11.9,
+        "wind_dir_deg": 271
       },
       "factors": [
         {
