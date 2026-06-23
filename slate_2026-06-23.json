@@ -1,6 +1,6 @@
 {
   "date": "2026-06-23",
-  "generated": "2026-06-23T22:53:23",
+  "generated": "2026-06-23T22:56:22",
   "games": [
     {
       "game_pk": 822799,
@@ -41,8 +41,8 @@
         "pitcher_id": 663567,
         "pitcher_name": "Peter Lambert",
         "pitcher_hand": "R",
-        "ml": 265,
-        "implied": 27.4
+        "ml": 153,
+        "implied": 39.5
       },
       "home": {
         "team": "Blue Jays",
@@ -53,8 +53,8 @@
         "pitcher_id": 669456,
         "pitcher_name": "Shane Bieber",
         "pitcher_hand": "R",
-        "ml": -376,
-        "implied": 79.0
+        "ml": -203,
+        "implied": 67.0
       },
       "weather": {
         "temp_f": 77.2,
@@ -67,8 +67,8 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -143,
-        "under": 110
+        "over": -160,
+        "under": 123
       },
       "total_read": {
         "side": null,
@@ -116,8 +116,8 @@
         "pitcher_id": 669923,
         "pitcher_name": "George Kirby",
         "pitcher_hand": "R",
-        "ml": 103,
-        "implied": 49.3
+        "ml": -105,
+        "implied": 51.2
       },
       "home": {
         "team": "Pirates",
@@ -128,8 +128,8 @@
         "pitcher_id": 656605,
         "pitcher_name": "Mitch Keller",
         "pitcher_hand": "R",
-        "ml": -134,
-        "implied": 57.3
+        "ml": -124,
+        "implied": 55.4
       },
       "weather": {
         "temp_f": 74.3,
@@ -142,8 +142,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -129,
-        "under": -101
+        "over": -121,
+        "under": -107
       },
       "total_read": {
         "side": null,
@@ -191,8 +191,8 @@
         "pitcher_id": 679883,
         "pitcher_name": "Luinder Avila",
         "pitcher_hand": "R",
-        "ml": -101,
-        "implied": 50.2
+        "ml": 130,
+        "implied": 43.5
       },
       "home": {
         "team": "Rays",
@@ -203,8 +203,8 @@
         "pitcher_id": 663556,
         "pitcher_name": "Shane McClanahan",
         "pitcher_hand": "L",
-        "ml": -128,
-        "implied": 56.1
+        "ml": -170,
+        "implied": 63.0
       },
       "weather": {
         "temp_f": 90.8,
@@ -224,8 +224,8 @@
       "read": null,
       "total": {
         "line": 10.5,
-        "over": 100,
-        "under": -129
+        "over": -122,
+        "under": -107
       },
       "total_read": {
         "side": null,
@@ -273,8 +273,8 @@
         "pitcher_id": 615698,
         "pitcher_name": "Cal Quantrill",
         "pitcher_hand": "R",
-        "ml": 138,
-        "implied": 42.0
+        "ml": 147,
+        "implied": 40.5
       },
       "home": {
         "team": "Marlins",
@@ -285,8 +285,8 @@
         "pitcher_id": 645261,
         "pitcher_name": "Sandy Alcantara",
         "pitcher_hand": "R",
-        "ml": -182,
-        "implied": 64.5
+        "ml": -194,
+        "implied": 66.0
       },
       "weather": {
         "temp_f": 85.5,
@@ -299,8 +299,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -112,
-        "under": -116
+        "over": -127,
+        "under": -103
       },
       "total_read": {
         "side": "under",
@@ -348,8 +348,8 @@
         "pitcher_id": 607074,
         "pitcher_name": "Carlos Rod\u00f3n",
         "pitcher_hand": "L",
-        "ml": -109,
-        "implied": 52.2
+        "ml": -118,
+        "implied": 54.1
       },
       "home": {
         "team": "Tigers",
@@ -360,8 +360,8 @@
         "pitcher_id": 663554,
         "pitcher_name": "Casey Mize",
         "pitcher_hand": "R",
-        "ml": -119,
-        "implied": 54.3
+        "ml": -110,
+        "implied": 52.4
       },
       "weather": {
         "temp_f": 73.6,
@@ -387,8 +387,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": 102,
-        "under": -132
+        "over": 104,
+        "under": -135
       },
       "total_read": {
         "side": "under",
@@ -436,8 +436,8 @@
         "pitcher_id": 666200,
         "pitcher_name": "Jes\u00fas Luzardo",
         "pitcher_hand": "L",
-        "ml": -173,
-        "implied": 63.4
+        "ml": -193,
+        "implied": 65.9
       },
       "home": {
         "team": "Nationals",
@@ -448,8 +448,8 @@
         "pitcher_id": 676571,
         "pitcher_name": "PJ Poulin",
         "pitcher_hand": "L",
-        "ml": 132,
-        "implied": 43.1
+        "ml": 147,
+        "implied": 40.5
       },
       "weather": {
         "temp_f": 69.6,
@@ -462,8 +462,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -120,
-        "under": -108
+        "over": -116,
+        "under": -112
       },
       "total_read": {
         "side": null,
@@ -526,11 +526,7 @@
         "ml": -103,
         "implied": 50.7
       },
-      "weather": {
-        "temp_f": 68.6,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 326
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -614,11 +610,7 @@
         "ml": -112,
         "implied": 52.8
       },
-      "weather": {
-        "temp_f": 78.4,
-        "wind_mph": 6.9,
-        "wind_dir_deg": 339
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -702,11 +694,7 @@
         "ml": 149,
         "implied": 40.2
       },
-      "weather": {
-        "temp_f": 66.6,
-        "wind_mph": 10.8,
-        "wind_dir_deg": 133
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -784,11 +772,7 @@
         "ml": -105,
         "implied": 51.2
       },
-      "weather": {
-        "temp_f": 65.6,
-        "wind_mph": 6.6,
-        "wind_dir_deg": 55
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -866,11 +850,7 @@
         "ml": -112,
         "implied": 52.8
       },
-      "weather": {
-        "temp_f": 81.1,
-        "wind_mph": 4.6,
-        "wind_dir_deg": 43
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1176,7 +1156,11 @@
         "ml": -149,
         "implied": 59.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 60.4,
+        "wind_mph": 12.6,
+        "wind_dir_deg": 276
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
