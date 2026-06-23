@@ -1,6 +1,6 @@
 {
   "date": "2026-06-23",
-  "generated": "2026-06-23T12:20:22",
+  "generated": "2026-06-23T12:28:46",
   "games": [
     {
       "game_pk": 822799,
@@ -60,8 +60,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -115,
-        "under": -105
+        "over": -112,
+        "under": -107
       },
       "total_read": {
         "side": null,
@@ -157,8 +157,8 @@
         "pitcher_id": 679883,
         "pitcher_name": "Luinder Avila",
         "pitcher_hand": "R",
-        "ml": 154,
-        "implied": 39.4
+        "ml": 158,
+        "implied": 38.8
       },
       "home": {
         "team": "Rays",
@@ -169,8 +169,8 @@
         "pitcher_id": 663556,
         "pitcher_name": "Shane McClanahan",
         "pitcher_hand": "L",
-        "ml": -188,
-        "implied": 65.3
+        "ml": -193,
+        "implied": 65.9
       },
       "weather": {
         "temp_f": 90.2,
@@ -264,8 +264,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -103,
-        "under": -117
+        "over": -101,
+        "under": -119
       },
       "total_read": {
         "side": null,
@@ -332,7 +332,7 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -110,
+        "over": -109,
         "under": -110
       },
       "total_read": {
@@ -444,11 +444,7 @@
         "ml": -120,
         "implied": 54.5
       },
-      "weather": {
-        "temp_f": 70.2,
-        "wind_mph": 3.2,
-        "wind_dir_deg": 214
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -597,7 +593,7 @@
       "total": {
         "line": 9.0,
         "over": -101,
-        "under": -119
+        "under": -120
       },
       "total_read": {
         "side": "under",
@@ -625,8 +621,8 @@
         "pitcher_id": 800048,
         "pitcher_name": "Parker Messick",
         "pitcher_hand": "L",
-        "ml": -117,
-        "implied": 53.9
+        "ml": -114,
+        "implied": 53.3
       },
       "home": {
         "team": "White Sox",
@@ -637,10 +633,14 @@
         "pitcher_id": 680732,
         "pitcher_name": "Sean Burke",
         "pitcher_hand": "R",
-        "ml": -103,
-        "implied": 50.7
+        "ml": -105,
+        "implied": 51.2
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 65.5,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 43
+      },
       "factors": [
         {
           "m": "~",
@@ -661,7 +661,7 @@
       "total": {
         "line": 7.0,
         "over": -115,
-        "under": -105
+        "under": -104
       },
       "total_read": {
         "side": "under",
@@ -704,7 +704,11 @@
         "ml": -112,
         "implied": 52.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.4,
+        "wind_mph": 4.6,
+        "wind_dir_deg": 51
+      },
       "factors": [
         {
           "m": "~",
@@ -753,8 +757,8 @@
         "pitcher_id": 543243,
         "pitcher_name": "Sonny Gray",
         "pitcher_hand": "R",
-        "ml": -168,
-        "implied": 62.7
+        "ml": -163,
+        "implied": 62.0
       },
       "home": {
         "team": "Rockies",
@@ -765,8 +769,8 @@
         "pitcher_id": 807743,
         "pitcher_name": "Sean Sullivan",
         "pitcher_hand": "L",
-        "ml": 139,
-        "implied": 41.8
+        "ml": 135,
+        "implied": 42.6
       },
       "weather": null,
       "factors": [
@@ -896,11 +900,7 @@
         "ml": -108,
         "implied": 51.9
       },
-      "weather": {
-        "temp_f": 70.5,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 308
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
