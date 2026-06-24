@@ -1,6 +1,6 @@
 {
   "date": "2026-06-24",
-  "generated": "2026-06-24T15:52:58",
+  "generated": "2026-06-24T16:24:00",
   "games": [
     {
       "game_pk": 823850,
@@ -41,8 +41,8 @@
         "pitcher_id": 594798,
         "pitcher_name": "Jacob deGrom",
         "pitcher_hand": "R",
-        "ml": -122,
-        "implied": 55.0
+        "ml": 103,
+        "implied": 49.3
       },
       "home": {
         "team": "Marlins",
@@ -53,8 +53,8 @@
         "pitcher_id": 691587,
         "pitcher_name": "Eury P\u00e9rez",
         "pitcher_hand": "R",
-        "ml": 101,
-        "implied": 49.8
+        "ml": -134,
+        "implied": 57.3
       },
       "weather": {
         "temp_f": 90.3,
@@ -67,8 +67,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -103,
-        "under": -117
+        "over": 108,
+        "under": -140
       },
       "total_read": {
         "side": null,
@@ -315,8 +315,28 @@
       "lat": 39.756042,
       "lon": -104.994136,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          681987,
+          678882,
+          677800,
+          575929,
+          702332,
+          678011,
+          655316,
+          657136,
+          665966
+        ],
+        "home": [
+          650489,
+          671289,
+          681198,
+          696100,
+          694249,
+          664983,
+          690924,
+          678662,
+          691720
+        ]
       },
       "away": {
         "team": "Red Sox",
@@ -327,8 +347,8 @@
         "pitcher_id": 624133,
         "pitcher_name": "Ranger Suarez",
         "pitcher_hand": "L",
-        "ml": -171,
-        "implied": 63.1
+        "ml": -175,
+        "implied": 63.6
       },
       "home": {
         "team": "Rockies",
@@ -339,8 +359,8 @@
         "pitcher_id": 607536,
         "pitcher_name": "Kyle Freeland",
         "pitcher_hand": "L",
-        "ml": 141,
-        "implied": 41.5
+        "ml": 144,
+        "implied": 41.0
       },
       "weather": {
         "temp_f": 85.0,
@@ -349,30 +369,30 @@
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rockies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Ranger Suarez holds RHB to a 0.562 OPS; Rockies project 71% R-handed today."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Red Sox lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Kyle Freeland is vulnerable to RHB (0.945 OPS) and Red Sox skew R-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 2,
       "read": null,
       "total": {
-        "line": 11.0,
-        "over": -103,
-        "under": -117
+        "line": 10.5,
+        "over": -116,
+        "under": -104
       },
       "total_read": {
         "side": null,
-        "line": 11.0,
-        "note": "Total 11.0: no clear lean \u2014 starters roughly average (avg 0.732 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 10.5,
+        "note": "Total 10.5: no clear lean \u2014 starters roughly average (avg 0.754 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -502,7 +522,7 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -107,
+        "over": -106,
         "under": -113
       },
       "total_read": {
@@ -638,8 +658,8 @@
       "read": null,
       "total": {
         "line": 7.0,
-        "over": -125,
-        "under": 104
+        "over": -124,
+        "under": 103
       },
       "total_read": {
         "side": null,
@@ -818,7 +838,11 @@
         "ml": 122,
         "implied": 45.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 81.3,
+        "wind_mph": 7.3,
+        "wind_dir_deg": 308
+      },
       "factors": [
         {
           "m": "~",
@@ -867,8 +891,8 @@
         "pitcher_id": 660271,
         "pitcher_name": "Shohei Ohtani",
         "pitcher_hand": "R",
-        "ml": -175,
-        "implied": 63.6
+        "ml": -180,
+        "implied": 64.3
       },
       "home": {
         "team": "Twins",
@@ -879,8 +903,8 @@
         "pitcher_id": 657746,
         "pitcher_name": "Joe Ryan",
         "pitcher_hand": "R",
-        "ml": 144,
-        "implied": 41.0
+        "ml": 148,
+        "implied": 40.3
       },
       "weather": null,
       "factors": [
