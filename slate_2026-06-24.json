@@ -1,6 +1,6 @@
 {
   "date": "2026-06-24",
-  "generated": "2026-06-24T11:35:18",
+  "generated": "2026-06-24T12:10:11",
   "games": [
     {
       "game_pk": 823850,
@@ -37,9 +37,9 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 87.8,
-        "wind_mph": 5.1,
-        "wind_dir_deg": 128
+        "temp_f": 88.3,
+        "wind_mph": 8.2,
+        "wind_dir_deg": 151
       },
       "factors": [
         {
@@ -105,9 +105,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 81.2,
-        "wind_mph": 9.4,
-        "wind_dir_deg": 301
+        "temp_f": 81.4,
+        "wind_mph": 9.7,
+        "wind_dir_deg": 304
       },
       "factors": [
         {
@@ -165,8 +165,8 @@
       },
       "weather": {
         "temp_f": 81.9,
-        "wind_mph": 8.3,
-        "wind_dir_deg": 306
+        "wind_mph": 8.1,
+        "wind_dir_deg": 316
       },
       "factors": [
         {
@@ -223,9 +223,9 @@
         "implied": 50.5
       },
       "weather": {
-        "temp_f": 69.9,
-        "wind_mph": 1.8,
-        "wind_dir_deg": 346
+        "temp_f": 71.5,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 223
       },
       "factors": [
         {
@@ -246,8 +246,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -108,
-        "under": -111
+        "over": -105,
+        "under": -114
       },
       "total_read": {
         "side": null,
@@ -291,9 +291,9 @@
         "implied": 41.0
       },
       "weather": {
-        "temp_f": 86.8,
-        "wind_mph": 7.7,
-        "wind_dir_deg": 30
+        "temp_f": 84.7,
+        "wind_mph": 9.4,
+        "wind_dir_deg": 50
       },
       "factors": [
         {
@@ -359,9 +359,9 @@
         "implied": 55.6
       },
       "weather": {
-        "temp_f": 79.9,
-        "wind_mph": 8.8,
-        "wind_dir_deg": 240
+        "temp_f": 80.2,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 239
       },
       "factors": [
         {
@@ -427,9 +427,9 @@
         "implied": 54.1
       },
       "weather": {
-        "temp_f": 79.8,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 250
+        "temp_f": 79.5,
+        "wind_mph": 5.8,
+        "wind_dir_deg": 234
       },
       "factors": [
         {
@@ -834,8 +834,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -119,
-        "under": -101
+        "over": -118,
+        "under": -102
       },
       "total_read": {
         "side": "under",
@@ -863,8 +863,8 @@
         "pitcher_id": 683352,
         "pitcher_name": "Mitch Bratt",
         "pitcher_hand": "L",
-        "ml": 100,
-        "implied": 50.0
+        "ml": -102,
+        "implied": 50.5
       },
       "home": {
         "team": "Cardinals",
@@ -875,13 +875,13 @@
         "pitcher_id": 669461,
         "pitcher_name": "Matthew Liberatore",
         "pitcher_hand": "L",
-        "ml": -120,
-        "implied": 54.5
+        "ml": -118,
+        "implied": 54.1
       },
       "weather": {
-        "temp_f": 83.6,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 261
+        "temp_f": 83.3,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 248
       },
       "factors": [
         {
@@ -931,8 +931,8 @@
         "pitcher_id": 527048,
         "pitcher_name": "Mart\u00edn P\u00e9rez",
         "pitcher_hand": "L",
-        "ml": -131,
-        "implied": 56.7
+        "ml": -136,
+        "implied": 57.6
       },
       "home": {
         "team": "Padres",
@@ -943,13 +943,13 @@
         "pitcher_id": 676664,
         "pitcher_name": "JP Sears",
         "pitcher_hand": "L",
-        "ml": 108,
-        "implied": 48.1
+        "ml": 113,
+        "implied": 46.9
       },
       "weather": {
-        "temp_f": 70.2,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 307
+        "temp_f": 70.8,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 305
       },
       "factors": [
         {
@@ -969,14 +969,14 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 7.5,
-        "over": -119,
-        "under": -102
+        "line": 8.0,
+        "over": -101,
+        "under": -119
       },
       "total_read": {
         "side": null,
-        "line": 7.5,
-        "note": "Total 7.5: no clear lean \u2014 not enough split data yet. (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 8.0,
+        "note": "Total 8.0: no clear lean \u2014 not enough split data yet. (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -1015,9 +1015,9 @@
         "implied": 48.1
       },
       "weather": {
-        "temp_f": 60.6,
-        "wind_mph": 12.8,
-        "wind_dir_deg": 266
+        "temp_f": 60.3,
+        "wind_mph": 12.5,
+        "wind_dir_deg": 268
       },
       "factors": [
         {
