@@ -1,6 +1,6 @@
 {
   "date": "2026-06-24",
-  "generated": "2026-06-24T15:13:13",
+  "generated": "2026-06-24T15:52:58",
   "games": [
     {
       "game_pk": 823850,
@@ -41,8 +41,8 @@
         "pitcher_id": 594798,
         "pitcher_name": "Jacob deGrom",
         "pitcher_hand": "R",
-        "ml": -120,
-        "implied": 54.5
+        "ml": -122,
+        "implied": 55.0
       },
       "home": {
         "team": "Marlins",
@@ -53,13 +53,13 @@
         "pitcher_id": 691587,
         "pitcher_name": "Eury P\u00e9rez",
         "pitcher_hand": "R",
-        "ml": -101,
-        "implied": 50.2
+        "ml": 101,
+        "implied": 49.8
       },
       "weather": {
-        "temp_f": 90.1,
-        "wind_mph": 8.2,
-        "wind_dir_deg": 139
+        "temp_f": 90.3,
+        "wind_mph": 7.1,
+        "wind_dir_deg": 131
       },
       "factors": [],
       "lean": "even",
@@ -67,8 +67,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -102,
-        "under": -119
+        "over": -103,
+        "under": -117
       },
       "total_read": {
         "side": null,
@@ -116,8 +116,8 @@
         "pitcher_id": 665871,
         "pitcher_name": "Javier Assad",
         "pitcher_hand": "R",
-        "ml": -107,
-        "implied": 51.7
+        "ml": 100,
+        "implied": 50.0
       },
       "home": {
         "team": "Mets",
@@ -128,13 +128,13 @@
         "pitcher_id": 690997,
         "pitcher_name": "Nolan McLean",
         "pitcher_hand": "R",
-        "ml": -113,
-        "implied": 53.1
+        "ml": -121,
+        "implied": 54.8
       },
       "weather": {
-        "temp_f": 81.8,
-        "wind_mph": 9.2,
-        "wind_dir_deg": 293
+        "temp_f": 81.6,
+        "wind_mph": 9.3,
+        "wind_dir_deg": 297
       },
       "factors": [],
       "lean": "even",
@@ -142,8 +142,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -106,
-        "under": -114
+        "over": -103,
+        "under": -117
       },
       "total_read": {
         "side": "under",
@@ -187,9 +187,9 @@
         "implied": 54.8
       },
       "weather": {
-        "temp_f": 82.2,
-        "wind_mph": 7.7,
-        "wind_dir_deg": 296
+        "temp_f": 81.5,
+        "wind_mph": 8.4,
+        "wind_dir_deg": 312
       },
       "factors": [
         {
@@ -227,7 +227,17 @@
       "lat": 41.83,
       "lon": -87.634167,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          683953,
+          677587,
+          681807,
+          700932,
+          656555,
+          696135,
+          682177,
+          672275,
+          680757
+        ],
         "home": [
           803011,
           678246,
@@ -265,9 +275,9 @@
         "implied": 51.2
       },
       "weather": {
-        "temp_f": 70.2,
-        "wind_mph": 8.4,
-        "wind_dir_deg": 214
+        "temp_f": 70.7,
+        "wind_mph": 2.3,
+        "wind_dir_deg": 281
       },
       "factors": [
         {
@@ -277,24 +287,24 @@
           "text": "Tanner Bibee holds LHB to a 0.694 OPS; White Sox project 75% L-handed today."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Erick Fedde holds LHB to a 0.697 OPS; Guardians project 71% L-handed today."
         }
       ],
-      "lean": "away",
-      "weight": 1,
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": {
-        "line": 8.5,
-        "over": -107,
-        "under": -112
+        "line": 8.0,
+        "over": -118,
+        "under": -102
       },
       "total_read": {
         "side": null,
-        "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.741 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 8.0,
+        "note": "Total 8.0: no clear lean \u2014 starters roughly average (avg 0.696 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -333,9 +343,9 @@
         "implied": 41.5
       },
       "weather": {
-        "temp_f": 87.1,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 52
+        "temp_f": 85.0,
+        "wind_mph": 5.1,
+        "wind_dir_deg": 67
       },
       "factors": [
         {
@@ -401,8 +411,8 @@
         "implied": 55.8
       },
       "weather": {
-        "temp_f": 79.2,
-        "wind_mph": 9.1,
+        "temp_f": 79.7,
+        "wind_mph": 9.4,
         "wind_dir_deg": 232
       },
       "factors": [
@@ -469,9 +479,9 @@
         "implied": 54.1
       },
       "weather": {
-        "temp_f": 79.6,
-        "wind_mph": 6.4,
-        "wind_dir_deg": 241
+        "temp_f": 79.4,
+        "wind_mph": 5.3,
+        "wind_dir_deg": 237
       },
       "factors": [
         {
@@ -492,7 +502,7 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -106,
+        "over": -107,
         "under": -113
       },
       "total_read": {
@@ -521,8 +531,8 @@
         "pitcher_id": 702070,
         "pitcher_name": "Noah Cameron",
         "pitcher_hand": "L",
-        "ml": 124,
-        "implied": 44.6
+        "ml": 128,
+        "implied": 43.9
       },
       "home": {
         "team": "Rays",
@@ -533,13 +543,13 @@
         "pitcher_id": 643377,
         "pitcher_name": "Griffin Jax",
         "pitcher_hand": "R",
-        "ml": -149,
-        "implied": 59.8
+        "ml": -155,
+        "implied": 60.8
       },
       "weather": {
-        "temp_f": 89.0,
-        "wind_mph": 12.8,
-        "wind_dir_deg": 265
+        "temp_f": 88.8,
+        "wind_mph": 11.4,
+        "wind_dir_deg": 259
       },
       "factors": [
         {
@@ -560,8 +570,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -111,
-        "under": -108
+        "over": -110,
+        "under": -110
       },
       "total_read": {
         "side": null,
@@ -589,8 +599,8 @@
         "pitcher_id": 677960,
         "pitcher_name": "Ryan Weathers",
         "pitcher_hand": "L",
-        "ml": 114,
-        "implied": 46.7
+        "ml": 109,
+        "implied": 47.8
       },
       "home": {
         "team": "Tigers",
@@ -601,10 +611,14 @@
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": "L",
-        "ml": -137,
-        "implied": 57.8
+        "ml": -132,
+        "implied": 56.9
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 77.2,
+        "wind_mph": 7.1,
+        "wind_dir_deg": 193
+      },
       "factors": [
         {
           "m": "~",
@@ -623,14 +637,14 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 7.5,
-        "over": 102,
-        "under": -122
+        "line": 7.0,
+        "over": -125,
+        "under": 104
       },
       "total_read": {
         "side": null,
-        "line": 7.5,
-        "note": "Total 7.5: no clear lean \u2014 starters roughly average (avg 0.727 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 7.0,
+        "note": "Total 7.0: no clear lean \u2014 starters roughly average (avg 0.727 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -653,8 +667,8 @@
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": "R",
-        "ml": -136,
-        "implied": 57.6
+        "ml": -132,
+        "implied": 56.9
       },
       "home": {
         "team": "Nationals",
@@ -665,10 +679,14 @@
         "pitcher_id": 571945,
         "pitcher_name": "Miles Mikolas",
         "pitcher_hand": "R",
-        "ml": 113,
-        "implied": 46.9
+        "ml": 109,
+        "implied": 47.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.6,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 313
+      },
       "factors": [
         {
           "m": "~",
@@ -688,8 +706,8 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -112,
-        "under": -107
+        "over": -114,
+        "under": -105
       },
       "total_read": {
         "side": "over",
@@ -717,8 +735,8 @@
         "pitcher_id": 681347,
         "pitcher_name": "Mike Burrows",
         "pitcher_hand": "R",
-        "ml": 134,
-        "implied": 42.7
+        "ml": 120,
+        "implied": 45.5
       },
       "home": {
         "team": "Blue Jays",
@@ -729,10 +747,14 @@
         "pitcher_id": 702056,
         "pitcher_name": "Trey Yesavage",
         "pitcher_hand": "R",
-        "ml": -162,
-        "implied": 61.8
+        "ml": -145,
+        "implied": 59.2
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 71.1,
+        "wind_mph": 8.9,
+        "wind_dir_deg": 205
+      },
       "factors": [
         {
           "m": "~",
@@ -752,8 +774,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -109,
-        "under": -110
+        "over": -110,
+        "under": -109
       },
       "total_read": {
         "side": null,
@@ -781,8 +803,8 @@
         "pitcher_id": 675660,
         "pitcher_name": "Shane Drohan",
         "pitcher_hand": "L",
-        "ml": -147,
-        "implied": 59.5
+        "ml": -148,
+        "implied": 59.7
       },
       "home": {
         "team": "Reds",
@@ -845,8 +867,8 @@
         "pitcher_id": 660271,
         "pitcher_name": "Shohei Ohtani",
         "pitcher_hand": "R",
-        "ml": -181,
-        "implied": 64.4
+        "ml": -175,
+        "implied": 63.6
       },
       "home": {
         "team": "Twins",
@@ -857,8 +879,8 @@
         "pitcher_id": 657746,
         "pitcher_name": "Joe Ryan",
         "pitcher_hand": "R",
-        "ml": 149,
-        "implied": 40.2
+        "ml": 144,
+        "implied": 41.0
       },
       "weather": null,
       "factors": [
@@ -988,11 +1010,7 @@
         "ml": 100,
         "implied": 50.0
       },
-      "weather": {
-        "temp_f": 70.5,
-        "wind_mph": 7.2,
-        "wind_dir_deg": 300
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -1011,14 +1029,14 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.5,
-        "over": -101,
-        "under": -120
+        "line": 8.0,
+        "over": -120,
+        "under": -101
       },
       "total_read": {
         "side": null,
-        "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 not enough split data yet. (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 8.0,
+        "note": "Total 8.0: no clear lean \u2014 not enough split data yet. (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -1041,8 +1059,8 @@
         "pitcher_id": 695611,
         "pitcher_name": "Gage Jump",
         "pitcher_hand": "L",
-        "ml": -115,
-        "implied": 53.5
+        "ml": -117,
+        "implied": 53.9
       },
       "home": {
         "team": "Giants",
@@ -1053,14 +1071,10 @@
         "pitcher_id": 641816,
         "pitcher_name": "Tyler Mahle",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": -103,
+        "implied": 50.7
       },
-      "weather": {
-        "temp_f": 60.4,
-        "wind_mph": 12.5,
-        "wind_dir_deg": 271
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
