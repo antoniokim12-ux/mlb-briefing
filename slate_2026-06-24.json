@@ -1,6 +1,6 @@
 {
   "date": "2026-06-24",
-  "generated": "2026-06-24T10:35:55",
+  "generated": "2026-06-24T11:35:18",
   "games": [
     {
       "game_pk": 823850,
@@ -21,8 +21,8 @@
         "pitcher_id": 594798,
         "pitcher_name": "Jacob deGrom",
         "pitcher_hand": "R",
-        "ml": -126,
-        "implied": 55.8
+        "ml": -125,
+        "implied": 55.6
       },
       "home": {
         "team": "Marlins",
@@ -37,9 +37,9 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 88.9,
-        "wind_mph": 6.3,
-        "wind_dir_deg": 148
+        "temp_f": 87.8,
+        "wind_mph": 5.1,
+        "wind_dir_deg": 128
       },
       "factors": [
         {
@@ -60,8 +60,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -105,
-        "under": -115
+        "over": -102,
+        "under": -119
       },
       "total_read": {
         "side": null,
@@ -105,9 +105,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 81.1,
-        "wind_mph": 10.0,
-        "wind_dir_deg": 304
+        "temp_f": 81.2,
+        "wind_mph": 9.4,
+        "wind_dir_deg": 301
       },
       "factors": [
         {
@@ -164,9 +164,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 82.1,
-        "wind_mph": 7.5,
-        "wind_dir_deg": 297
+        "temp_f": 81.9,
+        "wind_mph": 8.3,
+        "wind_dir_deg": 306
       },
       "factors": [
         {
@@ -223,9 +223,9 @@
         "implied": 50.5
       },
       "weather": {
-        "temp_f": 74.1,
-        "wind_mph": 9.1,
-        "wind_dir_deg": 250
+        "temp_f": 69.9,
+        "wind_mph": 1.8,
+        "wind_dir_deg": 346
       },
       "factors": [
         {
@@ -275,8 +275,8 @@
         "pitcher_id": 624133,
         "pitcher_name": "Ranger Suarez",
         "pitcher_hand": "L",
-        "ml": -170,
-        "implied": 63.0
+        "ml": -175,
+        "implied": 63.6
       },
       "home": {
         "team": "Rockies",
@@ -287,13 +287,13 @@
         "pitcher_id": 607536,
         "pitcher_name": "Kyle Freeland",
         "pitcher_hand": "L",
-        "ml": 140,
-        "implied": 41.7
+        "ml": 144,
+        "implied": 41.0
       },
       "weather": {
-        "temp_f": 87.9,
-        "wind_mph": 8.2,
-        "wind_dir_deg": 45
+        "temp_f": 86.8,
+        "wind_mph": 7.7,
+        "wind_dir_deg": 30
       },
       "factors": [
         {
@@ -315,7 +315,7 @@
       "total": {
         "line": 11.0,
         "over": -107,
-        "under": -112
+        "under": -113
       },
       "total_read": {
         "side": null,
@@ -343,8 +343,8 @@
         "pitcher_id": 694346,
         "pitcher_name": "Trey Gibson",
         "pitcher_hand": "R",
-        "ml": 108,
-        "implied": 48.1
+        "ml": 104,
+        "implied": 49.0
       },
       "home": {
         "team": "Angels",
@@ -355,13 +355,13 @@
         "pitcher_id": 667755,
         "pitcher_name": "Jos\u00e9 Soriano",
         "pitcher_hand": "R",
-        "ml": -131,
-        "implied": 56.7
+        "ml": -125,
+        "implied": 55.6
       },
       "weather": {
-        "temp_f": 79.6,
-        "wind_mph": 8.9,
-        "wind_dir_deg": 238
+        "temp_f": 79.9,
+        "wind_mph": 8.8,
+        "wind_dir_deg": 240
       },
       "factors": [
         {
@@ -428,8 +428,8 @@
       },
       "weather": {
         "temp_f": 79.8,
-        "wind_mph": 6.1,
-        "wind_dir_deg": 242
+        "wind_mph": 5.9,
+        "wind_dir_deg": 250
       },
       "factors": [
         {
@@ -494,11 +494,7 @@
         "ml": -149,
         "implied": 59.8
       },
-      "weather": {
-        "temp_f": 88.7,
-        "wind_mph": 11.4,
-        "wind_dir_deg": 260
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -562,11 +558,7 @@
         "ml": -148,
         "implied": 59.7
       },
-      "weather": {
-        "temp_f": 72.1,
-        "wind_mph": 10.4,
-        "wind_dir_deg": 255
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -630,11 +622,7 @@
         "ml": 113,
         "implied": 46.9
       },
-      "weather": {
-        "temp_f": 82.8,
-        "wind_mph": 5.3,
-        "wind_dir_deg": 303
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -654,8 +642,8 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -110,
-        "under": -110
+        "over": -112,
+        "under": -107
       },
       "total_read": {
         "side": "over",
@@ -698,11 +686,7 @@
         "ml": -163,
         "implied": 62.0
       },
-      "weather": {
-        "temp_f": 69.5,
-        "wind_mph": 13.4,
-        "wind_dir_deg": 183
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -766,11 +750,7 @@
         "ml": 123,
         "implied": 44.8
       },
-      "weather": {
-        "temp_f": 81.1,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 311
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -898,7 +878,11 @@
         "ml": -120,
         "implied": 54.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 83.6,
+        "wind_mph": 7.0,
+        "wind_dir_deg": 261
+      },
       "factors": [
         {
           "m": "~",
@@ -962,7 +946,11 @@
         "ml": 108,
         "implied": 48.1
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 70.2,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 307
+      },
       "factors": [
         {
           "m": "~",
@@ -1026,7 +1014,11 @@
         "ml": 108,
         "implied": 48.1
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 60.6,
+        "wind_mph": 12.8,
+        "wind_dir_deg": 266
+      },
       "factors": [
         {
           "m": "~",
