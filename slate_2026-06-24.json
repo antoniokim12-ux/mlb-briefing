@@ -1,6 +1,6 @@
 {
   "date": "2026-06-24",
-  "generated": "2026-06-24T07:13:55",
+  "generated": "2026-06-24T10:35:55",
   "games": [
     {
       "game_pk": 823850,
@@ -37,9 +37,9 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 87.9,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 133
+        "temp_f": 88.9,
+        "wind_mph": 6.3,
+        "wind_dir_deg": 148
       },
       "factors": [
         {
@@ -105,9 +105,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 80.9,
-        "wind_mph": 9.7,
-        "wind_dir_deg": 302
+        "temp_f": 81.1,
+        "wind_mph": 10.0,
+        "wind_dir_deg": 304
       },
       "factors": [
         {
@@ -164,9 +164,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 81.9,
-        "wind_mph": 7.6,
-        "wind_dir_deg": 304
+        "temp_f": 82.1,
+        "wind_mph": 7.5,
+        "wind_dir_deg": 297
       },
       "factors": [
         {
@@ -207,8 +207,8 @@
         "pitcher_id": 676440,
         "pitcher_name": "Tanner Bibee",
         "pitcher_hand": "R",
-        "ml": -125,
-        "implied": 55.6
+        "ml": -118,
+        "implied": 54.1
       },
       "home": {
         "team": "White Sox",
@@ -219,13 +219,13 @@
         "pitcher_id": 607200,
         "pitcher_name": "Erick Fedde",
         "pitcher_hand": "R",
-        "ml": 104,
-        "implied": 49.0
+        "ml": -102,
+        "implied": 50.5
       },
       "weather": {
-        "temp_f": 77.6,
-        "wind_mph": 13.8,
-        "wind_dir_deg": 238
+        "temp_f": 74.1,
+        "wind_mph": 9.1,
+        "wind_dir_deg": 250
       },
       "factors": [
         {
@@ -246,8 +246,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -110,
-        "under": -110
+        "over": -108,
+        "under": -111
       },
       "total_read": {
         "side": null,
@@ -275,8 +275,8 @@
         "pitcher_id": 624133,
         "pitcher_name": "Ranger Suarez",
         "pitcher_hand": "L",
-        "ml": -175,
-        "implied": 63.6
+        "ml": -170,
+        "implied": 63.0
       },
       "home": {
         "team": "Rockies",
@@ -287,13 +287,13 @@
         "pitcher_id": 607536,
         "pitcher_name": "Kyle Freeland",
         "pitcher_hand": "L",
-        "ml": 144,
-        "implied": 41.0
+        "ml": 140,
+        "implied": 41.7
       },
       "weather": {
-        "temp_f": 90.2,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 46
+        "temp_f": 87.9,
+        "wind_mph": 8.2,
+        "wind_dir_deg": 45
       },
       "factors": [
         {
@@ -314,8 +314,8 @@
       "read": null,
       "total": {
         "line": 11.0,
-        "over": -108,
-        "under": -111
+        "over": -107,
+        "under": -112
       },
       "total_read": {
         "side": null,
@@ -343,8 +343,8 @@
         "pitcher_id": 694346,
         "pitcher_name": "Trey Gibson",
         "pitcher_hand": "R",
-        "ml": 104,
-        "implied": 49.0
+        "ml": 108,
+        "implied": 48.1
       },
       "home": {
         "team": "Angels",
@@ -355,13 +355,13 @@
         "pitcher_id": 667755,
         "pitcher_name": "Jos\u00e9 Soriano",
         "pitcher_hand": "R",
-        "ml": -125,
-        "implied": 55.6
+        "ml": -131,
+        "implied": 56.7
       },
       "weather": {
-        "temp_f": 79.3,
-        "wind_mph": 8.8,
-        "wind_dir_deg": 240
+        "temp_f": 79.6,
+        "wind_mph": 8.9,
+        "wind_dir_deg": 238
       },
       "factors": [
         {
@@ -382,8 +382,8 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": 100,
-        "under": -120
+        "over": -101,
+        "under": -119
       },
       "total_read": {
         "side": null,
@@ -426,7 +426,11 @@
         "ml": -118,
         "implied": 54.1
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.8,
+        "wind_mph": 6.1,
+        "wind_dir_deg": 242
+      },
       "factors": [
         {
           "m": "~",
@@ -446,8 +450,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -114,
-        "under": -105
+        "over": -117,
+        "under": -103
       },
       "total_read": {
         "side": "under",
@@ -490,7 +494,11 @@
         "ml": -149,
         "implied": 59.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.7,
+        "wind_mph": 11.4,
+        "wind_dir_deg": 260
+      },
       "factors": [
         {
           "m": "~",
@@ -539,8 +547,8 @@
         "pitcher_id": 677960,
         "pitcher_name": "Ryan Weathers",
         "pitcher_hand": "L",
-        "ml": 119,
-        "implied": 45.7
+        "ml": 123,
+        "implied": 44.8
       },
       "home": {
         "team": "Tigers",
@@ -551,10 +559,14 @@
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": "L",
-        "ml": -143,
-        "implied": 58.8
+        "ml": -148,
+        "implied": 59.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 72.1,
+        "wind_mph": 10.4,
+        "wind_dir_deg": 255
+      },
       "factors": [
         {
           "m": "~",
@@ -574,7 +586,7 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": 100,
+        "over": -101,
         "under": -120
       },
       "total_read": {
@@ -618,7 +630,11 @@
         "ml": 113,
         "implied": 46.9
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.8,
+        "wind_mph": 5.3,
+        "wind_dir_deg": 303
+      },
       "factors": [
         {
           "m": "~",
@@ -638,8 +654,8 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -107,
-        "under": -112
+        "over": -110,
+        "under": -110
       },
       "total_read": {
         "side": "over",
@@ -682,7 +698,11 @@
         "ml": -163,
         "implied": 62.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 69.5,
+        "wind_mph": 13.4,
+        "wind_dir_deg": 183
+      },
       "factors": [
         {
           "m": "~",
@@ -702,8 +722,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -110,
-        "under": -110
+        "over": -107,
+        "under": -112
       },
       "total_read": {
         "side": null,
@@ -747,9 +767,9 @@
         "implied": 44.8
       },
       "weather": {
-        "temp_f": 81.7,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 284
+        "temp_f": 81.1,
+        "wind_mph": 6.2,
+        "wind_dir_deg": 311
       },
       "factors": [
         {
@@ -814,11 +834,7 @@
         "ml": 149,
         "implied": 40.2
       },
-      "weather": {
-        "temp_f": 71.4,
-        "wind_mph": 13.0,
-        "wind_dir_deg": 294
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -838,8 +854,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -120,
-        "under": 100
+        "over": -119,
+        "under": -101
       },
       "total_read": {
         "side": "under",
@@ -867,8 +883,8 @@
         "pitcher_id": 683352,
         "pitcher_name": "Mitch Bratt",
         "pitcher_hand": "L",
-        "ml": -102,
-        "implied": 50.5
+        "ml": 100,
+        "implied": 50.0
       },
       "home": {
         "team": "Cardinals",
@@ -879,14 +895,10 @@
         "pitcher_id": 669461,
         "pitcher_name": "Matthew Liberatore",
         "pitcher_hand": "L",
-        "ml": -118,
-        "implied": 54.1
+        "ml": -120,
+        "implied": 54.5
       },
-      "weather": {
-        "temp_f": 85.8,
-        "wind_mph": 3.5,
-        "wind_dir_deg": 305
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -950,11 +962,7 @@
         "ml": 108,
         "implied": 48.1
       },
-      "weather": {
-        "temp_f": 69.5,
-        "wind_mph": 8.6,
-        "wind_dir_deg": 307
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -1018,11 +1026,7 @@
         "ml": 108,
         "implied": 48.1
       },
-      "weather": {
-        "temp_f": 59.8,
-        "wind_mph": 12.8,
-        "wind_dir_deg": 266
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
