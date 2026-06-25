@@ -97,6 +97,11 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
 .chip .gm{color:var(--muted);font-weight:500;font-size:11px;}
 .todays .none{color:var(--muted);font-size:12px;}
 .todays .dis{color:var(--muted);font-size:11.5px;margin-top:10px;line-height:1.5;}
+.chip.locked{opacity:.6;border-style:dashed;}
+.chip .lk,.lockbadge{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.12em;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:1px 4px;}
+.lockbadge{color:var(--clay);}
+.card.started{opacity:.62;}
+.card.started .pill{filter:grayscale(.5);}
 .lines{border-top:1px dashed var(--line);margin-top:13px;padding-top:12px;}
 .lines-h{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;}
 .line-row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:13px;}
@@ -159,7 +164,7 @@ def value_assessment(g):
     return (f"VALUE LOOK \u25B8 {team.upper()}", GOLD, "#F2B53B", note)
 
 
-def render_card(g):
+def render_card(g, started=False):
     away, home = g["away"], g["home"]
     ia = away.get("implied")
     ih = home.get("implied")
@@ -216,14 +221,14 @@ def render_card(g):
     book = (f'<span><b>Book</b> {esc(g.get("odds_book"))}</span>'
             if g.get("odds_book") else "")
 
-    return f"""<div class="card">
+    return f"""<div class="card{' started' if started else ''}">
   <div class="head">{side_html(away, "away")}{side_html(home, "home")}</div>
   <div class="bar"><i style="width:{aw:.0f}%;background:var(--amber)"></i><i style="width:{100-aw:.0f}%;background:var(--steel)"></i></div>
   <div class="meta"><span><b>Park</b> {esc(g.get('venue'))}</span><span><b>Wx</b> {wx}</span>{book}</div>
   <div class="body">
     <div class="leanrow">
       <span class="pill" style="background:{pbg};color:{pfg}">{txt}</span>
-      {meter}
+      {'<span class="lockbadge">● LOCKED</span>' if started else meter}
     </div>
     {vnote}
     <details>
@@ -255,15 +260,86 @@ def pick_of_the_day(games):
     return best
 
 
-def render_picks_today(games):
-    """A roundup of every pick the bot is following today, grouped by bet type."""
+def _norm(s):
+    return "".join(c for c in (s or "").lower() if c.isalnum())
+
+
+def _started_lookup(games):
+    """frozenset({norm away, norm home}) -> has the game started?"""
+    now = dt.datetime.now(dt.timezone.utc)
+    out = {}
+    for g in games:
+        t = _parse_game_time(g.get("game_time"))
+        key = frozenset((_norm(g["away"].get("team")), _norm(g["home"].get("team"))))
+        out[key] = bool(t and t <= now)
+    return out
+
+
+def render_picks_today(games, date):
+    """Every pick given today, frozen at the price it was logged at, grouped by type.
+    Picks whose games have started are marked LOCKED but stay on the board all day, so
+    the full day's list is always there to track."""
+    try:
+        with open("picks_log.json") as f:
+            today = [e for e in json.load(f) if e.get("date") == date]
+    except (FileNotFoundError, ValueError):
+        today = []
+
+    if not today:
+        return _render_picks_from_slate(games)  # before anything's logged
+
+    started = _started_lookup(games)
+    leans_, values, totals = [], [], []
+    for e in today:
+        kind = e.get("kind")
+        price = fmt_ml(e.get("log_ml"))
+        if kind in ("value", "lean"):
+            pair = frozenset((_norm(e.get("pick_team")), _norm(e.get("opp_team"))))
+            chip = (esc(e.get("pick_team")), price, started.get(pair, False))
+            (values if kind == "value" else leans_).append(chip)
+        elif kind == "total":
+            opp = e.get("opp_team") or ""
+            parts = [p.strip() for p in opp.split("@")]
+            pair = frozenset(_norm(p) for p in parts) if len(parts) == 2 else frozenset()
+            totals.append((esc(e.get("pick_team")), price, opp.replace(" @ ", "@"),
+                           started.get(pair, False)))
+
+    if not (values or leans_ or totals):
+        return _render_picks_from_slate(games)
+
+    badge = '<span class="lk">LOCKED</span>'
+
+    def ml_chips(items, cls):
+        if not items:
+            return '<span class="none">none</span>'
+        return "".join(f'<span class="chip {cls}{" locked" if lk else ""}">{t}'
+                       f'<span class="px">{p}</span>{badge if lk else ""}</span>'
+                       for t, p, lk in items)
+
+    def ou_chips(items):
+        if not items:
+            return '<span class="none">none</span>'
+        return "".join(f'<span class="chip ou{" locked" if lk else ""}">{lbl}'
+                       f'<span class="px">{p}</span><span class="gm">{gm}</span>'
+                       f'{badge if lk else ""}</span>' for lbl, p, gm, lk in items)
+
+    return ('<div class="todays"><div class="lab">Today\'s Picks</div>'
+            f'<div class="grp"><span class="gl">Lean</span>{ml_chips(leans_, "lean")}</div>'
+            f'<div class="grp"><span class="gl">Value</span>{ml_chips(values, "val")}</div>'
+            f'<div class="grp"><span class="gl">O/U</span>{ou_chips(totals)}</div>'
+            '<div class="dis">Each pick is frozen at the price it was given. '
+            '<b>LOCKED</b> means the game has started. Candidates to check against your '
+            'price — not locks; the market prices the same factors in.</div></div>')
+
+
+def _render_picks_from_slate(games):
+    """Fallback used before any picks are logged: derive the roundup from live odds."""
     values, leans_, totals = [], [], []
     for g in games:
         txt = value_assessment(g)[0]
         lean = g.get("lean")
         if lean in ("away", "home"):
-            team = g[lean].get("team") or lean.title()
-            chip = (esc(team), fmt_ml(g[lean].get("ml")))
+            chip = (esc(g[lean].get("team") or lean.title()), fmt_ml(g[lean].get("ml")), False)
             if txt.startswith("VALUE"):
                 values.append(chip)
             elif txt.startswith("LEAN"):
@@ -273,29 +349,26 @@ def render_picks_today(games):
         if tr.get("side") in ("over", "under") and t:
             price = t.get("over") if tr["side"] == "over" else t.get("under")
             gm = f'{g["away"].get("abbr", "")}@{g["home"].get("abbr", "")}'
-            totals.append((f'{tr["side"].title()} {esc(t.get("line"))}', fmt_ml(price), gm))
+            totals.append((f'{tr["side"].title()} {esc(t.get("line"))}', fmt_ml(price), gm, False))
 
     if not (values or leans_ or totals):
         return ('<div class="todays"><div class="lab">Today\'s Picks</div>'
                 '<div class="none">No leans against the prices yet — common before lineups '
                 'post. Check back a couple hours before first pitch.</div></div>')
 
-    def ml_chips(items, cls):
+    def chips(items, cls, ou=False):
         if not items:
             return '<span class="none">none</span>'
+        if ou:
+            return "".join(f'<span class="chip ou">{lbl}<span class="px">{p}</span>'
+                           f'<span class="gm">{gm}</span></span>' for lbl, p, gm, _ in items)
         return "".join(f'<span class="chip {cls}">{t}<span class="px">{p}</span></span>'
-                       for t, p in items)
-
-    def ou_chips(items):
-        if not items:
-            return '<span class="none">none</span>'
-        return "".join(f'<span class="chip ou">{lbl}<span class="px">{p}</span>'
-                       f'<span class="gm">{gm}</span></span>' for lbl, p, gm in items)
+                       for t, p, _ in items)
 
     return ('<div class="todays"><div class="lab">Today\'s Picks</div>'
-            f'<div class="grp"><span class="gl">Lean</span>{ml_chips(leans_, "lean")}</div>'
-            f'<div class="grp"><span class="gl">Value</span>{ml_chips(values, "val")}</div>'
-            f'<div class="grp"><span class="gl">O/U</span>{ou_chips(totals)}</div>'
+            f'<div class="grp"><span class="gl">Lean</span>{chips(leans_, "lean")}</div>'
+            f'<div class="grp"><span class="gl">Value</span>{chips(values, "val")}</div>'
+            f'<div class="grp"><span class="gl">O/U</span>{chips(totals, "ou", ou=True)}</div>'
             '<div class="dis">Candidates to check against your price — not locks. '
             'The market already prices the same factors in.</div></div>')
 
@@ -436,12 +509,19 @@ def render(slate):
         # Day's done — show results + a wrap notice, not the slate.
         return f"{head}\n{render_scoreboard()}\n{render_dayover(slate)}\n{foot}"
 
-    cards = "".join(render_card(g) for g in slate.get("games", []))
+    games = slate.get("games", [])
+    started = _started_lookup(games)
+
+    def _is_started(g):
+        return started.get(frozenset((_norm(g["away"].get("team")),
+                                      _norm(g["home"].get("team")))), False)
+
+    cards = "".join(render_card(g, _is_started(g)) for g in games)
     return f"""{head}
 <p class="sub">The day's slate with the context that moves games — pitchers, platoon splits, park, weather — so you can read each matchup at a glance.</p>
 <div class="note"><b>How to read this.</b> <b style="color:var(--amber)">VALUE LOOK</b> flags games where today's factors lean toward the side the market rates <i>lower</i> — the classic place to hunt value. But it's a <i>candidate, not a verdict</i>: the market already prices these same factors into the line, so a VALUE LOOK means "worth checking against your price," not "the market is wrong." The strength dots show how many factors agree. Log your results over time to learn whether the flags actually hold up.</div>
 {render_scoreboard()}
-{render_picks_today(slate.get("games", []))}
+{render_picks_today(games, date)}
 {cards if cards else '<p class="sub">No games in this slate.</p>'}
 {foot}"""
 

@@ -524,8 +524,12 @@ def build_slate(date_str, do_splits=True, do_odds=True, do_read=True):
             if not g[s].get("pitcher_hand"):
                 g[s]["pitcher_hand"] = pitch_hands.get(g[s].get("pitcher_id"))
 
+    now = dt.datetime.now(dt.timezone.utc)
     for g in games:
-        attach_odds(g, odds_map)
+        gt = _parse_iso(g.get("game_time"))
+        g["started"] = bool(gt and gt <= now)
+        if not g["started"]:        # never attach in-game odds to a started game
+            attach_odds(g, odds_map)
         g["weather"] = get_weather(g["lat"], g["lon"], g["game_time"])
         hands = get_lineup_handedness(g)
 
