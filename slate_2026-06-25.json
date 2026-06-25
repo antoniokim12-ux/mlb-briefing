@@ -1,6 +1,6 @@
 {
   "date": "2026-06-25",
-  "generated": "2026-06-25T20:15:09",
+  "generated": "2026-06-25T20:40:20",
   "games": [
     {
       "game_pk": 822961,
@@ -206,8 +206,8 @@
       },
       "weather": {
         "temp_f": 62.7,
-        "wind_mph": 8.7,
-        "wind_dir_deg": 257
+        "wind_mph": 7.4,
+        "wind_dir_deg": 250
       },
       "factors": [
         {
@@ -253,8 +253,8 @@
         "pitcher_id": 837227,
         "pitcher_name": "Tatsuya Imai",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": 100,
+        "implied": 50.0
       },
       "home": {
         "team": "Tigers",
@@ -265,13 +265,13 @@
         "pitcher_id": 675512,
         "pitcher_name": "Troy Melton",
         "pitcher_hand": "R",
-        "ml": -115,
-        "implied": 53.5
+        "ml": -121,
+        "implied": 54.8
       },
       "weather": {
         "temp_f": 80.6,
-        "wind_mph": 11.0,
-        "wind_dir_deg": 268
+        "wind_mph": 6.8,
+        "wind_dir_deg": 279
       },
       "factors": [
         {
@@ -292,7 +292,7 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": -107,
+        "over": -108,
         "under": -112
       },
       "total_read": {
@@ -359,8 +359,8 @@
       },
       "weather": {
         "temp_f": 87.8,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 186
+        "wind_mph": 7.6,
+        "wind_dir_deg": 194
       },
       "factors": [
         {
@@ -442,8 +442,8 @@
       },
       "weather": {
         "temp_f": 59.0,
-        "wind_mph": 9.2,
-        "wind_dir_deg": 58
+        "wind_mph": 9.9,
+        "wind_dir_deg": 59
       },
       "factors": [
         {
@@ -488,8 +488,8 @@
         "pitcher_id": 571510,
         "pitcher_name": "Matthew Boyd",
         "pitcher_hand": "L",
-        "ml": -112,
-        "implied": 52.8
+        "ml": -110,
+        "implied": 52.4
       },
       "home": {
         "team": "Mets",
@@ -500,13 +500,13 @@
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": "R",
-        "ml": -108,
-        "implied": 51.9
+        "ml": -109,
+        "implied": 52.2
       },
       "weather": {
         "temp_f": 75.6,
-        "wind_mph": 11.8,
-        "wind_dir_deg": 161
+        "wind_mph": 12.7,
+        "wind_dir_deg": 162
       },
       "factors": [
         {
@@ -527,8 +527,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -117,
-        "under": -103
+        "over": -121,
+        "under": 100
       },
       "total_read": {
         "side": "under",
@@ -545,7 +545,17 @@
       "lat": 42.346456,
       "lon": -71.097441,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          502671,
+          700250,
+          642708,
+          641355,
+          691176,
+          683011,
+          665862,
+          676609,
+          669224
+        ],
         "home": [
           807799,
           678882,
@@ -584,17 +594,10 @@
       },
       "weather": {
         "temp_f": 81.4,
-        "wind_mph": 2.9,
-        "wind_dir_deg": 67
+        "wind_mph": 2.1,
+        "wind_dir_deg": 257
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Yankees lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -606,7 +609,7 @@
       "total_read": {
         "side": "under",
         "line": 8.0,
-        "note": "Total 8.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.589 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 8.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.619 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -657,8 +660,8 @@
       },
       "weather": {
         "temp_f": 84.1,
-        "wind_mph": 4.6,
-        "wind_dir_deg": 47
+        "wind_mph": 7.4,
+        "wind_dir_deg": 85
       },
       "factors": [
         {
