@@ -1,6 +1,6 @@
 {
   "date": "2026-06-24",
-  "generated": "2026-06-24T22:57:44",
+  "generated": "2026-06-25T04:20:15",
   "games": [
     {
       "game_pk": 823850,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 89.6,
-        "wind_mph": 5.6,
-        "wind_dir_deg": 143
+        "temp_f": 82.6,
+        "wind_mph": 3.0,
+        "wind_dir_deg": 243
       },
       "factors": [],
       "lean": "even",
@@ -107,8 +107,8 @@
         "pitcher_id": 665871,
         "pitcher_name": "Javier Assad",
         "pitcher_hand": "R",
-        "ml": -114,
-        "implied": 53.3
+        "ml": -105,
+        "implied": 51.2
       },
       "home": {
         "team": "Mets",
@@ -119,27 +119,27 @@
         "pitcher_id": 690997,
         "pitcher_name": "Nolan McLean",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": -114,
+        "implied": 53.3
       },
       "weather": {
-        "temp_f": 81.7,
-        "wind_mph": 9.1,
-        "wind_dir_deg": 287
+        "temp_f": 79.9,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 297
       },
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.0,
-        "over": -105,
-        "under": -114
+        "line": 8.5,
+        "over": -108,
+        "under": -111
       },
       "total_read": {
         "side": null,
-        "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 starters roughly average (avg 0.691 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 8.5,
+        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.691 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -178,56 +178,50 @@
         "team_full": "Chicago Cubs",
         "abbr": "CHC",
         "team_id": 112,
-        "record": "42-37",
+        "record": "43-37",
         "pitcher_id": 684007,
         "pitcher_name": "Shota Imanaga",
         "pitcher_hand": "L",
-        "ml": -114,
-        "implied": 53.3
+        "ml": -105,
+        "implied": 51.2
       },
       "home": {
         "team": "Mets",
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "34-45",
+        "record": "34-46",
         "pitcher_id": 640455,
         "pitcher_name": "Sean Manaea",
         "pitcher_hand": "L",
-        "ml": -105,
-        "implied": 51.2
+        "ml": -114,
+        "implied": 53.3
       },
       "weather": {
-        "temp_f": 81.5,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 296
+        "temp_f": 79.9,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 297
       },
       "factors": [
-        {
-          "m": "+",
-          "side": "away",
-          "label": "Handedness matchup",
-          "text": "Shota Imanaga holds RHB to a 0.692 OPS; Mets project 62% R-handed today."
-        },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Sean Manaea is vulnerable to RHB (0.828 OPS) and Cubs skew R-handed."
+          "text": "Sean Manaea is vulnerable to RHB (0.856 OPS) and Cubs skew R-handed."
         }
       ],
       "lean": "away",
-      "weight": 2,
+      "weight": 1,
       "read": null,
       "total": {
-        "line": 8.0,
-        "over": -105,
-        "under": -114
+        "line": 8.5,
+        "over": -108,
+        "under": -111
       },
       "total_read": {
-        "side": null,
-        "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 starters roughly average (avg 0.760 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "side": "over",
+        "line": 8.5,
+        "note": "Total 8.5: leans OVER \u2014 both starters look hittable (avg 0.780 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -266,58 +260,43 @@
         "team_full": "Cleveland Guardians",
         "abbr": "CLE",
         "team_id": 114,
-        "record": "41-39",
+        "record": "42-39",
         "pitcher_id": 676440,
         "pitcher_name": "Tanner Bibee",
         "pitcher_hand": "R",
-        "ml": -244,
-        "implied": 70.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "White Sox",
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "41-37",
+        "record": "41-38",
         "pitcher_id": 607200,
         "pitcher_name": "Erick Fedde",
         "pitcher_hand": "R",
-        "ml": 181,
-        "implied": 35.6
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 67.8,
-        "wind_mph": 4.1,
-        "wind_dir_deg": 13
+        "temp_f": 68.5,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 87
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Tanner Bibee holds LHB to a 0.694 OPS; White Sox project 75% L-handed today."
-        },
-        {
-          "m": "+",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Erick Fedde holds LHB to a 0.697 OPS; Guardians project 71% L-handed today."
+          "text": "Tanner Bibee holds LHB to a 0.654 OPS; White Sox project 75% L-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
-      "total": {
-        "line": 5.5,
-        "over": 149,
-        "under": -197
-      },
-      "total_read": {
-        "side": null,
-        "line": 5.5,
-        "note": "Total 5.5: no clear lean \u2014 starters roughly average (avg 0.696 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
-      },
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null
     },
     {
       "game_pk": 824341,
@@ -374,9 +353,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 80.9,
-        "wind_mph": 9.5,
-        "wind_dir_deg": 30
+        "temp_f": 83.1,
+        "wind_mph": 5.8,
+        "wind_dir_deg": 88
       },
       "factors": [
         {
@@ -433,52 +412,43 @@
         "team_full": "Baltimore Orioles",
         "abbr": "BAL",
         "team_id": 110,
-        "record": "38-43",
+        "record": "38-44",
         "pitcher_id": 694346,
         "pitcher_name": "Trey Gibson",
         "pitcher_hand": "R",
-        "ml": -121,
-        "implied": 54.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Angels",
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "33-48",
+        "record": "34-48",
         "pitcher_id": 667755,
         "pitcher_name": "Jos\u00e9 Soriano",
         "pitcher_hand": "R",
-        "ml": -107,
-        "implied": 51.7
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 79.9,
+        "temp_f": 75.7,
         "wind_mph": 8.1,
-        "wind_dir_deg": 236
+        "wind_dir_deg": 238
       },
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Jos\u00e9 Soriano holds RHB to a 0.513 OPS; Orioles project 62% R-handed today."
+          "text": "Jos\u00e9 Soriano holds RHB to a 0.535 OPS; Orioles project 62% R-handed today."
         }
       ],
       "lean": "home",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 11.5,
-        "over": -117,
-        "under": -111
-      },
-      "total_read": {
-        "side": "under",
-        "line": 11.5,
-        "note": "Total 11.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.666 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
-      },
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null
     },
     {
       "game_pk": 823367,
@@ -515,50 +485,52 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "41-39",
+        "record": "41-40",
         "pitcher_id": 693433,
         "pitcher_name": "Bryan Woo",
         "pitcher_hand": "R",
-        "ml": -112,
-        "implied": 52.8
+        "ml": -143,
+        "implied": 58.8
       },
       "home": {
         "team": "Pirates",
         "team_full": "Pittsburgh Pirates",
         "abbr": "PIT",
         "team_id": 134,
-        "record": "39-40",
+        "record": "40-40",
         "pitcher_id": 677952,
         "pitcher_name": "Braxton Ashcraft",
         "pitcher_hand": "R",
-        "ml": -116,
-        "implied": 53.7
+        "ml": 119,
+        "implied": 45.7
       },
-      "weather": {
-        "temp_f": 78.1,
-        "wind_mph": 4.0,
-        "wind_dir_deg": 270
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Bryan Woo holds LHB to a 0.622 OPS; Pirates project 67% L-handed today."
+          "text": "Bryan Woo holds LHB to a 0.658 OPS; Pirates project 67% L-handed today."
+        },
+        {
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Braxton Ashcraft holds LHB to a 0.694 OPS; Mariners project 75% L-handed today."
         }
       ],
-      "lean": "away",
-      "weight": 1,
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -143,
-        "under": 110
+        "over": -108,
+        "under": -112
       },
       "total_read": {
         "side": "under",
         "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.662 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.676 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -597,24 +569,24 @@
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "34-46",
+        "record": "34-47",
         "pitcher_id": 702070,
         "pitcher_name": "Noah Cameron",
         "pitcher_hand": "L",
-        "ml": 104,
-        "implied": 49.0
+        "ml": 119,
+        "implied": 45.7
       },
       "home": {
         "team": "Rays",
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "43-33",
+        "record": "44-33",
         "pitcher_id": 643377,
         "pitcher_name": "Griffin Jax",
         "pitcher_hand": "R",
-        "ml": -135,
-        "implied": 57.4
+        "ml": -143,
+        "implied": 58.8
       },
       "weather": null,
       "factors": [
@@ -622,27 +594,27 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Noah Cameron holds RHB to a 0.676 OPS; Rays project 75% R-handed today."
+          "text": "Noah Cameron holds RHB to a 0.691 OPS; Rays project 75% R-handed today."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Griffin Jax is vulnerable to LHB (0.809 OPS) and Royals skew L-handed."
+          "text": "Griffin Jax is vulnerable to LHB (0.813 OPS) and Royals skew L-handed."
         }
       ],
       "lean": "away",
       "weight": 2,
       "read": null,
       "total": {
-        "line": 7.5,
-        "over": 111,
-        "under": -145
+        "line": 8.5,
+        "over": -105,
+        "under": -114
       },
       "total_read": {
         "side": null,
-        "line": 7.5,
-        "note": "Total 7.5: no clear lean \u2014 starters roughly average (avg 0.743 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 8.5,
+        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.752 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -681,24 +653,24 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "47-31",
+        "record": "48-31",
         "pitcher_id": 677960,
         "pitcher_name": "Ryan Weathers",
         "pitcher_hand": "L",
-        "ml": -156,
-        "implied": 60.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Tigers",
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "34-45",
+        "record": "34-46",
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": "L",
-        "ml": 119,
-        "implied": 45.7
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -706,23 +678,14 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Ryan Weathers holds RHB to a 0.675 OPS; Tigers project 67% R-handed today."
+          "text": "Ryan Weathers holds RHB to a 0.679 OPS; Tigers project 67% R-handed today."
         }
       ],
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 7.5,
-        "over": 103,
-        "under": -133
-      },
-      "total_read": {
-        "side": "under",
-        "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.621 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
-      },
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null
     },
     {
       "game_pk": 822719,
@@ -759,24 +722,24 @@
         "team_full": "Philadelphia Phillies",
         "abbr": "PHI",
         "team_id": 143,
-        "record": "43-36",
+        "record": "44-36",
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": -186,
+        "implied": 65.0
       },
       "home": {
         "team": "Nationals",
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "41-39",
+        "record": "41-40",
         "pitcher_id": 687223,
         "pitcher_name": "Carson Palmquist",
         "pitcher_hand": "L",
-        "ml": -124,
-        "implied": 55.4
+        "ml": 153,
+        "implied": 39.5
       },
       "weather": null,
       "factors": [
@@ -784,21 +747,21 @@
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Aaron Nola is vulnerable to LHB (0.908 OPS) and Nationals skew L-handed."
+          "text": "Aaron Nola is vulnerable to LHB (0.911 OPS) and Nationals skew L-handed."
         }
       ],
       "lean": "home",
       "weight": 1,
       "read": null,
       "total": {
-        "line": 8.5,
-        "over": -126,
-        "under": -103
+        "line": 8.0,
+        "over": -119,
+        "under": -102
       },
       "total_read": {
         "side": null,
-        "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 not enough split data yet. (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 8.0,
+        "note": "Total 8.0: no clear lean \u2014 starters roughly average (avg 0.742 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -837,48 +800,49 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "38-43",
+        "record": "39-43",
         "pitcher_id": 681347,
         "pitcher_name": "Mike Burrows",
         "pitcher_hand": "R",
-        "ml": 119,
-        "implied": 45.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Blue Jays",
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "39-40",
+        "record": "39-41",
         "pitcher_id": 702056,
         "pitcher_name": "Trey Yesavage",
         "pitcher_hand": "R",
-        "ml": -144,
-        "implied": 59.0
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 64.9,
+        "wind_mph": 4.4,
+        "wind_dir_deg": 229
+      },
       "factors": [
+        {
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Mike Burrows holds RHB to a 0.692 OPS; Blue Jays project 67% R-handed today."
+        },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Trey Yesavage holds RHB to a 0.659 OPS; Astros project 67% R-handed today."
+          "text": "Trey Yesavage holds RHB to a 0.638 OPS; Astros project 67% R-handed today."
         }
       ],
-      "lean": "home",
-      "weight": 1,
+      "lean": "even",
+      "weight": 0,
       "read": null,
-      "total": {
-        "line": 8.5,
-        "over": -114,
-        "under": -105
-      },
-      "total_read": {
-        "side": null,
-        "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.704 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
-      },
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null
     },
     {
       "game_pk": 824500,
@@ -915,54 +879,49 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "48-29",
+        "record": "49-29",
         "pitcher_id": 675660,
         "pitcher_name": "Shane Drohan",
         "pitcher_hand": "L",
-        "ml": -131,
-        "implied": 56.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Reds",
         "team_full": "Cincinnati Reds",
         "abbr": "CIN",
         "team_id": 113,
-        "record": "37-41",
+        "record": "37-42",
         "pitcher_id": 695076,
         "pitcher_name": "Rhett Lowder",
         "pitcher_hand": "R",
-        "ml": 109,
-        "implied": 47.8
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 75.8,
+        "wind_mph": 3.6,
+        "wind_dir_deg": 274
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Shane Drohan holds RHB to a 0.623 OPS; Reds project 100% R-handed today."
+          "text": "Shane Drohan holds RHB to a 0.642 OPS; Reds project 100% R-handed today."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Rhett Lowder is vulnerable to LHB (0.794 OPS) and Brewers skew L-handed."
+          "text": "Rhett Lowder is vulnerable to LHB (0.798 OPS) and Brewers skew L-handed."
         }
       ],
       "lean": "away",
       "weight": 2,
       "read": null,
-      "total": {
-        "line": 9.5,
-        "over": -106,
-        "under": -113
-      },
-      "total_read": {
-        "side": null,
-        "line": 9.5,
-        "note": "Total 9.5: no clear lean \u2014 starters roughly average (avg 0.709 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
-      },
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null
     },
     {
       "game_pk": 823691,
@@ -987,9 +946,9 @@
           621439,
           665019,
           605137,
+          605170,
           668904,
           686797,
-          605170,
           656484,
           668952
         ]
@@ -999,52 +958,43 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "51-29",
+        "record": "52-29",
         "pitcher_id": 660271,
         "pitcher_name": "Shohei Ohtani",
         "pitcher_hand": "R",
-        "ml": -164,
-        "implied": 62.1
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Twins",
         "team_full": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "record": "38-43",
+        "record": "38-44",
         "pitcher_id": 657746,
         "pitcher_name": "Joe Ryan",
         "pitcher_hand": "R",
-        "ml": 135,
-        "implied": 42.6
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 73.2,
-        "wind_mph": 12.5,
-        "wind_dir_deg": 301
+        "temp_f": 71.3,
+        "wind_mph": 12.0,
+        "wind_dir_deg": 291
       },
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Joe Ryan holds LHB to a 0.608 OPS; Dodgers project 62% L-handed today."
+          "text": "Joe Ryan holds LHB to a 0.614 OPS; Dodgers project 62% L-handed today."
         }
       ],
       "lean": "home",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 8.5,
-        "over": -102,
-        "under": -118
-      },
-      "total_read": {
-        "side": "under",
-        "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.525 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
-      },
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null
     },
     {
       "game_pk": 823041,
@@ -1081,36 +1031,36 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "40-39",
+        "record": "41-39",
         "pitcher_id": 683352,
         "pitcher_name": "Mitch Bratt",
         "pitcher_hand": "L",
-        "ml": -102,
-        "implied": 50.5
+        "ml": 113,
+        "implied": 46.9
       },
       "home": {
         "team": "Cardinals",
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "42-35",
+        "record": "42-36",
         "pitcher_id": 669461,
         "pitcher_name": "Matthew Liberatore",
         "pitcher_hand": "L",
-        "ml": -118,
-        "implied": 54.1
+        "ml": -136,
+        "implied": 57.6
       },
       "weather": {
-        "temp_f": 83.5,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 226
+        "temp_f": 80.6,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 200
       },
       "factors": [
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Matthew Liberatore is vulnerable to RHB (0.830 OPS) and D-backs skew R-handed."
+          "text": "Matthew Liberatore is vulnerable to RHB (0.854 OPS) and D-backs skew R-handed."
         }
       ],
       "lean": "away",
@@ -1118,13 +1068,13 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": -117,
-        "under": -103
+        "over": 100,
+        "under": -120
       },
       "total_read": {
-        "side": null,
+        "side": "over",
         "line": 9.0,
-        "note": "Total 9.0: no clear lean \u2014 not enough split data yet. (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.815 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     },
@@ -1163,52 +1113,49 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "48-30",
+        "record": "48-31",
         "pitcher_id": 527048,
         "pitcher_name": "Mart\u00edn P\u00e9rez",
         "pitcher_hand": "L",
-        "ml": -119,
-        "implied": 54.3
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Padres",
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "41-37",
+        "record": "42-37",
         "pitcher_id": 676664,
         "pitcher_name": "JP Sears",
         "pitcher_hand": "L",
-        "ml": -102,
-        "implied": 50.5
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 71.5,
-        "wind_mph": 7.5,
-        "wind_dir_deg": 297
+        "temp_f": 70.4,
+        "wind_mph": 8.3,
+        "wind_dir_deg": 301
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Mart\u00edn P\u00e9rez holds RHB to a 0.624 OPS; Padres project 89% R-handed today."
+          "text": "Mart\u00edn P\u00e9rez holds RHB to a 0.658 OPS; Padres project 89% R-handed today."
+        },
+        {
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "JP Sears is vulnerable to RHB (0.787 OPS) and Braves skew R-handed."
         }
       ],
       "lean": "away",
-      "weight": 1,
+      "weight": 2,
       "read": null,
-      "total": {
-        "line": 8.0,
-        "over": -117,
-        "under": -103
-      },
-      "total_read": {
-        "side": null,
-        "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 not enough split data yet. (Preliminary \u2014 park, ERA, and wind direction still to come.)"
-      },
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null
     },
     {
       "game_pk": 823208,
@@ -1245,50 +1192,50 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "38-41",
+        "record": "38-42",
         "pitcher_id": 695611,
         "pitcher_name": "Gage Jump",
         "pitcher_hand": "L",
-        "ml": -114,
-        "implied": 53.3
+        "ml": -116,
+        "implied": 53.7
       },
       "home": {
         "team": "Giants",
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "32-46",
+        "record": "33-46",
         "pitcher_id": 641816,
         "pitcher_name": "Tyler Mahle",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": -112,
+        "implied": 52.8
       },
       "weather": {
-        "temp_f": 60.8,
-        "wind_mph": 13.3,
-        "wind_dir_deg": 276
+        "temp_f": 61.2,
+        "wind_mph": 10.7,
+        "wind_dir_deg": 271
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Gage Jump holds RHB to a 0.470 OPS; Giants project 67% R-handed today."
+          "text": "Gage Jump holds RHB to a 0.454 OPS; Giants project 67% R-handed today."
         }
       ],
       "lean": "away",
       "weight": 1,
       "read": null,
       "total": {
-        "line": 8.5,
-        "over": -109,
-        "under": -110
+        "line": 4.5,
+        "over": 103,
+        "under": -134
       },
       "total_read": {
         "side": null,
-        "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.716 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "line": 4.5,
+        "note": "Total 4.5: no clear lean \u2014 starters roughly average (avg 0.698 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "odds_book": "DraftKings"
     }
