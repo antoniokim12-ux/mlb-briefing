@@ -1,6 +1,6 @@
 {
   "date": "2026-06-25",
-  "generated": "2026-06-25T16:15:24",
+  "generated": "2026-06-25T18:41:34",
   "games": [
     {
       "game_pk": 822961,
@@ -37,7 +37,7 @@
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "34-47",
+        "record": "34-48",
         "pitcher_id": 607625,
         "pitcher_name": "Seth Lugo",
         "pitcher_hand": "R",
@@ -49,7 +49,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "44-33",
+        "record": "45-33",
         "pitcher_id": 668984,
         "pitcher_name": "Casey Legumina",
         "pitcher_hand": "R",
@@ -57,16 +57,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 88.8,
-        "wind_mph": 7.8,
-        "wind_dir_deg": 229
+        "temp_f": 87.1,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 212
       },
       "factors": [
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Casey Legumina is vulnerable to RHB (0.941 OPS) and Royals skew R-handed."
+          "text": "Casey Legumina is vulnerable to RHB (0.916 OPS) and Royals skew R-handed."
         }
       ],
       "lean": "away",
@@ -115,8 +115,8 @@
         "pitcher_id": 682243,
         "pitcher_name": "Bryce Miller",
         "pitcher_hand": "R",
-        "ml": -144,
-        "implied": 59.0
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Pirates",
@@ -127,13 +127,13 @@
         "pitcher_id": 696149,
         "pitcher_name": "Bubba Chandler",
         "pitcher_hand": "R",
-        "ml": 119,
-        "implied": 45.7
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 73.4,
-        "wind_mph": 4.8,
-        "wind_dir_deg": 208
+        "temp_f": 77.0,
+        "wind_mph": 8.8,
+        "wind_dir_deg": 207
       },
       "factors": [
         {
@@ -146,18 +146,9 @@
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 8.5,
-        "over": -105,
-        "under": -115
-      },
-      "total_read": {
-        "side": null,
-        "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 starters roughly average (avg 0.694 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 823209,
@@ -166,8 +157,28 @@
       "lat": 37.778383,
       "lon": -122.389448,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          703607,
+          701762,
+          669127,
+          691016,
+          641680,
+          671732,
+          691777,
+          643446,
+          675961
+        ],
+        "home": [
+          656305,
+          805811,
+          669477,
+          646240,
+          642715,
+          808982,
+          682674,
+          691740,
+          813841
+        ]
       },
       "away": {
         "team": "Athletics",
@@ -178,8 +189,8 @@
         "pitcher_id": 605488,
         "pitcher_name": "Jeffrey Springs",
         "pitcher_hand": "L",
-        "ml": 109,
-        "implied": 47.8
+        "ml": 113,
+        "implied": 46.9
       },
       "home": {
         "team": "Giants",
@@ -190,30 +201,24 @@
         "pitcher_id": 694738,
         "pitcher_name": "Landen Roupp",
         "pitcher_hand": "R",
-        "ml": -131,
-        "implied": 56.7
+        "ml": -136,
+        "implied": 57.6
       },
       "weather": {
-        "temp_f": 62.2,
+        "temp_f": 64.5,
         "wind_mph": 10.1,
-        "wind_dir_deg": 266
+        "wind_dir_deg": 256
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Giants lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Athletics lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Jeffrey Springs is vulnerable to RHB (0.861 OPS) and Giants skew R-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 8.0,
@@ -223,7 +228,7 @@
       "total_read": {
         "side": null,
         "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 starters roughly average (avg 0.753 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 8.0: no clear lean \u2014 starters roughly average (avg 0.768 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -263,9 +268,9 @@
         "implied": 53.3
       },
       "weather": {
-        "temp_f": 79.6,
-        "wind_mph": 12.3,
-        "wind_dir_deg": 270
+        "temp_f": 80.4,
+        "wind_mph": 9.7,
+        "wind_dir_deg": 262
       },
       "factors": [
         {
@@ -316,8 +321,8 @@
         "pitcher_id": 650911,
         "pitcher_name": "Cristopher S\u00e1nchez",
         "pitcher_hand": "L",
-        "ml": -168,
-        "implied": 62.7
+        "ml": -167,
+        "implied": 62.5
       },
       "home": {
         "team": "Nationals",
@@ -328,13 +333,13 @@
         "pitcher_id": 676917,
         "pitcher_name": "Cade Cavalli",
         "pitcher_hand": "R",
-        "ml": 139,
-        "implied": 41.8
+        "ml": 138,
+        "implied": 42.0
       },
       "weather": {
-        "temp_f": 88.5,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 195
+        "temp_f": 87.8,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 188
       },
       "factors": [
         {
@@ -401,9 +406,9 @@
         "implied": 60.9
       },
       "weather": {
-        "temp_f": 60.3,
-        "wind_mph": 8.0,
-        "wind_dir_deg": 60
+        "temp_f": 59.8,
+        "wind_mph": 9.2,
+        "wind_dir_deg": 58
       },
       "factors": [
         {
@@ -454,8 +459,8 @@
         "pitcher_id": 571510,
         "pitcher_name": "Matthew Boyd",
         "pitcher_hand": "L",
-        "ml": -110,
-        "implied": 52.4
+        "ml": -112,
+        "implied": 52.8
       },
       "home": {
         "team": "Mets",
@@ -466,13 +471,13 @@
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": "R",
-        "ml": -109,
-        "implied": 52.2
+        "ml": -108,
+        "implied": 51.9
       },
       "weather": {
-        "temp_f": 74.5,
-        "wind_mph": 11.8,
-        "wind_dir_deg": 158
+        "temp_f": 74.6,
+        "wind_mph": 12.5,
+        "wind_dir_deg": 161
       },
       "factors": [
         {
@@ -523,8 +528,8 @@
         "pitcher_id": 693645,
         "pitcher_name": "Cam Schlittler",
         "pitcher_hand": "R",
-        "ml": -141,
-        "implied": 58.5
+        "ml": -148,
+        "implied": 59.7
       },
       "home": {
         "team": "Red Sox",
@@ -535,13 +540,13 @@
         "pitcher_id": 813349,
         "pitcher_name": "Connelly Early",
         "pitcher_hand": "L",
-        "ml": 117,
-        "implied": 46.1
+        "ml": 123,
+        "implied": 44.8
       },
       "weather": {
-        "temp_f": 80.2,
-        "wind_mph": 2.1,
-        "wind_dir_deg": 49
+        "temp_f": 78.3,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 94
       },
       "factors": [
         {
@@ -608,9 +613,9 @@
         "implied": 57.6
       },
       "weather": {
-        "temp_f": 82.7,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 35
+        "temp_f": 86.7,
+        "wind_mph": 4.9,
+        "wind_dir_deg": 51
       },
       "factors": [
         {
