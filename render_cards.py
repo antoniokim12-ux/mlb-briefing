@@ -21,6 +21,8 @@ import json
 import os
 import sys
 
+BUILD = "locked-cards-v2"  # bump when shipping; shows in the page footer to verify deploys
+
 # Design tokens — shared with the on-screen card concept.
 CSS = """
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Narrow:wght@500;600;700&family=JetBrains+Mono:wght@500;700&display=swap');
@@ -164,7 +166,7 @@ def value_assessment(g):
     return (f"VALUE LOOK \u25B8 {team.upper()}", GOLD, "#F2B53B", note)
 
 
-def render_card(g, started=False):
+def render_card(g, started=False, lock=None):
     away, home = g["away"], g["home"]
     ia = away.get("implied")
     ih = home.get("implied")
@@ -174,6 +176,17 @@ def render_card(g, started=False):
     else:
         aw = 50
     txt, pbg, pfg, vnote = value_assessment(g)
+    # If this game has a logged pick, the locked version is the source of truth —
+    # show it so the card can't disagree with the Today's Picks roundup.
+    if lock and lock.get("ml"):
+        lm = lock["ml"]
+        team_u = esc(lm.get("team")).upper()
+        if lm.get("kind") == "value":
+            txt, pbg, pfg = f"VALUE LOOK \u25B8 {team_u}", "rgba(242,181,59,.16)", "#F2B53B"
+        else:
+            txt, pbg, pfg = f"LEAN \u25B8 {team_u}", "rgba(70,180,122,.14)", "#46B47A"
+        vnote = (f'<div class="vnote"><b>Locked pick.</b> Frozen at {fmt_ml(lm.get("price"))} '
+                 'when it was given — your tracked number, even if the live line has moved.</div>')
 
     weight = g.get("weight", 0)
     if weight > 0:
@@ -204,8 +217,18 @@ def render_card(g, started=False):
         read = f'<div class="read"><b>The read</b>{esc(g["read"])}</div>'
 
     lines_html = ""
+    lt = (lock or {}).get("total")
     t = g.get("total")
-    if t:
+    if lt:  # locked O/U pick — show the frozen read so it matches the roundup
+        side = (lt.get("side") or "").upper()
+        lines_html = (
+            '<div class="lines"><div class="lines-h">Other lines</div>'
+            f'<div class="line-row"><span class="line-name">Total {esc(lt.get("line"))}</span>'
+            f'<span class="line-odds">{esc(side)} {fmt_ml(lt.get("price"))}</span></div>'
+            f'<div class="line-read">Total {esc(lt.get("line"))}: your locked {esc(side)} pick, '
+            f'frozen at {fmt_ml(lt.get("price"))} when it was given.</div></div>'
+        )
+    elif t:
         tr = g.get("total_read") or {}
         lines_html = (
             '<div class="lines"><div class="lines-h">Other lines</div>'
@@ -273,6 +296,52 @@ def _started_lookup(games):
         key = frozenset((_norm(g["away"].get("team")), _norm(g["home"].get("team"))))
         out[key] = bool(t and t <= now)
     return out
+
+
+def _locked_today(date):
+    """Locked picks from the log, indexed BOTH by game id and by team pair, so a card
+    can find its frozen pick even if team names don't normalize identically.
+    Keys are ('pk', game_pk) and ('pair', frozenset(teams))."""
+    try:
+        with open("picks_log.json") as f:
+            rows = [e for e in json.load(f) if e.get("date") == date]
+    except (FileNotFoundError, ValueError):
+        return {}
+    out = {}
+    for e in rows:
+        kind = e.get("kind")
+        if kind == "total":
+            parts = [p.strip() for p in (e.get("opp_team") or "").split("@")]
+            pair = frozenset(_norm(p) for p in parts) if len(parts) == 2 else None
+            field, val = "total", {"side": e.get("pick_side"), "line": e.get("line"),
+                                   "price": e.get("log_ml")}
+        elif kind in ("value", "lean"):
+            pair = frozenset((_norm(e.get("pick_team")), _norm(e.get("opp_team"))))
+            field, val = "ml", {"kind": kind, "team": e.get("pick_team"),
+                                "price": e.get("log_ml")}
+        else:
+            continue
+        keys = []
+        if e.get("game_pk") is not None:
+            keys.append(("pk", e["game_pk"]))
+        if pair:
+            keys.append(("pair", pair))
+        for k in keys:
+            out.setdefault(k, {})[field] = val
+    return out
+
+
+def _lock_for(g, locked):
+    """Merge any locked ml/total for this game, matching by id first then team pair."""
+    merged = {}
+    pair = locked.get(("pair", frozenset((_norm(g["away"].get("team")),
+                                          _norm(g["home"].get("team"))))))
+    if pair:
+        merged.update(pair)
+    pk = g.get("game_pk")
+    if pk is not None and ("pk", pk) in locked:
+        merged.update(locked[("pk", pk)])  # id match wins
+    return merged or None
 
 
 def render_picks_today(games, date):
@@ -502,7 +571,8 @@ def render(slate):
 <div class="eyebrow">Daily Matchup Briefing · {esc(date)}{demo}</div>
 <h1>The Lineup Card</h1>"""
     foot = ('<div class="foot">+ favorable · ~ neutral · − caution&nbsp;&nbsp;|&nbsp;&nbsp;'
-            'decision-support only<br>bet what you can afford to lose · 21+ where legal</div>'
+            'decision-support only<br>bet what you can afford to lose · 21+ where legal'
+            f'<br><span style="opacity:.6">build {BUILD}</span></div>'
             '</div></body></html>')
 
     if slate_is_over(slate):
@@ -511,12 +581,13 @@ def render(slate):
 
     games = slate.get("games", [])
     started = _started_lookup(games)
+    locked = _locked_today(date)
 
-    def _is_started(g):
-        return started.get(frozenset((_norm(g["away"].get("team")),
-                                      _norm(g["home"].get("team")))), False)
+    def _pair(g):
+        return frozenset((_norm(g["away"].get("team")), _norm(g["home"].get("team"))))
 
-    cards = "".join(render_card(g, _is_started(g)) for g in games)
+    cards = "".join(render_card(g, started.get(_pair(g), False), _lock_for(g, locked))
+                    for g in games)
     return f"""{head}
 <p class="sub">The day's slate with the context that moves games — pitchers, platoon splits, park, weather — so you can read each matchup at a glance.</p>
 <div class="note"><b>How to read this.</b> <b style="color:var(--amber)">VALUE LOOK</b> flags games where today's factors lean toward the side the market rates <i>lower</i> — the classic place to hunt value. But it's a <i>candidate, not a verdict</i>: the market already prices these same factors into the line, so a VALUE LOOK means "worth checking against your price," not "the market is wrong." The strength dots show how many factors agree. Log your results over time to learn whether the flags actually hold up.</div>
