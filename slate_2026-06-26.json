@@ -1,6 +1,6 @@
 {
   "date": "2026-06-26",
-  "generated": "2026-06-26T11:37:02",
+  "generated": "2026-06-26T11:59:47",
   "games": [
     {
       "game_pk": 824255,
@@ -37,9 +37,9 @@
         "implied": 54.5
       },
       "weather": {
-        "temp_f": 74.8,
-        "wind_mph": 7.7,
-        "wind_dir_deg": 82
+        "temp_f": 74.9,
+        "wind_mph": 8.4,
+        "wind_dir_deg": 56
       },
       "factors": [
         {
@@ -106,9 +106,9 @@
         "implied": 67.2
       },
       "weather": {
-        "temp_f": 76.6,
-        "wind_mph": 2.9,
-        "wind_dir_deg": 219
+        "temp_f": 77.9,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 267
       },
       "factors": [
         {
@@ -175,9 +175,9 @@
         "implied": 58.8
       },
       "weather": {
-        "temp_f": 91.8,
-        "wind_mph": 5.6,
-        "wind_dir_deg": 263
+        "temp_f": 90.9,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 277
       },
       "factors": [
         {
@@ -244,9 +244,9 @@
         "implied": 51.2
       },
       "weather": {
-        "temp_f": 65.9,
-        "wind_mph": 4.3,
-        "wind_dir_deg": 177
+        "temp_f": 70.0,
+        "wind_mph": 2.3,
+        "wind_dir_deg": 169
       },
       "factors": [
         {
@@ -313,9 +313,9 @@
         "implied": 53.3
       },
       "weather": {
-        "temp_f": 71.1,
-        "wind_mph": 6.1,
-        "wind_dir_deg": 10
+        "temp_f": 71.6,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 360
       },
       "factors": [
         {
@@ -382,9 +382,9 @@
         "implied": 58.8
       },
       "weather": {
-        "temp_f": 80.6,
-        "wind_mph": 16.0,
-        "wind_dir_deg": 44
+        "temp_f": 88.9,
+        "wind_mph": 8.5,
+        "wind_dir_deg": 264
       },
       "factors": [
         {
@@ -398,12 +398,6 @@
           "side": "none",
           "label": "Lineups",
           "text": "D-backs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "16 mph wind (dir 44\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -417,7 +411,7 @@
       "total_read": {
         "side": "over",
         "line": 8.5,
-        "note": "Total 8.5: leans OVER \u2014 both starters look hittable (avg 0.777 OPS-against). Strong wind (16 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 8.5: leans OVER \u2014 both starters look hittable (avg 0.777 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -456,7 +450,11 @@
         "ml": 135,
         "implied": 42.6
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 80.3,
+        "wind_mph": 10.0,
+        "wind_dir_deg": 171
+      },
       "factors": [
         {
           "m": "~",
@@ -506,8 +504,8 @@
         "pitcher_id": 701542,
         "pitcher_name": "Will Warren",
         "pitcher_hand": "R",
-        "ml": -117,
-        "implied": 53.9
+        "ml": -118,
+        "implied": 54.1
       },
       "home": {
         "team": "Red Sox",
@@ -518,10 +516,14 @@
         "pitcher_id": 801139,
         "pitcher_name": "Payton Tolle",
         "pitcher_hand": "L",
-        "ml": -103,
-        "implied": 50.7
+        "ml": -102,
+        "implied": 50.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.2,
+        "wind_mph": 8.9,
+        "wind_dir_deg": 221
+      },
       "factors": [
         {
           "m": "~",
@@ -541,8 +543,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -113,
-        "under": -107
+        "over": -111,
+        "under": -108
       },
       "total_read": {
         "side": "under",
@@ -586,7 +588,11 @@
         "ml": -131,
         "implied": 56.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 64.2,
+        "wind_mph": 7.8,
+        "wind_dir_deg": 49
+      },
       "factors": [
         {
           "m": "~",
@@ -651,7 +657,11 @@
         "ml": -273,
         "implied": 73.2
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 65.5,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 81
+      },
       "factors": [
         {
           "m": "~",
@@ -716,7 +726,11 @@
         "ml": -167,
         "implied": 62.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 77.9,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 159
+      },
       "factors": [
         {
           "m": "~",
@@ -781,7 +795,11 @@
         "ml": -114,
         "implied": 53.3
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 74.4,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 170
+      },
       "factors": [
         {
           "m": "~",
@@ -847,9 +865,9 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 69.8,
-        "wind_mph": 9.0,
-        "wind_dir_deg": 228
+        "temp_f": 70.2,
+        "wind_mph": 8.8,
+        "wind_dir_deg": 232
       },
       "factors": [
         {
@@ -916,9 +934,9 @@
         "implied": 44.6
       },
       "weather": {
-        "temp_f": 67.0,
-        "wind_mph": 7.6,
-        "wind_dir_deg": 273
+        "temp_f": 66.6,
+        "wind_mph": 7.2,
+        "wind_dir_deg": 284
       },
       "factors": [
         {
@@ -969,8 +987,8 @@
         "pitcher_id": 625643,
         "pitcher_name": "Reynaldo L\u00f3pez",
         "pitcher_hand": "R",
-        "ml": null,
-        "implied": null
+        "ml": -128,
+        "implied": 56.1
       },
       "home": {
         "team": "Giants",
@@ -981,14 +999,10 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": null,
-        "implied": null
+        "ml": 107,
+        "implied": 48.3
       },
-      "weather": {
-        "temp_f": 58.8,
-        "wind_mph": 8.7,
-        "wind_dir_deg": 283
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -1006,9 +1020,18 @@
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": null,
-      "total_read": null,
-      "started": false
+      "total": {
+        "line": 7.5,
+        "over": -118,
+        "under": -102
+      },
+      "total_read": {
+        "side": null,
+        "line": 7.5,
+        "note": "Total 7.5: no clear lean \u2014 not enough split data yet. (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+      },
+      "started": false,
+      "odds_book": "DraftKings"
     }
   ]
 }
