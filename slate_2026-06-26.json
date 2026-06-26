@@ -1,6 +1,6 @@
 {
   "date": "2026-06-26",
-  "generated": "2026-06-26T10:39:08",
+  "generated": "2026-06-26T11:37:02",
   "games": [
     {
       "game_pk": 824255,
@@ -37,9 +37,9 @@
         "implied": 54.5
       },
       "weather": {
-        "temp_f": 74.9,
-        "wind_mph": 7.3,
-        "wind_dir_deg": 79
+        "temp_f": 74.8,
+        "wind_mph": 7.7,
+        "wind_dir_deg": 82
       },
       "factors": [
         {
@@ -61,7 +61,7 @@
       "total": {
         "line": 8.5,
         "over": -107,
-        "under": -112
+        "under": -113
       },
       "total_read": {
         "side": "under",
@@ -90,8 +90,8 @@
         "pitcher_id": 671096,
         "pitcher_name": "Andrew Abbott",
         "pitcher_hand": "L",
-        "ml": 177,
-        "implied": 36.1
+        "ml": 168,
+        "implied": 37.3
       },
       "home": {
         "team": "Pirates",
@@ -102,13 +102,13 @@
         "pitcher_id": 694973,
         "pitcher_name": "Paul Skenes",
         "pitcher_hand": "R",
-        "ml": -217,
-        "implied": 68.5
+        "ml": -205,
+        "implied": 67.2
       },
       "weather": {
-        "temp_f": 78.5,
-        "wind_mph": 2.3,
-        "wind_dir_deg": 253
+        "temp_f": 76.6,
+        "wind_mph": 2.9,
+        "wind_dir_deg": 219
       },
       "factors": [
         {
@@ -129,8 +129,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -112,
-        "under": -108
+        "over": -114,
+        "under": -105
       },
       "total_read": {
         "side": "under",
@@ -175,9 +175,9 @@
         "implied": 58.8
       },
       "weather": {
-        "temp_f": 90.2,
+        "temp_f": 91.8,
         "wind_mph": 5.6,
-        "wind_dir_deg": 293
+        "wind_dir_deg": 263
       },
       "factors": [
         {
@@ -244,9 +244,9 @@
         "implied": 51.2
       },
       "weather": {
-        "temp_f": 65.0,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 187
+        "temp_f": 65.9,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 177
       },
       "factors": [
         {
@@ -313,8 +313,8 @@
         "implied": 53.3
       },
       "weather": {
-        "temp_f": 72.0,
-        "wind_mph": 5.0,
+        "temp_f": 71.1,
+        "wind_mph": 6.1,
         "wind_dir_deg": 10
       },
       "factors": [
@@ -382,9 +382,9 @@
         "implied": 58.8
       },
       "weather": {
-        "temp_f": 88.3,
-        "wind_mph": 3.2,
-        "wind_dir_deg": 56
+        "temp_f": 80.6,
+        "wind_mph": 16.0,
+        "wind_dir_deg": 44
       },
       "factors": [
         {
@@ -398,6 +398,12 @@
           "side": "none",
           "label": "Lineups",
           "text": "D-backs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "16 mph wind (dir 44\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -411,7 +417,7 @@
       "total_read": {
         "side": "over",
         "line": 8.5,
-        "note": "Total 8.5: leans OVER \u2014 both starters look hittable (avg 0.777 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 8.5: leans OVER \u2014 both starters look hittable (avg 0.777 OPS-against). Strong wind (16 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -450,11 +456,7 @@
         "ml": 135,
         "implied": 42.6
       },
-      "weather": {
-        "temp_f": 83.4,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 175
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -519,11 +521,7 @@
         "ml": -103,
         "implied": 50.7
       },
-      "weather": {
-        "temp_f": 79.8,
-        "wind_mph": 9.3,
-        "wind_dir_deg": 188
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -588,11 +586,7 @@
         "ml": -131,
         "implied": 56.7
       },
-      "weather": {
-        "temp_f": 66.0,
-        "wind_mph": 5.4,
-        "wind_dir_deg": 66
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -642,8 +636,8 @@
         "pitcher_id": 607067,
         "pitcher_name": "Colin Rea",
         "pitcher_hand": "R",
-        "ml": 224,
-        "implied": 30.9
+        "ml": 219,
+        "implied": 31.3
       },
       "home": {
         "team": "Brewers",
@@ -654,14 +648,10 @@
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
-        "ml": -280,
-        "implied": 73.7
+        "ml": -273,
+        "implied": 73.2
       },
-      "weather": {
-        "temp_f": 67.8,
-        "wind_mph": 6.6,
-        "wind_dir_deg": 55
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -856,7 +846,11 @@
         "ml": 104,
         "implied": 49.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 69.8,
+        "wind_mph": 9.0,
+        "wind_dir_deg": 228
+      },
       "factors": [
         {
           "m": "~",
@@ -921,7 +915,11 @@
         "ml": 124,
         "implied": 44.6
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 67.0,
+        "wind_mph": 7.6,
+        "wind_dir_deg": 273
+      },
       "factors": [
         {
           "m": "~",
@@ -986,7 +984,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 58.8,
+        "wind_mph": 8.7,
+        "wind_dir_deg": 283
+      },
       "factors": [
         {
           "m": "~",
