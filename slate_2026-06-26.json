@@ -1,6 +1,6 @@
 {
   "date": "2026-06-26",
-  "generated": "2026-06-26T08:41:22",
+  "generated": "2026-06-26T10:39:08",
   "games": [
     {
       "game_pk": 824255,
@@ -21,8 +21,8 @@
         "pitcher_id": 681293,
         "pitcher_name": "Spencer Arrighetti",
         "pitcher_hand": "R",
-        "ml": 101,
-        "implied": 49.8
+        "ml": -101,
+        "implied": 50.2
       },
       "home": {
         "team": "Tigers",
@@ -33,13 +33,13 @@
         "pitcher_id": 672456,
         "pitcher_name": "Keider Montero",
         "pitcher_hand": "R",
-        "ml": -122,
-        "implied": 55.0
+        "ml": -120,
+        "implied": 54.5
       },
       "weather": {
-        "temp_f": 73.9,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 85
+        "temp_f": 74.9,
+        "wind_mph": 7.3,
+        "wind_dir_deg": 79
       },
       "factors": [
         {
@@ -60,8 +60,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -106,
-        "under": -113
+        "over": -107,
+        "under": -112
       },
       "total_read": {
         "side": "under",
@@ -90,8 +90,8 @@
         "pitcher_id": 671096,
         "pitcher_name": "Andrew Abbott",
         "pitcher_hand": "L",
-        "ml": 179,
-        "implied": 35.8
+        "ml": 177,
+        "implied": 36.1
       },
       "home": {
         "team": "Pirates",
@@ -102,13 +102,13 @@
         "pitcher_id": 694973,
         "pitcher_name": "Paul Skenes",
         "pitcher_hand": "R",
-        "ml": -219,
-        "implied": 68.7
+        "ml": -217,
+        "implied": 68.5
       },
       "weather": {
-        "temp_f": 79.1,
-        "wind_mph": 4.9,
-        "wind_dir_deg": 240
+        "temp_f": 78.5,
+        "wind_mph": 2.3,
+        "wind_dir_deg": 253
       },
       "factors": [
         {
@@ -129,8 +129,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -115,
-        "under": -105
+        "over": -112,
+        "under": -108
       },
       "total_read": {
         "side": "under",
@@ -159,8 +159,8 @@
         "pitcher_id": 674841,
         "pitcher_name": "Andrew Alvarez",
         "pitcher_hand": "L",
-        "ml": 113,
-        "implied": 46.9
+        "ml": 119,
+        "implied": 45.7
       },
       "home": {
         "team": "Orioles",
@@ -171,13 +171,13 @@
         "pitcher_id": 669432,
         "pitcher_name": "Trevor Rogers",
         "pitcher_hand": "L",
-        "ml": -136,
-        "implied": 57.6
+        "ml": -143,
+        "implied": 58.8
       },
       "weather": {
-        "temp_f": 90.5,
-        "wind_mph": 6.9,
-        "wind_dir_deg": 289
+        "temp_f": 90.2,
+        "wind_mph": 5.6,
+        "wind_dir_deg": 293
       },
       "factors": [
         {
@@ -198,8 +198,8 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": -111,
-        "under": -109
+        "over": -110,
+        "under": -110
       },
       "total_read": {
         "side": null,
@@ -244,8 +244,8 @@
         "implied": 51.2
       },
       "weather": {
-        "temp_f": 69.1,
-        "wind_mph": 3.6,
+        "temp_f": 65.0,
+        "wind_mph": 5.2,
         "wind_dir_deg": 187
       },
       "factors": [
@@ -313,9 +313,9 @@
         "implied": 53.3
       },
       "weather": {
-        "temp_f": 70.7,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 4
+        "temp_f": 72.0,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 10
       },
       "factors": [
         {
@@ -382,9 +382,9 @@
         "implied": 58.8
       },
       "weather": {
-        "temp_f": 88.0,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 260
+        "temp_f": 88.3,
+        "wind_mph": 3.2,
+        "wind_dir_deg": 56
       },
       "factors": [
         {
@@ -451,9 +451,9 @@
         "implied": 42.6
       },
       "weather": {
-        "temp_f": 87.2,
-        "wind_mph": 6.9,
-        "wind_dir_deg": 251
+        "temp_f": 83.4,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 175
       },
       "factors": [
         {
@@ -474,8 +474,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -116,
-        "under": -103
+        "over": -115,
+        "under": -105
       },
       "total_read": {
         "side": null,
@@ -520,9 +520,9 @@
         "implied": 50.7
       },
       "weather": {
-        "temp_f": 80.7,
-        "wind_mph": 9.6,
-        "wind_dir_deg": 196
+        "temp_f": 79.8,
+        "wind_mph": 9.3,
+        "wind_dir_deg": 188
       },
       "factors": [
         {
@@ -589,9 +589,9 @@
         "implied": 56.7
       },
       "weather": {
-        "temp_f": 67.6,
-        "wind_mph": 6.7,
-        "wind_dir_deg": 64
+        "temp_f": 66.0,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 66
       },
       "factors": [
         {
@@ -658,9 +658,9 @@
         "implied": 73.7
       },
       "weather": {
-        "temp_f": 67.4,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 56
+        "temp_f": 67.8,
+        "wind_mph": 6.6,
+        "wind_dir_deg": 55
       },
       "factors": [
         {
@@ -681,8 +681,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -102,
-        "under": -118
+        "over": -101,
+        "under": -120
       },
       "total_read": {
         "side": "under",
@@ -726,11 +726,7 @@
         "ml": -167,
         "implied": 62.5
       },
-      "weather": {
-        "temp_f": 78.9,
-        "wind_mph": 5.6,
-        "wind_dir_deg": 164
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -795,11 +791,7 @@
         "ml": -114,
         "implied": 53.3
       },
-      "weather": {
-        "temp_f": 73.3,
-        "wind_mph": 8.2,
-        "wind_dir_deg": 229
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -849,8 +841,8 @@
         "pitcher_id": 669372,
         "pitcher_name": "J.T. Ginn",
         "pitcher_hand": "R",
-        "ml": -126,
-        "implied": 55.8
+        "ml": -125,
+        "implied": 55.6
       },
       "home": {
         "team": "Angels",
@@ -884,8 +876,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -118,
-        "under": -102
+        "over": -114,
+        "under": -105
       },
       "total_read": {
         "side": "under",
