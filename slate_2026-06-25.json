@@ -1,6 +1,6 @@
 {
   "date": "2026-06-25",
-  "generated": "2026-06-25T23:55:38",
+  "generated": "2026-06-26T03:06:11",
   "games": [
     {
       "game_pk": 822961,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 87.1,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 212
+        "temp_f": 86.1,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 226
       },
       "factors": [
         {
@@ -131,9 +131,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 77.0,
-        "wind_mph": 8.8,
-        "wind_dir_deg": 207
+        "temp_f": 71.4,
+        "wind_mph": 1.4,
+        "wind_dir_deg": 261
       },
       "factors": [
         {
@@ -205,9 +205,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 63.2,
-        "wind_mph": 6.6,
-        "wind_dir_deg": 258
+        "temp_f": 63.1,
+        "wind_mph": 16.0,
+        "wind_dir_deg": 285
       },
       "factors": [
         {
@@ -215,6 +215,12 @@
           "side": "away",
           "label": "Handedness matchup",
           "text": "Jeffrey Springs is vulnerable to RHB (0.855 OPS) and Giants skew R-handed."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "16 mph wind (dir 285\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "home",
@@ -259,7 +265,7 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "39-43",
+        "record": "40-43",
         "pitcher_id": 837227,
         "pitcher_name": "Tatsuya Imai",
         "pitcher_hand": "R",
@@ -271,7 +277,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "34-46",
+        "record": "34-47",
         "pitcher_id": 675512,
         "pitcher_name": "Troy Melton",
         "pitcher_hand": "R",
@@ -279,26 +285,20 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 80.8,
-        "wind_mph": 11.7,
-        "wind_dir_deg": 188
+        "temp_f": 76.7,
+        "wind_mph": 10.4,
+        "wind_dir_deg": 285
       },
       "factors": [
-        {
-          "m": "-",
-          "side": "away",
-          "label": "Handedness matchup",
-          "text": "Tatsuya Imai is vulnerable to LHB (0.802 OPS) and Tigers skew L-handed."
-        },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Troy Melton holds RHB to a 0.610 OPS; Astros project 67% R-handed today."
+          "text": "Troy Melton holds RHB to a 0.500 OPS; Astros project 67% R-handed today."
         }
       ],
       "lean": "home",
-      "weight": 2,
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -339,7 +339,7 @@
         "team_full": "Philadelphia Phillies",
         "abbr": "PHI",
         "team_id": 143,
-        "record": "44-36",
+        "record": "45-36",
         "pitcher_id": 650911,
         "pitcher_name": "Cristopher S\u00e1nchez",
         "pitcher_hand": "L",
@@ -351,7 +351,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "41-40",
+        "record": "41-41",
         "pitcher_id": 676917,
         "pitcher_name": "Cade Cavalli",
         "pitcher_hand": "R",
@@ -359,16 +359,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 86.8,
-        "wind_mph": 9.2,
-        "wind_dir_deg": 176
+        "temp_f": 83.4,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 164
       },
       "factors": [
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Cade Cavalli is vulnerable to LHB (0.806 OPS) and Phillies skew L-handed."
+          "text": "Cade Cavalli is vulnerable to LHB (0.805 OPS) and Phillies skew L-handed."
         }
       ],
       "lean": "away",
@@ -413,7 +413,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "38-42",
+        "record": "39-42",
         "pitcher_id": 669022,
         "pitcher_name": "MacKenzie Gore",
         "pitcher_hand": "L",
@@ -425,7 +425,7 @@
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "39-41",
+        "record": "39-42",
         "pitcher_id": 592332,
         "pitcher_name": "Kevin Gausman",
         "pitcher_hand": "R",
@@ -433,16 +433,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 61.1,
-        "wind_mph": 6.9,
-        "wind_dir_deg": 65
+        "temp_f": 60.9,
+        "wind_mph": 9.9,
+        "wind_dir_deg": 67
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "MacKenzie Gore holds RHB to a 0.654 OPS; Blue Jays project 89% R-handed today."
+          "text": "MacKenzie Gore holds RHB to a 0.636 OPS; Blue Jays project 89% R-handed today."
         }
       ],
       "lean": "away",
@@ -487,7 +487,7 @@
         "team_full": "Chicago Cubs",
         "abbr": "CHC",
         "team_id": 112,
-        "record": "43-37",
+        "record": "44-37",
         "pitcher_id": 571510,
         "pitcher_name": "Matthew Boyd",
         "pitcher_hand": "L",
@@ -499,7 +499,7 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "34-46",
+        "record": "34-47",
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": "R",
@@ -507,16 +507,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 76.4,
-        "wind_mph": 12.5,
-        "wind_dir_deg": 161
+        "temp_f": 74.9,
+        "wind_mph": 13.3,
+        "wind_dir_deg": 160
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Matthew Boyd holds LHB to a 0.378 OPS; Mets project 62% L-handed today."
+          "text": "Matthew Boyd holds LHB to a 0.475 OPS; Mets project 62% L-handed today."
         }
       ],
       "lean": "away",
@@ -561,7 +561,7 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "48-31",
+        "record": "48-32",
         "pitcher_id": 693645,
         "pitcher_name": "Cam Schlittler",
         "pitcher_hand": "R",
@@ -573,18 +573,14 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "32-46",
+        "record": "33-46",
         "pitcher_id": 813349,
         "pitcher_name": "Connelly Early",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 80.8,
-        "wind_mph": 4.5,
-        "wind_dir_deg": 276
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -600,28 +596,8 @@
       "lat": 38.62256667,
       "lon": -90.19286667,
       "lineup_ids": {
-        "away": [
-          606466,
-          672695,
-          682998,
-          680728,
-          596146,
-          656976,
-          666971,
-          545121,
-          694371
-        ],
-        "home": [
-          802139,
-          671056,
-          676475,
-          691023,
-          663457,
-          691026,
-          701675,
-          691458,
-          665877
-        ]
+        "away": [],
+        "home": []
       },
       "away": {
         "team": "D-backs",
@@ -648,7 +624,20 @@
         "implied": null
       },
       "weather": null,
-      "factors": [],
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Cardinals lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "D-backs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
       "lean": "even",
       "weight": 0,
       "read": null,
