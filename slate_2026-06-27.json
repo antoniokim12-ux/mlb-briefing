@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "generated": "2026-06-27T07:45:47",
+  "generated": "2026-06-27T08:21:59",
   "games": [
     {
       "game_pk": 824257,
@@ -381,11 +381,7 @@
         "ml": -148,
         "implied": 59.7
       },
-      "weather": {
-        "temp_f": 66.9,
-        "wind_mph": 11.1,
-        "wind_dir_deg": 34
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -470,8 +466,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -105,
-        "under": -114
+        "over": -102,
+        "under": -118
       },
       "total_read": {
         "side": "under",
@@ -515,11 +511,7 @@
         "ml": -123,
         "implied": 55.2
       },
-      "weather": {
-        "temp_f": 81.0,
-        "wind_mph": 8.8,
-        "wind_dir_deg": 199
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -714,7 +706,11 @@
         "ml": -168,
         "implied": 62.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 70.4,
+        "wind_mph": 7.6,
+        "wind_dir_deg": 45
+      },
       "factors": [
         {
           "m": "~",
