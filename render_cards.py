@@ -21,7 +21,7 @@ import json
 import os
 import sys
 
-BUILD = "locked-cards-v2"  # bump when shipping; shows in the page footer to verify deploys
+BUILD = "lean-ou-only"  # bump when shipping; shows in the page footer to verify deploys
 
 # Design tokens — shared with the on-screen card concept.
 CSS = """
@@ -145,25 +145,16 @@ def value_assessment(g):
 
     if lean_imp is None or opp_imp is None:  # no market price loaded
         note = ('<div class="vnote">No market price loaded — run with an odds key to '
-                'check this lean against the line for value.</div>')
+                'check this lean against the line.</div>')
         return (f"LEAN \u25B8 {team.upper()}", GREEN, "#46B47A", note)
 
-    if lean_imp < opp_imp - 0.5:  # factors favor the side the market underrates
-        note = (f'<div class="vnote val"><b>Possible value.</b> The market has {esc(team)} '
-                f"as the underdog at {lean_imp:.0f}%, but today's factors lean {esc(team)} "
-                f"— worth checking against your price.</div>")
-        return (f"VALUE LOOK \u25B8 {team.upper()}", GOLD, "#F2B53B", note)
-
-    if lean_imp > opp_imp + 0.5:  # factors agree with the market favorite
+    if lean_imp > opp_imp + 0.5:  # factors agree with the market favorite — a lean
         note = (f'<div class="vnote">Factors lean {esc(team)}, who the market already '
-                f"favors ({lean_imp:.0f}%) — price and read agree, so not a value spot.</div>")
+                f"favors ({lean_imp:.0f}%).</div>")
         return (f"LEAN \u25B8 {team.upper()}", GREEN, "#46B47A", note)
 
-    # near coin-flip market, factors tip one way
-    note = (f'<div class="vnote val"><b>Edge on a coin flip.</b> The market sees this as '
-            f"about even ({lean_imp:.0f}%); today's factors tip {esc(team)} — a marginal "
-            f"edge worth a look.</div>")
-    return (f"VALUE LOOK \u25B8 {team.upper()}", GOLD, "#F2B53B", note)
+    # Factors on the underdog, or a near coin-flip: no lean we act on.
+    return ("NO CLEAR LEAN", "rgba(138,154,163,.14)", "#8A9AA3", "")
 
 
 def render_card(g, started=False, lock=None):
@@ -178,13 +169,10 @@ def render_card(g, started=False, lock=None):
     txt, pbg, pfg, vnote = value_assessment(g)
     # If this game has a logged pick, the locked version is the source of truth —
     # show it so the card can't disagree with the Today's Picks roundup.
-    if lock and lock.get("ml"):
+    if lock and lock.get("ml") and lock["ml"].get("kind") == "lean":
         lm = lock["ml"]
         team_u = esc(lm.get("team")).upper()
-        if lm.get("kind") == "value":
-            txt, pbg, pfg = f"VALUE LOOK \u25B8 {team_u}", "rgba(242,181,59,.16)", "#F2B53B"
-        else:
-            txt, pbg, pfg = f"LEAN \u25B8 {team_u}", "rgba(70,180,122,.14)", "#46B47A"
+        txt, pbg, pfg = f"LEAN \u25B8 {team_u}", "rgba(70,180,122,.14)", "#46B47A"
         vnote = (f'<div class="vnote"><b>Locked pick.</b> Frozen at {fmt_ml(lm.get("price"))} '
                  'when it was given — your tracked number, even if the live line has moved.</div>')
 
@@ -358,14 +346,13 @@ def render_picks_today(games, date):
         return _render_picks_from_slate(games)  # before anything's logged
 
     started = _started_lookup(games)
-    leans_, values, totals = [], [], []
+    leans_, totals = [], []
     for e in today:
         kind = e.get("kind")
         price = fmt_ml(e.get("log_ml"))
-        if kind in ("value", "lean"):
+        if kind == "lean":
             pair = frozenset((_norm(e.get("pick_team")), _norm(e.get("opp_team"))))
-            chip = (esc(e.get("pick_team")), price, started.get(pair, False))
-            (values if kind == "value" else leans_).append(chip)
+            leans_.append((esc(e.get("pick_team")), price, started.get(pair, False)))
         elif kind == "total":
             opp = e.get("opp_team") or ""
             parts = [p.strip() for p in opp.split("@")]
@@ -373,7 +360,7 @@ def render_picks_today(games, date):
             totals.append((esc(e.get("pick_team")), price, opp.replace(" @ ", "@"),
                            started.get(pair, False)))
 
-    if not (values or leans_ or totals):
+    if not (leans_ or totals):
         return _render_picks_from_slate(games)
 
     badge = '<span class="lk">LOCKED</span>'
@@ -394,7 +381,6 @@ def render_picks_today(games, date):
 
     return ('<div class="todays"><div class="lab">Today\'s Picks</div>'
             f'<div class="grp"><span class="gl">Lean</span>{ml_chips(leans_, "lean")}</div>'
-            f'<div class="grp"><span class="gl">Value</span>{ml_chips(values, "val")}</div>'
             f'<div class="grp"><span class="gl">O/U</span>{ou_chips(totals)}</div>'
             '<div class="dis">Each pick is frozen at the price it was given. '
             '<b>LOCKED</b> means the game has started. Candidates to check against your '
@@ -403,16 +389,12 @@ def render_picks_today(games, date):
 
 def _render_picks_from_slate(games):
     """Fallback used before any picks are logged: derive the roundup from live odds."""
-    values, leans_, totals = [], [], []
+    leans_, totals = [], []
     for g in games:
         txt = value_assessment(g)[0]
         lean = g.get("lean")
-        if lean in ("away", "home"):
-            chip = (esc(g[lean].get("team") or lean.title()), fmt_ml(g[lean].get("ml")), False)
-            if txt.startswith("VALUE"):
-                values.append(chip)
-            elif txt.startswith("LEAN"):
-                leans_.append(chip)
+        if lean in ("away", "home") and txt.startswith("LEAN"):
+            leans_.append((esc(g[lean].get("team") or lean.title()), fmt_ml(g[lean].get("ml")), False))
         tr = g.get("total_read") or {}
         t = g.get("total") or {}
         if tr.get("side") in ("over", "under") and t:
@@ -420,7 +402,7 @@ def _render_picks_from_slate(games):
             gm = f'{g["away"].get("abbr", "")}@{g["home"].get("abbr", "")}'
             totals.append((f'{tr["side"].title()} {esc(t.get("line"))}', fmt_ml(price), gm, False))
 
-    if not (values or leans_ or totals):
+    if not (leans_ or totals):
         return ('<div class="todays"><div class="lab">Today\'s Picks</div>'
                 '<div class="none">No leans against the prices yet — common before lineups '
                 'post. Check back a couple hours before first pitch.</div></div>')
@@ -436,7 +418,6 @@ def _render_picks_from_slate(games):
 
     return ('<div class="todays"><div class="lab">Today\'s Picks</div>'
             f'<div class="grp"><span class="gl">Lean</span>{chips(leans_, "lean")}</div>'
-            f'<div class="grp"><span class="gl">Value</span>{chips(values, "val")}</div>'
             f'<div class="grp"><span class="gl">O/U</span>{chips(totals, "ou", ou=True)}</div>'
             '<div class="dis">Candidates to check against your price — not locks. '
             'The market already prices the same factors in.</div></div>')
@@ -529,7 +510,10 @@ def render_scoreboard():
         return ""
     if not rows:
         return ""
-    cats = (("Value", ("value",)), ("Lean", ("lean",)), ("O/U", ("total",)))
+    rows = [e for e in rows if e.get("kind") in ("lean", "total")]  # value retired
+    if not rows:
+        return ""
+    cats = (("Lean", ("lean",)), ("O/U", ("total",)))
     parts = ['<span class="sb-lab">Scoreboard</span>']
 
     # one W-L record per bet type

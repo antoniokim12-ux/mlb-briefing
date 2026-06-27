@@ -102,10 +102,9 @@ def save_log(entries):
 # ───────────────────────── pick detection ─────────────────────────
 
 def leans(games):
-    """Every game whose factors lean a side, tagged by kind.
-      'value' = lean is on the side the market rates lower (a VALUE LOOK)
-      'lean'  = lean agrees with the market favorite (little edge)
-    Returns list of (game, lean_side, pick_implied, opp_implied, kind)."""
+    """Every game whose factors agree with the market favorite (a 'lean').
+    Value looks (factors on the underdog or a coin-flip) are intentionally retired
+    and no longer surfaced. Returns list of (game, lean_side, pick_implied, opp_implied, 'lean')."""
     out = []
     for g in games:
         lean = g.get("lean")
@@ -116,8 +115,8 @@ def leans(games):
         oi = g[opp].get("implied")
         if li is None or oi is None:
             continue
-        kind = "value" if li <= oi + 0.5 else "lean"
-        out.append((g, lean, li, oi, kind))
+        if li > oi + 0.5:  # factors agree with the favorite — a lean
+            out.append((g, lean, li, oi, "lean"))
     return out
 
 
@@ -471,16 +470,15 @@ def mode_report():
     if not entries:
         print("No picks logged yet. Run 'log' on a slate built with odds first.")
         return 0
-    print(f"\n===== MLB Briefing — results scoreboard ({len(entries)} picks logged) =====")
-    _stat_block(entries, "All picks")
-    _stat_block([e for e in entries if e.get("kind", "value") == "value"], "Value looks (ML)")
-    _stat_block([e for e in entries if e.get("kind") == "lean"], "Favorite leans (ML)")
-    _stat_block([e for e in entries if e.get("kind") == "total"], "Totals (O/U)")
-    _stat_block([e for e in entries if e.get("is_top")], "Top Look only")
+    live = [e for e in entries if e.get("kind") in ("lean", "total")]  # value retired
+    print(f"\n===== MLB Briefing — results scoreboard ({len(live)} picks) =====")
+    _stat_block(live, "All picks")
+    _stat_block([e for e in live if e.get("kind") == "lean"], "Favorite leans (ML)")
+    _stat_block([e for e in live if e.get("kind") == "total"], "Totals (O/U)")
     print("\nReminder: CLV is the early signal — positive over ~30+ picks is the first real "
-          "sign the tool is finding something. Watch whether VALUE LOOKS beat FAVORITE LEANS, "
-          "and whether the TOTALS reads hold up on their own. Note: totals CLV here tracks "
-          "price only, not movement in the line itself (8.5 -> 9), so read it loosely.\n")
+          "sign the tool is finding something. Watch whether the LEANS and the TOTALS reads "
+          "hold up on their own. Note: totals CLV here tracks price only, not movement in the "
+          "line itself (8.5 -> 9), so read it loosely.\n")
     return 0
 
 
