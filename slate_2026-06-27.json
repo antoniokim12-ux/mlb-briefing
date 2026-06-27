@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "generated": "2026-06-27T09:35:58",
+  "generated": "2026-06-27T10:32:05",
   "games": [
     {
       "game_pk": 824257,
@@ -37,9 +37,9 @@
         "implied": 57.6
       },
       "weather": {
-        "temp_f": 75.6,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 56
+        "temp_f": 75.7,
+        "wind_mph": 6.4,
+        "wind_dir_deg": 61
       },
       "factors": [
         {
@@ -106,9 +106,9 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 73.1,
-        "wind_mph": 9.1,
-        "wind_dir_deg": 80
+        "temp_f": 72.8,
+        "wind_mph": 10.0,
+        "wind_dir_deg": 78
       },
       "factors": [
         {
@@ -175,9 +175,9 @@
         "implied": 66.0
       },
       "weather": {
-        "temp_f": 73.9,
+        "temp_f": 73.4,
         "wind_mph": 7.4,
-        "wind_dir_deg": 115
+        "wind_dir_deg": 111
       },
       "factors": [
         {
@@ -246,7 +246,7 @@
       "weather": {
         "temp_f": 73.9,
         "wind_mph": 4.0,
-        "wind_dir_deg": 93
+        "wind_dir_deg": 196
       },
       "factors": [
         {
@@ -267,8 +267,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -105,
-        "under": -114
+        "over": -108,
+        "under": -112
       },
       "total_read": {
         "side": "under",
@@ -313,9 +313,9 @@
         "implied": 57.8
       },
       "weather": {
-        "temp_f": 72.7,
-        "wind_mph": 3.1,
-        "wind_dir_deg": 356
+        "temp_f": 70.5,
+        "wind_mph": 3.2,
+        "wind_dir_deg": 352
       },
       "factors": [
         {
@@ -382,9 +382,9 @@
         "implied": 59.7
       },
       "weather": {
-        "temp_f": 68.0,
-        "wind_mph": 11.4,
-        "wind_dir_deg": 31
+        "temp_f": 71.1,
+        "wind_mph": 13.2,
+        "wind_dir_deg": 28
       },
       "factors": [
         {
@@ -451,9 +451,9 @@
         "implied": 60.6
       },
       "weather": {
-        "temp_f": 91.3,
-        "wind_mph": 10.4,
-        "wind_dir_deg": 277
+        "temp_f": 91.5,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 280
       },
       "factors": [
         {
@@ -520,9 +520,9 @@
         "implied": 55.2
       },
       "weather": {
-        "temp_f": 78.2,
-        "wind_mph": 4.6,
-        "wind_dir_deg": 61
+        "temp_f": 78.1,
+        "wind_mph": 3.2,
+        "wind_dir_deg": 34
       },
       "factors": [
         {
@@ -589,9 +589,9 @@
         "implied": 44.6
       },
       "weather": {
-        "temp_f": 72.4,
-        "wind_mph": 5.4,
-        "wind_dir_deg": 30
+        "temp_f": 75.5,
+        "wind_mph": 7.1,
+        "wind_dir_deg": 20
       },
       "factors": [
         {
@@ -612,8 +612,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -105,
-        "under": -114
+        "over": -102,
+        "under": -118
       },
       "total_read": {
         "side": null,
@@ -658,9 +658,9 @@
         "implied": 59.0
       },
       "weather": {
-        "temp_f": 81.2,
-        "wind_mph": 11.9,
-        "wind_dir_deg": 140
+        "temp_f": 81.5,
+        "wind_mph": 11.2,
+        "wind_dir_deg": 145
       },
       "factors": [
         {
@@ -727,9 +727,9 @@
         "implied": 62.7
       },
       "weather": {
-        "temp_f": 69.7,
-        "wind_mph": 7.6,
-        "wind_dir_deg": 40
+        "temp_f": 70.9,
+        "wind_mph": 7.3,
+        "wind_dir_deg": 52
       },
       "factors": [
         {
@@ -795,11 +795,7 @@
         "ml": -143,
         "implied": 58.8
       },
-      "weather": {
-        "temp_f": 81.3,
-        "wind_mph": 5.3,
-        "wind_dir_deg": 208
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -864,11 +860,7 @@
         "ml": 168,
         "implied": 37.3
       },
-      "weather": {
-        "temp_f": 69.0,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 265
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -933,11 +925,7 @@
         "ml": -136,
         "implied": 57.6
       },
-      "weather": {
-        "temp_f": 62.6,
-        "wind_mph": 18.7,
-        "wind_dir_deg": 293
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -950,12 +938,6 @@
           "side": "none",
           "label": "Lineups",
           "text": "Braves lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "19 mph wind (dir 293\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -969,7 +951,7 @@
       "total_read": {
         "side": "under",
         "line": 8.0,
-        "note": "Total 8.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.647 OPS-against). Strong wind (19 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 8.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.647 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -1008,11 +990,7 @@
         "ml": -111,
         "implied": 52.6
       },
-      "weather": {
-        "temp_f": 70.5,
-        "wind_mph": 9.1,
-        "wind_dir_deg": 232
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
