@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "generated": "2026-06-27T10:32:05",
+  "generated": "2026-06-27T10:51:58",
   "games": [
     {
       "game_pk": 824257,
@@ -106,7 +106,7 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 72.8,
+        "temp_f": 72.7,
         "wind_mph": 10.0,
         "wind_dir_deg": 78
       },
@@ -175,7 +175,7 @@
         "implied": 66.0
       },
       "weather": {
-        "temp_f": 73.4,
+        "temp_f": 73.2,
         "wind_mph": 7.4,
         "wind_dir_deg": 111
       },
@@ -244,7 +244,7 @@
         "implied": 50.5
       },
       "weather": {
-        "temp_f": 73.9,
+        "temp_f": 75.3,
         "wind_mph": 4.0,
         "wind_dir_deg": 196
       },
@@ -313,7 +313,7 @@
         "implied": 57.8
       },
       "weather": {
-        "temp_f": 70.5,
+        "temp_f": 70.3,
         "wind_mph": 3.2,
         "wind_dir_deg": 352
       },
@@ -381,11 +381,7 @@
         "ml": -148,
         "implied": 59.7
       },
-      "weather": {
-        "temp_f": 71.1,
-        "wind_mph": 13.2,
-        "wind_dir_deg": 28
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -450,11 +446,7 @@
         "ml": -154,
         "implied": 60.6
       },
-      "weather": {
-        "temp_f": 91.5,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 280
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -474,8 +466,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -102,
-        "under": -119
+        "over": -104,
+        "under": -116
       },
       "total_read": {
         "side": "under",
@@ -519,11 +511,7 @@
         "ml": -123,
         "implied": 55.2
       },
-      "weather": {
-        "temp_f": 78.1,
-        "wind_mph": 3.2,
-        "wind_dir_deg": 34
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -588,11 +576,7 @@
         "ml": 124,
         "implied": 44.6
       },
-      "weather": {
-        "temp_f": 75.5,
-        "wind_mph": 7.1,
-        "wind_dir_deg": 20
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -657,11 +641,7 @@
         "ml": -144,
         "implied": 59.0
       },
-      "weather": {
-        "temp_f": 81.5,
-        "wind_mph": 11.2,
-        "wind_dir_deg": 145
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -681,8 +661,8 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": -117,
-        "under": -103
+        "over": -120,
+        "under": 100
       },
       "total_read": {
         "side": "over",
@@ -727,9 +707,9 @@
         "implied": 62.7
       },
       "weather": {
-        "temp_f": 70.9,
-        "wind_mph": 7.3,
-        "wind_dir_deg": 52
+        "temp_f": 70.6,
+        "wind_mph": 7.5,
+        "wind_dir_deg": 53
       },
       "factors": [
         {
@@ -795,7 +775,11 @@
         "ml": -143,
         "implied": 58.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 83.6,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 159
+      },
       "factors": [
         {
           "m": "~",
@@ -860,7 +844,11 @@
         "ml": 168,
         "implied": 37.3
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 70.5,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 280
+      },
       "factors": [
         {
           "m": "~",
@@ -925,7 +913,11 @@
         "ml": -136,
         "implied": 57.6
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 61.7,
+        "wind_mph": 20.2,
+        "wind_dir_deg": 291
+      },
       "factors": [
         {
           "m": "~",
@@ -938,6 +930,12 @@
           "side": "none",
           "label": "Lineups",
           "text": "Braves lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "20 mph wind (dir 291\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -951,7 +949,7 @@
       "total_read": {
         "side": "under",
         "line": 8.0,
-        "note": "Total 8.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.647 OPS-against). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
+        "note": "Total 8.0: leans UNDER \u2014 both starters project to suppress these lineups (avg 0.647 OPS-against). Strong wind (20 mph) could swing it (direction effect pending). (Preliminary \u2014 park, ERA, and wind direction still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -990,7 +988,11 @@
         "ml": -111,
         "implied": 52.6
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 70.2,
+        "wind_mph": 9.5,
+        "wind_dir_deg": 231
+      },
       "factors": [
         {
           "m": "~",
