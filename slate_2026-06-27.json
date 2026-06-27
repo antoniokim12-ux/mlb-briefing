@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "generated": "2026-06-27T08:21:59",
+  "generated": "2026-06-27T09:35:58",
   "games": [
     {
       "game_pk": 824257,
@@ -37,9 +37,9 @@
         "implied": 57.6
       },
       "weather": {
-        "temp_f": 75.7,
-        "wind_mph": 6.6,
-        "wind_dir_deg": 57
+        "temp_f": 75.6,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 56
       },
       "factors": [
         {
@@ -106,9 +106,9 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 73.0,
-        "wind_mph": 9.4,
-        "wind_dir_deg": 76
+        "temp_f": 73.1,
+        "wind_mph": 9.1,
+        "wind_dir_deg": 80
       },
       "factors": [
         {
@@ -175,9 +175,9 @@
         "implied": 66.0
       },
       "weather": {
-        "temp_f": 75.1,
+        "temp_f": 73.9,
         "wind_mph": 7.4,
-        "wind_dir_deg": 106
+        "wind_dir_deg": 115
       },
       "factors": [
         {
@@ -244,9 +244,9 @@
         "implied": 50.5
       },
       "weather": {
-        "temp_f": 77.1,
-        "wind_mph": 4.7,
-        "wind_dir_deg": 188
+        "temp_f": 73.9,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 93
       },
       "factors": [
         {
@@ -313,9 +313,9 @@
         "implied": 57.8
       },
       "weather": {
-        "temp_f": 78.2,
-        "wind_mph": 3.8,
-        "wind_dir_deg": 201
+        "temp_f": 72.7,
+        "wind_mph": 3.1,
+        "wind_dir_deg": 356
       },
       "factors": [
         {
@@ -381,7 +381,11 @@
         "ml": -148,
         "implied": 59.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 68.0,
+        "wind_mph": 11.4,
+        "wind_dir_deg": 31
+      },
       "factors": [
         {
           "m": "~",
@@ -446,7 +450,11 @@
         "ml": -154,
         "implied": 60.6
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 91.3,
+        "wind_mph": 10.4,
+        "wind_dir_deg": 277
+      },
       "factors": [
         {
           "m": "~",
@@ -467,7 +475,7 @@
       "total": {
         "line": 8.0,
         "over": -102,
-        "under": -118
+        "under": -119
       },
       "total_read": {
         "side": "under",
@@ -511,7 +519,11 @@
         "ml": -123,
         "implied": 55.2
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 78.2,
+        "wind_mph": 4.6,
+        "wind_dir_deg": 61
+      },
       "factors": [
         {
           "m": "~",
@@ -576,7 +588,11 @@
         "ml": 124,
         "implied": 44.6
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 72.4,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 30
+      },
       "factors": [
         {
           "m": "~",
@@ -641,7 +657,11 @@
         "ml": -144,
         "implied": 59.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 81.2,
+        "wind_mph": 11.9,
+        "wind_dir_deg": 140
+      },
       "factors": [
         {
           "m": "~",
@@ -707,9 +727,9 @@
         "implied": 62.7
       },
       "weather": {
-        "temp_f": 70.4,
+        "temp_f": 69.7,
         "wind_mph": 7.6,
-        "wind_dir_deg": 45
+        "wind_dir_deg": 40
       },
       "factors": [
         {
@@ -730,8 +750,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -107,
-        "under": -113
+        "over": -104,
+        "under": -116
       },
       "total_read": {
         "side": null,
@@ -776,9 +796,9 @@
         "implied": 58.8
       },
       "weather": {
-        "temp_f": 81.0,
-        "wind_mph": 3.4,
-        "wind_dir_deg": 238
+        "temp_f": 81.3,
+        "wind_mph": 5.3,
+        "wind_dir_deg": 208
       },
       "factors": [
         {
@@ -845,9 +865,9 @@
         "implied": 37.3
       },
       "weather": {
-        "temp_f": 69.5,
-        "wind_mph": 8.9,
-        "wind_dir_deg": 280
+        "temp_f": 69.0,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 265
       },
       "factors": [
         {
@@ -914,9 +934,9 @@
         "implied": 57.6
       },
       "weather": {
-        "temp_f": 62.9,
-        "wind_mph": 19.0,
-        "wind_dir_deg": 295
+        "temp_f": 62.6,
+        "wind_mph": 18.7,
+        "wind_dir_deg": 293
       },
       "factors": [
         {
@@ -935,7 +955,7 @@
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "19 mph wind (dir 295\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "19 mph wind (dir 293\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -989,9 +1009,9 @@
         "implied": 52.6
       },
       "weather": {
-        "temp_f": 71.2,
+        "temp_f": 70.5,
         "wind_mph": 9.1,
-        "wind_dir_deg": 234
+        "wind_dir_deg": 232
       },
       "factors": [
         {
