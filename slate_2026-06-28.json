@@ -1,6 +1,6 @@
 {
   "date": "2026-06-28",
-  "generated": "2026-06-28T08:36:16",
+  "generated": "2026-06-28T10:08:44",
   "games": [
     {
       "game_pk": 824821,
@@ -37,9 +37,9 @@
         "implied": 66.6
       },
       "weather": {
-        "temp_f": 73.6,
-        "wind_mph": 4.0,
-        "wind_dir_deg": 52
+        "temp_f": 77.2,
+        "wind_mph": 3.5,
+        "wind_dir_deg": 72
       },
       "factors": [
         {
@@ -107,9 +107,9 @@
         "implied": 57.6
       },
       "weather": {
-        "temp_f": 78.3,
-        "wind_mph": 2.2,
-        "wind_dir_deg": 53
+        "temp_f": 77.6,
+        "wind_mph": 3.0,
+        "wind_dir_deg": 48
       },
       "factors": [
         {
@@ -130,8 +130,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -120,
-        "under": 100
+        "over": -122,
+        "under": 102
       },
       "total_read": {
         "side": "over",
@@ -177,9 +177,9 @@
         "implied": 56.7
       },
       "weather": {
-        "temp_f": 77.2,
-        "wind_mph": 7.3,
-        "wind_dir_deg": 78
+        "temp_f": 76.9,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 82
       },
       "factors": [
         {
@@ -247,8 +247,8 @@
         "implied": 48.1
       },
       "weather": {
-        "temp_f": 78.0,
-        "wind_mph": 7.7,
+        "temp_f": 82.2,
+        "wind_mph": 7.0,
         "wind_dir_deg": 73
       },
       "factors": [
@@ -317,9 +317,9 @@
         "implied": 53.3
       },
       "weather": {
-        "temp_f": 78.3,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 352
+        "temp_f": 79.1,
+        "wind_mph": 8.3,
+        "wind_dir_deg": 354
       },
       "factors": [
         {
@@ -387,9 +387,9 @@
         "implied": 65.9
       },
       "weather": {
-        "temp_f": 92.3,
-        "wind_mph": 2.0,
-        "wind_dir_deg": 96
+        "temp_f": 93.2,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 98
       },
       "factors": [
         {
@@ -456,7 +456,11 @@
         "ml": 123,
         "implied": 44.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.4,
+        "wind_mph": 2.5,
+        "wind_dir_deg": 153
+      },
       "factors": [
         {
           "m": "~",
@@ -522,7 +526,11 @@
         "ml": -156,
         "implied": 60.9
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 73.8,
+        "wind_mph": 16.4,
+        "wind_dir_deg": 140
+      },
       "factors": [
         {
           "m": "~",
@@ -535,6 +543,12 @@
           "side": "none",
           "label": "Lineups",
           "text": "Rockies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "16 mph wind (dir 140\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -573,8 +587,8 @@
         "pitcher_id": 679883,
         "pitcher_name": "Luinder Avila",
         "pitcher_hand": "R",
-        "ml": 114,
-        "implied": 46.7
+        "ml": 119,
+        "implied": 45.7
       },
       "home": {
         "team": "White Sox",
@@ -585,10 +599,14 @@
         "pitcher_id": 641743,
         "pitcher_name": "Anthony Kay",
         "pitcher_hand": "L",
-        "ml": -137,
-        "implied": 57.8
+        "ml": -143,
+        "implied": 58.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 76.8,
+        "wind_mph": 9.6,
+        "wind_dir_deg": 101
+      },
       "factors": [
         {
           "m": "~",
@@ -608,8 +626,8 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": 101,
-        "under": -122
+        "over": 102,
+        "under": -123
       },
       "total_read": {
         "side": null,
@@ -639,8 +657,8 @@
         "pitcher_id": 669020,
         "pitcher_name": "Ryan Rolison",
         "pitcher_hand": "L",
-        "ml": 179,
-        "implied": 35.8
+        "ml": 169,
+        "implied": 37.2
       },
       "home": {
         "team": "Brewers",
@@ -651,10 +669,14 @@
         "pitcher_id": 605540,
         "pitcher_name": "Brandon Woodruff",
         "pitcher_hand": "R",
-        "ml": -219,
-        "implied": 68.7
+        "ml": -207,
+        "implied": 67.4
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 78.6,
+        "wind_mph": 9.6,
+        "wind_dir_deg": 126
+      },
       "factors": [
         {
           "m": "~",
@@ -720,7 +742,11 @@
         "ml": -131,
         "implied": 56.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 90.9,
+        "wind_mph": 5.8,
+        "wind_dir_deg": 193
+      },
       "factors": [
         {
           "m": "~",
@@ -786,7 +812,11 @@
         "ml": 100,
         "implied": 50.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 72.5,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 208
+      },
       "factors": [
         {
           "m": "~",
@@ -806,14 +836,14 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -115,
-        "under": -105
+        "over": -112,
+        "under": -107
       },
       "total_read": {
         "side": "over",
-        "strength": 1,
+        "strength": 2,
         "line": 9.5,
-        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.879 OPS-against). (Bullpen still to come.)"
+        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.879 OPS-against); wind blowing out to center (~8 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -853,9 +883,9 @@
         "implied": 42.7
       },
       "weather": {
-        "temp_f": 74.8,
-        "wind_mph": 12.9,
-        "wind_dir_deg": 280
+        "temp_f": 74.5,
+        "wind_mph": 12.2,
+        "wind_dir_deg": 279
       },
       "factors": [
         {
@@ -923,9 +953,9 @@
         "implied": 45.9
       },
       "weather": {
-        "temp_f": 68.2,
-        "wind_mph": 9.7,
-        "wind_dir_deg": 244
+        "temp_f": 68.1,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 235
       },
       "factors": [
         {
@@ -950,10 +980,10 @@
         "under": -115
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "under",
+        "strength": 1,
         "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 signals split (under: Petco Park plays pitcher-friendly; over: wind blowing out to center (~9 mph)). (Bullpen still to come.)"
+        "note": "Total 8.0: leans UNDER \u2014 Petco Park plays pitcher-friendly. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -993,9 +1023,9 @@
         "implied": 54.5
       },
       "weather": {
-        "temp_f": 72.6,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 98
+        "temp_f": 75.0,
+        "wind_mph": 6.2,
+        "wind_dir_deg": 105
       },
       "factors": [
         {
@@ -1016,8 +1046,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -105,
-        "under": -114
+        "over": -104,
+        "under": -116
       },
       "total_read": {
         "side": "over",
