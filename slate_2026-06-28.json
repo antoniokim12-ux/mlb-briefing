@@ -1,6 +1,6 @@
 {
   "date": "2026-06-28",
-  "generated": "2026-06-28T10:18:27",
+  "generated": "2026-06-28T10:55:57",
   "games": [
     {
       "game_pk": 824821,
@@ -37,9 +37,9 @@
         "implied": 66.6
       },
       "weather": {
-        "temp_f": 77.2,
-        "wind_mph": 3.5,
-        "wind_dir_deg": 72
+        "temp_f": 73.8,
+        "wind_mph": 2.5,
+        "wind_dir_deg": 45
       },
       "factors": [
         {
@@ -107,9 +107,9 @@
         "implied": 57.6
       },
       "weather": {
-        "temp_f": 77.6,
-        "wind_mph": 3.0,
-        "wind_dir_deg": 48
+        "temp_f": 79.8,
+        "wind_mph": 2.3,
+        "wind_dir_deg": 61
       },
       "factors": [
         {
@@ -129,15 +129,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.5,
-        "over": -122,
-        "under": 102
+        "line": 9.0,
+        "over": -101,
+        "under": -120
       },
       "total_read": {
         "side": "over",
         "strength": 1,
-        "line": 8.5,
-        "note": "Total 8.5: leans OVER \u2014 both starters look hittable (avg 0.771 OPS-against). (Bullpen still to come.)"
+        "line": 9.0,
+        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.771 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -177,9 +177,9 @@
         "implied": 56.9
       },
       "weather": {
-        "temp_f": 76.9,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 82
+        "temp_f": 76.2,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 86
       },
       "factors": [
         {
@@ -247,9 +247,9 @@
         "implied": 48.1
       },
       "weather": {
-        "temp_f": 82.2,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 73
+        "temp_f": 82.5,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 74
       },
       "factors": [
         {
@@ -318,8 +318,8 @@
       },
       "weather": {
         "temp_f": 79.1,
-        "wind_mph": 8.3,
-        "wind_dir_deg": 354
+        "wind_mph": 8.6,
+        "wind_dir_deg": 343
       },
       "factors": [
         {
@@ -387,9 +387,9 @@
         "implied": 65.9
       },
       "weather": {
-        "temp_f": 93.2,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 98
+        "temp_f": 93.1,
+        "wind_mph": 2.3,
+        "wind_dir_deg": 119
       },
       "factors": [
         {
@@ -457,9 +457,9 @@
         "implied": 44.8
       },
       "weather": {
-        "temp_f": 79.4,
-        "wind_mph": 2.5,
-        "wind_dir_deg": 153
+        "temp_f": 81.1,
+        "wind_mph": 2.8,
+        "wind_dir_deg": 14
       },
       "factors": [
         {
@@ -527,9 +527,9 @@
         "implied": 60.9
       },
       "weather": {
-        "temp_f": 73.8,
-        "wind_mph": 16.4,
-        "wind_dir_deg": 140
+        "temp_f": 73.1,
+        "wind_mph": 14.0,
+        "wind_dir_deg": 145
       },
       "factors": [
         {
@@ -543,12 +543,6 @@
           "side": "none",
           "label": "Lineups",
           "text": "Rockies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "16 mph wind (dir 140\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -603,9 +597,9 @@
         "implied": 58.8
       },
       "weather": {
-        "temp_f": 76.8,
-        "wind_mph": 9.6,
-        "wind_dir_deg": 101
+        "temp_f": 75.9,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 81
       },
       "factors": [
         {
@@ -673,9 +667,9 @@
         "implied": 67.4
       },
       "weather": {
-        "temp_f": 78.6,
+        "temp_f": 78.0,
         "wind_mph": 9.6,
-        "wind_dir_deg": 126
+        "wind_dir_deg": 123
       },
       "factors": [
         {
@@ -742,11 +736,7 @@
         "ml": -131,
         "implied": 56.7
       },
-      "weather": {
-        "temp_f": 90.9,
-        "wind_mph": 5.8,
-        "wind_dir_deg": 193
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
