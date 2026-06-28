@@ -1,6 +1,6 @@
 {
   "date": "2026-06-28",
-  "generated": "2026-06-28T21:56:10",
+  "generated": "2026-06-28T22:43:48",
   "games": [
     {
       "game_pk": 824821,
@@ -553,7 +553,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 74.0,
+        "wind_mph": 13.0,
+        "wind_dir_deg": 149
+      },
       "factors": [
         {
           "m": "-",
@@ -623,7 +627,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 71.9,
+        "wind_mph": 7.5,
+        "wind_dir_deg": 63
+      },
       "factors": [
         {
           "m": "-",
@@ -693,7 +701,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 72.1,
+        "wind_mph": 5.5,
+        "wind_dir_deg": 111
+      },
       "factors": [
         {
           "m": "+",
@@ -884,7 +896,7 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "49-32",
+        "record": "49-33",
         "pitcher_id": 519242,
         "pitcher_name": "Chris Sale",
         "pitcher_hand": "L",
@@ -896,7 +908,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "34-48",
+        "record": "35-48",
         "pitcher_id": 592662,
         "pitcher_name": "Robbie Ray",
         "pitcher_hand": "L",
@@ -909,7 +921,7 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Chris Sale holds RHB to a 0.602 OPS; Giants project 67% R-handed today."
+          "text": "Chris Sale holds RHB to a 0.598 OPS; Giants project 67% R-handed today."
         }
       ],
       "lean": "away",
@@ -973,11 +985,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 70.4,
-        "wind_mph": 9.5,
-        "wind_dir_deg": 229
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1025,8 +1033,8 @@
         "pitcher_id": 607074,
         "pitcher_name": "Carlos Rod\u00f3n",
         "pitcher_hand": "L",
-        "ml": -103,
-        "implied": 50.7
+        "ml": -105,
+        "implied": 51.2
       },
       "home": {
         "team": "Red Sox",
@@ -1037,14 +1045,10 @@
         "pitcher_id": 543243,
         "pitcher_name": "Sonny Gray",
         "pitcher_hand": "R",
-        "ml": -117,
-        "implied": 53.9
+        "ml": -114,
+        "implied": 53.3
       },
-      "weather": {
-        "temp_f": 74.6,
-        "wind_mph": 6.1,
-        "wind_dir_deg": 94
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -1058,8 +1062,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -111,
-        "under": -108
+        "over": -108,
+        "under": -111
       },
       "total_read": {
         "side": null,
