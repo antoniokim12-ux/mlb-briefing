@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "generated": "2026-06-28T04:28:47",
+  "generated": "2026-06-28T04:42:59",
   "games": [
     {
       "game_pk": 824257,
@@ -888,7 +888,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 81.3,
+        "wind_mph": 3.1,
+        "wind_dir_deg": 150
+      },
       "factors": [
         {
           "m": "-",
@@ -958,7 +962,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 70.4,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 270
+      },
       "factors": [
         {
           "m": "+",
@@ -1034,7 +1042,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 64.6,
+        "wind_mph": 14.6,
+        "wind_dir_deg": 281
+      },
       "factors": [
         {
           "m": "+",
@@ -1110,7 +1122,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 73.2,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 228
+      },
       "factors": [
         {
           "m": "+",
