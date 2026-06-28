@@ -40,7 +40,9 @@ DEPENDENCIES
 import argparse
 import datetime as dt
 import json
+import math
 import os
+import re
 import sys
 
 import requests
@@ -63,6 +65,43 @@ OPS_AGAINST_GOOD = 0.700
 HAND_SKEW = 0.60
 # Wind at/above this (mph) is flagged as a weather note.
 WIND_NOTE_MPH = 15.0
+
+# Park profile: (name substring, run_factor, CF bearing°).
+#   run_factor > 1.0 = hitter-friendly (nudges OVER); < 1.0 = pitcher-friendly (UNDER).
+#   CF bearing = compass degrees from home plate toward center field; None = unknown,
+#   in which case the wind-direction read is skipped for that park.
+# These are APPROXIMATE and easy to edit. Matched by substring so sponsor renames
+# (e.g. "Daikin Park" ← Minute Maid) still hit. Bearings especially are rough — the
+# wind vote only fires on a strong, clear out/in component, to limit noise.
+PARK_PROFILE = [
+    ("coors",       1.18, 0),     ("fenway",      1.06, 45),
+    ("great american", 1.08, 40), ("yankee",      1.03, 30),
+    ("citizens bank",  1.04, 25), ("wrigley",     1.02, 31),
+    ("globe life",  1.01, 0),     ("chase",       1.02, 0),
+    ("truist",      1.01, 25),    ("camden",      1.03, 30),
+    ("oriole",      1.03, 30),    ("nationals",   1.00, 30),
+    ("kauffman",    1.00, 45),    ("rogers",      1.02, 0),
+    ("target",      1.00, 25),    ("comerica",    0.97, 30),
+    ("progressive", 0.98, 30),    ("angel",       0.97, 45),
+    ("dodger",      0.98, 25),    ("oracle",      0.92, 80),
+    ("petco",       0.95, 45),    ("t-mobile",    0.94, 45),
+    ("safeco",      0.94, 45),    ("loandepot",   0.97, 30),
+    ("marlins",     0.97, 30),    ("tropicana",   0.97, 45),
+    ("american family", 1.01, 0), ("miller",      1.01, 0),
+    ("busch",       0.98, 30),    ("pnc",         0.99, 110),
+    ("citi",        0.97, 25),    ("daikin",      1.01, 0),
+    ("minute maid", 1.01, 0),     ("rate field",  1.02, 35),
+    ("guaranteed rate", 1.02, 35),("sutter health", 1.00, None),
+    ("steinbrenner",1.00, None),  ("yankee stadium", 1.03, 30),
+]
+
+
+def _park_profile(venue):
+    v = (venue or "").lower()
+    for key, rf, bearing in PARK_PROFILE:
+        if key in v:
+            return rf, bearing
+    return 1.0, None  # unknown park: neutral run factor, no wind direction
 
 
 # ───────────────────────── MLB Stats API ─────────────────────────
@@ -435,12 +474,19 @@ def build_factors(game, splits_by_pid, hands):
 
 
 def assess_total(game, splits_by_pid, hands):
-    """Preliminary over/under lean. Honest first pass: based on how well the two
-    starters suppress the opposing lineups, plus a weather mention. A fuller read
-    wants park run-factors, both starters' ERA, and wind DIRECTION (not in yet)."""
+    """Over/under read from up to three signals that each vote a side:
+      1) how well both starters suppress the opposing lineups (OPS-against),
+      2) the park's run environment,
+      3) wind blowing out (over) or in (under), where park orientation is known.
+    Side = the majority vote; strength = how many signals agree (0-3). Bullpen still
+    to come. Stores total_read with side, strength, and a plain-English note."""
     t = game.get("total")
     if not t:
         return
+
+    signals = []  # (side, reason)
+
+    # 1) starters
     supps = []
     for pside, oside in (("away", "home"), ("home", "away")):
         sp = splits_by_pid.get(game[pside].get("pitcher_id"), {})
@@ -448,35 +494,59 @@ def assess_total(game, splits_by_pid, hands):
             continue
         dom = (hands.get(oside) or {}).get("dominant")
         ops = sp.get(dom) if dom else None
-        if ops is None:  # fall back to the pitcher's overall split average
+        if ops is None:
             vals = [v for v in sp.values() if v is not None]
             ops = sum(vals) / len(vals) if vals else None
         if ops is not None:
             supps.append(ops)
-
-    side = None
     if len(supps) == 2:
         avg = sum(supps) / 2
         if avg <= 0.690:
-            side, why = "under", f"both starters project to suppress these lineups (avg {avg:.3f} OPS-against)"
+            signals.append(("under", f"both starters suppress contact (avg {avg:.3f} OPS-against)"))
         elif avg >= 0.770:
-            side, why = "over", f"both starters look hittable (avg {avg:.3f} OPS-against)"
-        else:
-            why = f"starters roughly average (avg {avg:.3f} OPS-against)"
-    else:
-        why = "not enough split data yet"
+            signals.append(("over", f"both starters look hittable (avg {avg:.3f} OPS-against)"))
 
+    # 2) park run environment
+    rf, bearing = _park_profile(game.get("venue"))
+    if rf >= 1.04:
+        signals.append(("over", f"{game.get('venue')} plays hitter-friendly"))
+    elif rf <= 0.96:
+        signals.append(("under", f"{game.get('venue')} plays pitcher-friendly"))
+
+    # 3) wind direction (only where we know the park's orientation and it's strong)
     w = game.get("weather") or {}
-    wnote = ""
-    if w.get("wind_mph") is not None and w["wind_mph"] >= WIND_NOTE_MPH:
-        wnote = f" Strong wind ({w['wind_mph']:.0f} mph) could swing it (direction effect pending)."
+    wdir, wspd = w.get("wind_dir_deg"), w.get("wind_mph")
+    if bearing is not None and wdir is not None and wspd:
+        blowing_to = (wdir + 180) % 360          # met. dir is where wind comes FROM
+        out_comp = math.cos(math.radians(blowing_to - bearing)) * wspd
+        if out_comp >= 8:
+            signals.append(("over", f"wind blowing out to center (~{out_comp:.0f} mph)"))
+        elif out_comp <= -8:
+            signals.append(("under", f"wind blowing in (~{abs(out_comp):.0f} mph)"))
 
-    body = f"leans {side.upper()} — {why}." if side else f"no clear lean — {why}."
+    overs = [r for s, r in signals if s == "over"]
+    unders = [r for s, r in signals if s == "under"]
+    if len(overs) > len(unders):
+        side, agree = "over", overs
+    elif len(unders) > len(overs):
+        side, agree = "under", unders
+    else:
+        side, agree = None, []
+    strength = len(agree)
+
+    if side:
+        body = f"leans {side.upper()} — " + "; ".join(agree) + "."
+    elif signals:
+        body = "no clear lean — signals split (" + "; ".join(
+            f"{s}: {r}" for s, r in signals) + ")."
+    else:
+        body = "no clear lean — not enough data yet."
+
     game["total_read"] = {
         "side": side,
+        "strength": strength,
         "line": t.get("line"),
-        "note": f"Total {t.get('line')}: {body}{wnote} "
-                "(Preliminary — park, ERA, and wind direction still to come.)",
+        "note": f"Total {t.get('line')}: {body} (Bullpen still to come.)",
     }
 
 
