@@ -1,6 +1,6 @@
 {
   "date": "2026-06-28",
-  "generated": "2026-06-28T10:08:44",
+  "generated": "2026-06-28T10:18:27",
   "games": [
     {
       "game_pk": 824821,
@@ -161,8 +161,8 @@
         "pitcher_id": 677958,
         "pitcher_name": "Kumar Rocker",
         "pitcher_hand": "R",
-        "ml": 108,
-        "implied": 48.1
+        "ml": 109,
+        "implied": 47.8
       },
       "home": {
         "team": "Blue Jays",
@@ -173,8 +173,8 @@
         "pitcher_id": 669456,
         "pitcher_name": "Shane Bieber",
         "pitcher_hand": "R",
-        "ml": -131,
-        "implied": 56.7
+        "ml": -132,
+        "implied": 56.9
       },
       "weather": {
         "temp_f": 76.9,
@@ -200,8 +200,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -105,
-        "under": -114
+        "over": -108,
+        "under": -111
       },
       "total_read": {
         "side": "over",
@@ -812,11 +812,7 @@
         "ml": 100,
         "implied": 50.0
       },
-      "weather": {
-        "temp_f": 72.5,
-        "wind_mph": 8.6,
-        "wind_dir_deg": 208
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -841,9 +837,9 @@
       },
       "total_read": {
         "side": "over",
-        "strength": 2,
+        "strength": 1,
         "line": 9.5,
-        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.879 OPS-against); wind blowing out to center (~8 mph). (Bullpen still to come.)"
+        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.879 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -882,11 +878,7 @@
         "ml": 134,
         "implied": 42.7
       },
-      "weather": {
-        "temp_f": 74.5,
-        "wind_mph": 12.2,
-        "wind_dir_deg": 279
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -952,11 +944,7 @@
         "ml": 118,
         "implied": 45.9
       },
-      "weather": {
-        "temp_f": 68.1,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 235
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -1022,11 +1010,7 @@
         "ml": -120,
         "implied": 54.5
       },
-      "weather": {
-        "temp_f": 75.0,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 105
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
