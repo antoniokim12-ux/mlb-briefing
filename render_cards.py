@@ -21,7 +21,7 @@ import json
 import os
 import sys
 
-BUILD = "lean-ou-only"  # bump when shipping; shows in the page footer to verify deploys
+BUILD = "top5-reads"  # bump when shipping; shows in the page footer to verify deploys
 
 # Design tokens — shared with the on-screen card concept.
 CSS = """
@@ -99,6 +99,18 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
 .chip .gm{color:var(--muted);font-weight:500;font-size:11px;}
 .todays .none{color:var(--muted);font-size:12px;}
 .todays .dis{color:var(--muted);font-size:11.5px;margin-top:10px;line-height:1.5;}
+.trow{display:flex;align-items:center;gap:9px;padding:8px 4px;border-bottom:1px solid var(--line);}
+.trow:last-of-type{border-bottom:none;}
+.trow.locked{opacity:.55;}
+.trow .rk{font-family:'JetBrains Mono',monospace;color:var(--muted);font-size:12px;width:14px;flex:none;}
+.trow .ty{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;padding:2px 6px;border-radius:5px;border:1px solid var(--line);flex:none;}
+.trow .ty.lean{color:var(--turf);border-color:rgba(70,180,122,.45);}
+.trow .ty.ou{color:var(--steel);border-color:rgba(111,168,199,.45);}
+.trow .tpick{font-weight:700;font-size:14px;}
+.trow .tpx{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--muted);font-size:12px;}
+.trow .dots{color:var(--turf);font-size:11px;letter-spacing:1px;margin-left:auto;}
+.trow .dots .off{color:var(--line);}
+.trow .tgm{font-family:'JetBrains Mono',monospace;color:var(--muted);font-size:11px;flex:none;}
 .chip.locked{opacity:.6;border-style:dashed;}
 .chip .lk,.lockbadge{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.12em;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:1px 4px;}
 .lockbadge{color:var(--clay);}
@@ -332,59 +344,74 @@ def _lock_for(g, locked):
     return merged or None
 
 
-def render_picks_today(games, date):
-    """Every pick given today, frozen at the price it was logged at, grouped by type.
-    Picks whose games have started are marked LOCKED but stay on the board all day, so
-    the full day's list is always there to track."""
+def _dots(n, total=4):
+    n = max(0, min(total, int(n or 0)))
+    return '<span class="dots">' + '●' * n + '<span class="off">' + '○' * (total - n) + '</span></span>'
+
+
+def top_picks(games, date, n=5):
+    """The day's strongest reads, ranked by how many factors agree. Reads the locked
+    log so prices/strengths are frozen. Returns a list (possibly empty), or None if
+    nothing is logged yet (caller falls back to the live slate)."""
     try:
         with open("picks_log.json") as f:
-            today = [e for e in json.load(f) if e.get("date") == date]
+            rows = [e for e in json.load(f)
+                    if e.get("date") == date and e.get("kind") in ("lean", "total")]
     except (FileNotFoundError, ValueError):
-        today = []
-
-    if not today:
-        return _render_picks_from_slate(games)  # before anything's logged
+        return None
+    if not rows:
+        return None
 
     started = _started_lookup(games)
-    leans_, totals = [], []
-    for e in today:
+    by_pk = {g.get("game_pk"): g for g in games}
+    by_pair = {frozenset((_norm(g["away"].get("team")), _norm(g["home"].get("team")))): g
+               for g in games}
+
+    picks = []
+    for e in rows:
         kind = e.get("kind")
-        price = fmt_ml(e.get("log_ml"))
         if kind == "lean":
             pair = frozenset((_norm(e.get("pick_team")), _norm(e.get("opp_team"))))
-            leans_.append((esc(e.get("pick_team")), price, started.get(pair, False)))
-        elif kind == "total":
-            opp = e.get("opp_team") or ""
-            parts = [p.strip() for p in opp.split("@")]
+        else:
+            parts = [p.strip() for p in (e.get("opp_team") or "").split("@")]
             pair = frozenset(_norm(p) for p in parts) if len(parts) == 2 else frozenset()
-            totals.append((esc(e.get("pick_team")), price, opp.replace(" @ ", "@"),
-                           started.get(pair, False)))
+        g = by_pk.get(e.get("game_pk")) or by_pair.get(pair)
+        gm = (f'{g["away"].get("abbr","")}@{g["home"].get("abbr","")}' if g
+              else (e.get("opp_team") or "").replace(" @ ", "@"))
+        picks.append({
+            "kind": kind, "label": esc(e.get("pick_team")), "price": fmt_ml(e.get("log_ml")),
+            "score": int(e.get("weight") or 0), "pair": pair,
+            "pk": (g.get("game_pk") if g else e.get("game_pk")), "gm": gm,
+            "started": started.get(pair, False),
+        })
+    picks.sort(key=lambda p: (-p["score"], 0 if p["kind"] == "lean" else 1, p["label"]))
+    return picks[:n]
 
-    if not (leans_ or totals):
+
+def render_picks_today(top, games):
+    """Render the ranked top-5 reads. `top` is from top_picks(); None -> slate fallback."""
+    if top is None:
         return _render_picks_from_slate(games)
-
-    badge = '<span class="lk">LOCKED</span>'
-
-    def ml_chips(items, cls):
-        if not items:
-            return '<span class="none">none</span>'
-        return "".join(f'<span class="chip {cls}{" locked" if lk else ""}">{t}'
-                       f'<span class="px">{p}</span>{badge if lk else ""}</span>'
-                       for t, p, lk in items)
-
-    def ou_chips(items):
-        if not items:
-            return '<span class="none">none</span>'
-        return "".join(f'<span class="chip ou{" locked" if lk else ""}">{lbl}'
-                       f'<span class="px">{p}</span><span class="gm">{gm}</span>'
-                       f'{badge if lk else ""}</span>' for lbl, p, gm, lk in items)
-
-    return ('<div class="todays"><div class="lab">Today\'s Picks</div>'
-            f'<div class="grp"><span class="gl">Lean</span>{ml_chips(leans_, "lean")}</div>'
-            f'<div class="grp"><span class="gl">O/U</span>{ou_chips(totals)}</div>'
-            '<div class="dis">Each pick is frozen at the price it was given. '
-            '<b>LOCKED</b> means the game has started. Candidates to check against your '
-            'price — not locks; the market prices the same factors in.</div></div>')
+    if not top:
+        return ('<div class="todays"><div class="lab">Today\'s Top Reads</div>'
+                '<div class="none">No reads against the prices yet — common before '
+                'lineups post. Check back a couple hours before first pitch.</div></div>')
+    rows = ""
+    for i, p in enumerate(top, 1):
+        lock = '<span class="lk">LOCKED</span>' if p["started"] else ""
+        ty = "ou" if p["kind"] == "total" else "lean"
+        label = "O/U" if p["kind"] == "total" else "Lean"
+        rows += (f'<div class="trow{" locked" if p["started"] else ""}">'
+                 f'<span class="rk">{i}</span>'
+                 f'<span class="ty {ty}">{label}</span>'
+                 f'<span class="tpick">{p["label"]}</span>'
+                 f'<span class="tpx">{p["price"]}</span>'
+                 f'{_dots(p["score"])}'
+                 f'<span class="tgm">{p["gm"]}</span>{lock}</div>')
+    return (f'<div class="todays"><div class="lab">Today\'s Top {len(top)} Reads</div>{rows}'
+            '<div class="dis">The strongest reads of the day, ranked by how many factors '
+            'agree (the dots). Frozen at the price each was given; <b>LOCKED</b> = game '
+            'started. Strong reads, still candidates — not locks.</div></div>')
 
 
 def _render_picks_from_slate(games):
@@ -566,18 +593,27 @@ def render(slate):
     games = slate.get("games", [])
     started = _started_lookup(games)
     locked = _locked_today(date)
+    top = top_picks(games, date, 5)
 
     def _pair(g):
         return frozenset((_norm(g["away"].get("team")), _norm(g["home"].get("team"))))
 
+    if top:  # show only the games behind the top reads
+        allow_pk = {p["pk"] for p in top}
+        allow_pair = {p["pair"] for p in top}
+        shown = [g for g in games
+                 if g.get("game_pk") in allow_pk or _pair(g) in allow_pair]
+    else:    # before anything's logged, show the full slate
+        shown = games
+
     cards = "".join(render_card(g, started.get(_pair(g), False), _lock_for(g, locked))
-                    for g in games)
+                    for g in shown)
     return f"""{head}
-<p class="sub">The day's slate with the context that moves games — pitchers, platoon splits, park, weather — so you can read each matchup at a glance.</p>
-<div class="note"><b>How to read this.</b> <b style="color:var(--amber)">VALUE LOOK</b> flags games where today's factors lean toward the side the market rates <i>lower</i> — the classic place to hunt value. But it's a <i>candidate, not a verdict</i>: the market already prices these same factors into the line, so a VALUE LOOK means "worth checking against your price," not "the market is wrong." The strength dots show how many factors agree. Log your results over time to learn whether the flags actually hold up.</div>
+<p class="sub">The day's strongest reads — the games where the most factors line up — with the context behind each: pitchers, platoon splits, park, weather, bullpens.</p>
+<div class="note"><b>How to read this.</b> Each day the bot surfaces only its <b style="color:var(--amber)">top {len(top) if top else 5} reads</b> — the leans and O/U calls where the most factors agree (the dots). These are <i>candidates, not locks</i>: the market already prices these same factors into the line, so a read means "worth checking against your price," not "the market is wrong." Prices are frozen at the moment each read was given. Every read is logged behind the scenes so you can learn, over time, whether the strongest ones actually hold up.</div>
 {render_scoreboard()}
-{render_picks_today(games, date)}
-{cards if cards else '<p class="sub">No games in this slate.</p>'}
+{render_picks_today(top, games)}
+{cards if cards else '<p class="sub">No reads on the board yet.</p>'}
 {foot}"""
 
 

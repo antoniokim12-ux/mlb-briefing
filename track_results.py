@@ -191,7 +191,7 @@ def mode_log(slate_path):
             "log_ml": price,
             "log_implied": round(side_imp, 1) if side_imp else None,
             "log_fair": round(lf, 1) if lf else None,
-            "weight": 0, "is_top": False,
+            "weight": tr.get("strength", 0), "is_top": False,
             "close_ml": None, "close_line": None, "close_fair": None, "clv_pp": None,
             "result": None, "total_runs": None, "pick_score": None, "opp_score": None,
             "profit": None,
