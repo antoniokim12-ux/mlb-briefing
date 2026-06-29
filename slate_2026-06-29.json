@@ -1,6 +1,6 @@
 {
   "date": "2026-06-29",
-  "generated": "2026-06-29T14:38:43",
+  "generated": "2026-06-29T14:54:44",
   "games": [
     {
       "game_pk": 824822,
@@ -38,8 +38,8 @@
       },
       "weather": {
         "temp_f": 89.8,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 117
+        "wind_mph": 5.5,
+        "wind_dir_deg": 122
       },
       "factors": [
         {
@@ -107,9 +107,9 @@
         "implied": 52.8
       },
       "weather": {
-        "temp_f": 90.0,
-        "wind_mph": 0.5,
-        "wind_dir_deg": 153
+        "temp_f": 90.3,
+        "wind_mph": 4.6,
+        "wind_dir_deg": 169
       },
       "factors": [
         {
@@ -130,8 +130,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -116,
-        "under": -104
+        "over": -119,
+        "under": -102
       },
       "total_read": {
         "side": "over",
@@ -177,9 +177,9 @@
         "implied": 58.0
       },
       "weather": {
-        "temp_f": 83.1,
-        "wind_mph": 8.7,
-        "wind_dir_deg": 151
+        "temp_f": 83.2,
+        "wind_mph": 8.4,
+        "wind_dir_deg": 160
       },
       "factors": [
         {
@@ -247,9 +247,9 @@
         "implied": 55.8
       },
       "weather": {
-        "temp_f": 74.3,
-        "wind_mph": 9.5,
-        "wind_dir_deg": 75
+        "temp_f": 75.2,
+        "wind_mph": 9.3,
+        "wind_dir_deg": 80
       },
       "factors": [
         {
@@ -317,9 +317,9 @@
         "implied": 63.6
       },
       "weather": {
-        "temp_f": 72.0,
+        "temp_f": 70.9,
         "wind_mph": 6.5,
-        "wind_dir_deg": 82
+        "wind_dir_deg": 86
       },
       "factors": [
         {
@@ -387,9 +387,9 @@
         "implied": 59.8
       },
       "weather": {
-        "temp_f": 85.7,
-        "wind_mph": 6.7,
-        "wind_dir_deg": 26
+        "temp_f": 84.8,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 21
       },
       "factors": [
         {
@@ -441,8 +441,8 @@
         "pitcher_id": 666157,
         "pitcher_name": "Nick Lodolo",
         "pitcher_hand": "L",
-        "ml": 129,
-        "implied": 43.7
+        "ml": 124,
+        "implied": 44.6
       },
       "home": {
         "team": "Brewers",
@@ -453,13 +453,13 @@
         "pitcher_id": 688107,
         "pitcher_name": "Robert Gasser",
         "pitcher_hand": "L",
-        "ml": -156,
-        "implied": 60.9
+        "ml": -150,
+        "implied": 60.0
       },
       "weather": {
-        "temp_f": 92.9,
-        "wind_mph": 14.5,
-        "wind_dir_deg": 203
+        "temp_f": 92.5,
+        "wind_mph": 14.1,
+        "wind_dir_deg": 200
       },
       "factors": [
         {
@@ -526,7 +526,11 @@
         "ml": -157,
         "implied": 61.1
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 89.8,
+        "wind_mph": 13.0,
+        "wind_dir_deg": 199
+      },
       "factors": [
         {
           "m": "~",
@@ -550,10 +554,10 @@
         "under": -109
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "over",
+        "strength": 1,
         "line": 11.0,
-        "note": "Total 11.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "note": "Total 11.0: leans OVER \u2014 wind blowing out to center (~13 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -592,7 +596,11 @@
         "ml": -142,
         "implied": 58.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 87.4,
+        "wind_mph": 11.2,
+        "wind_dir_deg": 151
+      },
       "factors": [
         {
           "m": "~",
@@ -616,10 +624,10 @@
         "under": -113
       },
       "total_read": {
-        "side": "under",
-        "strength": 1,
+        "side": null,
+        "strength": 0,
         "line": 9.0,
-        "note": "Total 9.0: leans UNDER \u2014 both starters suppress contact (avg 0.689 OPS-against). (Bullpen still to come.)"
+        "note": "Total 9.0: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.689 OPS-against); over: wind blowing out to center (~10 mph)). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -658,7 +666,11 @@
         "ml": 119,
         "implied": 45.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 87.1,
+        "wind_mph": 11.2,
+        "wind_dir_deg": 264
+      },
       "factors": [
         {
           "m": "~",
