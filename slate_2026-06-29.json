@@ -1,6 +1,6 @@
 {
   "date": "2026-06-29",
-  "generated": "2026-06-29T12:51:37",
+  "generated": "2026-06-29T14:38:43",
   "games": [
     {
       "game_pk": 824822,
@@ -21,8 +21,8 @@
         "pitcher_id": 680732,
         "pitcher_name": "Sean Burke",
         "pitcher_hand": "R",
-        "ml": 113,
-        "implied": 46.9
+        "ml": 114,
+        "implied": 46.7
       },
       "home": {
         "team": "Orioles",
@@ -33,13 +33,13 @@
         "pitcher_id": 669358,
         "pitcher_name": "Shane Baz",
         "pitcher_hand": "R",
-        "ml": -136,
-        "implied": 57.6
+        "ml": -137,
+        "implied": 57.8
       },
       "weather": {
-        "temp_f": 89.2,
-        "wind_mph": 5.5,
-        "wind_dir_deg": 111
+        "temp_f": 89.8,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 117
       },
       "factors": [
         {
@@ -59,15 +59,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 9.0,
-        "over": -112,
-        "under": -107
+        "line": 9.5,
+        "over": -102,
+        "under": -118
       },
       "total_read": {
         "side": null,
         "strength": 0,
-        "line": 9.0,
-        "note": "Total 9.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "line": 9.5,
+        "note": "Total 9.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -91,8 +91,8 @@
         "pitcher_id": 677952,
         "pitcher_name": "Braxton Ashcraft",
         "pitcher_hand": "R",
-        "ml": -110,
-        "implied": 52.4
+        "ml": -108,
+        "implied": 51.9
       },
       "home": {
         "team": "Phillies",
@@ -103,13 +103,13 @@
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": "R",
-        "ml": -109,
-        "implied": 52.2
+        "ml": -112,
+        "implied": 52.8
       },
       "weather": {
-        "temp_f": 89.8,
-        "wind_mph": 1.4,
-        "wind_dir_deg": 81
+        "temp_f": 90.0,
+        "wind_mph": 0.5,
+        "wind_dir_deg": 153
       },
       "factors": [
         {
@@ -130,8 +130,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -110,
-        "under": -110
+        "over": -116,
+        "under": -104
       },
       "total_read": {
         "side": "over",
@@ -161,8 +161,8 @@
         "pitcher_id": 663554,
         "pitcher_name": "Casey Mize",
         "pitcher_hand": "R",
-        "ml": 123,
-        "implied": 44.8
+        "ml": 114,
+        "implied": 46.7
       },
       "home": {
         "team": "Yankees",
@@ -173,13 +173,13 @@
         "pitcher_id": 677960,
         "pitcher_name": "Ryan Weathers",
         "pitcher_hand": "L",
-        "ml": -149,
-        "implied": 59.8
+        "ml": -138,
+        "implied": 58.0
       },
       "weather": {
-        "temp_f": 83.4,
+        "temp_f": 83.1,
         "wind_mph": 8.7,
-        "wind_dir_deg": 154
+        "wind_dir_deg": 151
       },
       "factors": [
         {
@@ -199,15 +199,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 7.5,
-        "over": -117,
-        "under": -103
+        "line": 8.0,
+        "over": -105,
+        "under": -114
       },
       "total_read": {
         "side": "under",
         "strength": 1,
-        "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters suppress contact (avg 0.685 OPS-against). (Bullpen still to come.)"
+        "line": 8.0,
+        "note": "Total 8.0: leans UNDER \u2014 both starters suppress contact (avg 0.685 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -247,9 +247,9 @@
         "implied": 55.8
       },
       "weather": {
-        "temp_f": 75.3,
-        "wind_mph": 9.1,
-        "wind_dir_deg": 74
+        "temp_f": 74.3,
+        "wind_mph": 9.5,
+        "wind_dir_deg": 75
       },
       "factors": [
         {
@@ -269,15 +269,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.5,
-        "over": -119,
-        "under": -102
+        "line": 9.0,
+        "over": -102,
+        "under": -118
       },
       "total_read": {
         "side": "under",
         "strength": 1,
-        "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters suppress contact (avg 0.688 OPS-against). (Bullpen still to come.)"
+        "line": 9.0,
+        "note": "Total 9.0: leans UNDER \u2014 both starters suppress contact (avg 0.688 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -317,9 +317,9 @@
         "implied": 63.6
       },
       "weather": {
-        "temp_f": 66.6,
-        "wind_mph": 7.2,
-        "wind_dir_deg": 86
+        "temp_f": 72.0,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 82
       },
       "factors": [
         {
@@ -387,9 +387,9 @@
         "implied": 59.8
       },
       "weather": {
-        "temp_f": 85.4,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 23
+        "temp_f": 85.7,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 26
       },
       "factors": [
         {
@@ -456,7 +456,11 @@
         "ml": -156,
         "implied": 60.9
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 92.9,
+        "wind_mph": 14.5,
+        "wind_dir_deg": 203
+      },
       "factors": [
         {
           "m": "~",
@@ -476,14 +480,14 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": -103,
-        "under": -117
+        "over": -105,
+        "under": -114
       },
       "total_read": {
         "side": "over",
-        "strength": 1,
+        "strength": 2,
         "line": 9.0,
-        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.855 OPS-against). (Bullpen still to come.)"
+        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.855 OPS-against); wind blowing out to center (~13 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -507,8 +511,8 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": 123,
-        "implied": 44.8
+        "ml": 130,
+        "implied": 43.5
       },
       "home": {
         "team": "Cubs",
@@ -519,8 +523,8 @@
         "pitcher_id": 684007,
         "pitcher_name": "Shota Imanaga",
         "pitcher_hand": "L",
-        "ml": -149,
-        "implied": 59.8
+        "ml": -157,
+        "implied": 61.1
       },
       "weather": null,
       "factors": [
@@ -541,15 +545,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 11.5,
-        "over": -108,
-        "under": -112
+        "line": 11.0,
+        "over": -110,
+        "under": -109
       },
       "total_read": {
         "side": null,
         "strength": 0,
-        "line": 11.5,
-        "note": "Total 11.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "line": 11.0,
+        "note": "Total 11.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -573,8 +577,8 @@
         "pitcher_id": 805673,
         "pitcher_name": "Zebby Matthews",
         "pitcher_hand": "R",
-        "ml": 113,
-        "implied": 46.9
+        "ml": 118,
+        "implied": 45.9
       },
       "home": {
         "team": "Astros",
@@ -585,8 +589,8 @@
         "pitcher_id": 663567,
         "pitcher_name": "Peter Lambert",
         "pitcher_hand": "R",
-        "ml": -136,
-        "implied": 57.6
+        "ml": -142,
+        "implied": 58.7
       },
       "weather": null,
       "factors": [
@@ -608,8 +612,8 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": -103,
-        "under": -117
+        "over": -106,
+        "under": -113
       },
       "total_read": {
         "side": "under",
@@ -673,15 +677,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 11.0,
-        "over": -120,
-        "under": -101
+        "line": 11.5,
+        "over": -113,
+        "under": -107
       },
       "total_read": {
         "side": "over",
         "strength": 1,
-        "line": 11.0,
-        "note": "Total 11.0: leans OVER \u2014 Coors Field plays hitter-friendly. (Bullpen still to come.)"
+        "line": 11.5,
+        "note": "Total 11.5: leans OVER \u2014 Coors Field plays hitter-friendly. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -771,8 +775,8 @@
         "pitcher_id": 696270,
         "pitcher_name": "Ryan Johnson",
         "pitcher_hand": "R",
-        "ml": 182,
-        "implied": 35.5
+        "ml": 170,
+        "implied": 37.0
       },
       "home": {
         "team": "Mariners",
@@ -783,8 +787,8 @@
         "pitcher_id": 669923,
         "pitcher_name": "George Kirby",
         "pitcher_hand": "R",
-        "ml": -224,
-        "implied": 69.1
+        "ml": -208,
+        "implied": 67.5
       },
       "weather": null,
       "factors": [
@@ -805,15 +809,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.0,
-        "over": -101,
-        "under": -119
+        "line": 7.5,
+        "over": -119,
+        "under": -102
       },
       "total_read": {
         "side": null,
         "strength": 0,
-        "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 signals split (over: both starters look hittable (avg 0.819 OPS-against); under: T-Mobile Park plays pitcher-friendly). (Bullpen still to come.)"
+        "line": 7.5,
+        "note": "Total 7.5: no clear lean \u2014 signals split (over: both starters look hittable (avg 0.819 OPS-against); under: T-Mobile Park plays pitcher-friendly). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -837,8 +841,8 @@
         "pitcher_id": 641816,
         "pitcher_name": "Tyler Mahle",
         "pitcher_hand": "R",
-        "ml": 113,
-        "implied": 46.9
+        "ml": 119,
+        "implied": 45.7
       },
       "home": {
         "team": "D-backs",
@@ -849,14 +853,10 @@
         "pitcher_id": 593958,
         "pitcher_name": "Eduardo Rodriguez",
         "pitcher_hand": "L",
-        "ml": -136,
-        "implied": 57.6
+        "ml": -144,
+        "implied": 59.0
       },
-      "weather": {
-        "temp_f": 99.5,
-        "wind_mph": 12.1,
-        "wind_dir_deg": 254
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -876,8 +876,8 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": -105,
-        "under": -114
+        "over": -108,
+        "under": -111
       },
       "total_read": {
         "side": null,
