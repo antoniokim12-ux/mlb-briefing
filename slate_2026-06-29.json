@@ -1,6 +1,6 @@
 {
   "date": "2026-06-29",
-  "generated": "2026-06-29T08:24:11",
+  "generated": "2026-06-29T12:51:37",
   "games": [
     {
       "game_pk": 824822,
@@ -37,9 +37,9 @@
         "implied": 57.6
       },
       "weather": {
-        "temp_f": 89.6,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 121
+        "temp_f": 89.2,
+        "wind_mph": 5.5,
+        "wind_dir_deg": 111
       },
       "factors": [
         {
@@ -107,9 +107,9 @@
         "implied": 52.2
       },
       "weather": {
-        "temp_f": 89.7,
-        "wind_mph": 0.3,
-        "wind_dir_deg": 315
+        "temp_f": 89.8,
+        "wind_mph": 1.4,
+        "wind_dir_deg": 81
       },
       "factors": [
         {
@@ -173,13 +173,13 @@
         "pitcher_id": 677960,
         "pitcher_name": "Ryan Weathers",
         "pitcher_hand": "L",
-        "ml": -148,
-        "implied": 59.7
+        "ml": -149,
+        "implied": 59.8
       },
       "weather": {
-        "temp_f": 82.3,
-        "wind_mph": 8.5,
-        "wind_dir_deg": 157
+        "temp_f": 83.4,
+        "wind_mph": 8.7,
+        "wind_dir_deg": 154
       },
       "factors": [
         {
@@ -200,8 +200,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -120,
-        "under": -101
+        "over": -117,
+        "under": -103
       },
       "total_read": {
         "side": "under",
@@ -231,8 +231,8 @@
         "pitcher_id": 640455,
         "pitcher_name": "Sean Manaea",
         "pitcher_hand": "L",
-        "ml": 108,
-        "implied": 48.1
+        "ml": 105,
+        "implied": 48.8
       },
       "home": {
         "team": "Blue Jays",
@@ -243,13 +243,13 @@
         "pitcher_id": 702056,
         "pitcher_name": "Trey Yesavage",
         "pitcher_hand": "R",
-        "ml": -131,
-        "implied": 56.7
+        "ml": -126,
+        "implied": 55.8
       },
       "weather": {
-        "temp_f": 74.9,
-        "wind_mph": 7.5,
-        "wind_dir_deg": 78
+        "temp_f": 75.3,
+        "wind_mph": 9.1,
+        "wind_dir_deg": 74
       },
       "factors": [
         {
@@ -270,8 +270,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -105,
-        "under": -114
+        "over": -119,
+        "under": -102
       },
       "total_read": {
         "side": "under",
@@ -301,8 +301,8 @@
         "pitcher_id": 571945,
         "pitcher_name": "Miles Mikolas",
         "pitcher_hand": "R",
-        "ml": 152,
-        "implied": 39.7
+        "ml": 144,
+        "implied": 41.0
       },
       "home": {
         "team": "Red Sox",
@@ -313,13 +313,13 @@
         "pitcher_id": 624133,
         "pitcher_name": "Ranger Suarez",
         "pitcher_hand": "L",
-        "ml": -185,
-        "implied": 64.9
+        "ml": -175,
+        "implied": 63.6
       },
       "weather": {
-        "temp_f": 67.8,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 83
+        "temp_f": 66.6,
+        "wind_mph": 7.2,
+        "wind_dir_deg": 86
       },
       "factors": [
         {
@@ -340,8 +340,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -108,
-        "under": -111
+        "over": -110,
+        "under": -109
       },
       "total_read": {
         "side": "over",
@@ -387,9 +387,9 @@
         "implied": 59.8
       },
       "weather": {
-        "temp_f": 84.1,
-        "wind_mph": 8.8,
-        "wind_dir_deg": 9
+        "temp_f": 85.4,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 23
       },
       "factors": [
         {
@@ -415,9 +415,9 @@
       },
       "total_read": {
         "side": "under",
-        "strength": 2,
+        "strength": 1,
         "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters suppress contact (avg 0.660 OPS-against); wind blowing in (~8 mph). (Bullpen still to come.)"
+        "note": "Total 7.5: leans UNDER \u2014 both starters suppress contact (avg 0.660 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -441,8 +441,8 @@
         "pitcher_id": 666157,
         "pitcher_name": "Nick Lodolo",
         "pitcher_hand": "L",
-        "ml": 130,
-        "implied": 43.5
+        "ml": 129,
+        "implied": 43.7
       },
       "home": {
         "team": "Brewers",
@@ -453,14 +453,10 @@
         "pitcher_id": 688107,
         "pitcher_name": "Robert Gasser",
         "pitcher_hand": "L",
-        "ml": -157,
-        "implied": 61.1
+        "ml": -156,
+        "implied": 60.9
       },
-      "weather": {
-        "temp_f": 93.7,
-        "wind_mph": 14.6,
-        "wind_dir_deg": 198
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -479,15 +475,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.5,
-        "over": -121,
-        "under": 101
+        "line": 9.0,
+        "over": -103,
+        "under": -117
       },
       "total_read": {
         "side": "over",
-        "strength": 2,
-        "line": 8.5,
-        "note": "Total 8.5: leans OVER \u2014 both starters look hittable (avg 0.855 OPS-against); wind blowing out to center (~14 mph). (Bullpen still to come.)"
+        "strength": 1,
+        "line": 9.0,
+        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.855 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -511,8 +507,8 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": 129,
-        "implied": 43.7
+        "ml": 123,
+        "implied": 44.8
       },
       "home": {
         "team": "Cubs",
@@ -523,8 +519,8 @@
         "pitcher_id": 684007,
         "pitcher_name": "Shota Imanaga",
         "pitcher_hand": "L",
-        "ml": -156,
-        "implied": 60.9
+        "ml": -149,
+        "implied": 59.8
       },
       "weather": null,
       "factors": [
@@ -546,8 +542,8 @@
       "read": null,
       "total": {
         "line": 11.5,
-        "over": -116,
-        "under": -104
+        "over": -108,
+        "under": -112
       },
       "total_read": {
         "side": null,
@@ -643,8 +639,8 @@
         "pitcher_id": 645261,
         "pitcher_name": "Sandy Alcantara",
         "pitcher_hand": "R",
-        "ml": -137,
-        "implied": 57.8
+        "ml": -144,
+        "implied": 59.0
       },
       "home": {
         "team": "Rockies",
@@ -655,8 +651,8 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": 114,
-        "implied": 46.7
+        "ml": 119,
+        "implied": 45.7
       },
       "weather": null,
       "factors": [
@@ -679,7 +675,7 @@
       "total": {
         "line": 11.0,
         "over": -120,
-        "under": 100
+        "under": -101
       },
       "total_read": {
         "side": "over",
@@ -709,8 +705,8 @@
         "pitcher_id": 641778,
         "pitcher_name": "Eric Lauer",
         "pitcher_hand": "L",
-        "ml": -115,
-        "implied": 53.5
+        "ml": -114,
+        "implied": 53.3
       },
       "home": {
         "team": "Athletics",
@@ -744,8 +740,8 @@
       "read": null,
       "total": {
         "line": 10.5,
-        "over": -110,
-        "under": -109
+        "over": -112,
+        "under": -107
       },
       "total_read": {
         "side": null,
@@ -811,7 +807,7 @@
       "total": {
         "line": 8.0,
         "over": -101,
-        "under": -120
+        "under": -119
       },
       "total_read": {
         "side": null,
@@ -856,7 +852,11 @@
         "ml": -136,
         "implied": 57.6
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 99.5,
+        "wind_mph": 12.1,
+        "wind_dir_deg": 254
+      },
       "factors": [
         {
           "m": "~",
@@ -875,15 +875,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.5,
-        "over": -122,
-        "under": 102
+        "line": 9.0,
+        "over": -105,
+        "under": -114
       },
       "total_read": {
         "side": null,
         "strength": 0,
-        "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "line": 9.0,
+        "note": "Total 9.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
