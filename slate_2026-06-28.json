@@ -1,6 +1,6 @@
 {
   "date": "2026-06-28",
-  "generated": "2026-06-28T22:43:48",
+  "generated": "2026-06-29T02:47:01",
   "games": [
     {
       "game_pk": 824821,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 73.7,
-        "wind_mph": 2.7,
-        "wind_dir_deg": 114
+        "temp_f": 77.8,
+        "wind_mph": 3.0,
+        "wind_dir_deg": 163
       },
       "factors": [
         {
@@ -131,9 +131,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 77.0,
-        "wind_mph": 2.0,
-        "wind_dir_deg": 63
+        "temp_f": 76.5,
+        "wind_mph": 3.2,
+        "wind_dir_deg": 82
       },
       "factors": [
         {
@@ -205,9 +205,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 75.9,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 87
+        "temp_f": 75.2,
+        "wind_mph": 6.3,
+        "wind_dir_deg": 58
       },
       "factors": [],
       "lean": "even",
@@ -271,11 +271,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 78.2,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 66
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -345,11 +341,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 80.7,
-        "wind_mph": 2.5,
-        "wind_dir_deg": 100
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -419,11 +411,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 92.5,
-        "wind_mph": 6.1,
-        "wind_dir_deg": 100
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -487,9 +475,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 79.9,
-        "wind_mph": 6.3,
-        "wind_dir_deg": 4
+        "temp_f": 75.7,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 164
       },
       "factors": [],
       "lean": "even",
@@ -554,9 +542,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 74.0,
-        "wind_mph": 13.0,
-        "wind_dir_deg": 149
+        "temp_f": 74.3,
+        "wind_mph": 7.2,
+        "wind_dir_deg": 120
       },
       "factors": [
         {
@@ -628,9 +616,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 71.9,
-        "wind_mph": 7.5,
-        "wind_dir_deg": 63
+        "temp_f": 77.2,
+        "wind_mph": 4.6,
+        "wind_dir_deg": 227
       },
       "factors": [
         {
@@ -702,9 +690,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 72.1,
-        "wind_mph": 5.5,
-        "wind_dir_deg": 111
+        "temp_f": 69.0,
+        "wind_mph": 2.4,
+        "wind_dir_deg": 131
       },
       "factors": [
         {
@@ -775,7 +763,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 91.2,
+        "wind_mph": 11.3,
+        "wind_dir_deg": 165
+      },
       "factors": [
         {
           "m": "-",
@@ -845,7 +837,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 75.1,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 222
+      },
       "factors": [
         {
           "m": "+",
@@ -915,13 +911,23 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 71.7,
+        "wind_mph": 15.4,
+        "wind_dir_deg": 287
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
           "text": "Chris Sale holds RHB to a 0.598 OPS; Giants project 67% R-handed today."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "15 mph wind (dir 287\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "away",
@@ -966,7 +972,7 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "53-30",
+        "record": "54-30",
         "pitcher_id": 686218,
         "pitcher_name": "Emmet Sheehan",
         "pitcher_hand": "R",
@@ -978,7 +984,7 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "43-38",
+        "record": "43-39",
         "pitcher_id": 650633,
         "pitcher_name": "Michael King",
         "pitcher_hand": "R",
@@ -1029,24 +1035,24 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "48-34",
+        "record": "48-35",
         "pitcher_id": 607074,
         "pitcher_name": "Carlos Rod\u00f3n",
         "pitcher_hand": "L",
-        "ml": -105,
-        "implied": 51.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Red Sox",
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "35-46",
+        "record": "36-46",
         "pitcher_id": 543243,
         "pitcher_name": "Sonny Gray",
         "pitcher_hand": "R",
-        "ml": -114,
-        "implied": 53.3
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -1054,25 +1060,21 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Carlos Rod\u00f3n holds RHB to a 0.590 OPS; Red Sox project 75% R-handed today."
+          "text": "Carlos Rod\u00f3n holds RHB to a 0.552 OPS; Red Sox project 75% R-handed today."
+        },
+        {
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Sonny Gray holds LHB to a 0.670 OPS; Yankees project 71% L-handed today."
         }
       ],
-      "lean": "away",
-      "weight": 1,
+      "lean": "even",
+      "weight": 0,
       "read": null,
-      "total": {
-        "line": 8.0,
-        "over": -108,
-        "under": -111
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.665 OPS-against); over: Fenway Park plays hitter-friendly). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     }
   ]
 }
