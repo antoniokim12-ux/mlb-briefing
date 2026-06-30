@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "generated": "2026-06-30T10:45:57",
+  "generated": "2026-06-30T11:36:08",
   "games": [
     {
       "game_pk": 824819,
@@ -33,13 +33,13 @@
         "pitcher_id": 694346,
         "pitcher_name": "Trey Gibson",
         "pitcher_hand": "R",
-        "ml": -144,
-        "implied": 59.0
+        "ml": -143,
+        "implied": 58.8
       },
       "weather": {
-        "temp_f": 93.0,
+        "temp_f": 93.3,
         "wind_mph": 9.6,
-        "wind_dir_deg": 180
+        "wind_dir_deg": 192
       },
       "factors": [
         {
@@ -67,7 +67,7 @@
         "side": "over",
         "strength": 2,
         "line": 10.5,
-        "note": "Total 10.5: leans OVER \u2014 both starters look hittable (avg 0.789 OPS-against); wind blowing out to center (~8 mph). (Bullpen still to come.)"
+        "note": "Total 10.5: leans OVER \u2014 both starters look hittable (avg 0.789 OPS-against); wind blowing out to center (~9 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -91,8 +91,8 @@
         "pitcher_id": 594798,
         "pitcher_name": "Jacob deGrom",
         "pitcher_hand": "R",
-        "ml": -114,
-        "implied": 53.3
+        "ml": -119,
+        "implied": 54.3
       },
       "home": {
         "team": "Guardians",
@@ -103,13 +103,13 @@
         "pitcher_id": 676440,
         "pitcher_name": "Tanner Bibee",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": -102,
+        "implied": 50.5
       },
       "weather": {
-        "temp_f": 94.1,
-        "wind_mph": 10.1,
-        "wind_dir_deg": 266
+        "temp_f": 92.8,
+        "wind_mph": 11.0,
+        "wind_dir_deg": 271
       },
       "factors": [
         {
@@ -130,7 +130,7 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -112,
+        "over": -113,
         "under": -107
       },
       "total_read": {
@@ -178,8 +178,8 @@
       },
       "weather": {
         "temp_f": 90.6,
-        "wind_mph": 11.2,
-        "wind_dir_deg": 213
+        "wind_mph": 11.5,
+        "wind_dir_deg": 212
       },
       "factors": [
         {
@@ -247,9 +247,9 @@
         "implied": 57.8
       },
       "weather": {
-        "temp_f": 85.6,
-        "wind_mph": 11.4,
-        "wind_dir_deg": 160
+        "temp_f": 85.8,
+        "wind_mph": 9.7,
+        "wind_dir_deg": 157
       },
       "factors": [
         {
@@ -270,8 +270,8 @@
       "read": null,
       "total": {
         "line": 7.0,
-        "over": -123,
-        "under": 102
+        "over": -124,
+        "under": 103
       },
       "total_read": {
         "side": "under",
@@ -317,9 +317,9 @@
         "implied": 55.0
       },
       "weather": {
-        "temp_f": 85.7,
-        "wind_mph": 12.7,
-        "wind_dir_deg": 212
+        "temp_f": 83.4,
+        "wind_mph": 10.8,
+        "wind_dir_deg": 214
       },
       "factors": [
         {
@@ -340,14 +340,14 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -106,
-        "under": -114
+        "over": -107,
+        "under": -113
       },
       "total_read": {
         "side": null,
         "strength": 0,
         "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.676 OPS-against); over: wind blowing out to center (~11 mph)). (Bullpen still to come.)"
+        "note": "Total 8.0: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.676 OPS-against); over: wind blowing out to center (~9 mph)). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -387,9 +387,9 @@
         "implied": 58.8
       },
       "weather": {
-        "temp_f": 79.2,
-        "wind_mph": 8.5,
-        "wind_dir_deg": 162
+        "temp_f": 83.5,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 197
       },
       "factors": [
         {
@@ -457,9 +457,9 @@
         "implied": 62.0
       },
       "weather": {
-        "temp_f": 94.9,
-        "wind_mph": 6.0,
-        "wind_dir_deg": 75
+        "temp_f": 95.7,
+        "wind_mph": 6.2,
+        "wind_dir_deg": 64
       },
       "factors": [
         {
@@ -528,8 +528,8 @@
       },
       "weather": {
         "temp_f": 95.2,
-        "wind_mph": 17.1,
-        "wind_dir_deg": 202
+        "wind_mph": 16.9,
+        "wind_dir_deg": 203
       },
       "factors": [
         {
@@ -548,7 +548,7 @@
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "17 mph wind (dir 202\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "17 mph wind (dir 203\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -603,9 +603,9 @@
         "implied": 64.3
       },
       "weather": {
-        "temp_f": 94.5,
-        "wind_mph": 15.7,
-        "wind_dir_deg": 220
+        "temp_f": 94.3,
+        "wind_mph": 15.8,
+        "wind_dir_deg": 223
       },
       "factors": [
         {
@@ -624,7 +624,7 @@
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "16 mph wind (dir 220\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "16 mph wind (dir 223\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -679,9 +679,9 @@
         "implied": 61.1
       },
       "weather": {
-        "temp_f": 92.2,
-        "wind_mph": 13.2,
-        "wind_dir_deg": 215
+        "temp_f": 91.9,
+        "wind_mph": 13.4,
+        "wind_dir_deg": 218
       },
       "factors": [
         {
@@ -703,7 +703,7 @@
       "total": {
         "line": 11.0,
         "over": -120,
-        "under": 100
+        "under": -101
       },
       "total_read": {
         "side": null,
@@ -733,8 +733,8 @@
         "pitcher_id": 657746,
         "pitcher_name": "Joe Ryan",
         "pitcher_hand": "R",
-        "ml": -117,
-        "implied": 53.9
+        "ml": -115,
+        "implied": 53.5
       },
       "home": {
         "team": "Astros",
@@ -745,10 +745,14 @@
         "pitcher_id": 681347,
         "pitcher_name": "Mike Burrows",
         "pitcher_hand": "R",
-        "ml": -103,
-        "implied": 50.7
+        "ml": -105,
+        "implied": 51.2
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.4,
+        "wind_mph": 10.4,
+        "wind_dir_deg": 143
+      },
       "factors": [
         {
           "m": "~",
@@ -772,10 +776,10 @@
         "under": -119
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "over",
+        "strength": 1,
         "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "note": "Total 8.5: leans OVER \u2014 wind blowing out to center (~8 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -814,7 +818,11 @@
         "ml": 129,
         "implied": 43.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 91.8,
+        "wind_mph": 17.3,
+        "wind_dir_deg": 211
+      },
       "factors": [
         {
           "m": "~",
@@ -827,6 +835,12 @@
           "side": "none",
           "label": "Lineups",
           "text": "Marlins lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "17 mph wind (dir 211\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -839,9 +853,9 @@
       },
       "total_read": {
         "side": "over",
-        "strength": 2,
+        "strength": 3,
         "line": 11.5,
-        "note": "Total 11.5: leans OVER \u2014 both starters look hittable (avg 0.840 OPS-against); Coors Field plays hitter-friendly. (Bullpen still to come.)"
+        "note": "Total 11.5: leans OVER \u2014 both starters look hittable (avg 0.840 OPS-against); Coors Field plays hitter-friendly; wind blowing out to center (~15 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -880,7 +894,11 @@
         "ml": 130,
         "implied": 43.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 85.4,
+        "wind_mph": 12.2,
+        "wind_dir_deg": 235
+      },
       "factors": [
         {
           "m": "~",
@@ -900,7 +918,7 @@
       "read": null,
       "total": {
         "line": 11.0,
-        "over": 100,
+        "over": 101,
         "under": -121
       },
       "total_read": {
