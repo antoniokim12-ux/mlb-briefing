@@ -1,6 +1,6 @@
 {
   "date": "2026-07-01",
-  "generated": "2026-07-01T21:28:59",
+  "generated": "2026-07-01T22:59:17",
   "games": [
     {
       "game_pk": 824818,
@@ -379,7 +379,7 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "36-50",
+        "record": "36-51",
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": "R",
@@ -391,7 +391,7 @@
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "40-46",
+        "record": "41-46",
         "pitcher_id": 680755,
         "pitcher_name": "Braydon Fisher",
         "pitcher_hand": "R",
@@ -450,8 +450,8 @@
         "pitcher_id": 694973,
         "pitcher_name": "Paul Skenes",
         "pitcher_hand": "R",
-        "ml": 119,
-        "implied": 45.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Phillies",
@@ -462,13 +462,13 @@
         "pitcher_id": 554430,
         "pitcher_name": "Zack Wheeler",
         "pitcher_hand": "R",
-        "ml": -144,
-        "implied": 59.0
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 96.5,
-        "wind_mph": 7.1,
-        "wind_dir_deg": 208
+        "temp_f": 94.7,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 201
       },
       "factors": [
         {
@@ -481,19 +481,9 @@
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 8.0,
-        "over": -114,
-        "under": -106
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.545 OPS-against); over: Citizens Bank Park plays hitter-friendly). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824905,
@@ -808,7 +798,17 @@
       "lat": 39.756042,
       "lon": -104.994136,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          672640,
+          665923,
+          689414,
+          681715,
+          691594,
+          669065,
+          677870,
+          640459,
+          683357
+        ],
         "home": [
           664983,
           666160,
@@ -830,8 +830,8 @@
         "pitcher_id": 676974,
         "pitcher_name": "Max Meyer",
         "pitcher_hand": "R",
-        "ml": -157,
-        "implied": 61.1
+        "ml": -144,
+        "implied": 59.0
       },
       "home": {
         "team": "Rockies",
@@ -842,31 +842,31 @@
         "pitcher_id": 607536,
         "pitcher_name": "Kyle Freeland",
         "pitcher_hand": "L",
-        "ml": 130,
-        "implied": 43.5
+        "ml": 119,
+        "implied": 45.7
       },
       "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Marlins lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Kyle Freeland is vulnerable to RHB (0.985 OPS) and Marlins skew R-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 11.0,
-        "over": -109,
-        "under": -111
+        "over": -117,
+        "under": -103
       },
       "total_read": {
         "side": "over",
-        "strength": 1,
+        "strength": 2,
         "line": 11.0,
-        "note": "Total 11.0: leans OVER \u2014 Coors Field plays hitter-friendly. (Bullpen still to come.)"
+        "note": "Total 11.0: leans OVER \u2014 both starters look hittable (avg 0.803 OPS-against); Coors Field plays hitter-friendly. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -878,8 +878,28 @@
       "lat": 38.57994,
       "lon": -121.51246,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          660271,
+          681624,
+          518692,
+          605141,
+          571970,
+          663656,
+          669242,
+          690976,
+          642020
+        ],
+        "home": [
+          669127,
+          701762,
+          687515,
+          641680,
+          811965,
+          671732,
+          703607,
+          643446,
+          675961
+        ]
       },
       "away": {
         "team": "Dodgers",
@@ -906,27 +926,14 @@
         "implied": 41.5
       },
       "weather": null,
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Athletics lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Dodgers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": {
         "line": 11.0,
-        "over": -109,
-        "under": -110
+        "over": -112,
+        "under": -108
       },
       "total_read": {
         "side": null,
@@ -944,8 +951,28 @@
       "lat": 33.445302,
       "lon": -112.066687,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          650333,
+          669477,
+          805811,
+          646240,
+          671218,
+          808982,
+          682674,
+          701852,
+          683766
+        ],
+        "home": [
+          606466,
+          672695,
+          682998,
+          672515,
+          666971,
+          680728,
+          571448,
+          656976,
+          694371
+        ]
       },
       "away": {
         "team": "Giants",
@@ -956,8 +983,8 @@
         "pitcher_id": 686790,
         "pitcher_name": "Trevor McDonald",
         "pitcher_hand": "R",
-        "ml": 109,
-        "implied": 47.8
+        "ml": 114,
+        "implied": 46.7
       },
       "home": {
         "team": "D-backs",
@@ -968,35 +995,28 @@
         "pitcher_id": 668678,
         "pitcher_name": "Zac Gallen",
         "pitcher_hand": "R",
-        "ml": -131,
-        "implied": 56.7
+        "ml": -137,
+        "implied": 57.8
       },
       "weather": {
-        "temp_f": 100.2,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 286
+        "temp_f": 98.5,
+        "wind_mph": 0.0,
+        "wind_dir_deg": 270
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Giants lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -105,
+        "over": -106,
         "under": -114
       },
       "total_read": {
-        "side": "under",
-        "strength": 1,
+        "side": null,
+        "strength": 0,
         "line": 9.5,
-        "note": "Total 9.5: leans UNDER \u2014 both starters suppress contact (avg 0.677 OPS-against). (Bullpen still to come.)"
+        "note": "Total 9.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
