@@ -1,6 +1,6 @@
 {
   "date": "2026-07-01",
-  "generated": "2026-07-01T10:50:30",
+  "generated": "2026-07-01T10:59:48",
   "games": [
     {
       "game_pk": 824818,
@@ -672,11 +672,7 @@
         "ml": -131,
         "implied": 56.7
       },
-      "weather": {
-        "temp_f": 90.0,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 143
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -894,7 +890,7 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -116,
+        "over": -115,
         "under": -104
       },
       "total_read": {
