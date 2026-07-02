@@ -1,6 +1,6 @@
 {
   "date": "2026-07-02",
-  "generated": "2026-07-02T16:14:32",
+  "generated": "2026-07-02T17:33:04",
   "games": [
     {
       "game_pk": 823442,
@@ -41,8 +41,8 @@
         "pitcher_id": 683003,
         "pitcher_name": "Jared Jones",
         "pitcher_hand": "R",
-        "ml": 109,
-        "implied": 47.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Phillies",
@@ -53,13 +53,13 @@
         "pitcher_id": 660604,
         "pitcher_name": "Alan Rangel",
         "pitcher_hand": "R",
-        "ml": -131,
-        "implied": 56.7
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 98.7,
-        "wind_mph": 5.3,
-        "wind_dir_deg": 282
+        "temp_f": 98.4,
+        "wind_mph": 5.1,
+        "wind_dir_deg": 270
       },
       "factors": [
         {
@@ -78,19 +78,9 @@
       "lean": "home",
       "weight": 2,
       "read": null,
-      "total": {
-        "line": 10.5,
-        "over": -112,
-        "under": -107
-      },
-      "total_read": {
-        "side": "over",
-        "strength": 1,
-        "line": 10.5,
-        "note": "Total 10.5: leans OVER \u2014 Citizens Bank Park plays hitter-friendly. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 823765,
@@ -131,8 +121,8 @@
         "pitcher_id": 695505,
         "pitcher_name": "Chase Burns",
         "pitcher_hand": "R",
-        "ml": 167,
-        "implied": 37.5
+        "ml": 178,
+        "implied": 36.0
       },
       "home": {
         "team": "Brewers",
@@ -143,13 +133,13 @@
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
-        "ml": -204,
-        "implied": 67.1
+        "ml": -219,
+        "implied": 68.7
       },
       "weather": {
-        "temp_f": 90.7,
-        "wind_mph": 11.4,
-        "wind_dir_deg": 211
+        "temp_f": 89.7,
+        "wind_mph": 10.0,
+        "wind_dir_deg": 192
       },
       "factors": [
         {
@@ -164,8 +154,8 @@
       "read": null,
       "total": {
         "line": 7.0,
-        "over": -108,
-        "under": -111
+        "over": 101,
+        "under": -122
       },
       "total_read": {
         "side": null,
@@ -183,7 +173,17 @@
       "lat": 39.756042,
       "lon": -104.994136,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          689414,
+          672640,
+          669065,
+          669364,
+          665052,
+          683357,
+          805300,
+          691594,
+          691788
+        ],
         "home": [
           664983,
           666160,
@@ -221,9 +221,9 @@
         "implied": 45.9
       },
       "weather": {
-        "temp_f": 85.2,
+        "temp_f": 85.1,
         "wind_mph": 6.3,
-        "wind_dir_deg": 84
+        "wind_dir_deg": 98
       },
       "factors": [
         {
@@ -233,25 +233,25 @@
           "text": "Ryan Gusto is vulnerable to LHB (0.842 OPS) and Rockies skew L-handed."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Marlins lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Michael Lorenzen is vulnerable to LHB (1.096 OPS) and Marlins skew L-handed."
         }
       ],
-      "lean": "home",
-      "weight": 1,
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": {
         "line": 12.0,
-        "over": -105,
-        "under": -114
+        "over": -107,
+        "under": -112
       },
       "total_read": {
         "side": "over",
         "strength": 2,
         "line": 12.0,
-        "note": "Total 12.0: leans OVER \u2014 both starters look hittable (avg 0.884 OPS-against); Coors Field plays hitter-friendly. (Bullpen still to come.)"
+        "note": "Total 12.0: leans OVER \u2014 both starters look hittable (avg 0.969 OPS-against); Coors Field plays hitter-friendly. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -291,9 +291,9 @@
         "implied": 52.8
       },
       "weather": {
-        "temp_f": 92.7,
-        "wind_mph": 14.0,
-        "wind_dir_deg": 282
+        "temp_f": 93.5,
+        "wind_mph": 13.7,
+        "wind_dir_deg": 277
       },
       "factors": [
         {
@@ -345,8 +345,8 @@
         "pitcher_id": 669160,
         "pitcher_name": "Dustin May",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": -102,
+        "implied": 50.5
       },
       "home": {
         "team": "Braves",
@@ -357,13 +357,13 @@
         "pitcher_id": 694462,
         "pitcher_name": "Hurston Waldrep",
         "pitcher_hand": "R",
-        "ml": -115,
-        "implied": 53.5
+        "ml": -118,
+        "implied": 54.1
       },
       "weather": {
-        "temp_f": 99.1,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 71
+        "temp_f": 98.5,
+        "wind_mph": 7.6,
+        "wind_dir_deg": 76
       },
       "factors": [
         {
@@ -383,15 +383,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.5,
-        "over": -114,
-        "under": -105
+        "line": 9.0,
+        "over": -104,
+        "under": -116
       },
       "total_read": {
         "side": null,
         "strength": 0,
-        "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "line": 9.0,
+        "note": "Total 9.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -415,8 +415,8 @@
         "pitcher_id": 693855,
         "pitcher_name": "Ian Seymour",
         "pitcher_hand": "L",
-        "ml": -126,
-        "implied": 55.8
+        "ml": -125,
+        "implied": 55.6
       },
       "home": {
         "team": "Royals",
@@ -431,9 +431,9 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 95.7,
-        "wind_mph": 13.8,
-        "wind_dir_deg": 189
+        "temp_f": 95.2,
+        "wind_mph": 14.0,
+        "wind_dir_deg": 188
       },
       "factors": [
         {
@@ -453,15 +453,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 10.5,
-        "over": -110,
-        "under": -109
+        "line": 10.0,
+        "over": -116,
+        "under": -104
       },
       "total_read": {
         "side": "over",
         "strength": 1,
-        "line": 10.5,
-        "note": "Total 10.5: leans OVER \u2014 wind blowing out to center (~11 mph). (Bullpen still to come.)"
+        "line": 10.0,
+        "note": "Total 10.0: leans OVER \u2014 wind blowing out to center (~11 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -519,15 +519,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 7.0,
-        "over": -124,
-        "under": 103
+        "line": 7.5,
+        "over": 100,
+        "under": -120
       },
       "total_read": {
         "side": null,
         "strength": 0,
-        "line": 7.0,
-        "note": "Total 7.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "line": 7.5,
+        "note": "Total 7.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
