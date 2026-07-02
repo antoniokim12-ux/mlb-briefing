@@ -1,6 +1,6 @@
 {
   "date": "2026-07-02",
-  "generated": "2026-07-02T08:28:58",
+  "generated": "2026-07-02T10:16:39",
   "games": [
     {
       "game_pk": 823442,
@@ -37,9 +37,9 @@
         "implied": 56.7
       },
       "weather": {
-        "temp_f": 100.1,
-        "wind_mph": 4.8,
-        "wind_dir_deg": 298
+        "temp_f": 99.6,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 305
       },
       "factors": [
         {
@@ -107,9 +107,9 @@
         "implied": 67.1
       },
       "weather": {
-        "temp_f": 90.8,
-        "wind_mph": 15.4,
-        "wind_dir_deg": 199
+        "temp_f": 92.1,
+        "wind_mph": 12.0,
+        "wind_dir_deg": 202
       },
       "factors": [
         {
@@ -123,12 +123,6 @@
           "side": "none",
           "label": "Lineups",
           "text": "Reds lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "15 mph wind (dir 199\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -143,7 +137,7 @@
         "side": null,
         "strength": 0,
         "line": 7.0,
-        "note": "Total 7.0: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.518 OPS-against); over: wind blowing out to center (~15 mph)). (Bullpen still to come.)"
+        "note": "Total 7.0: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.518 OPS-against); over: wind blowing out to center (~11 mph)). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -183,9 +177,9 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 89.6,
-        "wind_mph": 6.3,
-        "wind_dir_deg": 90
+        "temp_f": 87.0,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 69
       },
       "factors": [
         {
@@ -253,9 +247,9 @@
         "implied": 50.2
       },
       "weather": {
-        "temp_f": 95.2,
-        "wind_mph": 10.8,
-        "wind_dir_deg": 274
+        "temp_f": 93.1,
+        "wind_mph": 11.1,
+        "wind_dir_deg": 278
       },
       "factors": [
         {
@@ -323,9 +317,9 @@
         "implied": 53.5
       },
       "weather": {
-        "temp_f": 97.9,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 92
+        "temp_f": 97.8,
+        "wind_mph": 6.6,
+        "wind_dir_deg": 78
       },
       "factors": [
         {
@@ -393,9 +387,9 @@
         "implied": 49.5
       },
       "weather": {
-        "temp_f": 94.3,
-        "wind_mph": 13.3,
-        "wind_dir_deg": 193
+        "temp_f": 94.8,
+        "wind_mph": 15.0,
+        "wind_dir_deg": 197
       },
       "factors": [
         {
@@ -409,6 +403,12 @@
           "side": "none",
           "label": "Lineups",
           "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "15 mph wind (dir 197\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -423,7 +423,7 @@
         "side": "over",
         "strength": 1,
         "line": 10.5,
-        "note": "Total 10.5: leans OVER \u2014 wind blowing out to center (~11 mph). (Bullpen still to come.)"
+        "note": "Total 10.5: leans OVER \u2014 wind blowing out to center (~13 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -463,9 +463,9 @@
         "implied": 56.7
       },
       "weather": {
-        "temp_f": 94.9,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 172
+        "temp_f": 94.5,
+        "wind_mph": 8.7,
+        "wind_dir_deg": 181
       },
       "factors": [
         {
@@ -493,7 +493,7 @@
         "side": "over",
         "strength": 1,
         "line": 7.5,
-        "note": "Total 7.5: leans OVER \u2014 wind blowing out to center (~8 mph). (Bullpen still to come.)"
+        "note": "Total 7.5: leans OVER \u2014 wind blowing out to center (~9 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -532,11 +532,7 @@
         "ml": -219,
         "implied": 68.7
       },
-      "weather": {
-        "temp_f": 68.9,
-        "wind_mph": 9.9,
-        "wind_dir_deg": 242
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -602,11 +598,7 @@
         "ml": -198,
         "implied": 66.4
       },
-      "weather": {
-        "temp_f": 66.6,
-        "wind_mph": 8.0,
-        "wind_dir_deg": 257
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
