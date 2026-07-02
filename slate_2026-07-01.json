@@ -1,6 +1,6 @@
 {
   "date": "2026-07-01",
-  "generated": "2026-07-02T00:06:58",
+  "generated": "2026-07-02T06:34:39",
   "games": [
     {
       "game_pk": 824818,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 90.2,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 159
+        "temp_f": 90.3,
+        "wind_mph": 4.4,
+        "wind_dir_deg": 156
       },
       "factors": [],
       "lean": "even",
@@ -124,9 +124,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 92.6,
-        "wind_mph": 4.5,
-        "wind_dir_deg": 264
+        "temp_f": 94.6,
+        "wind_mph": 4.8,
+        "wind_dir_deg": 242
       },
       "factors": [],
       "lean": "even",
@@ -191,9 +191,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 87.3,
-        "wind_mph": 9.7,
-        "wind_dir_deg": 195
+        "temp_f": 88.7,
+        "wind_mph": 8.0,
+        "wind_dir_deg": 203
       },
       "factors": [
         {
@@ -265,9 +265,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 87.9,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 136
+        "temp_f": 87.8,
+        "wind_mph": 5.3,
+        "wind_dir_deg": 126
       },
       "factors": [],
       "lean": "even",
@@ -332,9 +332,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 90.2,
-        "wind_mph": 12.2,
-        "wind_dir_deg": 221
+        "temp_f": 90.7,
+        "wind_mph": 12.0,
+        "wind_dir_deg": 217
       },
       "factors": [],
       "lean": "even",
@@ -399,9 +399,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 76.7,
-        "wind_mph": 12.0,
-        "wind_dir_deg": 217
+        "temp_f": 76.1,
+        "wind_mph": 4.7,
+        "wind_dir_deg": 205
       },
       "factors": [],
       "lean": "even",
@@ -446,7 +446,7 @@
         "team_full": "Pittsburgh Pirates",
         "abbr": "PIT",
         "team_id": 134,
-        "record": "43-43",
+        "record": "43-44",
         "pitcher_id": 694973,
         "pitcher_name": "Paul Skenes",
         "pitcher_hand": "R",
@@ -458,7 +458,7 @@
         "team_full": "Philadelphia Phillies",
         "abbr": "PHI",
         "team_id": 143,
-        "record": "48-38",
+        "record": "49-38",
         "pitcher_id": 554430,
         "pitcher_name": "Zack Wheeler",
         "pitcher_hand": "R",
@@ -466,16 +466,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 89.7,
-        "wind_mph": 6.4,
-        "wind_dir_deg": 190
+        "temp_f": 91.2,
+        "wind_mph": 6.1,
+        "wind_dir_deg": 208
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Paul Skenes holds LHB to a 0.612 OPS; Phillies project 67% L-handed today."
+          "text": "Paul Skenes holds LHB to a 0.638 OPS; Phillies project 67% L-handed today."
         }
       ],
       "lean": "away",
@@ -520,7 +520,7 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "44-38",
+        "record": "44-39",
         "pitcher_id": 700241,
         "pitcher_name": "Michael McGreevy",
         "pitcher_hand": "R",
@@ -532,18 +532,14 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "49-34",
+        "record": "50-34",
         "pitcher_id": 625643,
         "pitcher_name": "Reynaldo L\u00f3pez",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 87.1,
-        "wind_mph": 4.7,
-        "wind_dir_deg": 245
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -587,7 +583,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "49-33",
+        "record": "50-33",
         "pitcher_id": 663556,
         "pitcher_name": "Shane McClanahan",
         "pitcher_hand": "L",
@@ -599,28 +595,30 @@
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "35-51",
+        "record": "35-52",
         "pitcher_id": 607625,
         "pitcher_name": "Seth Lugo",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 91.0,
-        "wind_mph": 13.0,
-        "wind_dir_deg": 191
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Shane McClanahan holds RHB to a 0.644 OPS; Royals project 67% R-handed today."
+          "text": "Shane McClanahan holds RHB to a 0.633 OPS; Royals project 67% R-handed today."
+        },
+        {
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Seth Lugo is vulnerable to LHB (0.800 OPS) and Rays skew L-handed."
         }
       ],
       "lean": "away",
-      "weight": 1,
+      "weight": 2,
       "read": null,
       "total": null,
       "total_read": null,
@@ -661,47 +659,33 @@
         "team_full": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "record": "41-46",
+        "record": "42-46",
         "pitcher_id": 671737,
         "pitcher_name": "Taj Bradley",
         "pitcher_hand": "R",
-        "ml": 130,
-        "implied": 43.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Astros",
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "43-45",
+        "record": "43-46",
         "pitcher_id": 837227,
         "pitcher_name": "Tatsuya Imai",
         "pitcher_hand": "R",
-        "ml": -157,
-        "implied": 61.1
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 90.3,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 151
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": {
-        "line": 8.5,
-        "over": -114,
-        "under": -105
-      },
-      "total_read": {
-        "side": "under",
-        "strength": 1,
-        "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters suppress contact (avg 0.629 OPS-against). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 823767,
@@ -738,54 +722,40 @@
         "team_full": "Cincinnati Reds",
         "abbr": "CIN",
         "team_id": 113,
-        "record": "39-45",
+        "record": "39-46",
         "pitcher_id": 671096,
         "pitcher_name": "Andrew Abbott",
         "pitcher_hand": "L",
-        "ml": 134,
-        "implied": 42.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Brewers",
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "52-31",
+        "record": "53-31",
         "pitcher_id": 675660,
         "pitcher_name": "Shane Drohan",
         "pitcher_hand": "L",
-        "ml": -163,
-        "implied": 62.0
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 91.0,
-        "wind_mph": 14.2,
-        "wind_dir_deg": 217
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Shane Drohan holds RHB to a 0.642 OPS; Reds project 100% R-handed today."
+          "text": "Shane Drohan holds RHB to a 0.660 OPS; Reds project 100% R-handed today."
         }
       ],
       "lean": "home",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 9.0,
-        "over": -113,
-        "under": -107
-      },
-      "total_read": {
-        "side": "over",
-        "strength": 1,
-        "line": 9.0,
-        "note": "Total 9.0: leans OVER \u2014 wind blowing out to center (~11 mph). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824337,
@@ -822,60 +792,40 @@
         "team_full": "Miami Marlins",
         "abbr": "MIA",
         "team_id": 146,
-        "record": "46-40",
+        "record": "46-41",
         "pitcher_id": 676974,
         "pitcher_name": "Max Meyer",
         "pitcher_hand": "R",
-        "ml": -144,
-        "implied": 59.0
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Rockies",
         "team_full": "Colorado Rockies",
         "abbr": "COL",
         "team_id": 115,
-        "record": "33-53",
+        "record": "34-53",
         "pitcher_id": 607536,
         "pitcher_name": "Kyle Freeland",
         "pitcher_hand": "L",
-        "ml": 119,
-        "implied": 45.7
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 87.6,
-        "wind_mph": 16.8,
-        "wind_dir_deg": 81
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Kyle Freeland is vulnerable to RHB (0.985 OPS) and Marlins skew R-handed."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "17 mph wind (dir 81\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "Kyle Freeland is vulnerable to RHB (0.973 OPS) and Marlins skew R-handed."
         }
       ],
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 11.0,
-        "over": -117,
-        "under": -103
-      },
-      "total_read": {
-        "side": "over",
-        "strength": 2,
-        "line": 11.0,
-        "note": "Total 11.0: leans OVER \u2014 both starters look hittable (avg 0.803 OPS-against); Coors Field plays hitter-friendly. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824985,
@@ -912,47 +862,33 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "56-30",
+        "record": "56-31",
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": -168,
-        "implied": 62.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Athletics",
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "40-46",
+        "record": "41-46",
         "pitcher_id": 669372,
         "pitcher_name": "J.T. Ginn",
         "pitcher_hand": "R",
-        "ml": 139,
-        "implied": 41.8
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 84.1,
-        "wind_mph": 10.2,
-        "wind_dir_deg": 234
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": {
-        "line": 11.0,
-        "over": -108,
-        "under": -111
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 11.0,
-        "note": "Total 11.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 825064,
@@ -989,47 +925,37 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "35-50",
+        "record": "36-50",
         "pitcher_id": 686790,
         "pitcher_name": "Trevor McDonald",
         "pitcher_hand": "R",
-        "ml": 114,
-        "implied": 46.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "D-backs",
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "43-42",
+        "record": "43-43",
         "pitcher_id": 668678,
         "pitcher_name": "Zac Gallen",
         "pitcher_hand": "R",
-        "ml": -137,
-        "implied": 57.8
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 98.0,
-        "wind_mph": 1.1,
-        "wind_dir_deg": 323
+        "temp_f": 99.4,
+        "wind_mph": 4.6,
+        "wind_dir_deg": 317
       },
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": {
-        "line": 9.5,
-        "over": -106,
-        "under": -114
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 9.5,
-        "note": "Total 9.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     }
   ]
 }
