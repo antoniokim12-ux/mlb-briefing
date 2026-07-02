@@ -1,6 +1,6 @@
 {
   "date": "2026-07-01",
-  "generated": "2026-07-01T22:59:17",
+  "generated": "2026-07-02T00:06:58",
   "games": [
     {
       "game_pk": 824818,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 93.7,
-        "wind_mph": 2.2,
-        "wind_dir_deg": 180
+        "temp_f": 90.2,
+        "wind_mph": 6.2,
+        "wind_dir_deg": 159
       },
       "factors": [],
       "lean": "even",
@@ -124,9 +124,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 90.7,
-        "wind_mph": 9.3,
-        "wind_dir_deg": 285
+        "temp_f": 92.6,
+        "wind_mph": 4.5,
+        "wind_dir_deg": 264
       },
       "factors": [],
       "lean": "even",
@@ -191,9 +191,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 91.2,
-        "wind_mph": 4.6,
-        "wind_dir_deg": 227
+        "temp_f": 87.3,
+        "wind_mph": 9.7,
+        "wind_dir_deg": 195
       },
       "factors": [
         {
@@ -265,9 +265,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 94.0,
-        "wind_mph": 4.3,
-        "wind_dir_deg": 261
+        "temp_f": 87.9,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 136
       },
       "factors": [],
       "lean": "even",
@@ -332,9 +332,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 94.6,
-        "wind_mph": 10.3,
-        "wind_dir_deg": 219
+        "temp_f": 90.2,
+        "wind_mph": 12.2,
+        "wind_dir_deg": 221
       },
       "factors": [],
       "lean": "even",
@@ -399,9 +399,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 87.3,
-        "wind_mph": 13.6,
-        "wind_dir_deg": 171
+        "temp_f": 76.7,
+        "wind_mph": 12.0,
+        "wind_dir_deg": 217
       },
       "factors": [],
       "lean": "even",
@@ -466,9 +466,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 94.7,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 201
+        "temp_f": 89.7,
+        "wind_mph": 6.4,
+        "wind_dir_deg": 190
       },
       "factors": [
         {
@@ -524,8 +524,8 @@
         "pitcher_id": 700241,
         "pitcher_name": "Michael McGreevy",
         "pitcher_hand": "R",
-        "ml": 117,
-        "implied": 46.1
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Braves",
@@ -536,27 +536,21 @@
         "pitcher_id": 625643,
         "pitcher_name": "Reynaldo L\u00f3pez",
         "pitcher_hand": "R",
-        "ml": -141,
-        "implied": 58.5
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 87.1,
+        "wind_mph": 4.7,
+        "wind_dir_deg": 245
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": {
-        "line": 9.0,
-        "over": -116,
-        "under": -104
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 9.0,
-        "note": "Total 9.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824094,
@@ -597,8 +591,8 @@
         "pitcher_id": 663556,
         "pitcher_name": "Shane McClanahan",
         "pitcher_hand": "L",
-        "ml": -148,
-        "implied": 59.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Royals",
@@ -609,10 +603,14 @@
         "pitcher_id": 607625,
         "pitcher_name": "Seth Lugo",
         "pitcher_hand": "R",
-        "ml": 123,
-        "implied": 44.8
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 91.0,
+        "wind_mph": 13.0,
+        "wind_dir_deg": 191
+      },
       "factors": [
         {
           "m": "+",
@@ -624,19 +622,9 @@
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 10.5,
-        "over": -108,
-        "under": -111
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 10.5,
-        "note": "Total 10.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824174,
@@ -677,8 +665,8 @@
         "pitcher_id": 671737,
         "pitcher_name": "Taj Bradley",
         "pitcher_hand": "R",
-        "ml": 119,
-        "implied": 45.7
+        "ml": 130,
+        "implied": 43.5
       },
       "home": {
         "team": "Astros",
@@ -689,18 +677,22 @@
         "pitcher_id": 837227,
         "pitcher_name": "Tatsuya Imai",
         "pitcher_hand": "R",
-        "ml": -144,
-        "implied": 59.0
+        "ml": -157,
+        "implied": 61.1
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 90.3,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 151
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -108,
-        "under": -112
+        "over": -114,
+        "under": -105
       },
       "total_read": {
         "side": "under",
@@ -765,7 +757,11 @@
         "ml": -163,
         "implied": 62.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 91.0,
+        "wind_mph": 14.2,
+        "wind_dir_deg": 217
+      },
       "factors": [
         {
           "m": "+",
@@ -783,10 +779,10 @@
         "under": -107
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "over",
+        "strength": 1,
         "line": 9.0,
-        "note": "Total 9.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "note": "Total 9.0: leans OVER \u2014 wind blowing out to center (~11 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -845,13 +841,23 @@
         "ml": 119,
         "implied": 45.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 87.6,
+        "wind_mph": 16.8,
+        "wind_dir_deg": 81
+      },
       "factors": [
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
           "text": "Kyle Freeland is vulnerable to RHB (0.985 OPS) and Marlins skew R-handed."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "17 mph wind (dir 81\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "away",
@@ -882,11 +888,11 @@
           660271,
           681624,
           518692,
-          605141,
           571970,
           663656,
           669242,
           690976,
+          500743,
           642020
         ],
         "home": [
@@ -910,8 +916,8 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": -171,
-        "implied": 63.1
+        "ml": -168,
+        "implied": 62.7
       },
       "home": {
         "team": "Athletics",
@@ -922,18 +928,22 @@
         "pitcher_id": 669372,
         "pitcher_name": "J.T. Ginn",
         "pitcher_hand": "R",
-        "ml": 141,
-        "implied": 41.5
+        "ml": 139,
+        "implied": 41.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 84.1,
+        "wind_mph": 10.2,
+        "wind_dir_deg": 234
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": {
         "line": 11.0,
-        "over": -112,
-        "under": -108
+        "over": -108,
+        "under": -111
       },
       "total_read": {
         "side": null,
@@ -999,9 +1009,9 @@
         "implied": 57.8
       },
       "weather": {
-        "temp_f": 98.5,
-        "wind_mph": 0.0,
-        "wind_dir_deg": 270
+        "temp_f": 98.0,
+        "wind_mph": 1.1,
+        "wind_dir_deg": 323
       },
       "factors": [],
       "lean": "even",
