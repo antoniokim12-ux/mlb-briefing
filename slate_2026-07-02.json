@@ -1,6 +1,6 @@
 {
   "date": "2026-07-02",
-  "generated": "2026-07-02T10:16:39",
+  "generated": "2026-07-02T11:06:23",
   "games": [
     {
       "game_pk": 823442,
@@ -37,9 +37,9 @@
         "implied": 56.7
       },
       "weather": {
-        "temp_f": 99.6,
-        "wind_mph": 4.3,
-        "wind_dir_deg": 305
+        "temp_f": 99.3,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 311
       },
       "factors": [
         {
@@ -60,8 +60,8 @@
       "read": null,
       "total": {
         "line": 10.5,
-        "over": -102,
-        "under": -118
+        "over": -107,
+        "under": -113
       },
       "total_read": {
         "side": "over",
@@ -107,9 +107,9 @@
         "implied": 67.1
       },
       "weather": {
-        "temp_f": 92.1,
-        "wind_mph": 12.0,
-        "wind_dir_deg": 202
+        "temp_f": 89.1,
+        "wind_mph": 12.3,
+        "wind_dir_deg": 182
       },
       "factors": [
         {
@@ -137,7 +137,7 @@
         "side": null,
         "strength": 0,
         "line": 7.0,
-        "note": "Total 7.0: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.518 OPS-against); over: wind blowing out to center (~11 mph)). (Bullpen still to come.)"
+        "note": "Total 7.0: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.518 OPS-against); over: wind blowing out to center (~12 mph)). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -177,9 +177,9 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 87.0,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 69
+        "temp_f": 88.3,
+        "wind_mph": 6.1,
+        "wind_dir_deg": 80
       },
       "factors": [
         {
@@ -247,9 +247,9 @@
         "implied": 50.2
       },
       "weather": {
-        "temp_f": 93.1,
-        "wind_mph": 11.1,
-        "wind_dir_deg": 278
+        "temp_f": 96.5,
+        "wind_mph": 8.4,
+        "wind_dir_deg": 261
       },
       "factors": [
         {
@@ -317,9 +317,9 @@
         "implied": 53.5
       },
       "weather": {
-        "temp_f": 97.8,
-        "wind_mph": 6.6,
-        "wind_dir_deg": 78
+        "temp_f": 97.3,
+        "wind_mph": 7.5,
+        "wind_dir_deg": 99
       },
       "factors": [
         {
@@ -371,8 +371,8 @@
         "pitcher_id": 693855,
         "pitcher_name": "Ian Seymour",
         "pitcher_hand": "L",
-        "ml": -122,
-        "implied": 55.0
+        "ml": -126,
+        "implied": 55.8
       },
       "home": {
         "team": "Royals",
@@ -383,13 +383,13 @@
         "pitcher_id": 663568,
         "pitcher_name": "Stephen Kolek",
         "pitcher_hand": "R",
-        "ml": 102,
-        "implied": 49.5
+        "ml": 104,
+        "implied": 49.0
       },
       "weather": {
-        "temp_f": 94.8,
-        "wind_mph": 15.0,
-        "wind_dir_deg": 197
+        "temp_f": 94.4,
+        "wind_mph": 13.4,
+        "wind_dir_deg": 198
       },
       "factors": [
         {
@@ -403,12 +403,6 @@
           "side": "none",
           "label": "Lineups",
           "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "15 mph wind (dir 197\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -423,7 +417,7 @@
         "side": "over",
         "strength": 1,
         "line": 10.5,
-        "note": "Total 10.5: leans OVER \u2014 wind blowing out to center (~13 mph). (Bullpen still to come.)"
+        "note": "Total 10.5: leans OVER \u2014 wind blowing out to center (~12 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -463,9 +457,9 @@
         "implied": 56.7
       },
       "weather": {
-        "temp_f": 94.5,
-        "wind_mph": 8.7,
-        "wind_dir_deg": 181
+        "temp_f": 94.8,
+        "wind_mph": 8.8,
+        "wind_dir_deg": 173
       },
       "factors": [
         {
@@ -532,7 +526,11 @@
         "ml": -219,
         "implied": 68.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 65.3,
+        "wind_mph": 8.0,
+        "wind_dir_deg": 232
+      },
       "factors": [
         {
           "m": "~",
@@ -598,7 +596,11 @@
         "ml": -198,
         "implied": 66.4
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 67.6,
+        "wind_mph": 7.6,
+        "wind_dir_deg": 256
+      },
       "factors": [
         {
           "m": "~",
