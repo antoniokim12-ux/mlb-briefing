@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generated": "2026-07-03T11:14:06",
+  "generated": "2026-07-03T11:44:41",
   "games": [
     {
       "game_pk": 824659,
@@ -199,15 +199,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 9.5,
-        "over": -119,
-        "under": -102
+        "line": 10.0,
+        "over": -102,
+        "under": -119
       },
       "total_read": {
         "side": null,
         "strength": 0,
-        "line": 9.5,
-        "note": "Total 9.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "line": 10.0,
+        "note": "Total 10.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -456,11 +456,7 @@
         "ml": 129,
         "implied": 43.7
       },
-      "weather": {
-        "temp_f": 89.1,
-        "wind_mph": 15.4,
-        "wind_dir_deg": 351
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -473,12 +469,6 @@
           "side": "none",
           "label": "Lineups",
           "text": "Giants lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "15 mph wind (dir 351\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -490,10 +480,10 @@
         "under": -112
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "over",
+        "strength": 1,
         "line": 11.0,
-        "note": "Total 11.0: no clear lean \u2014 signals split (over: Coors Field plays hitter-friendly; under: wind blowing in (~15 mph)). (Bullpen still to come.)"
+        "note": "Total 11.0: leans OVER \u2014 Coors Field plays hitter-friendly. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -532,11 +522,7 @@
         "ml": -108,
         "implied": 51.9
       },
-      "weather": {
-        "temp_f": 89.3,
-        "wind_mph": 8.5,
-        "wind_dir_deg": 150
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -555,15 +541,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.0,
-        "over": -119,
-        "under": -101
+        "line": 8.5,
+        "over": -101,
+        "under": -120
       },
       "total_read": {
         "side": "under",
         "strength": 1,
-        "line": 8.0,
-        "note": "Total 8.0: leans UNDER \u2014 both starters suppress contact (avg 0.679 OPS-against). (Bullpen still to come.)"
+        "line": 8.5,
+        "note": "Total 8.5: leans UNDER \u2014 both starters suppress contact (avg 0.679 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -602,11 +588,7 @@
         "ml": -112,
         "implied": 52.8
       },
-      "weather": {
-        "temp_f": 77.0,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 233
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -630,10 +612,10 @@
         "under": -117
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "under",
+        "strength": 1,
         "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.551 OPS-against); over: wind blowing out to center (~8 mph)). (Bullpen still to come.)"
+        "note": "Total 8.0: leans UNDER \u2014 both starters suppress contact (avg 0.551 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -672,11 +654,7 @@
         "ml": -131,
         "implied": 56.7
       },
-      "weather": {
-        "temp_f": 91.1,
-        "wind_mph": 9.8,
-        "wind_dir_deg": 229
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -742,11 +720,7 @@
         "ml": 139,
         "implied": 41.8
       },
-      "weather": {
-        "temp_f": 105.3,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 297
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -812,7 +786,11 @@
         "ml": -253,
         "implied": 71.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 68.5,
+        "wind_mph": 7.6,
+        "wind_dir_deg": 251
+      },
       "factors": [
         {
           "m": "~",
@@ -878,7 +856,11 @@
         "ml": 109,
         "implied": 47.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 67.4,
+        "wind_mph": 7.8,
+        "wind_dir_deg": 357
+      },
       "factors": [
         {
           "m": "~",
