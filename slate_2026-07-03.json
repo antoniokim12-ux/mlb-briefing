@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generated": "2026-07-03T10:12:20",
+  "generated": "2026-07-03T11:14:06",
   "games": [
     {
       "game_pk": 824659,
@@ -37,9 +37,9 @@
         "implied": 56.7
       },
       "weather": {
-        "temp_f": 78.9,
-        "wind_mph": 2.6,
-        "wind_dir_deg": 121
+        "temp_f": 81.3,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 63
       },
       "factors": [
         {
@@ -107,9 +107,9 @@
         "implied": 58.8
       },
       "weather": {
-        "temp_f": 104.3,
-        "wind_mph": 7.5,
-        "wind_dir_deg": 247
+        "temp_f": 103.5,
+        "wind_mph": 8.4,
+        "wind_dir_deg": 228
       },
       "factors": [
         {
@@ -161,8 +161,8 @@
         "pitcher_id": 702474,
         "pitcher_name": "Mike Paredes",
         "pitcher_hand": "R",
-        "ml": 158,
-        "implied": 38.8
+        "ml": 153,
+        "implied": 39.5
       },
       "home": {
         "team": "Yankees",
@@ -173,13 +173,13 @@
         "pitcher_id": 543037,
         "pitcher_name": "Gerrit Cole",
         "pitcher_hand": "R",
-        "ml": -193,
-        "implied": 65.9
+        "ml": -187,
+        "implied": 65.2
       },
       "weather": {
-        "temp_f": 100.5,
-        "wind_mph": 0.7,
-        "wind_dir_deg": 252
+        "temp_f": 99.3,
+        "wind_mph": 4.9,
+        "wind_dir_deg": 150
       },
       "factors": [
         {
@@ -199,15 +199,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 10.0,
-        "over": -102,
-        "under": -118
+        "line": 9.5,
+        "over": -119,
+        "under": -102
       },
       "total_read": {
         "side": null,
         "strength": 0,
-        "line": 10.0,
-        "note": "Total 10.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "line": 9.5,
+        "note": "Total 9.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -248,8 +248,8 @@
       },
       "weather": {
         "temp_f": 99.1,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 207
+        "wind_mph": 6.2,
+        "wind_dir_deg": 210
       },
       "factors": [
         {
@@ -317,8 +317,8 @@
         "implied": 58.8
       },
       "weather": {
-        "temp_f": 90.8,
-        "wind_mph": 6.6,
+        "temp_f": 90.6,
+        "wind_mph": 8.9,
         "wind_dir_deg": 298
       },
       "factors": [
@@ -339,15 +339,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.0,
-        "over": -119,
-        "under": -101
+        "line": 8.5,
+        "over": -102,
+        "under": -119
       },
       "total_read": {
         "side": null,
         "strength": 0,
-        "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "line": 8.5,
+        "note": "Total 8.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -387,9 +387,9 @@
         "implied": 54.3
       },
       "weather": {
-        "temp_f": 93.1,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 227
+        "temp_f": 95.5,
+        "wind_mph": 10.6,
+        "wind_dir_deg": 195
       },
       "factors": [
         {
@@ -414,10 +414,10 @@
         "under": -122
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "over",
+        "strength": 1,
         "line": 9.5,
-        "note": "Total 9.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "note": "Total 9.5: leans OVER \u2014 wind blowing out to center (~10 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -457,9 +457,9 @@
         "implied": 43.7
       },
       "weather": {
-        "temp_f": 90.8,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 34
+        "temp_f": 89.1,
+        "wind_mph": 15.4,
+        "wind_dir_deg": 351
       },
       "factors": [
         {
@@ -473,6 +473,12 @@
           "side": "none",
           "label": "Lineups",
           "text": "Giants lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "15 mph wind (dir 351\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -484,10 +490,10 @@
         "under": -112
       },
       "total_read": {
-        "side": "over",
-        "strength": 1,
+        "side": null,
+        "strength": 0,
         "line": 11.0,
-        "note": "Total 11.0: leans OVER \u2014 Coors Field plays hitter-friendly. (Bullpen still to come.)"
+        "note": "Total 11.0: no clear lean \u2014 signals split (over: Coors Field plays hitter-friendly; under: wind blowing in (~15 mph)). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -511,8 +517,8 @@
         "pitcher_id": 607259,
         "pitcher_name": "Nick Martinez",
         "pitcher_hand": "R",
-        "ml": -110,
-        "implied": 52.4
+        "ml": -112,
+        "implied": 52.8
       },
       "home": {
         "team": "Astros",
@@ -523,12 +529,12 @@
         "pitcher_id": 681293,
         "pitcher_name": "Spencer Arrighetti",
         "pitcher_hand": "R",
-        "ml": -110,
-        "implied": 52.4
+        "ml": -108,
+        "implied": 51.9
       },
       "weather": {
-        "temp_f": 89.4,
-        "wind_mph": 8.8,
+        "temp_f": 89.3,
+        "wind_mph": 8.5,
         "wind_dir_deg": 150
       },
       "factors": [
@@ -550,8 +556,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -117,
-        "under": -103
+        "over": -119,
+        "under": -101
       },
       "total_read": {
         "side": "under",
@@ -597,9 +603,9 @@
         "implied": 52.8
       },
       "weather": {
-        "temp_f": 77.6,
-        "wind_mph": 7.8,
-        "wind_dir_deg": 231
+        "temp_f": 77.0,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 233
       },
       "factors": [
         {
@@ -620,14 +626,14 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -105,
-        "under": -115
+        "over": -103,
+        "under": -117
       },
       "total_read": {
-        "side": "under",
-        "strength": 1,
+        "side": null,
+        "strength": 0,
         "line": 8.0,
-        "note": "Total 8.0: leans UNDER \u2014 both starters suppress contact (avg 0.551 OPS-against). (Bullpen still to come.)"
+        "note": "Total 8.0: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.551 OPS-against); over: wind blowing out to center (~8 mph)). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -667,9 +673,9 @@
         "implied": 56.7
       },
       "weather": {
-        "temp_f": 91.0,
-        "wind_mph": 10.2,
-        "wind_dir_deg": 230
+        "temp_f": 91.1,
+        "wind_mph": 9.8,
+        "wind_dir_deg": 229
       },
       "factors": [
         {
@@ -736,7 +742,11 @@
         "ml": 139,
         "implied": 41.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 105.3,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 297
+      },
       "factors": [
         {
           "m": "~",
