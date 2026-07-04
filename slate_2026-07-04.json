@@ -1,6 +1,6 @@
 {
   "date": "2026-07-04",
-  "generated": "2026-07-04T09:33:04",
+  "generated": "2026-07-04T10:31:21",
   "games": [
     {
       "game_pk": 822716,
@@ -37,9 +37,9 @@
         "implied": 42.0
       },
       "weather": {
-        "temp_f": 95.9,
-        "wind_mph": 2.7,
-        "wind_dir_deg": 294
+        "temp_f": 96.2,
+        "wind_mph": 3.1,
+        "wind_dir_deg": 291
       },
       "factors": [
         {
@@ -91,8 +91,8 @@
         "pitcher_id": 805673,
         "pitcher_name": "Zebby Matthews",
         "pitcher_hand": "R",
-        "ml": 136,
-        "implied": 42.4
+        "ml": 135,
+        "implied": 42.6
       },
       "home": {
         "team": "Yankees",
@@ -103,13 +103,13 @@
         "pitcher_id": 694341,
         "pitcher_name": "Brendan Beck",
         "pitcher_hand": "R",
-        "ml": -164,
-        "implied": 62.1
+        "ml": -163,
+        "implied": 62.0
       },
       "weather": {
-        "temp_f": 96.7,
+        "temp_f": 96.3,
         "wind_mph": 11.0,
-        "wind_dir_deg": 288
+        "wind_dir_deg": 282
       },
       "factors": [
         {
@@ -130,8 +130,8 @@
       "read": null,
       "total": {
         "line": 10.0,
-        "over": -105,
-        "under": -114
+        "over": -103,
+        "under": -117
       },
       "total_read": {
         "side": "over",
@@ -177,9 +177,9 @@
         "implied": 50.5
       },
       "weather": {
-        "temp_f": 98.8,
-        "wind_mph": 5.1,
-        "wind_dir_deg": 146
+        "temp_f": 98.9,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 177
       },
       "factors": [
         {
@@ -247,9 +247,9 @@
         "implied": 62.0
       },
       "weather": {
-        "temp_f": 65.2,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 304
+        "temp_f": 66.0,
+        "wind_mph": 6.3,
+        "wind_dir_deg": 297
       },
       "factors": [
         {
@@ -317,9 +317,9 @@
         "implied": 55.0
       },
       "weather": {
-        "temp_f": 94.1,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 256
+        "temp_f": 93.4,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 253
       },
       "factors": [
         {
@@ -339,15 +339,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 9.5,
-        "over": 102,
-        "under": -122
+        "line": 9.0,
+        "over": -122,
+        "under": 102
       },
       "total_read": {
         "side": "over",
         "strength": 1,
-        "line": 9.5,
-        "note": "Total 9.5: leans OVER \u2014 Great American Ball Park plays hitter-friendly. (Bullpen still to come.)"
+        "line": 9.0,
+        "note": "Total 9.0: leans OVER \u2014 Great American Ball Park plays hitter-friendly. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -387,9 +387,9 @@
         "implied": 52.6
       },
       "weather": {
-        "temp_f": 89.5,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 220
+        "temp_f": 92.5,
+        "wind_mph": 9.8,
+        "wind_dir_deg": 150
       },
       "factors": [
         {
@@ -414,10 +414,10 @@
         "under": -124
       },
       "total_read": {
-        "side": "under",
-        "strength": 1,
+        "side": null,
+        "strength": 0,
         "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters suppress contact (avg 0.539 OPS-against). (Bullpen still to come.)"
+        "note": "Total 7.5: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.539 OPS-against); over: wind blowing out to center (~8 mph)). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -457,9 +457,9 @@
         "implied": 59.8
       },
       "weather": {
-        "temp_f": 80.6,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 340
+        "temp_f": 81.5,
+        "wind_mph": 6.3,
+        "wind_dir_deg": 328
       },
       "factors": [
         {
@@ -511,8 +511,8 @@
         "pitcher_id": 681517,
         "pitcher_name": "Kyle Leahy",
         "pitcher_hand": "R",
-        "ml": 135,
-        "implied": 42.6
+        "ml": 134,
+        "implied": 42.7
       },
       "home": {
         "team": "Cubs",
@@ -523,13 +523,13 @@
         "pitcher_id": 684007,
         "pitcher_name": "Shota Imanaga",
         "pitcher_hand": "L",
-        "ml": -163,
-        "implied": 62.0
+        "ml": -162,
+        "implied": 61.8
       },
       "weather": {
-        "temp_f": 71.4,
-        "wind_mph": 4.0,
-        "wind_dir_deg": 223
+        "temp_f": 70.5,
+        "wind_mph": 6.9,
+        "wind_dir_deg": 15
       },
       "factors": [
         {
@@ -549,15 +549,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.0,
-        "over": -119,
-        "under": -102
+        "line": 8.5,
+        "over": -101,
+        "under": -119
       },
       "total_read": {
         "side": null,
         "strength": 0,
-        "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "line": 8.5,
+        "note": "Total 8.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -597,9 +597,9 @@
         "implied": 63.6
       },
       "weather": {
-        "temp_f": 90.6,
-        "wind_mph": 5.6,
-        "wind_dir_deg": 304
+        "temp_f": 92.5,
+        "wind_mph": 5.9,
+        "wind_dir_deg": 331
       },
       "factors": [
         {
@@ -620,8 +620,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -114,
-        "under": -105
+        "over": -113,
+        "under": -106
       },
       "total_read": {
         "side": "under",
@@ -667,9 +667,9 @@
         "implied": 47.8
       },
       "weather": {
-        "temp_f": 89.2,
-        "wind_mph": 7.8,
-        "wind_dir_deg": 127
+        "temp_f": 91.6,
+        "wind_mph": 3.2,
+        "wind_dir_deg": 102
       },
       "factors": [
         {
@@ -737,9 +737,9 @@
         "implied": 43.5
       },
       "weather": {
-        "temp_f": 82.9,
-        "wind_mph": 9.6,
-        "wind_dir_deg": 25
+        "temp_f": 77.0,
+        "wind_mph": 5.9,
+        "wind_dir_deg": 205
       },
       "factors": [
         {
@@ -765,9 +765,9 @@
       },
       "total_read": {
         "side": "under",
-        "strength": 2,
+        "strength": 1,
         "line": 9.0,
-        "note": "Total 9.0: leans UNDER \u2014 both starters suppress contact (avg 0.657 OPS-against); wind blowing in (~9 mph). (Bullpen still to come.)"
+        "note": "Total 9.0: leans UNDER \u2014 both starters suppress contact (avg 0.657 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -807,9 +807,9 @@
         "implied": 42.0
       },
       "weather": {
-        "temp_f": 74.9,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 227
+        "temp_f": 77.0,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 228
       },
       "factors": [
         {
@@ -876,11 +876,7 @@
         "ml": 104,
         "implied": 49.0
       },
-      "weather": {
-        "temp_f": 88.7,
-        "wind_mph": 11.9,
-        "wind_dir_deg": 226
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -946,11 +942,7 @@
         "ml": 128,
         "implied": 43.9
       },
-      "weather": {
-        "temp_f": 105.6,
-        "wind_mph": 9.1,
-        "wind_dir_deg": 286
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -1016,11 +1008,7 @@
         "ml": -252,
         "implied": 71.6
       },
-      "weather": {
-        "temp_f": 68.7,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 253
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
