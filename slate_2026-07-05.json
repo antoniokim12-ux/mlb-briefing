@@ -1,6 +1,6 @@
 {
   "date": "2026-07-05",
-  "generated": "2026-07-05T08:25:28",
+  "generated": "2026-07-05T09:33:46",
   "games": [
     {
       "game_pk": 824902,
@@ -526,7 +526,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 96.3,
+        "wind_mph": 2.2,
+        "wind_dir_deg": 294
+      },
       "factors": [
         {
           "m": "~",
@@ -567,8 +571,8 @@
         "pitcher_id": 663554,
         "pitcher_name": "Casey Mize",
         "pitcher_hand": "R",
-        "ml": -118,
-        "implied": 54.1
+        "ml": -120,
+        "implied": 54.5
       },
       "home": {
         "team": "Rangers",
@@ -579,10 +583,14 @@
         "pitcher_id": 677958,
         "pitcher_name": "Kumar Rocker",
         "pitcher_hand": "R",
-        "ml": -102,
-        "implied": 50.5
+        "ml": -101,
+        "implied": 50.2
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 99.8,
+        "wind_mph": 3.8,
+        "wind_dir_deg": 230
+      },
       "factors": [
         {
           "m": "~",
@@ -602,8 +610,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -116,
-        "under": -104
+        "over": -114,
+        "under": -106
       },
       "total_read": {
         "side": "under",
@@ -912,11 +920,7 @@
         "ml": -225,
         "implied": 69.2
       },
-      "weather": {
-        "temp_f": 78.0,
-        "wind_mph": 9.5,
-        "wind_dir_deg": 251
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -982,11 +986,7 @@
         "ml": 135,
         "implied": 42.6
       },
-      "weather": {
-        "temp_f": 76.9,
-        "wind_mph": 7.8,
-        "wind_dir_deg": 233
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -1006,7 +1006,7 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -117,
+        "over": -116,
         "under": -103
       },
       "total_read": {
