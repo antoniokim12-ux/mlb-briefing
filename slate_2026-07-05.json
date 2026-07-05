@@ -1,6 +1,6 @@
 {
   "date": "2026-07-05",
-  "generated": "2026-07-05T09:33:46",
+  "generated": "2026-07-05T09:57:30",
   "games": [
     {
       "game_pk": 824902,
@@ -33,8 +33,8 @@
         "pitcher_id": 527048,
         "pitcher_name": "Mart\u00edn P\u00e9rez",
         "pitcher_hand": "L",
-        "ml": -120,
-        "implied": 54.5
+        "ml": -119,
+        "implied": 54.3
       },
       "weather": {
         "temp_f": 88.0,
@@ -61,7 +61,7 @@
       "total": {
         "line": 9.0,
         "over": -111,
-        "under": -109
+        "under": -108
       },
       "total_read": {
         "side": "under",
@@ -656,7 +656,11 @@
         "ml": 104,
         "implied": 49.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 96.0,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 66
+      },
       "factors": [
         {
           "m": "~",
@@ -722,7 +726,11 @@
         "ml": 104,
         "implied": 49.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 109.5,
+        "wind_mph": 4.7,
+        "wind_dir_deg": 253
+      },
       "factors": [
         {
           "m": "~",
@@ -1006,7 +1014,7 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -116,
+        "over": -117,
         "under": -103
       },
       "total_read": {
