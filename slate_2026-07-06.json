@@ -1,6 +1,6 @@
 {
   "date": "2026-07-06",
-  "generated": "2026-07-06T14:59:45",
+  "generated": "2026-07-06T19:05:44",
   "games": [
     {
       "game_pk": 824089,
@@ -9,7 +9,17 @@
       "lat": 39.051567,
       "lon": -94.480483,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          607208,
+          656941,
+          547180,
+          664761,
+          669016,
+          624641,
+          681082,
+          592663,
+          656537
+        ],
         "home": [
           657041,
           677951,
@@ -31,8 +41,8 @@
         "pitcher_id": 650911,
         "pitcher_name": "Cristopher S\u00e1nchez",
         "pitcher_hand": "L",
-        "ml": -205,
-        "implied": 67.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Royals",
@@ -43,13 +53,13 @@
         "pitcher_id": 702070,
         "pitcher_name": "Noah Cameron",
         "pitcher_hand": "L",
-        "ml": 168,
-        "implied": 37.3
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 89.3,
-        "wind_mph": 6.4,
-        "wind_dir_deg": 70
+        "temp_f": 87.1,
+        "wind_mph": 5.7,
+        "wind_dir_deg": 81
       },
       "factors": [
         {
@@ -57,30 +67,14 @@
           "side": "away",
           "label": "Handedness matchup",
           "text": "Cristopher S\u00e1nchez holds RHB to a 0.686 OPS; Royals project 78% R-handed today."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Phillies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 8.5,
-        "over": -103,
-        "under": -117
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 822958,
@@ -90,7 +84,17 @@
       "lon": -82.6525,
       "lineup_ids": {
         "away": [],
-        "home": []
+        "home": [
+          650490,
+          666018,
+          691406,
+          656775,
+          676356,
+          802415,
+          663743,
+          680700,
+          670764
+        ]
       },
       "away": {
         "team": "Yankees",
@@ -101,8 +105,8 @@
         "pitcher_id": 693645,
         "pitcher_name": "Cam Schlittler",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": -108,
+        "implied": 51.9
       },
       "home": {
         "team": "Rays",
@@ -113,21 +117,15 @@
         "pitcher_id": 643377,
         "pitcher_name": "Griffin Jax",
         "pitcher_hand": "R",
-        "ml": -115,
-        "implied": 53.5
+        "ml": -112,
+        "implied": 52.8
       },
       "weather": {
-        "temp_f": 89.4,
-        "wind_mph": 7.6,
-        "wind_dir_deg": 242
+        "temp_f": 86.8,
+        "wind_mph": 5.5,
+        "wind_dir_deg": 258
       },
       "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
         {
           "m": "~",
           "side": "none",
@@ -140,14 +138,14 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": 101,
-        "under": -122
+        "over": 103,
+        "under": -125
       },
       "total_read": {
         "side": "under",
         "strength": 1,
         "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters suppress contact (avg 0.658 OPS-against). (Bullpen still to come.)"
+        "note": "Total 7.5: leans UNDER \u2014 both starters suppress contact (avg 0.644 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -187,9 +185,9 @@
         "implied": 54.5
       },
       "weather": {
-        "temp_f": 92.5,
-        "wind_mph": 2.4,
-        "wind_dir_deg": 68
+        "temp_f": 84.3,
+        "wind_mph": 4.4,
+        "wind_dir_deg": 41
       },
       "factors": [
         {
@@ -253,13 +251,13 @@
         "pitcher_id": 625643,
         "pitcher_name": "Reynaldo L\u00f3pez",
         "pitcher_hand": "R",
-        "ml": -132,
-        "implied": 56.9
+        "ml": -131,
+        "implied": 56.7
       },
       "weather": {
-        "temp_f": 82.8,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 201
+        "temp_f": 82.3,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 215
       },
       "factors": [
         {
@@ -280,8 +278,8 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": -108,
-        "under": -111
+        "over": -110,
+        "under": -109
       },
       "total_read": {
         "side": null,
@@ -311,8 +309,8 @@
         "pitcher_id": 675660,
         "pitcher_name": "Shane Drohan",
         "pitcher_hand": "L",
-        "ml": -111,
-        "implied": 52.6
+        "ml": -109,
+        "implied": 52.2
       },
       "home": {
         "team": "Cardinals",
@@ -323,13 +321,13 @@
         "pitcher_id": 669160,
         "pitcher_name": "Dustin May",
         "pitcher_hand": "R",
-        "ml": -108,
-        "implied": 51.9
+        "ml": -110,
+        "implied": 52.4
       },
       "weather": {
-        "temp_f": 88.1,
-        "wind_mph": 5.8,
-        "wind_dir_deg": 13
+        "temp_f": 83.2,
+        "wind_mph": 4.5,
+        "wind_dir_deg": 9
       },
       "factors": [
         {
@@ -350,7 +348,7 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -112,
+        "over": -111,
         "under": -108
       },
       "total_read": {
@@ -397,9 +395,9 @@
         "implied": 55.4
       },
       "weather": {
-        "temp_f": 73.5,
-        "wind_mph": 9.3,
-        "wind_dir_deg": 316
+        "temp_f": 73.6,
+        "wind_mph": 9.1,
+        "wind_dir_deg": 320
       },
       "factors": [
         {
@@ -451,8 +449,8 @@
         "pitcher_id": 592332,
         "pitcher_name": "Kevin Gausman",
         "pitcher_hand": "R",
-        "ml": -114,
-        "implied": 53.3
+        "ml": -112,
+        "implied": 52.8
       },
       "home": {
         "team": "Giants",
@@ -463,13 +461,13 @@
         "pitcher_id": 694738,
         "pitcher_name": "Landen Roupp",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": -108,
+        "implied": 51.9
       },
       "weather": {
-        "temp_f": 59.3,
-        "wind_mph": 16.1,
-        "wind_dir_deg": 286
+        "temp_f": 60.0,
+        "wind_mph": 13.5,
+        "wind_dir_deg": 281
       },
       "factors": [
         {
@@ -483,27 +481,21 @@
           "side": "none",
           "label": "Lineups",
           "text": "Blue Jays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "16 mph wind (dir 286\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": {
-        "line": 7.5,
-        "over": -117,
-        "under": -103
+        "line": 8.0,
+        "over": -104,
+        "under": -116
       },
       "total_read": {
         "side": null,
         "strength": 0,
-        "line": 7.5,
-        "note": "Total 7.5: no clear lean \u2014 signals split (under: Oracle Park plays pitcher-friendly; over: wind blowing out to center (~14 mph)). (Bullpen still to come.)"
+        "line": 8.0,
+        "note": "Total 8.0: no clear lean \u2014 signals split (under: Oracle Park plays pitcher-friendly; over: wind blowing out to center (~13 mph)). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -527,8 +519,8 @@
         "pitcher_id": 607536,
         "pitcher_name": "Kyle Freeland",
         "pitcher_hand": "L",
-        "ml": 188,
-        "implied": 34.7
+        "ml": 198,
+        "implied": 33.6
       },
       "home": {
         "team": "Dodgers",
@@ -539,14 +531,10 @@
         "pitcher_id": 641778,
         "pitcher_name": "Eric Lauer",
         "pitcher_hand": "L",
-        "ml": -231,
-        "implied": 69.8
+        "ml": -245,
+        "implied": 71.0
       },
-      "weather": {
-        "temp_f": 73.0,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 245
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -565,15 +553,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 9.5,
-        "over": -114,
-        "under": -105
+        "line": 10.0,
+        "over": -103,
+        "under": -117
       },
       "total_read": {
         "side": "over",
         "strength": 1,
-        "line": 9.5,
-        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.839 OPS-against). (Bullpen still to come.)"
+        "line": 10.0,
+        "note": "Total 10.0: leans OVER \u2014 both starters look hittable (avg 0.839 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
