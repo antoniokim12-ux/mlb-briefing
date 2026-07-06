@@ -1,6 +1,6 @@
 {
   "date": "2026-07-06",
-  "generated": "2026-07-06T14:17:54",
+  "generated": "2026-07-06T14:44:31",
   "games": [
     {
       "game_pk": 824089,
@@ -21,8 +21,8 @@
         "pitcher_id": 650911,
         "pitcher_name": "Cristopher S\u00e1nchez",
         "pitcher_hand": "L",
-        "ml": -225,
-        "implied": 69.2
+        "ml": -205,
+        "implied": 67.2
       },
       "home": {
         "team": "Royals",
@@ -33,13 +33,13 @@
         "pitcher_id": 702070,
         "pitcher_name": "Noah Cameron",
         "pitcher_hand": "L",
-        "ml": 183,
-        "implied": 35.3
+        "ml": 168,
+        "implied": 37.3
       },
       "weather": {
         "temp_f": 89.6,
-        "wind_mph": 6.4,
-        "wind_dir_deg": 54
+        "wind_mph": 6.0,
+        "wind_dir_deg": 68
       },
       "factors": [
         {
@@ -59,15 +59,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.0,
-        "over": -118,
-        "under": -102
+        "line": 8.5,
+        "over": -104,
+        "under": -116
       },
       "total_read": {
         "side": "under",
         "strength": 1,
-        "line": 8.0,
-        "note": "Total 8.0: leans UNDER \u2014 both starters suppress contact (avg 0.661 OPS-against). (Bullpen still to come.)"
+        "line": 8.5,
+        "note": "Total 8.5: leans UNDER \u2014 both starters suppress contact (avg 0.661 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -108,8 +108,8 @@
       },
       "weather": {
         "temp_f": 89.4,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 237
+        "wind_mph": 8.3,
+        "wind_dir_deg": 251
       },
       "factors": [
         {
@@ -178,8 +178,8 @@
       },
       "weather": {
         "temp_f": 89.8,
-        "wind_mph": 8.4,
-        "wind_dir_deg": 22
+        "wind_mph": 6.8,
+        "wind_dir_deg": 44
       },
       "factors": [
         {
@@ -204,10 +204,10 @@
         "under": -118
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "over",
+        "strength": 1,
         "line": 10.0,
-        "note": "Total 10.0: no clear lean \u2014 signals split (over: both starters look hittable (avg 0.808 OPS-against); under: wind blowing in (~8 mph)). (Bullpen still to come.)"
+        "note": "Total 10.0: leans OVER \u2014 both starters look hittable (avg 0.808 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -248,8 +248,8 @@
       },
       "weather": {
         "temp_f": 83.4,
-        "wind_mph": 4.9,
-        "wind_dir_deg": 219
+        "wind_mph": 5.1,
+        "wind_dir_deg": 214
       },
       "factors": [
         {
@@ -271,7 +271,7 @@
       "total": {
         "line": 9.0,
         "over": -108,
-        "under": -112
+        "under": -111
       },
       "total_read": {
         "side": null,
@@ -318,8 +318,8 @@
       },
       "weather": {
         "temp_f": 88.2,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 18
+        "wind_mph": 7.0,
+        "wind_dir_deg": 22
       },
       "factors": [
         {
@@ -388,7 +388,7 @@
       },
       "weather": {
         "temp_f": 73.1,
-        "wind_mph": 9.2,
+        "wind_mph": 9.8,
         "wind_dir_deg": 315
       },
       "factors": [
@@ -458,8 +458,8 @@
       },
       "weather": {
         "temp_f": 59.1,
-        "wind_mph": 14.2,
-        "wind_dir_deg": 283
+        "wind_mph": 14.8,
+        "wind_dir_deg": 288
       },
       "factors": [
         {
@@ -526,11 +526,7 @@
         "ml": -231,
         "implied": 69.8
       },
-      "weather": {
-        "temp_f": 72.8,
-        "wind_mph": 7.5,
-        "wind_dir_deg": 247
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
