@@ -1,6 +1,6 @@
 {
   "date": "2026-07-06",
-  "generated": "2026-07-06T14:44:31",
+  "generated": "2026-07-06T14:59:45",
   "games": [
     {
       "game_pk": 824089,
@@ -10,7 +10,17 @@
       "lon": -94.480483,
       "lineup_ids": {
         "away": [],
-        "home": []
+        "home": [
+          657041,
+          677951,
+          521692,
+          695506,
+          679845,
+          516782,
+          686475,
+          571912,
+          668942
+        ]
       },
       "away": {
         "team": "Phillies",
@@ -37,16 +47,16 @@
         "implied": 37.3
       },
       "weather": {
-        "temp_f": 89.6,
-        "wind_mph": 6.0,
-        "wind_dir_deg": 68
+        "temp_f": 89.3,
+        "wind_mph": 6.4,
+        "wind_dir_deg": 70
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Royals lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Cristopher S\u00e1nchez holds RHB to a 0.686 OPS; Royals project 78% R-handed today."
         },
         {
           "m": "~",
@@ -55,19 +65,19 @@
           "text": "Phillies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -104,
-        "under": -116
+        "over": -103,
+        "under": -117
       },
       "total_read": {
-        "side": "under",
-        "strength": 1,
+        "side": null,
+        "strength": 0,
         "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters suppress contact (avg 0.661 OPS-against). (Bullpen still to come.)"
+        "note": "Total 8.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -108,8 +118,8 @@
       },
       "weather": {
         "temp_f": 89.4,
-        "wind_mph": 8.3,
-        "wind_dir_deg": 251
+        "wind_mph": 7.6,
+        "wind_dir_deg": 242
       },
       "factors": [
         {
@@ -177,9 +187,9 @@
         "implied": 54.5
       },
       "weather": {
-        "temp_f": 89.8,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 44
+        "temp_f": 92.5,
+        "wind_mph": 2.4,
+        "wind_dir_deg": 68
       },
       "factors": [
         {
@@ -247,9 +257,9 @@
         "implied": 56.9
       },
       "weather": {
-        "temp_f": 83.4,
-        "wind_mph": 5.1,
-        "wind_dir_deg": 214
+        "temp_f": 82.8,
+        "wind_mph": 5.7,
+        "wind_dir_deg": 201
       },
       "factors": [
         {
@@ -317,9 +327,9 @@
         "implied": 51.9
       },
       "weather": {
-        "temp_f": 88.2,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 22
+        "temp_f": 88.1,
+        "wind_mph": 5.8,
+        "wind_dir_deg": 13
       },
       "factors": [
         {
@@ -387,9 +397,9 @@
         "implied": 55.4
       },
       "weather": {
-        "temp_f": 73.1,
-        "wind_mph": 9.8,
-        "wind_dir_deg": 315
+        "temp_f": 73.5,
+        "wind_mph": 9.3,
+        "wind_dir_deg": 316
       },
       "factors": [
         {
@@ -457,9 +467,9 @@
         "implied": 51.2
       },
       "weather": {
-        "temp_f": 59.1,
-        "wind_mph": 14.8,
-        "wind_dir_deg": 288
+        "temp_f": 59.3,
+        "wind_mph": 16.1,
+        "wind_dir_deg": 286
       },
       "factors": [
         {
@@ -473,6 +483,12 @@
           "side": "none",
           "label": "Lineups",
           "text": "Blue Jays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "16 mph wind (dir 286\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -487,7 +503,7 @@
         "side": null,
         "strength": 0,
         "line": 7.5,
-        "note": "Total 7.5: no clear lean \u2014 signals split (under: Oracle Park plays pitcher-friendly; over: wind blowing out to center (~13 mph)). (Bullpen still to come.)"
+        "note": "Total 7.5: no clear lean \u2014 signals split (under: Oracle Park plays pitcher-friendly; over: wind blowing out to center (~14 mph)). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -526,7 +542,11 @@
         "ml": -231,
         "implied": 69.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 73.0,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 245
+      },
       "factors": [
         {
           "m": "~",
