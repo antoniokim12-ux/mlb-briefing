@@ -1,6 +1,6 @@
 {
   "date": "2026-07-08",
-  "generated": "2026-07-08T07:57:08",
+  "generated": "2026-07-08T09:46:16",
   "games": [
     {
       "game_pk": 823202,
@@ -37,8 +37,8 @@
         "implied": 50.5
       },
       "weather": {
-        "temp_f": 63.1,
-        "wind_mph": 12.3,
+        "temp_f": 62.8,
+        "wind_mph": 12.5,
         "wind_dir_deg": 273
       },
       "factors": [
@@ -107,9 +107,9 @@
         "implied": 56.7
       },
       "weather": {
-        "temp_f": 85.9,
-        "wind_mph": 4.6,
-        "wind_dir_deg": 169
+        "temp_f": 86.9,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 193
       },
       "factors": [
         {
@@ -129,15 +129,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 9.5,
-        "over": 100,
-        "under": -121
+        "line": 9.0,
+        "over": -123,
+        "under": 102
       },
       "total_read": {
         "side": null,
         "strength": 0,
-        "line": 9.5,
-        "note": "Total 9.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "line": 9.0,
+        "note": "Total 9.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -177,9 +177,9 @@
         "implied": 62.0
       },
       "weather": {
-        "temp_f": 88.1,
-        "wind_mph": 9.2,
-        "wind_dir_deg": 212
+        "temp_f": 87.8,
+        "wind_mph": 9.7,
+        "wind_dir_deg": 206
       },
       "factors": [
         {
@@ -200,14 +200,14 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": 100,
+        "over": 101,
         "under": -121
       },
       "total_read": {
         "side": null,
         "strength": 0,
         "line": 9.0,
-        "note": "Total 9.0: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.674 OPS-against); over: wind blowing out to center (~9 mph)). (Bullpen still to come.)"
+        "note": "Total 9.0: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.674 OPS-against); over: wind blowing out to center (~10 mph)). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -247,9 +247,9 @@
         "implied": 54.5
       },
       "weather": {
-        "temp_f": 89.4,
-        "wind_mph": 6.4,
-        "wind_dir_deg": 299
+        "temp_f": 90.0,
+        "wind_mph": 6.0,
+        "wind_dir_deg": 255
       },
       "factors": [
         {
@@ -318,8 +318,8 @@
       },
       "weather": {
         "temp_f": 85.1,
-        "wind_mph": 7.1,
-        "wind_dir_deg": 108
+        "wind_mph": 8.7,
+        "wind_dir_deg": 113
       },
       "factors": [
         {
@@ -387,9 +387,9 @@
         "implied": 56.7
       },
       "weather": {
-        "temp_f": 89.4,
-        "wind_mph": 9.7,
-        "wind_dir_deg": 257
+        "temp_f": 90.2,
+        "wind_mph": 9.8,
+        "wind_dir_deg": 259
       },
       "factors": [
         {
@@ -456,11 +456,7 @@
         "ml": -136,
         "implied": 57.6
       },
-      "weather": {
-        "temp_f": 85.3,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 187
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -511,8 +507,8 @@
         "pitcher_id": 674444,
         "pitcher_name": "Steven Cruz",
         "pitcher_hand": "R",
-        "ml": null,
-        "implied": null
+        "ml": 123,
+        "implied": 44.8
       },
       "home": {
         "team": "Mets",
@@ -523,14 +519,10 @@
         "pitcher_id": 681035,
         "pitcher_name": "Christian Scott",
         "pitcher_hand": "R",
-        "ml": null,
-        "implied": null
+        "ml": -148,
+        "implied": 59.7
       },
-      "weather": {
-        "temp_f": 76.5,
-        "wind_mph": 10.1,
-        "wind_dir_deg": 176
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -548,9 +540,19 @@
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": null,
-      "total_read": null,
-      "started": false
+      "total": {
+        "line": 9.0,
+        "over": -110,
+        "under": -110
+      },
+      "total_read": {
+        "side": null,
+        "strength": 0,
+        "line": 9.0,
+        "note": "Total 9.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+      },
+      "started": false,
+      "odds_book": "DraftKings"
     },
     {
       "game_pk": 824496,
@@ -571,8 +573,8 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": null,
-        "implied": null
+        "ml": 114,
+        "implied": 46.7
       },
       "home": {
         "team": "Reds",
@@ -583,14 +585,10 @@
         "pitcher_id": 695505,
         "pitcher_name": "Chase Burns",
         "pitcher_hand": "R",
-        "ml": null,
-        "implied": null
+        "ml": -137,
+        "implied": 57.8
       },
-      "weather": {
-        "temp_f": 90.5,
-        "wind_mph": 1.5,
-        "wind_dir_deg": 297
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -608,9 +606,19 @@
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": null,
-      "total_read": null,
-      "started": false
+      "total": {
+        "line": 9.0,
+        "over": -113,
+        "under": -107
+      },
+      "total_read": {
+        "side": "over",
+        "strength": 1,
+        "line": 9.0,
+        "note": "Total 9.0: leans OVER \u2014 Great American Ball Park plays hitter-friendly. (Bullpen still to come.)"
+      },
+      "started": false,
+      "odds_book": "DraftKings"
     },
     {
       "game_pk": 823684,
@@ -631,8 +639,8 @@
         "pitcher_id": 677944,
         "pitcher_name": "Slade Cecconi",
         "pitcher_hand": "R",
-        "ml": 112,
-        "implied": 47.2
+        "ml": 108,
+        "implied": 48.1
       },
       "home": {
         "team": "Twins",
@@ -643,14 +651,10 @@
         "pitcher_id": 687570,
         "pitcher_name": "Connor Prielipp",
         "pitcher_hand": "L",
-        "ml": -135,
-        "implied": 57.4
+        "ml": -131,
+        "implied": 56.7
       },
-      "weather": {
-        "temp_f": 75.0,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 335
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -670,8 +674,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -116,
-        "under": -103
+        "over": -119,
+        "under": -101
       },
       "total_read": {
         "side": null,
@@ -716,11 +720,7 @@
         "ml": -122,
         "implied": 55.0
       },
-      "weather": {
-        "temp_f": 81.2,
-        "wind_mph": 2.2,
-        "wind_dir_deg": 127
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -740,8 +740,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -106,
-        "under": -114
+        "over": -108,
+        "under": -111
       },
       "total_read": {
         "side": "under",
@@ -786,11 +786,7 @@
         "ml": 119,
         "implied": 45.7
       },
-      "weather": {
-        "temp_f": 90.4,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 188
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -856,7 +852,11 @@
         "ml": -163,
         "implied": 62.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 97.8,
+        "wind_mph": 9.2,
+        "wind_dir_deg": 173
+      },
       "factors": [
         {
           "m": "~",
@@ -880,10 +880,10 @@
         "under": -103
       },
       "total_read": {
-        "side": "under",
-        "strength": 1,
+        "side": null,
+        "strength": 0,
         "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters suppress contact (avg 0.677 OPS-against). (Bullpen still to come.)"
+        "note": "Total 7.5: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.677 OPS-against); over: wind blowing out to center (~9 mph)). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -907,8 +907,8 @@
         "pitcher_id": 687312,
         "pitcher_name": "Gabriel Hughes",
         "pitcher_hand": "R",
-        "ml": 194,
-        "implied": 34.0
+        "ml": 198,
+        "implied": 33.6
       },
       "home": {
         "team": "Dodgers",
@@ -919,10 +919,14 @@
         "pitcher_id": 808963,
         "pitcher_name": "Roki Sasaki",
         "pitcher_hand": "R",
-        "ml": -239,
-        "implied": 70.5
+        "ml": -245,
+        "implied": 71.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 77.8,
+        "wind_mph": 6.2,
+        "wind_dir_deg": 249
+      },
       "factors": [
         {
           "m": "~",
@@ -973,8 +977,8 @@
         "pitcher_id": 703615,
         "pitcher_name": "Jose Cabrera",
         "pitcher_hand": "R",
-        "ml": 123,
-        "implied": 44.8
+        "ml": 119,
+        "implied": 45.7
       },
       "home": {
         "team": "Padres",
@@ -985,10 +989,14 @@
         "pitcher_id": 650633,
         "pitcher_name": "Michael King",
         "pitcher_hand": "R",
-        "ml": -148,
-        "implied": 59.7
+        "ml": -144,
+        "implied": 59.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 72.5,
+        "wind_mph": 4.8,
+        "wind_dir_deg": 304
+      },
       "factors": [
         {
           "m": "~",
