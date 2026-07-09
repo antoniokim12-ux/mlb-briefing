@@ -1,6 +1,6 @@
 {
   "date": "2026-07-09",
-  "generated": "2026-07-09T08:56:49",
+  "generated": "2026-07-09T10:40:53",
   "games": [
     {
       "game_pk": 823359,
@@ -37,9 +37,9 @@
         "implied": 49.8
       },
       "weather": {
-        "temp_f": 84.6,
-        "wind_mph": 5.6,
-        "wind_dir_deg": 254
+        "temp_f": 83.1,
+        "wind_mph": 5.7,
+        "wind_dir_deg": 231
       },
       "factors": [
         {
@@ -107,9 +107,9 @@
         "implied": 59.8
       },
       "weather": {
-        "temp_f": 87.6,
-        "wind_mph": 8.9,
-        "wind_dir_deg": 212
+        "temp_f": 87.4,
+        "wind_mph": 10.0,
+        "wind_dir_deg": 207
       },
       "factors": [
         {
@@ -130,14 +130,14 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": -117,
-        "under": -103
+        "over": -118,
+        "under": -102
       },
       "total_read": {
         "side": "over",
         "strength": 1,
         "line": 9.0,
-        "note": "Total 9.0: leans OVER \u2014 wind blowing out to center (~9 mph). (Bullpen still to come.)"
+        "note": "Total 9.0: leans OVER \u2014 wind blowing out to center (~10 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -177,9 +177,9 @@
         "implied": 60.9
       },
       "weather": {
-        "temp_f": 94.8,
-        "wind_mph": 4.3,
-        "wind_dir_deg": 9
+        "temp_f": 94.7,
+        "wind_mph": 4.2,
+        "wind_dir_deg": 65
       },
       "factors": [
         {
@@ -231,8 +231,8 @@
         "pitcher_id": 656849,
         "pitcher_name": "David Peterson",
         "pitcher_hand": "L",
-        "ml": 108,
-        "implied": 48.1
+        "ml": 109,
+        "implied": 47.8
       },
       "home": {
         "team": "Orioles",
@@ -247,9 +247,9 @@
         "implied": 56.7
       },
       "weather": {
-        "temp_f": 86.2,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 202
+        "temp_f": 83.5,
+        "wind_mph": 7.3,
+        "wind_dir_deg": 191
       },
       "factors": [
         {
@@ -270,8 +270,8 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -110,
-        "under": -110
+        "over": -112,
+        "under": -108
       },
       "total_read": {
         "side": null,
@@ -318,8 +318,8 @@
       },
       "weather": {
         "temp_f": 78.6,
-        "wind_mph": 5.8,
-        "wind_dir_deg": 13
+        "wind_mph": 7.4,
+        "wind_dir_deg": 2
       },
       "factors": [
         {
@@ -387,9 +387,9 @@
         "implied": 53.9
       },
       "weather": {
-        "temp_f": 81.8,
-        "wind_mph": 7.7,
-        "wind_dir_deg": 216
+        "temp_f": 77.4,
+        "wind_mph": 7.1,
+        "wind_dir_deg": 226
       },
       "factors": [
         {
@@ -457,9 +457,9 @@
         "implied": 57.8
       },
       "weather": {
-        "temp_f": 87.9,
-        "wind_mph": 11.8,
-        "wind_dir_deg": 259
+        "temp_f": 84.5,
+        "wind_mph": 10.8,
+        "wind_dir_deg": 249
       },
       "factors": [
         {
@@ -484,10 +484,10 @@
         "under": -114
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "over",
+        "strength": 1,
         "line": 9.0,
-        "note": "Total 9.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "note": "Total 9.0: leans OVER \u2014 wind blowing out to center (~8 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -527,9 +527,9 @@
         "implied": 44.8
       },
       "weather": {
-        "temp_f": 86.7,
-        "wind_mph": 9.6,
-        "wind_dir_deg": 90
+        "temp_f": 86.5,
+        "wind_mph": 10.1,
+        "wind_dir_deg": 95
       },
       "factors": [
         {
@@ -596,11 +596,7 @@
         "ml": 134,
         "implied": 42.7
       },
-      "weather": {
-        "temp_f": 89.0,
-        "wind_mph": 6.9,
-        "wind_dir_deg": 237
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -666,11 +662,7 @@
         "ml": 113,
         "implied": 46.9
       },
-      "weather": {
-        "temp_f": 81.4,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 81
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -690,8 +682,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -110,
-        "under": -109
+        "over": -108,
+        "under": -112
       },
       "total_read": {
         "side": "under",
@@ -799,8 +791,8 @@
         "pitcher_id": 656288,
         "pitcher_name": "Griffin Canning",
         "pitcher_hand": "R",
-        "ml": -126,
-        "implied": 55.8
+        "ml": -125,
+        "implied": 55.6
       },
       "weather": null,
       "factors": [
@@ -822,8 +814,8 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": -101,
-        "under": -119
+        "over": -102,
+        "under": -118
       },
       "total_read": {
         "side": null,
@@ -853,8 +845,8 @@
         "pitcher_id": 663372,
         "pitcher_name": "Ryan Feltner",
         "pitcher_hand": "R",
-        "ml": null,
-        "implied": null
+        "ml": 118,
+        "implied": 45.9
       },
       "home": {
         "team": "Giants",
@@ -865,8 +857,8 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": null,
-        "implied": null
+        "ml": -143,
+        "implied": 58.8
       },
       "weather": null,
       "factors": [
@@ -886,9 +878,19 @@
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": null,
-      "total_read": null,
-      "started": false
+      "total": {
+        "line": 8.0,
+        "over": -119,
+        "under": -101
+      },
+      "total_read": {
+        "side": "under",
+        "strength": 1,
+        "line": 8.0,
+        "note": "Total 8.0: leans UNDER \u2014 Oracle Park plays pitcher-friendly. (Bullpen still to come.)"
+      },
+      "started": false,
+      "odds_book": "DraftKings"
     }
   ]
 }
