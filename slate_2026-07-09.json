@@ -1,6 +1,6 @@
 {
   "date": "2026-07-09",
-  "generated": "2026-07-09T20:35:32",
+  "generated": "2026-07-09T22:59:50",
   "games": [
     {
       "game_pk": 823359,
@@ -412,7 +412,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "42-48",
+        "record": "43-48",
         "pitcher_id": 663776,
         "pitcher_name": "Patrick Sandoval",
         "pitcher_hand": "L",
@@ -424,7 +424,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "47-44",
+        "record": "47-45",
         "pitcher_id": 641743,
         "pitcher_name": "Anthony Kay",
         "pitcher_hand": "L",
@@ -438,14 +438,20 @@
       },
       "factors": [
         {
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Patrick Sandoval holds RHB to a 0.481 OPS; White Sox project 71% R-handed today."
+        },
+        {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Anthony Kay is vulnerable to RHB (0.845 OPS) and Red Sox skew R-handed."
+          "text": "Anthony Kay is vulnerable to RHB (0.839 OPS) and Red Sox skew R-handed."
         }
       ],
       "lean": "away",
-      "weight": 1,
+      "weight": 2,
       "read": null,
       "total": null,
       "total_read": null,
@@ -490,8 +496,8 @@
         "pitcher_id": 660761,
         "pitcher_name": "Jos\u00e9 Suarez",
         "pitcher_hand": "L",
-        "ml": 109,
-        "implied": 47.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Tigers",
@@ -502,31 +508,21 @@
         "pitcher_id": 664285,
         "pitcher_name": "Framber Valdez",
         "pitcher_hand": "L",
-        "ml": -132,
-        "implied": 56.9
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 81.1,
-        "wind_mph": 9.7,
-        "wind_dir_deg": 296
+        "temp_f": 79.8,
+        "wind_mph": 6.4,
+        "wind_dir_deg": 260
       },
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": {
-        "line": 9.0,
-        "over": -110,
-        "under": -110
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 9.0,
-        "note": "Total 9.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 823846,
@@ -567,8 +563,8 @@
         "pitcher_id": 682243,
         "pitcher_name": "Bryce Miller",
         "pitcher_hand": "R",
-        "ml": -126,
-        "implied": 55.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Marlins",
@@ -579,13 +575,13 @@
         "pitcher_id": 676083,
         "pitcher_name": "Janson Junk",
         "pitcher_hand": "R",
-        "ml": 105,
-        "implied": 48.8
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 86.5,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 114
+        "temp_f": 86.8,
+        "wind_mph": 7.7,
+        "wind_dir_deg": 112
       },
       "factors": [
         {
@@ -598,19 +594,9 @@
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 8.0,
-        "over": -109,
-        "under": -110
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824494,
@@ -651,8 +637,8 @@
         "pitcher_id": 666200,
         "pitcher_name": "Jes\u00fas Luzardo",
         "pitcher_hand": "L",
-        "ml": -168,
-        "implied": 62.7
+        "ml": -175,
+        "implied": 63.6
       },
       "home": {
         "team": "Reds",
@@ -663,13 +649,13 @@
         "pitcher_id": 663903,
         "pitcher_name": "Brady Singer",
         "pitcher_hand": "R",
-        "ml": 139,
-        "implied": 41.8
+        "ml": 144,
+        "implied": 41.0
       },
       "weather": {
-        "temp_f": 86.6,
-        "wind_mph": 5.4,
-        "wind_dir_deg": 232
+        "temp_f": 85.7,
+        "wind_mph": 4.4,
+        "wind_dir_deg": 221
       },
       "factors": [
         {
@@ -684,8 +670,8 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -101,
-        "under": -119
+        "over": -102,
+        "under": -118
       },
       "total_read": {
         "side": "over",
@@ -750,7 +736,11 @@
         "ml": 113,
         "implied": 46.9
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 78.1,
+        "wind_mph": 4.6,
+        "wind_dir_deg": 219
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -776,7 +766,17 @@
       "lat": 32.747299,
       "lon": -97.081818,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          687263,
+          545361,
+          694384,
+          624585,
+          687093,
+          666139,
+          694203,
+          681351,
+          685133
+        ],
         "home": [
           679822,
           694671,
@@ -813,7 +813,11 @@
         "ml": -143,
         "implied": 58.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 97.8,
+        "wind_mph": 13.7,
+        "wind_dir_deg": 177
+      },
       "factors": [
         {
           "m": "+",
@@ -822,14 +826,14 @@
           "text": "Reid Detmers holds RHB to a 0.634 OPS; Rangers project 78% R-handed today."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Angels lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Nathan Eovaldi holds RHB to a 0.684 OPS; Angels project 67% R-handed today."
         }
       ],
-      "lean": "away",
-      "weight": 1,
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": {
         "line": 7.0,
@@ -837,10 +841,10 @@
         "under": 102
       },
       "total_read": {
-        "side": "under",
-        "strength": 1,
+        "side": null,
+        "strength": 0,
         "line": 7.0,
-        "note": "Total 7.0: leans UNDER \u2014 both starters suppress contact (avg 0.678 OPS-against). (Bullpen still to come.)"
+        "note": "Total 7.0: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.659 OPS-against); over: wind blowing out to center (~14 mph)). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -852,8 +856,28 @@
       "lat": 32.707861,
       "lon": -117.157278,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          606466,
+          672695,
+          682998,
+          672515,
+          596146,
+          666971,
+          571448,
+          694371,
+          694374
+        ],
+        "home": [
+          665487,
+          701538,
+          593428,
+          592518,
+          657757,
+          630105,
+          669134,
+          609280,
+          823550
+        ]
       },
       "away": {
         "team": "D-backs",
@@ -882,31 +906,25 @@
       "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Padres lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "D-backs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Griffin Canning holds RHB to a 0.621 OPS; D-backs project 71% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 9.0,
-        "over": 101,
-        "under": -122
+        "over": -101,
+        "under": -120
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "under",
+        "strength": 1,
         "line": 9.0,
-        "note": "Total 9.0: no clear lean \u2014 signals split (over: both starters look hittable (avg 0.828 OPS-against); under: Petco Park plays pitcher-friendly). (Bullpen still to come.)"
+        "note": "Total 9.0: leans UNDER \u2014 Petco Park plays pitcher-friendly. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -918,8 +936,28 @@
       "lat": 37.778383,
       "lon": -122.389448,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          664983,
+          691720,
+          694249,
+          696100,
+          681198,
+          671289,
+          650489,
+          678662,
+          690924
+        ],
+        "home": [
+          671218,
+          650333,
+          669477,
+          646240,
+          642715,
+          805811,
+          682674,
+          687551,
+          701852
+        ]
       },
       "away": {
         "team": "Rockies",
@@ -942,37 +980,24 @@
         "pitcher_id": 687931,
         "pitcher_name": "Carson Whisenhunt",
         "pitcher_hand": "L",
-        "ml": -131,
-        "implied": 56.7
+        "ml": -132,
+        "implied": 56.9
       },
       "weather": null,
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Giants lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rockies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": {
-        "line": 8.5,
-        "over": -117,
-        "under": -103
+        "line": 9.0,
+        "over": -111,
+        "under": -109
       },
       "total_read": {
         "side": "under",
-        "strength": 2,
-        "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters suppress contact (avg 0.652 OPS-against); Oracle Park plays pitcher-friendly. (Bullpen still to come.)"
+        "strength": 1,
+        "line": 9.0,
+        "note": "Total 9.0: leans UNDER \u2014 Oracle Park plays pitcher-friendly. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
