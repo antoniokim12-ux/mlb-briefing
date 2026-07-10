@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "generated": "2026-07-10T22:36:49",
+  "generated": "2026-07-10T22:45:16",
   "games": [
     {
       "game_pk": 824252,
@@ -41,8 +41,8 @@
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": "R",
-        "ml": -102,
-        "implied": 50.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Tigers",
@@ -53,13 +53,13 @@
         "pitcher_id": 656427,
         "pitcher_name": "Jack Flaherty",
         "pitcher_hand": "R",
-        "ml": -119,
-        "implied": 54.3
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 82.3,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 69
+        "temp_f": 81.4,
+        "wind_mph": 6.9,
+        "wind_dir_deg": 71
       },
       "factors": [
         {
@@ -72,19 +72,9 @@
       "lean": "home",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 9.0,
-        "over": -108,
-        "under": -111
-      },
-      "total_read": {
-        "side": "over",
-        "strength": 1,
-        "line": 9.0,
-        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.818 OPS-against). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 823357,
@@ -125,8 +115,8 @@
         "pitcher_id": 687075,
         "pitcher_name": "Brandon Sproat",
         "pitcher_hand": "R",
-        "ml": 104,
-        "implied": 49.0
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Pirates",
@@ -137,31 +127,21 @@
         "pitcher_id": 677952,
         "pitcher_name": "Braxton Ashcraft",
         "pitcher_hand": "R",
-        "ml": -125,
-        "implied": 55.6
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 73.4,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 341
+        "temp_f": 76.5,
+        "wind_mph": 4.4,
+        "wind_dir_deg": 246
       },
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": {
-        "line": 8.5,
-        "over": -105,
-        "under": -114
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 822709,
@@ -218,9 +198,9 @@
         "implied": 42.7
       },
       "weather": {
-        "temp_f": 83.7,
-        "wind_mph": 4.5,
-        "wind_dir_deg": 252
+        "temp_f": 82.5,
+        "wind_mph": 3.2,
+        "wind_dir_deg": 12
       },
       "factors": [
         {
@@ -302,9 +282,9 @@
         "implied": 59.8
       },
       "weather": {
-        "temp_f": 81.6,
-        "wind_mph": 3.4,
-        "wind_dir_deg": 278
+        "temp_f": 81.2,
+        "wind_mph": 2.9,
+        "wind_dir_deg": 231
       },
       "factors": [],
       "lean": "even",
@@ -379,8 +359,8 @@
         "implied": 50.7
       },
       "weather": {
-        "temp_f": 84.0,
-        "wind_mph": 4.8,
+        "temp_f": 83.6,
+        "wind_mph": 4.4,
         "wind_dir_deg": 229
       },
       "factors": [
@@ -447,8 +427,8 @@
         "pitcher_id": 622491,
         "pitcher_name": "Luis Castillo",
         "pitcher_hand": "R",
-        "ml": 104,
-        "implied": 49.0
+        "ml": 108,
+        "implied": 48.1
       },
       "home": {
         "team": "Rays",
@@ -459,13 +439,13 @@
         "pitcher_id": 607259,
         "pitcher_name": "Nick Martinez",
         "pitcher_hand": "R",
-        "ml": -125,
-        "implied": 55.6
+        "ml": -131,
+        "implied": 56.7
       },
       "weather": {
-        "temp_f": 89.1,
-        "wind_mph": 9.7,
-        "wind_dir_deg": 263
+        "temp_f": 89.6,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 246
       },
       "factors": [
         {
@@ -537,8 +517,8 @@
         "pitcher_id": 800048,
         "pitcher_name": "Parker Messick",
         "pitcher_hand": "L",
-        "ml": 101,
-        "implied": 49.8
+        "ml": 104,
+        "implied": 49.0
       },
       "home": {
         "team": "Marlins",
@@ -549,14 +529,10 @@
         "pitcher_id": 645261,
         "pitcher_name": "Sandy Alcantara",
         "pitcher_hand": "R",
-        "ml": -122,
-        "implied": 55.0
+        "ml": -126,
+        "implied": 55.8
       },
-      "weather": {
-        "temp_f": 85.6,
-        "wind_mph": 10.8,
-        "wind_dir_deg": 95
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -636,11 +612,7 @@
         "ml": -149,
         "implied": 59.8
       },
-      "weather": {
-        "temp_f": 85.3,
-        "wind_mph": 7.1,
-        "wind_dir_deg": 252
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -720,11 +692,7 @@
         "ml": -175,
         "implied": 63.6
       },
-      "weather": {
-        "temp_f": 74.1,
-        "wind_mph": 9.6,
-        "wind_dir_deg": 4
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -735,10 +703,10 @@
         "under": 100
       },
       "total_read": {
-        "side": "under",
-        "strength": 1,
+        "side": null,
+        "strength": 0,
         "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 wind blowing in (~8 mph). (Bullpen still to come.)"
+        "note": "Total 8.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -782,8 +750,8 @@
         "pitcher_id": 686613,
         "pitcher_name": "Hunter Brown",
         "pitcher_hand": "R",
-        "ml": -137,
-        "implied": 57.8
+        "ml": -143,
+        "implied": 58.8
       },
       "home": {
         "team": "Rangers",
@@ -794,14 +762,10 @@
         "pitcher_id": 615698,
         "pitcher_name": "Cal Quantrill",
         "pitcher_hand": "R",
-        "ml": 114,
-        "implied": 46.7
+        "ml": 119,
+        "implied": 45.7
       },
-      "weather": {
-        "temp_f": 95.7,
-        "wind_mph": 11.7,
-        "wind_dir_deg": 177
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -819,10 +783,10 @@
         "under": -105
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "under",
+        "strength": 1,
         "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.640 OPS-against); over: wind blowing out to center (~12 mph)). (Bullpen still to come.)"
+        "note": "Total 8.5: leans UNDER \u2014 both starters suppress contact (avg 0.640 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -1000,7 +964,17 @@
       "lat": 32.707861,
       "lon": -117.157278,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          676391,
+          665489,
+          672960,
+          543807,
+          672386,
+          662139,
+          649966,
+          664702,
+          682729
+        ],
         "home": [
           665487,
           701538,
@@ -1022,8 +996,8 @@
         "pitcher_id": 669456,
         "pitcher_name": "Shane Bieber",
         "pitcher_hand": "R",
-        "ml": 104,
-        "implied": 49.0
+        "ml": -101,
+        "implied": 50.2
       },
       "home": {
         "team": "Padres",
@@ -1034,10 +1008,14 @@
         "pitcher_id": 676664,
         "pitcher_name": "JP Sears",
         "pitcher_hand": "L",
-        "ml": -125,
-        "implied": 55.6
+        "ml": -120,
+        "implied": 54.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 67.0,
+        "wind_mph": 7.0,
+        "wind_dir_deg": 217
+      },
       "factors": [
         {
           "m": "-",
@@ -1046,25 +1024,25 @@
           "text": "Shane Bieber is vulnerable to RHB (1.335 OPS) and Padres skew R-handed."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Blue Jays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "JP Sears is vulnerable to RHB (0.811 OPS) and Blue Jays skew R-handed."
         }
       ],
-      "lean": "home",
-      "weight": 1,
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -110,
+        "over": -111,
         "under": -109
       },
       "total_read": {
         "side": null,
         "strength": 0,
         "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 signals split (over: both starters look hittable (avg 1.022 OPS-against); under: Petco Park plays pitcher-friendly). (Bullpen still to come.)"
+        "note": "Total 8.5: no clear lean \u2014 signals split (over: both starters look hittable (avg 1.073 OPS-against); under: Petco Park plays pitcher-friendly). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -1123,7 +1101,11 @@
         "ml": -218,
         "implied": 68.6
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 74.4,
+        "wind_mph": 5.7,
+        "wind_dir_deg": 244
+      },
       "factors": [
         {
           "m": "-",
@@ -1203,7 +1185,11 @@
         "ml": -161,
         "implied": 61.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 60.6,
+        "wind_mph": 13.8,
+        "wind_dir_deg": 287
+      },
       "factors": [
         {
           "m": "-",
@@ -1221,10 +1207,10 @@
         "under": -106
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "over",
+        "strength": 2,
         "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 signals split (over: both starters look hittable (avg 0.896 OPS-against); under: Oracle Park plays pitcher-friendly). (Bullpen still to come.)"
+        "note": "Total 8.0: leans OVER \u2014 both starters look hittable (avg 0.896 OPS-against); wind blowing out to center (~12 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
