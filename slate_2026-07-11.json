@@ -1,6 +1,6 @@
 {
   "date": "2026-07-11",
-  "generated": "2026-07-11T07:28:01",
+  "generated": "2026-07-11T09:02:10",
   "games": [
     {
       "game_pk": 823357,
@@ -38,8 +38,8 @@
       },
       "weather": {
         "temp_f": 78.3,
-        "wind_mph": 1.6,
-        "wind_dir_deg": 344
+        "wind_mph": 2.6,
+        "wind_dir_deg": 340
       },
       "factors": [
         {
@@ -107,9 +107,9 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 83.6,
-        "wind_mph": 4.7,
-        "wind_dir_deg": 267
+        "temp_f": 83.4,
+        "wind_mph": 3.4,
+        "wind_dir_deg": 293
       },
       "factors": [
         {
@@ -177,9 +177,9 @@
         "implied": 64.2
       },
       "weather": {
-        "temp_f": 88.6,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 187
+        "temp_f": 88.4,
+        "wind_mph": 5.5,
+        "wind_dir_deg": 192
       },
       "factors": [
         {
@@ -247,9 +247,9 @@
         "implied": 51.2
       },
       "weather": {
-        "temp_f": 77.3,
-        "wind_mph": 10.5,
-        "wind_dir_deg": 42
+        "temp_f": 76.9,
+        "wind_mph": 12.4,
+        "wind_dir_deg": 28
       },
       "factors": [
         {
@@ -277,7 +277,7 @@
         "side": "under",
         "strength": 1,
         "line": 9.0,
-        "note": "Total 9.0: leans UNDER \u2014 wind blowing in (~10 mph). (Bullpen still to come.)"
+        "note": "Total 9.0: leans UNDER \u2014 wind blowing in (~12 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -317,8 +317,8 @@
         "implied": 61.1
       },
       "weather": {
-        "temp_f": 72.1,
-        "wind_mph": 10.5,
+        "temp_f": 71.7,
+        "wind_mph": 11.0,
         "wind_dir_deg": 274
       },
       "factors": [
@@ -347,7 +347,7 @@
         "side": "over",
         "strength": 2,
         "line": 8.5,
-        "note": "Total 8.5: leans OVER \u2014 both starters look hittable (avg 0.865 OPS-against); wind blowing out to center (~10 mph). (Bullpen still to come.)"
+        "note": "Total 8.5: leans OVER \u2014 both starters look hittable (avg 0.865 OPS-against); wind blowing out to center (~11 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -387,9 +387,9 @@
         "implied": 38.0
       },
       "weather": {
-        "temp_f": 87.3,
-        "wind_mph": 7.3,
-        "wind_dir_deg": 326
+        "temp_f": 87.1,
+        "wind_mph": 6.0,
+        "wind_dir_deg": 338
       },
       "factors": [
         {
@@ -441,8 +441,8 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": null,
-        "implied": null
+        "ml": 123,
+        "implied": 44.8
       },
       "home": {
         "team": "Mets",
@@ -453,14 +453,10 @@
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": "R",
-        "ml": null,
-        "implied": null
+        "ml": -149,
+        "implied": 59.8
       },
-      "weather": {
-        "temp_f": 84.6,
-        "wind_mph": 6.4,
-        "wind_dir_deg": 70
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -478,9 +474,19 @@
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": null,
-      "total_read": null,
-      "started": false
+      "total": {
+        "line": 8.5,
+        "over": -110,
+        "under": -110
+      },
+      "total_read": {
+        "side": null,
+        "strength": 0,
+        "line": 8.5,
+        "note": "Total 8.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+      },
+      "started": false,
+      "odds_book": "DraftKings"
     },
     {
       "game_pk": 822953,
@@ -516,11 +522,7 @@
         "ml": -114,
         "implied": 53.3
       },
-      "weather": {
-        "temp_f": 88.1,
-        "wind_mph": 12.4,
-        "wind_dir_deg": 185
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -544,10 +546,10 @@
         "under": -118
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "under",
+        "strength": 1,
         "line": 7.5,
-        "note": "Total 7.5: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.675 OPS-against); over: wind blowing out to center (~9 mph)). (Bullpen still to come.)"
+        "note": "Total 7.5: leans UNDER \u2014 both starters suppress contact (avg 0.675 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -571,8 +573,8 @@
         "pitcher_id": 676440,
         "pitcher_name": "Tanner Bibee",
         "pitcher_hand": "R",
-        "ml": 124,
-        "implied": 44.6
+        "ml": 129,
+        "implied": 43.7
       },
       "home": {
         "team": "Marlins",
@@ -583,14 +585,10 @@
         "pitcher_id": 691587,
         "pitcher_name": "Eury P\u00e9rez",
         "pitcher_hand": "R",
-        "ml": -149,
-        "implied": 59.8
+        "ml": -155,
+        "implied": 60.8
       },
-      "weather": {
-        "temp_f": 86.4,
-        "wind_mph": 5.8,
-        "wind_dir_deg": 88
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -610,8 +608,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -103,
-        "under": -117
+        "over": -102,
+        "under": -118
       },
       "total_read": {
         "side": null,
@@ -641,8 +639,8 @@
         "pitcher_id": 650911,
         "pitcher_name": "Cristopher S\u00e1nchez",
         "pitcher_hand": "L",
-        "ml": -137,
-        "implied": 57.8
+        "ml": -135,
+        "implied": 57.4
       },
       "home": {
         "team": "Tigers",
@@ -653,14 +651,10 @@
         "pitcher_id": 663554,
         "pitcher_name": "Casey Mize",
         "pitcher_hand": "R",
-        "ml": 114,
-        "implied": 46.7
+        "ml": 112,
+        "implied": 47.2
       },
-      "weather": {
-        "temp_f": 85.9,
-        "wind_mph": 9.0,
-        "wind_dir_deg": 42
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -685,9 +679,9 @@
       },
       "total_read": {
         "side": "under",
-        "strength": 2,
+        "strength": 1,
         "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters suppress contact (avg 0.583 OPS-against); wind blowing in (~9 mph). (Bullpen still to come.)"
+        "note": "Total 7.5: leans UNDER \u2014 both starters suppress contact (avg 0.583 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -711,8 +705,8 @@
         "pitcher_id": 702070,
         "pitcher_name": "Noah Cameron",
         "pitcher_hand": "L",
-        "ml": 130,
-        "implied": 43.5
+        "ml": 128,
+        "implied": 43.9
       },
       "home": {
         "team": "Orioles",
@@ -723,14 +717,10 @@
         "pitcher_id": 680694,
         "pitcher_name": "Kyle Bradish",
         "pitcher_hand": "R",
-        "ml": -157,
-        "implied": 61.1
+        "ml": -155,
+        "implied": 60.8
       },
-      "weather": {
-        "temp_f": 83.7,
-        "wind_mph": 2.8,
-        "wind_dir_deg": 104
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -797,8 +787,8 @@
         "implied": 54.5
       },
       "weather": {
-        "temp_f": 96.9,
-        "wind_mph": 11.6,
+        "temp_f": 97.3,
+        "wind_mph": 11.2,
         "wind_dir_deg": 181
       },
       "factors": [
@@ -827,7 +817,7 @@
         "side": null,
         "strength": 0,
         "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.661 OPS-against); over: wind blowing out to center (~12 mph)). (Bullpen still to come.)"
+        "note": "Total 8.5: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.661 OPS-against); over: wind blowing out to center (~11 mph)). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -851,8 +841,8 @@
         "pitcher_id": 665871,
         "pitcher_name": "Javier Assad",
         "pitcher_hand": "R",
-        "ml": -122,
-        "implied": 55.0
+        "ml": -121,
+        "implied": 54.8
       },
       "home": {
         "team": "Reds",
@@ -863,10 +853,14 @@
         "pitcher_id": 666157,
         "pitcher_name": "Nick Lodolo",
         "pitcher_hand": "L",
-        "ml": 101,
-        "implied": 49.8
+        "ml": 100,
+        "implied": 50.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.3,
+        "wind_mph": 3.7,
+        "wind_dir_deg": 38
+      },
       "factors": [
         {
           "m": "~",
@@ -917,8 +911,8 @@
         "pitcher_id": 625643,
         "pitcher_name": "Reynaldo L\u00f3pez",
         "pitcher_hand": "R",
-        "ml": -119,
-        "implied": 54.3
+        "ml": -120,
+        "implied": 54.5
       },
       "home": {
         "team": "Cardinals",
@@ -929,10 +923,14 @@
         "pitcher_id": 669461,
         "pitcher_name": "Matthew Liberatore",
         "pitcher_hand": "L",
-        "ml": -102,
-        "implied": 50.5
+        "ml": -101,
+        "implied": 50.2
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 75.0,
+        "wind_mph": 8.0,
+        "wind_dir_deg": 36
+      },
       "factors": [
         {
           "m": "~",
@@ -952,8 +950,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -121,
-        "under": 101
+        "over": -109,
+        "under": -111
       },
       "total_read": {
         "side": "over",
@@ -983,8 +981,8 @@
         "pitcher_id": 702056,
         "pitcher_name": "Trey Yesavage",
         "pitcher_hand": "R",
-        "ml": 101,
-        "implied": 49.8
+        "ml": -101,
+        "implied": 50.2
       },
       "home": {
         "team": "Padres",
@@ -995,10 +993,14 @@
         "pitcher_id": 621111,
         "pitcher_name": "Walker Buehler",
         "pitcher_hand": "R",
-        "ml": -122,
-        "implied": 55.0
+        "ml": -120,
+        "implied": 54.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 69.9,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 289
+      },
       "factors": [
         {
           "m": "~",
@@ -1049,8 +1051,8 @@
         "pitcher_id": 694297,
         "pitcher_name": "Brandon Pfaadt",
         "pitcher_hand": "R",
-        "ml": 230,
-        "implied": 30.3
+        "ml": 226,
+        "implied": 30.7
       },
       "home": {
         "team": "Dodgers",
@@ -1061,10 +1063,14 @@
         "pitcher_id": 808967,
         "pitcher_name": "Yoshinobu Yamamoto",
         "pitcher_hand": "R",
-        "ml": -287,
-        "implied": 74.2
+        "ml": -282,
+        "implied": 73.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 75.2,
+        "wind_mph": 7.8,
+        "wind_dir_deg": 178
+      },
       "factors": [
         {
           "m": "~",
@@ -1084,8 +1090,8 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": -108,
-        "under": -111
+        "over": -107,
+        "under": -112
       },
       "total_read": {
         "side": "under",
