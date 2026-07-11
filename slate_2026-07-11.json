@@ -1,6 +1,6 @@
 {
   "date": "2026-07-11",
-  "generated": "2026-07-11T07:20:21",
+  "generated": "2026-07-11T07:28:01",
   "games": [
     {
       "game_pk": 823357,
@@ -586,7 +586,11 @@
         "ml": -149,
         "implied": 59.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 86.4,
+        "wind_mph": 5.8,
+        "wind_dir_deg": 88
+      },
       "factors": [
         {
           "m": "~",
@@ -652,7 +656,11 @@
         "ml": 114,
         "implied": 46.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 85.9,
+        "wind_mph": 9.0,
+        "wind_dir_deg": 42
+      },
       "factors": [
         {
           "m": "~",
@@ -677,9 +685,9 @@
       },
       "total_read": {
         "side": "under",
-        "strength": 1,
+        "strength": 2,
         "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters suppress contact (avg 0.583 OPS-against). (Bullpen still to come.)"
+        "note": "Total 7.5: leans UNDER \u2014 both starters suppress contact (avg 0.583 OPS-against); wind blowing in (~9 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -703,8 +711,8 @@
         "pitcher_id": 702070,
         "pitcher_name": "Noah Cameron",
         "pitcher_hand": "L",
-        "ml": 135,
-        "implied": 42.6
+        "ml": 130,
+        "implied": 43.5
       },
       "home": {
         "team": "Orioles",
@@ -715,10 +723,14 @@
         "pitcher_id": 680694,
         "pitcher_name": "Kyle Bradish",
         "pitcher_hand": "R",
-        "ml": -163,
-        "implied": 62.0
+        "ml": -157,
+        "implied": 61.1
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 83.7,
+        "wind_mph": 2.8,
+        "wind_dir_deg": 104
+      },
       "factors": [
         {
           "m": "~",
@@ -854,11 +866,7 @@
         "ml": 101,
         "implied": 49.8
       },
-      "weather": {
-        "temp_f": 74.8,
-        "wind_mph": 12.1,
-        "wind_dir_deg": 5
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -882,10 +890,10 @@
         "under": -108
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "over",
+        "strength": 1,
         "line": 10.0,
-        "note": "Total 10.0: no clear lean \u2014 signals split (over: Great American Ball Park plays hitter-friendly; under: wind blowing in (~10 mph)). (Bullpen still to come.)"
+        "note": "Total 10.0: leans OVER \u2014 Great American Ball Park plays hitter-friendly. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -924,11 +932,7 @@
         "ml": -102,
         "implied": 50.5
       },
-      "weather": {
-        "temp_f": 78.8,
-        "wind_mph": 9.3,
-        "wind_dir_deg": 11
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -952,10 +956,10 @@
         "under": 101
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "over",
+        "strength": 1,
         "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 signals split (over: both starters look hittable (avg 0.778 OPS-against); under: wind blowing in (~9 mph)). (Bullpen still to come.)"
+        "note": "Total 8.5: leans OVER \u2014 both starters look hittable (avg 0.778 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
