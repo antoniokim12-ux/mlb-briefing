@@ -1,6 +1,6 @@
 {
   "date": "2026-07-12",
-  "generated": "2026-07-12T08:58:05",
+  "generated": "2026-07-12T09:33:09",
   "games": [
     {
       "game_pk": 823358,
@@ -410,8 +410,8 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -101,
-        "under": -119
+        "over": -102,
+        "under": -118
       },
       "total_read": {
         "side": "under",
@@ -526,7 +526,11 @@
         "ml": -114,
         "implied": 53.3
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 87.5,
+        "wind_mph": 4.9,
+        "wind_dir_deg": 93
+      },
       "factors": [
         {
           "m": "~",
@@ -592,7 +596,11 @@
         "ml": -136,
         "implied": 57.6
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 91.2,
+        "wind_mph": 8.2,
+        "wind_dir_deg": 225
+      },
       "factors": [
         {
           "m": "~",
@@ -643,8 +651,8 @@
         "pitcher_id": 669372,
         "pitcher_name": "J.T. Ginn",
         "pitcher_hand": "R",
-        "ml": -102,
-        "implied": 50.5
+        "ml": -105,
+        "implied": 51.2
       },
       "home": {
         "team": "White Sox",
@@ -655,10 +663,14 @@
         "pitcher_id": 702273,
         "pitcher_name": "Noah Schultz",
         "pitcher_hand": "L",
-        "ml": -119,
-        "implied": 54.3
+        "ml": -115,
+        "implied": 53.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 78.3,
+        "wind_mph": 8.5,
+        "wind_dir_deg": 45
+      },
       "factors": [
         {
           "m": "~",
@@ -678,14 +690,14 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -114,
-        "under": -105
+        "over": -115,
+        "under": -104
       },
       "total_read": {
         "side": "under",
-        "strength": 1,
+        "strength": 2,
         "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters suppress contact (avg 0.664 OPS-against). (Bullpen still to come.)"
+        "note": "Total 8.5: leans UNDER \u2014 both starters suppress contact (avg 0.664 OPS-against); wind blowing in (~8 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -724,7 +736,11 @@
         "ml": -136,
         "implied": 57.6
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 85.8,
+        "wind_mph": 6.9,
+        "wind_dir_deg": 13
+      },
       "factors": [
         {
           "m": "~",
@@ -790,7 +806,11 @@
         "ml": -136,
         "implied": 57.6
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 91.8,
+        "wind_mph": 4.5,
+        "wind_dir_deg": 200
+      },
       "factors": [
         {
           "m": "~",
@@ -856,7 +876,11 @@
         "ml": -144,
         "implied": 59.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 75.4,
+        "wind_mph": 12.3,
+        "wind_dir_deg": 258
+      },
       "factors": [
         {
           "m": "~",
@@ -880,10 +904,10 @@
         "under": -102
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "over",
+        "strength": 2,
         "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 signals split (over: both starters look hittable (avg 0.806 OPS-against); under: Oracle Park plays pitcher-friendly). (Bullpen still to come.)"
+        "note": "Total 8.5: leans OVER \u2014 both starters look hittable (avg 0.806 OPS-against); wind blowing out to center (~12 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -992,11 +1016,7 @@
         "ml": 108,
         "implied": 48.1
       },
-      "weather": {
-        "temp_f": 79.4,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 239
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -1016,8 +1036,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -101,
-        "under": -119
+        "over": -102,
+        "under": -118
       },
       "total_read": {
         "side": "under",
