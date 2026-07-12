@@ -1,6 +1,6 @@
 {
   "date": "2026-07-12",
-  "generated": "2026-07-12T22:47:42",
+  "generated": "2026-07-12T23:39:54",
   "games": [
     {
       "game_pk": 823358,
@@ -524,11 +524,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 82.0,
-        "wind_mph": 9.3,
-        "wind_dir_deg": 70
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -598,11 +594,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 88.9,
-        "wind_mph": 5.5,
-        "wind_dir_deg": 104
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -672,11 +664,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 87.2,
-        "wind_mph": 10.2,
-        "wind_dir_deg": 216
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -820,11 +808,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 84.9,
-        "wind_mph": 7.8,
-        "wind_dir_deg": 357
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -964,7 +948,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 75.8,
+        "wind_mph": 2.9,
+        "wind_dir_deg": 279
+      },
       "factors": [
         {
           "m": "-",
@@ -1015,7 +1003,7 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "48-47",
+        "record": "49-47",
         "pitcher_id": 683352,
         "pitcher_name": "Mitch Bratt",
         "pitcher_hand": "L",
@@ -1027,14 +1015,18 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "61-35",
+        "record": "61-36",
         "pitcher_id": 686218,
         "pitcher_name": "Emmet Sheehan",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.9,
+        "wind_mph": 7.2,
+        "wind_dir_deg": 210
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1097,7 +1089,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 77.1,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 311
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
