@@ -1,6 +1,6 @@
 {
   "date": "2026-07-12",
-  "generated": "2026-07-12T07:40:39",
+  "generated": "2026-07-12T08:58:05",
   "games": [
     {
       "game_pk": 823358,
@@ -37,9 +37,9 @@
         "implied": 55.8
       },
       "weather": {
-        "temp_f": 81.0,
-        "wind_mph": 4.7,
-        "wind_dir_deg": 90
+        "temp_f": 81.1,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 77
       },
       "factors": [
         {
@@ -91,8 +91,8 @@
         "pitcher_id": 607625,
         "pitcher_name": "Seth Lugo",
         "pitcher_hand": "R",
-        "ml": 128,
-        "implied": 43.9
+        "ml": 129,
+        "implied": 43.7
       },
       "home": {
         "team": "Orioles",
@@ -103,13 +103,13 @@
         "pitcher_id": 669358,
         "pitcher_name": "Shane Baz",
         "pitcher_hand": "R",
-        "ml": -155,
-        "implied": 60.8
+        "ml": -156,
+        "implied": 60.9
       },
       "weather": {
-        "temp_f": 82.9,
-        "wind_mph": 5.5,
-        "wind_dir_deg": 102
+        "temp_f": 81.1,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 85
       },
       "factors": [
         {
@@ -130,8 +130,8 @@
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -105,
-        "under": -114
+        "over": -109,
+        "under": -110
       },
       "total_read": {
         "side": "over",
@@ -177,9 +177,9 @@
         "implied": 51.2
       },
       "weather": {
-        "temp_f": 84.9,
-        "wind_mph": 7.7,
-        "wind_dir_deg": 73
+        "temp_f": 84.1,
+        "wind_mph": 8.0,
+        "wind_dir_deg": 77
       },
       "factors": [
         {
@@ -199,15 +199,15 @@
       "weight": 0,
       "read": null,
       "total": {
-        "line": 9.5,
-        "over": 102,
-        "under": -123
+        "line": 9.0,
+        "over": -122,
+        "under": 102
       },
       "total_read": {
         "side": null,
         "strength": 0,
-        "line": 9.5,
-        "note": "Total 9.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "line": 9.0,
+        "note": "Total 9.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -248,8 +248,8 @@
       },
       "weather": {
         "temp_f": 81.0,
-        "wind_mph": 7.1,
-        "wind_dir_deg": 46
+        "wind_mph": 6.3,
+        "wind_dir_deg": 82
       },
       "factors": [
         {
@@ -271,7 +271,7 @@
       "total": {
         "line": 9.5,
         "over": -102,
-        "under": -119
+        "under": -118
       },
       "total_read": {
         "side": null,
@@ -317,9 +317,9 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 84.6,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 21
+        "temp_f": 83.6,
+        "wind_mph": 5.6,
+        "wind_dir_deg": 16
       },
       "factors": [
         {
@@ -387,9 +387,9 @@
         "implied": 57.6
       },
       "weather": {
-        "temp_f": 92.1,
-        "wind_mph": 7.1,
-        "wind_dir_deg": 281
+        "temp_f": 93.9,
+        "wind_mph": 6.4,
+        "wind_dir_deg": 282
       },
       "factors": [
         {
@@ -410,7 +410,7 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -102,
+        "over": -101,
         "under": -119
       },
       "total_read": {
@@ -456,7 +456,11 @@
         "ml": -114,
         "implied": 53.3
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 84.0,
+        "wind_mph": 8.2,
+        "wind_dir_deg": 68
+      },
       "factors": [
         {
           "m": "~",
@@ -476,8 +480,8 @@
       "read": null,
       "total": {
         "line": 7.0,
-        "over": -122,
-        "under": 101
+        "over": -123,
+        "under": 102
       },
       "total_read": {
         "side": "under",
@@ -852,11 +856,7 @@
         "ml": -144,
         "implied": 59.0
       },
-      "weather": {
-        "temp_f": 73.0,
-        "wind_mph": 11.9,
-        "wind_dir_deg": 257
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -880,10 +880,10 @@
         "under": -102
       },
       "total_read": {
-        "side": "over",
-        "strength": 2,
+        "side": null,
+        "strength": 0,
         "line": 8.5,
-        "note": "Total 8.5: leans OVER \u2014 both starters look hittable (avg 0.806 OPS-against); wind blowing out to center (~12 mph). (Bullpen still to come.)"
+        "note": "Total 8.5: no clear lean \u2014 signals split (over: both starters look hittable (avg 0.806 OPS-against); under: Oracle Park plays pitcher-friendly). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -907,8 +907,8 @@
         "pitcher_id": 683352,
         "pitcher_name": "Mitch Bratt",
         "pitcher_hand": "L",
-        "ml": 178,
-        "implied": 36.0
+        "ml": 183,
+        "implied": 35.3
       },
       "home": {
         "team": "Dodgers",
@@ -919,13 +919,13 @@
         "pitcher_id": 686218,
         "pitcher_name": "Emmet Sheehan",
         "pitcher_hand": "R",
-        "ml": -219,
-        "implied": 68.7
+        "ml": -225,
+        "implied": 69.2
       },
       "weather": {
-        "temp_f": 85.3,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 221
+        "temp_f": 79.0,
+        "wind_mph": 8.3,
+        "wind_dir_deg": 246
       },
       "factors": [
         {
@@ -993,9 +993,9 @@
         "implied": 48.1
       },
       "weather": {
-        "temp_f": 78.6,
-        "wind_mph": 8.2,
-        "wind_dir_deg": 261
+        "temp_f": 79.4,
+        "wind_mph": 7.0,
+        "wind_dir_deg": 239
       },
       "factors": [
         {
