@@ -1,6 +1,6 @@
 {
   "date": "2026-07-12",
-  "generated": "2026-07-12T21:37:20",
+  "generated": "2026-07-12T22:47:42",
   "games": [
     {
       "game_pk": 823358,
@@ -598,7 +598,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.9,
+        "wind_mph": 5.5,
+        "wind_dir_deg": 104
+      },
       "factors": [
         {
           "m": "-",
@@ -668,7 +672,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 87.2,
+        "wind_mph": 10.2,
+        "wind_dir_deg": 216
+      },
       "factors": [
         {
           "m": "+",
@@ -738,7 +746,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.7,
+        "wind_mph": 7.2,
+        "wind_dir_deg": 68
+      },
       "factors": [
         {
           "m": "-",
@@ -808,7 +820,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 84.9,
+        "wind_mph": 7.8,
+        "wind_dir_deg": 357
+      },
       "factors": [
         {
           "m": "-",
@@ -859,7 +875,7 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "47-50",
+        "record": "47-51",
         "pitcher_id": 664299,
         "pitcher_name": "Cristian Javier",
         "pitcher_hand": "R",
@@ -871,7 +887,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "48-47",
+        "record": "49-47",
         "pitcher_id": 669022,
         "pitcher_name": "MacKenzie Gore",
         "pitcher_hand": "L",
@@ -884,7 +900,7 @@
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "MacKenzie Gore holds RHB to a 0.680 OPS; Astros project 78% R-handed today."
+          "text": "MacKenzie Gore holds RHB to a 0.677 OPS; Astros project 78% R-handed today."
         }
       ],
       "lean": "home",
@@ -929,7 +945,7 @@
         "team_full": "Colorado Rockies",
         "abbr": "COL",
         "team_id": 115,
-        "record": "39-58",
+        "record": "39-59",
         "pitcher_id": 547179,
         "pitcher_name": "Michael Lorenzen",
         "pitcher_hand": "R",
@@ -941,7 +957,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "40-55",
+        "record": "41-55",
         "pitcher_id": 686790,
         "pitcher_name": "Trevor McDonald",
         "pitcher_hand": "R",
@@ -954,7 +970,7 @@
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Michael Lorenzen is vulnerable to LHB (1.026 OPS) and Giants skew L-handed."
+          "text": "Michael Lorenzen is vulnerable to LHB (0.993 OPS) and Giants skew L-handed."
         }
       ],
       "lean": "home",
@@ -1018,11 +1034,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 80.2,
-        "wind_mph": 9.4,
-        "wind_dir_deg": 220
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1066,7 +1078,7 @@
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "45-50",
+        "record": "45-51",
         "pitcher_id": 592332,
         "pitcher_name": "Kevin Gausman",
         "pitcher_hand": "R",
@@ -1078,18 +1090,14 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "47-48",
+        "record": "48-48",
         "pitcher_id": 608566,
         "pitcher_name": "Germ\u00e1n M\u00e1rquez",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 79.4,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 275
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
