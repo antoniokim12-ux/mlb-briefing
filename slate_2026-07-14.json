@@ -1,0 +1,80 @@
+{
+  "date": "2026-07-14",
+  "generated": "2026-07-14T07:29:11",
+  "games": [
+    {
+      "game_pk": 823443,
+      "game_time": "2026-07-15T00:00:00Z",
+      "venue": "Citizens Bank Park",
+      "lat": 39.90539086,
+      "lon": -75.16716957,
+      "lineup_ids": {
+        "away": [
+          545361,
+          670541,
+          669127,
+          691406,
+          677951,
+          641355,
+          700250,
+          682985,
+          676391
+        ],
+        "home": [
+          656941,
+          665742,
+          518692,
+          682928,
+          571970,
+          645277,
+          669016,
+          681624,
+          686948
+        ]
+      },
+      "away": {
+        "team": "AL All-Stars",
+        "team_full": "American League All-Stars",
+        "abbr": "AL",
+        "team_id": 159,
+        "record": "0-0",
+        "pitcher_id": 656302,
+        "pitcher_name": "Dylan Cease",
+        "pitcher_hand": "R",
+        "ml": null,
+        "implied": null
+      },
+      "home": {
+        "team": "NL All-Stars",
+        "team_full": "National League All-Stars",
+        "abbr": "NL",
+        "team_id": 160,
+        "record": "0-0",
+        "pitcher_id": 650911,
+        "pitcher_name": "Cristopher S\u00e1nchez",
+        "pitcher_hand": "L",
+        "ml": null,
+        "implied": null
+      },
+      "weather": {
+        "temp_f": 87.3,
+        "wind_mph": 9.5,
+        "wind_dir_deg": 207
+      },
+      "factors": [
+        {
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Dylan Cease holds LHB to a 0.563 OPS; NL All-Stars project 88% L-handed today."
+        }
+      ],
+      "lean": "away",
+      "weight": 1,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false
+    }
+  ]
+}
