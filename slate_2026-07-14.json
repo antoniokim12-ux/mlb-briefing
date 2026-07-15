@@ -1,6 +1,6 @@
 {
   "date": "2026-07-14",
-  "generated": "2026-07-14T23:37:52",
+  "generated": "2026-07-15T06:38:27",
   "games": [
     {
       "game_pk": 823443,
@@ -37,7 +37,7 @@
         "team_full": "American League All-Stars",
         "abbr": "AL",
         "team_id": 159,
-        "record": "0-0",
+        "record": "1-0",
         "pitcher_id": 656302,
         "pitcher_name": "Dylan Cease",
         "pitcher_hand": "R",
@@ -49,7 +49,7 @@
         "team_full": "National League All-Stars",
         "abbr": "NL",
         "team_id": 160,
-        "record": "0-0",
+        "record": "0-1",
         "pitcher_id": 650911,
         "pitcher_name": "Cristopher S\u00e1nchez",
         "pitcher_hand": "L",
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 83.3,
-        "wind_mph": 9.0,
-        "wind_dir_deg": 226
+        "temp_f": 84.5,
+        "wind_mph": 9.4,
+        "wind_dir_deg": 220
       },
       "factors": [
         {
@@ -74,7 +74,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false
+      "started": true
     }
   ]
 }
