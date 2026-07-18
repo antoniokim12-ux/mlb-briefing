@@ -1,6 +1,6 @@
 {
   "date": "2026-07-17",
-  "generated": "2026-07-18T03:55:25",
+  "generated": "2026-07-18T05:11:15",
   "games": [
     {
       "game_pk": 824766,
@@ -572,11 +572,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 85.9,
-        "wind_mph": 8.8,
-        "wind_dir_deg": 156
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -773,7 +769,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "44-52",
+        "record": "45-52",
         "pitcher_id": 675512,
         "pitcher_name": "Troy Melton",
         "pitcher_hand": "R",
@@ -785,7 +781,7 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "38-59",
+        "record": "38-60",
         "pitcher_id": 672282,
         "pitcher_name": "Reid Detmers",
         "pitcher_hand": "L",
@@ -798,13 +794,13 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Troy Melton holds RHB to a 0.425 OPS; Angels project 78% R-handed today."
+          "text": "Troy Melton holds RHB to a 0.472 OPS; Angels project 78% R-handed today."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Reid Detmers holds RHB to a 0.661 OPS; Tigers project 67% R-handed today."
+          "text": "Reid Detmers holds RHB to a 0.652 OPS; Tigers project 67% R-handed today."
         }
       ],
       "lean": "even",
@@ -849,7 +845,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "48-49",
+        "record": "49-49",
         "pitcher_id": 676917,
         "pitcher_name": "Cade Cavalli",
         "pitcher_hand": "R",
@@ -861,7 +857,7 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "41-55",
+        "record": "41-56",
         "pitcher_id": 695611,
         "pitcher_name": "Gage Jump",
         "pitcher_hand": "L",
@@ -869,16 +865,9 @@
         "implied": null
       },
       "weather": null,
-      "factors": [
-        {
-          "m": "+",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Gage Jump holds RHB to a 0.684 OPS; Nationals project 62% R-handed today."
-        }
-      ],
-      "lean": "home",
-      "weight": 1,
+      "factors": [],
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
@@ -919,7 +908,7 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "50-45",
+        "record": "51-45",
         "pitcher_id": 700241,
         "pitcher_name": "Michael McGreevy",
         "pitcher_hand": "R",
@@ -931,7 +920,7 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "49-47",
+        "record": "49-48",
         "pitcher_id": 518876,
         "pitcher_name": "Merrill Kelly",
         "pitcher_hand": "R",
@@ -944,7 +933,7 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Michael McGreevy holds RHB to a 0.596 OPS; D-backs project 67% R-handed today."
+          "text": "Michael McGreevy holds RHB to a 0.622 OPS; D-backs project 67% R-handed today."
         }
       ],
       "lean": "away",
@@ -989,7 +978,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "41-55",
+        "record": "42-55",
         "pitcher_id": 694738,
         "pitcher_name": "Landen Roupp",
         "pitcher_hand": "R",
@@ -1001,26 +990,30 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "48-49",
+        "record": "48-50",
         "pitcher_id": 682243,
         "pitcher_name": "Bryce Miller",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 70.0,
+        "wind_mph": 3.6,
+        "wind_dir_deg": 266
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Landen Roupp holds LHB to a 0.669 OPS; Mariners project 75% L-handed today."
+          "text": "Landen Roupp holds LHB to a 0.648 OPS; Mariners project 75% L-handed today."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Bryce Miller holds LHB to a 0.553 OPS; Giants project 67% L-handed today."
+          "text": "Bryce Miller holds LHB to a 0.603 OPS; Giants project 67% L-handed today."
         }
       ],
       "lean": "even",
