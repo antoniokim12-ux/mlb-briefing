@@ -10224,10 +10224,10 @@
     "close_ml": -137,
     "close_fair": 55.3,
     "clv_pp": -1.1,
-    "result": null,
-    "pick_score": null,
-    "opp_score": null,
-    "profit": null
+    "result": "W",
+    "pick_score": 8,
+    "opp_score": 6,
+    "profit": 0.694
   },
   {
     "key": "2026-07-18:823441:total",
@@ -10247,11 +10247,11 @@
     "close_line": 8.5,
     "close_fair": 51.7,
     "clv_pp": 0.0,
-    "result": null,
-    "total_runs": null,
+    "result": "L",
+    "total_runs": 7,
     "pick_score": null,
     "opp_score": null,
-    "profit": null
+    "profit": -1.0
   },
   {
     "key": "2026-07-18:822790:total",
@@ -10271,11 +10271,11 @@
     "close_line": 9.5,
     "close_fair": 48.2,
     "clv_pp": -0.0,
-    "result": null,
-    "total_runs": null,
+    "result": "L",
+    "total_runs": 1,
     "pick_score": null,
     "opp_score": null,
-    "profit": null
+    "profit": -1.0
   },
   {
     "key": "2026-07-18:824331:total",
@@ -10319,11 +10319,11 @@
     "close_line": 11.0,
     "close_fair": 50.4,
     "clv_pp": 0.0,
-    "result": null,
-    "total_runs": null,
+    "result": "W",
+    "total_runs": 7,
     "pick_score": null,
     "opp_score": null,
-    "profit": null
+    "profit": 0.893
   },
   {
     "key": "2026-07-18:825059:total",
@@ -10343,11 +10343,11 @@
     "close_line": 9.0,
     "close_fair": 52.2,
     "clv_pp": -0.0,
-    "result": null,
-    "total_runs": null,
+    "result": "W",
+    "total_runs": 8,
     "pick_score": null,
     "opp_score": null,
-    "profit": null
+    "profit": 0.833
   },
   {
     "key": "2026-07-18:824738:total",
@@ -10391,11 +10391,11 @@
     "close_line": 9.0,
     "close_fair": 49.6,
     "clv_pp": -0.4,
-    "result": null,
-    "total_runs": null,
+    "result": "L",
+    "total_runs": 13,
     "pick_score": null,
     "opp_score": null,
-    "profit": null
+    "profit": -1.0
   },
   {
     "key": "2026-07-18:823763:total",
@@ -10415,11 +10415,11 @@
     "close_line": 8.0,
     "close_fair": 49.1,
     "clv_pp": -0.5,
-    "result": null,
-    "total_runs": null,
+    "result": "L",
+    "total_runs": 14,
     "pick_score": null,
     "opp_score": null,
-    "profit": null
+    "profit": -1.0
   },
   {
     "key": "2026-07-18:823116:total",
@@ -10510,6 +10510,51 @@
     "close_ml": -101,
     "close_line": 9.0,
     "close_fair": 48.0,
+    "clv_pp": 0.0,
+    "result": "L",
+    "total_runs": 6,
+    "pick_score": null,
+    "opp_score": null,
+    "profit": -1.0
+  },
+  {
+    "key": "2026-07-18:824008",
+    "date": "2026-07-18",
+    "game_pk": 824008,
+    "pick_team": "Tigers",
+    "pick_side": "away",
+    "opp_team": "Angels",
+    "log_ml": -205,
+    "log_implied": 67.2,
+    "log_fair": 64.3,
+    "weight": 2,
+    "kind": "lean",
+    "is_top": false,
+    "close_ml": -205,
+    "close_fair": 64.3,
+    "clv_pp": 0.0,
+    "result": null,
+    "pick_score": null,
+    "opp_score": null,
+    "profit": null
+  },
+  {
+    "key": "2026-07-18:824979:total",
+    "date": "2026-07-18",
+    "game_pk": 824979,
+    "kind": "total",
+    "pick_team": "Over 11.5",
+    "pick_side": "over",
+    "line": 11.5,
+    "opp_team": "Nationals @ Athletics",
+    "log_ml": -105,
+    "log_implied": 51.2,
+    "log_fair": 48.9,
+    "weight": 1,
+    "is_top": false,
+    "close_ml": -105,
+    "close_line": 11.5,
+    "close_fair": 48.9,
     "clv_pp": 0.0,
     "result": null,
     "total_runs": null,
