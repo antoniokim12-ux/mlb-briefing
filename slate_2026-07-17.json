@@ -1,6 +1,6 @@
 {
   "date": "2026-07-17",
-  "generated": "2026-07-17T23:42:47",
+  "generated": "2026-07-18T03:55:25",
   "games": [
     {
       "game_pk": 824766,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 80.9,
-        "wind_mph": 12.6,
-        "wind_dir_deg": 275
+        "temp_f": 76.3,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 305
       },
       "factors": [
         {
@@ -111,7 +111,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "56-39",
+        "record": "56-40",
         "pitcher_id": 669438,
         "pitcher_name": "Mason Englert",
         "pitcher_hand": "R",
@@ -123,7 +123,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "47-48",
+        "record": "48-48",
         "pitcher_id": 700842,
         "pitcher_name": "Eduardo Rivera",
         "pitcher_hand": "L",
@@ -131,20 +131,13 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 81.0,
-        "wind_mph": 8.3,
-        "wind_dir_deg": 272
+        "temp_f": 76.3,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 305
       },
-      "factors": [
-        {
-          "m": "+",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Eduardo Rivera holds RHB to a 0.364 OPS; Rays project 62% R-handed today."
-        }
-      ],
-      "lean": "home",
-      "weight": 1,
+      "factors": [],
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
@@ -185,7 +178,7 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "61-36",
+        "record": "62-36",
         "pitcher_id": 808963,
         "pitcher_name": "Roki Sasaki",
         "pitcher_hand": "R",
@@ -197,7 +190,7 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "54-42",
+        "record": "54-43",
         "pitcher_id": 543037,
         "pitcher_name": "Gerrit Cole",
         "pitcher_hand": "R",
@@ -205,9 +198,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 86.7,
-        "wind_mph": 6.0,
-        "wind_dir_deg": 304
+        "temp_f": 81.9,
+        "wind_mph": 1.8,
+        "wind_dir_deg": 7
       },
       "factors": [],
       "lean": "even",
@@ -252,7 +245,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "49-47",
+        "record": "49-48",
         "pitcher_id": 615698,
         "pitcher_name": "Cal Quantrill",
         "pitcher_hand": "R",
@@ -264,7 +257,7 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "55-40",
+        "record": "56-40",
         "pitcher_id": 519242,
         "pitcher_name": "Chris Sale",
         "pitcher_hand": "L",
@@ -272,22 +265,22 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 76.3,
-        "wind_mph": 5.6,
-        "wind_dir_deg": 2
+        "temp_f": 75.4,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 279
       },
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Cal Quantrill is vulnerable to LHB (0.792 OPS) and Braves skew L-handed."
+          "text": "Cal Quantrill is vulnerable to LHB (0.906 OPS) and Braves skew L-handed."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Chris Sale holds RHB to a 0.636 OPS; Rangers project 78% R-handed today."
+          "text": "Chris Sale holds RHB to a 0.605 OPS; Rangers project 78% R-handed today."
         }
       ],
       "lean": "home",
@@ -332,7 +325,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "50-45",
+        "record": "51-45",
         "pitcher_id": 641743,
         "pitcher_name": "Anthony Kay",
         "pitcher_hand": "L",
@@ -344,7 +337,7 @@
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "45-51",
+        "record": "45-52",
         "pitcher_id": 693686,
         "pitcher_name": "Spencer Miles",
         "pitcher_hand": "R",
@@ -353,8 +346,8 @@
       },
       "weather": {
         "temp_f": 70.5,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 74
+        "wind_mph": 6.1,
+        "wind_dir_deg": 84
       },
       "factors": [
         {
@@ -367,7 +360,7 @@
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Spencer Miles holds LHB to a 0.655 OPS; White Sox project 75% L-handed today."
+          "text": "Spencer Miles holds LHB to a 0.678 OPS; White Sox project 75% L-handed today."
         }
       ],
       "lean": "home",
@@ -412,7 +405,7 @@
         "team_full": "Miami Marlins",
         "abbr": "MIA",
         "team_id": 146,
-        "record": "52-45",
+        "record": "52-46",
         "pitcher_id": 645261,
         "pitcher_name": "Sandy Alcantara",
         "pitcher_hand": "R",
@@ -424,7 +417,7 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "59-37",
+        "record": "60-37",
         "pitcher_id": 701656,
         "pitcher_name": "Logan Henderson",
         "pitcher_hand": "R",
@@ -432,16 +425,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 93.5,
-        "wind_mph": 8.4,
-        "wind_dir_deg": 248
+        "temp_f": 91.9,
+        "wind_mph": 11.6,
+        "wind_dir_deg": 242
       },
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Logan Henderson holds LHB to a 0.592 OPS; Marlins project 62% L-handed today."
+          "text": "Logan Henderson holds LHB to a 0.568 OPS; Marlins project 62% L-handed today."
         }
       ],
       "lean": "home",
@@ -486,54 +479,44 @@
         "team_full": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "record": "48-49",
+        "record": "49-49",
         "pitcher_id": 641927,
         "pitcher_name": "Bailey Ober",
         "pitcher_hand": "R",
-        "ml": 125,
-        "implied": 44.4
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Cubs",
         "team_full": "Chicago Cubs",
         "abbr": "CHC",
         "team_id": 112,
-        "record": "54-42",
+        "record": "54-43",
         "pitcher_id": 607067,
         "pitcher_name": "Colin Rea",
         "pitcher_hand": "R",
-        "ml": -151,
-        "implied": 60.2
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 83.7,
-        "wind_mph": 6.9,
-        "wind_dir_deg": 165
+        "temp_f": 84.4,
+        "wind_mph": 5.1,
+        "wind_dir_deg": 225
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Bailey Ober holds RHB to a 0.690 OPS; Cubs project 62% R-handed today."
+          "text": "Bailey Ober holds RHB to a 0.695 OPS; Cubs project 62% R-handed today."
         }
       ],
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 11.0,
-        "over": -119,
-        "under": -102
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 11.0,
-        "note": "Total 11.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824170,
@@ -570,56 +553,50 @@
         "team_full": "Baltimore Orioles",
         "abbr": "BAL",
         "team_id": 110,
-        "record": "46-51",
+        "record": "47-51",
         "pitcher_id": 665152,
         "pitcher_name": "Dean Kremer",
         "pitcher_hand": "R",
-        "ml": 100,
-        "implied": 50.0
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Astros",
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "47-51",
+        "record": "47-52",
         "pitcher_id": 663567,
         "pitcher_name": "Peter Lambert",
         "pitcher_hand": "R",
-        "ml": -120,
-        "implied": 54.5
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 85.9,
+        "wind_mph": 8.8,
+        "wind_dir_deg": 156
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Dean Kremer holds RHB to a 0.531 OPS; Astros project 67% R-handed today."
+          "text": "Dean Kremer holds RHB to a 0.523 OPS; Astros project 67% R-handed today."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Peter Lambert holds LHB to a 0.508 OPS; Orioles project 62% L-handed today."
+          "text": "Peter Lambert holds LHB to a 0.496 OPS; Orioles project 62% L-handed today."
         }
       ],
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": {
-        "line": 8.5,
-        "over": -120,
-        "under": 100
-      },
-      "total_read": {
-        "side": "under",
-        "strength": 1,
-        "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters suppress contact (avg 0.520 OPS-against). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824090,
@@ -656,24 +633,24 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "48-48",
+        "record": "48-49",
         "pitcher_id": 650633,
         "pitcher_name": "Michael King",
         "pitcher_hand": "R",
-        "ml": -126,
-        "implied": 55.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Royals",
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "38-59",
+        "record": "39-59",
         "pitcher_id": 607625,
         "pitcher_name": "Seth Lugo",
         "pitcher_hand": "R",
-        "ml": 104,
-        "implied": 49.0
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -681,25 +658,15 @@
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Seth Lugo is vulnerable to RHB (0.792 OPS) and Padres skew R-handed."
+          "text": "Seth Lugo is vulnerable to RHB (0.800 OPS) and Padres skew R-handed."
         }
       ],
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 10.0,
-        "over": -110,
-        "under": -110
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 10.0,
-        "note": "Total 10.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824332,
@@ -736,24 +703,24 @@
         "team_full": "Cincinnati Reds",
         "abbr": "CIN",
         "team_id": 113,
-        "record": "43-52",
+        "record": "44-52",
         "pitcher_id": 663903,
         "pitcher_name": "Brady Singer",
         "pitcher_hand": "R",
-        "ml": -108,
-        "implied": 51.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Rockies",
         "team_full": "Colorado Rockies",
         "abbr": "COL",
         "team_id": 115,
-        "record": "39-59",
+        "record": "39-60",
         "pitcher_id": 687312,
         "pitcher_name": "Gabriel Hughes",
         "pitcher_hand": "R",
-        "ml": -112,
-        "implied": 52.8
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -761,25 +728,15 @@
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Gabriel Hughes holds RHB to a 0.220 OPS; Reds project 71% R-handed today."
+          "text": "Gabriel Hughes holds RHB to a 0.417 OPS; Reds project 71% R-handed today."
         }
       ],
       "lean": "home",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 12.0,
-        "over": -111,
-        "under": -109
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 12.0,
-        "note": "Total 12.0: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.507 OPS-against); over: Coors Field plays hitter-friendly). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824009,
@@ -820,8 +777,8 @@
         "pitcher_id": 675512,
         "pitcher_name": "Troy Melton",
         "pitcher_hand": "R",
-        "ml": -112,
-        "implied": 52.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Angels",
@@ -832,8 +789,8 @@
         "pitcher_id": 672282,
         "pitcher_name": "Reid Detmers",
         "pitcher_hand": "L",
-        "ml": -107,
-        "implied": 51.7
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -853,19 +810,9 @@
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": {
-        "line": 8.5,
-        "over": -107,
-        "under": -112
-      },
-      "total_read": {
-        "side": "under",
-        "strength": 1,
-        "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters suppress contact (avg 0.543 OPS-against). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824981,
@@ -906,8 +853,8 @@
         "pitcher_id": 676917,
         "pitcher_name": "Cade Cavalli",
         "pitcher_hand": "R",
-        "ml": -136,
-        "implied": 57.6
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Athletics",
@@ -918,8 +865,8 @@
         "pitcher_id": 695611,
         "pitcher_name": "Gage Jump",
         "pitcher_hand": "L",
-        "ml": 113,
-        "implied": 46.9
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -933,19 +880,9 @@
       "lean": "home",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 10.5,
-        "over": -105,
-        "under": -115
-      },
-      "total_read": {
-        "side": "under",
-        "strength": 1,
-        "line": 10.5,
-        "note": "Total 10.5: leans UNDER \u2014 both starters suppress contact (avg 0.633 OPS-against). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 825060,
@@ -986,8 +923,8 @@
         "pitcher_id": 700241,
         "pitcher_name": "Michael McGreevy",
         "pitcher_hand": "R",
-        "ml": -103,
-        "implied": 50.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "D-backs",
@@ -998,8 +935,8 @@
         "pitcher_id": 518876,
         "pitcher_name": "Merrill Kelly",
         "pitcher_hand": "R",
-        "ml": -117,
-        "implied": 53.9
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -1013,19 +950,9 @@
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 9.0,
-        "over": -102,
-        "under": -119
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 9.0,
-        "note": "Total 9.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 823115,
@@ -1066,8 +993,8 @@
         "pitcher_id": 694738,
         "pitcher_name": "Landen Roupp",
         "pitcher_hand": "R",
-        "ml": 155,
-        "implied": 39.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Mariners",
@@ -1078,14 +1005,10 @@
         "pitcher_id": 682243,
         "pitcher_name": "Bryce Miller",
         "pitcher_hand": "R",
-        "ml": -188,
-        "implied": 65.3
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 69.5,
-        "wind_mph": 3.4,
-        "wind_dir_deg": 293
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -1103,19 +1026,9 @@
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": {
-        "line": 7.0,
-        "over": -123,
-        "under": 102
-      },
-      "total_read": {
-        "side": "under",
-        "strength": 2,
-        "line": 7.0,
-        "note": "Total 7.0: leans UNDER \u2014 both starters suppress contact (avg 0.611 OPS-against); T-Mobile Park plays pitcher-friendly. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824414,
@@ -1152,9 +1065,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 84.4,
-        "wind_mph": 1.7,
-        "wind_dir_deg": 50
+        "temp_f": 80.5,
+        "wind_mph": 6.3,
+        "wind_dir_deg": 145
       },
       "factors": [
         {
