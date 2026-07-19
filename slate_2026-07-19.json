@@ -1,6 +1,6 @@
 {
   "date": "2026-07-19",
-  "generated": "2026-07-19T21:40:35",
+  "generated": "2026-07-19T23:46:13",
   "games": [
     {
       "game_pk": 822786,
@@ -195,8 +195,8 @@
         "pitcher_id": 694361,
         "pitcher_name": "Will Klein",
         "pitcher_hand": "R",
-        "ml": -130,
-        "implied": 56.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Yankees",
@@ -207,13 +207,13 @@
         "pitcher_id": 642232,
         "pitcher_name": "Ryan Yarbrough",
         "pitcher_hand": "L",
-        "ml": 108,
-        "implied": 48.1
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 79.7,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 312
+        "temp_f": 79.6,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 308
       },
       "factors": [
         {
@@ -226,19 +226,9 @@
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 9.0,
-        "over": -112,
-        "under": -107
-      },
-      "total_read": {
-        "side": "under",
-        "strength": 1,
-        "line": 9.0,
-        "note": "Total 9.0: leans UNDER \u2014 both starters suppress contact (avg 0.661 OPS-against). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824739,
@@ -608,7 +598,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.9,
+        "wind_mph": 3.6,
+        "wind_dir_deg": 274
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -671,7 +665,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 91.0,
+        "wind_mph": 1.7,
+        "wind_dir_deg": 113
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -734,7 +732,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 76.5,
+        "wind_mph": 8.5,
+        "wind_dir_deg": 85
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -797,7 +799,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 75.4,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 65
+      },
       "factors": [
         {
           "m": "-",
@@ -848,7 +854,7 @@
         "team_full": "Cincinnati Reds",
         "abbr": "CIN",
         "team_id": 113,
-        "record": "44-53",
+        "record": "45-53",
         "pitcher_id": 668881,
         "pitcher_name": "Hunter Greene",
         "pitcher_hand": "R",
@@ -860,7 +866,7 @@
         "team_full": "Colorado Rockies",
         "abbr": "COL",
         "team_id": 115,
-        "record": "40-60",
+        "record": "40-61",
         "pitcher_id": 663372,
         "pitcher_name": "Ryan Feltner",
         "pitcher_hand": "R",
@@ -870,14 +876,20 @@
       "weather": null,
       "factors": [
         {
-          "m": "-",
+          "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Hunter Greene is vulnerable to LHB (0.885 OPS) and Rockies skew L-handed."
+          "text": "Hunter Greene holds LHB to a 0.628 OPS; Rockies project 62% L-handed today."
+        },
+        {
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Ryan Feltner is vulnerable to RHB (0.818 OPS) and Reds skew R-handed."
         }
       ],
-      "lean": "home",
-      "weight": 1,
+      "lean": "away",
+      "weight": 2,
       "read": null,
       "total": null,
       "total_read": null,
@@ -918,7 +930,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "49-50",
+        "record": "50-50",
         "pitcher_id": 656492,
         "pitcher_name": "Foster Griffin",
         "pitcher_hand": "L",
@@ -930,30 +942,26 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "42-56",
+        "record": "42-57",
         "pitcher_id": 682052,
         "pitcher_name": "Jacob Lopez",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 88.0,
-        "wind_mph": 4.2,
-        "wind_dir_deg": 295
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Foster Griffin holds RHB to a 0.683 OPS; Athletics project 88% R-handed today."
+          "text": "Foster Griffin holds RHB to a 0.687 OPS; Athletics project 88% R-handed today."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Jacob Lopez is vulnerable to RHB (0.932 OPS) and Nationals skew R-handed."
+          "text": "Jacob Lopez is vulnerable to RHB (0.931 OPS) and Nationals skew R-handed."
         }
       ],
       "lean": "away",
@@ -998,7 +1006,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "46-52",
+        "record": "46-53",
         "pitcher_id": 663554,
         "pitcher_name": "Casey Mize",
         "pitcher_hand": "R",
@@ -1010,18 +1018,14 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "38-61",
+        "record": "39-61",
         "pitcher_id": 696270,
         "pitcher_name": "Ryan Johnson",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 87.0,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 248
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1065,7 +1069,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "42-56",
+        "record": "42-57",
         "pitcher_id": 592662,
         "pitcher_name": "Robbie Ray",
         "pitcher_hand": "L",
@@ -1077,24 +1081,20 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "49-50",
+        "record": "50-50",
         "pitcher_id": 669302,
         "pitcher_name": "Logan Gilbert",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 69.3,
-        "wind_mph": 7.3,
-        "wind_dir_deg": 313
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Logan Gilbert holds LHB to a 0.604 OPS; Giants project 67% L-handed today."
+          "text": "Logan Gilbert holds LHB to a 0.602 OPS; Giants project 67% L-handed today."
         }
       ],
       "lean": "home",
@@ -1139,7 +1139,7 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "51-46",
+        "record": "51-47",
         "pitcher_id": 669467,
         "pitcher_name": "Andre Pallante",
         "pitcher_hand": "R",
@@ -1151,28 +1151,17 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "50-48",
+        "record": "51-48",
         "pitcher_id": 593958,
         "pitcher_name": "Eduardo Rodriguez",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 99.6,
-        "wind_mph": 4.6,
-        "wind_dir_deg": 241
-      },
-      "factors": [
-        {
-          "m": "+",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Eduardo Rodriguez holds RHB to a 0.694 OPS; Cardinals project 67% R-handed today."
-        }
-      ],
-      "lean": "home",
-      "weight": 1,
+      "weather": null,
+      "factors": [],
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
