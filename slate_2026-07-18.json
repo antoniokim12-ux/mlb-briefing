@@ -1,6 +1,6 @@
 {
   "date": "2026-07-18",
-  "generated": "2026-07-18T23:41:56",
+  "generated": "2026-07-19T04:22:18",
   "games": [
     {
       "game_pk": 824414,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 91.6,
-        "wind_mph": 13.2,
-        "wind_dir_deg": 251
+        "temp_f": 78.3,
+        "wind_mph": 1.6,
+        "wind_dir_deg": 180
       },
       "factors": [
         {
@@ -111,7 +111,7 @@
         "team_full": "Pittsburgh Pirates",
         "abbr": "PIT",
         "team_id": 134,
-        "record": "51-47",
+        "record": "51-48",
         "pitcher_id": 682254,
         "pitcher_name": "Mason Montgomery",
         "pitcher_hand": "L",
@@ -123,7 +123,7 @@
         "team_full": "Cleveland Guardians",
         "abbr": "CLE",
         "team_id": 114,
-        "record": "51-47",
+        "record": "52-47",
         "pitcher_id": 671106,
         "pitcher_name": "Logan Allen",
         "pitcher_hand": "L",
@@ -131,26 +131,26 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 81.0,
-        "wind_mph": 12.4,
-        "wind_dir_deg": 332
+        "temp_f": 78.3,
+        "wind_mph": 1.6,
+        "wind_dir_deg": 180
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Mason Montgomery holds LHB to a 0.441 OPS; Guardians project 62% L-handed today."
+          "text": "Mason Montgomery holds LHB to a 0.447 OPS; Guardians project 62% L-handed today."
         },
         {
-          "m": "+",
+          "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Logan Allen holds RHB to a 0.700 OPS; Pirates project 71% R-handed today."
+          "text": "Logan Allen is vulnerable to RHB (0.942 OPS) and Pirates skew R-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 2,
       "read": null,
       "total": null,
       "total_read": null,
@@ -211,9 +211,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 84.9,
-        "wind_mph": 12.8,
-        "wind_dir_deg": 306
+        "temp_f": 77.8,
+        "wind_mph": 11.9,
+        "wind_dir_deg": 36
       },
       "factors": [
         {
@@ -285,9 +285,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 88.4,
-        "wind_mph": 9.3,
-        "wind_dir_deg": 246
+        "temp_f": 77.9,
+        "wind_mph": 8.9,
+        "wind_dir_deg": 219
       },
       "factors": [],
       "lean": "even",
@@ -352,9 +352,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 78.0,
-        "wind_mph": 8.5,
-        "wind_dir_deg": 223
+        "temp_f": 72.2,
+        "wind_mph": 11.9,
+        "wind_dir_deg": 310
       },
       "factors": [
         {
@@ -432,9 +432,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 93.0,
-        "wind_mph": 2.1,
-        "wind_dir_deg": 49
+        "temp_f": 94.3,
+        "wind_mph": 7.3,
+        "wind_dir_deg": 40
       },
       "factors": [
         {
@@ -506,9 +506,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 91.9,
-        "wind_mph": 2.9,
-        "wind_dir_deg": 238
+        "temp_f": 85.6,
+        "wind_mph": 10.0,
+        "wind_dir_deg": 171
       },
       "factors": [
         {
@@ -580,9 +580,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 88.4,
-        "wind_mph": 6.0,
-        "wind_dir_deg": 219
+        "temp_f": 91.3,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 283
       },
       "factors": [
         {
@@ -654,9 +654,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 84.7,
-        "wind_mph": 8.0,
-        "wind_dir_deg": 108
+        "temp_f": 93.9,
+        "wind_mph": 3.4,
+        "wind_dir_deg": 157
       },
       "factors": [
         {
@@ -708,7 +708,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "56-40",
+        "record": "56-41",
         "pitcher_id": 693855,
         "pitcher_name": "Ian Seymour",
         "pitcher_hand": "L",
@@ -720,7 +720,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "48-48",
+        "record": "49-48",
         "pitcher_id": 663776,
         "pitcher_name": "Patrick Sandoval",
         "pitcher_hand": "L",
@@ -739,7 +739,7 @@
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Patrick Sandoval holds RHB to a 0.481 OPS; Rays project 67% R-handed today."
+          "text": "Patrick Sandoval holds RHB to a 0.668 OPS; Rays project 67% R-handed today."
         }
       ],
       "lean": "even",
@@ -917,24 +917,24 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "42-55",
+        "record": "42-56",
         "pitcher_id": 657277,
         "pitcher_name": "Logan Webb",
         "pitcher_hand": "R",
-        "ml": 134,
-        "implied": 42.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Mariners",
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "48-50",
+        "record": "49-50",
         "pitcher_id": 693433,
         "pitcher_name": "Bryan Woo",
         "pitcher_hand": "R",
-        "ml": -162,
-        "implied": 61.8
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -942,25 +942,15 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Logan Webb holds LHB to a 0.675 OPS; Mariners project 75% L-handed today."
+          "text": "Logan Webb holds LHB to a 0.660 OPS; Mariners project 75% L-handed today."
         }
       ],
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 7.0,
-        "over": -122,
-        "under": 101
-      },
-      "total_read": {
-        "side": "under",
-        "strength": 2,
-        "line": 7.0,
-        "note": "Total 7.0: leans UNDER \u2014 both starters suppress contact (avg 0.684 OPS-against); T-Mobile Park plays pitcher-friendly. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824979,
@@ -1001,8 +991,8 @@
         "pitcher_id": 641793,
         "pitcher_name": "Zack Littell",
         "pitcher_hand": "R",
-        "ml": -110,
-        "implied": 52.4
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Athletics",
@@ -1013,14 +1003,10 @@
         "pitcher_id": 669372,
         "pitcher_name": "J.T. Ginn",
         "pitcher_hand": "R",
-        "ml": -109,
-        "implied": 52.2
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 87.5,
-        "wind_mph": 9.8,
-        "wind_dir_deg": 227
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -1032,19 +1018,9 @@
       "lean": "home",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 11.5,
-        "over": -105,
-        "under": -115
-      },
-      "total_read": {
-        "side": "over",
-        "strength": 1,
-        "line": 11.5,
-        "note": "Total 11.5: leans OVER \u2014 both starters look hittable (avg 0.846 OPS-against). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824008,
@@ -1085,8 +1061,8 @@
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": "L",
-        "ml": -205,
-        "implied": 67.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Angels",
@@ -1097,14 +1073,10 @@
         "pitcher_id": 680570,
         "pitcher_name": "Grayson Rodriguez",
         "pitcher_hand": "R",
-        "ml": 168,
-        "implied": 37.3
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 76.4,
-        "wind_mph": 8.0,
-        "wind_dir_deg": 203
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -1122,19 +1094,9 @@
       "lean": "away",
       "weight": 2,
       "read": null,
-      "total": {
-        "line": 8.0,
-        "over": -114,
-        "under": -105
-      },
-      "total_read": {
-        "side": "over",
-        "strength": 1,
-        "line": 8.0,
-        "note": "Total 8.0: leans OVER \u2014 both starters look hittable (avg 0.830 OPS-against). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 823523,
@@ -1155,8 +1117,8 @@
         "pitcher_id": 686218,
         "pitcher_name": "Emmet Sheehan",
         "pitcher_hand": "R",
-        "ml": -120,
-        "implied": 54.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Yankees",
@@ -1167,13 +1129,13 @@
         "pitcher_id": 677960,
         "pitcher_name": "Ryan Weathers",
         "pitcher_hand": "L",
-        "ml": 100,
-        "implied": 50.0
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 74.7,
-        "wind_mph": 7.3,
-        "wind_dir_deg": 157
+        "temp_f": 74.2,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 175
       },
       "factors": [
         {
@@ -1192,19 +1154,9 @@
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": {
-        "line": 7.5,
-        "over": -115,
-        "under": -105
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 7.5,
-        "note": "Total 7.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     }
   ]
 }
