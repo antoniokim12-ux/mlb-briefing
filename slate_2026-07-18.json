@@ -1,6 +1,6 @@
 {
   "date": "2026-07-18",
-  "generated": "2026-07-19T04:22:18",
+  "generated": "2026-07-19T05:38:38",
   "games": [
     {
       "game_pk": 824414,
@@ -727,7 +727,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 68.1,
+        "wind_mph": 20.0,
+        "wind_dir_deg": 185
+      },
       "factors": [
         {
           "m": "+",
@@ -740,6 +744,12 @@
           "side": "home",
           "label": "Handedness matchup",
           "text": "Patrick Sandoval holds RHB to a 0.668 OPS; Rays project 67% R-handed today."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "20 mph wind (dir 185\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -987,7 +997,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "49-49",
+        "record": "49-50",
         "pitcher_id": 641793,
         "pitcher_name": "Zack Littell",
         "pitcher_hand": "R",
@@ -999,7 +1009,7 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "41-56",
+        "record": "42-56",
         "pitcher_id": 669372,
         "pitcher_name": "J.T. Ginn",
         "pitcher_hand": "R",
@@ -1012,7 +1022,7 @@
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Zack Littell is vulnerable to LHB (0.914 OPS) and Athletics skew L-handed."
+          "text": "Zack Littell is vulnerable to LHB (0.919 OPS) and Athletics skew L-handed."
         }
       ],
       "lean": "home",
@@ -1057,7 +1067,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "45-52",
+        "record": "46-52",
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": "L",
@@ -1069,7 +1079,7 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "38-60",
+        "record": "38-61",
         "pitcher_id": 680570,
         "pitcher_name": "Grayson Rodriguez",
         "pitcher_hand": "R",
@@ -1082,13 +1092,13 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Tarik Skubal holds RHB to a 0.591 OPS; Angels project 89% R-handed today."
+          "text": "Tarik Skubal holds RHB to a 0.572 OPS; Angels project 89% R-handed today."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Grayson Rodriguez is vulnerable to LHB (1.068 OPS) and Tigers skew L-handed."
+          "text": "Grayson Rodriguez is vulnerable to LHB (1.043 OPS) and Tigers skew L-handed."
         }
       ],
       "lean": "away",
@@ -1132,11 +1142,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 74.2,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 175
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
