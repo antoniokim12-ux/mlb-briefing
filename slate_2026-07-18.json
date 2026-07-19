@@ -1,6 +1,6 @@
 {
   "date": "2026-07-18",
-  "generated": "2026-07-19T05:38:38",
+  "generated": "2026-07-19T07:01:52",
   "games": [
     {
       "game_pk": 824414,
@@ -351,11 +351,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 72.2,
-        "wind_mph": 11.9,
-        "wind_dir_deg": 310
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -431,11 +427,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 94.3,
-        "wind_mph": 7.3,
-        "wind_dir_deg": 40
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -505,11 +497,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 85.6,
-        "wind_mph": 10.0,
-        "wind_dir_deg": 171
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -579,11 +567,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 91.3,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 283
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -653,11 +637,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 93.9,
-        "wind_mph": 3.4,
-        "wind_dir_deg": 157
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -727,11 +707,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 68.1,
-        "wind_mph": 20.0,
-        "wind_dir_deg": 185
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -744,12 +720,6 @@
           "side": "home",
           "label": "Handedness matchup",
           "text": "Patrick Sandoval holds RHB to a 0.668 OPS; Rays project 67% R-handed today."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "20 mph wind (dir 185\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -813,7 +783,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.0,
+        "wind_mph": 2.8,
+        "wind_dir_deg": 299
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -876,7 +850,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 75.9,
+        "wind_mph": 12.3,
+        "wind_dir_deg": 38
+      },
       "factors": [
         {
           "m": "+",
@@ -946,7 +924,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 71.1,
+        "wind_mph": 6.2,
+        "wind_dir_deg": 300
+      },
       "factors": [
         {
           "m": "+",
@@ -1016,7 +998,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.6,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 223
+      },
       "factors": [
         {
           "m": "-",
@@ -1086,7 +1072,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.8,
+        "wind_mph": 5.6,
+        "wind_dir_deg": 209
+      },
       "factors": [
         {
           "m": "+",
@@ -1142,7 +1132,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 74.2,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 175
+      },
       "factors": [
         {
           "m": "~",
