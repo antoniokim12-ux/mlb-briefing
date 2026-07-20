@@ -1,6 +1,6 @@
 {
   "date": "2026-07-19",
-  "generated": "2026-07-20T04:36:42",
+  "generated": "2026-07-20T05:55:35",
   "games": [
     {
       "game_pk": 822786,
@@ -927,11 +927,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 96.5,
-        "wind_mph": 5.1,
-        "wind_dir_deg": 270
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -1007,7 +1003,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.8,
+        "wind_mph": 10.0,
+        "wind_dir_deg": 243
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
