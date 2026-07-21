@@ -57,6 +57,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
 .pick.none .lab{color:var(--muted);}
 .scoreboard{display:flex;flex-wrap:wrap;gap:7px 16px;align-items:center;margin:0 0 16px;padding:9px 14px;border:1px solid var(--line);border-radius:8px;background:var(--panel2);font-family:'JetBrains Mono',monospace;font-size:12px;}
 .sb-lab{color:var(--amber);letter-spacing:.16em;text-transform:uppercase;font-size:10.5px;}
+.sb-note{display:block;width:100%;color:var(--muted);font-size:10px;margin-top:6px;opacity:.75;}
 .sb-stat{color:var(--bone);}
 .sb-stat b{color:var(--muted);font-weight:500;}
 .dayover{border:1px solid var(--line);border-radius:10px;background:var(--panel2);padding:30px 24px;text-align:center;margin:6px 0 0;}
@@ -106,8 +107,8 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
 <h1>The Lineup Card</h1>
 <p class="sub">The day's strongest reads — the games where the most factors line up — with the context behind each: pitchers, platoon splits, park, weather, bullpens.</p>
 <div class="note"><b>How to read this.</b> Each day the bot surfaces only its <b style="color:var(--amber)">top 5 reads</b> — the leans and O/U calls where the most factors agree (the dots). These are <i>candidates, not locks</i>: the market already prices these same factors into the line, so a read means "worth checking against your price," not "the market is wrong." Prices are frozen at the moment each read was given. Every read is logged behind the scenes so you can learn, over time, whether the strongest ones actually hold up.</div>
-<div class="scoreboard"><span class="sb-lab">Scoreboard</span><span class="sb-stat"><b>Lean</b> 92-66</span><span class="sb-stat"><b>O/U</b> 138-135</span><span class="sb-stat"><b>Units</b> -12.6</span><span class="sb-stat"><b>ROI</b> -3%</span><span class="sb-stat"><b>CLV</b> -0.0pts (63/363 beat close)</span></div>
-<div class="todays"><div class="lab">Today's Picks</div><div class="grp"><span class="gl">Lean</span><span class="none">none</span></div><div class="grp"><span class="gl">O/U</span><span class="chip ou">Under 8.0<span class="px">-103</span><span class="gm">MIN@CLE</span></span><span class="chip ou">Over 9.0<span class="px">-102</span><span class="gm">LAD@PHI</span></span><span class="chip ou">Under 7.5<span class="px">-110</span><span class="gm">TB@TOR</span></span><span class="chip ou">Over 9.0<span class="px">-107</span><span class="gm">SD@ATL</span></span><span class="chip ou">Under 9.0<span class="px">-120</span><span class="gm">NYM@MIL</span></span><span class="chip ou">Over 13.0<span class="px">-107</span><span class="gm">WSH@COL</span></span><span class="chip ou">Under 7.5<span class="px">-106</span><span class="gm">CIN@SEA</span></span></div><div class="dis">Candidates to check against your price — not locks. The market already prices the same factors in.</div></div>
+<div class="scoreboard"><span class="sb-lab">Scoreboard</span><span class="sb-stat"><b>Lean</b> 61-49</span><span class="sb-stat"><b>O/U</b> 18-20</span><span class="sb-stat"><b>Units</b> -11.0</span><span class="sb-stat"><b>ROI</b> -7%</span><span class="sb-stat"><b>CLV</b> +0.1pts (29/141 beat close)</span><span class="sb-note">record counts the day's top 5 reads only</span></div>
+<div class="todays"><div class="lab">Today's Picks</div><div class="grp"><span class="gl">Lean</span><span class="none">none</span></div><div class="grp"><span class="gl">O/U</span><span class="chip ou">Under 8.0<span class="px">-103</span><span class="gm">MIN@CLE</span></span><span class="chip ou">Over 9.0<span class="px">-103</span><span class="gm">LAD@PHI</span></span><span class="chip ou">Under 7.5<span class="px">-108</span><span class="gm">TB@TOR</span></span><span class="chip ou">Over 9.0<span class="px">-107</span><span class="gm">SD@ATL</span></span><span class="chip ou">Under 9.0<span class="px">-120</span><span class="gm">NYM@MIL</span></span><span class="chip ou">Under 8.0<span class="px">-113</span><span class="gm">DET@CHC</span></span><span class="chip ou">Over 13.0<span class="px">-110</span><span class="gm">WSH@COL</span></span><span class="chip ou">Under 7.5<span class="px">-106</span><span class="gm">CIN@SEA</span></span></div><div class="dis">Candidates to check against your price — not locks. The market already prices the same factors in.</div></div>
 <div class="card">
   <div class="head"><div class="side away">
   <div class="team">Twins</div>
@@ -121,7 +122,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
   <div class="oddsrow"><span class="ml">-150</span><span class="imp">60% implied</span></div>
 </div></div>
   <div class="bar"><i style="width:43%;background:var(--amber)"></i><i style="width:57%;background:var(--steel)"></i></div>
-  <div class="meta"><span><b>Park</b> Progressive Field</span><span><b>Wx</b> 81°F · wind 13mph</span><span><b>Book</b> DraftKings</span></div>
+  <div class="meta"><span><b>Park</b> Progressive Field</span><span><b>Wx</b> 81°F · wind 10mph</span><span><b>Book</b> DraftKings</span></div>
   <div class="body">
     <div class="leanrow">
       <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
@@ -142,15 +143,15 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
   <div class="team">Dodgers</div>
   <div class="rec">LAD · 63-38</div>
   <div class="pit">Justin Wrobleski (L)</div>
-  <div class="oddsrow"><span class="ml">+102</span><span class="imp">50% implied</span></div>
+  <div class="oddsrow"><span class="ml">+101</span><span class="imp">50% implied</span></div>
 </div><div class="side home">
   <div class="team">Phillies</div>
   <div class="rec">PHI · 56-45</div>
   <div class="pit">Zack Wheeler (R)</div>
-  <div class="oddsrow"><span class="ml">-123</span><span class="imp">55% implied</span></div>
+  <div class="oddsrow"><span class="ml">-122</span><span class="imp">55% implied</span></div>
 </div></div>
-  <div class="bar"><i style="width:47%;background:var(--amber)"></i><i style="width:53%;background:var(--steel)"></i></div>
-  <div class="meta"><span><b>Park</b> Citizens Bank Park</span><span><b>Wx</b> 86°F · wind 12mph</span><span><b>Book</b> DraftKings</span></div>
+  <div class="bar"><i style="width:48%;background:var(--amber)"></i><i style="width:52%;background:var(--steel)"></i></div>
+  <div class="meta"><span><b>Park</b> Citizens Bank Park</span><span><b>Wx</b> 88°F · wind 14mph</span><span><b>Book</b> DraftKings</span></div>
   <div class="body">
     <div class="leanrow">
       <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
@@ -163,36 +164,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
 <span><span class="flabel">Lineups — </span>Phillies lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div><div class="f"><span class="fmark" style="color:var(--steel)">~</span>
 <span><span class="flabel">Lineups — </span>Dodgers lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div></div>
       
-      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 9.0</span><span class="line-odds">O -102 &nbsp;/&nbsp; U -119</span></div><div class="line-read">Total 9.0: leans OVER — Citizens Bank Park plays hitter-friendly; wind blowing out to center (~11 mph). (Bullpen still to come.)</div></div>
-    </details>
-  </div>
-</div><div class="card">
-  <div class="head"><div class="side away">
-  <div class="team">Pirates</div>
-  <div class="rec">PIT · 52-49</div>
-  <div class="pit">Bubba Chandler (R)</div>
-  <div class="oddsrow"><span class="ml">+114</span><span class="imp">47% implied</span></div>
-</div><div class="side home">
-  <div class="team">Yankees</div>
-  <div class="rec">NYY · 56-44</div>
-  <div class="pit">Will Warren (R)</div>
-  <div class="oddsrow"><span class="ml">-137</span><span class="imp">58% implied</span></div>
-</div></div>
-  <div class="bar"><i style="width:45%;background:var(--amber)"></i><i style="width:55%;background:var(--steel)"></i></div>
-  <div class="meta"><span><b>Park</b> Yankee Stadium</span><span><b>Wx</b> 72°F · wind 6mph</span><span><b>Book</b> DraftKings</span></div>
-  <div class="body">
-    <div class="leanrow">
-      <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
-      
-    </div>
-    
-    <details>
-      <summary>Why</summary>
-      <div class="factors"><div class="f"><span class="fmark" style="color:var(--steel)">~</span>
-<span><span class="flabel">Lineups — </span>Yankees lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div><div class="f"><span class="fmark" style="color:var(--steel)">~</span>
-<span><span class="flabel">Lineups — </span>Pirates lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div></div>
-      
-      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 9.5</span><span class="line-odds">O -105 &nbsp;/&nbsp; U -114</span></div><div class="line-read">Total 9.5: no clear lean — not enough data yet. (Bullpen still to come.)</div></div>
+      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 9.0</span><span class="line-odds">O -103 &nbsp;/&nbsp; U -117</span></div><div class="line-read">Total 9.0: leans OVER — Citizens Bank Park plays hitter-friendly; wind blowing out to center (~14 mph). (Bullpen still to come.)</div></div>
     </details>
   </div>
 </div><div class="card">
@@ -200,15 +172,15 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
   <div class="team">Rays</div>
   <div class="rec">TB · 57-42</div>
   <div class="pit">Drew Rasmussen (R)</div>
-  <div class="oddsrow"><span class="ml">-112</span><span class="imp">53% implied</span></div>
+  <div class="oddsrow"><span class="ml">-111</span><span class="imp">53% implied</span></div>
 </div><div class="side home">
   <div class="team">Blue Jays</div>
   <div class="rec">TOR · 46-54</div>
   <div class="pit">Kevin Gausman (R)</div>
-  <div class="oddsrow"><span class="ml">-107</span><span class="imp">52% implied</span></div>
+  <div class="oddsrow"><span class="ml">-108</span><span class="imp">52% implied</span></div>
 </div></div>
-  <div class="bar"><i style="width:51%;background:var(--amber)"></i><i style="width:49%;background:var(--steel)"></i></div>
-  <div class="meta"><span><b>Park</b> Rogers Centre</span><span><b>Wx</b> 69°F · wind 6mph</span><span><b>Book</b> DraftKings</span></div>
+  <div class="bar"><i style="width:50%;background:var(--amber)"></i><i style="width:50%;background:var(--steel)"></i></div>
+  <div class="meta"><span><b>Park</b> Rogers Centre</span><span><b>Wx</b> 73°F · wind 4mph</span><span><b>Book</b> DraftKings</span></div>
   <div class="body">
     <div class="leanrow">
       <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
@@ -221,7 +193,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
 <span><span class="flabel">Lineups — </span>Blue Jays lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div><div class="f"><span class="fmark" style="color:var(--steel)">~</span>
 <span><span class="flabel">Lineups — </span>Rays lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div></div>
       
-      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 7.5</span><span class="line-odds">O -110 &nbsp;/&nbsp; U -110</span></div><div class="line-read">Total 7.5: leans UNDER — both starters suppress contact (avg 0.640 OPS-against). (Bullpen still to come.)</div></div>
+      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 7.5</span><span class="line-odds">O -112 &nbsp;/&nbsp; U -108</span></div><div class="line-read">Total 7.5: leans UNDER — both starters suppress contact (avg 0.640 OPS-against). (Bullpen still to come.)</div></div>
     </details>
   </div>
 </div><div class="card">
@@ -229,15 +201,15 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
   <div class="team">Orioles</div>
   <div class="rec">BAL · 49-52</div>
   <div class="pit">Kyle Bradish (R)</div>
-  <div class="oddsrow"><span class="ml">+118</span><span class="imp">46% implied</span></div>
+  <div class="oddsrow"><span class="ml">-110</span><span class="imp">52% implied</span></div>
 </div><div class="side home">
   <div class="team">Red Sox</div>
   <div class="rec">BOS · 51-48</div>
-  <div class="pit">Ranger Suarez (L)</div>
-  <div class="oddsrow"><span class="ml">-142</span><span class="imp">59% implied</span></div>
+  <div class="pit">Eduardo Rivera (L)</div>
+  <div class="oddsrow"><span class="ml">-109</span><span class="imp">52% implied</span></div>
 </div></div>
-  <div class="bar"><i style="width:44%;background:var(--amber)"></i><i style="width:56%;background:var(--steel)"></i></div>
-  <div class="meta"><span><b>Park</b> Fenway Park</span><span><b>Wx</b> 73°F · wind 7mph</span><span><b>Book</b> DraftKings</span></div>
+  <div class="bar"><i style="width:50%;background:var(--amber)"></i><i style="width:50%;background:var(--steel)"></i></div>
+  <div class="meta"><span><b>Park</b> Fenway Park</span><span><b>Wx</b> 71°F · wind 9mph</span><span><b>Book</b> DraftKings</span></div>
   <div class="body">
     <div class="leanrow">
       <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
@@ -250,7 +222,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
 <span><span class="flabel">Lineups — </span>Red Sox lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div><div class="f"><span class="fmark" style="color:var(--steel)">~</span>
 <span><span class="flabel">Lineups — </span>Orioles lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div></div>
       
-      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 8.5</span><span class="line-odds">O -107 &nbsp;/&nbsp; U -112</span></div><div class="line-read">Total 8.5: no clear lean — signals split (under: both starters suppress contact (avg 0.682 OPS-against); over: Fenway Park plays hitter-friendly). (Bullpen still to come.)</div></div>
+      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 8.5</span><span class="line-odds">O -115 &nbsp;/&nbsp; U -105</span></div><div class="line-read">Total 8.5: no clear lean — signals split (under: both starters suppress contact (avg 0.586 OPS-against); over: Fenway Park plays hitter-friendly). (Bullpen still to come.)</div></div>
     </details>
   </div>
 </div><div class="card">
@@ -266,7 +238,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
   <div class="oddsrow"><span class="ml">-147</span><span class="imp">60% implied</span></div>
 </div></div>
   <div class="bar"><i style="width:43%;background:var(--amber)"></i><i style="width:57%;background:var(--steel)"></i></div>
-  <div class="meta"><span><b>Park</b> Truist Park</span><span><b>Wx</b> 86°F · wind 11mph</span><span><b>Book</b> DraftKings</span></div>
+  <div class="meta"><span><b>Park</b> Truist Park</span><span><b>Wx</b> 90°F · wind 13mph</span><span><b>Book</b> DraftKings</span></div>
   <div class="body">
     <div class="leanrow">
       <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
@@ -279,7 +251,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
 <span><span class="flabel">Lineups — </span>Braves lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div><div class="f"><span class="fmark" style="color:var(--steel)">~</span>
 <span><span class="flabel">Lineups — </span>Padres lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div></div>
       
-      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 9.0</span><span class="line-odds">O -107 &nbsp;/&nbsp; U -113</span></div><div class="line-read">Total 9.0: leans OVER — wind blowing out to center (~8 mph). (Bullpen still to come.)</div></div>
+      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 9.0</span><span class="line-odds">O -107 &nbsp;/&nbsp; U -113</span></div><div class="line-read">Total 9.0: leans OVER — wind blowing out to center (~12 mph). (Bullpen still to come.)</div></div>
     </details>
   </div>
 </div><div class="card">
@@ -295,7 +267,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
   <div class="oddsrow"><span class="ml">-105</span><span class="imp">51% implied</span></div>
 </div></div>
   <div class="bar"><i style="width:51%;background:var(--amber)"></i><i style="width:49%;background:var(--steel)"></i></div>
-  <div class="meta"><span><b>Park</b> Kauffman Stadium</span><span><b>Wx</b> 92°F · wind 13mph</span><span><b>Book</b> DraftKings</span></div>
+  <div class="meta"><span><b>Park</b> Kauffman Stadium</span><span><b>Wx</b> 91°F · wind 13mph</span><span><b>Book</b> DraftKings</span></div>
   <div class="body">
     <div class="leanrow">
       <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
@@ -308,7 +280,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
 <span><span class="flabel">Lineups — </span>Royals lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div><div class="f"><span class="fmark" style="color:var(--steel)">~</span>
 <span><span class="flabel">Lineups — </span>Giants lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div></div>
       
-      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 9.5</span><span class="line-odds">O +100 &nbsp;/&nbsp; U -120</span></div><div class="line-read">Total 9.5: no clear lean — signals split (over: both starters look hittable (avg 0.824 OPS-against); under: wind blowing in (~8 mph)). (Bullpen still to come.)</div></div>
+      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 9.0</span><span class="line-odds">O -122 &nbsp;/&nbsp; U +102</span></div><div class="line-read">Total 9.0: no clear lean — signals split (over: both starters look hittable (avg 0.824 OPS-against); under: wind blowing in (~8 mph)). (Bullpen still to come.)</div></div>
     </details>
   </div>
 </div><div class="card">
@@ -324,7 +296,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
   <div class="oddsrow"><span class="ml">-136</span><span class="imp">58% implied</span></div>
 </div></div>
   <div class="bar"><i style="width:45%;background:var(--amber)"></i><i style="width:55%;background:var(--steel)"></i></div>
-  <div class="meta"><span><b>Park</b> American Family Field</span><span><b>Wx</b> —</span><span><b>Book</b> DraftKings</span></div>
+  <div class="meta"><span><b>Park</b> American Family Field</span><span><b>Wx</b> 74°F · wind 16mph</span><span><b>Book</b> DraftKings</span></div>
   <div class="body">
     <div class="leanrow">
       <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
@@ -335,9 +307,10 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
       <summary>Why</summary>
       <div class="factors"><div class="f"><span class="fmark" style="color:var(--steel)">~</span>
 <span><span class="flabel">Lineups — </span>Brewers lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div><div class="f"><span class="fmark" style="color:var(--steel)">~</span>
-<span><span class="flabel">Lineups — </span>Mets lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div></div>
+<span><span class="flabel">Lineups — </span>Mets lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div><div class="f"><span class="fmark" style="color:var(--steel)">~</span>
+<span><span class="flabel">Wind — </span>16 mph wind (dir 37°) — enough to move fly balls; in/out effect depends on park orientation.</span></div></div>
       
-      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 9.0</span><span class="line-odds">O +100 &nbsp;/&nbsp; U -120</span></div><div class="line-read">Total 9.0: leans UNDER — both starters suppress contact (avg 0.659 OPS-against). (Bullpen still to come.)</div></div>
+      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 9.0</span><span class="line-odds">O +100 &nbsp;/&nbsp; U -120</span></div><div class="line-read">Total 9.0: leans UNDER — both starters suppress contact (avg 0.659 OPS-against); wind blowing in (~12 mph). (Bullpen still to come.)</div></div>
     </details>
   </div>
 </div><div class="card">
@@ -353,7 +326,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
   <div class="oddsrow"><span class="ml">-122</span><span class="imp">55% implied</span></div>
 </div></div>
   <div class="bar"><i style="width:48%;background:var(--amber)"></i><i style="width:52%;background:var(--steel)"></i></div>
-  <div class="meta"><span><b>Park</b> Wrigley Field</span><span><b>Wx</b> —</span><span><b>Book</b> DraftKings</span></div>
+  <div class="meta"><span><b>Park</b> Wrigley Field</span><span><b>Wx</b> 76°F · wind 13mph</span><span><b>Book</b> DraftKings</span></div>
   <div class="body">
     <div class="leanrow">
       <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
@@ -366,7 +339,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
 <span><span class="flabel">Lineups — </span>Cubs lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div><div class="f"><span class="fmark" style="color:var(--steel)">~</span>
 <span><span class="flabel">Lineups — </span>Tigers lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div></div>
       
-      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 8.0</span><span class="line-odds">O -106 &nbsp;/&nbsp; U -113</span></div><div class="line-read">Total 8.0: no clear lean — not enough data yet. (Bullpen still to come.)</div></div>
+      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 8.0</span><span class="line-odds">O -106 &nbsp;/&nbsp; U -113</span></div><div class="line-read">Total 8.0: leans UNDER — wind blowing in (~13 mph). (Bullpen still to come.)</div></div>
     </details>
   </div>
 </div><div class="card">
@@ -374,15 +347,15 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
   <div class="team">White Sox</div>
   <div class="rec">CWS · 53-46</div>
   <div class="pit">Noah Schultz (L)</div>
-  <div class="oddsrow"><span class="ml">+109</span><span class="imp">48% implied</span></div>
+  <div class="oddsrow"><span class="ml">+103</span><span class="imp">49% implied</span></div>
 </div><div class="side home">
   <div class="team">Rangers</div>
   <div class="rec">TEX · 50-50</div>
   <div class="pit">Kumar Rocker (R)</div>
-  <div class="oddsrow"><span class="ml">-131</span><span class="imp">57% implied</span></div>
+  <div class="oddsrow"><span class="ml">-124</span><span class="imp">55% implied</span></div>
 </div></div>
-  <div class="bar"><i style="width:46%;background:var(--amber)"></i><i style="width:54%;background:var(--steel)"></i></div>
-  <div class="meta"><span><b>Park</b> Globe Life Field</span><span><b>Wx</b> —</span><span><b>Book</b> DraftKings</span></div>
+  <div class="bar"><i style="width:47%;background:var(--amber)"></i><i style="width:53%;background:var(--steel)"></i></div>
+  <div class="meta"><span><b>Park</b> Globe Life Field</span><span><b>Wx</b> 104°F · wind 7mph</span><span><b>Book</b> DraftKings</span></div>
   <div class="body">
     <div class="leanrow">
       <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
@@ -411,7 +384,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
   <div class="oddsrow"><span class="ml">-126</span><span class="imp">56% implied</span></div>
 </div></div>
   <div class="bar"><i style="width:47%;background:var(--amber)"></i><i style="width:53%;background:var(--steel)"></i></div>
-  <div class="meta"><span><b>Park</b> Daikin Park</span><span><b>Wx</b> —</span><span><b>Book</b> DraftKings</span></div>
+  <div class="meta"><span><b>Park</b> Daikin Park</span><span><b>Wx</b> 96°F · wind 5mph</span><span><b>Book</b> DraftKings</span></div>
   <div class="body">
     <div class="leanrow">
       <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
@@ -440,7 +413,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
   <div class="oddsrow"><span class="ml">-107</span><span class="imp">52% implied</span></div>
 </div></div>
   <div class="bar"><i style="width:51%;background:var(--amber)"></i><i style="width:49%;background:var(--steel)"></i></div>
-  <div class="meta"><span><b>Park</b> Coors Field</span><span><b>Wx</b> —</span><span><b>Book</b> DraftKings</span></div>
+  <div class="meta"><span><b>Park</b> Coors Field</span><span><b>Wx</b> 95°F · wind 13mph</span><span><b>Book</b> DraftKings</span></div>
   <div class="body">
     <div class="leanrow">
       <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
@@ -453,7 +426,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
 <span><span class="flabel">Lineups — </span>Rockies lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div><div class="f"><span class="fmark" style="color:var(--steel)">~</span>
 <span><span class="flabel">Lineups — </span>Nationals lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div></div>
       
-      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 13.0</span><span class="line-odds">O -107 &nbsp;/&nbsp; U -112</span></div><div class="line-read">Total 13.0: leans OVER — both starters look hittable (avg 0.846 OPS-against); Coors Field plays hitter-friendly. (Bullpen still to come.)</div></div>
+      <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 13.0</span><span class="line-odds">O -110 &nbsp;/&nbsp; U -110</span></div><div class="line-read">Total 13.0: leans OVER — both starters look hittable (avg 0.846 OPS-against); Coors Field plays hitter-friendly; wind blowing out to center (~10 mph). (Bullpen still to come.)</div></div>
     </details>
   </div>
 </div><div class="card">
@@ -498,7 +471,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
   <div class="oddsrow"><span class="ml">-137</span><span class="imp">58% implied</span></div>
 </div></div>
   <div class="bar"><i style="width:45%;background:var(--amber)"></i><i style="width:55%;background:var(--steel)"></i></div>
-  <div class="meta"><span><b>Park</b> Chase Field</span><span><b>Wx</b> 103°F · wind 7mph</span><span><b>Book</b> DraftKings</span></div>
+  <div class="meta"><span><b>Park</b> Chase Field</span><span><b>Wx</b> —</span><span><b>Book</b> DraftKings</span></div>
   <div class="body">
     <div class="leanrow">
       <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
@@ -527,7 +500,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
   <div class="oddsrow"><span class="ml">-121</span><span class="imp">55% implied</span></div>
 </div></div>
   <div class="bar"><i style="width:48%;background:var(--amber)"></i><i style="width:52%;background:var(--steel)"></i></div>
-  <div class="meta"><span><b>Park</b> T-Mobile Park</span><span><b>Wx</b> 88°F · wind 6mph</span><span><b>Book</b> DraftKings</span></div>
+  <div class="meta"><span><b>Park</b> T-Mobile Park</span><span><b>Wx</b> —</span><span><b>Book</b> DraftKings</span></div>
   <div class="body">
     <div class="leanrow">
       <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
@@ -543,5 +516,34 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
       <div class="lines"><div class="lines-h">Other lines</div><div class="line-row"><span class="line-name">Total 7.5</span><span class="line-odds">O -114 &nbsp;/&nbsp; U -106</span></div><div class="line-read">Total 7.5: leans UNDER — both starters suppress contact (avg 0.680 OPS-against); T-Mobile Park plays pitcher-friendly. (Bullpen still to come.)</div></div>
     </details>
   </div>
+</div><div class="card">
+  <div class="head"><div class="side away">
+  <div class="team">Pirates</div>
+  <div class="rec">PIT · 52-49</div>
+  <div class="pit">Bubba Chandler (R)</div>
+  <div class="oddsrow"><span class="ml">—</span><span class="imp">no line</span></div>
+</div><div class="side home">
+  <div class="team">Yankees</div>
+  <div class="rec">NYY · 56-44</div>
+  <div class="pit">Will Warren (R)</div>
+  <div class="oddsrow"><span class="ml">—</span><span class="imp">no line</span></div>
+</div></div>
+  <div class="bar"><i style="width:50%;background:var(--amber)"></i><i style="width:50%;background:var(--steel)"></i></div>
+  <div class="meta"><span><b>Park</b> Yankee Stadium</span><span><b>Wx</b> —</span></div>
+  <div class="body">
+    <div class="leanrow">
+      <span class="pill" style="background:rgba(138,154,163,.14);color:#8A9AA3">NO CLEAR LEAN</span>
+      
+    </div>
+    
+    <details>
+      <summary>Why</summary>
+      <div class="factors"><div class="f"><span class="fmark" style="color:var(--steel)">~</span>
+<span><span class="flabel">Lineups — </span>Yankees lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div><div class="f"><span class="fmark" style="color:var(--steel)">~</span>
+<span><span class="flabel">Lineups — </span>Pirates lineup not posted yet — handedness matchup firms up ~2-4 hrs before first pitch.</span></div></div>
+      
+      
+    </details>
+  </div>
 </div>
-<div class="foot">+ favorable · ~ neutral · − caution&nbsp;&nbsp;|&nbsp;&nbsp;decision-support only<br>bet what you can afford to lose · 21+ where legal<br><span style="opacity:.6">build top5-reads</span></div></div></body></html>
+<div class="foot">+ favorable · ~ neutral · − caution&nbsp;&nbsp;|&nbsp;&nbsp;decision-support only<br>bet what you can afford to lose · 21+ where legal<br><span style="opacity:.6">build top5-record</span></div></div></body></html>
