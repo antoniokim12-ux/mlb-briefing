@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "generated": "2026-07-21T21:52:52",
+  "generated": "2026-07-21T22:36:28",
   "games": [
     {
       "game_pk": 824409,
@@ -41,8 +41,8 @@
         "pitcher_id": 696070,
         "pitcher_name": "Kendry Rojas",
         "pitcher_hand": "L",
-        "ml": 129,
-        "implied": 43.7
+        "ml": 134,
+        "implied": 42.7
       },
       "home": {
         "team": "Guardians",
@@ -53,13 +53,13 @@
         "pitcher_id": 800048,
         "pitcher_name": "Parker Messick",
         "pitcher_hand": "L",
-        "ml": -156,
-        "implied": 60.9
+        "ml": -162,
+        "implied": 61.8
       },
       "weather": {
-        "temp_f": 81.0,
-        "wind_mph": 10.5,
-        "wind_dir_deg": 253
+        "temp_f": 78.7,
+        "wind_mph": 18.9,
+        "wind_dir_deg": 284
       },
       "factors": [
         {
@@ -67,6 +67,12 @@
           "side": "home",
           "label": "Handedness matchup",
           "text": "Parker Messick holds RHB to a 0.604 OPS; Twins project 86% R-handed today."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "19 mph wind (dir 284\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "home",
@@ -74,7 +80,7 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -104,
+        "over": -105,
         "under": -115
       },
       "total_read": {
@@ -125,8 +131,8 @@
         "pitcher_id": 680736,
         "pitcher_name": "Justin Wrobleski",
         "pitcher_hand": "L",
-        "ml": 100,
-        "implied": 50.0
+        "ml": -105,
+        "implied": 51.2
       },
       "home": {
         "team": "Phillies",
@@ -137,13 +143,13 @@
         "pitcher_id": 554430,
         "pitcher_name": "Zack Wheeler",
         "pitcher_hand": "R",
-        "ml": -120,
-        "implied": 54.5
+        "ml": -115,
+        "implied": 53.5
       },
       "weather": {
-        "temp_f": 74.4,
-        "wind_mph": 3.9,
-        "wind_dir_deg": 211
+        "temp_f": 77.3,
+        "wind_mph": 6.1,
+        "wind_dir_deg": 237
       },
       "factors": [],
       "lean": "even",
@@ -151,8 +157,8 @@
       "read": null,
       "total": {
         "line": 9.0,
-        "over": -103,
-        "under": -117
+        "over": -108,
+        "under": -112
       },
       "total_read": {
         "side": null,
@@ -202,8 +208,8 @@
         "pitcher_id": 656876,
         "pitcher_name": "Drew Rasmussen",
         "pitcher_hand": "R",
-        "ml": -108,
-        "implied": 51.9
+        "ml": -109,
+        "implied": 52.2
       },
       "home": {
         "team": "Blue Jays",
@@ -214,13 +220,13 @@
         "pitcher_id": 592332,
         "pitcher_name": "Kevin Gausman",
         "pitcher_hand": "R",
-        "ml": -111,
-        "implied": 52.6
+        "ml": -110,
+        "implied": 52.4
       },
       "weather": {
-        "temp_f": 69.2,
-        "wind_mph": 2.9,
-        "wind_dir_deg": 360
+        "temp_f": 67.1,
+        "wind_mph": 6.6,
+        "wind_dir_deg": 208
       },
       "factors": [],
       "lean": "even",
@@ -228,8 +234,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -112,
-        "under": -108
+        "over": -109,
+        "under": -111
       },
       "total_read": {
         "side": "under",
@@ -295,8 +301,8 @@
         "implied": 59.8
       },
       "weather": {
-        "temp_f": 90.2,
-        "wind_mph": 11.0,
+        "temp_f": 89.7,
+        "wind_mph": 11.9,
         "wind_dir_deg": 179
       },
       "factors": [
@@ -319,7 +325,7 @@
         "side": "over",
         "strength": 1,
         "line": 9.0,
-        "note": "Total 9.0: leans OVER \u2014 wind blowing out to center (~10 mph). (Bullpen still to come.)"
+        "note": "Total 9.0: leans OVER \u2014 wind blowing out to center (~11 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -379,9 +385,9 @@
         "implied": 52.4
       },
       "weather": {
-        "temp_f": 91.0,
-        "wind_mph": 13.6,
-        "wind_dir_deg": 351
+        "temp_f": 90.3,
+        "wind_mph": 13.8,
+        "wind_dir_deg": 353
       },
       "factors": [],
       "lean": "even",
@@ -393,10 +399,10 @@
         "under": -114
       },
       "total_read": {
-        "side": "over",
-        "strength": 1,
+        "side": null,
+        "strength": 0,
         "line": 9.0,
-        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.923 OPS-against). (Bullpen still to come.)"
+        "note": "Total 9.0: no clear lean \u2014 signals split (over: both starters look hittable (avg 0.923 OPS-against); under: wind blowing in (~8 mph)). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -456,9 +462,9 @@
         "implied": 58.5
       },
       "weather": {
-        "temp_f": 73.3,
-        "wind_mph": 11.9,
-        "wind_dir_deg": 32
+        "temp_f": 71.8,
+        "wind_mph": 12.6,
+        "wind_dir_deg": 27
       },
       "factors": [
         {
@@ -472,15 +478,15 @@
       "weight": 1,
       "read": null,
       "total": {
-        "line": 9.0,
-        "over": 102,
-        "under": -123
+        "line": 8.5,
+        "over": -123,
+        "under": 102
       },
       "total_read": {
         "side": "under",
         "strength": 2,
-        "line": 9.0,
-        "note": "Total 9.0: leans UNDER \u2014 both starters suppress contact (avg 0.689 OPS-against); wind blowing in (~10 mph). (Bullpen still to come.)"
+        "line": 8.5,
+        "note": "Total 8.5: leans UNDER \u2014 both starters suppress contact (avg 0.689 OPS-against); wind blowing in (~11 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -540,9 +546,9 @@
         "implied": 55.0
       },
       "weather": {
-        "temp_f": 76.8,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 7
+        "temp_f": 78.2,
+        "wind_mph": 10.1,
+        "wind_dir_deg": 4
       },
       "factors": [
         {
@@ -561,10 +567,10 @@
         "under": -115
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "under",
+        "strength": 1,
         "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
+        "note": "Total 8.0: leans UNDER \u2014 wind blowing in (~9 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -624,9 +630,9 @@
         "implied": 53.9
       },
       "weather": {
-        "temp_f": 103.8,
-        "wind_mph": 4.5,
-        "wind_dir_deg": 340
+        "temp_f": 103.4,
+        "wind_mph": 4.6,
+        "wind_dir_deg": 14
       },
       "factors": [
         {
@@ -707,7 +713,11 @@
         "ml": -126,
         "implied": 55.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 95.0,
+        "wind_mph": 6.9,
+        "wind_dir_deg": 283
+      },
       "factors": [
         {
           "m": "-",
@@ -900,8 +910,28 @@
       "lat": 33.445302,
       "lon": -112.066687,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          805779,
+          691016,
+          669127,
+          641680,
+          695720,
+          691777,
+          703607,
+          671732,
+          675961
+        ],
+        "home": [
+          606466,
+          672695,
+          682998,
+          672515,
+          596146,
+          571448,
+          694374,
+          545121,
+          678489
+        ]
       },
       "away": {
         "team": "Athletics",
@@ -927,32 +957,22 @@
         "ml": -137,
         "implied": 57.8
       },
-      "weather": {
-        "temp_f": 100.9,
-        "wind_mph": 4.7,
-        "wind_dir_deg": 251
-      },
+      "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "D-backs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Athletics lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Jack Perkins is vulnerable to RHB (0.833 OPS) and D-backs skew R-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 9.5,
-        "over": -102,
-        "under": -118
+        "over": -104,
+        "under": -115
       },
       "total_read": {
         "side": null,
@@ -981,7 +1001,17 @@
           670770,
           695490
         ],
-        "home": []
+        "home": [
+          702284,
+          668227,
+          686527,
+          663728,
+          647304,
+          670042,
+          645302,
+          806068,
+          642215
+        ]
       },
       "away": {
         "team": "Reds",
@@ -1007,19 +1037,8 @@
         "ml": -121,
         "implied": 54.8
       },
-      "weather": {
-        "temp_f": 87.0,
-        "wind_mph": 4.8,
-        "wind_dir_deg": 326
-      },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Mariners lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "weather": null,
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -1032,7 +1051,7 @@
         "side": "under",
         "strength": 2,
         "line": 7.5,
-        "note": "Total 7.5: leans UNDER \u2014 both starters suppress contact (avg 0.633 OPS-against); T-Mobile Park plays pitcher-friendly. (Bullpen still to come.)"
+        "note": "Total 7.5: leans UNDER \u2014 both starters suppress contact (avg 0.683 OPS-against); T-Mobile Park plays pitcher-friendly. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
