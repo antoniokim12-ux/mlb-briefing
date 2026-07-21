@@ -21,7 +21,7 @@ import json
 import os
 import sys
 
-BUILD = "top5-reads"  # bump when shipping; shows in the page footer to verify deploys
+BUILD = "top5-record"  # bump when shipping; shows in the page footer to verify deploys
 
 # Design tokens — shared with the on-screen card concept.
 CSS = """
@@ -81,6 +81,7 @@ summary:hover{border-color:var(--amber);color:var(--amber);}
 .pick.none .lab{color:var(--muted);}
 .scoreboard{display:flex;flex-wrap:wrap;gap:7px 16px;align-items:center;margin:0 0 16px;padding:9px 14px;border:1px solid var(--line);border-radius:8px;background:var(--panel2);font-family:'JetBrains Mono',monospace;font-size:12px;}
 .sb-lab{color:var(--amber);letter-spacing:.16em;text-transform:uppercase;font-size:10.5px;}
+.sb-note{display:block;width:100%;color:var(--muted);font-size:10px;margin-top:6px;opacity:.75;}
 .sb-stat{color:var(--bone);}
 .sb-stat b{color:var(--muted);font-weight:500;}
 .dayover{border:1px solid var(--line);border-radius:10px;background:var(--panel2);padding:30px 24px;text-align:center;margin:6px 0 0;}
@@ -388,6 +389,24 @@ def top_picks(games, date, n=5):
     return picks[:n]
 
 
+def _day_top_keys(entries, n=5):
+    """Keys of the picks that were the top-N reads on their own day — the ones the page
+    actually surfaced. Uses the same ranking the front page does: strength desc, lean
+    before O/U, then label. Every other pick stays in the log but isn't counted in the
+    record, so the scoreboard reflects only what the bot chose to show."""
+    by_day = {}
+    for e in entries:
+        if e.get("kind") in ("lean", "total") and e.get("key"):
+            by_day.setdefault(e.get("date"), []).append(e)
+    keep = set()
+    for rows in by_day.values():
+        rows.sort(key=lambda e: (-int(e.get("weight") or 0),
+                                 0 if e.get("kind") == "lean" else 1,
+                                 (e.get("pick_team") or "")))
+        keep.update(e["key"] for e in rows[:n])
+    return keep
+
+
 def render_picks_today(top, games):
     """Render the ranked top-5 reads. `top` is from top_picks(); None -> slate fallback."""
     if top is None:
@@ -484,6 +503,30 @@ def _cat(rows, kinds):
     return w, len(graded) - w, len(graded), len(logged)
 
 
+def _rank_key(e):
+    """Ranking used to choose a day's top reads. Must mirror top_picks():
+    strongest first, leans before totals on a tie, then label."""
+    return (-int(e.get("weight") or 0),
+            0 if e.get("kind") == "lean" else 1,
+            e.get("pick_team") or "")
+
+
+def _chosen_keys(rows, n=5):
+    """Log keys for the picks the bot actually surfaced — each day's top-n reads.
+    The record counts only these, not everything logged behind the scenes.
+    Reconstructed per date from the same ranking the page shows, so the record
+    always matches the picks on the board."""
+    by_date = {}
+    for e in rows:
+        if e.get("kind") in ("lean", "total"):
+            by_date.setdefault(e.get("date"), []).append(e)
+    keys = set()
+    for es in by_date.values():
+        es.sort(key=_rank_key)
+        keys.update(e.get("key") for e in es[:n])
+    return keys
+
+
 def _parse_game_time(s):
     if not s:
         return None
@@ -513,6 +556,10 @@ def _today_record(date):
     g = [e for e in rows if e.get("date") == date and e.get("result") in ("W", "L")]
     if not g:
         return None
+    top_keys = _day_top_keys([e for e in rows if e.get("kind") in ("lean", "total")])
+    g = [e for e in g if e.get("key") in top_keys]
+    if not g:
+        return None
     w = sum(1 for e in g if e["result"] == "W")
     return w, len(g) - w
 
@@ -538,6 +585,10 @@ def render_scoreboard():
     if not rows:
         return ""
     rows = [e for e in rows if e.get("kind") in ("lean", "total")]  # value retired
+    if not rows:
+        return ""
+    top_keys = _day_top_keys(rows)          # count only the reads the page surfaced
+    rows = [e for e in rows if e.get("key") in top_keys]
     if not rows:
         return ""
     cats = (("Lean", ("lean",)), ("O/U", ("total",)))
@@ -569,7 +620,7 @@ def render_scoreboard():
         parts.append('<span class="sb-stat" style="color:var(--muted)">building · '
                      + " · ".join(prog) + "</span>")
 
-    return f'<div class="scoreboard">{"".join(parts)}</div>'
+    return f'<div class="scoreboard">{"".join(parts)}<span class="sb-note">record counts the day\'s top 5 reads only</span></div>'
 
 
 def render(slate):
