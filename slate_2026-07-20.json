@@ -1,6 +1,6 @@
 {
   "date": "2026-07-20",
-  "generated": "2026-07-21T04:15:55",
+  "generated": "2026-07-21T05:37:37",
   "games": [
     {
       "game_pk": 824410,
@@ -485,11 +485,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 94.9,
-        "wind_mph": 8.4,
-        "wind_dir_deg": 209
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -559,19 +555,8 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 81.9,
-        "wind_mph": 15.9,
-        "wind_dir_deg": 209
-      },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "16 mph wind (dir 209\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
-        }
-      ],
+      "weather": null,
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -633,11 +618,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 78.7,
-        "wind_mph": 13.0,
-        "wind_dir_deg": 212
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -904,7 +885,7 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "42-57",
+        "record": "43-57",
         "pitcher_id": 605488,
         "pitcher_name": "Jeffrey Springs",
         "pitcher_hand": "L",
@@ -916,30 +897,34 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "51-48",
+        "record": "51-49",
         "pitcher_id": 683352,
         "pitcher_name": "Mitch Bratt",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 103.9,
+        "wind_mph": 9.7,
+        "wind_dir_deg": 262
+      },
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Jeffrey Springs is vulnerable to RHB (0.883 OPS) and D-backs skew R-handed."
+          "text": "Jeffrey Springs is vulnerable to RHB (0.887 OPS) and D-backs skew R-handed."
         },
         {
-          "m": "+",
+          "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Mitch Bratt holds RHB to a 0.675 OPS; Athletics project 88% R-handed today."
+          "text": "Mitch Bratt is vulnerable to RHB (0.921 OPS) and Athletics skew R-handed."
         }
       ],
-      "lean": "home",
-      "weight": 2,
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
@@ -980,7 +965,7 @@
         "team_full": "Cincinnati Reds",
         "abbr": "CIN",
         "team_id": 113,
-        "record": "45-53",
+        "record": "45-54",
         "pitcher_id": 671096,
         "pitcher_name": "Andrew Abbott",
         "pitcher_hand": "L",
@@ -992,14 +977,18 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "50-50",
+        "record": "51-50",
         "pitcher_id": 669923,
         "pitcher_name": "George Kirby",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 78.0,
+        "wind_mph": 3.6,
+        "wind_dir_deg": 263
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1043,7 +1032,7 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "51-47",
+        "record": "51-48",
         "pitcher_id": 681517,
         "pitcher_name": "Kyle Leahy",
         "pitcher_hand": "R",
@@ -1055,20 +1044,24 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "39-61",
+        "record": "40-61",
         "pitcher_id": 667755,
         "pitcher_name": "Jos\u00e9 Soriano",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 80.6,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 228
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Kyle Leahy holds RHB to a 0.631 OPS; Angels project 78% R-handed today."
+          "text": "Kyle Leahy holds RHB to a 0.615 OPS; Angels project 78% R-handed today."
         }
       ],
       "lean": "away",
