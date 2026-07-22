@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "generated": "2026-07-22T04:16:29",
+  "generated": "2026-07-22T05:36:12",
   "games": [
     {
       "game_pk": 824409,
@@ -479,11 +479,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 75.4,
-        "wind_mph": 9.6,
-        "wind_dir_deg": 11
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -623,11 +619,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 96.8,
-        "wind_mph": 3.3,
-        "wind_dir_deg": 132
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -818,7 +810,7 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "43-57",
+        "record": "43-58",
         "pitcher_id": 678022,
         "pitcher_name": "Jack Perkins",
         "pitcher_hand": "R",
@@ -830,28 +822,30 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "51-49",
+        "record": "52-49",
         "pitcher_id": 684442,
         "pitcher_name": "Kohl Drake",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 99.8,
-        "wind_mph": 5.1,
-        "wind_dir_deg": 232
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Jack Perkins is vulnerable to RHB (0.833 OPS) and D-backs skew R-handed."
+          "text": "Jack Perkins is vulnerable to RHB (0.825 OPS) and D-backs skew R-handed."
+        },
+        {
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Kohl Drake holds RHB to a 0.393 OPS; Athletics project 75% R-handed today."
         }
       ],
       "lean": "home",
-      "weight": 1,
+      "weight": 2,
       "read": null,
       "total": null,
       "total_read": null,
@@ -892,7 +886,7 @@
         "team_full": "Cincinnati Reds",
         "abbr": "CIN",
         "team_id": 113,
-        "record": "45-54",
+        "record": "46-54",
         "pitcher_id": 695505,
         "pitcher_name": "Chase Burns",
         "pitcher_hand": "R",
@@ -904,7 +898,7 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "51-50",
+        "record": "51-51",
         "pitcher_id": 622491,
         "pitcher_name": "Luis Castillo",
         "pitcher_hand": "R",
@@ -916,9 +910,16 @@
         "wind_mph": 4.0,
         "wind_dir_deg": 341
       },
-      "factors": [],
-      "lean": "even",
-      "weight": 0,
+      "factors": [
+        {
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Chase Burns holds LHB to a 0.700 OPS; Mariners project 62% L-handed today."
+        }
+      ],
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
