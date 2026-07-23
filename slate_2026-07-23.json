@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "generated": "2026-07-23T20:07:27",
+  "generated": "2026-07-23T21:53:04",
   "games": [
     {
       "game_pk": 824893,
@@ -117,7 +117,7 @@
         "team_full": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "record": "50-53",
+        "record": "51-53",
         "pitcher_id": 671737,
         "pitcher_name": "Taj Bradley",
         "pitcher_hand": "R",
@@ -129,7 +129,7 @@
         "team_full": "Cleveland Guardians",
         "abbr": "CLE",
         "team_id": 114,
-        "record": "54-49",
+        "record": "54-50",
         "pitcher_id": 668909,
         "pitcher_name": "Gavin Williams",
         "pitcher_hand": "R",
@@ -147,16 +147,10 @@
           "side": "away",
           "label": "Handedness matchup",
           "text": "Taj Bradley holds LHB to a 0.683 OPS; Guardians project 83% L-handed today."
-        },
-        {
-          "m": "-",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Gavin Williams is vulnerable to RHB (0.791 OPS) and Twins skew R-handed."
         }
       ],
       "lean": "away",
-      "weight": 2,
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -197,7 +191,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "59-42",
+        "record": "59-43",
         "pitcher_id": 668984,
         "pitcher_name": "Casey Legumina",
         "pitcher_hand": "R",
@@ -209,7 +203,7 @@
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "46-56",
+        "record": "47-56",
         "pitcher_id": 669456,
         "pitcher_name": "Shane Bieber",
         "pitcher_hand": "R",
@@ -217,16 +211,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 68.8,
-        "wind_mph": 10.2,
-        "wind_dir_deg": 190
+        "temp_f": 70.3,
+        "wind_mph": 10.5,
+        "wind_dir_deg": 184
       },
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Casey Legumina is vulnerable to RHB (0.912 OPS) and Blue Jays skew R-handed."
+          "text": "Casey Legumina is vulnerable to RHB (0.908 OPS) and Blue Jays skew R-handed."
         }
       ],
       "lean": "home",
@@ -244,14 +238,14 @@
       "lon": -90.19286667,
       "lineup_ids": {
         "away": [
-          606466,
           682998,
           672695,
           672515,
           596146,
-          694374,
           680728,
+          694374,
           545121,
+          682988,
           814439
         ],
         "home": [
@@ -275,8 +269,8 @@
         "pitcher_id": 694297,
         "pitcher_name": "Brandon Pfaadt",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Cardinals",
@@ -287,31 +281,21 @@
         "pitcher_id": 700241,
         "pitcher_name": "Michael McGreevy",
         "pitcher_hand": "R",
-        "ml": -115,
-        "implied": 53.5
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 80.6,
-        "wind_mph": 5.3,
-        "wind_dir_deg": 22
+        "temp_f": 78.2,
+        "wind_mph": 4.4,
+        "wind_dir_deg": 30
       },
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": {
-        "line": 7.5,
-        "over": -113,
-        "under": -107
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 7.5,
-        "note": "Total 7.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824247,
@@ -352,8 +336,8 @@
         "pitcher_id": 677976,
         "pitcher_name": "Randy Dobnak",
         "pitcher_hand": "R",
-        "ml": 192,
-        "implied": 34.2
+        "ml": 188,
+        "implied": 34.7
       },
       "home": {
         "team": "Tigers",
@@ -364,13 +348,13 @@
         "pitcher_id": 675512,
         "pitcher_name": "Troy Melton",
         "pitcher_hand": "R",
-        "ml": -237,
-        "implied": 70.3
+        "ml": -232,
+        "implied": 69.9
       },
       "weather": {
-        "temp_f": 77.1,
-        "wind_mph": 5.8,
-        "wind_dir_deg": 92
+        "temp_f": 76.3,
+        "wind_mph": 5.6,
+        "wind_dir_deg": 97
       },
       "factors": [
         {
@@ -385,8 +369,8 @@
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -109,
-        "under": -111
+        "over": -105,
+        "under": -114
       },
       "total_read": {
         "side": "under",
