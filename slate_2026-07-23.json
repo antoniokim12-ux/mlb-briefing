@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "generated": "2026-07-23T21:53:04",
+  "generated": "2026-07-23T23:46:56",
   "games": [
     {
       "game_pk": 824893,
@@ -285,9 +285,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 78.2,
-        "wind_mph": 4.4,
-        "wind_dir_deg": 30
+        "temp_f": 77.8,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 36
       },
       "factors": [],
       "lean": "even",
@@ -336,8 +336,8 @@
         "pitcher_id": 677976,
         "pitcher_name": "Randy Dobnak",
         "pitcher_hand": "R",
-        "ml": 188,
-        "implied": 34.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Tigers",
@@ -348,13 +348,13 @@
         "pitcher_id": 675512,
         "pitcher_name": "Troy Melton",
         "pitcher_hand": "R",
-        "ml": -232,
-        "implied": 69.9
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 76.3,
-        "wind_mph": 5.6,
-        "wind_dir_deg": 97
+        "temp_f": 75.5,
+        "wind_mph": 7.8,
+        "wind_dir_deg": 108
       },
       "factors": [
         {
@@ -367,19 +367,9 @@
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 8.5,
-        "over": -105,
-        "under": -114
-      },
-      "total_read": {
-        "side": "under",
-        "strength": 1,
-        "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters suppress contact (avg 0.645 OPS-against). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     }
   ]
 }
