@@ -1,6 +1,6 @@
 {
   "date": "2026-07-22",
-  "generated": "2026-07-23T02:30:01",
+  "generated": "2026-07-23T04:16:16",
   "games": [
     {
       "game_pk": 823518,
@@ -493,7 +493,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.7,
+        "wind_mph": 11.7,
+        "wind_dir_deg": 223
+      },
       "factors": [
         {
           "m": "+",
@@ -563,7 +567,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 104.5,
+        "wind_mph": 4.2,
+        "wind_dir_deg": 72
+      },
       "factors": [
         {
           "m": "-",
@@ -639,7 +647,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 86.9,
+        "wind_mph": 9.3,
+        "wind_dir_deg": 336
+      },
       "factors": [
         {
           "m": "-",
@@ -848,11 +860,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 80.2,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 294
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -922,11 +930,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 63.7,
-        "wind_mph": 10.7,
-        "wind_dir_deg": 271
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -989,11 +993,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 85.2,
-        "wind_mph": 6.1,
-        "wind_dir_deg": 186
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -1050,7 +1050,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "53-47",
+        "record": "54-47",
         "pitcher_id": 641743,
         "pitcher_name": "Anthony Kay",
         "pitcher_hand": "L",
@@ -1062,7 +1062,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "51-50",
+        "record": "51-51",
         "pitcher_id": 641302,
         "pitcher_name": "Tyler Alexander",
         "pitcher_hand": "L",
@@ -1075,11 +1075,17 @@
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Anthony Kay is vulnerable to RHB (0.839 OPS) and Rangers skew R-handed."
+          "text": "Anthony Kay is vulnerable to RHB (0.845 OPS) and Rangers skew R-handed."
+        },
+        {
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Tyler Alexander holds LHB to a 0.676 OPS; White Sox project 71% L-handed today."
         }
       ],
       "lean": "home",
-      "weight": 1,
+      "weight": 2,
       "read": null,
       "total": null,
       "total_read": null,
@@ -1120,7 +1126,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "47-54",
+        "record": "48-54",
         "pitcher_id": 672456,
         "pitcher_name": "Keider Montero",
         "pitcher_hand": "R",
@@ -1132,26 +1138,30 @@
         "team_full": "Chicago Cubs",
         "abbr": "CHC",
         "team_id": 112,
-        "record": "57-44",
+        "record": "57-45",
         "pitcher_id": 607067,
         "pitcher_name": "Colin Rea",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 69.5,
+        "wind_mph": 4.7,
+        "wind_dir_deg": 73
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Keider Montero holds RHB to a 0.597 OPS; Cubs project 62% R-handed today."
+          "text": "Keider Montero holds RHB to a 0.589 OPS; Cubs project 62% R-handed today."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Colin Rea is vulnerable to LHB (0.797 OPS) and Tigers skew L-handed."
+          "text": "Colin Rea is vulnerable to LHB (0.789 OPS) and Tigers skew L-handed."
         }
       ],
       "lean": "away",
@@ -1196,7 +1206,7 @@
         "team_full": "Miami Marlins",
         "abbr": "MIA",
         "team_id": 146,
-        "record": "52-50",
+        "record": "52-51",
         "pitcher_id": 645261,
         "pitcher_name": "Sandy Alcantara",
         "pitcher_hand": "R",
@@ -1208,20 +1218,24 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "49-54",
+        "record": "50-54",
         "pitcher_id": 663567,
         "pitcher_name": "Peter Lambert",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 94.7,
+        "wind_mph": 3.7,
+        "wind_dir_deg": 25
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Sandy Alcantara holds RHB to a 0.654 OPS; Astros project 67% R-handed today."
+          "text": "Sandy Alcantara holds RHB to a 0.691 OPS; Astros project 67% R-handed today."
         }
       ],
       "lean": "away",
