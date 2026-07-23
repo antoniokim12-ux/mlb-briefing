@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "generated": "2026-07-23T14:58:12",
+  "generated": "2026-07-23T20:07:27",
   "games": [
     {
       "game_pk": 824893,
@@ -37,28 +37,28 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "50-52",
+        "record": "50-53",
         "pitcher_id": 606996,
         "pitcher_name": "Kyle Hart",
         "pitcher_hand": "L",
-        "ml": 209,
-        "implied": 32.4
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Braves",
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "59-42",
+        "record": "60-42",
         "pitcher_id": 519242,
         "pitcher_name": "Chris Sale",
         "pitcher_hand": "L",
-        "ml": -259,
-        "implied": 72.1
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 83.8,
-        "wind_mph": 7.4,
+        "temp_f": 82.8,
+        "wind_mph": 6.5,
         "wind_dir_deg": 226
       },
       "factors": [
@@ -66,31 +66,21 @@
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Kyle Hart is vulnerable to LHB (0.839 OPS) and Braves skew L-handed."
+          "text": "Kyle Hart is vulnerable to LHB (0.813 OPS) and Braves skew L-handed."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Chris Sale holds RHB to a 0.605 OPS; Padres project 75% R-handed today."
+          "text": "Chris Sale holds RHB to a 0.596 OPS; Padres project 75% R-handed today."
         }
       ],
       "lean": "home",
       "weight": 2,
       "read": null,
-      "total": {
-        "line": 8.0,
-        "over": -109,
-        "under": -111
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824406,
@@ -99,7 +89,17 @@
       "lat": 41.495861,
       "lon": -81.685255,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          686797,
+          621439,
+          680777,
+          605137,
+          665019,
+          668904,
+          668885,
+          807712,
+          668952
+        ],
         "home": [
           680757,
           608070,
@@ -121,8 +121,8 @@
         "pitcher_id": 671737,
         "pitcher_name": "Taj Bradley",
         "pitcher_hand": "R",
-        "ml": 119,
-        "implied": 45.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Guardians",
@@ -133,44 +133,34 @@
         "pitcher_id": 668909,
         "pitcher_name": "Gavin Williams",
         "pitcher_hand": "R",
-        "ml": -144,
-        "implied": 59.0
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 73.6,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 339
+        "temp_f": 75.0,
+        "wind_mph": 6.0,
+        "wind_dir_deg": 2
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Taj Bradley holds LHB to a 0.700 OPS; Guardians project 83% L-handed today."
+          "text": "Taj Bradley holds LHB to a 0.683 OPS; Guardians project 83% L-handed today."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Twins lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Gavin Williams is vulnerable to RHB (0.791 OPS) and Twins skew R-handed."
         }
       ],
       "lean": "away",
-      "weight": 1,
+      "weight": 2,
       "read": null,
-      "total": {
-        "line": 7.5,
-        "over": 104,
-        "under": -125
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 7.5,
-        "note": "Total 7.5: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 822785,
@@ -179,8 +169,28 @@
       "lat": 43.64155,
       "lon": -79.38915,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          650490,
+          666018,
+          691406,
+          683748,
+          676356,
+          802415,
+          810938,
+          680700,
+          676439
+        ],
+        "home": [
+          682818,
+          665489,
+          676391,
+          543807,
+          672386,
+          672960,
+          676914,
+          649966,
+          664702
+        ]
       },
       "away": {
         "team": "Rays",
@@ -188,11 +198,11 @@
         "abbr": "TB",
         "team_id": 139,
         "record": "59-42",
-        "pitcher_id": 693855,
-        "pitcher_name": "Ian Seymour",
-        "pitcher_hand": "L",
-        "ml": -112,
-        "implied": 52.8
+        "pitcher_id": 668984,
+        "pitcher_name": "Casey Legumina",
+        "pitcher_hand": "R",
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Blue Jays",
@@ -203,44 +213,28 @@
         "pitcher_id": 669456,
         "pitcher_name": "Shane Bieber",
         "pitcher_hand": "R",
-        "ml": -108,
-        "implied": 51.9
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 68.7,
-        "wind_mph": 11.2,
-        "wind_dir_deg": 183
+        "temp_f": 68.8,
+        "wind_mph": 10.2,
+        "wind_dir_deg": 190
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Blue Jays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Casey Legumina is vulnerable to RHB (0.912 OPS) and Blue Jays skew R-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
-      "total": {
-        "line": 8.5,
-        "over": -110,
-        "under": -110
-      },
-      "total_read": {
-        "side": "over",
-        "strength": 2,
-        "line": 8.5,
-        "note": "Total 8.5: leans OVER \u2014 both starters look hittable (avg 0.858 OPS-against); wind blowing out to center (~11 mph). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 823042,
@@ -249,8 +243,28 @@
       "lat": 38.62256667,
       "lon": -90.19286667,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          606466,
+          682998,
+          672695,
+          672515,
+          596146,
+          694374,
+          680728,
+          545121,
+          814439
+        ],
+        "home": [
+          802139,
+          691023,
+          676475,
+          663457,
+          691026,
+          665877,
+          701675,
+          691458,
+          699625
+        ]
       },
       "away": {
         "team": "D-backs",
@@ -261,8 +275,8 @@
         "pitcher_id": 694297,
         "pitcher_name": "Brandon Pfaadt",
         "pitcher_hand": "R",
-        "ml": 103,
-        "implied": 49.3
+        "ml": -105,
+        "implied": 51.2
       },
       "home": {
         "team": "Cardinals",
@@ -273,35 +287,22 @@
         "pitcher_id": 700241,
         "pitcher_name": "Michael McGreevy",
         "pitcher_hand": "R",
-        "ml": -125,
-        "implied": 55.6
+        "ml": -115,
+        "implied": 53.5
       },
       "weather": {
-        "temp_f": 82.6,
-        "wind_mph": 4.8,
+        "temp_f": 80.6,
+        "wind_mph": 5.3,
         "wind_dir_deg": 22
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Cardinals lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "D-backs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -110,
-        "under": -109
+        "over": -113,
+        "under": -107
       },
       "total_read": {
         "side": null,
@@ -319,8 +320,28 @@
       "lat": 42.3391151,
       "lon": -83.048695,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          695600,
+          657041,
+          686469,
+          521692,
+          686681,
+          686555,
+          668942,
+          679845,
+          623205
+        ],
+        "home": [
+          805808,
+          650402,
+          690993,
+          682985,
+          693307,
+          681481,
+          679529,
+          656716,
+          681546
+        ]
       },
       "away": {
         "team": "Royals",
@@ -331,8 +352,8 @@
         "pitcher_id": 677976,
         "pitcher_name": "Randy Dobnak",
         "pitcher_hand": "R",
-        "ml": 177,
-        "implied": 36.1
+        "ml": 192,
+        "implied": 34.2
       },
       "home": {
         "team": "Tigers",
@@ -343,41 +364,35 @@
         "pitcher_id": 675512,
         "pitcher_name": "Troy Melton",
         "pitcher_hand": "R",
-        "ml": -217,
-        "implied": 68.5
+        "ml": -237,
+        "implied": 70.3
       },
       "weather": {
-        "temp_f": 79.0,
-        "wind_mph": 6.7,
-        "wind_dir_deg": 110
+        "temp_f": 77.1,
+        "wind_mph": 5.8,
+        "wind_dir_deg": 92
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Tigers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Royals lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Randy Dobnak holds LHB to a 0.669 OPS; Tigers project 67% L-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": {
         "line": 8.5,
-        "over": -101,
-        "under": -120
+        "over": -109,
+        "under": -111
       },
       "total_read": {
         "side": "under",
         "strength": 1,
         "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters suppress contact (avg 0.663 OPS-against). (Bullpen still to come.)"
+        "note": "Total 8.5: leans UNDER \u2014 both starters suppress contact (avg 0.645 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
