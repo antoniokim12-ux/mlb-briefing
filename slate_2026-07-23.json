@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "generated": "2026-07-23T23:46:56",
+  "generated": "2026-07-24T01:58:42",
   "games": [
     {
       "game_pk": 824893,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 82.8,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 226
+        "temp_f": 83.4,
+        "wind_mph": 5.8,
+        "wind_dir_deg": 234
       },
       "factors": [
         {
@@ -137,9 +137,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 75.0,
-        "wind_mph": 6.0,
-        "wind_dir_deg": 2
+        "temp_f": 70.6,
+        "wind_mph": 6.3,
+        "wind_dir_deg": 35
       },
       "factors": [
         {
@@ -211,9 +211,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 70.3,
-        "wind_mph": 10.5,
-        "wind_dir_deg": 184
+        "temp_f": 63.1,
+        "wind_mph": 7.6,
+        "wind_dir_deg": 199
       },
       "factors": [
         {
@@ -265,7 +265,7 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "53-49",
+        "record": "54-49",
         "pitcher_id": 694297,
         "pitcher_name": "Brandon Pfaadt",
         "pitcher_hand": "R",
@@ -277,7 +277,7 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "52-49",
+        "record": "52-50",
         "pitcher_id": 700241,
         "pitcher_name": "Michael McGreevy",
         "pitcher_hand": "R",
@@ -285,9 +285,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 77.8,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 36
+        "temp_f": 78.5,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 38
       },
       "factors": [],
       "lean": "even",
@@ -332,7 +332,7 @@
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "43-60",
+        "record": "43-61",
         "pitcher_id": 677976,
         "pitcher_name": "Randy Dobnak",
         "pitcher_hand": "R",
@@ -344,7 +344,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "48-54",
+        "record": "49-54",
         "pitcher_id": 675512,
         "pitcher_name": "Troy Melton",
         "pitcher_hand": "R",
@@ -352,16 +352,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 75.5,
-        "wind_mph": 7.8,
-        "wind_dir_deg": 108
+        "temp_f": 74.0,
+        "wind_mph": 6.1,
+        "wind_dir_deg": 123
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Randy Dobnak holds LHB to a 0.669 OPS; Tigers project 67% L-handed today."
+          "text": "Randy Dobnak holds LHB to a 0.627 OPS; Tigers project 67% L-handed today."
         }
       ],
       "lean": "away",
