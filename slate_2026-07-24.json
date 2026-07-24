@@ -1,6 +1,6 @@
 {
   "date": "2026-07-24",
-  "generated": "2026-07-24T20:01:02",
+  "generated": "2026-07-24T20:11:56",
   "games": [
     {
       "game_pk": 823759,
@@ -41,8 +41,8 @@
         "pitcher_id": 608372,
         "pitcher_name": "Tomoyuki Sugano",
         "pitcher_hand": "R",
-        "ml": 234,
-        "implied": 29.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Brewers",
@@ -53,13 +53,13 @@
         "pitcher_id": 675660,
         "pitcher_name": "Shane Drohan",
         "pitcher_hand": "L",
-        "ml": -294,
-        "implied": 74.6
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 75.7,
-        "wind_mph": 11.8,
-        "wind_dir_deg": 129
+        "temp_f": 76.4,
+        "wind_mph": 12.8,
+        "wind_dir_deg": 147
       },
       "factors": [
         {
@@ -72,19 +72,9 @@
       "lean": "home",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 8.5,
-        "over": -120,
-        "under": -101
-      },
-      "total_read": {
-        "side": "over",
-        "strength": 1,
-        "line": 8.5,
-        "note": "Total 8.5: leans OVER \u2014 both starters look hittable (avg 0.796 OPS-against). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824248,
@@ -142,8 +132,8 @@
       },
       "weather": {
         "temp_f": 79.5,
-        "wind_mph": 6.0,
-        "wind_dir_deg": 135
+        "wind_mph": 5.4,
+        "wind_dir_deg": 142
       },
       "factors": [
         {
@@ -221,8 +211,8 @@
         "implied": 51.7
       },
       "weather": {
-        "temp_f": 82.8,
-        "wind_mph": 7.2,
+        "temp_f": 80.5,
+        "wind_mph": 5.3,
         "wind_dir_deg": 126
       },
       "factors": [
@@ -311,9 +301,9 @@
         "implied": 49.0
       },
       "weather": {
-        "temp_f": 81.6,
+        "temp_f": 80.8,
         "wind_mph": 6.3,
-        "wind_dir_deg": 98
+        "wind_dir_deg": 84
       },
       "factors": [],
       "lean": "even",
@@ -388,9 +378,9 @@
         "implied": 58.0
       },
       "weather": {
-        "temp_f": 83.3,
-        "wind_mph": 3.6,
-        "wind_dir_deg": 158
+        "temp_f": 82.5,
+        "wind_mph": 5.3,
+        "wind_dir_deg": 78
       },
       "factors": [
         {
@@ -472,9 +462,9 @@
         "implied": 55.8
       },
       "weather": {
-        "temp_f": 80.6,
-        "wind_mph": 7.1,
-        "wind_dir_deg": 103
+        "temp_f": 79.8,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 115
       },
       "factors": [],
       "lean": "even",
@@ -501,7 +491,17 @@
       "lat": 40.75753012,
       "lon": -73.84559155,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          660271,
+          681624,
+          669242,
+          518692,
+          605141,
+          500743,
+          663656,
+          606192,
+          687221
+        ],
         "home": [
           805999,
           665742,
@@ -538,15 +538,12 @@
         "ml": 113,
         "implied": 46.9
       },
-      "weather": null,
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Dodgers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "weather": {
+        "temp_f": 78.8,
+        "wind_mph": 7.7,
+        "wind_dir_deg": 126
+      },
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -559,7 +556,7 @@
         "side": "over",
         "strength": 1,
         "line": 9.0,
-        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.804 OPS-against). (Bullpen still to come.)"
+        "note": "Total 9.0: leans OVER \u2014 both starters look hittable (avg 0.865 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -618,7 +615,11 @@
         "ml": -141,
         "implied": 58.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 89.0,
+        "wind_mph": 7.7,
+        "wind_dir_deg": 300
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -887,7 +888,17 @@
       "lon": -97.081818,
       "lineup_ids": {
         "away": [],
-        "home": []
+        "home": [
+          592626,
+          694671,
+          677649,
+          607043,
+          694497,
+          669394,
+          670032,
+          553869,
+          695508
+        ]
       },
       "away": {
         "team": "Mariners",
@@ -913,11 +924,7 @@
         "ml": -103,
         "implied": 50.7
       },
-      "weather": {
-        "temp_f": 93.7,
-        "wind_mph": 11.7,
-        "wind_dir_deg": 177
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -935,10 +942,10 @@
         "under": -106
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "under",
+        "strength": 1,
         "line": 7.5,
-        "note": "Total 7.5: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.659 OPS-against); over: wind blowing out to center (~12 mph)). (Bullpen still to come.)"
+        "note": "Total 7.5: leans UNDER \u2014 both starters suppress contact (avg 0.659 OPS-against). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -978,9 +985,9 @@
         "implied": 59.8
       },
       "weather": {
-        "temp_f": 81.4,
-        "wind_mph": 11.4,
-        "wind_dir_deg": 203
+        "temp_f": 81.2,
+        "wind_mph": 11.8,
+        "wind_dir_deg": 201
       },
       "factors": [
         {
@@ -1008,7 +1015,7 @@
         "side": "over",
         "strength": 2,
         "line": 9.5,
-        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.808 OPS-against); wind blowing out to center (~11 mph). (Bullpen still to come.)"
+        "note": "Total 9.5: leans OVER \u2014 both starters look hittable (avg 0.808 OPS-against); wind blowing out to center (~12 mph). (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
@@ -1052,8 +1059,8 @@
         "pitcher_id": 695076,
         "pitcher_name": "Rhett Lowder",
         "pitcher_hand": "R",
-        "ml": 124,
-        "implied": 44.6
+        "ml": 129,
+        "implied": 43.7
       },
       "home": {
         "team": "Cardinals",
@@ -1064,13 +1071,13 @@
         "pitcher_id": 669160,
         "pitcher_name": "Dustin May",
         "pitcher_hand": "R",
-        "ml": -150,
-        "implied": 60.0
+        "ml": -156,
+        "implied": 60.9
       },
       "weather": {
-        "temp_f": 73.5,
-        "wind_mph": 2.7,
-        "wind_dir_deg": 114
+        "temp_f": 73.3,
+        "wind_mph": 2.4,
+        "wind_dir_deg": 146
       },
       "factors": [
         {
@@ -1132,8 +1139,8 @@
         "implied": 61.1
       },
       "weather": {
-        "temp_f": 62.2,
-        "wind_mph": 20.9,
+        "temp_f": 62.5,
+        "wind_mph": 20.8,
         "wind_dir_deg": 287
       },
       "factors": [
