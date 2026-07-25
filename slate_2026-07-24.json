@@ -1,6 +1,6 @@
 {
   "date": "2026-07-24",
-  "generated": "2026-07-25T04:10:03",
+  "generated": "2026-07-25T05:30:43",
   "games": [
     {
       "game_pk": 823759,
@@ -492,11 +492,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 74.6,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 150
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -559,11 +555,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 85.5,
-        "wind_mph": 0.8,
-        "wind_dir_deg": 236
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -626,11 +618,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 84.7,
-        "wind_mph": 5.6,
-        "wind_dir_deg": 83
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -915,7 +903,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 78.0,
+        "wind_mph": 12.3,
+        "wind_dir_deg": 196
+      },
       "factors": [
         {
           "m": "-",
@@ -1040,7 +1032,7 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "41-62",
+        "record": "41-63",
         "pitcher_id": 680570,
         "pitcher_name": "Grayson Rodriguez",
         "pitcher_hand": "R",
@@ -1052,7 +1044,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "42-60",
+        "record": "43-60",
         "pitcher_id": 657277,
         "pitcher_name": "Logan Webb",
         "pitcher_hand": "R",
@@ -1069,7 +1061,7 @@
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Logan Webb holds RHB to a 0.578 OPS; Angels project 75% R-handed today."
+          "text": "Logan Webb holds RHB to a 0.584 OPS; Angels project 75% R-handed today."
         },
         {
           "m": "~",
