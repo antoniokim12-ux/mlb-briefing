@@ -1,6 +1,6 @@
 {
   "date": "2026-07-26",
-  "generated": "2026-07-26T21:36:01",
+  "generated": "2026-07-26T21:47:03",
   "games": [
     {
       "game_pk": 822950,
@@ -492,7 +492,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.7,
+        "wind_mph": 2.9,
+        "wind_dir_deg": 360
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -891,7 +895,7 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "51-54",
+        "record": "52-54",
         "pitcher_id": 669302,
         "pitcher_name": "Logan Gilbert",
         "pitcher_hand": "R",
@@ -903,7 +907,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "53-51",
+        "record": "53-52",
         "pitcher_id": 594798,
         "pitcher_name": "Jacob deGrom",
         "pitcher_hand": "R",
@@ -985,9 +989,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 64.1,
-        "wind_mph": 13.6,
-        "wind_dir_deg": 279
+        "temp_f": 67.1,
+        "wind_mph": 14.4,
+        "wind_dir_deg": 283
       },
       "factors": [],
       "lean": "even",
@@ -1053,8 +1057,8 @@
       },
       "weather": {
         "temp_f": 80.6,
-        "wind_mph": 6.4,
-        "wind_dir_deg": 190
+        "wind_mph": 7.1,
+        "wind_dir_deg": 198
       },
       "factors": [
         {
