@@ -1,6 +1,6 @@
 {
   "date": "2026-07-26",
-  "generated": "2026-07-26T20:04:47",
+  "generated": "2026-07-26T21:36:01",
   "games": [
     {
       "game_pk": 822950,
@@ -117,7 +117,7 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "55-50",
+        "record": "55-51",
         "pitcher_id": 684442,
         "pitcher_name": "Kohl Drake",
         "pitcher_hand": "L",
@@ -129,7 +129,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "53-52",
+        "record": "54-52",
         "pitcher_id": 571945,
         "pitcher_name": "Miles Mikolas",
         "pitcher_hand": "R",
@@ -146,7 +146,7 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Kohl Drake holds RHB to a 0.393 OPS; Nationals project 62% R-handed today."
+          "text": "Kohl Drake holds RHB to a 0.613 OPS; Nationals project 62% R-handed today."
         }
       ],
       "lean": "away",
@@ -191,7 +191,7 @@
         "team_full": "Chicago Cubs",
         "abbr": "CHC",
         "team_id": 112,
-        "record": "59-45",
+        "record": "59-46",
         "pitcher_id": 592791,
         "pitcher_name": "Jameson Taillon",
         "pitcher_hand": "R",
@@ -203,7 +203,7 @@
         "team_full": "Pittsburgh Pirates",
         "abbr": "PIT",
         "team_id": 134,
-        "record": "53-52",
+        "record": "54-52",
         "pitcher_id": 677952,
         "pitcher_name": "Braxton Ashcraft",
         "pitcher_hand": "R",
@@ -287,7 +287,7 @@
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Ranger Suarez holds RHB to a 0.574 OPS; Blue Jays project 67% R-handed today."
+          "text": "Ranger Suarez holds RHB to a 0.575 OPS; Blue Jays project 67% R-handed today."
         }
       ],
       "lean": "home",
@@ -332,7 +332,7 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "61-43",
+        "record": "62-43",
         "pitcher_id": 625643,
         "pitcher_name": "Reynaldo L\u00f3pez",
         "pitcher_hand": "R",
@@ -344,7 +344,7 @@
         "team_full": "Baltimore Orioles",
         "abbr": "BAL",
         "team_id": 110,
-        "record": "51-54",
+        "record": "51-55",
         "pitcher_id": 669358,
         "pitcher_name": "Shane Baz",
         "pitcher_hand": "R",
@@ -361,7 +361,7 @@
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Shane Baz is vulnerable to LHB (0.780 OPS) and Braves skew L-handed."
+          "text": "Shane Baz is vulnerable to LHB (0.789 OPS) and Braves skew L-handed."
         }
       ],
       "lean": "away",
@@ -406,7 +406,7 @@
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "44-62",
+        "record": "45-62",
         "pitcher_id": 679883,
         "pitcher_name": "Luinder Avila",
         "pitcher_hand": "R",
@@ -418,7 +418,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "50-55",
+        "record": "50-56",
         "pitcher_id": 664285,
         "pitcher_name": "Framber Valdez",
         "pitcher_hand": "L",
@@ -473,7 +473,7 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "67-38",
+        "record": "67-39",
         "pitcher_id": 686218,
         "pitcher_name": "Emmet Sheehan",
         "pitcher_hand": "R",
@@ -485,18 +485,14 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "43-62",
+        "record": "44-62",
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 82.7,
-        "wind_mph": 2.9,
-        "wind_dir_deg": 360
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -540,7 +536,7 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "52-53",
+        "record": "53-53",
         "pitcher_id": 621111,
         "pitcher_name": "Walker Buehler",
         "pitcher_hand": "R",
@@ -552,18 +548,14 @@
         "team_full": "Miami Marlins",
         "abbr": "MIA",
         "team_id": 146,
-        "record": "52-53",
+        "record": "52-54",
         "pitcher_id": 676083,
         "pitcher_name": "Janson Junk",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 89.5,
-        "wind_mph": 3.0,
-        "wind_dir_deg": 234
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -607,7 +599,7 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "44-60",
+        "record": "44-61",
         "pitcher_id": 605488,
         "pitcher_name": "Jeffrey Springs",
         "pitcher_hand": "L",
@@ -619,28 +611,30 @@
         "team_full": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "record": "52-54",
+        "record": "53-54",
         "pitcher_id": 687570,
         "pitcher_name": "Connor Prielipp",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 93.5,
-        "wind_mph": 7.7,
-        "wind_dir_deg": 195
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Jeffrey Springs is vulnerable to RHB (0.887 OPS) and Twins skew R-handed."
+          "text": "Jeffrey Springs is vulnerable to RHB (0.890 OPS) and Twins skew R-handed."
+        },
+        {
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Connor Prielipp holds RHB to a 0.688 OPS; Athletics project 62% R-handed today."
         }
       ],
       "lean": "home",
-      "weight": 1,
+      "weight": 2,
       "read": null,
       "total": null,
       "total_read": null,
@@ -681,7 +675,7 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "52-54",
+        "record": "52-55",
         "pitcher_id": 669854,
         "pitcher_name": "Ronel Blanco",
         "pitcher_hand": "R",
@@ -693,24 +687,20 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "54-49",
+        "record": "55-49",
         "pitcher_id": 607200,
         "pitcher_name": "Erick Fedde",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 82.5,
-        "wind_mph": 5.6,
-        "wind_dir_deg": 92
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Erick Fedde is vulnerable to RHB (0.832 OPS) and Astros skew R-handed."
+          "text": "Erick Fedde is vulnerable to RHB (0.844 OPS) and Astros skew R-handed."
         }
       ],
       "lean": "away",
@@ -755,7 +745,7 @@
         "team_full": "Colorado Rockies",
         "abbr": "COL",
         "team_id": 115,
-        "record": "42-64",
+        "record": "42-65",
         "pitcher_id": 607536,
         "pitcher_name": "Kyle Freeland",
         "pitcher_hand": "L",
@@ -767,30 +757,26 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "65-39",
+        "record": "66-39",
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 80.4,
-        "wind_mph": 7.8,
-        "wind_dir_deg": 90
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Kyle Freeland is vulnerable to RHB (0.958 OPS) and Brewers skew R-handed."
+          "text": "Kyle Freeland is vulnerable to RHB (0.954 OPS) and Brewers skew R-handed."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Jacob Misiorowski holds LHB to a 0.332 OPS; Rockies project 71% L-handed today."
+          "text": "Jacob Misiorowski holds LHB to a 0.340 OPS; Rockies project 71% L-handed today."
         }
       ],
       "lean": "home",
@@ -835,7 +821,7 @@
         "team_full": "Cincinnati Reds",
         "abbr": "CIN",
         "team_id": 113,
-        "record": "48-55",
+        "record": "49-55",
         "pitcher_id": 671096,
         "pitcher_name": "Andrew Abbott",
         "pitcher_hand": "L",
@@ -847,24 +833,20 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "53-51",
+        "record": "53-52",
         "pitcher_id": 681517,
         "pitcher_name": "Kyle Leahy",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 93.8,
-        "wind_mph": 2.1,
-        "wind_dir_deg": 229
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Kyle Leahy holds RHB to a 0.615 OPS; Reds project 75% R-handed today."
+          "text": "Kyle Leahy holds RHB to a 0.617 OPS; Reds project 75% R-handed today."
         }
       ],
       "lean": "home",
@@ -987,8 +969,8 @@
         "pitcher_id": 667755,
         "pitcher_name": "Jos\u00e9 Soriano",
         "pitcher_hand": "R",
-        "ml": -127,
-        "implied": 55.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Giants",
@@ -999,31 +981,21 @@
         "pitcher_id": 687931,
         "pitcher_name": "Carson Whisenhunt",
         "pitcher_hand": "L",
-        "ml": 105,
-        "implied": 48.8
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 66.3,
-        "wind_mph": 14.7,
-        "wind_dir_deg": 280
+        "temp_f": 64.1,
+        "wind_mph": 13.6,
+        "wind_dir_deg": 279
       },
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": {
-        "line": 8.5,
-        "over": -109,
-        "under": -111
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 signals split (under: Oracle Park plays pitcher-friendly; over: wind blowing out to center (~14 mph)). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 823433,
@@ -1032,7 +1004,17 @@
       "lat": 39.90539086,
       "lon": -75.16716957,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          502671,
+          700250,
+          642708,
+          691176,
+          683011,
+          663757,
+          680474,
+          676609,
+          645305
+        ],
         "home": [
           607208,
           656941,
@@ -1054,8 +1036,8 @@
         "pitcher_id": 701542,
         "pitcher_name": "Will Warren",
         "pitcher_hand": "R",
-        "ml": 168,
-        "implied": 37.3
+        "ml": 177,
+        "implied": 36.1
       },
       "home": {
         "team": "Phillies",
@@ -1066,22 +1048,20 @@
         "pitcher_id": 650911,
         "pitcher_name": "Cristopher S\u00e1nchez",
         "pitcher_hand": "L",
-        "ml": -205,
-        "implied": 67.2
+        "ml": -217,
+        "implied": 68.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 80.6,
+        "wind_mph": 6.4,
+        "wind_dir_deg": 190
+      },
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
           "text": "Will Warren is vulnerable to LHB (0.783 OPS) and Phillies skew L-handed."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Yankees lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
       "lean": "home",
@@ -1089,14 +1069,14 @@
       "read": null,
       "total": {
         "line": 8.0,
-        "over": -107,
-        "under": -112
+        "over": -116,
+        "under": -104
       },
       "total_read": {
-        "side": null,
-        "strength": 0,
+        "side": "over",
+        "strength": 2,
         "line": 8.0,
-        "note": "Total 8.0: no clear lean \u2014 signals split (under: both starters suppress contact (avg 0.667 OPS-against); over: Citizens Bank Park plays hitter-friendly). (Bullpen still to come.)"
+        "note": "Total 8.0: leans OVER \u2014 both starters look hittable (avg 0.781 OPS-against); Citizens Bank Park plays hitter-friendly. (Bullpen still to come.)"
       },
       "started": false,
       "odds_book": "DraftKings"
