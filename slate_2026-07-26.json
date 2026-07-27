@@ -1,6 +1,6 @@
 {
   "date": "2026-07-26",
-  "generated": "2026-07-26T23:51:40",
+  "generated": "2026-07-27T03:43:42",
   "games": [
     {
       "game_pk": 822950,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 88.0,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 314
+        "temp_f": 84.2,
+        "wind_mph": 5.8,
+        "wind_dir_deg": 283
       },
       "factors": [
         {
@@ -137,9 +137,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 81.6,
-        "wind_mph": 4.9,
-        "wind_dir_deg": 180
+        "temp_f": 81.1,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 159
       },
       "factors": [
         {
@@ -211,9 +211,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 79.1,
-        "wind_mph": 1.8,
-        "wind_dir_deg": 270
+        "temp_f": 76.6,
+        "wind_mph": 2.1,
+        "wind_dir_deg": 198
       },
       "factors": [],
       "lean": "even",
@@ -278,9 +278,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 76.0,
-        "wind_mph": 10.2,
-        "wind_dir_deg": 58
+        "temp_f": 66.3,
+        "wind_mph": 5.7,
+        "wind_dir_deg": 64
       },
       "factors": [
         {
@@ -352,9 +352,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 81.7,
-        "wind_mph": 7.1,
-        "wind_dir_deg": 134
+        "temp_f": 80.3,
+        "wind_mph": 7.7,
+        "wind_dir_deg": 150
       },
       "factors": [
         {
@@ -426,9 +426,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 82.6,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 224
+        "temp_f": 82.8,
+        "wind_mph": 8.5,
+        "wind_dir_deg": 284
       },
       "factors": [],
       "lean": "even",
@@ -493,9 +493,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 82.7,
-        "wind_mph": 2.9,
-        "wind_dir_deg": 360
+        "temp_f": 75.1,
+        "wind_mph": 9.3,
+        "wind_dir_deg": 165
       },
       "factors": [],
       "lean": "even",
@@ -560,9 +560,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 89.5,
-        "wind_mph": 3.0,
-        "wind_dir_deg": 234
+        "temp_f": 84.0,
+        "wind_mph": 6.1,
+        "wind_dir_deg": 280
       },
       "factors": [],
       "lean": "even",
@@ -627,9 +627,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 93.5,
-        "wind_mph": 7.7,
-        "wind_dir_deg": 195
+        "temp_f": 97.1,
+        "wind_mph": 9.2,
+        "wind_dir_deg": 183
       },
       "factors": [
         {
@@ -707,9 +707,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 82.5,
+        "temp_f": 82.6,
         "wind_mph": 5.6,
-        "wind_dir_deg": 92
+        "wind_dir_deg": 178
       },
       "factors": [
         {
@@ -780,7 +780,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 77.2,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 90
+      },
       "factors": [
         {
           "m": "-",
@@ -1047,7 +1051,7 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "59-45",
+        "record": "59-46",
         "pitcher_id": 701542,
         "pitcher_name": "Will Warren",
         "pitcher_hand": "R",
@@ -1059,7 +1063,7 @@
         "team_full": "Philadelphia Phillies",
         "abbr": "PHI",
         "team_id": 143,
-        "record": "56-49",
+        "record": "57-49",
         "pitcher_id": 650911,
         "pitcher_name": "Cristopher S\u00e1nchez",
         "pitcher_hand": "L",
@@ -1072,11 +1076,17 @@
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Will Warren is vulnerable to LHB (0.783 OPS) and Phillies skew L-handed."
+          "text": "Will Warren is vulnerable to LHB (0.812 OPS) and Phillies skew L-handed."
+        },
+        {
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Cristopher S\u00e1nchez is vulnerable to RHB (0.782 OPS) and Yankees skew R-handed."
         }
       ],
-      "lean": "home",
-      "weight": 1,
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
