@@ -1,6 +1,6 @@
 {
   "date": "2026-07-26",
-  "generated": "2026-07-27T04:37:30",
+  "generated": "2026-07-27T06:04:53",
   "games": [
     {
       "game_pk": 822950,
@@ -559,7 +559,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 84.0,
+        "wind_mph": 6.1,
+        "wind_dir_deg": 280
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -622,7 +626,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 97.1,
+        "wind_mph": 9.2,
+        "wind_dir_deg": 183
+      },
       "factors": [
         {
           "m": "-",
@@ -698,7 +706,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.6,
+        "wind_mph": 5.6,
+        "wind_dir_deg": 178
+      },
       "factors": [
         {
           "m": "-",
@@ -768,7 +780,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 77.2,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 90
+      },
       "factors": [
         {
           "m": "-",
@@ -844,7 +860,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 93.1,
+        "wind_mph": 8.4,
+        "wind_dir_deg": 245
+      },
       "factors": [
         {
           "m": "+",
@@ -914,7 +934,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 96.7,
+        "wind_mph": 8.3,
+        "wind_dir_deg": 177
+      },
       "factors": [
         {
           "m": "+",
@@ -984,23 +1008,13 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 69.0,
-        "wind_mph": 18.3,
-        "wind_dir_deg": 290
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
           "text": "Carson Whisenhunt is vulnerable to RHB (0.844 OPS) and Angels skew R-handed."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "18 mph wind (dir 290\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "away",
@@ -1064,11 +1078,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 80.3,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 203
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
