@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "generated": "2026-07-27T23:53:19",
+  "generated": "2026-07-28T04:07:01",
   "games": [
     {
       "game_pk": 822868,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 96.5,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 185
+        "temp_f": 98.0,
+        "wind_mph": 9.9,
+        "wind_dir_deg": 176
       },
       "factors": [
         {
@@ -111,7 +111,7 @@
         "team_full": "Baltimore Orioles",
         "abbr": "BAL",
         "team_id": 110,
-        "record": "51-55",
+        "record": "52-55",
         "pitcher_id": 680694,
         "pitcher_name": "Kyle Bradish",
         "pitcher_hand": "R",
@@ -123,7 +123,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "50-56",
+        "record": "50-57",
         "pitcher_id": 672456,
         "pitcher_name": "Keider Montero",
         "pitcher_hand": "R",
@@ -131,16 +131,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 80.2,
-        "wind_mph": 10.8,
-        "wind_dir_deg": 220
+        "temp_f": 80.4,
+        "wind_mph": 7.5,
+        "wind_dir_deg": 210
       },
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Keider Montero holds RHB to a 0.589 OPS; Orioles project 62% R-handed today."
+          "text": "Keider Montero holds RHB to a 0.602 OPS; Orioles project 62% R-handed today."
         }
       ],
       "lean": "home",
@@ -185,7 +185,7 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "55-51",
+        "record": "55-52",
         "pitcher_id": 518876,
         "pitcher_name": "Merrill Kelly",
         "pitcher_hand": "R",
@@ -197,7 +197,7 @@
         "team_full": "Pittsburgh Pirates",
         "abbr": "PIT",
         "team_id": 134,
-        "record": "54-52",
+        "record": "55-52",
         "pitcher_id": 656605,
         "pitcher_name": "Mitch Keller",
         "pitcher_hand": "R",
@@ -205,8 +205,8 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 83.4,
-        "wind_mph": 8.3,
+        "temp_f": 78.4,
+        "wind_mph": 5.0,
         "wind_dir_deg": 243
       },
       "factors": [],
@@ -252,7 +252,7 @@
         "team_full": "Philadelphia Phillies",
         "abbr": "PHI",
         "team_id": 143,
-        "record": "57-49",
+        "record": "57-50",
         "pitcher_id": 554430,
         "pitcher_name": "Zack Wheeler",
         "pitcher_hand": "R",
@@ -264,7 +264,7 @@
         "team_full": "Miami Marlins",
         "abbr": "MIA",
         "team_id": 146,
-        "record": "52-54",
+        "record": "53-54",
         "pitcher_id": 663969,
         "pitcher_name": "Tyler Phillips",
         "pitcher_hand": "R",
@@ -272,22 +272,22 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 85.5,
-        "wind_mph": 4.0,
-        "wind_dir_deg": 199
+        "temp_f": 78.0,
+        "wind_mph": 4.2,
+        "wind_dir_deg": 198
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Zack Wheeler holds LHB to a 0.569 OPS; Marlins project 62% L-handed today."
+          "text": "Zack Wheeler holds LHB to a 0.589 OPS; Marlins project 62% L-handed today."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Tyler Phillips is vulnerable to LHB (0.810 OPS) and Phillies skew L-handed."
+          "text": "Tyler Phillips is vulnerable to LHB (0.796 OPS) and Phillies skew L-handed."
         }
       ],
       "lean": "away",
@@ -332,7 +332,7 @@
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "48-58",
+        "record": "49-58",
         "pitcher_id": 453286,
         "pitcher_name": "Max Scherzer",
         "pitcher_hand": "R",
@@ -344,7 +344,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "54-52",
+        "record": "54-53",
         "pitcher_id": 678868,
         "pitcher_name": "Eddy Yean",
         "pitcher_hand": "R",
@@ -352,26 +352,26 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 88.7,
-        "wind_mph": 3.2,
-        "wind_dir_deg": 315
+        "temp_f": 82.2,
+        "wind_mph": 5.1,
+        "wind_dir_deg": 139
       },
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Max Scherzer is vulnerable to LHB (1.067 OPS) and Nationals skew L-handed."
+          "text": "Max Scherzer is vulnerable to LHB (1.065 OPS) and Nationals skew L-handed."
         },
         {
-          "m": "+",
+          "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Eddy Yean holds RHB to a 0.250 OPS; Blue Jays project 78% R-handed today."
+          "text": "Eddy Yean is vulnerable to RHB (1.060 OPS) and Blue Jays skew R-handed."
         }
       ],
-      "lean": "home",
-      "weight": 2,
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
@@ -412,7 +412,7 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "62-43",
+        "record": "62-44",
         "pitcher_id": 527048,
         "pitcher_name": "Mart\u00edn P\u00e9rez",
         "pitcher_hand": "L",
@@ -424,7 +424,7 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "44-62",
+        "record": "45-62",
         "pitcher_id": 804267,
         "pitcher_name": "Zac Thornton",
         "pitcher_hand": "L",
@@ -432,16 +432,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 79.2,
-        "wind_mph": 10.6,
-        "wind_dir_deg": 167
+        "temp_f": 78.9,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 197
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Mart\u00edn P\u00e9rez holds RHB to a 0.646 OPS; Mets project 75% R-handed today."
+          "text": "Mart\u00edn P\u00e9rez holds RHB to a 0.674 OPS; Mets project 75% R-handed today."
         }
       ],
       "lean": "away",
@@ -486,7 +486,7 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "59-46",
+        "record": "60-46",
         "pitcher_id": 608331,
         "pitcher_name": "Max Fried",
         "pitcher_hand": "L",
@@ -498,7 +498,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "55-49",
+        "record": "55-50",
         "pitcher_id": 702273,
         "pitcher_name": "Noah Schultz",
         "pitcher_hand": "L",
@@ -506,22 +506,22 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 73.3,
-        "wind_mph": 11.9,
-        "wind_dir_deg": 179
+        "temp_f": 74.2,
+        "wind_mph": 12.4,
+        "wind_dir_deg": 167
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Max Fried holds RHB to a 0.555 OPS; White Sox project 71% R-handed today."
+          "text": "Max Fried holds RHB to a 0.572 OPS; White Sox project 71% R-handed today."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Noah Schultz is vulnerable to RHB (0.816 OPS) and Yankees skew R-handed."
+          "text": "Noah Schultz is vulnerable to RHB (0.802 OPS) and Yankees skew R-handed."
         }
       ],
       "lean": "away",
@@ -586,9 +586,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 96.8,
-        "wind_mph": 10.3,
-        "wind_dir_deg": 250
+        "temp_f": 87.0,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 34
       },
       "factors": [
         {
@@ -650,8 +650,8 @@
         "pitcher_id": 837227,
         "pitcher_name": "Tatsuya Imai",
         "pitcher_hand": "R",
-        "ml": -107,
-        "implied": 51.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Angels",
@@ -662,13 +662,13 @@
         "pitcher_id": 700712,
         "pitcher_name": "Walbert Ure\u00f1a",
         "pitcher_hand": "R",
-        "ml": -112,
-        "implied": 52.8
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 80.5,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 228
+        "temp_f": 82.5,
+        "wind_mph": 8.4,
+        "wind_dir_deg": 222
       },
       "factors": [
         {
@@ -681,19 +681,9 @@
       "lean": "away",
       "weight": 1,
       "read": null,
-      "total": {
-        "line": 8.5,
-        "over": -117,
-        "under": -103
-      },
-      "total_read": {
-        "side": "under",
-        "strength": 1,
-        "line": 8.5,
-        "note": "Total 8.5: leans UNDER \u2014 both starters suppress contact (avg 0.585 OPS-against). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824977,
@@ -734,8 +724,8 @@
         "pitcher_id": 801139,
         "pitcher_name": "Payton Tolle",
         "pitcher_hand": "L",
-        "ml": -192,
-        "implied": 65.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Athletics",
@@ -746,13 +736,13 @@
         "pitcher_id": 678022,
         "pitcher_name": "Jack Perkins",
         "pitcher_hand": "R",
-        "ml": 158,
-        "implied": 38.8
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 88.6,
-        "wind_mph": 10.9,
-        "wind_dir_deg": 233
+        "temp_f": 90.9,
+        "wind_mph": 9.0,
+        "wind_dir_deg": 224
       },
       "factors": [
         {
@@ -771,19 +761,9 @@
       "lean": "away",
       "weight": 2,
       "read": null,
-      "total": {
-        "line": 10.0,
-        "over": -105,
-        "under": -115
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 10.0,
-        "note": "Total 10.0: no clear lean \u2014 not enough data yet. (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 823195,
@@ -820,43 +800,44 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "66-39",
+        "record": "66-40",
         "pitcher_id": 687075,
         "pitcher_name": "Brandon Sproat",
         "pitcher_hand": "R",
-        "ml": -142,
-        "implied": 58.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Giants",
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "44-61",
+        "record": "45-61",
         "pitcher_id": 641816,
         "pitcher_name": "Tyler Mahle",
         "pitcher_hand": "R",
-        "ml": 118,
-        "implied": 45.9
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
-      "factors": [],
+      "weather": {
+        "temp_f": 66.9,
+        "wind_mph": 15.9,
+        "wind_dir_deg": 286
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "16 mph wind (dir 286\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+        }
+      ],
       "lean": "even",
       "weight": 0,
       "read": null,
-      "total": {
-        "line": 8.5,
-        "over": -119,
-        "under": -102
-      },
-      "total_read": {
-        "side": null,
-        "strength": 0,
-        "line": 8.5,
-        "note": "Total 8.5: no clear lean \u2014 signals split (over: both starters look hittable (avg 0.821 OPS-against); under: Oracle Park plays pitcher-friendly). (Bullpen still to come.)"
-      },
-      "started": false,
-      "odds_book": "DraftKings"
+      "total": null,
+      "total_read": null,
+      "started": true
     },
     {
       "game_pk": 824490,
@@ -892,7 +873,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 73.7,
+        "wind_mph": 14.4,
+        "wind_dir_deg": 69
+      },
       "factors": [
         {
           "m": "~",
