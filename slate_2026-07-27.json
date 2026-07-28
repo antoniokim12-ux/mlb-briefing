@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "generated": "2026-07-28T04:12:14",
+  "generated": "2026-07-28T05:32:33",
   "games": [
     {
       "game_pk": 822868,
@@ -562,7 +562,7 @@
         "team_full": "Chicago Cubs",
         "abbr": "CHC",
         "team_id": 112,
-        "record": "59-46",
+        "record": "60-46",
         "pitcher_id": 656849,
         "pitcher_name": "David Peterson",
         "pitcher_hand": "L",
@@ -574,7 +574,7 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "53-52",
+        "record": "53-53",
         "pitcher_id": 669461,
         "pitcher_name": "Matthew Liberatore",
         "pitcher_hand": "L",
@@ -587,13 +587,13 @@
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "David Peterson is vulnerable to RHB (0.789 OPS) and Cardinals skew R-handed."
+          "text": "David Peterson is vulnerable to RHB (0.785 OPS) and Cardinals skew R-handed."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Matthew Liberatore is vulnerable to RHB (0.803 OPS) and Cubs skew R-handed."
+          "text": "Matthew Liberatore is vulnerable to RHB (0.835 OPS) and Cubs skew R-handed."
         }
       ],
       "lean": "even",
@@ -638,7 +638,7 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "52-55",
+        "record": "53-55",
         "pitcher_id": 837227,
         "pitcher_name": "Tatsuya Imai",
         "pitcher_hand": "R",
@@ -650,7 +650,7 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "42-64",
+        "record": "42-65",
         "pitcher_id": 700712,
         "pitcher_name": "Walbert Ure\u00f1a",
         "pitcher_hand": "R",
@@ -663,7 +663,7 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Tatsuya Imai holds RHB to a 0.579 OPS; Angels project 75% R-handed today."
+          "text": "Tatsuya Imai holds RHB to a 0.623 OPS; Angels project 75% R-handed today."
         }
       ],
       "lean": "away",
@@ -708,7 +708,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "54-50",
+        "record": "55-50",
         "pitcher_id": 801139,
         "pitcher_name": "Payton Tolle",
         "pitcher_hand": "L",
@@ -720,7 +720,7 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "44-61",
+        "record": "44-62",
         "pitcher_id": 678022,
         "pitcher_name": "Jack Perkins",
         "pitcher_hand": "R",
@@ -733,13 +733,13 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Payton Tolle holds RHB to a 0.628 OPS; Athletics project 62% R-handed today."
+          "text": "Payton Tolle holds RHB to a 0.627 OPS; Athletics project 62% R-handed today."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Jack Perkins is vulnerable to RHB (0.825 OPS) and Red Sox skew R-handed."
+          "text": "Jack Perkins is vulnerable to RHB (0.801 OPS) and Red Sox skew R-handed."
         }
       ],
       "lean": "away",
