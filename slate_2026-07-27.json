@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "generated": "2026-07-28T04:07:01",
+  "generated": "2026-07-28T04:12:14",
   "games": [
     {
       "game_pk": 822868,
@@ -505,11 +505,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 74.2,
-        "wind_mph": 12.4,
-        "wind_dir_deg": 167
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -585,11 +581,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 87.0,
-        "wind_mph": 4.0,
-        "wind_dir_deg": 34
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -665,11 +657,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 82.5,
-        "wind_mph": 8.4,
-        "wind_dir_deg": 222
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -739,11 +727,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 90.9,
-        "wind_mph": 9.0,
-        "wind_dir_deg": 224
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -819,19 +803,8 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 66.9,
-        "wind_mph": 15.9,
-        "wind_dir_deg": 286
-      },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "16 mph wind (dir 286\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
-        }
-      ],
+      "weather": null,
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -873,11 +846,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 73.7,
-        "wind_mph": 14.4,
-        "wind_dir_deg": 69
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
