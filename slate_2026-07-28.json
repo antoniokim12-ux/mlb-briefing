@@ -1,6 +1,6 @@
 {
   "date": "2026-07-28",
-  "generated": "2026-07-29T05:10:21",
+  "generated": "2026-07-29T05:37:52",
   "games": [
     {
       "game_pk": 824490,
@@ -912,14 +912,20 @@
       "weather": null,
       "factors": [
         {
+          "m": "-",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Michael Lorenzen is vulnerable to RHB (0.792 OPS) and Padres skew R-handed."
+        },
+        {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Michael King holds LHB to a 0.586 OPS; Rockies project 71% L-handed today."
+          "text": "Michael King holds LHB to a 0.618 OPS; Rockies project 71% L-handed today."
         }
       ],
       "lean": "home",
-      "weight": 1,
+      "weight": 2,
       "read": null,
       "total": null,
       "total_read": null,
