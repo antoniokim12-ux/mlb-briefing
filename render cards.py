@@ -21,7 +21,7 @@ import json
 import os
 import sys
 
-BUILD = "leans-only"  # bump when shipping; shows in the page footer to verify deploys
+BUILD = "no-ou"  # bump when shipping; shows in the page footer to verify deploys
 
 # Design tokens — shared with the on-screen card concept.
 CSS = """

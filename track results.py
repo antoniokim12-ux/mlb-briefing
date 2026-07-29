@@ -203,21 +203,7 @@ def mode_close(slate_path):
             continue  # game underway/finished -> keep the last pre-game capture
 
         if e.get("kind") == "total":
-            t = g.get("total") or {}
-            if not t:
-                continue
-            oi, ui = implied_pct(t.get("over")), implied_pct(t.get("under"))
-            side_imp = oi if e["pick_side"] == "over" else ui
-            cf = fair_pct(side_imp, ui if e["pick_side"] == "over" else oi)
-            if cf is None:
-                continue
-            e["close_ml"] = t.get("over") if e["pick_side"] == "over" else t.get("under")
-            e["close_line"] = t.get("line")
-            e["close_fair"] = round(cf, 1)
-            e["clv_pp"] = (round(cf - e["log_fair"], 1)
-                           if e.get("log_fair") is not None else None)
-            updated += 1
-            continue
+            continue  # O/U retired — never capture totals CLV
 
         side = e["pick_side"]
         opp = "home" if side == "away" else "away"
@@ -278,18 +264,7 @@ def grade_entry(e, score):
         return False
 
     if e.get("kind") == "total":
-        line = e.get("line")
-        if line is None:
-            return False
-        runs = a + h
-        e["total_runs"] = runs
-        if runs == line:                      # exact integer line -> push
-            e["result"], e["profit"] = "P", 0.0
-        else:
-            won = (runs > line) if e["pick_side"] == "over" else (runs < line)
-            e["result"] = "W" if won else "L"
-            e["profit"] = round(profit_on_win(e["log_ml"]), 3) if won else -1.0
-        return True
+        return False  # O/U retired — never grade totals
 
     pick_won = (a > h) if e["pick_side"] == "away" else (h > a)
     e["result"] = "W" if pick_won else "L"
@@ -415,14 +390,10 @@ def mode_report():
         print("No picks logged yet. Run 'log' on a slate built with odds first.")
         return 0
     leans = [e for e in entries if e.get("kind") == "lean"]
-    totals = [e for e in entries if e.get("kind") == "total"]  # retired; historical only
     print(f"\n===== MLB Briefing — results scoreboard ({len(leans)} leans) =====")
     _stat_block(leans, "Favorite leans (ML)")
-    if totals:
-        _stat_block(totals, "Totals (O/U) — RETIRED, historical only")
     print("\nReminder: CLV is the early signal — positive over ~30+ leans is the first real "
-          "sign the tool is finding something. The tool is leans-only now; any O/U figures "
-          "above are historical, kept for reference, not live picks.\n")
+          "sign the tool is finding something. The tool is leans-only.\n")
     return 0
 
 
@@ -431,6 +402,25 @@ def mode_report():
 def _read_json(path):
     with open(path) as f:
         return json.load(f)
+
+
+def mode_purge_totals():
+    """One-time cleanup: permanently drop every O/U (total) entry from the log, so
+    nothing O/U is stored anywhere. Writes a timestamped backup first (reversible)."""
+    entries = load_log()
+    total_keys = [k for k, e in entries.items() if e.get("kind") == "total"]
+    if not total_keys:
+        print("No O/U entries in the log — nothing to purge.")
+        return 0
+    backup = f"{LOG_PATH}.backup-{dt.datetime.now():%Y%m%d-%H%M%S}"
+    with open(backup, "w") as f:
+        json.dump(list(entries.values()), f, indent=2)
+    for k in total_keys:
+        del entries[k]
+    save_log(entries)
+    print(f"Purged {len(total_keys)} O/U entry(ies). {len(entries)} leans remain.")
+    print(f"Backup written to {backup} — delete it once you're happy.")
+    return 0
 
 
 def main():
@@ -444,6 +434,7 @@ def main():
     p_imp.add_argument("slate")
     sub.add_parser("grade", help="grade finished games from final scores")
     sub.add_parser("report", help="print the results scoreboard")
+    sub.add_parser("purge-totals", help="permanently remove all O/U entries from the log")
     args = ap.parse_args()
 
     try:
@@ -457,6 +448,8 @@ def main():
             return mode_grade()
         if args.cmd == "report":
             return mode_report()
+        if args.cmd == "purge-totals":
+            return mode_purge_totals()
     except FileNotFoundError as e:
         print(f"File not found: {e.filename}", file=sys.stderr)
         return 1
