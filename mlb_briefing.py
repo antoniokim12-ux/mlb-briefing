@@ -53,6 +53,9 @@ ODDS_API = "https://api.the-odds-api.com/v4/sports/baseball_mlb/odds"
 # Price off ONE consistent, liquid book so the favorite is stable and explainable.
 # Change to any The Odds API key: 'fanduel', 'betmgm', 'caesars', 'pinnacle', etc.
 PREFERRED_BOOK = "draftkings"
+# O/U picks are retired — the tool is leans-only. Flip this to True to bring the
+# totals model back (re-fetches the totals line + bullpen ERAs and runs assess_total).
+PICK_TOTALS = False
 ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
 TIMEOUT = 20
 SEASON = dt.date.today().year
@@ -168,6 +171,47 @@ def _parse_game(g):
         "total": None,        # {line, over, under} from odds
         "total_read": None,   # preliminary over/under lean
     }
+
+
+def _ip_outs(ip):
+    """MLB innings-pitched notation -> outs. '45.2' = 45 IP + 2 outs."""
+    try:
+        whole, _, frac = str(ip).partition(".")
+        return int(whole) * 3 + (int(frac) if frac else 0)
+    except (ValueError, TypeError):
+        return 0
+
+
+def get_bullpen_eras(season=SEASON):
+    """One league-wide call -> ({team_id: bullpen_era}, league_bullpen_era).
+    Bullpen = pitchers with zero starts; aggregates earned runs / innings per team."""
+    try:
+        r = requests.get(f"{MLB_API}/stats", timeout=TIMEOUT, params={
+            "stats": "season", "group": "pitching", "sportId": 1,
+            "season": season, "gameType": "R", "limit": 2000,
+        })
+        r.raise_for_status()
+        team_er, team_outs, lg_er, lg_outs = {}, {}, 0, 0
+        for blk in r.json().get("stats", []):
+            for sp in blk.get("splits", []):
+                st = sp.get("stat", {})
+                tid = (sp.get("team") or {}).get("id")
+                if tid is None or (st.get("gamesStarted") or 0) != 0:
+                    continue  # relievers only
+                er = st.get("earnedRuns") or 0
+                outs = _ip_outs(st.get("inningsPitched"))
+                if outs == 0:
+                    continue
+                team_er[tid] = team_er.get(tid, 0) + er
+                team_outs[tid] = team_outs.get(tid, 0) + outs
+                lg_er += er
+                lg_outs += outs
+        eras = {tid: round(27 * team_er[tid] / team_outs[tid], 2)
+                for tid in team_outs if team_outs[tid]}
+        league = round(27 * lg_er / lg_outs, 2) if lg_outs else None
+        return eras, league
+    except (requests.RequestException, ValueError, KeyError, ZeroDivisionError):
+        return {}, None
 
 
 def get_pitcher_splits(pitcher_id, season=SEASON):
@@ -340,7 +384,8 @@ def get_odds(api_key):
         return empty
     try:
         r = requests.get(ODDS_API, timeout=TIMEOUT, params={
-            "apiKey": api_key, "bookmakers": PREFERRED_BOOK, "markets": "h2h,totals",
+            "apiKey": api_key, "bookmakers": PREFERRED_BOOK,
+            "markets": "h2h,totals" if PICK_TOTALS else "h2h",
             "oddsFormat": "american",
         })
         r.raise_for_status()
@@ -524,6 +569,16 @@ def assess_total(game, splits_by_pid, hands):
         elif out_comp <= -8:
             signals.append(("under", f"wind blowing in (~{abs(out_comp):.0f} mph)"))
 
+    # 4) bullpen quality (both pens vs league average reliever ERA)
+    bp = game.get("_bullpen") or {}
+    ae, he, lg = bp.get("away"), bp.get("home"), bp.get("league")
+    if ae is not None and he is not None and lg is not None:
+        avg_bp = (ae + he) / 2
+        if avg_bp >= lg + 0.40:
+            signals.append(("over", f"shaky bullpens ({avg_bp:.2f} ERA vs {lg:.2f} league)"))
+        elif avg_bp <= lg - 0.40:
+            signals.append(("under", f"strong bullpens ({avg_bp:.2f} ERA vs {lg:.2f} league)"))
+
     overs = [r for s, r in signals if s == "over"]
     unders = [r for s, r in signals if s == "under"]
     if len(overs) > len(unders):
@@ -546,7 +601,7 @@ def assess_total(game, splits_by_pid, hands):
         "side": side,
         "strength": strength,
         "line": t.get("line"),
-        "note": f"Total {t.get('line')}: {body} (Bullpen still to come.)",
+        "note": f"Total {t.get('line')}: {body}",
     }
 
 
@@ -595,12 +650,16 @@ def build_slate(date_str, do_splits=True, do_odds=True, do_read=True):
                 g[s]["pitcher_hand"] = pitch_hands.get(g[s].get("pitcher_id"))
 
     now = dt.datetime.now(dt.timezone.utc)
+    bp_eras, bp_league = get_bullpen_eras() if PICK_TOTALS else ({}, None)
     for g in games:
         gt = _parse_iso(g.get("game_time"))
         g["started"] = bool(gt and gt <= now)
         if not g["started"]:        # never attach in-game odds to a started game
             attach_odds(g, odds_map)
         g["weather"] = get_weather(g["lat"], g["lon"], g["game_time"])
+        g["_bullpen"] = {"away": bp_eras.get(g["away"].get("team_id")),
+                         "home": bp_eras.get(g["home"].get("team_id")),
+                         "league": bp_league}
         hands = get_lineup_handedness(g)
 
         splits_by_pid = {}
@@ -611,7 +670,8 @@ def build_slate(date_str, do_splits=True, do_odds=True, do_read=True):
                     splits_by_pid[pid] = get_pitcher_splits(pid)
 
         build_factors(g, splits_by_pid, hands)
-        assess_total(g, splits_by_pid, hands)
+        if PICK_TOTALS:
+            assess_total(g, splits_by_pid, hands)
         g["read"] = generate_read(g, ai_key)
 
     return {"date": date_str, "generated": dt.datetime.now().isoformat(timespec="seconds"),

@@ -21,7 +21,7 @@ import json
 import os
 import sys
 
-BUILD = "top5-record"  # bump when shipping; shows in the page footer to verify deploys
+BUILD = "no-ou"  # bump when shipping; shows in the page footer to verify deploys
 
 # Design tokens — shared with the on-screen card concept.
 CSS = """
@@ -217,28 +217,6 @@ def render_card(g, started=False, lock=None):
     if g.get("read"):
         read = f'<div class="read"><b>The read</b>{esc(g["read"])}</div>'
 
-    lines_html = ""
-    lt = (lock or {}).get("total")
-    t = g.get("total")
-    if lt:  # locked O/U pick — show the frozen read so it matches the roundup
-        side = (lt.get("side") or "").upper()
-        lines_html = (
-            '<div class="lines"><div class="lines-h">Other lines</div>'
-            f'<div class="line-row"><span class="line-name">Total {esc(lt.get("line"))}</span>'
-            f'<span class="line-odds">{esc(side)} {fmt_ml(lt.get("price"))}</span></div>'
-            f'<div class="line-read">Total {esc(lt.get("line"))}: your locked {esc(side)} pick, '
-            f'frozen at {fmt_ml(lt.get("price"))} when it was given.</div></div>'
-        )
-    elif t:
-        tr = g.get("total_read") or {}
-        lines_html = (
-            '<div class="lines"><div class="lines-h">Other lines</div>'
-            f'<div class="line-row"><span class="line-name">Total {esc(t.get("line"))}</span>'
-            f'<span class="line-odds">O {fmt_ml(t.get("over"))} &nbsp;/&nbsp; U {fmt_ml(t.get("under"))}</span></div>'
-            + (f'<div class="line-read">{esc(tr.get("note"))}</div>' if tr.get("note") else "")
-            + '</div>'
-        )
-
     w = g.get("weather") or {}
     wx = (f'{w.get("temp_f"):.0f}°F · wind {w.get("wind_mph"):.0f}mph'
           if w.get("temp_f") is not None else "—")
@@ -259,7 +237,6 @@ def render_card(g, started=False, lock=None):
       <summary>Why</summary>
       <div class="factors">{factors or '<div class="f"><span class="fmark">~</span><span>No notable factors logged.</span></div>'}</div>
       {read}
-      {lines_html}
     </details>
   </div>
 </div>"""
@@ -311,12 +288,7 @@ def _locked_today(date):
     out = {}
     for e in rows:
         kind = e.get("kind")
-        if kind == "total":
-            parts = [p.strip() for p in (e.get("opp_team") or "").split("@")]
-            pair = frozenset(_norm(p) for p in parts) if len(parts) == 2 else None
-            field, val = "total", {"side": e.get("pick_side"), "line": e.get("line"),
-                                   "price": e.get("log_ml")}
-        elif kind in ("value", "lean"):
+        if kind in ("value", "lean"):
             pair = frozenset((_norm(e.get("pick_team")), _norm(e.get("opp_team"))))
             field, val = "ml", {"kind": kind, "team": e.get("pick_team"),
                                 "price": e.get("log_ml")}
@@ -357,7 +329,7 @@ def top_picks(games, date, n=5):
     try:
         with open("picks_log.json") as f:
             rows = [e for e in json.load(f)
-                    if e.get("date") == date and e.get("kind") in ("lean", "total")]
+                    if e.get("date") == date and e.get("kind") == "lean"]
     except (FileNotFoundError, ValueError):
         return None
     if not rows:
@@ -390,19 +362,17 @@ def top_picks(games, date, n=5):
 
 
 def _day_top_keys(entries, n=5):
-    """Keys of the picks that were the top-N reads on their own day — the ones the page
-    actually surfaced. Uses the same ranking the front page does: strength desc, lean
-    before O/U, then label. Every other pick stays in the log but isn't counted in the
-    record, so the scoreboard reflects only what the bot chose to show."""
+    """Keys of the leans that were the top-N reads on their own day — the ones the page
+    actually surfaced. Same ranking the front page uses: strength (factor agreement)
+    desc, then team. Every other pick stays in the log but isn't counted in the record,
+    so the scoreboard reflects only what the bot chose to show."""
     by_day = {}
     for e in entries:
-        if e.get("kind") in ("lean", "total") and e.get("key"):
+        if e.get("kind") == "lean" and e.get("key"):
             by_day.setdefault(e.get("date"), []).append(e)
     keep = set()
     for rows in by_day.values():
-        rows.sort(key=lambda e: (-int(e.get("weight") or 0),
-                                 0 if e.get("kind") == "lean" else 1,
-                                 (e.get("pick_team") or "")))
+        rows.sort(key=lambda e: (-int(e.get("weight") or 0), (e.get("pick_team") or "")))
         keep.update(e["key"] for e in rows[:n])
     return keep
 
@@ -418,11 +388,9 @@ def render_picks_today(top, games):
     rows = ""
     for i, p in enumerate(top, 1):
         lock = '<span class="lk">LOCKED</span>' if p["started"] else ""
-        ty = "ou" if p["kind"] == "total" else "lean"
-        label = "O/U" if p["kind"] == "total" else "Lean"
         rows += (f'<div class="trow{" locked" if p["started"] else ""}">'
                  f'<span class="rk">{i}</span>'
-                 f'<span class="ty {ty}">{label}</span>'
+                 f'<span class="ty lean">Lean</span>'
                  f'<span class="tpick">{p["label"]}</span>'
                  f'<span class="tpx">{p["price"]}</span>'
                  f'{_dots(p["score"])}'
@@ -435,36 +403,22 @@ def render_picks_today(top, games):
 
 def _render_picks_from_slate(games):
     """Fallback used before any picks are logged: derive the roundup from live odds."""
-    leans_, totals = [], []
+    leans_ = []
     for g in games:
         txt = value_assessment(g)[0]
         lean = g.get("lean")
         if lean in ("away", "home") and txt.startswith("LEAN"):
-            leans_.append((esc(g[lean].get("team") or lean.title()), fmt_ml(g[lean].get("ml")), False))
-        tr = g.get("total_read") or {}
-        t = g.get("total") or {}
-        if tr.get("side") in ("over", "under") and t:
-            price = t.get("over") if tr["side"] == "over" else t.get("under")
-            gm = f'{g["away"].get("abbr", "")}@{g["home"].get("abbr", "")}'
-            totals.append((f'{tr["side"].title()} {esc(t.get("line"))}', fmt_ml(price), gm, False))
+            leans_.append((esc(g[lean].get("team") or lean.title()), fmt_ml(g[lean].get("ml"))))
 
-    if not (leans_ or totals):
+    if not leans_:
         return ('<div class="todays"><div class="lab">Today\'s Picks</div>'
                 '<div class="none">No leans against the prices yet — common before lineups '
                 'post. Check back a couple hours before first pitch.</div></div>')
 
-    def chips(items, cls, ou=False):
-        if not items:
-            return '<span class="none">none</span>'
-        if ou:
-            return "".join(f'<span class="chip ou">{lbl}<span class="px">{p}</span>'
-                           f'<span class="gm">{gm}</span></span>' for lbl, p, gm, _ in items)
-        return "".join(f'<span class="chip {cls}">{t}<span class="px">{p}</span></span>'
-                       for t, p, _ in items)
-
+    chips = "".join(f'<span class="chip lean">{t}<span class="px">{p}</span></span>'
+                    for t, p in leans_)
     return ('<div class="todays"><div class="lab">Today\'s Picks</div>'
-            f'<div class="grp"><span class="gl">Lean</span>{chips(leans_, "lean")}</div>'
-            f'<div class="grp"><span class="gl">O/U</span>{chips(totals, "ou", ou=True)}</div>'
+            f'<div class="grp"><span class="gl">Lean</span>{chips}</div>'
             '<div class="dis">Candidates to check against your price — not locks. '
             'The market already prices the same factors in.</div></div>')
 
@@ -503,30 +457,6 @@ def _cat(rows, kinds):
     return w, len(graded) - w, len(graded), len(logged)
 
 
-def _rank_key(e):
-    """Ranking used to choose a day's top reads. Must mirror top_picks():
-    strongest first, leans before totals on a tie, then label."""
-    return (-int(e.get("weight") or 0),
-            0 if e.get("kind") == "lean" else 1,
-            e.get("pick_team") or "")
-
-
-def _chosen_keys(rows, n=5):
-    """Log keys for the picks the bot actually surfaced — each day's top-n reads.
-    The record counts only these, not everything logged behind the scenes.
-    Reconstructed per date from the same ranking the page shows, so the record
-    always matches the picks on the board."""
-    by_date = {}
-    for e in rows:
-        if e.get("kind") in ("lean", "total"):
-            by_date.setdefault(e.get("date"), []).append(e)
-    keys = set()
-    for es in by_date.values():
-        es.sort(key=_rank_key)
-        keys.update(e.get("key") for e in es[:n])
-    return keys
-
-
 def _parse_game_time(s):
     if not s:
         return None
@@ -556,7 +486,7 @@ def _today_record(date):
     g = [e for e in rows if e.get("date") == date and e.get("result") in ("W", "L")]
     if not g:
         return None
-    top_keys = _day_top_keys([e for e in rows if e.get("kind") in ("lean", "total")])
+    top_keys = _day_top_keys(rows)
     g = [e for e in g if e.get("key") in top_keys]
     if not g:
         return None
@@ -567,12 +497,13 @@ def _today_record(date):
 def render_dayover(slate):
     """The end-of-day view: a wrap notice instead of the matchup cards."""
     rec = _today_record(slate.get("date", ""))
-    today = (f'<div class="big">Today: {rec[0]}-{rec[1]}</div>'
+    today = (f'<div class="big">Today\'s top reads: {rec[0]}-{rec[1]}</div>'
              if rec else '<div class="big">That\'s a wrap</div>')
     return (f'<div class="dayover"><div class="lab">Day\'s done</div>{today}'
             '<div class="msg">All of today\'s games are underway — nothing left to bet. '
-            'The scoreboard above keeps updating as games go final. '
-            'Check back tomorrow for the next card.</div></div>')
+            'That record counts only the top 5 reads the bot surfaced today — the picks on '
+            'the board — not the others it logged behind the scenes. The scoreboard above '
+            'keeps updating as games go final. Check back tomorrow for the next card.</div></div>')
 
 
 def render_scoreboard():
@@ -584,20 +515,17 @@ def render_scoreboard():
         return ""
     if not rows:
         return ""
-    rows = [e for e in rows if e.get("kind") in ("lean", "total")]  # value retired
+    rows = [e for e in rows if e.get("kind") == "lean"]  # value + O/U retired
     if not rows:
         return ""
     top_keys = _day_top_keys(rows)          # count only the reads the page surfaced
     rows = [e for e in rows if e.get("key") in top_keys]
     if not rows:
         return ""
-    cats = (("Lean", ("lean",)), ("O/U", ("total",)))
     parts = ['<span class="sb-lab">Scoreboard</span>']
 
-    # one W-L record per bet type
-    for label, kinds in cats:
-        w, l, n, _ = _cat(rows, kinds)
-        parts.append(f'<span class="sb-stat"><b>{label}</b> {w}-{l}</span>')
+    w, l, _, logged = _cat(rows, ("lean",))
+    parts.append(f'<span class="sb-stat"><b>Record</b> {w}-{l}</span>')
 
     graded = [e for e in rows if e.get("result") in ("W", "L")]
     if graded:
@@ -613,14 +541,11 @@ def render_scoreboard():
         parts.append(f'<span class="sb-stat"><b>CLV</b> {sum(clv) / len(clv):+.1f}pts '
                      f'({beat}/{len(clv)} beat close)</span>')
 
-    # progress toward a readable sample — each bet type counts toward its own ~30
-    prog = [f"{label} {_cat(rows, kinds)[3]}/30"
-            for label, kinds in cats if _cat(rows, kinds)[3] < 30]
-    if prog:
-        parts.append('<span class="sb-stat" style="color:var(--muted)">building · '
-                     + " · ".join(prog) + "</span>")
+    # progress toward a readable sample
+    if logged < 30:
+        parts.append(f'<span class="sb-stat" style="color:var(--muted)">building · {logged}/30</span>')
 
-    return f'<div class="scoreboard">{"".join(parts)}<span class="sb-note">record counts the day\'s top 5 reads only</span></div>'
+    return f'<div class="scoreboard">{"".join(parts)}<span class="sb-note">counts each day\'s top 5 reads only — the picks the bot surfaced</span></div>'
 
 
 def render(slate):
@@ -660,8 +585,8 @@ def render(slate):
     cards = "".join(render_card(g, started.get(_pair(g), False), _lock_for(g, locked))
                     for g in shown)
     return f"""{head}
-<p class="sub">The day's strongest reads — the games where the most factors line up — with the context behind each: pitchers, platoon splits, park, weather, bullpens.</p>
-<div class="note"><b>How to read this.</b> Each day the bot surfaces only its <b style="color:var(--amber)">top {len(top) if top else 5} reads</b> — the leans and O/U calls where the most factors agree (the dots). These are <i>candidates, not locks</i>: the market already prices these same factors into the line, so a read means "worth checking against your price," not "the market is wrong." Prices are frozen at the moment each read was given. Every read is logged behind the scenes so you can learn, over time, whether the strongest ones actually hold up.</div>
+<p class="sub">The day's strongest reads — the games where the most factors line up — with the context behind each: pitchers, platoon splits, park, weather.</p>
+<div class="note"><b>How to read this.</b> Each day the bot surfaces only its <b style="color:var(--amber)">top {len(top) if top else 5} leans</b> — the sides where the most factors agree (the dots). These are <i>candidates, not locks</i>: the market already prices these same factors into the line, so a read means "worth checking against your price," not "the market is wrong." Prices are frozen at the moment each read was given. Every read is logged behind the scenes so you can learn, over time, whether the strongest ones actually hold up.</div>
 {render_scoreboard()}
 {render_picks_today(top, games)}
 {cards if cards else '<p class="sub">No reads on the board yet.</p>'}

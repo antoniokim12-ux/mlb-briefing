@@ -161,46 +161,12 @@ def mode_log(slate_path):
         }
         added += 1
 
-    # Also log over/under picks wherever the bot has a totals lean.
+    # O/U picks retired — no longer logged. (Historical total entries stay in the log.)
     added_t = 0
-    for g in slate.get("games", []):
-        tr = g.get("total_read") or {}
-        t = g.get("total") or {}
-        side = tr.get("side")
-        if side not in ("over", "under") or not t:
-            continue
-        price = t.get("over") if side == "over" else t.get("under")
-        if price is None:
-            continue
-        opp_label = f'{g["away"].get("team")} @ {g["home"].get("team")}'
-        pick_label = f'{side.title()} {t.get("line")}'
-        sig = _sig({"date": date, "kind": "total", "pick_side": side,
-                    "pick_team": pick_label, "opp_team": opp_label})
-        if sig in seen:
-            continue
-        seen.add(sig)
-        key = f'{date}:{g.get("game_pk")}:total'
-        oi, ui = implied_pct(t.get("over")), implied_pct(t.get("under"))
-        side_imp = oi if side == "over" else ui
-        lf = fair_pct(side_imp, ui if side == "over" else oi)
-        entries[key] = {
-            "key": key, "date": date, "game_pk": g.get("game_pk"), "kind": "total",
-            "pick_team": pick_label,          # label for display
-            "pick_side": side, "line": t.get("line"),
-            "opp_team": opp_label,
-            "log_ml": price,
-            "log_implied": round(side_imp, 1) if side_imp else None,
-            "log_fair": round(lf, 1) if lf else None,
-            "weight": tr.get("strength", 0), "is_top": False,
-            "close_ml": None, "close_line": None, "close_fair": None, "clv_pp": None,
-            "result": None, "total_runs": None, "pick_score": None, "opp_score": None,
-            "profit": None,
-        }
-        added_t += 1
 
     save_log(entries)
     top_name = top[top["lean"]].get("team") if top else "none"
-    print(f"Logged {added} new lean(s) + {added_t} total(s) for {date} "
+    print(f"Logged {added} new lean(s) for {date} "
           f"({sum(1 for r in rows if r[4] == 'value')} value, "
           f"{sum(1 for r in rows if r[4] == 'lean')} favorite; top look: {top_name}).")
     return 0
@@ -237,21 +203,7 @@ def mode_close(slate_path):
             continue  # game underway/finished -> keep the last pre-game capture
 
         if e.get("kind") == "total":
-            t = g.get("total") or {}
-            if not t:
-                continue
-            oi, ui = implied_pct(t.get("over")), implied_pct(t.get("under"))
-            side_imp = oi if e["pick_side"] == "over" else ui
-            cf = fair_pct(side_imp, ui if e["pick_side"] == "over" else oi)
-            if cf is None:
-                continue
-            e["close_ml"] = t.get("over") if e["pick_side"] == "over" else t.get("under")
-            e["close_line"] = t.get("line")
-            e["close_fair"] = round(cf, 1)
-            e["clv_pp"] = (round(cf - e["log_fair"], 1)
-                           if e.get("log_fair") is not None else None)
-            updated += 1
-            continue
+            continue  # O/U retired — never capture totals CLV
 
         side = e["pick_side"]
         opp = "home" if side == "away" else "away"
@@ -312,18 +264,7 @@ def grade_entry(e, score):
         return False
 
     if e.get("kind") == "total":
-        line = e.get("line")
-        if line is None:
-            return False
-        runs = a + h
-        e["total_runs"] = runs
-        if runs == line:                      # exact integer line -> push
-            e["result"], e["profit"] = "P", 0.0
-        else:
-            won = (runs > line) if e["pick_side"] == "over" else (runs < line)
-            e["result"] = "W" if won else "L"
-            e["profit"] = round(profit_on_win(e["log_ml"]), 3) if won else -1.0
-        return True
+        return False  # O/U retired — never grade totals
 
     pick_won = (a > h) if e["pick_side"] == "away" else (h > a)
     e["result"] = "W" if pick_won else "L"
@@ -435,29 +376,7 @@ def mode_import_slate(path):
                             "log_fair": round(fair_pct(li, oi), 1) if li and oi else None}
                         added += 1
 
-        tline = re.search(r'<span class="line-name">Total ([0-9.]+)</span>', c)
-        todds = re.search(r'<span class="line-odds">O ([+\-]?\d+)\s*&nbsp;/&nbsp;\s*U ([+\-]?\d+)</span>', c)
-        tside = re.search(r'Total [0-9.]+: leans (OVER|UNDER)', c)
-        if tline and todds and tside:
-            line = float(tline.group(1))
-            over_ml, under_ml = int(todds.group(1)), int(todds.group(2))
-            side = tside.group(1).lower()
-            price = over_ml if side == "over" else under_ml
-            si = implied_pct(price)
-            oth = implied_pct(under_ml if side == "over" else over_ml)
-            pick_label = f"{side.title()} {line}"
-            opp_label = f"{away} @ {home}"
-            sig = _sig({"date": date, "kind": "total", "pick_side": side,
-                        "pick_team": pick_label, "opp_team": opp_label})
-            if sig not in seen:
-                seen.add(sig)
-                key = f"{date}:{_norm(away)}:{_norm(home)}:total"
-                entries[key] = {**base, "key": key, "kind": "total",
-                    "pick_team": pick_label, "pick_side": side, "line": line,
-                    "opp_team": opp_label, "log_ml": price,
-                    "log_implied": round(si, 1) if si else None,
-                    "log_fair": round(fair_pct(si, oth), 1) if si and oth else None}
-                added += 1
+        # O/U picks retired — no longer imported from slates.
 
     save_log(entries)
     print(f"Imported {added} pick(s) from {os.path.basename(path)} (date {date}). "
@@ -470,15 +389,11 @@ def mode_report():
     if not entries:
         print("No picks logged yet. Run 'log' on a slate built with odds first.")
         return 0
-    live = [e for e in entries if e.get("kind") in ("lean", "total")]  # value retired
-    print(f"\n===== MLB Briefing — results scoreboard ({len(live)} picks) =====")
-    _stat_block(live, "All picks")
-    _stat_block([e for e in live if e.get("kind") == "lean"], "Favorite leans (ML)")
-    _stat_block([e for e in live if e.get("kind") == "total"], "Totals (O/U)")
-    print("\nReminder: CLV is the early signal — positive over ~30+ picks is the first real "
-          "sign the tool is finding something. Watch whether the LEANS and the TOTALS reads "
-          "hold up on their own. Note: totals CLV here tracks price only, not movement in the "
-          "line itself (8.5 -> 9), so read it loosely.\n")
+    leans = [e for e in entries if e.get("kind") == "lean"]
+    print(f"\n===== MLB Briefing — results scoreboard ({len(leans)} leans) =====")
+    _stat_block(leans, "Favorite leans (ML)")
+    print("\nReminder: CLV is the early signal — positive over ~30+ leans is the first real "
+          "sign the tool is finding something. The tool is leans-only.\n")
     return 0
 
 
@@ -487,6 +402,25 @@ def mode_report():
 def _read_json(path):
     with open(path) as f:
         return json.load(f)
+
+
+def mode_purge_totals():
+    """One-time cleanup: permanently drop every O/U (total) entry from the log, so
+    nothing O/U is stored anywhere. Writes a timestamped backup first (reversible)."""
+    entries = load_log()
+    total_keys = [k for k, e in entries.items() if e.get("kind") == "total"]
+    if not total_keys:
+        print("No O/U entries in the log — nothing to purge.")
+        return 0
+    backup = f"{LOG_PATH}.backup-{dt.datetime.now():%Y%m%d-%H%M%S}"
+    with open(backup, "w") as f:
+        json.dump(list(entries.values()), f, indent=2)
+    for k in total_keys:
+        del entries[k]
+    save_log(entries)
+    print(f"Purged {len(total_keys)} O/U entry(ies). {len(entries)} leans remain.")
+    print(f"Backup written to {backup} — delete it once you're happy.")
+    return 0
 
 
 def main():
@@ -500,6 +434,7 @@ def main():
     p_imp.add_argument("slate")
     sub.add_parser("grade", help="grade finished games from final scores")
     sub.add_parser("report", help="print the results scoreboard")
+    sub.add_parser("purge-totals", help="permanently remove all O/U entries from the log")
     args = ap.parse_args()
 
     try:
@@ -513,6 +448,8 @@ def main():
             return mode_grade()
         if args.cmd == "report":
             return mode_report()
+        if args.cmd == "purge-totals":
+            return mode_purge_totals()
     except FileNotFoundError as e:
         print(f"File not found: {e.filename}", file=sys.stderr)
         return 1
