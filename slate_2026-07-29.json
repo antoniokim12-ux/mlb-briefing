@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "generated": "2026-07-29T15:52:29",
+  "generated": "2026-07-29T16:02:43",
   "games": [
     {
       "game_pk": 823837,
@@ -67,8 +67,8 @@
       "read": null,
       "total": {
         "line": 7.5,
-        "over": -112,
-        "under": -107
+        "over": 102,
+        "under": -122
       },
       "total_read": {
         "side": "under",
@@ -118,8 +118,8 @@
         "pitcher_id": 593958,
         "pitcher_name": "Eduardo Rodriguez",
         "pitcher_hand": "L",
-        "ml": 107,
-        "implied": 48.3
+        "ml": 113,
+        "implied": 46.9
       },
       "home": {
         "team": "Pirates",
@@ -130,8 +130,8 @@
         "pitcher_id": 683003,
         "pitcher_name": "Jared Jones",
         "pitcher_hand": "R",
-        "ml": -129,
-        "implied": 56.3
+        "ml": -136,
+        "implied": 57.6
       },
       "weather": {
         "temp_f": 74.1,
@@ -286,8 +286,8 @@
         "pitcher_id": 669432,
         "pitcher_name": "Trevor Rogers",
         "pitcher_hand": "L",
-        "ml": 149,
-        "implied": 40.2
+        "ml": 142,
+        "implied": 41.3
       },
       "home": {
         "team": "Tigers",
@@ -298,8 +298,8 @@
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": "L",
-        "ml": -181,
-        "implied": 64.4
+        "ml": -172,
+        "implied": 63.2
       },
       "weather": {
         "temp_f": 80.8,
@@ -519,11 +519,7 @@
         "ml": 108,
         "implied": 48.1
       },
-      "weather": {
-        "temp_f": 68.4,
-        "wind_mph": 10.1,
-        "wind_dir_deg": 269
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -787,7 +783,11 @@
         "ml": -205,
         "implied": 67.2
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 93.9,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 241
+      },
       "factors": [
         {
           "m": "~",
@@ -853,7 +853,11 @@
         "ml": 123,
         "implied": 44.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 71.9,
+        "wind_mph": 6.3,
+        "wind_dir_deg": 6
+      },
       "factors": [
         {
           "m": "~",
@@ -919,7 +923,11 @@
         "ml": -110,
         "implied": 52.4
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.3,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 33
+      },
       "factors": [
         {
           "m": "~",
