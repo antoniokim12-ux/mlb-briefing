@@ -1,0 +1,467 @@
+#!/usr/bin/env python3
+"""
+MLB Briefing — results logger + CLV tracker
+===========================================
+
+Records the tool's value looks, grades them against final scores, captures the
+closing line for Closing Line Value, and reports whether the picks actually hold
+up. This is the honest scoreboard for the whole tool — run it for a few weeks
+before trusting any pick with money.
+
+WHY CLV MATTERS
+---------------
+Closing Line Value = did the price you logged beat where the line closed?
+Consistently beating the close predicts long-term profit better than your
+win/loss record does, and it tells you far sooner. CLV here is de-vigged
+(the bookmaker margin removed) so it's a fair comparison.
+
+DAILY USE
+---------
+  python track_results.py log slate_2026-06-14.json     # record today's value looks
+  # ...a couple hours later, re-fetch the slate, then:
+  python track_results.py close slate_2026-06-14.json    # capture closing lines -> CLV
+  python track_results.py grade                          # grade finished games from scores
+  python track_results.py report                         # show the scoreboard
+
+Notes:
+  * 'log' needs a slate built WITH odds (no price = no pick to track).
+  * 'log' is safe to re-run; the first price seen for a game is kept as "your price".
+  * Picks are flat-staked at 1 unit for ROI.
+"""
+
+import argparse
+import datetime as dt
+import json
+import os
+import re
+import sys
+
+import requests
+
+MLB_API = "https://statsapi.mlb.com/api/v1"
+TIMEOUT = 20
+LOG_PATH = "picks_log.json"
+
+
+# ───────────────────────── math helpers ─────────────────────────
+
+def implied_pct(ml):
+    """American odds -> implied win probability in percent."""
+    if ml is None:
+        return None
+    a = float(ml)
+    p = (-a / (-a + 100)) if a < 0 else (100 / (a + 100))
+    return p * 100
+
+
+def fair_pct(team_pct, opp_pct):
+    """De-vig: a team's fair probability with the bookmaker margin removed."""
+    if team_pct is None or opp_pct is None or (team_pct + opp_pct) == 0:
+        return None
+    return team_pct / (team_pct + opp_pct) * 100
+
+
+def profit_on_win(ml):
+    """Units won per 1 unit staked if the bet hits (American odds)."""
+    a = float(ml)
+    return a / 100 if a > 0 else 100 / abs(a)
+
+
+def _norm(name):
+    return "".join(ch for ch in (name or "").lower() if ch.isalnum())
+
+
+def _sig(e):
+    """A pick's identity, independent of key format: same day, bet type, side, teams.
+    Lets us recognize the same pick whether it was logged live or imported."""
+    return (e.get("date"), e.get("kind"), e.get("pick_side"),
+            _norm(e.get("pick_team")), _norm(e.get("opp_team")))
+
+
+def _seen_sigs(entries):
+    return {_sig(e) for e in entries.values()}
+
+
+# ───────────────────────── log store ─────────────────────────
+
+def load_log():
+    if not os.path.exists(LOG_PATH):
+        return {}
+    try:
+        with open(LOG_PATH) as f:
+            return {e["key"]: e for e in json.load(f)}
+    except (ValueError, KeyError):
+        return {}
+
+
+def save_log(entries):
+    with open(LOG_PATH, "w") as f:
+        json.dump(list(entries.values()), f, indent=2)
+
+
+# ───────────────────────── pick detection ─────────────────────────
+
+def leans(games):
+    """Every game whose factors agree with the market favorite (a 'lean').
+    Value looks (factors on the underdog or a coin-flip) are intentionally retired
+    and no longer surfaced. Returns list of (game, lean_side, pick_implied, opp_implied, 'lean')."""
+    out = []
+    for g in games:
+        lean = g.get("lean")
+        if lean not in ("away", "home"):
+            continue
+        opp = "home" if lean == "away" else "away"
+        li = g[lean].get("implied")
+        oi = g[opp].get("implied")
+        if li is None or oi is None:
+            continue
+        if li > oi + 0.5:  # factors agree with the favorite — a lean
+            out.append((g, lean, li, oi, "lean"))
+    return out
+
+
+# ───────────────────────── modes ─────────────────────────
+
+def mode_log(slate_path):
+    slate = _read_json(slate_path)
+    date = slate.get("date", "")
+    rows = leans(slate.get("games", []))
+    if not rows:
+        print(f"No leans in {slate_path} (need odds loaded, and lineups posted "
+              "for leans to appear). Nothing logged.")
+        return 0
+
+    # The day's top look is the strongest VALUE look, matching the card banner.
+    value_rows = [r for r in rows if r[4] == "value"]
+    top = max(value_rows, key=lambda x: x[0].get("weight", 0))[0] if value_rows else None
+
+    entries = load_log()
+    seen = _seen_sigs(entries)
+    added = 0
+    for g, lean, li, oi, kind in rows:
+        opp = "home" if lean == "away" else "away"
+        sig = _sig({"date": date, "kind": kind, "pick_side": lean,
+                    "pick_team": g[lean].get("team"), "opp_team": g[opp].get("team")})
+        if sig in seen:
+            continue  # already logged this pick (live or imported)
+        seen.add(sig)
+        key = f'{date}:{g.get("game_pk")}'
+        entries[key] = {
+            "key": key, "date": date, "game_pk": g.get("game_pk"),
+            "pick_team": g[lean].get("team"), "pick_side": lean,
+            "opp_team": g[opp].get("team"),
+            "log_ml": g[lean].get("ml"),
+            "log_implied": round(li, 1),
+            "log_fair": round(fair_pct(li, oi), 1),
+            "weight": g.get("weight", 0),
+            "kind": kind,
+            "is_top": g is top,
+            "close_ml": None, "close_fair": None, "clv_pp": None,
+            "result": None, "pick_score": None, "opp_score": None, "profit": None,
+        }
+        added += 1
+
+    # O/U picks retired — no longer logged. (Historical total entries stay in the log.)
+    added_t = 0
+
+    save_log(entries)
+    top_name = top[top["lean"]].get("team") if top else "none"
+    print(f"Logged {added} new lean(s) for {date} "
+          f"({sum(1 for r in rows if r[4] == 'value')} value, "
+          f"{sum(1 for r in rows if r[4] == 'lean')} favorite; top look: {top_name}).")
+    return 0
+
+
+def _parse_iso(s):
+    if not s:
+        return None
+    try:
+        return dt.datetime.fromisoformat(s.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def mode_close(slate_path):
+    """Capture the latest pre-game price for today's logged picks and compute CLV.
+    Safe to run repeatedly: it refreshes the closing price only for games that
+    haven't started, so the last run before first pitch holds the true close."""
+    slate = _read_json(slate_path)
+    date = slate.get("date", "")
+    by_pk = {g.get("game_pk"): g for g in slate.get("games", [])}
+    now = dt.datetime.now(dt.timezone.utc)
+
+    entries = load_log()
+    updated = 0
+    for e in entries.values():
+        if e["date"] != date:
+            continue
+        g = by_pk.get(e["game_pk"])
+        if not g:
+            continue
+        gt = _parse_iso(g.get("game_time"))
+        if gt is not None and gt <= now:
+            continue  # game underway/finished -> keep the last pre-game capture
+
+        if e.get("kind") == "total":
+            t = g.get("total") or {}
+            if not t:
+                continue
+            oi, ui = implied_pct(t.get("over")), implied_pct(t.get("under"))
+            side_imp = oi if e["pick_side"] == "over" else ui
+            cf = fair_pct(side_imp, ui if e["pick_side"] == "over" else oi)
+            if cf is None:
+                continue
+            e["close_ml"] = t.get("over") if e["pick_side"] == "over" else t.get("under")
+            e["close_line"] = t.get("line")
+            e["close_fair"] = round(cf, 1)
+            e["clv_pp"] = (round(cf - e["log_fair"], 1)
+                           if e.get("log_fair") is not None else None)
+            updated += 1
+            continue
+
+        side = e["pick_side"]
+        opp = "home" if side == "away" else "away"
+        cf = fair_pct(implied_pct(g[side].get("ml")), implied_pct(g[opp].get("ml")))
+        if cf is None:
+            continue
+        e["close_ml"] = g[side].get("ml")
+        e["close_fair"] = round(cf, 1)
+        e["clv_pp"] = round(cf - e["log_fair"], 1)  # + = you beat the close
+        updated += 1
+
+    save_log(entries)
+    print(f"Refreshed closing lines for {updated} upcoming pick(s) on {date}.")
+    return 0
+
+
+def fetch_final_games(date):
+    """List of {pk, state, away, home, away_team, home_team} for a date."""
+    r = requests.get(f"{MLB_API}/schedule", timeout=TIMEOUT,
+                     params={"sportId": 1, "date": date})
+    r.raise_for_status()
+    out = []
+    for d in r.json().get("dates", []):
+        for g in d.get("games", []):
+            teams = g.get("teams", {})
+            out.append({
+                "pk": g.get("gamePk"),
+                "state": (g.get("status") or {}).get("abstractGameState"),
+                "away": (teams.get("away") or {}).get("score"),
+                "home": (teams.get("home") or {}).get("score"),
+                "away_team": ((teams.get("away") or {}).get("team") or {}).get("name", ""),
+                "home_team": ((teams.get("home") or {}).get("team") or {}).get("name", ""),
+            })
+    return out
+
+
+_ALIASES = {"dbacks": "diamondbacks"}
+
+
+def _match_by_team(games, away, home):
+    """Find a game by team name (short name is a substring of the API's full name)."""
+    if not away or not home:
+        return None
+    na = _ALIASES.get(_norm(away), _norm(away))
+    nh = _ALIASES.get(_norm(home), _norm(home))
+    for g in games:
+        if na in _norm(g["away_team"]) and nh in _norm(g["home_team"]):
+            return g
+    return None
+
+
+def grade_entry(e, score):
+    """Apply a final score dict to a log entry. Returns True if newly graded."""
+    if e["result"] is not None or not score or score.get("state") != "Final":
+        return False
+    a, h = score.get("away"), score.get("home")
+    if a is None or h is None:
+        return False
+
+    if e.get("kind") == "total":
+        line = e.get("line")
+        if line is None:
+            return False
+        runs = a + h
+        e["total_runs"] = runs
+        if runs == line:                      # exact integer line -> push
+            e["result"], e["profit"] = "P", 0.0
+        else:
+            won = (runs > line) if e["pick_side"] == "over" else (runs < line)
+            e["result"] = "W" if won else "L"
+            e["profit"] = round(profit_on_win(e["log_ml"]), 3) if won else -1.0
+        return True
+
+    pick_won = (a > h) if e["pick_side"] == "away" else (h > a)
+    e["result"] = "W" if pick_won else "L"
+    e["pick_score"] = a if e["pick_side"] == "away" else h
+    e["opp_score"] = h if e["pick_side"] == "away" else a
+    e["profit"] = round(profit_on_win(e["log_ml"]), 3) if pick_won else -1.0
+    return True
+
+
+def mode_grade():
+    entries = load_log()
+    ungraded = [e for e in entries.values() if e["result"] is None]
+    if not ungraded:
+        print("Nothing to grade — all logged picks already have results.")
+        return 0
+
+    graded = 0
+    for date in sorted({e["date"] for e in ungraded}):
+        try:
+            games = fetch_final_games(date)
+        except requests.RequestException as ex:
+            print(f"Could not fetch scores for {date}: {ex}", file=sys.stderr)
+            continue
+        pk_index = {g["pk"]: g for g in games}
+        for e in [x for x in ungraded if x["date"] == date]:
+            g = pk_index.get(e.get("game_pk"))
+            if g is None:  # imported picks have no game id — match on team names
+                g = _match_by_team(games, e.get("away_team"), e.get("home_team"))
+            if g and grade_entry(e, g):
+                graded += 1
+
+    save_log(entries)
+    print(f"Graded {graded} pick(s). "
+          f'{sum(1 for e in entries.values() if e["result"] is None)} still pending '
+          "(games not final yet).")
+    return 0
+
+
+def _stat_block(rows, label):
+    graded = [e for e in rows if e["result"] in ("W", "L")]
+    w = sum(1 for e in graded if e["result"] == "W")
+    n = len(graded)
+    profit = sum(e["profit"] for e in graded if e["profit"] is not None)
+    clv = [e["clv_pp"] for e in rows if e["clv_pp"] is not None]
+
+    print(f"\n{label}")
+    print("-" * len(label))
+    if n:
+        roi = profit / n * 100
+        print(f"  Record     {w}-{n - w}  ({w / n * 100:.0f}% win)")
+        print(f"  Units      {profit:+.2f} over {n} bets")
+        print(f"  ROI        {roi:+.1f}%  (flat 1u stakes)")
+    else:
+        print("  Record     no graded picks yet")
+    if clv:
+        beat = sum(1 for c in clv if c > 0)
+        print(f"  CLV        {sum(clv) / len(clv):+.1f} pts avg  "
+              f"({beat}/{len(clv)} beat the close)")
+    else:
+        print("  CLV        no closing lines captured yet")
+
+
+def mode_import_slate(path):
+    """Backfill picks from a SAVED slate HTML. The rendered page preserves the lines
+    and prices the live odds feed drops once games finish, so a day you have on file
+    can still be added. Reusable for any saved slate; grades by team name."""
+    with open(path, encoding="utf-8") as f:
+        html = f.read()
+    m = re.search(r"Daily Matchup Briefing . ([0-9]{4}-[0-9]{2}-[0-9]{2})", html)
+    date = m.group(1) if m else os.path.basename(path).replace("slate_", "").replace(".html", "")
+
+    entries = load_log()
+    seen = _seen_sigs(entries)
+    added = 0
+    for c in re.split(r'<div class="card">', html)[1:]:
+        teams = re.findall(r'<div class="team">([^<]+)</div>', c)
+        mls = re.findall(r'<span class="ml">([+\-]?\d+)</span>', c)
+        if len(teams) < 2 or len(mls) < 2:
+            continue
+        away, home = teams[0].strip(), teams[1].strip()
+        away_ml, home_ml = int(mls[0]), int(mls[1])
+        base = {"date": date, "game_pk": None, "away_team": away, "home_team": home,
+                "weight": 0, "is_top": False, "close_ml": None, "close_line": None,
+                "close_fair": None, "clv_pp": None, "result": None, "total_runs": None,
+                "pick_score": None, "opp_score": None, "profit": None}
+
+        pill = re.search(r'<span class="pill"[^>]*>([^<]+)</span>', c)
+        if pill:
+            ptxt = pill.group(1)
+            kind = "value" if "VALUE LOOK" in ptxt else ("lean" if "LEAN" in ptxt else None)
+            if kind:
+                pteam = ptxt.split("\u25b8")[-1].strip().upper()
+                side = "away" if away.upper() == pteam else ("home" if home.upper() == pteam else None)
+                if side:
+                    price = away_ml if side == "away" else home_ml
+                    li = implied_pct(price)
+                    oi = implied_pct(home_ml if side == "away" else away_ml)
+                    pick_team = away if side == "away" else home
+                    opp_team = home if side == "away" else away
+                    sig = _sig({"date": date, "kind": kind, "pick_side": side,
+                                "pick_team": pick_team, "opp_team": opp_team})
+                    if sig not in seen:
+                        seen.add(sig)
+                        key = f"{date}:{_norm(away)}:{_norm(home)}"
+                        entries[key] = {**base, "key": key, "kind": kind,
+                            "pick_team": pick_team, "pick_side": side,
+                            "opp_team": opp_team, "log_ml": price,
+                            "log_implied": round(li, 1) if li else None,
+                            "log_fair": round(fair_pct(li, oi), 1) if li and oi else None}
+                        added += 1
+
+        # O/U picks retired — no longer imported from slates.
+
+    save_log(entries)
+    print(f"Imported {added} pick(s) from {os.path.basename(path)} (date {date}). "
+          "Now run 'grade' to score them from the final results.")
+    return 0
+
+
+def mode_report():
+    entries = list(load_log().values())
+    if not entries:
+        print("No picks logged yet. Run 'log' on a slate built with odds first.")
+        return 0
+    leans = [e for e in entries if e.get("kind") == "lean"]
+    totals = [e for e in entries if e.get("kind") == "total"]  # retired; historical only
+    print(f"\n===== MLB Briefing — results scoreboard ({len(leans)} leans) =====")
+    _stat_block(leans, "Favorite leans (ML)")
+    if totals:
+        _stat_block(totals, "Totals (O/U) — RETIRED, historical only")
+    print("\nReminder: CLV is the early signal — positive over ~30+ leans is the first real "
+          "sign the tool is finding something. The tool is leans-only now; any O/U figures "
+          "above are historical, kept for reference, not live picks.\n")
+    return 0
+
+
+# ───────────────────────── plumbing ─────────────────────────
+
+def _read_json(path):
+    with open(path) as f:
+        return json.load(f)
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Log, grade, and report on the tool's picks.")
+    sub = ap.add_subparsers(dest="cmd", required=True)
+    p_log = sub.add_parser("log", help="record today's value looks from a slate JSON")
+    p_log.add_argument("slate")
+    p_close = sub.add_parser("close", help="capture closing lines for CLV from a fresh slate")
+    p_close.add_argument("slate")
+    p_imp = sub.add_parser("import-slate", help="backfill picks from a saved slate HTML")
+    p_imp.add_argument("slate")
+    sub.add_parser("grade", help="grade finished games from final scores")
+    sub.add_parser("report", help="print the results scoreboard")
+    args = ap.parse_args()
+
+    try:
+        if args.cmd == "log":
+            return mode_log(args.slate)
+        if args.cmd == "close":
+            return mode_close(args.slate)
+        if args.cmd == "import-slate":
+            return mode_import_slate(args.slate)
+        if args.cmd == "grade":
+            return mode_grade()
+        if args.cmd == "report":
+            return mode_report()
+    except FileNotFoundError as e:
+        print(f"File not found: {e.filename}", file=sys.stderr)
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
