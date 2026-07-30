@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "generated": "2026-07-30T20:11:50",
+  "generated": "2026-07-30T21:56:51",
   "games": [
     {
       "game_pk": 822946,
@@ -195,7 +195,7 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "61-47",
+        "record": "61-48",
         "pitcher_id": 677960,
         "pitcher_name": "Ryan Weathers",
         "pitcher_hand": "L",
@@ -207,7 +207,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "56-51",
+        "record": "57-51",
         "pitcher_id": 680732,
         "pitcher_name": "Sean Burke",
         "pitcher_hand": "R",
@@ -224,7 +224,7 @@
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Sean Burke holds LHB to a 0.668 OPS; Yankees project 75% L-handed today."
+          "text": "Sean Burke holds LHB to a 0.666 OPS; Yankees project 75% L-handed today."
         }
       ],
       "lean": "home",
@@ -274,7 +274,7 @@
         "team_full": "Chicago Cubs",
         "abbr": "CHC",
         "team_id": 112,
-        "record": "61-47",
+        "record": "62-47",
         "pitcher_id": 665871,
         "pitcher_name": "Javier Assad",
         "pitcher_hand": "R",
@@ -286,7 +286,7 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "54-54",
+        "record": "54-55",
         "pitcher_id": 669467,
         "pitcher_name": "Andre Pallante",
         "pitcher_hand": "R",
@@ -303,7 +303,7 @@
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Andre Pallante holds RHB to a 0.582 OPS; Cubs project 62% R-handed today."
+          "text": "Andre Pallante holds RHB to a 0.595 OPS; Cubs project 62% R-handed today."
         }
       ],
       "lean": "home",
@@ -325,7 +325,17 @@
       "lat": 39.097389,
       "lon": -84.506611,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          663968,
+          664040,
+          668804,
+          699013,
+          656811,
+          693304,
+          682848,
+          694378,
+          691373
+        ],
         "home": [
           682829,
           701398,
@@ -347,8 +357,8 @@
         "pitcher_id": 670990,
         "pitcher_name": "Yohan Ram\u00edrez",
         "pitcher_hand": "R",
-        "ml": -117,
-        "implied": 53.9
+        "ml": -119,
+        "implied": 54.3
       },
       "home": {
         "team": "Reds",
@@ -359,13 +369,13 @@
         "pitcher_id": 695076,
         "pitcher_name": "Rhett Lowder",
         "pitcher_hand": "R",
-        "ml": -103,
-        "implied": 50.7
+        "ml": -102,
+        "implied": 50.5
       },
       "weather": {
-        "temp_f": 85.6,
+        "temp_f": 84.5,
         "wind_mph": 6.7,
-        "wind_dir_deg": 6
+        "wind_dir_deg": 358
       },
       "factors": [
         {
@@ -373,12 +383,6 @@
           "side": "away",
           "label": "Handedness matchup",
           "text": "Yohan Ram\u00edrez holds RHB to a 0.599 OPS; Reds project 75% R-handed today."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Pirates lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
       "lean": "away",
@@ -401,7 +405,17 @@
       "lat": 40.75753012,
       "lon": -73.84559155,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          689414,
+          669364,
+          672640,
+          669065,
+          681715,
+          665052,
+          805300,
+          688363,
+          691788
+        ],
         "home": [
           805999,
           596019,
@@ -423,8 +437,8 @@
         "pitcher_id": 691587,
         "pitcher_name": "Eury P\u00e9rez",
         "pitcher_hand": "R",
-        "ml": 109,
-        "implied": 47.8
+        "ml": 114,
+        "implied": 46.7
       },
       "home": {
         "team": "Mets",
@@ -435,24 +449,24 @@
         "pitcher_id": 690997,
         "pitcher_name": "Nolan McLean",
         "pitcher_hand": "R",
-        "ml": -131,
-        "implied": 56.7
+        "ml": -137,
+        "implied": 57.8
       },
       "weather": {
-        "temp_f": 72.1,
-        "wind_mph": 1.1,
-        "wind_dir_deg": 307
+        "temp_f": 72.3,
+        "wind_mph": 2.1,
+        "wind_dir_deg": 288
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Marlins lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Nolan McLean holds LHB to a 0.672 OPS; Marlins project 75% L-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -503,8 +517,8 @@
         "pitcher_id": 663623,
         "pitcher_name": "Jake Irvin",
         "pitcher_hand": "R",
-        "ml": 130,
-        "implied": 43.5
+        "ml": 134,
+        "implied": 42.7
       },
       "home": {
         "team": "Braves",
@@ -515,14 +529,10 @@
         "pitcher_id": 656550,
         "pitcher_name": "Grant Holmes",
         "pitcher_hand": "R",
-        "ml": -157,
-        "implied": 61.1
+        "ml": -162,
+        "implied": 61.8
       },
-      "weather": {
-        "temp_f": 87.1,
-        "wind_mph": 8.5,
-        "wind_dir_deg": 313
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -544,7 +554,17 @@
       "lat": 38.57994,
       "lon": -121.51246,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          678011,
+          678882,
+          677800,
+          575929,
+          807799,
+          702332,
+          680776,
+          655316,
+          657136
+        ],
         "home": []
       },
       "away": {
@@ -556,8 +576,8 @@
         "pitcher_id": 543243,
         "pitcher_name": "Sonny Gray",
         "pitcher_hand": "R",
-        "ml": -191,
-        "implied": 65.6
+        "ml": -200,
+        "implied": 66.7
       },
       "home": {
         "team": "Athletics",
@@ -568,8 +588,8 @@
         "pitcher_id": 686930,
         "pitcher_name": "Mason Barnett",
         "pitcher_hand": "R",
-        "ml": 157,
-        "implied": 38.9
+        "ml": 164,
+        "implied": 37.9
       },
       "weather": null,
       "factors": [
@@ -580,14 +600,14 @@
           "text": "Athletics lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Red Sox lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Mason Barnett holds RHB to a 0.568 OPS; Red Sox project 62% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -607,7 +627,17 @@
       "lon": -117.157278,
       "lineup_ids": {
         "away": [],
-        "home": []
+        "home": [
+          665487,
+          650859,
+          592518,
+          664034,
+          701538,
+          669134,
+          593428,
+          630105,
+          687749
+        ]
       },
       "away": {
         "team": "Giants",
@@ -618,8 +648,8 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": 133,
-        "implied": 42.9
+        "ml": 142,
+        "implied": 41.3
       },
       "home": {
         "team": "Padres",
@@ -630,17 +660,11 @@
         "pitcher_id": 676664,
         "pitcher_name": "JP Sears",
         "pitcher_hand": "L",
-        "ml": -161,
-        "implied": 61.7
+        "ml": -172,
+        "implied": 63.2
       },
       "weather": null,
       "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Padres lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
         {
           "m": "~",
           "side": "none",
@@ -680,8 +704,8 @@
         "pitcher_id": 693433,
         "pitcher_name": "Bryan Woo",
         "pitcher_hand": "R",
-        "ml": 134,
-        "implied": 42.7
+        "ml": 135,
+        "implied": 42.6
       },
       "home": {
         "team": "Dodgers",
@@ -692,10 +716,14 @@
         "pitcher_id": 808963,
         "pitcher_name": "Roki Sasaki",
         "pitcher_hand": "R",
-        "ml": -162,
-        "implied": 61.8
+        "ml": -163,
+        "implied": 62.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 73.3,
+        "wind_mph": 7.3,
+        "wind_dir_deg": 252
+      },
       "factors": [
         {
           "m": "~",
