@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "generated": "2026-07-31T04:20:50",
+  "generated": "2026-07-31T05:51:38",
   "games": [
     {
       "game_pk": 822946,
@@ -523,11 +523,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 82.6,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 312
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -602,11 +598,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 95.5,
-        "wind_mph": 8.6,
-        "wind_dir_deg": 217
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -668,7 +660,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "46-62",
+        "record": "47-62",
         "pitcher_id": 592662,
         "pitcher_name": "Robbie Ray",
         "pitcher_hand": "L",
@@ -680,24 +672,20 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "55-53",
+        "record": "55-54",
         "pitcher_id": 676664,
         "pitcher_name": "JP Sears",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 75.6,
-        "wind_mph": 5.6,
-        "wind_dir_deg": 241
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Robbie Ray holds RHB to a 0.686 OPS; Padres project 75% R-handed today."
+          "text": "Robbie Ray holds RHB to a 0.679 OPS; Padres project 75% R-handed today."
         }
       ],
       "lean": "away",
@@ -747,7 +735,7 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "53-56",
+        "record": "53-57",
         "pitcher_id": 693433,
         "pitcher_name": "Bryan Woo",
         "pitcher_hand": "R",
@@ -759,18 +747,14 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "68-40",
+        "record": "69-40",
         "pitcher_id": 808963,
         "pitcher_name": "Roki Sasaki",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 77.0,
-        "wind_mph": 8.2,
-        "wind_dir_deg": 259
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
