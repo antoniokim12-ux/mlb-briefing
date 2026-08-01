@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "generated": "2026-08-01T04:19:23",
+  "generated": "2026-08-01T05:42:15",
   "games": [
     {
       "game_pk": 824651,
@@ -799,7 +799,7 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "67-41",
+        "record": "68-41",
         "pitcher_id": 675660,
         "pitcher_name": "Shane Drohan",
         "pitcher_hand": "L",
@@ -811,30 +811,26 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "42-67",
+        "record": "42-68",
         "pitcher_id": 696270,
         "pitcher_name": "Ryan Johnson",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 84.1,
-        "wind_mph": 6.7,
-        "wind_dir_deg": 220
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Shane Drohan holds RHB to a 0.684 OPS; Angels project 89% R-handed today."
+          "text": "Shane Drohan holds RHB to a 0.673 OPS; Angels project 89% R-handed today."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Ryan Johnson is vulnerable to LHB (0.880 OPS) and Brewers skew L-handed."
+          "text": "Ryan Johnson is vulnerable to LHB (0.866 OPS) and Brewers skew L-handed."
         }
       ],
       "lean": "away",
@@ -884,7 +880,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "51-58",
+        "record": "52-58",
         "pitcher_id": 663947,
         "pitcher_name": "Tyler Holton",
         "pitcher_hand": "L",
@@ -896,24 +892,20 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "45-64",
+        "record": "45-65",
         "pitcher_id": 605488,
         "pitcher_name": "Jeffrey Springs",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 98.5,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 252
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Jeffrey Springs is vulnerable to RHB (0.890 OPS) and Tigers skew R-handed."
+          "text": "Jeffrey Springs is vulnerable to RHB (0.881 OPS) and Tigers skew R-handed."
         }
       ],
       "lean": "away",
@@ -963,7 +955,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "47-62",
+        "record": "47-63",
         "pitcher_id": 687931,
         "pitcher_name": "Carson Whisenhunt",
         "pitcher_hand": "L",
@@ -975,30 +967,26 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "55-54",
+        "record": "56-54",
         "pitcher_id": 699134,
         "pitcher_name": "Bradgley Rodriguez",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 76.5,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 249
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Carson Whisenhunt is vulnerable to RHB (0.844 OPS) and Padres skew R-handed."
+          "text": "Carson Whisenhunt is vulnerable to RHB (0.989 OPS) and Padres skew R-handed."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Bradgley Rodriguez holds LHB to a 0.463 OPS; Giants project 67% L-handed today."
+          "text": "Bradgley Rodriguez holds LHB to a 0.453 OPS; Giants project 67% L-handed today."
         }
       ],
       "lean": "home",
@@ -1048,7 +1036,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "57-51",
+        "record": "58-51",
         "pitcher_id": 624133,
         "pitcher_name": "Ranger Suarez",
         "pitcher_hand": "L",
@@ -1060,30 +1048,26 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "69-40",
+        "record": "69-41",
         "pitcher_id": 683618,
         "pitcher_name": "Edgardo Henriquez",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 78.1,
-        "wind_mph": 7.8,
-        "wind_dir_deg": 246
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Ranger Suarez holds RHB to a 0.575 OPS; Dodgers project 62% R-handed today."
+          "text": "Ranger Suarez holds RHB to a 0.569 OPS; Dodgers project 62% R-handed today."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Edgardo Henriquez holds RHB to a 0.383 OPS; Red Sox project 62% R-handed today."
+          "text": "Edgardo Henriquez holds RHB to a 0.397 OPS; Red Sox project 62% R-handed today."
         }
       ],
       "lean": "even",
@@ -1133,7 +1117,7 @@
         "team_full": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "record": "55-55",
+        "record": "56-55",
         "pitcher_id": 805673,
         "pitcher_name": "Zebby Matthews",
         "pitcher_hand": "R",
@@ -1145,7 +1129,7 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "53-57",
+        "record": "53-58",
         "pitcher_id": 682243,
         "pitcher_name": "Bryce Miller",
         "pitcher_hand": "R",
