@@ -5601,10 +5601,10 @@
     "close_ml": -171,
     "close_fair": 60.3,
     "clv_pp": 0.0,
-    "result": null,
-    "pick_score": null,
-    "opp_score": null,
-    "profit": null
+    "result": "W",
+    "pick_score": 4,
+    "opp_score": 3,
+    "profit": 0.585
   },
   {
     "key": "2026-08-01:823594",
@@ -5622,10 +5622,10 @@
     "close_ml": -136,
     "close_fair": 55.1,
     "clv_pp": 0.0,
-    "result": null,
-    "pick_score": null,
-    "opp_score": null,
-    "profit": null
+    "result": "L",
+    "pick_score": 2,
+    "opp_score": 6,
+    "profit": -1.0
   },
   {
     "key": "2026-08-01:824485",
@@ -5724,9 +5724,9 @@
     "weight": 1,
     "kind": "lean",
     "is_top": false,
-    "close_ml": -156,
-    "close_fair": 58.3,
-    "clv_pp": 0.1,
+    "close_ml": -150,
+    "close_fair": 57.3,
+    "clv_pp": -0.9,
     "result": null,
     "pick_score": null,
     "opp_score": null,
