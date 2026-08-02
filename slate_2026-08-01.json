@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "generated": "2026-08-02T04:23:18",
+  "generated": "2026-08-02T05:42:10",
   "games": [
     {
       "game_pk": 822781,
@@ -922,7 +922,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 80.8,
+        "wind_mph": 5.7,
+        "wind_dir_deg": 252
+      },
       "factors": [
         {
           "m": "-",
@@ -1114,7 +1118,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "52-58",
+        "record": "53-58",
         "pitcher_id": 664285,
         "pitcher_name": "Framber Valdez",
         "pitcher_hand": "L",
@@ -1126,7 +1130,7 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "45-65",
+        "record": "45-66",
         "pitcher_id": 678022,
         "pitcher_name": "Jack Perkins",
         "pitcher_hand": "R",
