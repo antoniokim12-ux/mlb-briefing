@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "generated": "2026-08-02T20:07:43",
+  "generated": "2026-08-02T21:43:33",
   "games": [
     {
       "game_pk": 824807,
@@ -188,7 +188,7 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "54-57",
+        "record": "55-57",
         "pitcher_id": 669461,
         "pitcher_name": "Matthew Liberatore",
         "pitcher_hand": "L",
@@ -200,7 +200,7 @@
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "52-59",
+        "record": "52-60",
         "pitcher_id": 453286,
         "pitcher_name": "Max Scherzer",
         "pitcher_hand": "R",
@@ -217,7 +217,7 @@
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Matthew Liberatore is vulnerable to RHB (0.835 OPS) and Blue Jays skew R-handed."
+          "text": "Matthew Liberatore is vulnerable to RHB (0.805 OPS) and Blue Jays skew R-handed."
         }
       ],
       "lean": "home",
@@ -346,7 +346,7 @@
         "team_full": "Pittsburgh Pirates",
         "abbr": "PIT",
         "team_id": 134,
-        "record": "56-56",
+        "record": "56-57",
         "pitcher_id": 656605,
         "pitcher_name": "Mitch Keller",
         "pitcher_hand": "R",
@@ -358,7 +358,7 @@
         "team_full": "Cincinnati Reds",
         "abbr": "CIN",
         "team_id": 113,
-        "record": "52-58",
+        "record": "53-58",
         "pitcher_id": 695505,
         "pitcher_name": "Chase Burns",
         "pitcher_hand": "R",
@@ -375,7 +375,7 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Mitch Keller holds RHB to a 0.553 OPS; Reds project 75% R-handed today."
+          "text": "Mitch Keller holds RHB to a 0.614 OPS; Reds project 75% R-handed today."
         }
       ],
       "lean": "away",
@@ -425,7 +425,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "58-52",
+        "record": "59-52",
         "pitcher_id": 641743,
         "pitcher_name": "Anthony Kay",
         "pitcher_hand": "L",
@@ -437,7 +437,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "65-45",
+        "record": "65-46",
         "pitcher_id": 643377,
         "pitcher_name": "Griffin Jax",
         "pitcher_hand": "R",
@@ -454,7 +454,7 @@
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Anthony Kay is vulnerable to RHB (0.851 OPS) and Rays skew R-handed."
+          "text": "Anthony Kay is vulnerable to RHB (0.833 OPS) and Rays skew R-handed."
         }
       ],
       "lean": "home",
@@ -504,7 +504,7 @@
         "team_full": "Miami Marlins",
         "abbr": "MIA",
         "team_id": 146,
-        "record": "57-55",
+        "record": "58-55",
         "pitcher_id": 645261,
         "pitcher_name": "Sandy Alcantara",
         "pitcher_hand": "R",
@@ -516,7 +516,7 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "47-65",
+        "record": "47-66",
         "pitcher_id": 476594,
         "pitcher_name": "Robert Stock",
         "pitcher_hand": "R",
@@ -576,7 +576,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "55-56",
+        "record": "55-57",
         "pitcher_id": 677958,
         "pitcher_name": "Kumar Rocker",
         "pitcher_hand": "R",
@@ -588,7 +588,7 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "57-55",
+        "record": "58-55",
         "pitcher_id": 663567,
         "pitcher_name": "Peter Lambert",
         "pitcher_hand": "R",
@@ -605,7 +605,7 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Kumar Rocker holds RHB to a 0.567 OPS; Astros project 78% R-handed today."
+          "text": "Kumar Rocker holds RHB to a 0.587 OPS; Astros project 78% R-handed today."
         }
       ],
       "lean": "away",
@@ -655,7 +655,7 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "62-49",
+        "record": "63-49",
         "pitcher_id": 543037,
         "pitcher_name": "Gerrit Cole",
         "pitcher_hand": "R",
@@ -667,28 +667,17 @@
         "team_full": "Chicago Cubs",
         "abbr": "CHC",
         "team_id": 112,
-        "record": "63-48",
+        "record": "63-49",
         "pitcher_id": 607067,
         "pitcher_name": "Colin Rea",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 69.2,
-        "wind_mph": 13.9,
-        "wind_dir_deg": 354
-      },
-      "factors": [
-        {
-          "m": "-",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Colin Rea is vulnerable to LHB (0.785 OPS) and Yankees skew L-handed."
-        }
-      ],
-      "lean": "away",
-      "weight": 1,
+      "weather": null,
+      "factors": [],
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
@@ -734,7 +723,7 @@
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "46-66",
+        "record": "46-67",
         "pitcher_id": 607625,
         "pitcher_name": "Seth Lugo",
         "pitcher_hand": "R",
@@ -746,24 +735,20 @@
         "team_full": "Colorado Rockies",
         "abbr": "COL",
         "team_id": 115,
-        "record": "44-67",
+        "record": "45-67",
         "pitcher_id": 607536,
         "pitcher_name": "Kyle Freeland",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 101.2,
-        "wind_mph": 9.9,
-        "wind_dir_deg": 51
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Seth Lugo is vulnerable to LHB (0.798 OPS) and Rockies skew L-handed."
+          "text": "Seth Lugo is vulnerable to LHB (0.800 OPS) and Rockies skew L-handed."
         }
       ],
       "lean": "home",
@@ -813,7 +798,7 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "69-41",
+        "record": "69-42",
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
@@ -825,7 +810,7 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "42-69",
+        "record": "43-69",
         "pitcher_id": 700712,
         "pitcher_name": "Walbert Ure\u00f1a",
         "pitcher_hand": "R",
@@ -967,8 +952,8 @@
         "pitcher_id": 694738,
         "pitcher_name": "Landen Roupp",
         "pitcher_hand": "R",
-        "ml": 109,
-        "implied": 47.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Padres",
@@ -979,10 +964,14 @@
         "pitcher_id": 606996,
         "pitcher_name": "Kyle Hart",
         "pitcher_hand": "L",
-        "ml": -131,
-        "implied": 56.7
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.2,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 274
+      },
       "factors": [
         {
           "m": "-",
@@ -996,8 +985,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -1043,8 +1031,8 @@
         "pitcher_id": 671737,
         "pitcher_name": "Taj Bradley",
         "pitcher_hand": "R",
-        "ml": 122,
-        "implied": 45.0
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Mariners",
@@ -1055,18 +1043,21 @@
         "pitcher_id": 669923,
         "pitcher_name": "George Kirby",
         "pitcher_hand": "R",
-        "ml": -147,
-        "implied": 59.5
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 61.7,
+        "wind_mph": 6.0,
+        "wind_dir_deg": 312
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -1127,7 +1118,11 @@
         "ml": -186,
         "implied": 65.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 87.1,
+        "wind_mph": 9.2,
+        "wind_dir_deg": 252
+      },
       "factors": [
         {
           "m": "+",
