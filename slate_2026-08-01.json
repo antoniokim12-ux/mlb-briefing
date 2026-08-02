@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "generated": "2026-08-02T03:58:11",
+  "generated": "2026-08-02T04:23:18",
   "games": [
     {
       "game_pk": 822781,
@@ -607,7 +607,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 77.4,
+        "wind_mph": 3.9,
+        "wind_dir_deg": 156
+      },
       "factors": [
         {
           "m": "+",
@@ -682,7 +686,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 83.7,
+        "wind_mph": 6.2,
+        "wind_dir_deg": 195
+      },
       "factors": [
         {
           "m": "-",
@@ -757,13 +765,23 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 69.5,
+        "wind_mph": 17.9,
+        "wind_dir_deg": 18
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
           "text": "Max Fried holds RHB to a 0.553 OPS; Cubs project 75% R-handed today."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "18 mph wind (dir 18\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "away",
@@ -832,7 +850,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 94.1,
+        "wind_mph": 7.3,
+        "wind_dir_deg": 52
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -975,11 +997,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 86.0,
-        "wind_mph": 8.0,
-        "wind_dir_deg": 247
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1028,7 +1046,7 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "68-41",
+        "record": "69-41",
         "pitcher_id": 688107,
         "pitcher_name": "Robert Gasser",
         "pitcher_hand": "L",
@@ -1040,28 +1058,17 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "42-68",
+        "record": "42-69",
         "pitcher_id": 608718,
         "pitcher_name": "Brent Suter",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 83.5,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 244
-      },
-      "factors": [
-        {
-          "m": "-",
-          "side": "away",
-          "label": "Handedness matchup",
-          "text": "Robert Gasser is vulnerable to RHB (0.785 OPS) and Angels skew R-handed."
-        }
-      ],
-      "lean": "home",
-      "weight": 1,
+      "weather": null,
+      "factors": [],
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
@@ -1126,11 +1133,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 100.2,
-        "wind_mph": 5.5,
-        "wind_dir_deg": 249
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
