@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated": "2026-08-03T20:20:32",
+  "generated": "2026-08-03T21:56:00",
   "games": [
     {
       "game_pk": 823431,
@@ -47,9 +47,9 @@
         "implied": 61.1
       },
       "weather": {
-        "temp_f": 83.3,
-        "wind_mph": 3.1,
-        "wind_dir_deg": 270
+        "temp_f": 84.1,
+        "wind_mph": 3.3,
+        "wind_dir_deg": 318
       },
       "factors": [
         {
@@ -111,8 +111,8 @@
         "pitcher_id": 700241,
         "pitcher_name": "Michael McGreevy",
         "pitcher_hand": "R",
-        "ml": 178,
-        "implied": 36.0
+        "ml": 187,
+        "implied": 34.8
       },
       "home": {
         "team": "Yankees",
@@ -123,13 +123,13 @@
         "pitcher_id": 693645,
         "pitcher_name": "Cam Schlittler",
         "pitcher_hand": "R",
-        "ml": -219,
-        "implied": 68.7
+        "ml": -231,
+        "implied": 69.8
       },
       "weather": {
-        "temp_f": 76.4,
-        "wind_mph": 7.1,
-        "wind_dir_deg": 302
+        "temp_f": 76.7,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 313
       },
       "factors": [],
       "lean": "even",
@@ -153,7 +153,17 @@
       "lon": -87.97099,
       "lineup_ids": {
         "away": [],
-        "home": []
+        "home": [
+          668930,
+          694192,
+          592885,
+          661388,
+          641343,
+          683734,
+          669003,
+          666152,
+          687401
+        ]
       },
       "away": {
         "team": "Pirates",
@@ -164,8 +174,8 @@
         "pitcher_id": 696149,
         "pitcher_name": "Bubba Chandler",
         "pitcher_hand": "R",
-        "ml": 124,
-        "implied": 44.6
+        "ml": 129,
+        "implied": 43.7
       },
       "home": {
         "team": "Brewers",
@@ -176,21 +186,15 @@
         "pitcher_id": 687075,
         "pitcher_name": "Brandon Sproat",
         "pitcher_hand": "R",
-        "ml": -150,
-        "implied": 60.0
+        "ml": -156,
+        "implied": 60.9
       },
       "weather": {
-        "temp_f": 74.9,
-        "wind_mph": 7.1,
-        "wind_dir_deg": 114
+        "temp_f": 75.6,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 117
       },
       "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
         {
           "m": "~",
           "side": "none",
@@ -237,9 +241,9 @@
         "abbr": "LAD",
         "team_id": 119,
         "record": "69-43",
-        "pitcher_id": null,
-        "pitcher_name": "TBD",
-        "pitcher_hand": null,
+        "pitcher_id": 680736,
+        "pitcher_name": "Justin Wrobleski",
+        "pitcher_hand": "L",
         "ml": -126,
         "implied": 55.8
       },
@@ -252,12 +256,12 @@
         "pitcher_id": 571510,
         "pitcher_name": "Matthew Boyd",
         "pitcher_hand": "L",
-        "ml": 105,
-        "implied": 48.8
+        "ml": 104,
+        "implied": 49.0
       },
       "weather": {
-        "temp_f": 71.4,
-        "wind_mph": 6.3,
+        "temp_f": 72.2,
+        "wind_mph": 7.2,
         "wind_dir_deg": 92
       },
       "factors": [
@@ -310,8 +314,8 @@
         "pitcher_id": 657277,
         "pitcher_name": "Logan Webb",
         "pitcher_hand": "R",
-        "ml": 104,
-        "implied": 49.0
+        "ml": 108,
+        "implied": 48.1
       },
       "home": {
         "team": "Rangers",
@@ -322,13 +326,13 @@
         "pitcher_id": 615698,
         "pitcher_name": "Cal Quantrill",
         "pitcher_hand": "R",
-        "ml": -125,
-        "implied": 55.6
+        "ml": -130,
+        "implied": 56.5
       },
       "weather": {
-        "temp_f": 98.8,
-        "wind_mph": 7.8,
-        "wind_dir_deg": 178
+        "temp_f": 98.7,
+        "wind_mph": 8.5,
+        "wind_dir_deg": 177
       },
       "factors": [
         {
@@ -370,8 +374,8 @@
         "pitcher_id": 669456,
         "pitcher_name": "Shane Bieber",
         "pitcher_hand": "R",
-        "ml": 113,
-        "implied": 46.9
+        "ml": 112,
+        "implied": 47.2
       },
       "home": {
         "team": "Astros",
@@ -382,13 +386,13 @@
         "pitcher_id": 664299,
         "pitcher_name": "Cristian Javier",
         "pitcher_hand": "R",
-        "ml": -136,
-        "implied": 57.6
+        "ml": -135,
+        "implied": 57.4
       },
       "weather": {
-        "temp_f": 84.0,
-        "wind_mph": 10.2,
-        "wind_dir_deg": 213
+        "temp_f": 90.9,
+        "wind_mph": 9.3,
+        "wind_dir_deg": 150
       },
       "factors": [
         {
@@ -436,8 +440,8 @@
         "pitcher_id": 693855,
         "pitcher_name": "Ian Seymour",
         "pitcher_hand": "L",
-        "ml": -184,
-        "implied": 64.8
+        "ml": -185,
+        "implied": 64.9
       },
       "home": {
         "team": "Rockies",
@@ -452,9 +456,9 @@
         "implied": 39.7
       },
       "weather": {
-        "temp_f": 97.6,
-        "wind_mph": 2.2,
-        "wind_dir_deg": 24
+        "temp_f": 93.0,
+        "wind_mph": 13.5,
+        "wind_dir_deg": 48
       },
       "factors": [
         {
@@ -502,8 +506,8 @@
         "pitcher_id": 650633,
         "pitcher_name": "Michael King",
         "pitcher_hand": "R",
-        "ml": -102,
-        "implied": 50.5
+        "ml": -105,
+        "implied": 51.2
       },
       "home": {
         "team": "D-backs",
@@ -514,8 +518,8 @@
         "pitcher_id": 694297,
         "pitcher_name": "Brandon Pfaadt",
         "pitcher_hand": "R",
-        "ml": -118,
-        "implied": 54.1
+        "ml": -114,
+        "implied": 53.3
       },
       "weather": null,
       "factors": [
