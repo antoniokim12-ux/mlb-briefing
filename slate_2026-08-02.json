@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "generated": "2026-08-02T23:49:51",
+  "generated": "2026-08-03T04:29:35",
   "games": [
     {
       "game_pk": 824807,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 84.2,
-        "wind_mph": 12.2,
-        "wind_dir_deg": 148
+        "temp_f": 74.7,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 135
       },
       "factors": [],
       "lean": "even",
@@ -129,9 +129,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 86.1,
-        "wind_mph": 7.3,
-        "wind_dir_deg": 230
+        "temp_f": 82.1,
+        "wind_mph": 9.1,
+        "wind_dir_deg": 280
       },
       "factors": [
         {
@@ -208,9 +208,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 67.9,
-        "wind_mph": 12.7,
-        "wind_dir_deg": 39
+        "temp_f": 67.0,
+        "wind_mph": 12.8,
+        "wind_dir_deg": 344
       },
       "factors": [
         {
@@ -287,9 +287,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 79.8,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 177
+        "temp_f": 70.4,
+        "wind_mph": 8.4,
+        "wind_dir_deg": 328
       },
       "factors": [
         {
@@ -372,9 +372,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 72.7,
-        "wind_mph": 1.6,
-        "wind_dir_deg": 34
+        "temp_f": 72.3,
+        "wind_mph": 5.1,
+        "wind_dir_deg": 326
       },
       "factors": [
         {
@@ -451,9 +451,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 78.7,
-        "wind_mph": 9.3,
-        "wind_dir_deg": 197
+        "temp_f": 76.0,
+        "wind_mph": 9.9,
+        "wind_dir_deg": 266
       },
       "factors": [
         {
@@ -530,9 +530,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 82.4,
-        "wind_mph": 13.2,
-        "wind_dir_deg": 156
+        "temp_f": 79.2,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 131
       },
       "factors": [],
       "lean": "even",
@@ -601,7 +601,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 92.6,
+        "wind_mph": 3.2,
+        "wind_dir_deg": 236
+      },
       "factors": [
         {
           "m": "+",
@@ -676,7 +680,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 69.6,
+        "wind_mph": 10.5,
+        "wind_dir_deg": 2
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -744,7 +752,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 101.7,
+        "wind_mph": 8.9,
+        "wind_dir_deg": 78
+      },
       "factors": [
         {
           "m": "-",
@@ -819,7 +831,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 87.5,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 221
+      },
       "factors": [
         {
           "m": "+",
@@ -1043,11 +1059,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 63.6,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 288
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1096,7 +1108,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "59-51",
+        "record": "60-51",
         "pitcher_id": 687562,
         "pitcher_name": "Jake Bennett",
         "pitcher_hand": "L",
@@ -1108,18 +1120,14 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "69-42",
+        "record": "69-43",
         "pitcher_id": 686218,
         "pitcher_name": "Emmet Sheehan",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 88.7,
-        "wind_mph": 8.8,
-        "wind_dir_deg": 249
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
