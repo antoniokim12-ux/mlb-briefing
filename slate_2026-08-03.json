@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated": "2026-08-03T15:07:02",
+  "generated": "2026-08-03T20:20:32",
   "games": [
     {
       "game_pk": 823431,
@@ -10,7 +10,17 @@
       "lon": -75.16716957,
       "lineup_ids": {
         "away": [],
-        "home": []
+        "home": [
+          607208,
+          656941,
+          547180,
+          664761,
+          650559,
+          681082,
+          624641,
+          656537,
+          596117
+        ]
       },
       "away": {
         "team": "Nationals",
@@ -18,11 +28,11 @@
         "abbr": "WSH",
         "team_id": 120,
         "record": "55-58",
-        "pitcher_id": null,
-        "pitcher_name": "TBD",
-        "pitcher_hand": null,
-        "ml": 137,
-        "implied": 42.2
+        "pitcher_id": 674841,
+        "pitcher_name": "Andrew Alvarez",
+        "pitcher_hand": "L",
+        "ml": 130,
+        "implied": 43.5
       },
       "home": {
         "team": "Phillies",
@@ -33,21 +43,15 @@
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": "R",
-        "ml": -166,
-        "implied": 62.4
+        "ml": -157,
+        "implied": 61.1
       },
       "weather": {
-        "temp_f": 80.3,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 311
+        "temp_f": 83.3,
+        "wind_mph": 3.1,
+        "wind_dir_deg": 270
       },
       "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Phillies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
         {
           "m": "~",
           "side": "none",
@@ -75,8 +79,28 @@
       "lat": 40.82919482,
       "lon": -73.9264977,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          802139,
+          691023,
+          676475,
+          671056,
+          663457,
+          691026,
+          701675,
+          665877,
+          699625
+        ],
+        "home": [
+          663757,
+          700250,
+          671277,
+          682987,
+          691176,
+          665862,
+          641857,
+          676609,
+          669224
+        ]
       },
       "away": {
         "team": "Cardinals",
@@ -87,8 +111,8 @@
         "pitcher_id": 700241,
         "pitcher_name": "Michael McGreevy",
         "pitcher_hand": "R",
-        "ml": 177,
-        "implied": 36.1
+        "ml": 178,
+        "implied": 36.0
       },
       "home": {
         "team": "Yankees",
@@ -99,28 +123,15 @@
         "pitcher_id": 693645,
         "pitcher_name": "Cam Schlittler",
         "pitcher_hand": "R",
-        "ml": -217,
-        "implied": 68.5
+        "ml": -219,
+        "implied": 68.7
       },
       "weather": {
-        "temp_f": 75.4,
-        "wind_mph": 7.7,
-        "wind_dir_deg": 306
+        "temp_f": 76.4,
+        "wind_mph": 7.1,
+        "wind_dir_deg": 302
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Yankees lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Cardinals lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -153,8 +164,8 @@
         "pitcher_id": 696149,
         "pitcher_name": "Bubba Chandler",
         "pitcher_hand": "R",
-        "ml": 123,
-        "implied": 44.8
+        "ml": 124,
+        "implied": 44.6
       },
       "home": {
         "team": "Brewers",
@@ -165,13 +176,13 @@
         "pitcher_id": 687075,
         "pitcher_name": "Brandon Sproat",
         "pitcher_hand": "R",
-        "ml": -149,
-        "implied": 59.8
+        "ml": -150,
+        "implied": 60.0
       },
       "weather": {
-        "temp_f": 75.1,
-        "wind_mph": 7.2,
-        "wind_dir_deg": 129
+        "temp_f": 74.9,
+        "wind_mph": 7.1,
+        "wind_dir_deg": 114
       },
       "factors": [
         {
@@ -207,7 +218,17 @@
       "lat": 41.948171,
       "lon": -87.655503,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          660271,
+          681624,
+          669242,
+          518692,
+          605141,
+          663656,
+          606192,
+          571771,
+          672613
+        ],
         "home": []
       },
       "away": {
@@ -231,13 +252,13 @@
         "pitcher_id": 571510,
         "pitcher_name": "Matthew Boyd",
         "pitcher_hand": "L",
-        "ml": 104,
-        "implied": 49.0
+        "ml": 105,
+        "implied": 48.8
       },
       "weather": {
-        "temp_f": 71.2,
-        "wind_mph": 5.5,
-        "wind_dir_deg": 104
+        "temp_f": 71.4,
+        "wind_mph": 6.3,
+        "wind_dir_deg": 92
       },
       "factors": [
         {
@@ -245,12 +266,6 @@
           "side": "none",
           "label": "Lineups",
           "text": "Cubs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Dodgers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
       "lean": "even",
@@ -274,7 +289,17 @@
       "lon": -97.081818,
       "lineup_ids": {
         "away": [],
-        "home": []
+        "home": [
+          592626,
+          694671,
+          608369,
+          607043,
+          694497,
+          669394,
+          677649,
+          642851,
+          670032
+        ]
       },
       "away": {
         "team": "Giants",
@@ -294,24 +319,18 @@
         "abbr": "TEX",
         "team_id": 140,
         "record": "55-57",
-        "pitcher_id": null,
-        "pitcher_name": "TBD",
-        "pitcher_hand": null,
+        "pitcher_id": 615698,
+        "pitcher_name": "Cal Quantrill",
+        "pitcher_hand": "R",
         "ml": -125,
         "implied": 55.6
       },
       "weather": {
-        "temp_f": 99.0,
-        "wind_mph": 8.0,
-        "wind_dir_deg": 169
+        "temp_f": 98.8,
+        "wind_mph": 7.8,
+        "wind_dir_deg": 178
       },
       "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rangers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
         {
           "m": "~",
           "side": "none",
@@ -351,8 +370,8 @@
         "pitcher_id": 669456,
         "pitcher_name": "Shane Bieber",
         "pitcher_hand": "R",
-        "ml": 110,
-        "implied": 47.6
+        "ml": 113,
+        "implied": 46.9
       },
       "home": {
         "team": "Astros",
@@ -363,13 +382,13 @@
         "pitcher_id": 664299,
         "pitcher_name": "Cristian Javier",
         "pitcher_hand": "R",
-        "ml": -132,
-        "implied": 56.9
+        "ml": -136,
+        "implied": 57.6
       },
       "weather": {
-        "temp_f": 83.3,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 205
+        "temp_f": 84.0,
+        "wind_mph": 10.2,
+        "wind_dir_deg": 213
       },
       "factors": [
         {
@@ -417,8 +436,8 @@
         "pitcher_id": 693855,
         "pitcher_name": "Ian Seymour",
         "pitcher_hand": "L",
-        "ml": -174,
-        "implied": 63.5
+        "ml": -184,
+        "implied": 64.8
       },
       "home": {
         "team": "Rockies",
@@ -429,13 +448,13 @@
         "pitcher_id": 547179,
         "pitcher_name": "Michael Lorenzen",
         "pitcher_hand": "R",
-        "ml": 143,
-        "implied": 41.2
+        "ml": 152,
+        "implied": 39.7
       },
       "weather": {
-        "temp_f": 97.7,
-        "wind_mph": 9.9,
-        "wind_dir_deg": 87
+        "temp_f": 97.6,
+        "wind_mph": 2.2,
+        "wind_dir_deg": 24
       },
       "factors": [
         {
@@ -498,11 +517,7 @@
         "ml": -118,
         "implied": 54.1
       },
-      "weather": {
-        "temp_f": 111.6,
-        "wind_mph": 11.8,
-        "wind_dir_deg": 260
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
