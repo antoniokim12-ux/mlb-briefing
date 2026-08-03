@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated": "2026-08-03T22:49:13",
+  "generated": "2026-08-03T23:57:41",
   "games": [
     {
       "game_pk": 823431,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 84.1,
-        "wind_mph": 3.3,
-        "wind_dir_deg": 242
+        "temp_f": 85.4,
+        "wind_mph": 6.2,
+        "wind_dir_deg": 291
       },
       "factors": [
         {
@@ -120,8 +120,8 @@
         "pitcher_id": 700241,
         "pitcher_name": "Michael McGreevy",
         "pitcher_hand": "R",
-        "ml": 199,
-        "implied": 33.4
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Yankees",
@@ -132,13 +132,13 @@
         "pitcher_id": 693645,
         "pitcher_name": "Cam Schlittler",
         "pitcher_hand": "R",
-        "ml": -246,
-        "implied": 71.1
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 76.7,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 308
+        "temp_f": 76.9,
+        "wind_mph": 4.5,
+        "wind_dir_deg": 307
       },
       "factors": [],
       "lean": "even",
@@ -146,8 +146,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -193,8 +192,8 @@
         "pitcher_id": 696149,
         "pitcher_name": "Bubba Chandler",
         "pitcher_hand": "R",
-        "ml": 130,
-        "implied": 43.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Brewers",
@@ -205,13 +204,13 @@
         "pitcher_id": 687075,
         "pitcher_name": "Brandon Sproat",
         "pitcher_hand": "R",
-        "ml": -158,
-        "implied": 61.2
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 76.1,
-        "wind_mph": 6.3,
-        "wind_dir_deg": 107
+        "temp_f": 75.6,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 116
       },
       "factors": [],
       "lean": "even",
@@ -219,8 +218,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -245,7 +243,17 @@
           571771,
           672613
         ],
-        "home": []
+        "home": [
+          691718,
+          673548,
+          608324,
+          608348,
+          683737,
+          663538,
+          699393,
+          621020,
+          682634
+        ]
       },
       "away": {
         "team": "Dodgers",
@@ -256,8 +264,8 @@
         "pitcher_id": 680736,
         "pitcher_name": "Justin Wrobleski",
         "pitcher_hand": "L",
-        "ml": -126,
-        "implied": 55.8
+        "ml": -125,
+        "implied": 55.6
       },
       "home": {
         "team": "Cubs",
@@ -268,24 +276,24 @@
         "pitcher_id": 571510,
         "pitcher_name": "Matthew Boyd",
         "pitcher_hand": "L",
-        "ml": 105,
-        "implied": 48.8
+        "ml": 104,
+        "implied": 49.0
       },
       "weather": {
-        "temp_f": 72.8,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 92
+        "temp_f": 72.7,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 82
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Cubs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Justin Wrobleski holds RHB to a 0.574 OPS; Cubs project 75% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -336,8 +344,8 @@
         "pitcher_id": 657277,
         "pitcher_name": "Logan Webb",
         "pitcher_hand": "R",
-        "ml": 112,
-        "implied": 47.2
+        "ml": 109,
+        "implied": 47.8
       },
       "home": {
         "team": "Rangers",
@@ -348,13 +356,13 @@
         "pitcher_id": 615698,
         "pitcher_name": "Cal Quantrill",
         "pitcher_hand": "R",
-        "ml": -135,
-        "implied": 57.4
+        "ml": -131,
+        "implied": 56.7
       },
       "weather": {
         "temp_f": 98.9,
-        "wind_mph": 8.0,
-        "wind_dir_deg": 162
+        "wind_mph": 8.5,
+        "wind_dir_deg": 125
       },
       "factors": [],
       "lean": "even",
@@ -409,8 +417,8 @@
         "pitcher_id": 669456,
         "pitcher_name": "Shane Bieber",
         "pitcher_hand": "R",
-        "ml": 119,
-        "implied": 45.7
+        "ml": 129,
+        "implied": 43.7
       },
       "home": {
         "team": "Astros",
@@ -421,13 +429,13 @@
         "pitcher_id": 664299,
         "pitcher_name": "Cristian Javier",
         "pitcher_hand": "R",
-        "ml": -144,
-        "implied": 59.0
+        "ml": -156,
+        "implied": 60.9
       },
       "weather": {
-        "temp_f": 91.2,
-        "wind_mph": 9.1,
-        "wind_dir_deg": 147
+        "temp_f": 92.5,
+        "wind_mph": 8.5,
+        "wind_dir_deg": 157
       },
       "factors": [
         {
@@ -463,7 +471,17 @@
       "lat": 39.756042,
       "lon": -104.994136,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          650490,
+          666018,
+          691406,
+          656775,
+          683748,
+          802415,
+          680700,
+          700652,
+          670764
+        ],
         "home": [
           664983,
           691720,
@@ -485,8 +503,8 @@
         "pitcher_id": 693855,
         "pitcher_name": "Ian Seymour",
         "pitcher_hand": "L",
-        "ml": -185,
-        "implied": 64.9
+        "ml": -186,
+        "implied": 65.0
       },
       "home": {
         "team": "Rockies",
@@ -497,30 +515,30 @@
         "pitcher_id": 547179,
         "pitcher_name": "Michael Lorenzen",
         "pitcher_hand": "R",
-        "ml": 152,
-        "implied": 39.7
+        "ml": 153,
+        "implied": 39.5
       },
       "weather": {
-        "temp_f": 92.8,
-        "wind_mph": 25.4,
-        "wind_dir_deg": 75
+        "temp_f": 94.7,
+        "wind_mph": 17.9,
+        "wind_dir_deg": 44
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Michael Lorenzen is vulnerable to LHB (1.019 OPS) and Rays skew L-handed."
         },
         {
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "25 mph wind (dir 75\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "18 mph wind (dir 44\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -550,7 +568,17 @@
           593428,
           823550
         ],
-        "home": []
+        "home": [
+          682998,
+          672695,
+          672515,
+          606466,
+          596146,
+          571448,
+          680728,
+          694374,
+          814439
+        ]
       },
       "away": {
         "team": "Padres",
@@ -577,17 +605,11 @@
         "implied": 53.3
       },
       "weather": {
-        "temp_f": 111.7,
-        "wind_mph": 8.3,
-        "wind_dir_deg": 276
+        "temp_f": 111.6,
+        "wind_mph": 8.7,
+        "wind_dir_deg": 282
       },
       "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "D-backs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
         {
           "m": "+",
           "side": "home",
