@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated": "2026-08-04T19:35:37",
+  "generated": "2026-08-04T20:20:38",
   "games": [
     {
       "game_pk": 824805,
@@ -41,8 +41,8 @@
         "pitcher_id": 680570,
         "pitcher_name": "Grayson Rodriguez",
         "pitcher_hand": "R",
-        "ml": 138,
-        "implied": 42.0
+        "ml": 134,
+        "implied": 42.7
       },
       "home": {
         "team": "Orioles",
@@ -53,13 +53,13 @@
         "pitcher_id": 700249,
         "pitcher_name": "Cade Povich",
         "pitcher_hand": "L",
-        "ml": -147,
-        "implied": 59.5
+        "ml": -142,
+        "implied": 58.7
       },
       "weather": {
-        "temp_f": 86.1,
-        "wind_mph": 4.7,
-        "wind_dir_deg": 98
+        "temp_f": 86.4,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 114
       },
       "factors": [
         {
@@ -121,8 +121,8 @@
         "pitcher_id": 640455,
         "pitcher_name": "Sean Manaea",
         "pitcher_hand": "L",
-        "ml": 131,
-        "implied": 43.3
+        "ml": 121,
+        "implied": 45.2
       },
       "home": {
         "team": "Guardians",
@@ -133,11 +133,11 @@
         "pitcher_id": 676282,
         "pitcher_name": "Joey Cantillo",
         "pitcher_hand": "L",
-        "ml": -140,
-        "implied": 58.3
+        "ml": -129,
+        "implied": 56.3
       },
       "weather": {
-        "temp_f": 79.7,
+        "temp_f": 79.3,
         "wind_mph": 8.4,
         "wind_dir_deg": 8
       },
@@ -210,9 +210,9 @@
         "implied": 56.3
       },
       "weather": {
-        "temp_f": 87.5,
-        "wind_mph": 2.2,
-        "wind_dir_deg": 127
+        "temp_f": 86.7,
+        "wind_mph": 1.4,
+        "wind_dir_deg": 81
       },
       "factors": [
         {
@@ -270,8 +270,8 @@
         "pitcher_id": 687223,
         "pitcher_name": "Carson Palmquist",
         "pitcher_hand": "L",
-        "ml": 262,
-        "implied": 27.6
+        "ml": 266,
+        "implied": 27.3
       },
       "home": {
         "team": "Phillies",
@@ -282,13 +282,13 @@
         "pitcher_id": 666200,
         "pitcher_name": "Jes\u00fas Luzardo",
         "pitcher_hand": "L",
-        "ml": -282,
-        "implied": 73.8
+        "ml": -287,
+        "implied": 74.2
       },
       "weather": {
-        "temp_f": 85.0,
-        "wind_mph": 6.6,
-        "wind_dir_deg": 102
+        "temp_f": 83.8,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 84
       },
       "factors": [
         {
@@ -356,8 +356,8 @@
         "pitcher_id": 690928,
         "pitcher_name": "Hunter Dobbins",
         "pitcher_hand": "R",
-        "ml": 180,
-        "implied": 35.7
+        "ml": 175,
+        "implied": 36.4
       },
       "home": {
         "team": "Yankees",
@@ -368,13 +368,13 @@
         "pitcher_id": 677960,
         "pitcher_name": "Ryan Weathers",
         "pitcher_hand": "L",
-        "ml": -192,
-        "implied": 65.8
+        "ml": -187,
+        "implied": 65.2
       },
       "weather": {
-        "temp_f": 78.6,
-        "wind_mph": 6.6,
-        "wind_dir_deg": 147
+        "temp_f": 78.7,
+        "wind_mph": 6.4,
+        "wind_dir_deg": 162
       },
       "factors": [
         {
@@ -436,8 +436,8 @@
         "pitcher_id": 663436,
         "pitcher_name": "Davis Martin",
         "pitcher_hand": "R",
-        "ml": 126,
-        "implied": 44.2
+        "ml": 121,
+        "implied": 45.2
       },
       "home": {
         "team": "Red Sox",
@@ -448,13 +448,13 @@
         "pitcher_id": 663776,
         "pitcher_name": "Patrick Sandoval",
         "pitcher_hand": "L",
-        "ml": -134,
-        "implied": 57.3
+        "ml": -129,
+        "implied": 56.3
       },
       "weather": {
-        "temp_f": 82.3,
-        "wind_mph": 4.6,
-        "wind_dir_deg": 241
+        "temp_f": 82.4,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 236
       },
       "factors": [
         {
@@ -528,9 +528,9 @@
         "implied": 58.3
       },
       "weather": {
-        "temp_f": 78.2,
-        "wind_mph": 4.7,
-        "wind_dir_deg": 149
+        "temp_f": 78.3,
+        "wind_mph": 4.5,
+        "wind_dir_deg": 110
       },
       "factors": [
         {
@@ -614,9 +614,9 @@
         "implied": 43.3
       },
       "weather": {
-        "temp_f": 93.5,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 139
+        "temp_f": 92.6,
+        "wind_mph": 7.1,
+        "wind_dir_deg": 145
       },
       "factors": [],
       "lean": "even",
@@ -667,9 +667,9 @@
         "implied": 58.5
       },
       "weather": {
-        "temp_f": 83.2,
-        "wind_mph": 9.9,
-        "wind_dir_deg": 166
+        "temp_f": 83.8,
+        "wind_mph": 6.6,
+        "wind_dir_deg": 215
       },
       "factors": [
         {
@@ -767,8 +767,28 @@
       "lat": 32.747299,
       "lon": -97.081818,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          678545,
+          808982,
+          642715,
+          646240,
+          691740,
+          671083,
+          678760,
+          687529,
+          683766
+        ],
+        "home": [
+          592626,
+          694671,
+          608369,
+          607043,
+          677649,
+          694497,
+          553869,
+          670032,
+          679822
+        ]
       },
       "away": {
         "team": "Giants",
@@ -797,20 +817,14 @@
       "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rangers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Giants lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "MacKenzie Gore holds RHB to a 0.680 OPS; Giants project 67% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -892,7 +906,17 @@
       "lon": -104.994136,
       "lineup_ids": {
         "away": [],
-        "home": []
+        "home": [
+          664983,
+          694249,
+          666160,
+          696100,
+          681198,
+          691720,
+          650489,
+          687597,
+          678662
+        ]
       },
       "away": {
         "team": "Rays",
@@ -920,12 +944,6 @@
       },
       "weather": null,
       "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rockies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
         {
           "m": "~",
           "side": "none",
