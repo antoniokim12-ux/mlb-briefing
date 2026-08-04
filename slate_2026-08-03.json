@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated": "2026-08-04T04:11:49",
+  "generated": "2026-08-04T05:31:20",
   "games": [
     {
       "game_pk": 823431,
@@ -587,7 +587,7 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "58-54",
+        "record": "58-55",
         "pitcher_id": 650633,
         "pitcher_name": "Michael King",
         "pitcher_hand": "R",
@@ -599,24 +599,20 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "59-53",
+        "record": "60-53",
         "pitcher_id": 694297,
         "pitcher_name": "Brandon Pfaadt",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 112.8,
-        "wind_mph": 9.7,
-        "wind_dir_deg": 275
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Brandon Pfaadt holds RHB to a 0.607 OPS; Padres project 62% R-handed today."
+          "text": "Brandon Pfaadt holds RHB to a 0.605 OPS; Padres project 62% R-handed today."
         }
       ],
       "lean": "home",
