@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated": "2026-08-04T20:20:38",
+  "generated": "2026-08-04T20:33:28",
   "games": [
     {
       "game_pk": 824805,
@@ -436,8 +436,8 @@
         "pitcher_id": 663436,
         "pitcher_name": "Davis Martin",
         "pitcher_hand": "R",
-        "ml": 121,
-        "implied": 45.2
+        "ml": 133,
+        "implied": 42.9
       },
       "home": {
         "team": "Red Sox",
@@ -448,8 +448,8 @@
         "pitcher_id": 663776,
         "pitcher_name": "Patrick Sandoval",
         "pitcher_hand": "L",
-        "ml": -129,
-        "implied": 56.3
+        "ml": -142,
+        "implied": 58.7
       },
       "weather": {
         "temp_f": 82.4,
@@ -490,7 +490,17 @@
       "lat": 33.890672,
       "lon": -84.467641,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          669065,
+          665052,
+          672640,
+          683357,
+          681715,
+          805300,
+          677870,
+          691788,
+          691594
+        ],
         "home": [
           686948,
           660670,
@@ -527,23 +537,13 @@
         "ml": -140,
         "implied": 58.3
       },
-      "weather": {
-        "temp_f": 78.3,
-        "wind_mph": 4.5,
-        "wind_dir_deg": 110
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
           "text": "Ryan Gusto is vulnerable to LHB (0.842 OPS) and Braves skew L-handed."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Marlins lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
       "lean": "home",
@@ -613,11 +613,7 @@
         "ml": 131,
         "implied": 43.3
       },
-      "weather": {
-        "temp_f": 92.6,
-        "wind_mph": 7.1,
-        "wind_dir_deg": 145
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -666,11 +662,7 @@
         "ml": -141,
         "implied": 58.5
       },
-      "weather": {
-        "temp_f": 83.8,
-        "wind_mph": 6.6,
-        "wind_dir_deg": 215
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -799,8 +791,8 @@
         "pitcher_id": 694918,
         "pitcher_name": "Blade Tidwell",
         "pitcher_hand": "R",
-        "ml": 171,
-        "implied": 36.9
+        "ml": 175,
+        "implied": 36.4
       },
       "home": {
         "team": "Rangers",
@@ -811,8 +803,8 @@
         "pitcher_id": 669022,
         "pitcher_name": "MacKenzie Gore",
         "pitcher_hand": "L",
-        "ml": -182,
-        "implied": 64.5
+        "ml": -187,
+        "implied": 65.2
       },
       "weather": null,
       "factors": [
@@ -844,7 +836,17 @@
       "lon": -95.355509,
       "lineup_ids": {
         "away": [],
-        "home": []
+        "home": [
+          665161,
+          670541,
+          670623,
+          662139,
+          572233,
+          514888,
+          666211,
+          673237,
+          701358
+        ]
       },
       "away": {
         "team": "Blue Jays",
@@ -873,10 +875,10 @@
       "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Astros lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Trey Yesavage holds RHB to a 0.622 OPS; Astros project 67% R-handed today."
         },
         {
           "m": "~",
@@ -885,8 +887,8 @@
           "text": "Blue Jays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -942,7 +944,11 @@
         "ml": 154,
         "implied": 39.4
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 77.2,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 46
+      },
       "factors": [
         {
           "m": "~",
@@ -998,7 +1004,11 @@
         "ml": -115,
         "implied": 53.5
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 106.5,
+        "wind_mph": 11.4,
+        "wind_dir_deg": 273
+      },
       "factors": [
         {
           "m": "~",
@@ -1060,7 +1070,11 @@
         "ml": -118,
         "implied": 54.1
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 75.3,
+        "wind_mph": 7.6,
+        "wind_dir_deg": 2
+      },
       "factors": [
         {
           "m": "~",
