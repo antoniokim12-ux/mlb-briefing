@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated": "2026-08-05T04:01:08",
+  "generated": "2026-08-05T05:31:23",
   "games": [
     {
       "game_pk": 824805,
@@ -541,7 +541,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 80.5,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 97
+      },
       "factors": [
         {
           "m": "-",
@@ -616,7 +620,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 87.4,
+        "wind_mph": 4.8,
+        "wind_dir_deg": 131
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -684,7 +692,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.4,
+        "wind_mph": 6.0,
+        "wind_dir_deg": 228
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -970,7 +982,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "66-46",
+        "record": "67-46",
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": "R",
@@ -982,7 +994,7 @@
         "team_full": "Colorado Rockies",
         "abbr": "COL",
         "team_id": 115,
-        "record": "45-68",
+        "record": "45-69",
         "pitcher_id": 687312,
         "pitcher_name": "Gabriel Hughes",
         "pitcher_hand": "R",
@@ -999,7 +1011,7 @@
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Gabriel Hughes holds LHB to a 0.633 OPS; Rays project 75% L-handed today."
+          "text": "Gabriel Hughes holds LHB to a 0.699 OPS; Rays project 75% L-handed today."
         }
       ],
       "lean": "home",
@@ -1049,7 +1061,7 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "58-55",
+        "record": "59-55",
         "pitcher_id": 681190,
         "pitcher_name": "Randy V\u00e1squez",
         "pitcher_hand": "R",
@@ -1061,7 +1073,7 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "60-53",
+        "record": "60-54",
         "pitcher_id": 593958,
         "pitcher_name": "Eduardo Rodriguez",
         "pitcher_hand": "L",
@@ -1073,16 +1085,9 @@
         "wind_mph": 8.7,
         "wind_dir_deg": 283
       },
-      "factors": [
-        {
-          "m": "+",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Eduardo Rodriguez holds RHB to a 0.699 OPS; Padres project 75% R-handed today."
-        }
-      ],
-      "lean": "home",
-      "weight": 1,
+      "factors": [],
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
@@ -1128,7 +1133,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "54-58",
+        "record": "55-58",
         "pitcher_id": 675512,
         "pitcher_name": "Troy Melton",
         "pitcher_hand": "R",
@@ -1140,7 +1145,7 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "55-58",
+        "record": "55-59",
         "pitcher_id": 676106,
         "pitcher_name": "Emerson Hancock",
         "pitcher_hand": "R",
@@ -1157,7 +1162,7 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Troy Melton holds LHB to a 0.662 OPS; Mariners project 62% L-handed today."
+          "text": "Troy Melton holds LHB to a 0.624 OPS; Mariners project 62% L-handed today."
         }
       ],
       "lean": "away",
