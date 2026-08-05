@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated": "2026-08-05T22:04:33",
+  "generated": "2026-08-05T22:37:05",
   "games": [
     {
       "game_pk": 824158,
@@ -349,8 +349,8 @@
         "pitcher_id": 672282,
         "pitcher_name": "Reid Detmers",
         "pitcher_hand": "L",
-        "ml": 126,
-        "implied": 44.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Orioles",
@@ -361,8 +361,8 @@
         "pitcher_id": 669432,
         "pitcher_name": "Trevor Rogers",
         "pitcher_hand": "L",
-        "ml": -134,
-        "implied": 57.3
+        "ml": null,
+        "implied": null
       },
       "weather": {
         "temp_f": 84.0,
@@ -382,8 +382,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -675,8 +674,8 @@
         "pitcher_id": 669467,
         "pitcher_name": "Andre Pallante",
         "pitcher_hand": "R",
-        "ml": 148,
-        "implied": 40.3
+        "ml": 144,
+        "implied": 41.0
       },
       "home": {
         "team": "Yankees",
@@ -687,8 +686,8 @@
         "pitcher_id": 701542,
         "pitcher_name": "Will Warren",
         "pitcher_hand": "R",
-        "ml": -158,
-        "implied": 61.2
+        "ml": -153,
+        "implied": 60.5
       },
       "weather": {
         "temp_f": 79.0,
@@ -755,8 +754,8 @@
         "pitcher_id": 680732,
         "pitcher_name": "Sean Burke",
         "pitcher_hand": "R",
-        "ml": 126,
-        "implied": 44.2
+        "ml": 131,
+        "implied": 43.3
       },
       "home": {
         "team": "Red Sox",
@@ -767,10 +766,14 @@
         "pitcher_id": 543243,
         "pitcher_name": "Sonny Gray",
         "pitcher_hand": "R",
-        "ml": -134,
-        "implied": 57.3
+        "ml": -140,
+        "implied": 58.3
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 85.3,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 221
+      },
       "factors": [
         {
           "m": "+",
@@ -928,11 +931,7 @@
         "ml": -108,
         "implied": 51.9
       },
-      "weather": {
-        "temp_f": 82.7,
-        "wind_mph": 6.4,
-        "wind_dir_deg": 306
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -1037,7 +1036,17 @@
       "lat": 33.445302,
       "lon": -112.066687,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          665487,
+          650859,
+          592518,
+          664034,
+          701538,
+          593428,
+          669134,
+          630105,
+          687749
+        ],
         "home": []
       },
       "away": {
@@ -1049,8 +1058,8 @@
         "pitcher_id": 663554,
         "pitcher_name": "Casey Mize",
         "pitcher_hand": "R",
-        "ml": -127,
-        "implied": 55.9
+        "ml": -123,
+        "implied": 55.2
       },
       "home": {
         "team": "D-backs",
@@ -1061,8 +1070,8 @@
         "pitcher_id": 683352,
         "pitcher_name": "Mitch Bratt",
         "pitcher_hand": "L",
-        "ml": 119,
-        "implied": 45.7
+        "ml": 115,
+        "implied": 46.5
       },
       "weather": null,
       "factors": [
@@ -1073,14 +1082,14 @@
           "text": "D-backs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Padres lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Mitch Bratt is vulnerable to RHB (0.822 OPS) and Padres skew R-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -1099,7 +1108,17 @@
       "lat": 47.591333,
       "lon": -122.33251,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          805808,
+          650402,
+          693307,
+          682985,
+          690993,
+          679529,
+          703601,
+          680664,
+          656716
+        ],
         "home": [
           702284,
           668227,
@@ -1121,8 +1140,8 @@
         "pitcher_id": 623454,
         "pitcher_name": "Drew Anderson",
         "pitcher_hand": "R",
-        "ml": 131,
-        "implied": 43.3
+        "ml": 136,
+        "implied": 42.4
       },
       "home": {
         "team": "Mariners",
@@ -1133,8 +1152,8 @@
         "pitcher_id": 693433,
         "pitcher_name": "Bryan Woo",
         "pitcher_hand": "R",
-        "ml": -140,
-        "implied": 58.3
+        "ml": -144,
+        "implied": 59.0
       },
       "weather": null,
       "factors": [
@@ -1143,12 +1162,6 @@
           "side": "away",
           "label": "Handedness matchup",
           "text": "Drew Anderson holds LHB to a 0.649 OPS; Mariners project 62% L-handed today."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Tigers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
       "lean": "away",
