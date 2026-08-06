@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated": "2026-08-06T04:12:18",
+  "generated": "2026-08-06T05:35:00",
   "games": [
     {
       "game_pk": 824158,
@@ -601,7 +601,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 78.8,
+        "wind_mph": 5.1,
+        "wind_dir_deg": 75
+      },
       "factors": [
         {
           "m": "+",
@@ -682,7 +686,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 78.1,
+        "wind_mph": 6.0,
+        "wind_dir_deg": 121
+      },
       "factors": [
         {
           "m": "-",
@@ -1050,7 +1058,7 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "59-55",
+        "record": "59-56",
         "pitcher_id": 663554,
         "pitcher_name": "Casey Mize",
         "pitcher_hand": "R",
@@ -1062,27 +1070,23 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "60-54",
+        "record": "61-54",
         "pitcher_id": 683352,
         "pitcher_name": "Mitch Bratt",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 102.8,
-        "wind_mph": 10.0,
-        "wind_dir_deg": 258
-      },
+      "weather": null,
       "factors": [
         {
-          "m": "-",
+          "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Mitch Bratt is vulnerable to RHB (0.822 OPS) and Padres skew R-handed."
+          "text": "Mitch Bratt holds RHB to a 0.679 OPS; Padres project 75% R-handed today."
         }
       ],
-      "lean": "away",
+      "lean": "home",
       "weight": 1,
       "read": null,
       "total": null,
@@ -1148,11 +1152,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 81.2,
-        "wind_mph": 5.8,
-        "wind_dir_deg": 344
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
