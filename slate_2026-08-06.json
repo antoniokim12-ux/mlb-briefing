@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated": "2026-08-07T03:49:47",
+  "generated": "2026-08-07T04:37:50",
   "games": [
     {
       "game_pk": 824804,
@@ -786,7 +786,7 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "59-56",
+        "record": "60-56",
         "pitcher_id": 621111,
         "pitcher_name": "Walker Buehler",
         "pitcher_hand": "R",
@@ -798,7 +798,7 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "61-54",
+        "record": "61-55",
         "pitcher_id": 684442,
         "pitcher_name": "Kohl Drake",
         "pitcher_hand": "L",
@@ -806,9 +806,16 @@
         "implied": null
       },
       "weather": null,
-      "factors": [],
-      "lean": "even",
-      "weight": 0,
+      "factors": [
+        {
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Kohl Drake is vulnerable to RHB (0.862 OPS) and Padres skew R-handed."
+        }
+      ],
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
