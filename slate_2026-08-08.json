@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "generated": "2026-08-09T03:00:55",
+  "generated": "2026-08-09T03:59:49",
   "games": [
     {
       "game_pk": 823514,
@@ -614,11 +614,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 80.9,
-        "wind_mph": 2.1,
-        "wind_dir_deg": 252
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -693,11 +689,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 80.8,
-        "wind_mph": 8.5,
-        "wind_dir_deg": 307
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -772,19 +764,8 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 65.0,
-        "wind_mph": 15.2,
-        "wind_dir_deg": 279
-      },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "15 mph wind (dir 279\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
-        }
-      ],
+      "weather": null,
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -851,11 +832,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 87.4,
-        "wind_mph": 6.1,
-        "wind_dir_deg": 152
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -936,11 +913,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 92.2,
-        "wind_mph": 14.8,
-        "wind_dir_deg": 119
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1068,7 +1041,7 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "69-47",
+        "record": "70-47",
         "pitcher_id": 808967,
         "pitcher_name": "Yoshinobu Yamamoto",
         "pitcher_hand": "R",
@@ -1080,7 +1053,7 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "62-55",
+        "record": "62-56",
         "pitcher_id": 694297,
         "pitcher_name": "Brandon Pfaadt",
         "pitcher_hand": "R",
@@ -1097,7 +1070,7 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Yoshinobu Yamamoto holds RHB to a 0.591 OPS; D-backs project 71% R-handed today."
+          "text": "Yoshinobu Yamamoto holds RHB to a 0.592 OPS; D-backs project 71% R-handed today."
         }
       ],
       "lean": "away",
