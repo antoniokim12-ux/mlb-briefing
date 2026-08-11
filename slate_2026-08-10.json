@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generated": "2026-08-10T23:24:48",
+  "generated": "2026-08-11T03:04:21",
   "games": [
     {
       "game_pk": 822780,
@@ -37,7 +37,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "64-53",
+        "record": "64-54",
         "pitcher_id": 543243,
         "pitcher_name": "Sonny Gray",
         "pitcher_hand": "R",
@@ -49,7 +49,7 @@
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "56-63",
+        "record": "57-63",
         "pitcher_id": 592791,
         "pitcher_name": "Jameson Taillon",
         "pitcher_hand": "R",
@@ -57,16 +57,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 77.8,
-        "wind_mph": 8.6,
-        "wind_dir_deg": 233
+        "temp_f": 77.0,
+        "wind_mph": 5.5,
+        "wind_dir_deg": 249
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Sonny Gray holds LHB to a 0.670 OPS; Blue Jays project 62% L-handed today."
+          "text": "Sonny Gray holds LHB to a 0.660 OPS; Blue Jays project 62% L-handed today."
         }
       ],
       "lean": "away",
@@ -116,7 +116,7 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "52-67",
+        "record": "53-67",
         "pitcher_id": 681035,
         "pitcher_name": "Christian Scott",
         "pitcher_hand": "R",
@@ -128,7 +128,7 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "71-47",
+        "record": "71-48",
         "pitcher_id": 693821,
         "pitcher_name": "Bryce Elder",
         "pitcher_hand": "R",
@@ -136,9 +136,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 87.3,
-        "wind_mph": 6.7,
-        "wind_dir_deg": 233
+        "temp_f": 85.3,
+        "wind_mph": 2.7,
+        "wind_dir_deg": 228
       },
       "factors": [],
       "lean": "even",
@@ -188,29 +188,29 @@
         "team_full": "Baltimore Orioles",
         "abbr": "BAL",
         "team_id": 110,
-        "record": "57-61",
+        "record": "57-62",
         "pitcher_id": 669432,
         "pitcher_name": "Trevor Rogers",
         "pitcher_hand": "L",
-        "ml": -103,
-        "implied": 50.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Twins",
         "team_full": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "record": "58-61",
+        "record": "59-61",
         "pitcher_id": 665152,
         "pitcher_name": "Dean Kremer",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 85.3,
-        "wind_mph": 4.9,
-        "wind_dir_deg": 47
+        "temp_f": 83.6,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 45
       },
       "factors": [],
       "lean": "even",
@@ -218,8 +218,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -261,36 +260,36 @@
         "team_full": "Philadelphia Phillies",
         "abbr": "PHI",
         "team_id": 143,
-        "record": "63-56",
+        "record": "64-56",
         "pitcher_id": 691725,
         "pitcher_name": "Andrew Painter",
         "pitcher_hand": "R",
-        "ml": -114,
-        "implied": 53.3
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Cardinals",
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "59-59",
+        "record": "59-60",
         "pitcher_id": 690928,
         "pitcher_name": "Hunter Dobbins",
         "pitcher_hand": "R",
-        "ml": 106,
-        "implied": 48.5
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 93.9,
-        "wind_mph": 6.6,
-        "wind_dir_deg": 246
+        "temp_f": 91.3,
+        "wind_mph": 5.9,
+        "wind_dir_deg": 143
       },
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Hunter Dobbins holds LHB to a 0.623 OPS; Phillies project 78% L-handed today."
+          "text": "Hunter Dobbins holds LHB to a 0.610 OPS; Phillies project 78% L-handed today."
         }
       ],
       "lean": "home",
@@ -298,8 +297,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -345,8 +343,8 @@
         "pitcher_id": 669022,
         "pitcher_name": "MacKenzie Gore",
         "pitcher_hand": "L",
-        "ml": -106,
-        "implied": 51.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Angels",
@@ -357,13 +355,13 @@
         "pitcher_id": 672282,
         "pitcher_name": "Reid Detmers",
         "pitcher_hand": "L",
-        "ml": -101,
-        "implied": 50.2
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 80.5,
-        "wind_mph": 6.9,
-        "wind_dir_deg": 237
+        "temp_f": 80.6,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 233
       },
       "factors": [
         {
@@ -384,8 +382,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -431,8 +428,8 @@
         "pitcher_id": 687312,
         "pitcher_name": "Gabriel Hughes",
         "pitcher_hand": "R",
-        "ml": 189,
-        "implied": 34.6
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "D-backs",
@@ -443,13 +440,13 @@
         "pitcher_id": 647336,
         "pitcher_name": "Michael Soroka",
         "pitcher_hand": "R",
-        "ml": -204,
-        "implied": 67.1
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 104.7,
-        "wind_mph": 8.8,
-        "wind_dir_deg": 276
+        "temp_f": 105.3,
+        "wind_mph": 8.3,
+        "wind_dir_deg": 267
       },
       "factors": [],
       "lean": "even",
@@ -457,8 +454,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -504,8 +500,8 @@
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": "R",
-        "ml": -154,
-        "implied": 60.6
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Athletics",
@@ -516,14 +512,10 @@
         "pitcher_id": 682052,
         "pitcher_name": "Jacob Lopez",
         "pitcher_hand": "L",
-        "ml": 143,
-        "implied": 41.2
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 89.0,
-        "wind_mph": 11.9,
-        "wind_dir_deg": 224
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -543,8 +535,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -590,8 +581,8 @@
         "pitcher_id": 701656,
         "pitcher_name": "Logan Henderson",
         "pitcher_hand": "R",
-        "ml": -121,
-        "implied": 54.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Padres",
@@ -602,8 +593,8 @@
         "pitcher_id": 663554,
         "pitcher_name": "Casey Mize",
         "pitcher_hand": "R",
-        "ml": 113,
-        "implied": 46.9
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -619,8 +610,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -666,8 +656,8 @@
         "pitcher_id": 669713,
         "pitcher_name": "Hayden Wesneski",
         "pitcher_hand": "R",
-        "ml": -148,
-        "implied": 59.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Giants",
@@ -678,8 +668,8 @@
         "pitcher_id": 694918,
         "pitcher_name": "Blade Tidwell",
         "pitcher_hand": "R",
-        "ml": 138,
-        "implied": 42.0
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -701,8 +691,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -748,8 +737,8 @@
         "pitcher_id": 702070,
         "pitcher_name": "Noah Cameron",
         "pitcher_hand": "L",
-        "ml": 259,
-        "implied": 27.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Dodgers",
@@ -760,8 +749,8 @@
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": "L",
-        "ml": -282,
-        "implied": 73.8
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [],
@@ -770,8 +759,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
