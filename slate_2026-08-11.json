@@ -1,0 +1,1045 @@
+{
+  "date": "2026-08-11",
+  "generated": "2026-08-11T19:56:45",
+  "games": [
+    {
+      "game_pk": 824240,
+      "game_time": "2026-08-11T22:40:00Z",
+      "venue": "Comerica Park",
+      "lat": 42.3391151,
+      "lon": -83.048695,
+      "lineup_ids": {
+        "away": [
+          680757,
+          800050,
+          608070,
+          663993,
+          666176,
+          683953,
+          682657,
+          672275,
+          677587
+        ],
+        "home": [
+          805808,
+          650402,
+          693307,
+          682985,
+          690993,
+          679529,
+          703601,
+          595879,
+          656716
+        ]
+      },
+      "away": {
+        "team": "Guardians",
+        "team_full": "Cleveland Guardians",
+        "abbr": "CLE",
+        "team_id": 114,
+        "record": "58-61",
+        "pitcher_id": 676440,
+        "pitcher_name": "Tanner Bibee",
+        "pitcher_hand": "R",
+        "ml": 126,
+        "implied": 44.2
+      },
+      "home": {
+        "team": "Tigers",
+        "team_full": "Detroit Tigers",
+        "abbr": "DET",
+        "team_id": 116,
+        "record": "58-60",
+        "pitcher_id": 623454,
+        "pitcher_name": "Drew Anderson",
+        "pitcher_hand": "R",
+        "ml": -135,
+        "implied": 57.4
+      },
+      "weather": {
+        "temp_f": 78.6,
+        "wind_mph": 11.8,
+        "wind_dir_deg": 205
+      },
+      "factors": [
+        {
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Drew Anderson holds LHB to a 0.625 OPS; Guardians project 80% L-handed today."
+        }
+      ],
+      "lean": "home",
+      "weight": 1,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 823832,
+      "game_time": "2026-08-11T22:40:00Z",
+      "venue": "loanDepot park",
+      "lat": 25.77796236,
+      "lon": -80.21951795,
+      "lineup_ids": {
+        "away": [
+          663968,
+          664040,
+          668804,
+          687462,
+          693304,
+          682927,
+          699013,
+          694378,
+          680779
+        ],
+        "home": [
+          669364,
+          672640,
+          665052,
+          681715,
+          805300,
+          691594,
+          683357,
+          691788,
+          665923
+        ]
+      },
+      "away": {
+        "team": "Pirates",
+        "team_full": "Pittsburgh Pirates",
+        "abbr": "PIT",
+        "team_id": 134,
+        "record": "58-62",
+        "pitcher_id": 694973,
+        "pitcher_name": "Paul Skenes",
+        "pitcher_hand": "R",
+        "ml": -110,
+        "implied": 52.4
+      },
+      "home": {
+        "team": "Marlins",
+        "team_full": "Miami Marlins",
+        "abbr": "MIA",
+        "team_id": 146,
+        "record": "60-59",
+        "pitcher_id": 691587,
+        "pitcher_name": "Eury P\u00e9rez",
+        "pitcher_hand": "R",
+        "ml": 103,
+        "implied": 49.3
+      },
+      "weather": {
+        "temp_f": 89.2,
+        "wind_mph": 8.5,
+        "wind_dir_deg": 102
+      },
+      "factors": [],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 822697,
+      "game_time": "2026-08-11T22:45:00Z",
+      "venue": "Nationals Park",
+      "lat": 38.872861,
+      "lon": -77.007501,
+      "lineup_ids": {
+        "away": [
+          691718,
+          673548,
+          683737,
+          608324,
+          664023,
+          663538,
+          624424,
+          608348,
+          621020
+        ],
+        "home": [
+          686611,
+          665953,
+          691781,
+          682928,
+          695670,
+          696285,
+          695734,
+          683083,
+          687605
+        ]
+      },
+      "away": {
+        "team": "Cubs",
+        "team_full": "Chicago Cubs",
+        "abbr": "CHC",
+        "team_id": 112,
+        "record": "69-50",
+        "pitcher_id": 684007,
+        "pitcher_name": "Shota Imanaga",
+        "pitcher_hand": "L",
+        "ml": -164,
+        "implied": 62.1
+      },
+      "home": {
+        "team": "Nationals",
+        "team_full": "Washington Nationals",
+        "abbr": "WSH",
+        "team_id": 120,
+        "record": "59-61",
+        "pitcher_id": 663623,
+        "pitcher_name": "Jake Irvin",
+        "pitcher_hand": "R",
+        "ml": 153,
+        "implied": 39.5
+      },
+      "weather": {
+        "temp_f": 85.5,
+        "wind_mph": 7.3,
+        "wind_dir_deg": 293
+      },
+      "factors": [
+        {
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Shota Imanaga holds RHB to a 0.700 OPS; Nationals project 75% R-handed today."
+        },
+        {
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Jake Irvin is vulnerable to RHB (0.781 OPS) and Cubs skew R-handed."
+        }
+      ],
+      "lean": "away",
+      "weight": 2,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 823512,
+      "game_time": "2026-08-11T23:05:00Z",
+      "venue": "Yankee Stadium",
+      "lat": 40.82919482,
+      "lon": -73.9264977,
+      "lineup_ids": {
+        "away": [
+          621493,
+          668227,
+          677594,
+          686527,
+          702284,
+          663728,
+          680977,
+          642215,
+          806068
+        ],
+        "home": [
+          663757,
+          700250,
+          671218,
+          671277,
+          665862,
+          806146,
+          682987,
+          641857,
+          669224
+        ]
+      },
+      "away": {
+        "team": "Mariners",
+        "team_full": "Seattle Mariners",
+        "abbr": "SEA",
+        "team_id": 136,
+        "record": "56-63",
+        "pitcher_id": 693433,
+        "pitcher_name": "Bryan Woo",
+        "pitcher_hand": "R",
+        "ml": 120,
+        "implied": 45.5
+      },
+      "home": {
+        "team": "Yankees",
+        "team_full": "New York Yankees",
+        "abbr": "NYY",
+        "team_id": 147,
+        "record": "66-52",
+        "pitcher_id": 677960,
+        "pitcher_name": "Ryan Weathers",
+        "pitcher_hand": "L",
+        "ml": -129,
+        "implied": 56.3
+      },
+      "weather": {
+        "temp_f": 80.8,
+        "wind_mph": 8.3,
+        "wind_dir_deg": 211
+      },
+      "factors": [
+        {
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Bryan Woo holds LHB to a 0.700 OPS; Yankees project 78% L-handed today."
+        }
+      ],
+      "lean": "away",
+      "weight": 1,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 822778,
+      "game_time": "2026-08-11T23:07:00Z",
+      "venue": "Rogers Centre",
+      "lat": 43.64155,
+      "lon": -79.38915,
+      "lineup_ids": {
+        "away": [],
+        "home": [
+          807727,
+          703520,
+          665489,
+          543807,
+          672386,
+          676391,
+          672960,
+          665926,
+          664702
+        ]
+      },
+      "away": {
+        "team": "Red Sox",
+        "team_full": "Boston Red Sox",
+        "abbr": "BOS",
+        "team_id": 111,
+        "record": "64-54",
+        "pitcher_id": 663776,
+        "pitcher_name": "Patrick Sandoval",
+        "pitcher_hand": "L",
+        "ml": 126,
+        "implied": 44.2
+      },
+      "home": {
+        "team": "Blue Jays",
+        "team_full": "Toronto Blue Jays",
+        "abbr": "TOR",
+        "team_id": 141,
+        "record": "57-63",
+        "pitcher_id": 656302,
+        "pitcher_name": "Dylan Cease",
+        "pitcher_hand": "R",
+        "ml": -136,
+        "implied": 57.6
+      },
+      "weather": {
+        "temp_f": 79.7,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 81
+      },
+      "factors": [
+        {
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Patrick Sandoval holds RHB to a 0.659 OPS; Blue Jays project 78% R-handed today."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Red Sox lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "away",
+      "weight": 1,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 824886,
+      "game_time": "2026-08-11T23:15:00Z",
+      "venue": "Truist Park",
+      "lat": 33.890672,
+      "lon": -84.467641,
+      "lineup_ids": {
+        "away": [],
+        "home": [
+          686948,
+          660670,
+          621566,
+          671739,
+          645277,
+          643289,
+          573262,
+          663586,
+          805347
+        ]
+      },
+      "away": {
+        "team": "Mets",
+        "team_full": "New York Mets",
+        "abbr": "NYM",
+        "team_id": 121,
+        "record": "53-67",
+        "pitcher_id": 690997,
+        "pitcher_name": "Nolan McLean",
+        "pitcher_hand": "R",
+        "ml": 116,
+        "implied": 46.3
+      },
+      "home": {
+        "team": "Braves",
+        "team_full": "Atlanta Braves",
+        "abbr": "ATL",
+        "team_id": 144,
+        "record": "71-48",
+        "pitcher_id": 527048,
+        "pitcher_name": "Mart\u00edn P\u00e9rez",
+        "pitcher_hand": "L",
+        "ml": -124,
+        "implied": 55.4
+      },
+      "weather": {
+        "temp_f": 92.3,
+        "wind_mph": 9.6,
+        "wind_dir_deg": 274
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Mets lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 823673,
+      "game_time": "2026-08-11T23:40:00Z",
+      "venue": "Target Field",
+      "lat": 44.981829,
+      "lon": -93.277891,
+      "lineup_ids": {
+        "away": [],
+        "home": [
+          663616,
+          680777,
+          605137,
+          665019,
+          668904,
+          686797,
+          807712,
+          702176,
+          701785
+        ]
+      },
+      "away": {
+        "team": "Orioles",
+        "team_full": "Baltimore Orioles",
+        "abbr": "BAL",
+        "team_id": 110,
+        "record": "57-62",
+        "pitcher_id": 687064,
+        "pitcher_name": "Brandon Young",
+        "pitcher_hand": "R",
+        "ml": 102,
+        "implied": 49.5
+      },
+      "home": {
+        "team": "Twins",
+        "team_full": "Minnesota Twins",
+        "abbr": "MIN",
+        "team_id": 142,
+        "record": "59-61",
+        "pitcher_id": 641927,
+        "pitcher_name": "Bailey Ober",
+        "pitcher_hand": "R",
+        "ml": -109,
+        "implied": 52.2
+      },
+      "weather": {
+        "temp_f": 89.6,
+        "wind_mph": 3.6,
+        "wind_dir_deg": 191
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Orioles lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 824563,
+      "game_time": "2026-08-11T23:40:00Z",
+      "venue": "Rate Field",
+      "lat": 41.83,
+      "lon": -87.634167,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Reds",
+        "team_full": "Cincinnati Reds",
+        "abbr": "CIN",
+        "team_id": 113,
+        "record": "56-61",
+        "pitcher_id": 666157,
+        "pitcher_name": "Nick Lodolo",
+        "pitcher_hand": "L",
+        "ml": 142,
+        "implied": 41.3
+      },
+      "home": {
+        "team": "White Sox",
+        "team_full": "Chicago White Sox",
+        "abbr": "CWS",
+        "team_id": 145,
+        "record": "61-56",
+        "pitcher_id": 680732,
+        "pitcher_name": "Sean Burke",
+        "pitcher_hand": "R",
+        "ml": -153,
+        "implied": 60.5
+      },
+      "weather": null,
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "White Sox lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Reds lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 823019,
+      "game_time": "2026-08-11T23:45:00Z",
+      "venue": "Busch Stadium",
+      "lat": 38.62256667,
+      "lon": -90.19286667,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Phillies",
+        "team_full": "Philadelphia Phillies",
+        "abbr": "PHI",
+        "team_id": 143,
+        "record": "64-56",
+        "pitcher_id": 650911,
+        "pitcher_name": "Cristopher S\u00e1nchez",
+        "pitcher_hand": "L",
+        "ml": -163,
+        "implied": 62.0
+      },
+      "home": {
+        "team": "Cardinals",
+        "team_full": "St. Louis Cardinals",
+        "abbr": "STL",
+        "team_id": 138,
+        "record": "59-60",
+        "pitcher_id": 669467,
+        "pitcher_name": "Andre Pallante",
+        "pitcher_hand": "R",
+        "ml": 152,
+        "implied": 39.7
+      },
+      "weather": null,
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Cardinals lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Phillies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 823997,
+      "game_time": "2026-08-12T01:38:00Z",
+      "venue": "Angel Stadium",
+      "lat": 33.80019044,
+      "lon": -117.8823996,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Rangers",
+        "team_full": "Texas Rangers",
+        "abbr": "TEX",
+        "team_id": 140,
+        "record": "60-59",
+        "pitcher_id": 674003,
+        "pitcher_name": "Cody Bradford",
+        "pitcher_hand": "L",
+        "ml": -145,
+        "implied": 59.2
+      },
+      "home": {
+        "team": "Angels",
+        "team_full": "Los Angeles Angels",
+        "abbr": "LAA",
+        "team_id": 108,
+        "record": "45-74",
+        "pitcher_id": 696270,
+        "pitcher_name": "Ryan Johnson",
+        "pitcher_hand": "R",
+        "ml": 135,
+        "implied": 42.6
+      },
+      "weather": null,
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Angels lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Rangers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 825046,
+      "game_time": "2026-08-12T01:40:00Z",
+      "venue": "Chase Field",
+      "lat": 33.445302,
+      "lon": -112.066687,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Rockies",
+        "team_full": "Colorado Rockies",
+        "abbr": "COL",
+        "team_id": 115,
+        "record": "46-73",
+        "pitcher_id": 608372,
+        "pitcher_name": "Tomoyuki Sugano",
+        "pitcher_hand": "R",
+        "ml": 158,
+        "implied": 38.8
+      },
+      "home": {
+        "team": "D-backs",
+        "team_full": "Arizona Diamondbacks",
+        "abbr": "AZ",
+        "team_id": 109,
+        "record": "64-56",
+        "pitcher_id": 683352,
+        "pitcher_name": "Mitch Bratt",
+        "pitcher_hand": "L",
+        "ml": -170,
+        "implied": 63.0
+      },
+      "weather": null,
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "D-backs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Rockies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 824970,
+      "game_time": "2026-08-12T01:40:00Z",
+      "venue": "Sutter Health Park",
+      "lat": 38.57994,
+      "lon": -121.51246,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Rays",
+        "team_full": "Tampa Bay Rays",
+        "abbr": "TB",
+        "team_id": 139,
+        "record": "72-46",
+        "pitcher_id": 607259,
+        "pitcher_name": "Nick Martinez",
+        "pitcher_hand": "R",
+        "ml": -174,
+        "implied": 63.5
+      },
+      "home": {
+        "team": "Athletics",
+        "team_full": "Athletics",
+        "abbr": "ATH",
+        "team_id": 133,
+        "record": "47-72",
+        "pitcher_id": 686930,
+        "pitcher_name": "Mason Barnett",
+        "pitcher_hand": "R",
+        "ml": 162,
+        "implied": 38.2
+      },
+      "weather": null,
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Athletics lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 823264,
+      "game_time": "2026-08-12T01:40:00Z",
+      "venue": "Petco Park",
+      "lat": 32.707861,
+      "lon": -117.157278,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Brewers",
+        "team_full": "Milwaukee Brewers",
+        "abbr": "MIL",
+        "team_id": 158,
+        "record": "74-45",
+        "pitcher_id": 690986,
+        "pitcher_name": "Kyle Harrison",
+        "pitcher_hand": "L",
+        "ml": -122,
+        "implied": 55.0
+      },
+      "home": {
+        "team": "Padres",
+        "team_full": "San Diego Padres",
+        "abbr": "SD",
+        "team_id": 135,
+        "record": "63-57",
+        "pitcher_id": 621111,
+        "pitcher_name": "Walker Buehler",
+        "pitcher_hand": "R",
+        "ml": 114,
+        "implied": 46.7
+      },
+      "weather": null,
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Padres lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 823186,
+      "game_time": "2026-08-12T01:45:00Z",
+      "venue": "Oracle Park",
+      "lat": 37.778383,
+      "lon": -122.389448,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Astros",
+        "team_full": "Houston Astros",
+        "abbr": "HOU",
+        "team_id": 117,
+        "record": "61-59",
+        "pitcher_id": 686613,
+        "pitcher_name": "Hunter Brown",
+        "pitcher_hand": "R",
+        "ml": -177,
+        "implied": 63.9
+      },
+      "home": {
+        "team": "Giants",
+        "team_full": "San Francisco Giants",
+        "abbr": "SF",
+        "team_id": 137,
+        "record": "49-70",
+        "pitcher_id": 687931,
+        "pitcher_name": "Carson Whisenhunt",
+        "pitcher_hand": "L",
+        "ml": 165,
+        "implied": 37.7
+      },
+      "weather": {
+        "temp_f": 60.7,
+        "wind_mph": 12.0,
+        "wind_dir_deg": 262
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Giants lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Astros lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 823917,
+      "game_time": "2026-08-12T02:10:00Z",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "lat": 34.07368,
+      "lon": -118.24053,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Royals",
+        "team_full": "Kansas City Royals",
+        "abbr": "KC",
+        "team_id": 118,
+        "record": "49-71",
+        "pitcher_id": 608379,
+        "pitcher_name": "Michael Wacha",
+        "pitcher_hand": "R",
+        "ml": 243,
+        "implied": 29.2
+      },
+      "home": {
+        "team": "Dodgers",
+        "team_full": "Los Angeles Dodgers",
+        "abbr": "LAD",
+        "team_id": 119,
+        "record": "71-48",
+        "pitcher_id": 605483,
+        "pitcher_name": "Blake Snell",
+        "pitcher_hand": "L",
+        "ml": -264,
+        "implied": 72.5
+      },
+      "weather": {
+        "temp_f": 75.2,
+        "wind_mph": 7.2,
+        "wind_dir_deg": 244
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Dodgers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Royals lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    }
+  ]
+}
