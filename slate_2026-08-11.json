@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generated": "2026-08-12T03:23:27",
+  "generated": "2026-08-12T04:22:48",
   "games": [
     {
       "game_pk": 824240,
@@ -674,7 +674,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 93.6,
+        "wind_mph": 8.3,
+        "wind_dir_deg": 199
+      },
       "factors": [
         {
           "m": "+",
@@ -730,7 +734,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "60-59",
+        "record": "60-60",
         "pitcher_id": 674003,
         "pitcher_name": "Cody Bradford",
         "pitcher_hand": "L",
@@ -742,20 +746,24 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "45-74",
+        "record": "46-74",
         "pitcher_id": 696270,
         "pitcher_name": "Ryan Johnson",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 85.0,
+        "wind_mph": 7.6,
+        "wind_dir_deg": 236
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Cody Bradford holds RHB to a 0.536 OPS; Angels project 62% R-handed today."
+          "text": "Cody Bradford holds RHB to a 0.568 OPS; Angels project 62% R-handed today."
         }
       ],
       "lean": "away",
@@ -805,7 +813,7 @@
         "team_full": "Colorado Rockies",
         "abbr": "COL",
         "team_id": 115,
-        "record": "46-73",
+        "record": "47-73",
         "pitcher_id": 608372,
         "pitcher_name": "Tomoyuki Sugano",
         "pitcher_hand": "R",
@@ -817,7 +825,7 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "64-56",
+        "record": "64-57",
         "pitcher_id": 683352,
         "pitcher_name": "Mitch Bratt",
         "pitcher_hand": "L",
@@ -825,16 +833,9 @@
         "implied": null
       },
       "weather": null,
-      "factors": [
-        {
-          "m": "+",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Mitch Bratt holds RHB to a 0.679 OPS; Rockies project 71% R-handed today."
-        }
-      ],
-      "lean": "home",
-      "weight": 1,
+      "factors": [],
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
@@ -880,7 +881,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "72-46",
+        "record": "73-46",
         "pitcher_id": 607259,
         "pitcher_name": "Nick Martinez",
         "pitcher_hand": "R",
@@ -892,7 +893,7 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "47-72",
+        "record": "47-73",
         "pitcher_id": 686930,
         "pitcher_name": "Mason Barnett",
         "pitcher_hand": "R",
@@ -905,7 +906,7 @@
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Mason Barnett is vulnerable to LHB (0.905 OPS) and Rays skew L-handed."
+          "text": "Mason Barnett is vulnerable to LHB (0.894 OPS) and Rays skew L-handed."
         }
       ],
       "lean": "away",
@@ -955,7 +956,7 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "74-45",
+        "record": "74-46",
         "pitcher_id": 690986,
         "pitcher_name": "Kyle Harrison",
         "pitcher_hand": "L",
@@ -967,7 +968,7 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "63-57",
+        "record": "64-57",
         "pitcher_id": 621111,
         "pitcher_name": "Walker Buehler",
         "pitcher_hand": "R",
@@ -980,17 +981,11 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Kyle Harrison holds RHB to a 0.634 OPS; Padres project 75% R-handed today."
-        },
-        {
-          "m": "-",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Walker Buehler is vulnerable to LHB (0.794 OPS) and Brewers skew L-handed."
+          "text": "Kyle Harrison holds RHB to a 0.694 OPS; Padres project 75% R-handed today."
         }
       ],
       "lean": "away",
-      "weight": 2,
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -1135,9 +1130,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 75.9,
-        "wind_mph": 8.7,
-        "wind_dir_deg": 252
+        "temp_f": 77.8,
+        "wind_mph": 8.2,
+        "wind_dir_deg": 244
       },
       "factors": [
         {
