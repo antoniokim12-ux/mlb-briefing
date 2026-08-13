@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated": "2026-08-13T21:32:45",
+  "generated": "2026-08-13T23:30:06",
   "games": [
     {
       "game_pk": 824238,
@@ -352,7 +352,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "64-56",
+        "record": "65-56",
         "pitcher_id": 801139,
         "pitcher_name": "Payton Tolle",
         "pitcher_hand": "L",
@@ -364,7 +364,7 @@
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "59-63",
+        "record": "59-64",
         "pitcher_id": 453286,
         "pitcher_name": "Max Scherzer",
         "pitcher_hand": "R",
@@ -381,11 +381,17 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Payton Tolle holds RHB to a 0.620 OPS; Blue Jays project 75% R-handed today."
+          "text": "Payton Tolle holds RHB to a 0.588 OPS; Blue Jays project 75% R-handed today."
+        },
+        {
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Max Scherzer holds RHB to a 0.676 OPS; Red Sox project 62% R-handed today."
         }
       ],
-      "lean": "away",
-      "weight": 1,
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
@@ -431,7 +437,7 @@
         "team_full": "Chicago Cubs",
         "abbr": "CHC",
         "team_id": 112,
-        "record": "71-50",
+        "record": "71-51",
         "pitcher_id": 592332,
         "pitcher_name": "Kevin Gausman",
         "pitcher_hand": "R",
@@ -443,7 +449,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "59-63",
+        "record": "60-63",
         "pitcher_id": 676917,
         "pitcher_name": "Cade Cavalli",
         "pitcher_hand": "R",
@@ -451,9 +457,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 91.0,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 299
+        "temp_f": 89.7,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 313
       },
       "factors": [],
       "lean": "even",
@@ -507,8 +513,8 @@
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": "R",
-        "ml": -103,
-        "implied": 50.7
+        "ml": -102,
+        "implied": 50.5
       },
       "home": {
         "team": "Twins",
@@ -519,14 +525,10 @@
         "pitcher_id": 671737,
         "pitcher_name": "Taj Bradley",
         "pitcher_hand": "R",
-        "ml": -104,
-        "implied": 51.0
+        "ml": -105,
+        "implied": 51.2
       },
-      "weather": {
-        "temp_f": 74.2,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 90
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -562,7 +564,17 @@
       "lon": -117.8823996,
       "lineup_ids": {
         "away": [],
-        "home": []
+        "home": [
+          685133,
+          545361,
+          694384,
+          687093,
+          694208,
+          694203,
+          666139,
+          642350,
+          624428
+        ]
       },
       "away": {
         "team": "Rangers",
@@ -573,8 +585,8 @@
         "pitcher_id": 594798,
         "pitcher_name": "Jacob deGrom",
         "pitcher_hand": "R",
-        "ml": -147,
-        "implied": 59.5
+        "ml": -141,
+        "implied": 58.5
       },
       "home": {
         "team": "Angels",
@@ -585,17 +597,11 @@
         "pitcher_id": 700712,
         "pitcher_name": "Walbert Ure\u00f1a",
         "pitcher_hand": "R",
-        "ml": 137,
-        "implied": 42.2
+        "ml": 131,
+        "implied": 43.3
       },
       "weather": null,
       "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Angels lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
         {
           "m": "~",
           "side": "none",
@@ -623,8 +629,28 @@
       "lat": 34.07368,
       "lon": -118.24053,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          694192,
+          669003,
+          596142,
+          641343,
+          683734,
+          592885,
+          661388,
+          687401,
+          666152
+        ],
+        "home": [
+          660271,
+          681624,
+          669242,
+          518692,
+          606192,
+          500743,
+          663656,
+          571771,
+          666163
+        ]
       },
       "away": {
         "team": "Brewers",
@@ -635,8 +661,8 @@
         "pitcher_id": 675660,
         "pitcher_name": "Shane Drohan",
         "pitcher_hand": "L",
-        "ml": 131,
-        "implied": 43.3
+        "ml": 127,
+        "implied": 44.1
       },
       "home": {
         "team": "Dodgers",
@@ -647,24 +673,11 @@
         "pitcher_id": 808963,
         "pitcher_name": "Roki Sasaki",
         "pitcher_hand": "R",
-        "ml": -140,
-        "implied": 58.3
+        "ml": -137,
+        "implied": 57.8
       },
       "weather": null,
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Dodgers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
