@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated": "2026-08-13T19:51:27",
+  "generated": "2026-08-13T21:32:45",
   "games": [
     {
       "game_pk": 824238,
@@ -122,7 +122,7 @@
         "team_full": "Cincinnati Reds",
         "abbr": "CIN",
         "team_id": 113,
-        "record": "57-62",
+        "record": "58-62",
         "pitcher_id": 671096,
         "pitcher_name": "Andrew Abbott",
         "pitcher_hand": "L",
@@ -134,7 +134,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "62-57",
+        "record": "62-58",
         "pitcher_id": 663436,
         "pitcher_name": "Davis Martin",
         "pitcher_hand": "R",
@@ -146,16 +146,9 @@
         "wind_mph": 5.7,
         "wind_dir_deg": 108
       },
-      "factors": [
-        {
-          "m": "+",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Davis Martin holds RHB to a 0.684 OPS; Reds project 75% R-handed today."
-        }
-      ],
-      "lean": "home",
-      "weight": 1,
+      "factors": [],
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
@@ -230,7 +223,7 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Braxton Ashcraft holds RHB to a 0.641 OPS; Marlins project 62% R-handed today."
+          "text": "Braxton Ashcraft holds RHB to a 0.600 OPS; Marlins project 62% R-handed today."
         }
       ],
       "lean": "away",
@@ -280,7 +273,7 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "56-65",
+        "record": "57-65",
         "pitcher_id": 669302,
         "pitcher_name": "Logan Gilbert",
         "pitcher_hand": "R",
@@ -292,7 +285,7 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "68-52",
+        "record": "68-53",
         "pitcher_id": 608331,
         "pitcher_name": "Max Fried",
         "pitcher_hand": "L",
@@ -309,7 +302,7 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Logan Gilbert holds LHB to a 0.627 OPS; Yankees project 67% L-handed today."
+          "text": "Logan Gilbert holds LHB to a 0.622 OPS; Yankees project 67% L-handed today."
         }
       ],
       "lean": "away",
@@ -379,9 +372,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 81.2,
-        "wind_mph": 5.6,
-        "wind_dir_deg": 272
+        "temp_f": 81.5,
+        "wind_mph": 7.7,
+        "wind_dir_deg": 244
       },
       "factors": [
         {
@@ -442,8 +435,8 @@
         "pitcher_id": 592332,
         "pitcher_name": "Kevin Gausman",
         "pitcher_hand": "R",
-        "ml": -146,
-        "implied": 59.3
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Nationals",
@@ -454,13 +447,13 @@
         "pitcher_id": 676917,
         "pitcher_name": "Cade Cavalli",
         "pitcher_hand": "R",
-        "ml": 136,
-        "implied": 42.4
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 91.4,
-        "wind_mph": 7.8,
-        "wind_dir_deg": 307
+        "temp_f": 91.0,
+        "wind_mph": 5.9,
+        "wind_dir_deg": 299
       },
       "factors": [],
       "lean": "even",
@@ -468,8 +461,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -483,7 +475,17 @@
       "lat": 42.498241,
       "lon": -91.056486,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          656941,
+          607208,
+          547180,
+          650333,
+          681082,
+          664761,
+          669016,
+          592663,
+          702222
+        ],
         "home": [
           663616,
           621439,
@@ -505,8 +507,8 @@
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": "R",
-        "ml": -104,
-        "implied": 51.0
+        "ml": -103,
+        "implied": 50.7
       },
       "home": {
         "team": "Twins",
@@ -521,9 +523,9 @@
         "implied": 51.0
       },
       "weather": {
-        "temp_f": 71.9,
-        "wind_mph": 10.0,
-        "wind_dir_deg": 61
+        "temp_f": 74.2,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 90
       },
       "factors": [
         {
@@ -533,14 +535,14 @@
           "text": "Aaron Nola is vulnerable to RHB (0.816 OPS) and Twins skew R-handed."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Phillies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Taj Bradley holds LHB to a 0.671 OPS; Phillies project 67% L-handed today."
         }
       ],
       "lean": "home",
-      "weight": 1,
+      "weight": 2,
       "read": null,
       "total": null,
       "total_read": null,
@@ -586,11 +588,7 @@
         "ml": 137,
         "implied": 42.2
       },
-      "weather": {
-        "temp_f": 72.5,
-        "wind_mph": 6.3,
-        "wind_dir_deg": 228
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -652,11 +650,7 @@
         "ml": -140,
         "implied": 58.3
       },
-      "weather": {
-        "temp_f": 71.2,
-        "wind_mph": 6.9,
-        "wind_dir_deg": 245
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
