@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "generated": "2026-08-15T02:14:37",
+  "generated": "2026-08-15T03:14:12",
   "games": [
     {
       "game_pk": 824643,
@@ -523,7 +523,7 @@
         "team_full": "Baltimore Orioles",
         "abbr": "BAL",
         "team_id": 110,
-        "record": "58-63",
+        "record": "59-63",
         "pitcher_id": 605135,
         "pitcher_name": "Chris Bassitt",
         "pitcher_hand": "R",
@@ -535,7 +535,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "74-46",
+        "record": "74-47",
         "pitcher_id": 571927,
         "pitcher_name": "Steven Matz",
         "pitcher_hand": "L",
@@ -552,13 +552,13 @@
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Chris Bassitt is vulnerable to LHB (0.945 OPS) and Rays skew L-handed."
+          "text": "Chris Bassitt is vulnerable to LHB (0.926 OPS) and Rays skew L-handed."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Steven Matz is vulnerable to RHB (0.831 OPS) and Orioles skew R-handed."
+          "text": "Steven Matz is vulnerable to RHB (0.821 OPS) and Orioles skew R-handed."
         }
       ],
       "lean": "even",
@@ -1054,8 +1054,8 @@
         "pitcher_id": 607536,
         "pitcher_name": "Kyle Freeland",
         "pitcher_hand": "L",
-        "ml": 125,
-        "implied": 44.4
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Giants",
@@ -1066,13 +1066,13 @@
         "pitcher_id": 694738,
         "pitcher_name": "Landen Roupp",
         "pitcher_hand": "R",
-        "ml": -135,
-        "implied": 57.4
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 62.2,
-        "wind_mph": 11.4,
-        "wind_dir_deg": 274
+        "temp_f": 62.4,
+        "wind_mph": 9.7,
+        "wind_dir_deg": 263
       },
       "factors": [
         {
@@ -1093,8 +1093,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
