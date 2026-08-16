@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "generated": "2026-08-16T19:15:27",
+  "generated": "2026-08-16T21:10:16",
   "games": [
     {
       "game_pk": 822940,
@@ -194,7 +194,7 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "66-58",
+        "record": "66-59",
         "pitcher_id": 647336,
         "pitcher_name": "Michael Soroka",
         "pitcher_hand": "R",
@@ -206,7 +206,7 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "73-50",
+        "record": "74-50",
         "pitcher_id": 693821,
         "pitcher_name": "Bryce Elder",
         "pitcher_hand": "R",
@@ -218,9 +218,16 @@
         "wind_mph": 8.2,
         "wind_dir_deg": 311
       },
-      "factors": [],
-      "lean": "even",
-      "weight": 0,
+      "factors": [
+        {
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Bryce Elder is vulnerable to RHB (0.780 OPS) and D-backs skew R-handed."
+        }
+      ],
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -266,7 +273,7 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "68-55",
+        "record": "69-55",
         "pitcher_id": 677960,
         "pitcher_name": "Ryan Weathers",
         "pitcher_hand": "L",
@@ -278,7 +285,7 @@
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "61-64",
+        "record": "61-65",
         "pitcher_id": 656302,
         "pitcher_name": "Dylan Cease",
         "pitcher_hand": "R",
@@ -295,13 +302,13 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Ryan Weathers holds RHB to a 0.693 OPS; Blue Jays project 78% R-handed today."
+          "text": "Ryan Weathers holds RHB to a 0.691 OPS; Blue Jays project 78% R-handed today."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Dylan Cease holds LHB to a 0.565 OPS; Yankees project 67% L-handed today."
+          "text": "Dylan Cease holds LHB to a 0.535 OPS; Yankees project 67% L-handed today."
         }
       ],
       "lean": "even",
@@ -351,7 +358,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "60-65",
+        "record": "60-66",
         "pitcher_id": 663623,
         "pitcher_name": "Jake Irvin",
         "pitcher_hand": "R",
@@ -363,7 +370,7 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "55-69",
+        "record": "56-69",
         "pitcher_id": 681035,
         "pitcher_name": "Christian Scott",
         "pitcher_hand": "R",
@@ -502,7 +509,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "64-58",
+        "record": "65-58",
         "pitcher_id": 680732,
         "pitcher_name": "Sean Burke",
         "pitcher_hand": "R",
@@ -514,7 +521,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "60-63",
+        "record": "60-64",
         "pitcher_id": 623454,
         "pitcher_name": "Drew Anderson",
         "pitcher_hand": "R",
@@ -531,7 +538,7 @@
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Drew Anderson holds LHB to a 0.646 OPS; White Sox project 71% L-handed today."
+          "text": "Drew Anderson holds LHB to a 0.674 OPS; White Sox project 71% L-handed today."
         }
       ],
       "lean": "home",
@@ -581,7 +588,7 @@
         "team_full": "Miami Marlins",
         "abbr": "MIA",
         "team_id": 146,
-        "record": "63-61",
+        "record": "64-61",
         "pitcher_id": 691587,
         "pitcher_name": "Eury P\u00e9rez",
         "pitcher_hand": "R",
@@ -593,20 +600,24 @@
         "team_full": "Cincinnati Reds",
         "abbr": "CIN",
         "team_id": 113,
-        "record": "59-63",
+        "record": "59-64",
         "pitcher_id": 666157,
         "pitcher_name": "Nick Lodolo",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 85.4,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 263
+      },
       "factors": [
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Nick Lodolo is vulnerable to RHB (0.834 OPS) and Marlins skew R-handed."
+          "text": "Nick Lodolo is vulnerable to RHB (0.808 OPS) and Marlins skew R-handed."
         }
       ],
       "lean": "away",
@@ -741,8 +752,8 @@
         "pitcher_id": 690928,
         "pitcher_name": "Hunter Dobbins",
         "pitcher_hand": "R",
-        "ml": 167,
-        "implied": 37.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Cubs",
@@ -753,8 +764,8 @@
         "pitcher_id": 665795,
         "pitcher_name": "Edward Cabrera",
         "pitcher_hand": "R",
-        "ml": -180,
-        "implied": 64.3
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -770,8 +781,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -817,8 +827,8 @@
         "pitcher_id": 687312,
         "pitcher_name": "Gabriel Hughes",
         "pitcher_hand": "R",
-        "ml": 116,
-        "implied": 46.3
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Giants",
@@ -829,8 +839,8 @@
         "pitcher_id": 694918,
         "pitcher_name": "Blade Tidwell",
         "pitcher_hand": "R",
-        "ml": -124,
-        "implied": 55.4
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -852,8 +862,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -899,8 +908,8 @@
         "pitcher_id": 674003,
         "pitcher_name": "Cody Bradford",
         "pitcher_hand": "L",
-        "ml": -129,
-        "implied": 56.3
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Athletics",
@@ -911,8 +920,8 @@
         "pitcher_id": 682052,
         "pitcher_name": "Jacob Lopez",
         "pitcher_hand": "L",
-        "ml": 120,
-        "implied": 45.5
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -934,8 +943,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -981,8 +989,8 @@
         "pitcher_id": 702070,
         "pitcher_name": "Noah Cameron",
         "pitcher_hand": "L",
-        "ml": -114,
-        "implied": 53.3
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Angels",
@@ -993,8 +1001,8 @@
         "pitcher_id": 696270,
         "pitcher_name": "Ryan Johnson",
         "pitcher_hand": "R",
-        "ml": 106,
-        "implied": 48.5
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -1016,8 +1024,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -1063,8 +1070,8 @@
         "pitcher_id": 701656,
         "pitcher_name": "Logan Henderson",
         "pitcher_hand": "R",
-        "ml": 169,
-        "implied": 37.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Dodgers",
@@ -1075,14 +1082,10 @@
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": "L",
-        "ml": -182,
-        "implied": 64.5
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 82.4,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 254
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -1102,8 +1105,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -1118,7 +1120,17 @@
       "lon": -95.355509,
       "lineup_ids": {
         "away": [],
-        "home": []
+        "home": [
+          665161,
+          670541,
+          670623,
+          514888,
+          662139,
+          572233,
+          664774,
+          673237,
+          669397
+        ]
       },
       "away": {
         "team": "Mariners",
@@ -1145,16 +1157,16 @@
         "implied": 54.1
       },
       "weather": {
-        "temp_f": 89.5,
-        "wind_mph": 8.9,
-        "wind_dir_deg": 133
+        "temp_f": 89.2,
+        "wind_mph": 8.5,
+        "wind_dir_deg": 127
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Astros lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Bryan Woo holds RHB to a 0.583 OPS; Astros project 67% R-handed today."
         },
         {
           "m": "~",
@@ -1163,8 +1175,8 @@
           "text": "Mariners lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
