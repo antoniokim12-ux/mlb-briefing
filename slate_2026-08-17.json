@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "generated": "2026-08-18T02:14:10",
+  "generated": "2026-08-18T03:24:21",
   "games": [
     {
       "game_pk": 824514,
@@ -346,7 +346,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "60-64",
+        "record": "61-64",
         "pitcher_id": 664285,
         "pitcher_name": "Framber Valdez",
         "pitcher_hand": "L",
@@ -358,7 +358,7 @@
         "team_full": "Pittsburgh Pirates",
         "abbr": "PIT",
         "team_id": 134,
-        "record": "61-65",
+        "record": "61-66",
         "pitcher_id": 669387,
         "pitcher_name": "Carmen Mlodzinski",
         "pitcher_hand": "R",
@@ -516,11 +516,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 73.5,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 63
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -576,7 +572,7 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "49-75",
+        "record": "49-76",
         "pitcher_id": 686930,
         "pitcher_name": "Mason Barnett",
         "pitcher_hand": "R",
@@ -588,24 +584,20 @@
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "51-74",
+        "record": "52-74",
         "pitcher_id": 608379,
         "pitcher_name": "Michael Wacha",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 84.9,
-        "wind_mph": 2.9,
-        "wind_dir_deg": 32
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Mason Barnett is vulnerable to LHB (0.894 OPS) and Royals skew L-handed."
+          "text": "Mason Barnett is vulnerable to LHB (0.889 OPS) and Royals skew L-handed."
         }
       ],
       "lean": "home",
@@ -655,7 +647,7 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "74-50",
+        "record": "74-51",
         "pitcher_id": 527048,
         "pitcher_name": "Mart\u00edn P\u00e9rez",
         "pitcher_hand": "L",
@@ -667,24 +659,20 @@
         "team_full": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "record": "60-65",
+        "record": "61-65",
         "pitcher_id": 641927,
         "pitcher_name": "Bailey Ober",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 81.3,
-        "wind_mph": 9.3,
-        "wind_dir_deg": 233
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Mart\u00edn P\u00e9rez holds RHB to a 0.623 OPS; Twins project 71% R-handed today."
+          "text": "Mart\u00edn P\u00e9rez holds RHB to a 0.637 OPS; Twins project 71% R-handed today."
         }
       ],
       "lean": "away",
@@ -753,11 +741,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 71.8,
-        "wind_mph": 3.4,
-        "wind_dir_deg": 86
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -825,11 +809,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 91.5,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 81
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
