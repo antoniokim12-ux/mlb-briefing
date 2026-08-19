@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "generated": "2026-08-19T02:18:24",
+  "generated": "2026-08-19T03:25:52",
   "games": [
     {
       "game_pk": 824803,
@@ -607,17 +607,14 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
-      "factors": [
-        {
-          "m": "+",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Zac Thornton holds RHB to a 0.698 OPS; Padres project 75% R-handed today."
-        }
-      ],
-      "lean": "home",
-      "weight": 1,
+      "weather": {
+        "temp_f": 77.6,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 137
+      },
+      "factors": [],
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
@@ -663,7 +660,7 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "49-76",
+        "record": "49-77",
         "pitcher_id": 669620,
         "pitcher_name": "Brady Basso",
         "pitcher_hand": "L",
@@ -675,14 +672,18 @@
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "52-74",
+        "record": "53-74",
         "pitcher_id": 663738,
         "pitcher_name": "Daniel Lynch IV",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 86.5,
+        "wind_mph": 4.4,
+        "wind_dir_deg": 135
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -750,7 +751,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 78.2,
+        "wind_mph": 8.8,
+        "wind_dir_deg": 285
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -799,7 +804,7 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "59-66",
+        "record": "59-67",
         "pitcher_id": 682243,
         "pitcher_name": "Bryce Miller",
         "pitcher_hand": "R",
@@ -811,14 +816,18 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "77-48",
+        "record": "78-48",
         "pitcher_id": 690986,
         "pitcher_name": "Kyle Harrison",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 73.9,
+        "wind_mph": 9.3,
+        "wind_dir_deg": 222
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -867,7 +876,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "60-66",
+        "record": "60-67",
         "pitcher_id": 800600,
         "pitcher_name": "Jackson Kent",
         "pitcher_hand": "L",
@@ -879,7 +888,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "61-64",
+        "record": "62-64",
         "pitcher_id": 615698,
         "pitcher_name": "Cal Quantrill",
         "pitcher_hand": "R",
@@ -893,13 +902,13 @@
       },
       "factors": [
         {
-          "m": "+",
+          "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Jackson Kent holds RHB to a 0.540 OPS; Rangers project 67% R-handed today."
+          "text": "Jackson Kent is vulnerable to RHB (0.950 OPS) and Rangers skew R-handed."
         }
       ],
-      "lean": "away",
+      "lean": "home",
       "weight": 1,
       "read": null,
       "total": null,
@@ -1025,7 +1034,7 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "49-76",
+        "record": "50-76",
         "pitcher_id": 691946,
         "pitcher_name": "George Klassen",
         "pitcher_hand": "R",
@@ -1037,27 +1046,23 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "63-62",
+        "record": "63-63",
         "pitcher_id": 664299,
         "pitcher_name": "Cristian Javier",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 87.2,
-        "wind_mph": 6.7,
-        "wind_dir_deg": 186
-      },
+      "weather": null,
       "factors": [
         {
-          "m": "-",
+          "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "George Klassen is vulnerable to RHB (0.814 OPS) and Astros skew R-handed."
+          "text": "George Klassen holds RHB to a 0.635 OPS; Astros project 67% R-handed today."
         }
       ],
-      "lean": "home",
+      "lean": "away",
       "weight": 1,
       "read": null,
       "total": null,
@@ -1123,17 +1128,13 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 86.1,
-        "wind_mph": 4.9,
-        "wind_dir_deg": 47
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Ryan Feltner is vulnerable to LHB (0.845 OPS) and Dodgers skew L-handed."
+          "text": "Ryan Feltner is vulnerable to LHB (0.883 OPS) and Dodgers skew L-handed."
         }
       ],
       "lean": "away",
