@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "generated": "2026-08-19T21:16:01",
+  "generated": "2026-08-19T23:13:55",
   "games": [
     {
       "game_pk": 823342,
@@ -378,9 +378,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 87.3,
-        "wind_mph": 12.4,
-        "wind_dir_deg": 253
+        "temp_f": 87.0,
+        "wind_mph": 13.2,
+        "wind_dir_deg": 242
       },
       "factors": [
         {
@@ -447,8 +447,8 @@
         "pitcher_id": 645261,
         "pitcher_name": "Sandy Alcantara",
         "pitcher_hand": "R",
-        "ml": 121,
-        "implied": 45.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Phillies",
@@ -459,13 +459,13 @@
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": "R",
-        "ml": -130,
-        "implied": 56.5
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 86.1,
-        "wind_mph": 8.3,
-        "wind_dir_deg": 273
+        "temp_f": 85.4,
+        "wind_mph": 8.4,
+        "wind_dir_deg": 262
       },
       "factors": [
         {
@@ -480,8 +480,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -527,8 +526,8 @@
         "pitcher_id": 701542,
         "pitcher_name": "Will Warren",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Orioles",
@@ -539,10 +538,14 @@
         "pitcher_id": 605135,
         "pitcher_name": "Chris Bassitt",
         "pitcher_hand": "R",
-        "ml": -102,
-        "implied": 50.5
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 87.3,
+        "wind_mph": 7.6,
+        "wind_dir_deg": 270
+      },
       "factors": [
         {
           "m": "-",
@@ -562,8 +565,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -609,8 +611,8 @@
         "pitcher_id": 683363,
         "pitcher_name": "Matt Wilkinson",
         "pitcher_hand": "L",
-        "ml": 196,
-        "implied": 33.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Guardians",
@@ -621,8 +623,8 @@
         "pitcher_id": 800048,
         "pitcher_name": "Parker Messick",
         "pitcher_hand": "L",
-        "ml": -212,
-        "implied": 67.9
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [],
@@ -631,8 +633,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -678,8 +679,8 @@
         "pitcher_id": 669461,
         "pitcher_name": "Matthew Liberatore",
         "pitcher_hand": "L",
-        "ml": 120,
-        "implied": 45.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Reds",
@@ -690,8 +691,8 @@
         "pitcher_id": 695505,
         "pitcher_name": "Chase Burns",
         "pitcher_hand": "R",
-        "ml": -128,
-        "implied": 56.1
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -707,8 +708,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -754,8 +754,8 @@
         "pitcher_id": 453286,
         "pitcher_name": "Max Scherzer",
         "pitcher_hand": "R",
-        "ml": 179,
-        "implied": 35.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Rays",
@@ -766,8 +766,8 @@
         "pitcher_id": 656876,
         "pitcher_name": "Drew Rasmussen",
         "pitcher_hand": "R",
-        "ml": -193,
-        "implied": 65.9
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -789,8 +789,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -836,8 +835,8 @@
         "pitcher_id": 605488,
         "pitcher_name": "Jeffrey Springs",
         "pitcher_hand": "L",
-        "ml": 173,
-        "implied": 36.6
+        "ml": 168,
+        "implied": 37.3
       },
       "home": {
         "team": "Royals",
@@ -848,8 +847,8 @@
         "pitcher_id": 607625,
         "pitcher_name": "Seth Lugo",
         "pitcher_hand": "R",
-        "ml": -187,
-        "implied": 65.2
+        "ml": -181,
+        "implied": 64.4
       },
       "weather": null,
       "factors": [],
@@ -905,8 +904,8 @@
         "pitcher_id": 669302,
         "pitcher_name": "Logan Gilbert",
         "pitcher_hand": "R",
-        "ml": 115,
-        "implied": 46.5
+        "ml": 108,
+        "implied": 48.1
       },
       "home": {
         "team": "Brewers",
@@ -917,8 +916,8 @@
         "pitcher_id": 669160,
         "pitcher_name": "Dustin May",
         "pitcher_hand": "R",
-        "ml": -124,
-        "implied": 55.4
+        "ml": -116,
+        "implied": 53.7
       },
       "weather": null,
       "factors": [
@@ -981,8 +980,8 @@
         "pitcher_id": 676917,
         "pitcher_name": "Cade Cavalli",
         "pitcher_hand": "R",
-        "ml": 116,
-        "implied": 46.3
+        "ml": 111,
+        "implied": 47.4
       },
       "home": {
         "team": "Rangers",
@@ -993,12 +992,12 @@
         "pitcher_id": 677958,
         "pitcher_name": "Kumar Rocker",
         "pitcher_hand": "R",
-        "ml": -125,
-        "implied": 55.6
+        "ml": -119,
+        "implied": 54.3
       },
       "weather": {
-        "temp_f": 101.7,
-        "wind_mph": 9.0,
+        "temp_f": 102.0,
+        "wind_mph": 10.4,
         "wind_dir_deg": 174
       },
       "factors": [
@@ -1077,9 +1076,9 @@
         "implied": 59.7
       },
       "weather": {
-        "temp_f": 90.8,
-        "wind_mph": 3.0,
-        "wind_dir_deg": 117
+        "temp_f": 88.7,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 180
       },
       "factors": [
         {
@@ -1109,8 +1108,28 @@
       "lat": 39.756042,
       "lon": -104.994136,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          660271,
+          681624,
+          606192,
+          518692,
+          605141,
+          500743,
+          663656,
+          571771,
+          666163
+        ],
+        "home": [
+          664983,
+          666160,
+          694249,
+          681198,
+          691728,
+          681393,
+          691182,
+          664954,
+          678662
+        ]
       },
       "away": {
         "team": "Dodgers",
@@ -1121,8 +1140,8 @@
         "pitcher_id": 808963,
         "pitcher_name": "Roki Sasaki",
         "pitcher_hand": "R",
-        "ml": -191,
-        "implied": 65.6
+        "ml": -193,
+        "implied": 65.9
       },
       "home": {
         "team": "Rockies",
@@ -1133,28 +1152,15 @@
         "pitcher_id": 607536,
         "pitcher_name": "Kyle Freeland",
         "pitcher_hand": "L",
-        "ml": 177,
-        "implied": 36.1
+        "ml": 179,
+        "implied": 35.8
       },
       "weather": {
-        "temp_f": 90.7,
-        "wind_mph": 12.4,
-        "wind_dir_deg": 58
+        "temp_f": 91.6,
+        "wind_mph": 10.7,
+        "wind_dir_deg": 64
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rockies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Dodgers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
