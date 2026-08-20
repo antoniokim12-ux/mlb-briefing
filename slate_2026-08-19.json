@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "generated": "2026-08-20T02:17:46",
+  "generated": "2026-08-20T03:26:38",
   "games": [
     {
       "game_pk": 823342,
@@ -541,7 +541,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.8,
+        "wind_mph": 2.9,
+        "wind_dir_deg": 266
+      },
       "factors": [
         {
           "m": "-",
@@ -902,7 +906,7 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "59-67",
+        "record": "60-67",
         "pitcher_id": 669302,
         "pitcher_name": "Logan Gilbert",
         "pitcher_hand": "R",
@@ -914,24 +918,20 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "78-48",
+        "record": "78-49",
         "pitcher_id": 669160,
         "pitcher_name": "Dustin May",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 70.2,
-        "wind_mph": 3.9,
-        "wind_dir_deg": 66
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Logan Gilbert holds RHB to a 0.678 OPS; Brewers project 62% R-handed today."
+          "text": "Logan Gilbert holds RHB to a 0.688 OPS; Brewers project 62% R-handed today."
         }
       ],
       "lean": "away",
@@ -981,7 +981,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "60-67",
+        "record": "61-67",
         "pitcher_id": 676917,
         "pitcher_name": "Cade Cavalli",
         "pitcher_hand": "R",
@@ -993,24 +993,20 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "62-64",
+        "record": "62-65",
         "pitcher_id": 677958,
         "pitcher_name": "Kumar Rocker",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 102.6,
-        "wind_mph": 7.2,
-        "wind_dir_deg": 182
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Kumar Rocker is vulnerable to LHB (0.858 OPS) and Nationals skew L-handed."
+          "text": "Kumar Rocker is vulnerable to LHB (0.851 OPS) and Nationals skew L-handed."
         }
       ],
       "lean": "away",
@@ -1060,7 +1056,7 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "50-76",
+        "record": "50-77",
         "pitcher_id": 700712,
         "pitcher_name": "Walbert Ure\u00f1a",
         "pitcher_hand": "R",
@@ -1072,7 +1068,7 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "63-63",
+        "record": "64-63",
         "pitcher_id": 814490,
         "pitcher_name": "Ethan Pecko",
         "pitcher_hand": "R",
@@ -1089,7 +1085,7 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Walbert Ure\u00f1a holds RHB to a 0.547 OPS; Astros project 67% R-handed today."
+          "text": "Walbert Ure\u00f1a holds RHB to a 0.566 OPS; Astros project 67% R-handed today."
         }
       ],
       "lean": "away",
