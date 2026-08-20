@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "generated": "2026-08-20T21:16:53",
+  "generated": "2026-08-20T23:14:56",
   "games": [
     {
       "game_pk": 824474,
@@ -521,8 +521,8 @@
         "pitcher_id": 543037,
         "pitcher_name": "Gerrit Cole",
         "pitcher_hand": "R",
-        "ml": -104,
-        "implied": 51.0
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Orioles",
@@ -533,10 +533,14 @@
         "pitcher_id": 680694,
         "pitcher_name": "Kyle Bradish",
         "pitcher_hand": "R",
-        "ml": -103,
-        "implied": 50.7
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.3,
+        "wind_mph": 12.7,
+        "wind_dir_deg": 301
+      },
       "factors": [
         {
           "m": "+",
@@ -550,8 +554,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -673,8 +676,8 @@
         "pitcher_id": 680570,
         "pitcher_name": "Grayson Rodriguez",
         "pitcher_hand": "R",
-        "ml": 163,
-        "implied": 38.0
+        "ml": 167,
+        "implied": 37.5
       },
       "home": {
         "team": "Astros",
@@ -685,8 +688,8 @@
         "pitcher_id": 663567,
         "pitcher_name": "Peter Lambert",
         "pitcher_hand": "R",
-        "ml": -176,
-        "implied": 63.8
+        "ml": -180,
+        "implied": 64.3
       },
       "weather": null,
       "factors": [
