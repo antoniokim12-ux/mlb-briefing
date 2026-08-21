@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "generated": "2026-08-21T02:22:34",
+  "generated": "2026-08-21T03:29:46",
   "games": [
     {
       "game_pk": 824474,
@@ -596,7 +596,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "61-67",
+        "record": "61-68",
         "pitcher_id": 674841,
         "pitcher_name": "Andrew Alvarez",
         "pitcher_hand": "L",
@@ -608,20 +608,24 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "62-65",
+        "record": "63-65",
         "pitcher_id": 594798,
         "pitcher_name": "Jacob deGrom",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 103.0,
+        "wind_mph": 8.2,
+        "wind_dir_deg": 169
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Andrew Alvarez holds RHB to a 0.666 OPS; Rangers project 67% R-handed today."
+          "text": "Andrew Alvarez holds RHB to a 0.667 OPS; Rangers project 67% R-handed today."
         }
       ],
       "lean": "away",
@@ -671,7 +675,7 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "50-77",
+        "record": "51-77",
         "pitcher_id": 680570,
         "pitcher_name": "Grayson Rodriguez",
         "pitcher_hand": "R",
@@ -683,20 +687,24 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "64-63",
+        "record": "64-64",
         "pitcher_id": 663567,
         "pitcher_name": "Peter Lambert",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 90.1,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 208
+      },
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Peter Lambert holds LHB to a 0.503 OPS; Angels project 62% L-handed today."
+          "text": "Peter Lambert holds LHB to a 0.533 OPS; Angels project 62% L-handed today."
         }
       ],
       "lean": "home",
