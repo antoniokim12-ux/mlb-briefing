@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "generated": "2026-08-22T02:16:01",
+  "generated": "2026-08-22T03:22:38",
   "games": [
     {
       "game_pk": 823746,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 70.6,
-        "wind_mph": 1.3,
-        "wind_dir_deg": 180
+        "temp_f": 70.9,
+        "wind_mph": 5.1,
+        "wind_dir_deg": 146
       },
       "factors": [
         {
@@ -142,9 +142,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 77.1,
-        "wind_mph": 3.0,
-        "wind_dir_deg": 36
+        "temp_f": 77.0,
+        "wind_mph": 3.4,
+        "wind_dir_deg": 98
       },
       "factors": [
         {
@@ -221,9 +221,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 72.6,
-        "wind_mph": 2.9,
-        "wind_dir_deg": 94
+        "temp_f": 74.3,
+        "wind_mph": 3.0,
+        "wind_dir_deg": 107
       },
       "factors": [
         {
@@ -306,9 +306,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 69.9,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 20
+        "temp_f": 70.3,
+        "wind_mph": 5.6,
+        "wind_dir_deg": 23
       },
       "factors": [
         {
@@ -391,9 +391,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 82.5,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 140
+        "temp_f": 83.7,
+        "wind_mph": 8.9,
+        "wind_dir_deg": 152
       },
       "factors": [],
       "lean": "even",
@@ -463,9 +463,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 75.5,
-        "wind_mph": 3.4,
-        "wind_dir_deg": 143
+        "temp_f": 76.7,
+        "wind_mph": 3.8,
+        "wind_dir_deg": 152
       },
       "factors": [
         {
@@ -522,7 +522,7 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "58-70",
+        "record": "58-71",
         "pitcher_id": 640455,
         "pitcher_name": "Sean Manaea",
         "pitcher_hand": "L",
@@ -534,7 +534,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "66-61",
+        "record": "67-61",
         "pitcher_id": 680732,
         "pitcher_name": "Sean Burke",
         "pitcher_hand": "R",
@@ -542,16 +542,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 72.2,
-        "wind_mph": 9.2,
-        "wind_dir_deg": 183
+        "temp_f": 72.9,
+        "wind_mph": 5.7,
+        "wind_dir_deg": 171
       },
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Sean Manaea is vulnerable to RHB (0.829 OPS) and White Sox skew R-handed."
+          "text": "Sean Manaea is vulnerable to RHB (0.837 OPS) and White Sox skew R-handed."
         }
       ],
       "lean": "home",
@@ -601,7 +601,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "61-66",
+        "record": "61-67",
         "pitcher_id": 675512,
         "pitcher_name": "Troy Melton",
         "pitcher_hand": "R",
@@ -613,7 +613,7 @@
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "55-74",
+        "record": "56-74",
         "pitcher_id": 702070,
         "pitcher_name": "Noah Cameron",
         "pitcher_hand": "L",
@@ -621,26 +621,20 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 82.8,
-        "wind_mph": 7.7,
-        "wind_dir_deg": 197
+        "temp_f": 79.4,
+        "wind_mph": 4.9,
+        "wind_dir_deg": 204
       },
       "factors": [
         {
           "m": "+",
-          "side": "away",
-          "label": "Handedness matchup",
-          "text": "Troy Melton holds LHB to a 0.669 OPS; Royals project 62% L-handed today."
-        },
-        {
-          "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Noah Cameron holds RHB to a 0.659 OPS; Tigers project 78% R-handed today."
+          "text": "Noah Cameron holds RHB to a 0.648 OPS; Tigers project 78% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -686,7 +680,7 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "49-79",
+        "record": "49-80",
         "pitcher_id": 669372,
         "pitcher_name": "J.T. Ginn",
         "pitcher_hand": "R",
@@ -698,7 +692,7 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "64-64",
+        "record": "65-64",
         "pitcher_id": 669713,
         "pitcher_name": "Hayden Wesneski",
         "pitcher_hand": "R",
@@ -706,16 +700,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 94.0,
-        "wind_mph": 2.4,
-        "wind_dir_deg": 304
+        "temp_f": 94.1,
+        "wind_mph": 2.3,
+        "wind_dir_deg": 163
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "J.T. Ginn holds RHB to a 0.554 OPS; Astros project 67% R-handed today."
+          "text": "J.T. Ginn holds RHB to a 0.573 OPS; Astros project 67% R-handed today."
         }
       ],
       "lean": "away",
@@ -785,9 +779,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 98.5,
-        "wind_mph": 7.2,
-        "wind_dir_deg": 120
+        "temp_f": 97.2,
+        "wind_mph": 6.0,
+        "wind_dir_deg": 90
       },
       "factors": [
         {
@@ -869,7 +863,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 89.7,
+        "wind_mph": 11.8,
+        "wind_dir_deg": 71
+      },
       "factors": [
         {
           "m": "-",
