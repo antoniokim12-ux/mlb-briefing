@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "generated": "2026-08-23T21:11:50",
+  "generated": "2026-08-23T23:11:48",
   "games": [
     {
       "game_pk": 824799,
@@ -431,7 +431,7 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "50-80",
+        "record": "51-80",
         "pitcher_id": 669620,
         "pitcher_name": "Brady Basso",
         "pitcher_hand": "L",
@@ -443,7 +443,7 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "65-65",
+        "record": "65-66",
         "pitcher_id": 664299,
         "pitcher_name": "Cristian Javier",
         "pitcher_hand": "R",
@@ -460,13 +460,13 @@
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Brady Basso is vulnerable to RHB (0.911 OPS) and Astros skew R-handed."
+          "text": "Brady Basso is vulnerable to RHB (0.976 OPS) and Astros skew R-handed."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Cristian Javier is vulnerable to RHB (0.966 OPS) and Athletics skew R-handed."
+          "text": "Cristian Javier is vulnerable to RHB (0.934 OPS) and Athletics skew R-handed."
         }
       ],
       "lean": "even",
@@ -595,7 +595,7 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "52-78",
+        "record": "52-79",
         "pitcher_id": 579328,
         "pitcher_name": "Yusei Kikuchi",
         "pitcher_hand": "L",
@@ -607,7 +607,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "64-66",
+        "record": "65-66",
         "pitcher_id": 615698,
         "pitcher_name": "Cal Quantrill",
         "pitcher_hand": "R",
@@ -620,13 +620,13 @@
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Yusei Kikuchi is vulnerable to RHB (0.791 OPS) and Rangers skew R-handed."
+          "text": "Yusei Kikuchi is vulnerable to RHB (0.871 OPS) and Rangers skew R-handed."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Cal Quantrill holds RHB to a 0.524 OPS; Angels project 71% R-handed today."
+          "text": "Cal Quantrill holds RHB to a 0.539 OPS; Angels project 71% R-handed today."
         }
       ],
       "lean": "home",
@@ -676,7 +676,7 @@
         "team_full": "Cleveland Guardians",
         "abbr": "CLE",
         "team_id": 114,
-        "record": "64-66",
+        "record": "65-66",
         "pitcher_id": 656492,
         "pitcher_name": "Foster Griffin",
         "pitcher_hand": "L",
@@ -688,7 +688,7 @@
         "team_full": "Colorado Rockies",
         "abbr": "COL",
         "team_id": 115,
-        "record": "50-79",
+        "record": "50-80",
         "pitcher_id": 608372,
         "pitcher_name": "Tomoyuki Sugano",
         "pitcher_hand": "R",
@@ -701,7 +701,7 @@
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Tomoyuki Sugano is vulnerable to LHB (0.905 OPS) and Guardians skew L-handed."
+          "text": "Tomoyuki Sugano is vulnerable to LHB (0.915 OPS) and Guardians skew L-handed."
         }
       ],
       "lean": "away",
@@ -751,7 +751,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "52-77",
+        "record": "52-78",
         "pitcher_id": 683363,
         "pitcher_name": "Matt Wilkinson",
         "pitcher_hand": "L",
@@ -763,7 +763,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "70-59",
+        "record": "71-59",
         "pitcher_id": 687562,
         "pitcher_name": "Jake Bennett",
         "pitcher_hand": "L",
@@ -773,20 +773,20 @@
       "weather": null,
       "factors": [
         {
-          "m": "+",
+          "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Matt Wilkinson holds RHB to a 0.666 OPS; Red Sox project 88% R-handed today."
+          "text": "Matt Wilkinson is vulnerable to RHB (1.210 OPS) and Red Sox skew R-handed."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Jake Bennett holds RHB to a 0.670 OPS; Giants project 67% R-handed today."
+          "text": "Jake Bennett holds RHB to a 0.674 OPS; Giants project 67% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 2,
       "read": null,
       "total": null,
       "total_read": null,
@@ -832,7 +832,7 @@
         "team_full": "Pittsburgh Pirates",
         "abbr": "PIT",
         "team_id": 134,
-        "record": "63-68",
+        "record": "63-69",
         "pitcher_id": 669199,
         "pitcher_name": "Lake Bachar",
         "pitcher_hand": "R",
@@ -844,7 +844,7 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "79-51",
+        "record": "80-51",
         "pitcher_id": 605483,
         "pitcher_name": "Blake Snell",
         "pitcher_hand": "L",
@@ -857,7 +857,7 @@
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Blake Snell holds RHB to a 0.520 OPS; Pirates project 75% R-handed today."
+          "text": "Blake Snell holds RHB to a 0.404 OPS; Pirates project 75% R-handed today."
         }
       ],
       "lean": "home",
@@ -975,7 +975,7 @@
         "team_full": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "record": "63-67",
+        "record": "63-68",
         "pitcher_id": 641927,
         "pitcher_name": "Bailey Ober",
         "pitcher_hand": "R",
@@ -987,7 +987,7 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "70-60",
+        "record": "71-60",
         "pitcher_id": 621111,
         "pitcher_name": "Walker Buehler",
         "pitcher_hand": "R",
@@ -1043,7 +1043,7 @@
         "team_full": "Cincinnati Reds",
         "abbr": "CIN",
         "team_id": 113,
-        "record": "62-68",
+        "record": "62-69",
         "pitcher_id": 671096,
         "pitcher_name": "Andrew Abbott",
         "pitcher_hand": "L",
@@ -1055,7 +1055,7 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "68-62",
+        "record": "69-62",
         "pitcher_id": 683352,
         "pitcher_name": "Mitch Bratt",
         "pitcher_hand": "L",
@@ -1063,13 +1063,20 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 110.7,
-        "wind_mph": 4.6,
-        "wind_dir_deg": 194
+        "temp_f": 110.5,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 182
       },
-      "factors": [],
-      "lean": "even",
-      "weight": 0,
+      "factors": [
+        {
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Mitch Bratt is vulnerable to RHB (0.784 OPS) and Reds skew R-handed."
+        }
+      ],
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -1119,8 +1126,8 @@
         "pitcher_id": 641816,
         "pitcher_name": "Tyler Mahle",
         "pitcher_hand": "R",
-        "ml": 104,
-        "implied": 49.0
+        "ml": -102,
+        "implied": 50.5
       },
       "home": {
         "team": "Brewers",
@@ -1131,13 +1138,13 @@
         "pitcher_id": 675660,
         "pitcher_name": "Shane Drohan",
         "pitcher_hand": "L",
-        "ml": -112,
-        "implied": 52.8
+        "ml": -105,
+        "implied": 51.2
       },
       "weather": {
-        "temp_f": 68.4,
-        "wind_mph": 8.6,
-        "wind_dir_deg": 233
+        "temp_f": 69.8,
+        "wind_mph": 6.3,
+        "wind_dir_deg": 238
       },
       "factors": [],
       "lean": "even",
