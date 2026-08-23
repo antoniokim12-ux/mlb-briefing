@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "generated": "2026-08-23T02:24:08",
+  "generated": "2026-08-23T03:30:36",
   "games": [
     {
       "game_pk": 823509,
@@ -601,7 +601,7 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "58-71",
+        "record": "59-71",
         "pitcher_id": 681035,
         "pitcher_name": "Christian Scott",
         "pitcher_hand": "R",
@@ -613,7 +613,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "67-61",
+        "record": "67-62",
         "pitcher_id": 622491,
         "pitcher_name": "Luis Castillo",
         "pitcher_hand": "R",
@@ -625,16 +625,9 @@
         "wind_mph": 10.1,
         "wind_dir_deg": 6
       },
-      "factors": [
-        {
-          "m": "+",
-          "side": "away",
-          "label": "Handedness matchup",
-          "text": "Christian Scott holds LHB to a 0.688 OPS; White Sox project 71% L-handed today."
-        }
-      ],
-      "lean": "away",
-      "weight": 1,
+      "factors": [],
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
@@ -699,7 +692,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.2,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 29
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -767,7 +764,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.1,
+        "wind_mph": 7.6,
+        "wind_dir_deg": 249
+      },
       "factors": [
         {
           "m": "+",
@@ -842,7 +843,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 72.2,
+        "wind_mph": 4.6,
+        "wind_dir_deg": 281
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -891,7 +896,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "52-76",
+        "record": "52-77",
         "pitcher_id": 694918,
         "pitcher_name": "Blade Tidwell",
         "pitcher_hand": "R",
@@ -903,7 +908,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "69-59",
+        "record": "70-59",
         "pitcher_id": 663776,
         "pitcher_name": "Patrick Sandoval",
         "pitcher_hand": "L",
@@ -916,7 +921,7 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Blade Tidwell holds RHB to a 0.358 OPS; Red Sox project 67% R-handed today."
+          "text": "Blade Tidwell holds RHB to a 0.392 OPS; Red Sox project 67% R-handed today."
         }
       ],
       "lean": "away",
@@ -966,7 +971,7 @@
         "team_full": "Cincinnati Reds",
         "abbr": "CIN",
         "team_id": 113,
-        "record": "61-68",
+        "record": "62-68",
         "pitcher_id": 695076,
         "pitcher_name": "Rhett Lowder",
         "pitcher_hand": "R",
@@ -978,34 +983,24 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "68-61",
+        "record": "68-62",
         "pitcher_id": 647336,
         "pitcher_name": "Michael Soroka",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 113.3,
-        "wind_mph": 7.3,
-        "wind_dir_deg": 297
-      },
+      "weather": null,
       "factors": [
-        {
-          "m": "+",
-          "side": "away",
-          "label": "Handedness matchup",
-          "text": "Rhett Lowder holds RHB to a 0.682 OPS; D-backs project 71% R-handed today."
-        },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Michael Soroka holds RHB to a 0.505 OPS; Reds project 75% R-handed today."
+          "text": "Michael Soroka holds RHB to a 0.507 OPS; Reds project 75% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -1051,7 +1046,7 @@
         "team_full": "Cleveland Guardians",
         "abbr": "CLE",
         "team_id": 114,
-        "record": "63-66",
+        "record": "64-66",
         "pitcher_id": 676440,
         "pitcher_name": "Tanner Bibee",
         "pitcher_hand": "R",
@@ -1063,18 +1058,14 @@
         "team_full": "Colorado Rockies",
         "abbr": "COL",
         "team_id": 115,
-        "record": "50-78",
+        "record": "50-79",
         "pitcher_id": 687312,
         "pitcher_name": "Gabriel Hughes",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 79.0,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 149
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1142,11 +1133,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 83.0,
-        "wind_mph": 6.9,
-        "wind_dir_deg": 299
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
