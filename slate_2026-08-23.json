@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "generated": "2026-08-23T19:17:43",
+  "generated": "2026-08-23T21:11:50",
   "games": [
     {
       "game_pk": 824799,
@@ -37,7 +37,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "76-53",
+        "record": "77-53",
         "pitcher_id": 607259,
         "pitcher_name": "Nick Martinez",
         "pitcher_hand": "R",
@@ -49,7 +49,7 @@
         "team_full": "Baltimore Orioles",
         "abbr": "BAL",
         "team_id": 110,
-        "record": "63-67",
+        "record": "63-68",
         "pitcher_id": 669358,
         "pitcher_name": "Shane Baz",
         "pitcher_hand": "R",
@@ -66,17 +66,11 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Nick Martinez holds LHB to a 0.672 OPS; Orioles project 62% L-handed today."
-        },
-        {
-          "m": "-",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Shane Baz is vulnerable to LHB (0.781 OPS) and Rays skew L-handed."
+          "text": "Nick Martinez holds LHB to a 0.655 OPS; Orioles project 62% L-handed today."
         }
       ],
       "lean": "away",
-      "weight": 2,
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -122,7 +116,7 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "66-65",
+        "record": "66-66",
         "pitcher_id": 681517,
         "pitcher_name": "Kyle Leahy",
         "pitcher_hand": "R",
@@ -134,7 +128,7 @@
         "team_full": "Philadelphia Phillies",
         "abbr": "PHI",
         "team_id": 143,
-        "record": "72-58",
+        "record": "73-58",
         "pitcher_id": 650911,
         "pitcher_name": "Cristopher S\u00e1nchez",
         "pitcher_hand": "L",
@@ -194,7 +188,7 @@
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "64-67",
+        "record": "64-68",
         "pitcher_id": 667755,
         "pitcher_name": "Jos\u00e9 Soriano",
         "pitcher_hand": "R",
@@ -206,7 +200,7 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "73-56",
+        "record": "74-56",
         "pitcher_id": 607074,
         "pitcher_name": "Carlos Rod\u00f3n",
         "pitcher_hand": "L",
@@ -223,13 +217,13 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Jos\u00e9 Soriano holds LHB to a 0.687 OPS; Yankees project 78% L-handed today."
+          "text": "Jos\u00e9 Soriano holds LHB to a 0.698 OPS; Yankees project 78% L-handed today."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Carlos Rod\u00f3n holds RHB to a 0.570 OPS; Blue Jays project 89% R-handed today."
+          "text": "Carlos Rod\u00f3n holds RHB to a 0.572 OPS; Blue Jays project 89% R-handed today."
         }
       ],
       "lean": "even",
@@ -279,7 +273,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "61-70",
+        "record": "61-71",
         "pitcher_id": 800600,
         "pitcher_name": "Jackson Kent",
         "pitcher_hand": "L",
@@ -291,7 +285,7 @@
         "team_full": "Miami Marlins",
         "abbr": "MIA",
         "team_id": 146,
-        "record": "66-64",
+        "record": "67-64",
         "pitcher_id": 676083,
         "pitcher_name": "Janson Junk",
         "pitcher_hand": "R",
@@ -308,7 +302,7 @@
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Jackson Kent is vulnerable to RHB (0.950 OPS) and Marlins skew R-handed."
+          "text": "Jackson Kent is vulnerable to RHB (0.886 OPS) and Marlins skew R-handed."
         }
       ],
       "lean": "home",
@@ -358,7 +352,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "61-68",
+        "record": "61-69",
         "pitcher_id": 621097,
         "pitcher_name": "Jacob Waguespack",
         "pitcher_hand": "R",
@@ -370,7 +364,7 @@
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "57-74",
+        "record": "58-74",
         "pitcher_id": 663738,
         "pitcher_name": "Daniel Lynch IV",
         "pitcher_hand": "L",
@@ -378,13 +372,20 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 81.4,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 82
+        "temp_f": 80.2,
+        "wind_mph": 4.6,
+        "wind_dir_deg": 67
       },
-      "factors": [],
-      "lean": "even",
-      "weight": 0,
+      "factors": [
+        {
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Daniel Lynch IV holds RHB to a 0.671 OPS; Tigers project 78% R-handed today."
+        }
+      ],
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -450,8 +451,8 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 89.4,
-        "wind_mph": 2.2,
+        "temp_f": 90.4,
+        "wind_mph": 1.1,
         "wind_dir_deg": 307
       },
       "factors": [
@@ -515,7 +516,7 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "59-71",
+        "record": "59-72",
         "pitcher_id": 690997,
         "pitcher_name": "Nolan McLean",
         "pitcher_hand": "R",
@@ -527,7 +528,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "67-62",
+        "record": "68-62",
         "pitcher_id": 656794,
         "pitcher_name": "Sean Newcomb",
         "pitcher_hand": "L",
@@ -535,16 +536,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 71.5,
-        "wind_mph": 10.4,
-        "wind_dir_deg": 15
+        "temp_f": 71.2,
+        "wind_mph": 10.3,
+        "wind_dir_deg": 24
       },
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Sean Newcomb holds RHB to a 0.562 OPS; Mets project 75% R-handed today."
+          "text": "Sean Newcomb holds RHB to a 0.559 OPS; Mets project 75% R-handed today."
         }
       ],
       "lean": "home",
@@ -835,8 +836,8 @@
         "pitcher_id": 669199,
         "pitcher_name": "Lake Bachar",
         "pitcher_hand": "R",
-        "ml": 253,
-        "implied": 28.3
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Dodgers",
@@ -847,8 +848,8 @@
         "pitcher_id": 605483,
         "pitcher_name": "Blake Snell",
         "pitcher_hand": "L",
-        "ml": -275,
-        "implied": 73.3
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -864,8 +865,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -911,8 +911,8 @@
         "pitcher_id": 684007,
         "pitcher_name": "Shota Imanaga",
         "pitcher_hand": "L",
-        "ml": -113,
-        "implied": 53.1
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Mariners",
@@ -923,8 +923,8 @@
         "pitcher_id": 682243,
         "pitcher_name": "Bryce Miller",
         "pitcher_hand": "R",
-        "ml": 105,
-        "implied": 48.8
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [],
@@ -933,8 +933,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -980,8 +979,8 @@
         "pitcher_id": 641927,
         "pitcher_name": "Bailey Ober",
         "pitcher_hand": "R",
-        "ml": 137,
-        "implied": 42.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Padres",
@@ -992,8 +991,8 @@
         "pitcher_id": 621111,
         "pitcher_name": "Walker Buehler",
         "pitcher_hand": "R",
-        "ml": -147,
-        "implied": 59.5
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [],
@@ -1002,8 +1001,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -1049,8 +1047,8 @@
         "pitcher_id": 671096,
         "pitcher_name": "Andrew Abbott",
         "pitcher_hand": "L",
-        "ml": 131,
-        "implied": 43.3
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "D-backs",
@@ -1061,13 +1059,13 @@
         "pitcher_id": 683352,
         "pitcher_name": "Mitch Bratt",
         "pitcher_hand": "L",
-        "ml": -141,
-        "implied": 58.5
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 112.3,
-        "wind_mph": 1.5,
-        "wind_dir_deg": 243
+        "temp_f": 110.7,
+        "wind_mph": 4.6,
+        "wind_dir_deg": 194
       },
       "factors": [],
       "lean": "even",
@@ -1075,8 +1073,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -1090,8 +1087,28 @@
       "lat": 41.2419845,
       "lon": -77.0475104,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          671739,
+          660670,
+          621566,
+          645277,
+          686948,
+          657041,
+          643289,
+          663586,
+          669221
+        ],
+        "home": [
+          694192,
+          668930,
+          661388,
+          641343,
+          683734,
+          592885,
+          687401,
+          669003,
+          666152
+        ]
       },
       "away": {
         "team": "Braves",
@@ -1118,24 +1135,11 @@
         "implied": 52.8
       },
       "weather": {
-        "temp_f": 68.7,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 239
+        "temp_f": 68.4,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 233
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Braves lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
