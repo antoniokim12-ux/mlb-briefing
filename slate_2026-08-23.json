@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "generated": "2026-08-23T23:11:48",
+  "generated": "2026-08-24T02:23:16",
   "games": [
     {
       "game_pk": 824799,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 81.2,
-        "wind_mph": 9.2,
-        "wind_dir_deg": 274
+        "temp_f": 80.2,
+        "wind_mph": 4.7,
+        "wind_dir_deg": 262
       },
       "factors": [
         {
@@ -136,9 +136,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 78.3,
-        "wind_mph": 9.4,
-        "wind_dir_deg": 265
+        "temp_f": 79.0,
+        "wind_mph": 1.6,
+        "wind_dir_deg": 326
       },
       "factors": [],
       "lean": "even",
@@ -208,9 +208,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 78.8,
-        "wind_mph": 8.4,
-        "wind_dir_deg": 224
+        "temp_f": 76.2,
+        "wind_mph": 9.3,
+        "wind_dir_deg": 233
       },
       "factors": [
         {
@@ -293,9 +293,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 87.8,
-        "wind_mph": 10.8,
-        "wind_dir_deg": 150
+        "temp_f": 80.0,
+        "wind_mph": 3.7,
+        "wind_dir_deg": 287
       },
       "factors": [
         {
@@ -372,9 +372,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 80.2,
-        "wind_mph": 4.6,
-        "wind_dir_deg": 67
+        "temp_f": 76.1,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 80
       },
       "factors": [
         {
@@ -451,9 +451,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 90.4,
-        "wind_mph": 1.1,
-        "wind_dir_deg": 307
+        "temp_f": 91.7,
+        "wind_mph": 7.1,
+        "wind_dir_deg": 162
       },
       "factors": [
         {
@@ -536,9 +536,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 71.2,
-        "wind_mph": 10.3,
-        "wind_dir_deg": 24
+        "temp_f": 69.4,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 325
       },
       "factors": [
         {
@@ -614,7 +614,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 104.6,
+        "wind_mph": 8.7,
+        "wind_dir_deg": 180
+      },
       "factors": [
         {
           "m": "-",
@@ -695,7 +699,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 76.2,
+        "wind_mph": 11.4,
+        "wind_dir_deg": 138
+      },
       "factors": [
         {
           "m": "-",
@@ -907,7 +915,7 @@
         "team_full": "Chicago Cubs",
         "abbr": "CHC",
         "team_id": 112,
-        "record": "74-56",
+        "record": "75-56",
         "pitcher_id": 684007,
         "pitcher_name": "Shota Imanaga",
         "pitcher_hand": "L",
@@ -919,7 +927,7 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "62-68",
+        "record": "62-69",
         "pitcher_id": 682243,
         "pitcher_name": "Bryce Miller",
         "pitcher_hand": "R",
@@ -1062,11 +1070,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 110.5,
-        "wind_mph": 6.7,
-        "wind_dir_deg": 182
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -1122,38 +1126,33 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "75-55",
+        "record": "76-55",
         "pitcher_id": 641816,
         "pitcher_name": "Tyler Mahle",
         "pitcher_hand": "R",
-        "ml": -102,
-        "implied": 50.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Brewers",
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "81-49",
+        "record": "81-50",
         "pitcher_id": 675660,
         "pitcher_name": "Shane Drohan",
         "pitcher_hand": "L",
-        "ml": -105,
-        "implied": 51.2
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 69.8,
-        "wind_mph": 6.3,
-        "wind_dir_deg": 238
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
