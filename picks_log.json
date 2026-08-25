@@ -7491,10 +7491,10 @@
     "close_ml": -140,
     "close_fair": 57.4,
     "clv_pp": -0.1,
-    "result": null,
-    "pick_score": null,
-    "opp_score": null,
-    "profit": null
+    "result": "W",
+    "pick_score": 9,
+    "opp_score": 6,
+    "profit": 0.709
   },
   {
     "key": "2026-08-24:823992",
@@ -7512,10 +7512,10 @@
     "close_ml": -158,
     "close_fair": 60.2,
     "clv_pp": 0.0,
-    "result": null,
-    "pick_score": null,
-    "opp_score": null,
-    "profit": null
+    "result": "W",
+    "pick_score": 4,
+    "opp_score": 2,
+    "profit": 0.633
   },
   {
     "key": "2026-08-24:823183",
@@ -7532,6 +7532,27 @@
     "is_top": false,
     "close_ml": -163,
     "close_fair": 61.0,
+    "clv_pp": -0.0,
+    "result": "L",
+    "pick_score": 0,
+    "opp_score": 5,
+    "profit": -1.0
+  },
+  {
+    "key": "2026-08-25:823585",
+    "date": "2026-08-25",
+    "game_pk": 823585,
+    "pick_team": "Brewers",
+    "pick_side": "away",
+    "opp_team": "Mets",
+    "log_ml": -159,
+    "log_implied": 61.4,
+    "log_fair": 60.4,
+    "weight": 1,
+    "kind": "lean",
+    "is_top": false,
+    "close_ml": -159,
+    "close_fair": 60.4,
     "clv_pp": -0.0,
     "result": null,
     "pick_score": null,
