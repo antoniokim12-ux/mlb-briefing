@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "generated": "2026-08-25T02:17:54",
+  "generated": "2026-08-25T03:26:10",
   "games": [
     {
       "game_pk": 824235,
@@ -266,7 +266,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "65-66",
+        "record": "66-66",
         "pitcher_id": 677958,
         "pitcher_name": "Kumar Rocker",
         "pitcher_hand": "R",
@@ -278,7 +278,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "68-62",
+        "record": "68-63",
         "pitcher_id": 664353,
         "pitcher_name": "Jos\u00e9 Urquidy",
         "pitcher_hand": "R",
@@ -295,7 +295,7 @@
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Kumar Rocker is vulnerable to LHB (0.851 OPS) and White Sox skew L-handed."
+          "text": "Kumar Rocker is vulnerable to LHB (0.839 OPS) and White Sox skew L-handed."
         }
       ],
       "lean": "home",
@@ -365,9 +365,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 89.1,
-        "wind_mph": 8.2,
-        "wind_dir_deg": 209
+        "temp_f": 88.8,
+        "wind_mph": 10.2,
+        "wind_dir_deg": 195
       },
       "factors": [
         {
@@ -444,9 +444,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 104.5,
+        "temp_f": 106.0,
         "wind_mph": 6.7,
-        "wind_dir_deg": 266
+        "wind_dir_deg": 264
       },
       "factors": [],
       "lean": "even",
@@ -516,9 +516,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 76.5,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 222
+        "temp_f": 76.8,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 226
       },
       "factors": [],
       "lean": "even",
@@ -587,7 +587,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 93.9,
+        "wind_mph": 7.7,
+        "wind_dir_deg": 232
+      },
       "factors": [
         {
           "m": "-",
@@ -662,7 +666,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 76.1,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 356
+      },
       "factors": [
         {
           "m": "+",
@@ -737,7 +745,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 64.5,
+        "wind_mph": 13.5,
+        "wind_dir_deg": 285
+      },
       "factors": [
         {
           "m": "+",
