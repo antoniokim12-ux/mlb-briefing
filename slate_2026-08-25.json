@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "generated": "2026-08-26T02:25:05",
+  "generated": "2026-08-26T03:33:57",
   "games": [
     {
       "game_pk": 824233,
@@ -460,7 +460,7 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Kyle Harrison holds RHB to a 0.686 OPS; Mets project 62% R-handed today."
+          "text": "Kyle Harrison holds RHB to a 0.689 OPS; Mets project 62% R-handed today."
         }
       ],
       "lean": "away",
@@ -529,7 +529,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 82.6,
+        "wind_mph": 5.9,
+        "wind_dir_deg": 353
+      },
       "factors": [
         {
           "m": "+",
@@ -585,7 +589,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "66-66",
+        "record": "66-67",
         "pitcher_id": 594798,
         "pitcher_name": "Jacob deGrom",
         "pitcher_hand": "R",
@@ -597,20 +601,24 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "68-63",
+        "record": "69-63",
         "pitcher_id": 641743,
         "pitcher_name": "Anthony Kay",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 71.9,
+        "wind_mph": 4.7,
+        "wind_dir_deg": 115
+      },
       "factors": [
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Anthony Kay is vulnerable to RHB (0.836 OPS) and Rangers skew R-handed."
+          "text": "Anthony Kay is vulnerable to RHB (0.852 OPS) and Rangers skew R-handed."
         }
       ],
       "lean": "away",
@@ -660,7 +668,7 @@
         "team_full": "Baltimore Orioles",
         "abbr": "BAL",
         "team_id": 110,
-        "record": "63-68",
+        "record": "64-68",
         "pitcher_id": 605135,
         "pitcher_name": "Chris Bassitt",
         "pitcher_hand": "R",
@@ -672,14 +680,18 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "66-66",
+        "record": "66-67",
         "pitcher_id": 669461,
         "pitcher_name": "Matthew Liberatore",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 83.7,
+        "wind_mph": 3.0,
+        "wind_dir_deg": 103
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -747,7 +759,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 86.9,
+        "wind_mph": 7.8,
+        "wind_dir_deg": 226
+      },
       "factors": [
         {
           "m": "+",
@@ -822,7 +838,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 111.9,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 270
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -891,9 +911,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 84.8,
-        "wind_mph": 5.4,
-        "wind_dir_deg": 330
+        "temp_f": 83.5,
+        "wind_mph": 4.2,
+        "wind_dir_deg": 302
       },
       "factors": [
         {
@@ -969,11 +989,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 93.1,
-        "wind_mph": 7.8,
-        "wind_dir_deg": 239
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -1048,11 +1064,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 78.8,
-        "wind_mph": 8.6,
-        "wind_dir_deg": 233
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -1127,11 +1139,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 66.0,
-        "wind_mph": 15.1,
-        "wind_dir_deg": 282
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -1144,12 +1152,6 @@
           "side": "home",
           "label": "Handedness matchup",
           "text": "Adrian Houser holds RHB to a 0.565 OPS; Reds project 62% R-handed today."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "15 mph wind (dir 282\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "home",
