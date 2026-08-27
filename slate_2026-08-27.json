@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "generated": "2026-08-27T10:54:18",
+  "generated": "2026-08-27T12:59:35",
   "games": [
     {
       "game_pk": 822694,
@@ -21,8 +21,8 @@
         "pitcher_id": 687312,
         "pitcher_name": "Gabriel Hughes",
         "pitcher_hand": "R",
-        "ml": 111,
-        "implied": 47.4
+        "ml": 112,
+        "implied": 47.2
       },
       "home": {
         "team": "Nationals",
@@ -33,13 +33,13 @@
         "pitcher_id": 663623,
         "pitcher_name": "Jake Irvin",
         "pitcher_hand": "R",
-        "ml": -119,
-        "implied": 54.3
+        "ml": -120,
+        "implied": 54.5
       },
       "weather": {
-        "temp_f": 88.1,
-        "wind_mph": 9.7,
-        "wind_dir_deg": 193
+        "temp_f": 88.2,
+        "wind_mph": 9.9,
+        "wind_dir_deg": 184
       },
       "factors": [
         {
@@ -87,8 +87,8 @@
         "pitcher_id": 669432,
         "pitcher_name": "Trevor Rogers",
         "pitcher_hand": "L",
-        "ml": -114,
-        "implied": 53.3
+        "ml": -119,
+        "implied": 54.3
       },
       "home": {
         "team": "Cardinals",
@@ -99,13 +99,13 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": 106,
-        "implied": 48.5
+        "ml": 111,
+        "implied": 47.4
       },
       "weather": {
-        "temp_f": 84.1,
-        "wind_mph": 5.4,
-        "wind_dir_deg": 318
+        "temp_f": 84.6,
+        "wind_mph": 6.0,
+        "wind_dir_deg": 333
       },
       "factors": [
         {
@@ -153,8 +153,8 @@
         "pitcher_id": 669713,
         "pitcher_name": "Hayden Wesneski",
         "pitcher_hand": "R",
-        "ml": 135,
-        "implied": 42.6
+        "ml": 147,
+        "implied": 40.5
       },
       "home": {
         "team": "Yankees",
@@ -165,13 +165,13 @@
         "pitcher_id": 543037,
         "pitcher_name": "Gerrit Cole",
         "pitcher_hand": "R",
-        "ml": -163,
-        "implied": 62.0
+        "ml": -158,
+        "implied": 61.2
       },
       "weather": {
-        "temp_f": 77.6,
-        "wind_mph": 10.5,
-        "wind_dir_deg": 153
+        "temp_f": 76.0,
+        "wind_mph": 9.2,
+        "wind_dir_deg": 146
       },
       "factors": [
         {
@@ -219,8 +219,8 @@
         "pitcher_id": 702070,
         "pitcher_name": "Noah Cameron",
         "pitcher_hand": "L",
-        "ml": -113,
-        "implied": 53.1
+        "ml": -112,
+        "implied": 52.8
       },
       "home": {
         "team": "Blue Jays",
@@ -231,13 +231,13 @@
         "pitcher_id": 681293,
         "pitcher_name": "Spencer Arrighetti",
         "pitcher_hand": "R",
-        "ml": -107,
-        "implied": 51.7
+        "ml": 104,
+        "implied": 49.0
       },
       "weather": {
-        "temp_f": 77.1,
-        "wind_mph": 10.7,
-        "wind_dir_deg": 290
+        "temp_f": 76.9,
+        "wind_mph": 9.4,
+        "wind_dir_deg": 288
       },
       "factors": [
         {
@@ -285,8 +285,8 @@
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
-        "ml": -230,
-        "implied": 69.7
+        "ml": -216,
+        "implied": 68.4
       },
       "home": {
         "team": "Mets",
@@ -297,13 +297,13 @@
         "pitcher_id": 640455,
         "pitcher_name": "Sean Manaea",
         "pitcher_hand": "L",
-        "ml": 187,
-        "implied": 34.8
+        "ml": 200,
+        "implied": 33.3
       },
       "weather": {
-        "temp_f": 76.7,
-        "wind_mph": 11.8,
-        "wind_dir_deg": 158
+        "temp_f": 77.3,
+        "wind_mph": 11.7,
+        "wind_dir_deg": 160
       },
       "factors": [
         {
@@ -351,8 +351,8 @@
         "pitcher_id": 808967,
         "pitcher_name": "Yoshinobu Yamamoto",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": 103,
+        "implied": 49.3
       },
       "home": {
         "team": "Braves",
@@ -363,13 +363,13 @@
         "pitcher_id": 519242,
         "pitcher_name": "Chris Sale",
         "pitcher_hand": "L",
-        "ml": -114,
-        "implied": 53.3
+        "ml": -111,
+        "implied": 52.6
       },
       "weather": {
-        "temp_f": 74.5,
-        "wind_mph": 8.4,
-        "wind_dir_deg": 130
+        "temp_f": 78.2,
+        "wind_mph": 3.2,
+        "wind_dir_deg": 155
       },
       "factors": [
         {
@@ -417,8 +417,8 @@
         "pitcher_id": 703615,
         "pitcher_name": "Jose Cabrera",
         "pitcher_hand": "R",
-        "ml": -114,
-        "implied": 53.3
+        "ml": -112,
+        "implied": 52.8
       },
       "home": {
         "team": "Giants",
@@ -429,10 +429,14 @@
         "pitcher_id": 694738,
         "pitcher_name": "Landen Roupp",
         "pitcher_hand": "R",
-        "ml": -106,
-        "implied": 51.5
+        "ml": -107,
+        "implied": 51.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 69.8,
+        "wind_mph": 17.7,
+        "wind_dir_deg": 286
+      },
       "factors": [
         {
           "m": "~",
@@ -445,6 +449,12 @@
           "side": "none",
           "label": "Lineups",
           "text": "D-backs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "18 mph wind (dir 286\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
