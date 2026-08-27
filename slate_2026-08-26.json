@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "generated": "2026-08-27T00:19:56",
+  "generated": "2026-08-27T04:09:29",
   "games": [
     {
       "game_pk": 824234,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 75.2,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 220
+        "temp_f": 78.4,
+        "wind_mph": 12.3,
+        "wind_dir_deg": 180
       },
       "factors": [],
       "lean": "even",
@@ -129,9 +129,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 113.6,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 241
+        "temp_f": 112.7,
+        "wind_mph": 9.7,
+        "wind_dir_deg": 255
       },
       "factors": [
         {
@@ -208,9 +208,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 73.5,
-        "wind_mph": 16.5,
-        "wind_dir_deg": 283
+        "temp_f": 74.8,
+        "wind_mph": 17.0,
+        "wind_dir_deg": 288
       },
       "factors": [
         {
@@ -229,7 +229,7 @@
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "16 mph wind (dir 283\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "17 mph wind (dir 288\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "home",
@@ -299,9 +299,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 93.6,
-        "wind_mph": 6.9,
-        "wind_dir_deg": 237
+        "temp_f": 90.7,
+        "wind_mph": 7.5,
+        "wind_dir_deg": 253
       },
       "factors": [
         {
@@ -378,9 +378,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 87.1,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 299
+        "temp_f": 83.6,
+        "wind_mph": 5.7,
+        "wind_dir_deg": 239
       },
       "factors": [
         {
@@ -457,9 +457,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 75.7,
+        "temp_f": 76.9,
         "wind_mph": 3.4,
-        "wind_dir_deg": 191
+        "wind_dir_deg": 233
       },
       "factors": [],
       "lean": "even",
@@ -509,7 +509,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "73-59",
+        "record": "73-60",
         "pitcher_id": 543243,
         "pitcher_name": "Sonny Gray",
         "pitcher_hand": "R",
@@ -521,24 +521,20 @@
         "team_full": "Miami Marlins",
         "abbr": "MIA",
         "team_id": 146,
-        "record": "67-66",
+        "record": "68-66",
         "pitcher_id": 687473,
         "pitcher_name": "Ryan Gusto",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 83.0,
-        "wind_mph": 4.2,
-        "wind_dir_deg": 58
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Sonny Gray holds LHB to a 0.670 OPS; Marlins project 62% L-handed today."
+          "text": "Sonny Gray holds LHB to a 0.663 OPS; Marlins project 62% L-handed today."
         }
       ],
       "lean": "away",
@@ -588,7 +584,7 @@
         "team_full": "Colorado Rockies",
         "abbr": "COL",
         "team_id": 115,
-        "record": "51-81",
+        "record": "52-81",
         "pitcher_id": 685299,
         "pitcher_name": "Tanner Gordon",
         "pitcher_hand": "R",
@@ -600,7 +596,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "62-72",
+        "record": "62-73",
         "pitcher_id": 663362,
         "pitcher_name": "Matt Waldron",
         "pitcher_hand": "R",
@@ -656,7 +652,7 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "66-66",
+        "record": "66-67",
         "pitcher_id": 663567,
         "pitcher_name": "Peter Lambert",
         "pitcher_hand": "R",
@@ -668,7 +664,7 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "74-57",
+        "record": "75-57",
         "pitcher_id": 695684,
         "pitcher_name": "Elmer Rodr\u00edguez",
         "pitcher_hand": "R",
@@ -681,17 +677,11 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Peter Lambert holds LHB to a 0.533 OPS; Yankees project 78% L-handed today."
-        },
-        {
-          "m": "-",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Elmer Rodr\u00edguez is vulnerable to RHB (0.859 OPS) and Astros skew R-handed."
+          "text": "Peter Lambert holds LHB to a 0.561 OPS; Yankees project 78% L-handed today."
         }
       ],
       "lean": "away",
-      "weight": 2,
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -737,7 +727,7 @@
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "59-74",
+        "record": "59-75",
         "pitcher_id": 677976,
         "pitcher_name": "Randy Dobnak",
         "pitcher_hand": "R",
@@ -749,7 +739,7 @@
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "64-69",
+        "record": "65-69",
         "pitcher_id": 693686,
         "pitcher_name": "Spencer Miles",
         "pitcher_hand": "R",
@@ -805,7 +795,7 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "81-51",
+        "record": "82-51",
         "pitcher_id": 669160,
         "pitcher_name": "Dustin May",
         "pitcher_hand": "R",
@@ -817,21 +807,24 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "60-72",
+        "record": "60-73",
         "pitcher_id": 476594,
         "pitcher_name": "Robert Stock",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 72.9,
-        "wind_mph": 7.3,
-        "wind_dir_deg": 169
-      },
-      "factors": [],
-      "lean": "even",
-      "weight": 0,
+      "weather": null,
+      "factors": [
+        {
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Robert Stock is vulnerable to LHB (0.845 OPS) and Brewers skew L-handed."
+        }
+      ],
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -877,7 +870,7 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "80-52",
+        "record": "80-53",
         "pitcher_id": 808963,
         "pitcher_name": "Roki Sasaki",
         "pitcher_hand": "R",
@@ -889,24 +882,20 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "77-55",
+        "record": "78-55",
         "pitcher_id": 700363,
         "pitcher_name": "AJ Smith-Shawver",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 80.8,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 140
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "AJ Smith-Shawver holds LHB to a 0.400 OPS; Dodgers project 75% L-handed today."
+          "text": "AJ Smith-Shawver holds LHB to a 0.637 OPS; Dodgers project 75% L-handed today."
         }
       ],
       "lean": "home",
@@ -956,7 +945,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "66-67",
+        "record": "66-68",
         "pitcher_id": 669022,
         "pitcher_name": "MacKenzie Gore",
         "pitcher_hand": "L",
@@ -968,7 +957,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "69-63",
+        "record": "70-63",
         "pitcher_id": 680732,
         "pitcher_name": "Sean Burke",
         "pitcher_hand": "R",
@@ -976,20 +965,13 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 72.3,
-        "wind_mph": 2.8,
-        "wind_dir_deg": 225
+        "temp_f": 77.6,
+        "wind_mph": 1.1,
+        "wind_dir_deg": 37
       },
-      "factors": [
-        {
-          "m": "+",
-          "side": "away",
-          "label": "Handedness matchup",
-          "text": "MacKenzie Gore holds RHB to a 0.682 OPS; White Sox project 75% R-handed today."
-        }
-      ],
-      "lean": "away",
-      "weight": 1,
+      "factors": [],
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
@@ -1035,7 +1017,7 @@
         "team_full": "Baltimore Orioles",
         "abbr": "BAL",
         "team_id": 110,
-        "record": "64-68",
+        "record": "65-68",
         "pitcher_id": 680694,
         "pitcher_name": "Kyle Bradish",
         "pitcher_hand": "R",
@@ -1047,7 +1029,7 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "66-67",
+        "record": "66-68",
         "pitcher_id": 700241,
         "pitcher_name": "Michael McGreevy",
         "pitcher_hand": "R",
@@ -1055,9 +1037,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 87.7,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 330
+        "temp_f": 89.1,
+        "wind_mph": 6.4,
+        "wind_dir_deg": 299
       },
       "factors": [],
       "lean": "even",
@@ -1107,29 +1089,29 @@
         "team_full": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "record": "64-69",
+        "record": "64-70",
         "pitcher_id": 687570,
         "pitcher_name": "Connor Prielipp",
         "pitcher_hand": "L",
-        "ml": -129,
-        "implied": 56.3
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Athletics",
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "52-81",
+        "record": "53-81",
         "pitcher_id": 669372,
         "pitcher_name": "J.T. Ginn",
         "pitcher_hand": "R",
-        "ml": 120,
-        "implied": 45.5
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 94.9,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 239
+        "temp_f": 97.3,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 225
       },
       "factors": [],
       "lean": "even",
@@ -1137,8 +1119,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
