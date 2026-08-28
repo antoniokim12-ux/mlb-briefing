@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "generated": "2026-08-28T12:31:45",
+  "generated": "2026-08-28T14:32:42",
   "games": [
     {
       "game_pk": 824638,
@@ -21,8 +21,8 @@
         "pitcher_id": 695076,
         "pitcher_name": "Rhett Lowder",
         "pitcher_hand": "R",
-        "ml": 170,
-        "implied": 37.0
+        "ml": 169,
+        "implied": 37.2
       },
       "home": {
         "team": "Cubs",
@@ -33,13 +33,13 @@
         "pitcher_id": 656849,
         "pitcher_name": "David Peterson",
         "pitcher_hand": "L",
-        "ml": -183,
-        "implied": 64.7
+        "ml": -182,
+        "implied": 64.5
       },
       "weather": {
-        "temp_f": 78.1,
-        "wind_mph": 9.4,
-        "wind_dir_deg": 112
+        "temp_f": 77.4,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 110
       },
       "factors": [
         {
@@ -87,8 +87,8 @@
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": "L",
-        "ml": -209,
-        "implied": 67.6
+        "ml": -187,
+        "implied": 65.2
       },
       "home": {
         "team": "Tigers",
@@ -99,13 +99,13 @@
         "pitcher_id": 623454,
         "pitcher_name": "Drew Anderson",
         "pitcher_hand": "R",
-        "ml": 194,
-        "implied": 34.0
+        "ml": 173,
+        "implied": 36.6
       },
       "weather": {
-        "temp_f": 77.7,
-        "wind_mph": 7.8,
-        "wind_dir_deg": 88
+        "temp_f": 77.5,
+        "wind_mph": 7.2,
+        "wind_dir_deg": 86
       },
       "factors": [
         {
@@ -169,9 +169,9 @@
         "implied": 42.2
       },
       "weather": {
-        "temp_f": 88.7,
-        "wind_mph": 6.6,
-        "wind_dir_deg": 342
+        "temp_f": 85.5,
+        "wind_mph": 8.4,
+        "wind_dir_deg": 9
       },
       "factors": [
         {
@@ -235,9 +235,9 @@
         "implied": 56.5
       },
       "weather": {
-        "temp_f": 71.7,
-        "wind_mph": 6.0,
-        "wind_dir_deg": 13
+        "temp_f": 72.6,
+        "wind_mph": 7.1,
+        "wind_dir_deg": 28
       },
       "factors": [
         {
@@ -285,8 +285,8 @@
         "pitcher_id": 686613,
         "pitcher_name": "Hunter Brown",
         "pitcher_hand": "R",
-        "ml": -123,
-        "implied": 55.2
+        "ml": -105,
+        "implied": 51.2
       },
       "home": {
         "team": "Mets",
@@ -297,13 +297,13 @@
         "pitcher_id": 681035,
         "pitcher_name": "Christian Scott",
         "pitcher_hand": "R",
-        "ml": 114,
-        "implied": 46.7
+        "ml": -102,
+        "implied": 50.5
       },
       "weather": {
-        "temp_f": 77.4,
-        "wind_mph": 3.9,
-        "wind_dir_deg": 280
+        "temp_f": 74.9,
+        "wind_mph": 2.2,
+        "wind_dir_deg": 307
       },
       "factors": [
         {
@@ -363,13 +363,13 @@
         "pitcher_id": 663556,
         "pitcher_name": "Shane McClanahan",
         "pitcher_hand": "L",
-        "ml": -127,
-        "implied": 55.9
+        "ml": -128,
+        "implied": 56.1
       },
       "weather": {
-        "temp_f": 83.2,
-        "wind_mph": 2.4,
-        "wind_dir_deg": 338
+        "temp_f": 80.8,
+        "wind_mph": 1.8,
+        "wind_dir_deg": 270
       },
       "factors": [
         {
@@ -417,8 +417,8 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": 166,
-        "implied": 37.6
+        "ml": 138,
+        "implied": 42.0
       },
       "home": {
         "team": "Blue Jays",
@@ -429,13 +429,13 @@
         "pitcher_id": 656302,
         "pitcher_name": "Dylan Cease",
         "pitcher_hand": "R",
-        "ml": -179,
-        "implied": 64.2
+        "ml": -148,
+        "implied": 59.7
       },
       "weather": {
         "temp_f": 67.1,
-        "wind_mph": 2.9,
-        "wind_dir_deg": 141
+        "wind_mph": 2.1,
+        "wind_dir_deg": 131
       },
       "factors": [
         {
@@ -483,8 +483,8 @@
         "pitcher_id": 608372,
         "pitcher_name": "Tomoyuki Sugano",
         "pitcher_hand": "R",
-        "ml": 206,
-        "implied": 32.7
+        "ml": 201,
+        "implied": 33.2
       },
       "home": {
         "team": "Braves",
@@ -495,14 +495,10 @@
         "pitcher_id": 656550,
         "pitcher_name": "Grant Holmes",
         "pitcher_hand": "R",
-        "ml": -223,
-        "implied": 69.0
+        "ml": -218,
+        "implied": 68.6
       },
-      "weather": {
-        "temp_f": 89.6,
-        "wind_mph": 4.9,
-        "wind_dir_deg": 196
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -549,8 +545,8 @@
         "pitcher_id": 663776,
         "pitcher_name": "Patrick Sandoval",
         "pitcher_hand": "L",
-        "ml": 146,
-        "implied": 40.7
+        "ml": 138,
+        "implied": 42.0
       },
       "home": {
         "team": "Yankees",
@@ -561,8 +557,8 @@
         "pitcher_id": 693645,
         "pitcher_name": "Cam Schlittler",
         "pitcher_hand": "R",
-        "ml": -157,
-        "implied": 61.1
+        "ml": -148,
+        "implied": 59.7
       },
       "weather": null,
       "factors": [
@@ -611,8 +607,8 @@
         "pitcher_id": 674003,
         "pitcher_name": "Cody Bradford",
         "pitcher_hand": "L",
-        "ml": 158,
-        "implied": 38.8
+        "ml": 162,
+        "implied": 38.2
       },
       "home": {
         "team": "Brewers",
@@ -623,8 +619,8 @@
         "pitcher_id": 701656,
         "pitcher_name": "Logan Henderson",
         "pitcher_hand": "R",
-        "ml": -170,
-        "implied": 63.0
+        "ml": -174,
+        "implied": 63.5
       },
       "weather": null,
       "factors": [
@@ -673,8 +669,8 @@
         "pitcher_id": 622491,
         "pitcher_name": "Luis Castillo",
         "pitcher_hand": "R",
-        "ml": 104,
-        "implied": 49.0
+        "ml": 114,
+        "implied": 46.7
       },
       "home": {
         "team": "Twins",
@@ -685,8 +681,8 @@
         "pitcher_id": 665152,
         "pitcher_name": "Dean Kremer",
         "pitcher_hand": "R",
-        "ml": -112,
-        "implied": 52.8
+        "ml": -123,
+        "implied": 55.2
       },
       "weather": null,
       "factors": [
@@ -735,8 +731,8 @@
         "pitcher_id": 683003,
         "pitcher_name": "Jared Jones",
         "pitcher_hand": "R",
-        "ml": -112,
-        "implied": 52.8
+        "ml": -114,
+        "implied": 53.3
       },
       "home": {
         "team": "Cardinals",
@@ -747,8 +743,8 @@
         "pitcher_id": 687273,
         "pitcher_name": "Quinn Mathews",
         "pitcher_hand": "L",
-        "ml": 105,
-        "implied": 48.8
+        "ml": 106,
+        "implied": 48.5
       },
       "weather": null,
       "factors": [
@@ -797,8 +793,8 @@
         "pitcher_id": 691725,
         "pitcher_name": "Andrew Painter",
         "pitcher_hand": "R",
-        "ml": -144,
-        "implied": 59.0
+        "ml": -129,
+        "implied": 56.3
       },
       "home": {
         "team": "Angels",
@@ -809,8 +805,8 @@
         "pitcher_id": 672282,
         "pitcher_name": "Reid Detmers",
         "pitcher_hand": "L",
-        "ml": 119,
-        "implied": 45.7
+        "ml": 120,
+        "implied": 45.5
       },
       "weather": null,
       "factors": [
@@ -859,8 +855,8 @@
         "pitcher_id": 687064,
         "pitcher_name": "Brandon Young",
         "pitcher_hand": "R",
-        "ml": -143,
-        "implied": 58.8
+        "ml": -108,
+        "implied": 51.9
       },
       "home": {
         "team": "Athletics",
@@ -871,10 +867,14 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": 119,
-        "implied": 45.7
+        "ml": 101,
+        "implied": 49.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 85.8,
+        "wind_mph": 8.4,
+        "wind_dir_deg": 236
+      },
       "factors": [
         {
           "m": "~",
@@ -921,8 +921,8 @@
         "pitcher_id": 684442,
         "pitcher_name": "Kohl Drake",
         "pitcher_hand": "L",
-        "ml": -126,
-        "implied": 55.8
+        "ml": -127,
+        "implied": 55.9
       },
       "home": {
         "team": "Giants",
@@ -933,13 +933,13 @@
         "pitcher_id": 694918,
         "pitcher_name": "Blade Tidwell",
         "pitcher_hand": "R",
-        "ml": 104,
-        "implied": 49.0
+        "ml": 119,
+        "implied": 45.7
       },
       "weather": {
-        "temp_f": 62.2,
-        "wind_mph": 15.6,
-        "wind_dir_deg": 286
+        "temp_f": 63.7,
+        "wind_mph": 14.9,
+        "wind_dir_deg": 289
       },
       "factors": [
         {
@@ -953,12 +953,6 @@
           "side": "none",
           "label": "Lineups",
           "text": "D-backs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "16 mph wind (dir 286\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
