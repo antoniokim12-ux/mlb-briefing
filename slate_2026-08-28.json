@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "generated": "2026-08-29T02:57:07",
+  "generated": "2026-08-29T03:58:17",
   "games": [
     {
       "game_pk": 824638,
@@ -601,11 +601,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 80.1,
-        "wind_mph": 3.1,
-        "wind_dir_deg": 150
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -673,11 +669,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 80.3,
-        "wind_mph": 3.3,
-        "wind_dir_deg": 318
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -752,11 +744,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 76.4,
-        "wind_mph": 5.3,
-        "wind_dir_deg": 144
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -812,7 +800,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "70-63",
+        "record": "71-63",
         "pitcher_id": 622491,
         "pitcher_name": "Luis Castillo",
         "pitcher_hand": "R",
@@ -824,24 +812,20 @@
         "team_full": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "record": "64-70",
+        "record": "64-71",
         "pitcher_id": 665152,
         "pitcher_name": "Dean Kremer",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 77.1,
-        "wind_mph": 4.1,
-        "wind_dir_deg": 171
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Dean Kremer is vulnerable to LHB (0.828 OPS) and White Sox skew L-handed."
+          "text": "Dean Kremer is vulnerable to LHB (0.874 OPS) and White Sox skew L-handed."
         }
       ],
       "lean": "away",
@@ -978,7 +962,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 91.5,
+        "wind_mph": 6.4,
+        "wind_dir_deg": 231
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1046,7 +1034,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 76.6,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 198
+      },
       "factors": [
         {
           "m": "-",
@@ -1127,7 +1119,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 65.9,
+        "wind_mph": 7.0,
+        "wind_dir_deg": 277
+      },
       "factors": [
         {
           "m": "+",
