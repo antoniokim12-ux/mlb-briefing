@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "generated": "2026-08-29T01:58:18",
+  "generated": "2026-08-29T02:57:07",
   "games": [
     {
       "game_pk": 824638,
@@ -381,7 +381,7 @@
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Christian Scott holds RHB to a 0.658 OPS; Astros project 67% R-handed today."
+          "text": "Christian Scott holds RHB to a 0.638 OPS; Astros project 67% R-handed today."
         }
       ],
       "lean": "home",
@@ -582,7 +582,7 @@
         "team_full": "Colorado Rockies",
         "abbr": "COL",
         "team_id": 115,
-        "record": "52-82",
+        "record": "52-83",
         "pitcher_id": 608372,
         "pitcher_name": "Tomoyuki Sugano",
         "pitcher_hand": "R",
@@ -594,14 +594,18 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "79-55",
+        "record": "80-55",
         "pitcher_id": 656550,
         "pitcher_name": "Grant Holmes",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 80.1,
+        "wind_mph": 3.1,
+        "wind_dir_deg": 150
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -650,7 +654,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "73-60",
+        "record": "73-61",
         "pitcher_id": 663776,
         "pitcher_name": "Patrick Sandoval",
         "pitcher_hand": "L",
@@ -662,20 +666,24 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "75-58",
+        "record": "76-58",
         "pitcher_id": 693645,
         "pitcher_name": "Cam Schlittler",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 80.3,
+        "wind_mph": 3.3,
+        "wind_dir_deg": 318
+      },
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Cam Schlittler holds RHB to a 0.550 OPS; Red Sox project 60% R-handed today."
+          "text": "Cam Schlittler holds RHB to a 0.548 OPS; Red Sox project 60% R-handed today."
         }
       ],
       "lean": "home",
@@ -725,7 +733,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "66-68",
+        "record": "66-69",
         "pitcher_id": 674003,
         "pitcher_name": "Cody Bradford",
         "pitcher_hand": "L",
@@ -737,20 +745,24 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "83-51",
+        "record": "84-51",
         "pitcher_id": 701656,
         "pitcher_name": "Logan Henderson",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 76.4,
+        "wind_mph": 5.3,
+        "wind_dir_deg": 144
+      },
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Cody Bradford is vulnerable to LHB (1.071 OPS) and Brewers skew L-handed."
+          "text": "Cody Bradford is vulnerable to LHB (1.067 OPS) and Brewers skew L-handed."
         }
       ],
       "lean": "home",
@@ -819,7 +831,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 77.1,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 171
+      },
       "factors": [
         {
           "m": "-",
@@ -875,7 +891,7 @@
         "team_full": "Pittsburgh Pirates",
         "abbr": "PIT",
         "team_id": 134,
-        "record": "65-70",
+        "record": "65-71",
         "pitcher_id": 683003,
         "pitcher_name": "Jared Jones",
         "pitcher_hand": "R",
@@ -887,28 +903,17 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "67-68",
+        "record": "68-68",
         "pitcher_id": 687273,
         "pitcher_name": "Quinn Mathews",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 80.9,
-        "wind_mph": 3.3,
-        "wind_dir_deg": 16
-      },
-      "factors": [
-        {
-          "m": "-",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Quinn Mathews is vulnerable to RHB (0.846 OPS) and Pirates skew R-handed."
-        }
-      ],
-      "lean": "away",
-      "weight": 1,
+      "weather": null,
+      "factors": [],
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
@@ -973,11 +978,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 89.2,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 232
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1045,11 +1046,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 78.4,
-        "wind_mph": 5.5,
-        "wind_dir_deg": 207
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -1115,8 +1112,8 @@
         "pitcher_id": 684442,
         "pitcher_name": "Kohl Drake",
         "pitcher_hand": "L",
-        "ml": -112,
-        "implied": 52.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Giants",
@@ -1127,14 +1124,10 @@
         "pitcher_id": 694918,
         "pitcher_name": "Blade Tidwell",
         "pitcher_hand": "R",
-        "ml": 104,
-        "implied": 49.0
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 64.0,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 272
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -1148,8 +1141,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
