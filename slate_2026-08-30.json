@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "generated": "2026-08-30T21:45:44",
+  "generated": "2026-08-30T22:59:52",
   "games": [
     {
       "game_pk": 822688,
@@ -786,7 +786,7 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "68-68",
+        "record": "69-68",
         "pitcher_id": 814490,
         "pitcher_name": "Ethan Pecko",
         "pitcher_hand": "R",
@@ -798,7 +798,7 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "61-75",
+        "record": "61-76",
         "pitcher_id": 804267,
         "pitcher_name": "Zac Thornton",
         "pitcher_hand": "L",
@@ -854,7 +854,7 @@
         "team_full": "Baltimore Orioles",
         "abbr": "BAL",
         "team_id": 110,
-        "record": "67-69",
+        "record": "68-69",
         "pitcher_id": 605135,
         "pitcher_name": "Chris Bassitt",
         "pitcher_hand": "R",
@@ -866,7 +866,7 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "53-83",
+        "record": "53-84",
         "pitcher_id": 605488,
         "pitcher_name": "Jeffrey Springs",
         "pitcher_hand": "L",
@@ -879,7 +879,7 @@
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Jeffrey Springs is vulnerable to RHB (0.865 OPS) and Orioles skew R-handed."
+          "text": "Jeffrey Springs is vulnerable to RHB (0.857 OPS) and Orioles skew R-handed."
         }
       ],
       "lean": "away",
@@ -1030,9 +1030,9 @@
         "implied": 60.0
       },
       "weather": {
-        "temp_f": 75.7,
-        "wind_mph": 3.0,
-        "wind_dir_deg": 306
+        "temp_f": 75.0,
+        "wind_mph": 9.9,
+        "wind_dir_deg": 188
       },
       "factors": [],
       "lean": "even",
