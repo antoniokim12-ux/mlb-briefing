@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "generated": "2026-08-29T22:52:20",
+  "generated": "2026-08-30T00:52:58",
   "games": [
     {
       "game_pk": 823539,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 77.4,
-        "wind_mph": 4.7,
-        "wind_dir_deg": 341
+        "temp_f": 72.8,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 289
       },
       "factors": [
         {
@@ -126,8 +126,8 @@
         "pitcher_id": 687941,
         "pitcher_name": "Alec Gamboa",
         "pitcher_hand": "L",
-        "ml": 130,
-        "implied": 43.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Yankees",
@@ -138,13 +138,13 @@
         "pitcher_id": 608331,
         "pitcher_name": "Max Fried",
         "pitcher_hand": "L",
-        "ml": -140,
-        "implied": 58.3
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 76.0,
-        "wind_mph": 4.7,
-        "wind_dir_deg": 267
+        "temp_f": 72.8,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 289
       },
       "factors": [
         {
@@ -165,8 +165,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -228,9 +227,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 80.3,
-        "wind_mph": 8.3,
-        "wind_dir_deg": 199
+        "temp_f": 74.4,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 186
       },
       "factors": [
         {
@@ -313,9 +312,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 74.3,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 134
+        "temp_f": 76.0,
+        "wind_mph": 5.3,
+        "wind_dir_deg": 68
       },
       "factors": [],
       "lean": "even",
@@ -385,9 +384,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 86.6,
-        "wind_mph": 7.2,
-        "wind_dir_deg": 173
+        "temp_f": 83.0,
+        "wind_mph": 7.3,
+        "wind_dir_deg": 149
       },
       "factors": [],
       "lean": "even",
@@ -457,9 +456,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 80.1,
-        "wind_mph": 9.5,
-        "wind_dir_deg": 210
+        "temp_f": 72.3,
+        "wind_mph": 8.0,
+        "wind_dir_deg": 153
       },
       "factors": [],
       "lean": "even",
@@ -529,9 +528,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 76.9,
-        "wind_mph": 9.7,
-        "wind_dir_deg": 172
+        "temp_f": 67.1,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 224
       },
       "factors": [
         {
@@ -607,11 +606,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 69.6,
-        "wind_mph": 9.8,
-        "wind_dir_deg": 270
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -645,8 +640,28 @@
       "lat": 37.778383,
       "lon": -122.389448,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          663457,
+          682998,
+          672695,
+          571448,
+          596146,
+          694374,
+          543510,
+          545121,
+          814439
+        ],
+        "home": [
+          813841,
+          646240,
+          805811,
+          808982,
+          694376,
+          668800,
+          687529,
+          678545,
+          683766
+        ]
       },
       "away": {
         "team": "D-backs",
@@ -666,37 +681,14 @@
         "abbr": "SF",
         "team_id": 137,
         "record": "55-81",
-        "pitcher_id": null,
-        "pitcher_name": "TBD",
-        "pitcher_hand": null,
+        "pitcher_id": 805074,
+        "pitcher_name": "Yunior Marte",
+        "pitcher_hand": "R",
         "ml": 114,
         "implied": 46.7
       },
-      "weather": {
-        "temp_f": 63.6,
-        "wind_mph": 15.4,
-        "wind_dir_deg": 286
-      },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Giants lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "D-backs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "15 mph wind (dir 286\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
-        }
-      ],
+      "weather": null,
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -745,7 +737,7 @@
         "team_full": "Miami Marlins",
         "abbr": "MIA",
         "team_id": 146,
-        "record": "68-67",
+        "record": "68-68",
         "pitcher_id": 645261,
         "pitcher_name": "Sandy Alcantara",
         "pitcher_hand": "R",
@@ -757,18 +749,14 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "64-73",
+        "record": "65-73",
         "pitcher_id": 676917,
         "pitcher_name": "Cade Cavalli",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 82.7,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 142
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -843,11 +831,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 81.5,
-        "wind_mph": 7.5,
-        "wind_dir_deg": 321
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -922,11 +906,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 78.8,
-        "wind_mph": 3.4,
-        "wind_dir_deg": 349
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -988,7 +968,7 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "72-63",
+        "record": "72-64",
         "pitcher_id": 621111,
         "pitcher_name": "Walker Buehler",
         "pitcher_hand": "R",
@@ -1000,7 +980,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "80-54",
+        "record": "81-54",
         "pitcher_id": 607259,
         "pitcher_name": "Nick Martinez",
         "pitcher_hand": "R",
@@ -1008,9 +988,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 89.6,
-        "wind_mph": 1.6,
-        "wind_dir_deg": 16
+        "temp_f": 76.3,
+        "wind_mph": 2.9,
+        "wind_dir_deg": 113
       },
       "factors": [],
       "lean": "even",
@@ -1060,7 +1040,7 @@
         "team_full": "Colorado Rockies",
         "abbr": "COL",
         "team_id": 115,
-        "record": "52-83",
+        "record": "52-84",
         "pitcher_id": 688642,
         "pitcher_name": "Zach Agnos",
         "pitcher_hand": "R",
@@ -1072,7 +1052,7 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "80-55",
+        "record": "81-55",
         "pitcher_id": 527048,
         "pitcher_name": "Mart\u00edn P\u00e9rez",
         "pitcher_hand": "L",
@@ -1080,20 +1060,13 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 76.9,
-        "wind_mph": 3.2,
-        "wind_dir_deg": 321
+        "temp_f": 80.4,
+        "wind_mph": 5.3,
+        "wind_dir_deg": 68
       },
-      "factors": [
-        {
-          "m": "-",
-          "side": "away",
-          "label": "Handedness matchup",
-          "text": "Zach Agnos is vulnerable to LHB (0.781 OPS) and Braves skew L-handed."
-        }
-      ],
-      "lean": "home",
-      "weight": 1,
+      "factors": [],
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
@@ -1143,8 +1116,8 @@
         "pitcher_id": 615698,
         "pitcher_name": "Cal Quantrill",
         "pitcher_hand": "R",
-        "ml": 154,
-        "implied": 39.4
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Brewers",
@@ -1155,13 +1128,13 @@
         "pitcher_id": 675660,
         "pitcher_name": "Shane Drohan",
         "pitcher_hand": "L",
-        "ml": -166,
-        "implied": 62.4
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 74.2,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 153
+        "temp_f": 70.1,
+        "wind_mph": 6.2,
+        "wind_dir_deg": 154
       },
       "factors": [],
       "lean": "even",
@@ -1169,8 +1142,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -1216,8 +1188,8 @@
         "pitcher_id": 669358,
         "pitcher_name": "Shane Baz",
         "pitcher_hand": "R",
-        "ml": -145,
-        "implied": 59.2
+        "ml": -142,
+        "implied": 58.7
       },
       "home": {
         "team": "Athletics",
@@ -1228,10 +1200,14 @@
         "pitcher_id": 678022,
         "pitcher_name": "Jack Perkins",
         "pitcher_hand": "R",
-        "ml": 135,
-        "implied": 42.6
+        "ml": 132,
+        "implied": 43.1
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.1,
+        "wind_mph": 10.6,
+        "wind_dir_deg": 234
+      },
       "factors": [
         {
           "m": "-",
@@ -1260,7 +1236,17 @@
       "lat": 33.80019044,
       "lon": -117.8823996,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          656941,
+          607208,
+          547180,
+          650333,
+          664761,
+          681082,
+          669016,
+          592663,
+          702222
+        ],
         "home": [
           687263,
           545361,
@@ -1282,8 +1268,8 @@
         "pitcher_id": 650911,
         "pitcher_name": "Cristopher S\u00e1nchez",
         "pitcher_hand": "L",
-        "ml": -231,
-        "implied": 69.8
+        "ml": -222,
+        "implied": 68.9
       },
       "home": {
         "team": "Angels",
@@ -1294,20 +1280,24 @@
         "pitcher_id": 696270,
         "pitcher_name": "Ryan Johnson",
         "pitcher_hand": "R",
-        "ml": 213,
-        "implied": 31.9
+        "ml": 205,
+        "implied": 32.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 80.5,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 227
+      },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Phillies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Ryan Johnson is vulnerable to LHB (0.782 OPS) and Phillies skew L-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
