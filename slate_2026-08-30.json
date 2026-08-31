@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "generated": "2026-08-30T22:59:52",
+  "generated": "2026-08-31T00:57:54",
   "games": [
     {
       "game_pk": 822688,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 80.8,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 209
+        "temp_f": 80.3,
+        "wind_mph": 2.5,
+        "wind_dir_deg": 275
       },
       "factors": [
         {
@@ -136,9 +136,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 85.9,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 119
+        "temp_f": 85.5,
+        "wind_mph": 3.4,
+        "wind_dir_deg": 94
       },
       "factors": [
         {
@@ -221,9 +221,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 78.5,
-        "wind_mph": 10.4,
-        "wind_dir_deg": 217
+        "temp_f": 76.8,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 193
       },
       "factors": [],
       "lean": "even",
@@ -293,9 +293,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 69.2,
-        "wind_mph": 4.7,
-        "wind_dir_deg": 205
+        "temp_f": 64.8,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 214
       },
       "factors": [],
       "lean": "even",
@@ -365,9 +365,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 74.7,
-        "wind_mph": 6.9,
-        "wind_dir_deg": 251
+        "temp_f": 72.5,
+        "wind_mph": 2.0,
+        "wind_dir_deg": 360
       },
       "factors": [
         {
@@ -444,9 +444,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 70.8,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 197
+        "temp_f": 70.0,
+        "wind_mph": 6.6,
+        "wind_dir_deg": 135
       },
       "factors": [],
       "lean": "even",
@@ -516,9 +516,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 85.8,
-        "wind_mph": 3.6,
-        "wind_dir_deg": 86
+        "temp_f": 76.3,
+        "wind_mph": 5.7,
+        "wind_dir_deg": 69
       },
       "factors": [],
       "lean": "even",
@@ -587,7 +587,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 83.6,
+        "wind_mph": 7.0,
+        "wind_dir_deg": 127
+      },
       "factors": [
         {
           "m": "-",
@@ -662,7 +666,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 75.2,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 211
+      },
       "factors": [
         {
           "m": "-",
@@ -737,7 +745,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.0,
+        "wind_mph": 7.5,
+        "wind_dir_deg": 153
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -805,7 +817,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 74.9,
+        "wind_mph": 4.7,
+        "wind_dir_deg": 183
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -873,7 +889,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.5,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 231
+      },
       "factors": [
         {
           "m": "-",
@@ -929,7 +949,7 @@
         "team_full": "Philadelphia Phillies",
         "abbr": "PHI",
         "team_id": 143,
-        "record": "76-60",
+        "record": "77-60",
         "pitcher_id": 554430,
         "pitcher_name": "Zack Wheeler",
         "pitcher_hand": "R",
@@ -941,26 +961,30 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "52-84",
+        "record": "52-85",
         "pitcher_id": 579328,
         "pitcher_name": "Yusei Kikuchi",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 86.2,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 229
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Zack Wheeler holds RHB to a 0.562 OPS; Angels project 67% R-handed today."
+          "text": "Zack Wheeler holds RHB to a 0.550 OPS; Angels project 67% R-handed today."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Yusei Kikuchi is vulnerable to RHB (0.871 OPS) and Phillies skew R-handed."
+          "text": "Yusei Kikuchi is vulnerable to RHB (0.856 OPS) and Phillies skew R-handed."
         }
       ],
       "lean": "away",
@@ -1014,8 +1038,8 @@
         "pitcher_id": 695505,
         "pitcher_name": "Chase Burns",
         "pitcher_hand": "R",
-        "ml": 140,
-        "implied": 41.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Cubs",
@@ -1026,22 +1050,17 @@
         "pitcher_id": 684007,
         "pitcher_name": "Shota Imanaga",
         "pitcher_hand": "L",
-        "ml": -150,
-        "implied": 60.0
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 75.0,
-        "wind_mph": 9.9,
-        "wind_dir_deg": 188
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
