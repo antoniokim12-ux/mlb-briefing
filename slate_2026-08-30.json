@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "generated": "2026-08-31T00:57:54",
+  "generated": "2026-08-31T06:40:16",
   "games": [
     {
       "game_pk": 822688,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 80.3,
-        "wind_mph": 2.5,
-        "wind_dir_deg": 275
+        "temp_f": 81.3,
+        "wind_mph": 7.1,
+        "wind_dir_deg": 221
       },
       "factors": [
         {
@@ -136,9 +136,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 85.5,
-        "wind_mph": 3.4,
-        "wind_dir_deg": 94
+        "temp_f": 84.7,
+        "wind_mph": 2.1,
+        "wind_dir_deg": 18
       },
       "factors": [
         {
@@ -221,9 +221,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 76.8,
-        "wind_mph": 4.1,
-        "wind_dir_deg": 193
+        "temp_f": 79.8,
+        "wind_mph": 3.6,
+        "wind_dir_deg": 210
       },
       "factors": [],
       "lean": "even",
@@ -293,9 +293,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 64.8,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 214
+        "temp_f": 65.1,
+        "wind_mph": 8.5,
+        "wind_dir_deg": 210
       },
       "factors": [],
       "lean": "even",
@@ -365,9 +365,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 72.5,
-        "wind_mph": 2.0,
-        "wind_dir_deg": 360
+        "temp_f": 71.9,
+        "wind_mph": 2.5,
+        "wind_dir_deg": 5
       },
       "factors": [
         {
@@ -444,9 +444,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 70.0,
-        "wind_mph": 6.6,
-        "wind_dir_deg": 135
+        "temp_f": 71.2,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 154
       },
       "factors": [],
       "lean": "even",
@@ -516,9 +516,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 76.3,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 69
+        "temp_f": 75.7,
+        "wind_mph": 4.7,
+        "wind_dir_deg": 55
       },
       "factors": [],
       "lean": "even",
@@ -588,9 +588,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 83.6,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 127
+        "temp_f": 84.2,
+        "wind_mph": 8.7,
+        "wind_dir_deg": 119
       },
       "factors": [
         {
@@ -667,9 +667,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 75.2,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 211
+        "temp_f": 75.8,
+        "wind_mph": 9.4,
+        "wind_dir_deg": 194
       },
       "factors": [
         {
@@ -746,9 +746,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 88.0,
+        "temp_f": 88.7,
         "wind_mph": 7.5,
-        "wind_dir_deg": 153
+        "wind_dir_deg": 150
       },
       "factors": [],
       "lean": "even",
@@ -818,9 +818,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 74.9,
-        "wind_mph": 4.7,
-        "wind_dir_deg": 183
+        "temp_f": 76.7,
+        "wind_mph": 4.5,
+        "wind_dir_deg": 174
       },
       "factors": [],
       "lean": "even",
@@ -889,11 +889,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 88.5,
-        "wind_mph": 4.3,
-        "wind_dir_deg": 231
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -968,11 +964,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 86.2,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 229
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -1034,7 +1026,7 @@
         "team_full": "Cincinnati Reds",
         "abbr": "CIN",
         "team_id": 113,
-        "record": "64-72",
+        "record": "65-72",
         "pitcher_id": 695505,
         "pitcher_name": "Chase Burns",
         "pitcher_hand": "R",
@@ -1046,14 +1038,18 @@
         "team_full": "Chicago Cubs",
         "abbr": "CHC",
         "team_id": 112,
-        "record": "77-59",
+        "record": "77-60",
         "pitcher_id": 684007,
         "pitcher_name": "Shota Imanaga",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 73.9,
+        "wind_mph": 10.8,
+        "wind_dir_deg": 185
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
