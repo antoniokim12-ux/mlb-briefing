@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "generated": "2026-08-31T23:05:36",
+  "generated": "2026-09-01T00:10:40",
   "games": [
     {
       "game_pk": 824911,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 92.0,
+        "temp_f": 86.9,
         "wind_mph": 5.2,
-        "wind_dir_deg": 43
+        "wind_dir_deg": 80
       },
       "factors": [],
       "lean": "even",
@@ -129,9 +129,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 92.3,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 249
+        "temp_f": 85.2,
+        "wind_mph": 4.5,
+        "wind_dir_deg": 217
       },
       "factors": [],
       "lean": "even",
@@ -201,16 +201,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 85.6,
-        "wind_mph": 3.2,
-        "wind_dir_deg": 348
+        "temp_f": 77.0,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 85
       },
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Robert Stock is vulnerable to LHB (0.845 OPS) and Rays skew L-handed."
+          "text": "Robert Stock is vulnerable to LHB (0.784 OPS) and Rays skew L-handed."
         },
         {
           "m": "+",
@@ -286,9 +286,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 75.4,
-        "wind_mph": 5.4,
-        "wind_dir_deg": 81
+        "temp_f": 71.5,
+        "wind_mph": 7.7,
+        "wind_dir_deg": 188
       },
       "factors": [],
       "lean": "even",
@@ -358,16 +358,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 84.2,
-        "wind_mph": 5.3,
-        "wind_dir_deg": 324
+        "temp_f": 80.9,
+        "wind_mph": 2.1,
+        "wind_dir_deg": 18
       },
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Will Dion holds RHB to a 0.627 OPS; Marlins project 78% R-handed today."
+          "text": "Will Dion holds RHB to a 0.615 OPS; Marlins project 78% R-handed today."
         }
       ],
       "lean": "home",
@@ -421,8 +421,8 @@
         "pitcher_id": 695549,
         "pitcher_name": "Jackson Jobe",
         "pitcher_hand": "R",
-        "ml": 116,
-        "implied": 46.3
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Twins",
@@ -433,13 +433,13 @@
         "pitcher_id": 671737,
         "pitcher_name": "Taj Bradley",
         "pitcher_hand": "R",
-        "ml": -124,
-        "implied": 55.4
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 88.7,
-        "wind_mph": 7.1,
-        "wind_dir_deg": 294
+        "temp_f": 84.6,
+        "wind_mph": 4.5,
+        "wind_dir_deg": 267
       },
       "factors": [],
       "lean": "even",
@@ -447,8 +447,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -494,8 +493,8 @@
         "pitcher_id": 690986,
         "pitcher_name": "Kyle Harrison",
         "pitcher_hand": "L",
-        "ml": -103,
-        "implied": 50.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Cubs",
@@ -506,10 +505,14 @@
         "pitcher_id": 605280,
         "pitcher_name": "Clay Holmes",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.9,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 199
+      },
       "factors": [
         {
           "m": "+",
@@ -529,8 +532,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -576,8 +578,8 @@
         "pitcher_id": 695611,
         "pitcher_name": "Gage Jump",
         "pitcher_hand": "L",
-        "ml": 195,
-        "implied": 33.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Rangers",
@@ -588,10 +590,14 @@
         "pitcher_id": 594798,
         "pitcher_name": "Jacob deGrom",
         "pitcher_hand": "R",
-        "ml": -211,
-        "implied": 67.8
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 97.8,
+        "wind_mph": 10.1,
+        "wind_dir_deg": 135
+      },
       "factors": [
         {
           "m": "-",
@@ -611,8 +617,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -658,8 +663,8 @@
         "pitcher_id": 641743,
         "pitcher_name": "Anthony Kay",
         "pitcher_hand": "L",
-        "ml": 120,
-        "implied": 45.5
+        "ml": 119,
+        "implied": 45.7
       },
       "home": {
         "team": "Astros",
@@ -670,8 +675,8 @@
         "pitcher_id": 663567,
         "pitcher_name": "Peter Lambert",
         "pitcher_hand": "R",
-        "ml": -129,
-        "implied": 56.3
+        "ml": -128,
+        "implied": 56.1
       },
       "weather": null,
       "factors": [
@@ -784,7 +789,17 @@
       "lat": 33.80019044,
       "lon": -117.8823996,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          700250,
+          641355,
+          671277,
+          642708,
+          663757,
+          665862,
+          682987,
+          676609,
+          669224
+        ],
         "home": [
           687263,
           545361,
@@ -806,8 +821,8 @@
         "pitcher_id": 695684,
         "pitcher_name": "Elmer Rodr\u00edguez",
         "pitcher_hand": "R",
-        "ml": -119,
-        "implied": 54.3
+        "ml": -121,
+        "implied": 54.8
       },
       "home": {
         "team": "Angels",
@@ -818,24 +833,20 @@
         "pitcher_id": 700712,
         "pitcher_name": "Walbert Ure\u00f1a",
         "pitcher_hand": "R",
-        "ml": 111,
-        "implied": 47.4
+        "ml": 113,
+        "implied": 46.9
       },
-      "weather": {
-        "temp_f": 77.9,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 239
-      },
+      "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Yankees lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Walbert Ure\u00f1a holds LHB to a 0.650 OPS; Yankees project 78% L-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -865,7 +876,17 @@
           702222,
           596117
         ],
-        "home": []
+        "home": [
+          672695,
+          682998,
+          672515,
+          606466,
+          663457,
+          571448,
+          694374,
+          545121,
+          814439
+        ]
       },
       "away": {
         "team": "Phillies",
@@ -876,8 +897,8 @@
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": "R",
-        "ml": -111,
-        "implied": 52.6
+        "ml": -105,
+        "implied": 51.2
       },
       "home": {
         "team": "D-backs",
@@ -888,24 +909,24 @@
         "pitcher_id": 694297,
         "pitcher_name": "Brandon Pfaadt",
         "pitcher_hand": "R",
-        "ml": 103,
-        "implied": 49.3
+        "ml": -102,
+        "implied": 50.5
       },
       "weather": {
-        "temp_f": 88.3,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 154
+        "temp_f": 87.9,
+        "wind_mph": 4.6,
+        "wind_dir_deg": 141
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "D-backs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Aaron Nola is vulnerable to RHB (0.807 OPS) and D-backs skew R-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
