@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "generated": "2026-09-01T00:10:40",
+  "generated": "2026-09-01T01:29:39",
   "games": [
     {
       "game_pk": 824911,
@@ -37,7 +37,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "56-81",
+        "record": "57-81",
         "pitcher_id": 683627,
         "pitcher_name": "Anthony Molina",
         "pitcher_hand": "R",
@@ -49,7 +49,7 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "82-55",
+        "record": "82-56",
         "pitcher_id": 693821,
         "pitcher_name": "Bryce Elder",
         "pitcher_hand": "R",
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 86.9,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 80
+        "temp_f": 87.1,
+        "wind_mph": 6.3,
+        "wind_dir_deg": 73
       },
       "factors": [],
       "lean": "even",
@@ -129,9 +129,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 85.2,
-        "wind_mph": 4.5,
-        "wind_dir_deg": 217
+        "temp_f": 84.8,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 218
       },
       "factors": [],
       "lean": "even",
@@ -181,7 +181,7 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "61-76",
+        "record": "62-76",
         "pitcher_id": 476594,
         "pitcher_name": "Robert Stock",
         "pitcher_hand": "R",
@@ -193,7 +193,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "82-54",
+        "record": "82-55",
         "pitcher_id": 693855,
         "pitcher_name": "Ian Seymour",
         "pitcher_hand": "L",
@@ -201,26 +201,20 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 77.0,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 85
+        "temp_f": 76.9,
+        "wind_mph": 8.9,
+        "wind_dir_deg": 78
       },
       "factors": [
-        {
-          "m": "-",
-          "side": "away",
-          "label": "Handedness matchup",
-          "text": "Robert Stock is vulnerable to LHB (0.784 OPS) and Rays skew L-handed."
-        },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Ian Seymour holds RHB to a 0.657 OPS; Mets project 62% R-handed today."
+          "text": "Ian Seymour holds RHB to a 0.656 OPS; Mets project 62% R-handed today."
         }
       ],
       "lean": "home",
-      "weight": 2,
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -286,9 +280,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 71.5,
-        "wind_mph": 7.7,
-        "wind_dir_deg": 188
+        "temp_f": 71.6,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 174
       },
       "factors": [],
       "lean": "even",
@@ -358,9 +352,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 80.9,
-        "wind_mph": 2.1,
-        "wind_dir_deg": 18
+        "temp_f": 78.6,
+        "wind_mph": 3.8,
+        "wind_dir_deg": 144
       },
       "factors": [
         {
@@ -437,9 +431,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 84.6,
-        "wind_mph": 4.5,
-        "wind_dir_deg": 267
+        "temp_f": 84.3,
+        "wind_mph": 4.8,
+        "wind_dir_deg": 281
       },
       "factors": [],
       "lean": "even",
@@ -509,9 +503,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 79.9,
-        "wind_mph": 4.0,
-        "wind_dir_deg": 199
+        "temp_f": 79.5,
+        "wind_mph": 4.8,
+        "wind_dir_deg": 221
       },
       "factors": [
         {
@@ -594,9 +588,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 97.8,
-        "wind_mph": 10.1,
-        "wind_dir_deg": 135
+        "temp_f": 97.9,
+        "wind_mph": 8.3,
+        "wind_dir_deg": 153
       },
       "factors": [
         {
@@ -663,8 +657,8 @@
         "pitcher_id": 641743,
         "pitcher_name": "Anthony Kay",
         "pitcher_hand": "L",
-        "ml": 119,
-        "implied": 45.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Astros",
@@ -675,10 +669,14 @@
         "pitcher_id": 663567,
         "pitcher_name": "Peter Lambert",
         "pitcher_hand": "R",
-        "ml": -128,
-        "implied": 56.1
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 85.4,
+        "wind_mph": 3.3,
+        "wind_dir_deg": 208
+      },
       "factors": [
         {
           "m": "-",
@@ -698,8 +696,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -745,8 +742,8 @@
         "pitcher_id": 700249,
         "pitcher_name": "Cade Povich",
         "pitcher_hand": "L",
-        "ml": -120,
-        "implied": 54.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Rockies",
@@ -757,10 +754,14 @@
         "pitcher_id": 685299,
         "pitcher_name": "Tanner Gordon",
         "pitcher_hand": "R",
-        "ml": 112,
-        "implied": 47.2
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 85.0,
+        "wind_mph": 9.7,
+        "wind_dir_deg": 128
+      },
       "factors": [
         {
           "m": "-",
@@ -774,8 +775,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -836,7 +836,11 @@
         "ml": 113,
         "implied": 46.9
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 77.9,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 238
+      },
       "factors": [
         {
           "m": "+",
@@ -913,9 +917,9 @@
         "implied": 50.5
       },
       "weather": {
-        "temp_f": 87.9,
-        "wind_mph": 4.6,
-        "wind_dir_deg": 141
+        "temp_f": 88.1,
+        "wind_mph": 5.9,
+        "wind_dir_deg": 130
       },
       "factors": [
         {
