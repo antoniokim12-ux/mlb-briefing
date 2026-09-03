@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "generated": "2026-09-03T00:48:40",
+  "generated": "2026-09-03T05:29:52",
   "games": [
     {
       "game_pk": 824470,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 88.5,
-        "wind_mph": 5.1,
-        "wind_dir_deg": 195
+        "temp_f": 87.6,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 225
       },
       "factors": [
         {
@@ -136,9 +136,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 74.1,
-        "wind_mph": 2.4,
-        "wind_dir_deg": 56
+        "temp_f": 75.1,
+        "wind_mph": 2.6,
+        "wind_dir_deg": 322
       },
       "factors": [],
       "lean": "even",
@@ -208,9 +208,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 96.3,
-        "wind_mph": 11.9,
-        "wind_dir_deg": 77
+        "temp_f": 95.9,
+        "wind_mph": 12.1,
+        "wind_dir_deg": 89
       },
       "factors": [
         {
@@ -293,9 +293,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 87.9,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 80
+        "temp_f": 87.0,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 25
       },
       "factors": [],
       "lean": "even",
@@ -365,9 +365,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 100.9,
-        "wind_mph": 5.8,
-        "wind_dir_deg": 272
+        "temp_f": 101.6,
+        "wind_mph": 10.1,
+        "wind_dir_deg": 291
       },
       "factors": [
         {
@@ -450,9 +450,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 66.1,
-        "wind_mph": 6.0,
-        "wind_dir_deg": 88
+        "temp_f": 68.9,
+        "wind_mph": 5.3,
+        "wind_dir_deg": 102
       },
       "factors": [],
       "lean": "even",
@@ -502,7 +502,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "57-82",
+        "record": "58-82",
         "pitcher_id": 694738,
         "pitcher_name": "Landen Roupp",
         "pitcher_hand": "R",
@@ -514,14 +514,18 @@
         "team_full": "Pittsburgh Pirates",
         "abbr": "PIT",
         "team_id": 134,
-        "record": "68-71",
+        "record": "68-72",
         "pitcher_id": 696149,
         "pitcher_name": "Bubba Chandler",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 87.6,
+        "wind_mph": 6.2,
+        "wind_dir_deg": 201
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -570,7 +574,7 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "62-77",
+        "record": "63-77",
         "pitcher_id": 663795,
         "pitcher_name": "Justin Hagenman",
         "pitcher_hand": "R",
@@ -582,17 +586,28 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "83-55",
+        "record": "83-56",
         "pitcher_id": 643377,
         "pitcher_name": "Griffin Jax",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
-      "factors": [],
-      "lean": "even",
-      "weight": 0,
+      "weather": {
+        "temp_f": 78.2,
+        "wind_mph": 6.1,
+        "wind_dir_deg": 54
+      },
+      "factors": [
+        {
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Justin Hagenman holds LHB to a 0.393 OPS; Rays project 75% L-handed today."
+        }
+      ],
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -638,7 +653,7 @@
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "68-71",
+        "record": "69-71",
         "pitcher_id": 656302,
         "pitcher_name": "Dylan Cease",
         "pitcher_hand": "R",
@@ -650,20 +665,24 @@
         "team_full": "Cleveland Guardians",
         "abbr": "CLE",
         "team_id": 114,
-        "record": "70-68",
+        "record": "70-69",
         "pitcher_id": 676282,
         "pitcher_name": "Joey Cantillo",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.5,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 230
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Dylan Cease holds LHB to a 0.536 OPS; Guardians project 80% L-handed today."
+          "text": "Dylan Cease holds LHB to a 0.532 OPS; Guardians project 80% L-handed today."
         }
       ],
       "lean": "away",
@@ -713,7 +732,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "63-75",
+        "record": "64-75",
         "pitcher_id": 623454,
         "pitcher_name": "Drew Anderson",
         "pitcher_hand": "R",
@@ -725,24 +744,20 @@
         "team_full": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "record": "67-72",
+        "record": "67-73",
         "pitcher_id": 665152,
         "pitcher_name": "Dean Kremer",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 85.3,
-        "wind_mph": 3.0,
-        "wind_dir_deg": 132
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Dean Kremer is vulnerable to LHB (0.874 OPS) and Tigers skew L-handed."
+          "text": "Dean Kremer is vulnerable to LHB (0.852 OPS) and Tigers skew L-handed."
         }
       ],
       "lean": "away",
@@ -792,7 +807,7 @@
         "team_full": "Miami Marlins",
         "abbr": "MIA",
         "team_id": 146,
-        "record": "70-69",
+        "record": "71-69",
         "pitcher_id": 691587,
         "pitcher_name": "Eury P\u00e9rez",
         "pitcher_hand": "R",
@@ -804,24 +819,20 @@
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "62-77",
+        "record": "62-78",
         "pitcher_id": 702070,
         "pitcher_name": "Noah Cameron",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 96.3,
-        "wind_mph": 9.4,
-        "wind_dir_deg": 166
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Eury P\u00e9rez holds LHB to a 0.562 OPS; Royals project 67% L-handed today."
+          "text": "Eury P\u00e9rez holds LHB to a 0.603 OPS; Royals project 67% L-handed today."
         },
         {
           "m": "+",
@@ -877,7 +888,7 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "86-53",
+        "record": "87-53",
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
@@ -889,30 +900,26 @@
         "team_full": "Chicago Cubs",
         "abbr": "CHC",
         "team_id": 112,
-        "record": "78-61",
+        "record": "78-62",
         "pitcher_id": 656849,
         "pitcher_name": "David Peterson",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 88.5,
-        "wind_mph": 5.4,
-        "wind_dir_deg": 218
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Jacob Misiorowski holds RHB to a 0.544 OPS; Cubs project 75% R-handed today."
+          "text": "Jacob Misiorowski holds RHB to a 0.577 OPS; Cubs project 75% R-handed today."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "David Peterson is vulnerable to RHB (0.786 OPS) and Brewers skew R-handed."
+          "text": "David Peterson is vulnerable to RHB (0.810 OPS) and Brewers skew R-handed."
         }
       ],
       "lean": "away",
@@ -962,7 +969,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "73-65",
+        "record": "73-66",
         "pitcher_id": 663436,
         "pitcher_name": "Davis Martin",
         "pitcher_hand": "R",
@@ -974,24 +981,20 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "70-69",
+        "record": "71-69",
         "pitcher_id": 669713,
         "pitcher_name": "Hayden Wesneski",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 86.8,
-        "wind_mph": 9.7,
-        "wind_dir_deg": 154
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Hayden Wesneski holds LHB to a 0.636 OPS; White Sox project 71% L-handed today."
+          "text": "Hayden Wesneski holds LHB to a 0.565 OPS; White Sox project 71% L-handed today."
         }
       ],
       "lean": "home",
@@ -1041,36 +1044,32 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "79-60",
+        "record": "80-60",
         "pitcher_id": 693645,
         "pitcher_name": "Cam Schlittler",
         "pitcher_hand": "R",
-        "ml": -167,
-        "implied": 62.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Angels",
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "53-86",
+        "record": "53-87",
         "pitcher_id": 672282,
         "pitcher_name": "Reid Detmers",
         "pitcher_hand": "L",
-        "ml": 138,
-        "implied": 42.0
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 76.8,
-        "wind_mph": 8.3,
-        "wind_dir_deg": 239
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Cam Schlittler holds RHB to a 0.548 OPS; Angels project 78% R-handed today."
+          "text": "Cam Schlittler holds RHB to a 0.533 OPS; Angels project 78% R-handed today."
         }
       ],
       "lean": "away",
@@ -1078,8 +1077,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -1121,36 +1119,32 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "69-70",
+        "record": "70-70",
         "pitcher_id": 802408,
         "pitcher_name": "Brycen Mautz",
         "pitcher_hand": "L",
-        "ml": 242,
-        "implied": 29.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Dodgers",
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "82-56",
+        "record": "82-57",
         "pitcher_id": 808967,
         "pitcher_name": "Yoshinobu Yamamoto",
         "pitcher_hand": "R",
-        "ml": -305,
-        "implied": 75.3
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 71.0,
-        "wind_mph": 5.8,
-        "wind_dir_deg": 254
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Brycen Mautz is vulnerable to LHB (0.855 OPS) and Dodgers skew L-handed."
+          "text": "Brycen Mautz is vulnerable to LHB (1.255 OPS) and Dodgers skew L-handed."
         }
       ],
       "lean": "home",
@@ -1158,8 +1152,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
