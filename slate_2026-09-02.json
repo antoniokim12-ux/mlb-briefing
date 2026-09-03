@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "generated": "2026-09-02T22:53:58",
+  "generated": "2026-09-03T00:48:40",
   "games": [
     {
       "game_pk": 824470,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 90.2,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 223
+        "temp_f": 88.5,
+        "wind_mph": 5.1,
+        "wind_dir_deg": 195
       },
       "factors": [
         {
@@ -136,9 +136,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 88.5,
-        "wind_mph": 5.1,
-        "wind_dir_deg": 49
+        "temp_f": 74.1,
+        "wind_mph": 2.4,
+        "wind_dir_deg": 56
       },
       "factors": [],
       "lean": "even",
@@ -208,9 +208,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 96.4,
-        "wind_mph": 4.0,
-        "wind_dir_deg": 56
+        "temp_f": 96.3,
+        "wind_mph": 11.9,
+        "wind_dir_deg": 77
       },
       "factors": [
         {
@@ -293,9 +293,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 88.0,
-        "wind_mph": 4.9,
-        "wind_dir_deg": 95
+        "temp_f": 87.9,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 80
       },
       "factors": [],
       "lean": "even",
@@ -365,9 +365,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 98.9,
-        "wind_mph": 2.7,
-        "wind_dir_deg": 235
+        "temp_f": 100.9,
+        "wind_mph": 5.8,
+        "wind_dir_deg": 272
       },
       "factors": [
         {
@@ -430,7 +430,7 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "65-74",
+        "record": "66-74",
         "pitcher_id": 682243,
         "pitcher_name": "Bryce Miller",
         "pitcher_hand": "R",
@@ -442,7 +442,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "75-64",
+        "record": "75-65",
         "pitcher_id": 663776,
         "pitcher_name": "Patrick Sandoval",
         "pitcher_hand": "L",
@@ -450,9 +450,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 71.8,
-        "wind_mph": 10.9,
-        "wind_dir_deg": 75
+        "temp_f": 66.1,
+        "wind_mph": 6.0,
+        "wind_dir_deg": 88
       },
       "factors": [],
       "lean": "even",
@@ -521,11 +521,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 92.5,
-        "wind_mph": 10.3,
-        "wind_dir_deg": 226
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -593,11 +589,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 83.6,
-        "wind_mph": 8.0,
-        "wind_dir_deg": 308
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -665,11 +657,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 92.6,
-        "wind_mph": 7.3,
-        "wind_dir_deg": 252
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -729,8 +717,8 @@
         "pitcher_id": 623454,
         "pitcher_name": "Drew Anderson",
         "pitcher_hand": "R",
-        "ml": -102,
-        "implied": 50.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Twins",
@@ -741,13 +729,13 @@
         "pitcher_id": 665152,
         "pitcher_name": "Dean Kremer",
         "pitcher_hand": "R",
-        "ml": -118,
-        "implied": 54.1
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 86.6,
-        "wind_mph": 2.5,
-        "wind_dir_deg": 95
+        "temp_f": 85.3,
+        "wind_mph": 3.0,
+        "wind_dir_deg": 132
       },
       "factors": [
         {
@@ -762,8 +750,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -809,8 +796,8 @@
         "pitcher_id": 691587,
         "pitcher_name": "Eury P\u00e9rez",
         "pitcher_hand": "R",
-        "ml": -103,
-        "implied": 50.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Royals",
@@ -821,13 +808,13 @@
         "pitcher_id": 702070,
         "pitcher_name": "Noah Cameron",
         "pitcher_hand": "L",
-        "ml": -117,
-        "implied": 53.9
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 98.8,
-        "wind_mph": 11.8,
-        "wind_dir_deg": 195
+        "temp_f": 96.3,
+        "wind_mph": 9.4,
+        "wind_dir_deg": 166
       },
       "factors": [
         {
@@ -848,8 +835,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -895,8 +881,8 @@
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
-        "ml": -157,
-        "implied": 61.1
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Cubs",
@@ -907,10 +893,14 @@
         "pitcher_id": 656849,
         "pitcher_name": "David Peterson",
         "pitcher_hand": "L",
-        "ml": 130,
-        "implied": 43.5
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.5,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 218
+      },
       "factors": [
         {
           "m": "+",
@@ -930,8 +920,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -977,8 +966,8 @@
         "pitcher_id": 663436,
         "pitcher_name": "Davis Martin",
         "pitcher_hand": "R",
-        "ml": 118,
-        "implied": 45.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Astros",
@@ -989,10 +978,14 @@
         "pitcher_id": 669713,
         "pitcher_name": "Hayden Wesneski",
         "pitcher_hand": "R",
-        "ml": -142,
-        "implied": 58.7
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 86.8,
+        "wind_mph": 9.7,
+        "wind_dir_deg": 154
+      },
       "factors": [
         {
           "m": "+",
@@ -1006,8 +999,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -1039,7 +1031,7 @@
           687093,
           694208,
           695681,
-          666139,
+          642350,
           672724,
           518595
         ]
@@ -1053,8 +1045,8 @@
         "pitcher_id": 693645,
         "pitcher_name": "Cam Schlittler",
         "pitcher_hand": "R",
-        "ml": -164,
-        "implied": 62.1
+        "ml": -167,
+        "implied": 62.5
       },
       "home": {
         "team": "Angels",
@@ -1065,16 +1057,20 @@
         "pitcher_id": 672282,
         "pitcher_name": "Reid Detmers",
         "pitcher_hand": "L",
-        "ml": 136,
-        "implied": 42.4
+        "ml": 138,
+        "implied": 42.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 76.8,
+        "wind_mph": 8.3,
+        "wind_dir_deg": 239
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Cam Schlittler holds RHB to a 0.548 OPS; Angels project 67% R-handed today."
+          "text": "Cam Schlittler holds RHB to a 0.548 OPS; Angels project 78% R-handed today."
         }
       ],
       "lean": "away",
@@ -1129,8 +1125,8 @@
         "pitcher_id": 802408,
         "pitcher_name": "Brycen Mautz",
         "pitcher_hand": "L",
-        "ml": 225,
-        "implied": 30.8
+        "ml": 242,
+        "implied": 29.2
       },
       "home": {
         "team": "Dodgers",
@@ -1141,10 +1137,14 @@
         "pitcher_id": 808967,
         "pitcher_name": "Yoshinobu Yamamoto",
         "pitcher_hand": "R",
-        "ml": -281,
-        "implied": 73.8
+        "ml": -305,
+        "implied": 75.3
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 71.0,
+        "wind_mph": 5.8,
+        "wind_dir_deg": 254
+      },
       "factors": [
         {
           "m": "-",
