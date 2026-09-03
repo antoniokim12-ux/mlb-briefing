@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "generated": "2026-09-03T07:19:59",
+  "generated": "2026-09-03T21:30:20",
   "games": [
     {
       "game_pk": 823337,
@@ -9,59 +9,65 @@
       "lat": 40.446904,
       "lon": -80.005753,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          687551,
+          646240,
+          805811,
+          813841,
+          806367,
+          668800,
+          694376,
+          801501,
+          683766
+        ],
+        "home": [
+          687462,
+          664040,
+          668804,
+          693304,
+          665833,
+          663968,
+          804668,
+          694378,
+          669707
+        ]
       },
       "away": {
         "team": "Giants",
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "58-82",
+        "record": "58-83",
         "pitcher_id": 694918,
         "pitcher_name": "Blade Tidwell",
         "pitcher_hand": "R",
-        "ml": 139,
-        "implied": 41.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Pirates",
         "team_full": "Pittsburgh Pirates",
         "abbr": "PIT",
         "team_id": 134,
-        "record": "68-72",
+        "record": "69-72",
         "pitcher_id": 669199,
         "pitcher_name": "Lake Bachar",
         "pitcher_hand": "R",
-        "ml": -168,
-        "implied": 62.7
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 90.5,
-        "wind_mph": 8.6,
-        "wind_dir_deg": 249
+        "temp_f": 78.5,
+        "wind_mph": 7.7,
+        "wind_dir_deg": 165
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Pirates lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Giants lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -75,59 +81,65 @@
       "lat": 41.495861,
       "lon": -81.685255,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          703520,
+          664770,
+          665489,
+          660821,
+          815873,
+          669701,
+          665926,
+          676391,
+          678218
+        ],
+        "home": [
+          680757,
+          800050,
+          608070,
+          666176,
+          663993,
+          694197,
+          683953,
+          595978,
+          677587
+        ]
       },
       "away": {
         "team": "Blue Jays",
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "69-71",
+        "record": "70-71",
         "pitcher_id": 667755,
         "pitcher_name": "Jos\u00e9 Soriano",
         "pitcher_hand": "R",
-        "ml": -112,
-        "implied": 52.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Guardians",
         "team_full": "Cleveland Guardians",
         "abbr": "CLE",
         "team_id": 114,
-        "record": "70-69",
+        "record": "70-70",
         "pitcher_id": 676440,
         "pitcher_name": "Tanner Bibee",
         "pitcher_hand": "R",
-        "ml": -107,
-        "implied": 51.7
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 88.2,
-        "wind_mph": 12.3,
-        "wind_dir_deg": 286
+        "temp_f": 89.8,
+        "wind_mph": 7.4,
+        "wind_dir_deg": 265
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Blue Jays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -141,59 +153,72 @@
       "lat": 29.756967,
       "lon": -95.355509,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          803011,
+          808959,
+          678246,
+          643217,
+          695731,
+          695657,
+          805367,
+          671976,
+          668670
+        ],
+        "home": [
+          665161,
+          670541,
+          670623,
+          514888,
+          662139,
+          572233,
+          666211,
+          673237,
+          664774
+        ]
       },
       "away": {
         "team": "White Sox",
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "73-66",
+        "record": "73-67",
         "pitcher_id": 622491,
         "pitcher_name": "Luis Castillo",
         "pitcher_hand": "R",
-        "ml": 134,
-        "implied": 42.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Astros",
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "71-69",
+        "record": "72-69",
         "pitcher_id": 686613,
         "pitcher_name": "Hunter Brown",
         "pitcher_hand": "R",
-        "ml": -162,
-        "implied": 61.8
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 90.9,
-        "wind_mph": 3.7,
-        "wind_dir_deg": 163
+        "temp_f": 87.7,
+        "wind_mph": 3.9,
+        "wind_dir_deg": 13
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Astros lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "White Sox lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Hunter Brown holds LHB to a 0.694 OPS; White Sox project 62% L-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -207,8 +232,28 @@
       "lat": 39.283787,
       "lon": -76.621689,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          701350,
+          681508,
+          668939,
+          677800,
+          686765,
+          702332,
+          680776,
+          642201,
+          643396
+        ],
+        "home": [
+          677942,
+          691723,
+          673357,
+          624413,
+          683002,
+          687952,
+          665750,
+          687637,
+          665966
+        ]
       },
       "away": {
         "team": "Red Sox",
@@ -219,8 +264,8 @@
         "pitcher_id": 687562,
         "pitcher_name": "Jake Bennett",
         "pitcher_hand": "L",
-        "ml": -136,
-        "implied": 57.6
+        "ml": -123,
+        "implied": 55.2
       },
       "home": {
         "team": "Orioles",
@@ -231,30 +276,24 @@
         "pitcher_id": 687064,
         "pitcher_name": "Brandon Young",
         "pitcher_hand": "R",
-        "ml": 113,
-        "implied": 46.9
+        "ml": 102,
+        "implied": 49.5
       },
       "weather": {
-        "temp_f": 93.2,
+        "temp_f": 86.6,
         "wind_mph": 1.8,
-        "wind_dir_deg": 263
+        "wind_dir_deg": 173
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Orioles lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Red Sox lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Jake Bennett holds RHB to a 0.656 OPS; Orioles project 75% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -273,8 +312,28 @@
       "lat": 41.948171,
       "lon": -87.655503,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          694192,
+          668930,
+          661388,
+          641343,
+          683734,
+          592885,
+          669003,
+          687401,
+          666152
+        ],
+        "home": [
+          691718,
+          673548,
+          683737,
+          608324,
+          664023,
+          663538,
+          699393,
+          624424,
+          608348
+        ]
       },
       "away": {
         "team": "Brewers",
@@ -285,8 +344,8 @@
         "pitcher_id": 701656,
         "pitcher_name": "Logan Henderson",
         "pitcher_hand": "R",
-        "ml": -114,
-        "implied": 53.3
+        "ml": -121,
+        "implied": 54.8
       },
       "home": {
         "team": "Cubs",
@@ -297,28 +356,15 @@
         "pitcher_id": 592332,
         "pitcher_name": "Kevin Gausman",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": 100,
+        "implied": 50.0
       },
       "weather": {
-        "temp_f": 79.4,
-        "wind_mph": 12.4,
-        "wind_dir_deg": 6
+        "temp_f": 77.1,
+        "wind_mph": 7.6,
+        "wind_dir_deg": 130
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Cubs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -339,8 +385,28 @@
       "lat": 39.051567,
       "lon": -94.480483,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          681715,
+          669065,
+          672640,
+          665052,
+          691594,
+          805300,
+          682663,
+          691788,
+          688363
+        ],
+        "home": [
+          695600,
+          677951,
+          695506,
+          521692,
+          686469,
+          686681,
+          668942,
+          686555,
+          664728
+        ]
       },
       "away": {
         "team": "Marlins",
@@ -351,8 +417,8 @@
         "pitcher_id": 645261,
         "pitcher_name": "Sandy Alcantara",
         "pitcher_hand": "R",
-        "ml": -120,
-        "implied": 54.5
+        "ml": -101,
+        "implied": 50.2
       },
       "home": {
         "team": "Royals",
@@ -363,30 +429,24 @@
         "pitcher_id": 608379,
         "pitcher_name": "Michael Wacha",
         "pitcher_hand": "R",
-        "ml": 100,
-        "implied": 50.0
+        "ml": -120,
+        "implied": 54.5
       },
       "weather": {
-        "temp_f": 99.0,
-        "wind_mph": 12.5,
-        "wind_dir_deg": 171
+        "temp_f": 98.8,
+        "wind_mph": 9.2,
+        "wind_dir_deg": 174
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Royals lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Marlins lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Sandy Alcantara holds LHB to a 0.680 OPS; Royals project 75% L-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -405,8 +465,28 @@
       "lat": 32.747299,
       "lon": -97.081818,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          650490,
+          802415,
+          691406,
+          666018,
+          676356,
+          656775,
+          622761,
+          680700,
+          663743
+        ],
+        "home": [
+          677649,
+          608369,
+          694671,
+          607043,
+          679822,
+          669394,
+          681351,
+          683227,
+          553869
+        ]
       },
       "away": {
         "team": "Rays",
@@ -417,8 +497,8 @@
         "pitcher_id": 663556,
         "pitcher_name": "Shane McClanahan",
         "pitcher_hand": "L",
-        "ml": -126,
-        "implied": 55.8
+        "ml": -127,
+        "implied": 55.9
       },
       "home": {
         "team": "Rangers",
@@ -429,30 +509,24 @@
         "pitcher_id": 615698,
         "pitcher_name": "Cal Quantrill",
         "pitcher_hand": "R",
-        "ml": 104,
-        "implied": 49.0
+        "ml": 105,
+        "implied": 48.8
       },
       "weather": {
-        "temp_f": 90.1,
-        "wind_mph": 11.7,
-        "wind_dir_deg": 168
+        "temp_f": 89.8,
+        "wind_mph": 12.2,
+        "wind_dir_deg": 144
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rangers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Shane McClanahan holds RHB to a 0.615 OPS; Rangers project 78% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -483,8 +557,8 @@
         "pitcher_id": 678022,
         "pitcher_name": "Jack Perkins",
         "pitcher_hand": "R",
-        "ml": 167,
-        "implied": 37.5
+        "ml": 181,
+        "implied": 35.6
       },
       "home": {
         "team": "Mariners",
@@ -495,10 +569,14 @@
         "pitcher_id": 807739,
         "pitcher_name": "Kade Anderson",
         "pitcher_hand": "L",
-        "ml": -205,
-        "implied": 67.2
+        "ml": -223,
+        "implied": 69.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 64.2,
+        "wind_mph": 2.0,
+        "wind_dir_deg": 360
+      },
       "factors": [
         {
           "m": "~",
@@ -560,7 +638,11 @@
         "ml": -311,
         "implied": 75.7
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 70.6,
+        "wind_mph": 6.4,
+        "wind_dir_deg": 252
+      },
       "factors": [
         {
           "m": "~",
