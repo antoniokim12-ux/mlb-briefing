@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "generated": "2026-09-04T00:29:32",
+  "generated": "2026-09-04T05:30:51",
   "games": [
     {
       "game_pk": 823337,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 73.7,
-        "wind_mph": 4.3,
-        "wind_dir_deg": 137
+        "temp_f": 70.2,
+        "wind_mph": 10.0,
+        "wind_dir_deg": 44
       },
       "factors": [],
       "lean": "even",
@@ -129,9 +129,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 72.1,
-        "wind_mph": 4.9,
-        "wind_dir_deg": 87
+        "temp_f": 69.5,
+        "wind_mph": 10.6,
+        "wind_dir_deg": 120
       },
       "factors": [],
       "lean": "even",
@@ -201,9 +201,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 81.2,
-        "wind_mph": 2.0,
-        "wind_dir_deg": 117
+        "temp_f": 82.4,
+        "wind_mph": 2.2,
+        "wind_dir_deg": 143
       },
       "factors": [
         {
@@ -260,7 +260,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "75-65",
+        "record": "76-65",
         "pitcher_id": 687562,
         "pitcher_name": "Jake Bennett",
         "pitcher_hand": "L",
@@ -272,7 +272,7 @@
         "team_full": "Baltimore Orioles",
         "abbr": "BAL",
         "team_id": 110,
-        "record": "69-71",
+        "record": "69-72",
         "pitcher_id": 687064,
         "pitcher_name": "Brandon Young",
         "pitcher_hand": "R",
@@ -280,16 +280,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 83.5,
-        "wind_mph": 3.8,
-        "wind_dir_deg": 144
+        "temp_f": 85.8,
+        "wind_mph": 2.0,
+        "wind_dir_deg": 153
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Jake Bennett holds RHB to a 0.656 OPS; Orioles project 75% R-handed today."
+          "text": "Jake Bennett holds RHB to a 0.673 OPS; Orioles project 75% R-handed today."
         }
       ],
       "lean": "away",
@@ -339,7 +339,7 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "87-53",
+        "record": "87-54",
         "pitcher_id": 701656,
         "pitcher_name": "Logan Henderson",
         "pitcher_hand": "R",
@@ -351,7 +351,7 @@
         "team_full": "Chicago Cubs",
         "abbr": "CHC",
         "team_id": 112,
-        "record": "78-62",
+        "record": "79-62",
         "pitcher_id": 592332,
         "pitcher_name": "Kevin Gausman",
         "pitcher_hand": "R",
@@ -359,9 +359,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 78.0,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 121
+        "temp_f": 76.6,
+        "wind_mph": 5.9,
+        "wind_dir_deg": 133
       },
       "factors": [],
       "lean": "even",
@@ -411,7 +411,7 @@
         "team_full": "Miami Marlins",
         "abbr": "MIA",
         "team_id": 146,
-        "record": "71-69",
+        "record": "71-70",
         "pitcher_id": 645261,
         "pitcher_name": "Sandy Alcantara",
         "pitcher_hand": "R",
@@ -423,7 +423,7 @@
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "62-78",
+        "record": "63-78",
         "pitcher_id": 608379,
         "pitcher_name": "Michael Wacha",
         "pitcher_hand": "R",
@@ -431,16 +431,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 95.2,
-        "wind_mph": 10.8,
-        "wind_dir_deg": 156
+        "temp_f": 93.5,
+        "wind_mph": 9.9,
+        "wind_dir_deg": 162
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Sandy Alcantara holds LHB to a 0.680 OPS; Royals project 75% L-handed today."
+          "text": "Sandy Alcantara holds LHB to a 0.692 OPS; Royals project 75% L-handed today."
         }
       ],
       "lean": "away",
@@ -490,7 +490,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "83-56",
+        "record": "83-57",
         "pitcher_id": 663556,
         "pitcher_name": "Shane McClanahan",
         "pitcher_hand": "L",
@@ -502,7 +502,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "69-71",
+        "record": "70-71",
         "pitcher_id": 615698,
         "pitcher_name": "Cal Quantrill",
         "pitcher_hand": "R",
@@ -510,16 +510,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 89.6,
-        "wind_mph": 10.1,
-        "wind_dir_deg": 139
+        "temp_f": 88.7,
+        "wind_mph": 12.1,
+        "wind_dir_deg": 150
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Shane McClanahan holds RHB to a 0.615 OPS; Rangers project 78% R-handed today."
+          "text": "Shane McClanahan holds RHB to a 0.623 OPS; Rangers project 78% R-handed today."
         }
       ],
       "lean": "away",
@@ -569,51 +569,40 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "54-86",
+        "record": "55-86",
         "pitcher_id": 678022,
         "pitcher_name": "Jack Perkins",
         "pitcher_hand": "R",
-        "ml": 181,
-        "implied": 35.6
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Mariners",
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "66-74",
+        "record": "66-75",
         "pitcher_id": 807739,
         "pitcher_name": "Kade Anderson",
         "pitcher_hand": "L",
-        "ml": -223,
-        "implied": 69.0
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 63.1,
-        "wind_mph": 7.1,
-        "wind_dir_deg": 242
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
           "text": "Jack Perkins is vulnerable to LHB (0.829 OPS) and Mariners skew L-handed."
-        },
-        {
-          "m": "+",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Kade Anderson holds RHB to a 0.683 OPS; Athletics project 75% R-handed today."
         }
       ],
       "lean": "home",
-      "weight": 2,
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -655,36 +644,32 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "70-70",
+        "record": "70-71",
         "pitcher_id": 687273,
         "pitcher_name": "Quinn Mathews",
         "pitcher_hand": "L",
-        "ml": 228,
-        "implied": 30.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Dodgers",
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "82-57",
+        "record": "83-57",
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": "L",
-        "ml": -285,
-        "implied": 74.0
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 71.0,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 251
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Tarik Skubal holds RHB to a 0.549 OPS; Cardinals project 88% R-handed today."
+          "text": "Tarik Skubal holds RHB to a 0.572 OPS; Cardinals project 88% R-handed today."
         }
       ],
       "lean": "home",
@@ -692,8 +677,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
