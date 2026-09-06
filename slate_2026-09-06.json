@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "generated": "2026-09-06T20:59:11",
+  "generated": "2026-09-06T22:29:21",
   "games": [
     {
       "game_pk": 824469,
@@ -601,7 +601,7 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "75-68",
+        "record": "76-68",
         "pitcher_id": 593958,
         "pitcher_name": "Eduardo Rodriguez",
         "pitcher_hand": "L",
@@ -613,20 +613,24 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "73-70",
+        "record": "73-71",
         "pitcher_id": 663567,
         "pitcher_name": "Peter Lambert",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 81.1,
+        "wind_mph": 4.5,
+        "wind_dir_deg": 189
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Eduardo Rodriguez holds RHB to a 0.668 OPS; Astros project 78% R-handed today."
+          "text": "Eduardo Rodriguez holds RHB to a 0.655 OPS; Astros project 78% R-handed today."
         }
       ],
       "lean": "away",
@@ -695,7 +699,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 96.7,
+        "wind_mph": 4.5,
+        "wind_dir_deg": 99
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -744,7 +752,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "85-57",
+        "record": "85-58",
         "pitcher_id": 693855,
         "pitcher_name": "Ian Seymour",
         "pitcher_hand": "L",
@@ -756,20 +764,24 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "70-73",
+        "record": "71-73",
         "pitcher_id": 669022,
         "pitcher_name": "MacKenzie Gore",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 96.9,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 99
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Ian Seymour holds RHB to a 0.656 OPS; Rangers project 78% R-handed today."
+          "text": "Ian Seymour holds RHB to a 0.681 OPS; Rangers project 78% R-handed today."
         }
       ],
       "lean": "away",
@@ -819,7 +831,7 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "71-72",
+        "record": "72-72",
         "pitcher_id": 681517,
         "pitcher_name": "Kyle Leahy",
         "pitcher_hand": "R",
@@ -831,20 +843,24 @@
         "team_full": "Colorado Rockies",
         "abbr": "COL",
         "team_id": 115,
-        "record": "55-87",
+        "record": "55-88",
         "pitcher_id": 685299,
         "pitcher_name": "Tanner Gordon",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.6,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 68
+      },
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Kyle Leahy is vulnerable to LHB (0.847 OPS) and Rockies skew L-handed."
+          "text": "Kyle Leahy is vulnerable to LHB (0.864 OPS) and Rockies skew L-handed."
         }
       ],
       "lean": "home",
@@ -913,7 +929,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 67.4,
+        "wind_mph": 5.6,
+        "wind_dir_deg": 320
+      },
       "factors": [
         {
           "m": "-",
@@ -988,7 +1008,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 84.0,
+        "wind_mph": 6.9,
+        "wind_dir_deg": 335
+      },
       "factors": [
         {
           "m": "+",
@@ -1048,8 +1072,8 @@
         "pitcher_id": 641927,
         "pitcher_name": "Bailey Ober",
         "pitcher_hand": "R",
-        "ml": 115,
-        "implied": 46.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "White Sox",
@@ -1060,13 +1084,13 @@
         "pitcher_id": 663542,
         "pitcher_name": "Bryan Hudson",
         "pitcher_hand": "L",
-        "ml": -139,
-        "implied": 58.2
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 73.8,
+        "temp_f": 74.1,
         "wind_mph": 12.5,
-        "wind_dir_deg": 35
+        "wind_dir_deg": 29
       },
       "factors": [],
       "lean": "even",
@@ -1074,8 +1098,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -1090,7 +1113,17 @@
       "lon": -118.24053,
       "lineup_ids": {
         "away": [],
-        "home": []
+        "home": [
+          669242,
+          605141,
+          669257,
+          518692,
+          606192,
+          663656,
+          500743,
+          571970,
+          571771
+        ]
       },
       "away": {
         "team": "Nationals",
@@ -1101,8 +1134,8 @@
         "pitcher_id": 674841,
         "pitcher_name": "Andrew Alvarez",
         "pitcher_hand": "L",
-        "ml": 163,
-        "implied": 38.0
+        "ml": 167,
+        "implied": 37.5
       },
       "home": {
         "team": "Dodgers",
@@ -1113,20 +1146,20 @@
         "pitcher_id": 680736,
         "pitcher_name": "Justin Wrobleski",
         "pitcher_hand": "L",
-        "ml": -199,
-        "implied": 66.6
+        "ml": -204,
+        "implied": 67.1
       },
       "weather": {
-        "temp_f": 73.3,
-        "wind_mph": 3.4,
-        "wind_dir_deg": 349
+        "temp_f": 72.4,
+        "wind_mph": 1.8,
+        "wind_dir_deg": 7
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Dodgers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Andrew Alvarez holds RHB to a 0.660 OPS; Dodgers project 62% R-handed today."
         },
         {
           "m": "~",
@@ -1135,8 +1168,8 @@
           "text": "Nationals lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
