@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "generated": "2026-09-07T21:50:31",
+  "generated": "2026-09-07T23:05:55",
   "games": [
     {
       "game_pk": 823415,
@@ -602,9 +602,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 97.5,
-        "wind_mph": 9.0,
-        "wind_dir_deg": 316
+        "temp_f": 95.1,
+        "wind_mph": 10.1,
+        "wind_dir_deg": 307
       },
       "factors": [
         {
@@ -665,8 +665,8 @@
         "pitcher_id": 700241,
         "pitcher_name": "Michael McGreevy",
         "pitcher_hand": "R",
-        "ml": 113,
-        "implied": 46.9
+        "ml": 109,
+        "implied": 47.8
       },
       "home": {
         "team": "Giants",
@@ -677,12 +677,12 @@
         "pitcher_id": 657277,
         "pitcher_name": "Logan Webb",
         "pitcher_hand": "R",
-        "ml": -136,
-        "implied": 57.6
+        "ml": -131,
+        "implied": 56.7
       },
       "weather": {
-        "temp_f": 75.1,
-        "wind_mph": 12.4,
+        "temp_f": 75.6,
+        "wind_mph": 11.8,
         "wind_dir_deg": 284
       },
       "factors": [],
@@ -717,7 +717,17 @@
           699115,
           663647
         ],
-        "home": []
+        "home": [
+          660271,
+          518692,
+          669242,
+          571970,
+          606192,
+          663656,
+          676439,
+          669743,
+          690976
+        ]
       },
       "away": {
         "team": "Reds",
@@ -728,8 +738,8 @@
         "pitcher_id": 695505,
         "pitcher_name": "Chase Burns",
         "pitcher_hand": "R",
-        "ml": 148,
-        "implied": 40.3
+        "ml": 152,
+        "implied": 39.7
       },
       "home": {
         "team": "Dodgers",
@@ -737,25 +747,14 @@
         "abbr": "LAD",
         "team_id": 119,
         "record": "86-57",
-        "pitcher_id": null,
-        "pitcher_name": "TBD",
-        "pitcher_hand": null,
-        "ml": -180,
-        "implied": 64.3
+        "pitcher_id": 686218,
+        "pitcher_name": "Emmet Sheehan",
+        "pitcher_hand": "R",
+        "ml": -185,
+        "implied": 64.9
       },
-      "weather": {
-        "temp_f": 81.1,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 252
-      },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Dodgers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "weather": null,
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -813,11 +812,7 @@
         "ml": 177,
         "implied": 36.1
       },
-      "weather": {
-        "temp_f": 82.9,
-        "wind_mph": 4.4,
-        "wind_dir_deg": 15
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
