@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "generated": "2026-09-07T00:27:58",
+  "generated": "2026-09-07T05:43:10",
   "games": [
     {
       "game_pk": 824469,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 75.4,
-        "wind_mph": 5.4,
-        "wind_dir_deg": 24
+        "temp_f": 74.3,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 34
       },
       "factors": [
         {
@@ -142,9 +142,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 73.6,
-        "wind_mph": 4.7,
-        "wind_dir_deg": 17
+        "temp_f": 73.5,
+        "wind_mph": 4.6,
+        "wind_dir_deg": 76
       },
       "factors": [
         {
@@ -221,9 +221,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 74.7,
-        "wind_mph": 3.8,
-        "wind_dir_deg": 7
+        "temp_f": 75.0,
+        "wind_mph": 3.0,
+        "wind_dir_deg": 17
       },
       "factors": [
         {
@@ -300,9 +300,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 68.4,
-        "wind_mph": 5.4,
-        "wind_dir_deg": 24
+        "temp_f": 70.6,
+        "wind_mph": 2.3,
+        "wind_dir_deg": 29
       },
       "factors": [],
       "lean": "even",
@@ -373,8 +373,8 @@
       },
       "weather": {
         "temp_f": 69.0,
-        "wind_mph": 6.4,
-        "wind_dir_deg": 36
+        "wind_mph": 6.2,
+        "wind_dir_deg": 44
       },
       "factors": [
         {
@@ -451,9 +451,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 67.7,
-        "wind_mph": 5.6,
-        "wind_dir_deg": 127
+        "temp_f": 67.9,
+        "wind_mph": 3.8,
+        "wind_dir_deg": 140
       },
       "factors": [
         {
@@ -909,11 +909,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 70.4,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 316
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -982,9 +978,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 89.3,
-        "wind_mph": 10.1,
-        "wind_dir_deg": 356
+        "temp_f": 90.1,
+        "wind_mph": 10.3,
+        "wind_dir_deg": 336
       },
       "factors": [
         {
@@ -1041,7 +1037,7 @@
         "team_full": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "record": "68-74",
+        "record": "68-75",
         "pitcher_id": 641927,
         "pitcher_name": "Bailey Ober",
         "pitcher_hand": "R",
@@ -1053,7 +1049,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "74-68",
+        "record": "75-68",
         "pitcher_id": 663542,
         "pitcher_name": "Bryan Hudson",
         "pitcher_hand": "L",
@@ -1061,9 +1057,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 71.4,
-        "wind_mph": 12.0,
-        "wind_dir_deg": 35
+        "temp_f": 71.2,
+        "wind_mph": 11.2,
+        "wind_dir_deg": 29
       },
       "factors": [],
       "lean": "even",
@@ -1113,42 +1109,42 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "67-77",
+        "record": "67-78",
         "pitcher_id": 674841,
         "pitcher_name": "Andrew Alvarez",
         "pitcher_hand": "L",
-        "ml": 163,
-        "implied": 38.0
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Dodgers",
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "85-57",
+        "record": "86-57",
         "pitcher_id": 680736,
         "pitcher_name": "Justin Wrobleski",
         "pitcher_hand": "L",
-        "ml": -199,
-        "implied": 66.6
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 73.2,
-        "wind_mph": 1.4,
-        "wind_dir_deg": 51
+        "temp_f": 72.9,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 2
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Andrew Alvarez holds RHB to a 0.660 OPS; Dodgers project 62% R-handed today."
+          "text": "Andrew Alvarez holds RHB to a 0.656 OPS; Dodgers project 62% R-handed today."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Justin Wrobleski holds RHB to a 0.674 OPS; Nationals project 62% R-handed today."
+          "text": "Justin Wrobleski holds RHB to a 0.687 OPS; Nationals project 62% R-handed today."
         }
       ],
       "lean": "even",
@@ -1156,8 +1152,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
