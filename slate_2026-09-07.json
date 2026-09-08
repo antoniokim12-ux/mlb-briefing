@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "generated": "2026-09-07T23:05:55",
+  "generated": "2026-09-08T00:48:03",
   "games": [
     {
       "game_pk": 823415,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 79.8,
-        "wind_mph": 6.1,
-        "wind_dir_deg": 332
+        "temp_f": 73.5,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 308
       },
       "factors": [
         {
@@ -142,9 +142,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 85.3,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 139
+        "temp_f": 78.5,
+        "wind_mph": 3.5,
+        "wind_dir_deg": 162
       },
       "factors": [
         {
@@ -221,9 +221,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 80.3,
-        "wind_mph": 8.7,
-        "wind_dir_deg": 299
+        "temp_f": 71.7,
+        "wind_mph": 6.3,
+        "wind_dir_deg": 278
       },
       "factors": [
         {
@@ -300,9 +300,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 80.6,
-        "wind_mph": 4.5,
-        "wind_dir_deg": 354
+        "temp_f": 75.0,
+        "wind_mph": 3.0,
+        "wind_dir_deg": 27
       },
       "factors": [],
       "lean": "even",
@@ -372,9 +372,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 88.0,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 136
+        "temp_f": 90.3,
+        "wind_mph": 9.3,
+        "wind_dir_deg": 105
       },
       "factors": [
         {
@@ -451,9 +451,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 76.4,
-        "wind_mph": 10.0,
-        "wind_dir_deg": 124
+        "temp_f": 69.2,
+        "wind_mph": 5.1,
+        "wind_dir_deg": 113
       },
       "factors": [
         {
@@ -530,9 +530,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 78.2,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 85
+        "temp_f": 70.6,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 84
       },
       "factors": [],
       "lean": "even",
@@ -582,7 +582,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "67-78",
+        "record": "67-79",
         "pitcher_id": 663623,
         "pitcher_name": "Jake Irvin",
         "pitcher_hand": "R",
@@ -594,24 +594,20 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "75-68",
+        "record": "76-68",
         "pitcher_id": 601713,
         "pitcher_name": "Nick Pivetta",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 95.1,
-        "wind_mph": 10.1,
-        "wind_dir_deg": 307
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Nick Pivetta holds LHB to a 0.658 OPS; Nationals project 62% L-handed today."
+          "text": "Nick Pivetta holds LHB to a 0.595 OPS; Nationals project 62% L-handed today."
         }
       ],
       "lean": "home",
@@ -665,8 +661,8 @@
         "pitcher_id": 700241,
         "pitcher_name": "Michael McGreevy",
         "pitcher_hand": "R",
-        "ml": 109,
-        "implied": 47.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Giants",
@@ -677,22 +673,17 @@
         "pitcher_id": 657277,
         "pitcher_name": "Logan Webb",
         "pitcher_hand": "R",
-        "ml": -131,
-        "implied": 56.7
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 75.6,
-        "wind_mph": 11.8,
-        "wind_dir_deg": 284
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -738,8 +729,8 @@
         "pitcher_id": 695505,
         "pitcher_name": "Chase Burns",
         "pitcher_hand": "R",
-        "ml": 152,
-        "implied": 39.7
+        "ml": 149,
+        "implied": 40.2
       },
       "home": {
         "team": "Dodgers",
@@ -750,8 +741,8 @@
         "pitcher_id": 686218,
         "pitcher_name": "Emmet Sheehan",
         "pitcher_hand": "R",
-        "ml": -185,
-        "implied": 64.9
+        "ml": -181,
+        "implied": 64.4
       },
       "weather": null,
       "factors": [],
@@ -775,7 +766,17 @@
       "lat": 38.57994,
       "lon": -121.51246,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          703520,
+          543807,
+          665489,
+          672386,
+          672960,
+          664770,
+          676391,
+          665926,
+          664702
+        ],
         "home": [
           703607,
           643446,
@@ -797,8 +798,8 @@
         "pitcher_id": 656302,
         "pitcher_name": "Dylan Cease",
         "pitcher_hand": "R",
-        "ml": -217,
-        "implied": 68.5
+        "ml": -208,
+        "implied": 67.5
       },
       "home": {
         "team": "Athletics",
@@ -809,20 +810,20 @@
         "pitcher_id": 682052,
         "pitcher_name": "Jacob Lopez",
         "pitcher_hand": "L",
-        "ml": 177,
-        "implied": 36.1
+        "ml": 170,
+        "implied": 37.0
       },
       "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Blue Jays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Jacob Lopez is vulnerable to RHB (0.817 OPS) and Blue Jays skew R-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
