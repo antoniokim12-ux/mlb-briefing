@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "generated": "2026-09-08T00:48:03",
+  "generated": "2026-09-08T05:37:25",
   "games": [
     {
       "game_pk": 823415,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 73.5,
-        "wind_mph": 4.0,
-        "wind_dir_deg": 308
+        "temp_f": 73.1,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 325
       },
       "factors": [
         {
@@ -142,9 +142,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 78.5,
-        "wind_mph": 3.5,
-        "wind_dir_deg": 162
+        "temp_f": 76.1,
+        "wind_mph": 3.2,
+        "wind_dir_deg": 352
       },
       "factors": [
         {
@@ -221,9 +221,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 71.7,
-        "wind_mph": 6.3,
-        "wind_dir_deg": 278
+        "temp_f": 72.6,
+        "wind_mph": 6.0,
+        "wind_dir_deg": 283
       },
       "factors": [
         {
@@ -300,9 +300,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 75.0,
-        "wind_mph": 3.0,
-        "wind_dir_deg": 27
+        "temp_f": 73.0,
+        "wind_mph": 3.4,
+        "wind_dir_deg": 79
       },
       "factors": [],
       "lean": "even",
@@ -372,9 +372,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 90.3,
-        "wind_mph": 9.3,
-        "wind_dir_deg": 105
+        "temp_f": 87.8,
+        "wind_mph": 9.6,
+        "wind_dir_deg": 106
       },
       "factors": [
         {
@@ -452,8 +452,8 @@
       },
       "weather": {
         "temp_f": 69.2,
-        "wind_mph": 5.1,
-        "wind_dir_deg": 113
+        "wind_mph": 5.2,
+        "wind_dir_deg": 121
       },
       "factors": [
         {
@@ -529,11 +529,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 70.6,
-        "wind_mph": 4.1,
-        "wind_dir_deg": 84
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -657,7 +653,7 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "72-72",
+        "record": "72-73",
         "pitcher_id": 700241,
         "pitcher_name": "Michael McGreevy",
         "pitcher_hand": "R",
@@ -669,7 +665,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "59-85",
+        "record": "60-85",
         "pitcher_id": 657277,
         "pitcher_name": "Logan Webb",
         "pitcher_hand": "R",
@@ -725,24 +721,24 @@
         "team_full": "Cincinnati Reds",
         "abbr": "CIN",
         "team_id": 113,
-        "record": "69-74",
+        "record": "69-75",
         "pitcher_id": 695505,
         "pitcher_name": "Chase Burns",
         "pitcher_hand": "R",
-        "ml": 149,
-        "implied": 40.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Dodgers",
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "86-57",
+        "record": "87-57",
         "pitcher_id": 686218,
         "pitcher_name": "Emmet Sheehan",
         "pitcher_hand": "R",
-        "ml": -181,
-        "implied": 64.4
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [],
@@ -751,8 +747,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -794,24 +789,24 @@
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "72-72",
+        "record": "72-73",
         "pitcher_id": 656302,
         "pitcher_name": "Dylan Cease",
         "pitcher_hand": "R",
-        "ml": -208,
-        "implied": 67.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Athletics",
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "57-87",
+        "record": "58-87",
         "pitcher_id": 682052,
         "pitcher_name": "Jacob Lopez",
         "pitcher_hand": "L",
-        "ml": 170,
-        "implied": 37.0
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -819,7 +814,7 @@
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Jacob Lopez is vulnerable to RHB (0.817 OPS) and Blue Jays skew R-handed."
+          "text": "Jacob Lopez is vulnerable to RHB (0.823 OPS) and Blue Jays skew R-handed."
         }
       ],
       "lean": "away",
@@ -827,8 +822,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
