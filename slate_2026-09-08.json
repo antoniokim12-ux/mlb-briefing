@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "generated": "2026-09-08T23:03:04",
+  "generated": "2026-09-09T00:49:59",
   "games": [
     {
       "game_pk": 824792,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 83.3,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 104
+        "temp_f": 77.5,
+        "wind_mph": 3.6,
+        "wind_dir_deg": 79
       },
       "factors": [
         {
@@ -136,9 +136,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 79.8,
-        "wind_mph": 6.7,
-        "wind_dir_deg": 186
+        "temp_f": 73.1,
+        "wind_mph": 3.5,
+        "wind_dir_deg": 135
       },
       "factors": [
         {
@@ -215,9 +215,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 82.2,
-        "wind_mph": 4.8,
-        "wind_dir_deg": 236
+        "temp_f": 77.1,
+        "wind_mph": 3.4,
+        "wind_dir_deg": 8
       },
       "factors": [
         {
@@ -300,9 +300,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 84.8,
-        "wind_mph": 5.4,
-        "wind_dir_deg": 114
+        "temp_f": 82.1,
+        "wind_mph": 2.6,
+        "wind_dir_deg": 70
       },
       "factors": [
         {
@@ -385,9 +385,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 70.8,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 101
+        "temp_f": 67.7,
+        "wind_mph": 2.7,
+        "wind_dir_deg": 95
       },
       "factors": [
         {
@@ -448,8 +448,8 @@
         "pitcher_id": 687312,
         "pitcher_name": "Gabriel Hughes",
         "pitcher_hand": "R",
-        "ml": 277,
-        "implied": 26.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Yankees",
@@ -460,13 +460,13 @@
         "pitcher_id": 693645,
         "pitcher_name": "Cam Schlittler",
         "pitcher_hand": "R",
-        "ml": -354,
-        "implied": 78.0
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 78.0,
-        "wind_mph": 2.3,
-        "wind_dir_deg": 61
+        "temp_f": 74.5,
+        "wind_mph": 3.0,
+        "wind_dir_deg": 312
       },
       "factors": [
         {
@@ -481,8 +481,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -528,8 +527,8 @@
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": "R",
-        "ml": -103,
-        "implied": 50.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Braves",
@@ -540,22 +539,17 @@
         "pitcher_id": 700363,
         "pitcher_name": "AJ Smith-Shawver",
         "pitcher_hand": "R",
-        "ml": -117,
-        "implied": 53.9
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 86.1,
-        "wind_mph": 7.2,
-        "wind_dir_deg": 95
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -601,8 +595,8 @@
         "pitcher_id": 669203,
         "pitcher_name": "Corbin Burnes",
         "pitcher_hand": "R",
-        "ml": -106,
-        "implied": 51.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Royals",
@@ -613,14 +607,10 @@
         "pitcher_id": 608379,
         "pitcher_name": "Michael Wacha",
         "pitcher_hand": "R",
-        "ml": -114,
-        "implied": 53.3
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 100.0,
-        "wind_mph": 10.3,
-        "wind_dir_deg": 207
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -634,8 +624,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -681,8 +670,8 @@
         "pitcher_id": 696149,
         "pitcher_name": "Bubba Chandler",
         "pitcher_hand": "R",
-        "ml": 119,
-        "implied": 45.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "White Sox",
@@ -693,22 +682,17 @@
         "pitcher_id": 680732,
         "pitcher_name": "Sean Burke",
         "pitcher_hand": "R",
-        "ml": -144,
-        "implied": 59.0
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 82.7,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 174
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -754,8 +738,8 @@
         "pitcher_id": 656849,
         "pitcher_name": "David Peterson",
         "pitcher_hand": "L",
-        "ml": 168,
-        "implied": 37.3
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Brewers",
@@ -766,14 +750,10 @@
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
-        "ml": -205,
-        "implied": 67.2
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 77.3,
-        "wind_mph": 7.6,
-        "wind_dir_deg": 175
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -793,8 +773,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -840,8 +819,8 @@
         "pitcher_id": 683000,
         "pitcher_name": "Riley Cornelio",
         "pitcher_hand": "R",
-        "ml": 158,
-        "implied": 38.8
+        "ml": 165,
+        "implied": 37.7
       },
       "home": {
         "team": "Padres",
@@ -852,8 +831,8 @@
         "pitcher_id": 663554,
         "pitcher_name": "Casey Mize",
         "pitcher_hand": "R",
-        "ml": -193,
-        "implied": 65.9
+        "ml": -202,
+        "implied": 66.9
       },
       "weather": null,
       "factors": [
@@ -916,8 +895,8 @@
         "pitcher_id": 615698,
         "pitcher_name": "Cal Quantrill",
         "pitcher_hand": "R",
-        "ml": 108,
-        "implied": 48.1
+        "ml": 103,
+        "implied": 49.3
       },
       "home": {
         "team": "Mariners",
@@ -928,8 +907,8 @@
         "pitcher_id": 682243,
         "pitcher_name": "Bryce Miller",
         "pitcher_hand": "R",
-        "ml": -130,
-        "implied": 56.5
+        "ml": -124,
+        "implied": 55.4
       },
       "weather": null,
       "factors": [
@@ -992,8 +971,8 @@
         "pitcher_id": 667755,
         "pitcher_name": "Jos\u00e9 Soriano",
         "pitcher_hand": "R",
-        "ml": -186,
-        "implied": 65.0
+        "ml": -181,
+        "implied": 64.4
       },
       "home": {
         "team": "Athletics",
@@ -1004,10 +983,14 @@
         "pitcher_id": 678022,
         "pitcher_name": "Jack Perkins",
         "pitcher_hand": "R",
-        "ml": 153,
-        "implied": 39.5
+        "ml": 149,
+        "implied": 40.2
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 92.2,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 342
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1076,7 +1059,11 @@
         "ml": -110,
         "implied": 52.4
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 75.7,
+        "wind_mph": 12.0,
+        "wind_dir_deg": 280
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1130,8 +1117,8 @@
         "pitcher_id": 666157,
         "pitcher_name": "Nick Lodolo",
         "pitcher_hand": "L",
-        "ml": 250,
-        "implied": 28.6
+        "ml": 248,
+        "implied": 28.7
       },
       "home": {
         "team": "Dodgers",
@@ -1142,10 +1129,14 @@
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": "L",
-        "ml": -316,
-        "implied": 76.0
+        "ml": -313,
+        "implied": 75.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 85.1,
+        "wind_mph": 9.6,
+        "wind_dir_deg": 338
+      },
       "factors": [
         {
           "m": "-",
