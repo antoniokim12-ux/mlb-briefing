@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "generated": "2026-09-10T21:18:04",
+  "generated": "2026-09-10T22:49:12",
   "games": [
     {
       "game_pk": 824872,
@@ -195,7 +195,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "72-74",
+        "record": "72-75",
         "pitcher_id": 594798,
         "pitcher_name": "Jacob deGrom",
         "pitcher_hand": "R",
@@ -207,7 +207,7 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "68-78",
+        "record": "69-78",
         "pitcher_id": 669302,
         "pitcher_name": "Logan Gilbert",
         "pitcher_hand": "R",
@@ -215,16 +215,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 66.0,
-        "wind_mph": 2.2,
-        "wind_dir_deg": 315
+        "temp_f": 66.5,
+        "wind_mph": 2.7,
+        "wind_dir_deg": 279
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Jacob deGrom holds LHB to a 0.636 OPS; Mariners project 71% L-handed today."
+          "text": "Jacob deGrom holds LHB to a 0.613 OPS; Mariners project 71% L-handed today."
         }
       ],
       "lean": "away",
@@ -294,9 +294,9 @@
         "implied": 75.3
       },
       "weather": {
-        "temp_f": 82.7,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 275
+        "temp_f": 83.1,
+        "wind_mph": 5.5,
+        "wind_dir_deg": 258
       },
       "factors": [
         {
@@ -364,8 +364,8 @@
         "pitcher_id": 683003,
         "pitcher_name": "Jared Jones",
         "pitcher_hand": "R",
-        "ml": -104,
-        "implied": 51.0
+        "ml": -105,
+        "implied": 51.2
       },
       "home": {
         "team": "White Sox",
@@ -380,9 +380,9 @@
         "implied": 53.5
       },
       "weather": {
-        "temp_f": 70.4,
-        "wind_mph": 6.0,
-        "wind_dir_deg": 68
+        "temp_f": 70.5,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 50
       },
       "factors": [],
       "lean": "even",
