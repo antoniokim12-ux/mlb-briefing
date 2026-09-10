@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "generated": "2026-09-09T22:49:49",
+  "generated": "2026-09-10T00:43:46",
   "games": [
     {
       "game_pk": 824226,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 73.1,
-        "wind_mph": 8.8,
-        "wind_dir_deg": 266
+        "temp_f": 73.0,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 231
       },
       "factors": [],
       "lean": "even",
@@ -129,9 +129,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 90.7,
-        "wind_mph": 5.3,
-        "wind_dir_deg": 324
+        "temp_f": 98.2,
+        "wind_mph": 4.9,
+        "wind_dir_deg": 336
       },
       "factors": [
         {
@@ -214,9 +214,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 87.8,
-        "wind_mph": 1.9,
-        "wind_dir_deg": 21
+        "temp_f": 90.2,
+        "wind_mph": 10.1,
+        "wind_dir_deg": 288
       },
       "factors": [
         {
@@ -273,7 +273,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "67-80",
+        "record": "67-81",
         "pitcher_id": 800600,
         "pitcher_name": "Jackson Kent",
         "pitcher_hand": "L",
@@ -285,7 +285,7 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "77-68",
+        "record": "78-68",
         "pitcher_id": 621111,
         "pitcher_name": "Walker Buehler",
         "pitcher_hand": "R",
@@ -293,9 +293,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 92.1,
-        "wind_mph": 8.4,
-        "wind_dir_deg": 214
+        "temp_f": 85.5,
+        "wind_mph": 5.7,
+        "wind_dir_deg": 231
       },
       "factors": [],
       "lean": "even",
@@ -365,9 +365,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 68.1,
-        "wind_mph": 5.4,
-        "wind_dir_deg": 287
+        "temp_f": 74.3,
+        "wind_mph": 4.8,
+        "wind_dir_deg": 326
       },
       "factors": [
         {
@@ -444,9 +444,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 88.0,
-        "wind_mph": 10.7,
-        "wind_dir_deg": 190
+        "temp_f": 81.1,
+        "wind_mph": 5.5,
+        "wind_dir_deg": 166
       },
       "factors": [],
       "lean": "even",
@@ -516,9 +516,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 84.6,
-        "wind_mph": 10.3,
-        "wind_dir_deg": 181
+        "temp_f": 79.4,
+        "wind_mph": 9.9,
+        "wind_dir_deg": 177
       },
       "factors": [
         {
@@ -594,11 +594,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 86.0,
-        "wind_mph": 5.3,
-        "wind_dir_deg": 68
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -679,11 +675,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 75.0,
-        "wind_mph": 11.2,
-        "wind_dir_deg": 183
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -743,8 +735,8 @@
         "pitcher_id": 608372,
         "pitcher_name": "Tomoyuki Sugano",
         "pitcher_hand": "R",
-        "ml": 203,
-        "implied": 33.0
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Yankees",
@@ -755,14 +747,10 @@
         "pitcher_id": 701542,
         "pitcher_name": "Will Warren",
         "pitcher_hand": "R",
-        "ml": -251,
-        "implied": 71.5
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 77.5,
-        "wind_mph": 9.3,
-        "wind_dir_deg": 163
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -782,8 +770,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -829,8 +816,8 @@
         "pitcher_id": 643377,
         "pitcher_name": "Griffin Jax",
         "pitcher_hand": "R",
-        "ml": 104,
-        "implied": 49.0
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Braves",
@@ -841,22 +828,17 @@
         "pitcher_id": 625643,
         "pitcher_name": "Reynaldo L\u00f3pez",
         "pitcher_hand": "R",
-        "ml": -126,
-        "implied": 55.8
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 88.2,
-        "wind_mph": 5.4,
-        "wind_dir_deg": 114
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -902,8 +884,8 @@
         "pitcher_id": 668678,
         "pitcher_name": "Zac Gallen",
         "pitcher_hand": "R",
-        "ml": -120,
-        "implied": 54.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Royals",
@@ -914,8 +896,8 @@
         "pitcher_id": 663738,
         "pitcher_name": "Daniel Lynch IV",
         "pitcher_hand": "L",
-        "ml": 100,
-        "implied": 50.0
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -931,8 +913,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -978,8 +959,8 @@
         "pitcher_id": 669199,
         "pitcher_name": "Lake Bachar",
         "pitcher_hand": "R",
-        "ml": 109,
-        "implied": 47.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "White Sox",
@@ -990,8 +971,8 @@
         "pitcher_id": 663436,
         "pitcher_name": "Davis Martin",
         "pitcher_hand": "R",
-        "ml": -131,
-        "implied": 56.7
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -1007,8 +988,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -1054,8 +1034,8 @@
         "pitcher_id": 592332,
         "pitcher_name": "Kevin Gausman",
         "pitcher_hand": "R",
-        "ml": 111,
-        "implied": 47.4
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Brewers",
@@ -1066,18 +1046,21 @@
         "pitcher_id": 701656,
         "pitcher_name": "Logan Henderson",
         "pitcher_hand": "R",
-        "ml": -134,
-        "implied": 57.3
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 77.1,
+        "wind_mph": 5.5,
+        "wind_dir_deg": 238
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -1110,7 +1093,7 @@
           606192,
           663656,
           676439,
-          518692,
+          690976,
           571771
         ]
       },
@@ -1138,7 +1121,11 @@
         "ml": -291,
         "implied": 74.4
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 89.6,
+        "wind_mph": 4.6,
+        "wind_dir_deg": 259
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
