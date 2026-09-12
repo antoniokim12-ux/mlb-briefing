@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "generated": "2026-09-12T21:08:20",
+  "generated": "2026-09-12T22:42:55",
   "games": [
     {
       "game_pk": 824224,
@@ -260,7 +260,7 @@
         "team_full": "Baltimore Orioles",
         "abbr": "BAL",
         "team_id": 110,
-        "record": "72-76",
+        "record": "72-77",
         "pitcher_id": 680694,
         "pitcher_name": "Kyle Bradish",
         "pitcher_hand": "R",
@@ -272,7 +272,7 @@
         "team_full": "Toronto Blue Jays",
         "abbr": "TOR",
         "team_id": 141,
-        "record": "73-75",
+        "record": "74-75",
         "pitcher_id": 693686,
         "pitcher_name": "Spencer Miles",
         "pitcher_hand": "R",
@@ -352,9 +352,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 80.7,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 127
+        "temp_f": 79.9,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 115
       },
       "factors": [
         {
@@ -437,9 +437,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 67.9,
-        "wind_mph": 13.3,
-        "wind_dir_deg": 277
+        "temp_f": 69.5,
+        "wind_mph": 12.2,
+        "wind_dir_deg": 276
       },
       "factors": [
         {
@@ -502,7 +502,7 @@
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "66-82",
+        "record": "66-83",
         "pitcher_id": 677976,
         "pitcher_name": "Randy Dobnak",
         "pitcher_hand": "R",
@@ -514,18 +514,14 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "80-68",
+        "record": "81-68",
         "pitcher_id": 624133,
         "pitcher_name": "Ranger Suarez",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 72.0,
-        "wind_mph": 10.0,
-        "wind_dir_deg": 81
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -593,11 +589,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 74.5,
-        "wind_mph": 12.1,
-        "wind_dir_deg": 295
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -672,11 +664,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 87.5,
-        "wind_mph": 10.1,
-        "wind_dir_deg": 159
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -736,8 +724,8 @@
         "pitcher_id": 663567,
         "pitcher_name": "Peter Lambert",
         "pitcher_hand": "R",
-        "ml": 123,
-        "implied": 44.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Rays",
@@ -748,14 +736,10 @@
         "pitcher_id": 693855,
         "pitcher_name": "Ian Seymour",
         "pitcher_hand": "L",
-        "ml": -149,
-        "implied": 59.8
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 84.7,
-        "wind_mph": 2.9,
-        "wind_dir_deg": 337
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -775,8 +759,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -995,7 +978,11 @@
         "ml": -108,
         "implied": 51.9
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 88.9,
+        "wind_mph": 3.8,
+        "wind_dir_deg": 234
+      },
       "factors": [
         {
           "m": "+",
@@ -1030,8 +1017,28 @@
       "lat": 33.445302,
       "lon": -112.066687,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          592626,
+          608369,
+          673962,
+          607043,
+          677649,
+          694671,
+          669394,
+          670032,
+          553869
+        ],
+        "home": [
+          663457,
+          606466,
+          672515,
+          672695,
+          682998,
+          571448,
+          694374,
+          656976,
+          814439
+        ]
       },
       "away": {
         "team": "Rangers",
@@ -1042,8 +1049,8 @@
         "pitcher_id": 677958,
         "pitcher_name": "Kumar Rocker",
         "pitcher_hand": "R",
-        "ml": 109,
-        "implied": 47.8
+        "ml": 113,
+        "implied": 46.9
       },
       "home": {
         "team": "D-backs",
@@ -1054,24 +1061,15 @@
         "pitcher_id": 694297,
         "pitcher_name": "Brandon Pfaadt",
         "pitcher_hand": "R",
-        "ml": -131,
-        "implied": 56.7
+        "ml": -136,
+        "implied": 57.6
       },
-      "weather": null,
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "D-backs lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rangers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "weather": {
+        "temp_f": 101.8,
+        "wind_mph": 3.4,
+        "wind_dir_deg": 274
+      },
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -1092,8 +1090,28 @@
       "lat": 38.57994,
       "lon": -121.51246,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          641487,
+          668227,
+          686527,
+          663728,
+          677594,
+          647304,
+          702284,
+          703197,
+          642215
+        ],
+        "home": [
+          703607,
+          643446,
+          671732,
+          669127,
+          622268,
+          680869,
+          666126,
+          641680,
+          675961
+        ]
       },
       "away": {
         "team": "Mariners",
@@ -1104,8 +1122,8 @@
         "pitcher_id": 693433,
         "pitcher_name": "Bryan Woo",
         "pitcher_hand": "R",
-        "ml": -170,
-        "implied": 63.0
+        "ml": -156,
+        "implied": 60.9
       },
       "home": {
         "team": "Athletics",
@@ -1116,24 +1134,15 @@
         "pitcher_id": 695611,
         "pitcher_name": "Gage Jump",
         "pitcher_hand": "L",
-        "ml": 140,
-        "implied": 41.7
+        "ml": 129,
+        "implied": 43.7
       },
-      "weather": null,
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Athletics lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Mariners lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "weather": {
+        "temp_f": 77.1,
+        "wind_mph": 13.3,
+        "wind_dir_deg": 234
+      },
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
