@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "generated": "2026-09-13T21:13:48",
+  "generated": "2026-09-13T22:42:46",
   "games": [
     {
       "game_pk": 824225,
@@ -823,7 +823,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 69.5,
+        "wind_mph": 11.5,
+        "wind_dir_deg": 12
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
