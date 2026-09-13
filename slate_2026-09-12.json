@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "generated": "2026-09-13T00:30:11",
+  "generated": "2026-09-13T05:40:33",
   "games": [
     {
       "game_pk": 824224,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 75.1,
-        "wind_mph": 7.2,
-        "wind_dir_deg": 180
+        "temp_f": 75.7,
+        "wind_mph": 6.9,
+        "wind_dir_deg": 182
       },
       "factors": [],
       "lean": "even",
@@ -129,9 +129,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 71.7,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 153
+        "temp_f": 73.3,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 139
       },
       "factors": [],
       "lean": "even",
@@ -201,9 +201,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 81.9,
-        "wind_mph": 4.1,
-        "wind_dir_deg": 248
+        "temp_f": 81.0,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 265
       },
       "factors": [
         {
@@ -280,9 +280,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 68.2,
-        "wind_mph": 2.9,
-        "wind_dir_deg": 23
+        "temp_f": 69.2,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 62
       },
       "factors": [],
       "lean": "even",
@@ -352,9 +352,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 75.9,
-        "wind_mph": 9.0,
-        "wind_dir_deg": 94
+        "temp_f": 77.6,
+        "wind_mph": 4.8,
+        "wind_dir_deg": 118
       },
       "factors": [
         {
@@ -437,9 +437,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 66.3,
-        "wind_mph": 17.8,
-        "wind_dir_deg": 289
+        "temp_f": 68.2,
+        "wind_mph": 16.6,
+        "wind_dir_deg": 286
       },
       "factors": [
         {
@@ -458,7 +458,7 @@
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "18 mph wind (dir 289\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "17 mph wind (dir 286\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -529,8 +529,8 @@
       },
       "weather": {
         "temp_f": 67.8,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 174
+        "wind_mph": 7.4,
+        "wind_dir_deg": 185
       },
       "factors": [],
       "lean": "even",
@@ -600,9 +600,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 68.6,
-        "wind_mph": 8.6,
-        "wind_dir_deg": 311
+        "temp_f": 67.8,
+        "wind_mph": 8.5,
+        "wind_dir_deg": 300
       },
       "factors": [
         {
@@ -679,9 +679,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 79.4,
-        "wind_mph": 3.0,
-        "wind_dir_deg": 312
+        "temp_f": 79.2,
+        "wind_mph": 3.3,
+        "wind_dir_deg": 344
       },
       "factors": [
         {
@@ -738,7 +738,7 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "75-73",
+        "record": "75-74",
         "pitcher_id": 663567,
         "pitcher_name": "Peter Lambert",
         "pitcher_hand": "R",
@@ -750,7 +750,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "88-59",
+        "record": "89-59",
         "pitcher_id": 693855,
         "pitcher_name": "Ian Seymour",
         "pitcher_hand": "L",
@@ -758,22 +758,22 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 80.5,
-        "wind_mph": 1.4,
-        "wind_dir_deg": 39
+        "temp_f": 80.8,
+        "wind_mph": 1.0,
+        "wind_dir_deg": 27
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Peter Lambert holds LHB to a 0.582 OPS; Rays project 67% L-handed today."
+          "text": "Peter Lambert holds LHB to a 0.594 OPS; Rays project 67% L-handed today."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Ian Seymour holds RHB to a 0.681 OPS; Astros project 78% R-handed today."
+          "text": "Ian Seymour holds RHB to a 0.685 OPS; Astros project 78% R-handed today."
         }
       ],
       "lean": "even",
@@ -823,7 +823,7 @@
         "team_full": "Cincinnati Reds",
         "abbr": "CIN",
         "team_id": 113,
-        "record": "69-78",
+        "record": "69-79",
         "pitcher_id": 663903,
         "pitcher_name": "Brady Singer",
         "pitcher_hand": "R",
@@ -835,24 +835,34 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "92-56",
+        "record": "93-56",
         "pitcher_id": 675660,
         "pitcher_name": "Shane Drohan",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 74.3,
+        "wind_mph": 4.7,
+        "wind_dir_deg": 295
+      },
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Brady Singer is vulnerable to LHB (0.872 OPS) and Brewers skew L-handed."
+          "text": "Brady Singer is vulnerable to LHB (0.883 OPS) and Brewers skew L-handed."
+        },
+        {
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Shane Drohan is vulnerable to RHB (0.796 OPS) and Reds skew R-handed."
         }
       ],
-      "lean": "home",
-      "weight": 1,
+      "lean": "even",
+      "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
@@ -898,7 +908,7 @@
         "team_full": "Philadelphia Phillies",
         "abbr": "PHI",
         "team_id": 143,
-        "record": "82-66",
+        "record": "82-67",
         "pitcher_id": 641835,
         "pitcher_name": "Tim Mayza",
         "pitcher_hand": "L",
@@ -910,26 +920,30 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "87-61",
+        "record": "88-61",
         "pitcher_id": 641816,
         "pitcher_name": "Tyler Mahle",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.5,
+        "wind_mph": 3.1,
+        "wind_dir_deg": 111
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Tim Mayza holds RHB to a 0.669 OPS; Braves project 62% R-handed today."
+          "text": "Tim Mayza holds RHB to a 0.654 OPS; Braves project 62% R-handed today."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Tyler Mahle holds LHB to a 0.645 OPS; Phillies project 67% L-handed today."
+          "text": "Tyler Mahle holds LHB to a 0.626 OPS; Phillies project 67% L-handed today."
         }
       ],
       "lean": "even",
@@ -979,7 +993,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "75-72",
+        "record": "76-72",
         "pitcher_id": 656794,
         "pitcher_name": "Sean Newcomb",
         "pitcher_hand": "L",
@@ -991,7 +1005,7 @@
         "team_full": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "record": "73-75",
+        "record": "73-76",
         "pitcher_id": 681517,
         "pitcher_name": "Kyle Leahy",
         "pitcher_hand": "R",
@@ -1004,13 +1018,13 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Sean Newcomb holds RHB to a 0.590 OPS; Cardinals project 62% R-handed today."
+          "text": "Sean Newcomb holds RHB to a 0.577 OPS; Cardinals project 62% R-handed today."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Kyle Leahy is vulnerable to LHB (0.864 OPS) and White Sox skew L-handed."
+          "text": "Kyle Leahy is vulnerable to LHB (0.852 OPS) and White Sox skew L-handed."
         }
       ],
       "lean": "away",
@@ -1060,7 +1074,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "72-76",
+        "record": "73-76",
         "pitcher_id": 677958,
         "pitcher_name": "Kumar Rocker",
         "pitcher_hand": "R",
@@ -1072,7 +1086,7 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "79-69",
+        "record": "79-70",
         "pitcher_id": 694297,
         "pitcher_name": "Brandon Pfaadt",
         "pitcher_hand": "R",
@@ -1128,24 +1142,24 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "69-79",
+        "record": "70-79",
         "pitcher_id": 693433,
         "pitcher_name": "Bryan Woo",
         "pitcher_hand": "R",
-        "ml": -156,
-        "implied": 60.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Athletics",
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "60-88",
+        "record": "60-89",
         "pitcher_id": 695611,
         "pitcher_name": "Gage Jump",
         "pitcher_hand": "L",
-        "ml": 129,
-        "implied": 43.7
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [],
@@ -1154,8 +1168,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
