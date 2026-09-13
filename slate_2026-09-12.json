@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "generated": "2026-09-12T22:42:55",
+  "generated": "2026-09-13T00:30:11",
   "games": [
     {
       "game_pk": 824224,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 75.8,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 211
+        "temp_f": 75.1,
+        "wind_mph": 7.2,
+        "wind_dir_deg": 180
       },
       "factors": [],
       "lean": "even",
@@ -129,9 +129,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 79.7,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 155
+        "temp_f": 71.7,
+        "wind_mph": 7.0,
+        "wind_dir_deg": 153
       },
       "factors": [],
       "lean": "even",
@@ -201,9 +201,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 87.4,
-        "wind_mph": 12.0,
-        "wind_dir_deg": 228
+        "temp_f": 81.9,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 248
       },
       "factors": [
         {
@@ -280,9 +280,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 77.4,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 99
+        "temp_f": 68.2,
+        "wind_mph": 2.9,
+        "wind_dir_deg": 23
       },
       "factors": [],
       "lean": "even",
@@ -332,7 +332,7 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "56-91",
+        "record": "56-92",
         "pitcher_id": 700712,
         "pitcher_name": "Walbert Ure\u00f1a",
         "pitcher_hand": "R",
@@ -344,7 +344,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "68-81",
+        "record": "69-81",
         "pitcher_id": 674841,
         "pitcher_name": "Andrew Alvarez",
         "pitcher_hand": "L",
@@ -352,22 +352,22 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 79.9,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 115
+        "temp_f": 75.9,
+        "wind_mph": 9.0,
+        "wind_dir_deg": 94
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Walbert Ure\u00f1a holds LHB to a 0.621 OPS; Nationals project 62% L-handed today."
+          "text": "Walbert Ure\u00f1a holds LHB to a 0.658 OPS; Nationals project 62% L-handed today."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Andrew Alvarez holds RHB to a 0.656 OPS; Angels project 100% R-handed today."
+          "text": "Andrew Alvarez holds RHB to a 0.626 OPS; Angels project 100% R-handed today."
         }
       ],
       "lean": "even",
@@ -417,7 +417,7 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "79-68",
+        "record": "80-68",
         "pitcher_id": 650633,
         "pitcher_name": "Michael King",
         "pitcher_hand": "R",
@@ -429,7 +429,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "62-86",
+        "record": "62-87",
         "pitcher_id": 702885,
         "pitcher_name": "Cesar Perdomo",
         "pitcher_hand": "L",
@@ -437,22 +437,28 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 69.5,
-        "wind_mph": 12.2,
-        "wind_dir_deg": 276
+        "temp_f": 66.3,
+        "wind_mph": 17.8,
+        "wind_dir_deg": 289
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Michael King holds LHB to a 0.628 OPS; Giants project 67% L-handed today."
+          "text": "Michael King holds LHB to a 0.624 OPS; Giants project 67% L-handed today."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Cesar Perdomo holds RHB to a 0.196 OPS; Padres project 67% R-handed today."
+          "text": "Cesar Perdomo holds RHB to a 0.581 OPS; Padres project 67% R-handed today."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "18 mph wind (dir 289\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -521,7 +527,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 67.8,
+        "wind_mph": 7.0,
+        "wind_dir_deg": 174
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -570,7 +580,7 @@
         "team_full": "Cleveland Guardians",
         "abbr": "CLE",
         "team_id": 114,
-        "record": "75-73",
+        "record": "75-74",
         "pitcher_id": 682982,
         "pitcher_name": "Daniel Espino",
         "pitcher_hand": "R",
@@ -582,23 +592,27 @@
         "team_full": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "record": "69-78",
+        "record": "70-78",
         "pitcher_id": 687570,
         "pitcher_name": "Connor Prielipp",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 68.6,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 311
+      },
       "factors": [
         {
-          "m": "-",
+          "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Daniel Espino is vulnerable to RHB (0.794 OPS) and Twins skew R-handed."
+          "text": "Daniel Espino holds RHB to a 0.697 OPS; Twins project 67% R-handed today."
         }
       ],
-      "lean": "home",
+      "lean": "away",
       "weight": 1,
       "read": null,
       "total": null,
@@ -645,7 +659,7 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "90-57",
+        "record": "90-58",
         "pitcher_id": 607192,
         "pitcher_name": "Tyler Glasnow",
         "pitcher_hand": "R",
@@ -657,20 +671,24 @@
         "team_full": "Miami Marlins",
         "abbr": "MIA",
         "team_id": 146,
-        "record": "72-76",
+        "record": "73-76",
         "pitcher_id": 663969,
         "pitcher_name": "Tyler Phillips",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.4,
+        "wind_mph": 3.0,
+        "wind_dir_deg": 312
+      },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Tyler Glasnow holds LHB to a 0.499 OPS; Marlins project 67% L-handed today."
+          "text": "Tyler Glasnow holds LHB to a 0.551 OPS; Marlins project 67% L-handed today."
         }
       ],
       "lean": "away",
@@ -739,7 +757,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 80.5,
+        "wind_mph": 1.4,
+        "wind_dir_deg": 39
+      },
       "factors": [
         {
           "m": "+",
@@ -805,8 +827,8 @@
         "pitcher_id": 663903,
         "pitcher_name": "Brady Singer",
         "pitcher_hand": "R",
-        "ml": 178,
-        "implied": 36.0
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Brewers",
@@ -817,8 +839,8 @@
         "pitcher_id": 675660,
         "pitcher_name": "Shane Drohan",
         "pitcher_hand": "L",
-        "ml": -218,
-        "implied": 68.6
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -834,8 +856,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -881,8 +902,8 @@
         "pitcher_id": 641835,
         "pitcher_name": "Tim Mayza",
         "pitcher_hand": "L",
-        "ml": 120,
-        "implied": 45.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Braves",
@@ -893,8 +914,8 @@
         "pitcher_id": 641816,
         "pitcher_name": "Tyler Mahle",
         "pitcher_hand": "R",
-        "ml": -145,
-        "implied": 59.2
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -916,8 +937,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -963,8 +983,8 @@
         "pitcher_id": 656794,
         "pitcher_name": "Sean Newcomb",
         "pitcher_hand": "L",
-        "ml": -111,
-        "implied": 52.6
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Cardinals",
@@ -975,14 +995,10 @@
         "pitcher_id": 681517,
         "pitcher_name": "Kyle Leahy",
         "pitcher_hand": "R",
-        "ml": -108,
-        "implied": 51.9
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 88.9,
-        "wind_mph": 3.8,
-        "wind_dir_deg": 234
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -1002,8 +1018,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -1049,8 +1064,8 @@
         "pitcher_id": 677958,
         "pitcher_name": "Kumar Rocker",
         "pitcher_hand": "R",
-        "ml": 113,
-        "implied": 46.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "D-backs",
@@ -1061,22 +1076,17 @@
         "pitcher_id": 694297,
         "pitcher_name": "Brandon Pfaadt",
         "pitcher_hand": "R",
-        "ml": -136,
-        "implied": 57.6
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 101.8,
-        "wind_mph": 3.4,
-        "wind_dir_deg": 274
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -1137,11 +1147,7 @@
         "ml": 129,
         "implied": 43.7
       },
-      "weather": {
-        "temp_f": 77.1,
-        "wind_mph": 13.3,
-        "wind_dir_deg": 234
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
