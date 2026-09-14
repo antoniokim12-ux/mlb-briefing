@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "generated": "2026-09-14T22:13:34",
+  "generated": "2026-09-14T23:33:31",
   "games": [
     {
       "game_pk": 824465,
@@ -41,8 +41,8 @@
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": "L",
-        "ml": -219,
-        "implied": 68.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Reds",
@@ -53,12 +53,12 @@
         "pitcher_id": 666157,
         "pitcher_name": "Nick Lodolo",
         "pitcher_hand": "L",
-        "ml": 178,
-        "implied": 36.0
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 77.8,
-        "wind_mph": 6.7,
+        "temp_f": 77.7,
+        "wind_mph": 6.0,
         "wind_dir_deg": 48
       },
       "factors": [
@@ -80,8 +80,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -127,8 +126,8 @@
         "pitcher_id": 656794,
         "pitcher_name": "Sean Newcomb",
         "pitcher_hand": "L",
-        "ml": 148,
-        "implied": 40.3
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Guardians",
@@ -139,13 +138,13 @@
         "pitcher_id": 668909,
         "pitcher_name": "Gavin Williams",
         "pitcher_hand": "R",
-        "ml": -180,
-        "implied": 64.3
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 66.8,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 5
+        "temp_f": 67.1,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 343
       },
       "factors": [
         {
@@ -166,8 +165,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -213,8 +211,8 @@
         "pitcher_id": 675512,
         "pitcher_name": "Troy Melton",
         "pitcher_hand": "R",
-        "ml": 123,
-        "implied": 44.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Blue Jays",
@@ -225,13 +223,13 @@
         "pitcher_id": 667755,
         "pitcher_name": "Jos\u00e9 Soriano",
         "pitcher_hand": "R",
-        "ml": -149,
-        "implied": 59.8
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 64.8,
-        "wind_mph": 4.0,
-        "wind_dir_deg": 124
+        "temp_f": 63.7,
+        "wind_mph": 3.6,
+        "wind_dir_deg": 133
       },
       "factors": [],
       "lean": "even",
@@ -239,8 +237,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -286,8 +283,8 @@
         "pitcher_id": 687064,
         "pitcher_name": "Brandon Young",
         "pitcher_hand": "R",
-        "ml": 118,
-        "implied": 45.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Mets",
@@ -298,13 +295,13 @@
         "pitcher_id": 804636,
         "pitcher_name": "Jonah Tong",
         "pitcher_hand": "R",
-        "ml": -143,
-        "implied": 58.8
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 69.9,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 353
+        "temp_f": 69.5,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 358
       },
       "factors": [],
       "lean": "even",
@@ -312,8 +309,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -375,9 +371,9 @@
         "implied": 57.6
       },
       "weather": {
-        "temp_f": 68.5,
-        "wind_mph": 11.0,
-        "wind_dir_deg": 147
+        "temp_f": 69.1,
+        "wind_mph": 10.8,
+        "wind_dir_deg": 138
       },
       "factors": [
         {
@@ -455,9 +451,9 @@
         "implied": 47.6
       },
       "weather": {
-        "temp_f": 57.0,
-        "wind_mph": 13.9,
-        "wind_dir_deg": 162
+        "temp_f": 56.4,
+        "wind_mph": 12.3,
+        "wind_dir_deg": 161
       },
       "factors": [
         {
@@ -519,8 +515,8 @@
         "pitcher_id": 694738,
         "pitcher_name": "Landen Roupp",
         "pitcher_hand": "R",
-        "ml": 123,
-        "implied": 44.8
+        "ml": 130,
+        "implied": 43.5
       },
       "home": {
         "team": "Cardinals",
@@ -531,8 +527,8 @@
         "pitcher_id": 687273,
         "pitcher_name": "Quinn Mathews",
         "pitcher_hand": "L",
-        "ml": -148,
-        "implied": 59.7
+        "ml": -157,
+        "implied": 61.1
       },
       "weather": null,
       "factors": [
@@ -607,8 +603,8 @@
         "pitcher_id": 608372,
         "pitcher_name": "Tomoyuki Sugano",
         "pitcher_hand": "R",
-        "ml": 170,
-        "implied": 37.0
+        "ml": 169,
+        "implied": 37.2
       },
       "weather": null,
       "factors": [
@@ -650,7 +646,17 @@
           702284,
           642215
         ],
-        "home": []
+        "home": [
+          687263,
+          545361,
+          642350,
+          687093,
+          695681,
+          694203,
+          518595,
+          677347,
+          685133
+        ]
       },
       "away": {
         "team": "Mariners",
@@ -661,8 +667,8 @@
         "pitcher_id": 807739,
         "pitcher_name": "Kade Anderson",
         "pitcher_hand": "L",
-        "ml": -112,
-        "implied": 52.8
+        "ml": -110,
+        "implied": 52.4
       },
       "home": {
         "team": "Angels",
@@ -673,20 +679,24 @@
         "pitcher_id": 672282,
         "pitcher_name": "Reid Detmers",
         "pitcher_hand": "L",
-        "ml": -108,
-        "implied": 51.9
+        "ml": -110,
+        "implied": 52.4
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 75.2,
+        "wind_mph": 7.1,
+        "wind_dir_deg": 226
+      },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Angels lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Kade Anderson holds RHB to a 0.699 OPS; Angels project 89% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -705,7 +715,17 @@
       "lat": 33.445302,
       "lon": -112.066687,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          669065,
+          681715,
+          669364,
+          665052,
+          672640,
+          805300,
+          691594,
+          691788,
+          682663
+        ],
         "home": [
           663457,
           606466,
@@ -727,8 +747,8 @@
         "pitcher_id": 645261,
         "pitcher_name": "Sandy Alcantara",
         "pitcher_hand": "R",
-        "ml": 112,
-        "implied": 47.2
+        "ml": 110,
+        "implied": 47.6
       },
       "home": {
         "team": "D-backs",
@@ -739,18 +759,15 @@
         "pitcher_id": 669203,
         "pitcher_name": "Corbin Burnes",
         "pitcher_hand": "R",
-        "ml": -135,
-        "implied": 57.4
+        "ml": -132,
+        "implied": 56.9
       },
-      "weather": null,
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Marlins lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "weather": {
+        "temp_f": 100.2,
+        "wind_mph": 3.4,
+        "wind_dir_deg": 191
+      },
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
