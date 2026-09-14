@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "generated": "2026-09-14T00:32:01",
+  "generated": "2026-09-14T05:47:23",
   "games": [
     {
       "game_pk": 824225,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 67.1,
-        "wind_mph": 10.8,
-        "wind_dir_deg": 291
+        "temp_f": 67.6,
+        "wind_mph": 11.0,
+        "wind_dir_deg": 299
       },
       "factors": [],
       "lean": "even",
@@ -128,11 +128,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 81.6,
-        "wind_mph": 3.4,
-        "wind_dir_deg": 148
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -213,11 +209,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 82.0,
-        "wind_mph": 3.6,
-        "wind_dir_deg": 173
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -292,11 +284,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 74.8,
-        "wind_mph": 4.8,
-        "wind_dir_deg": 146
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -377,11 +365,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 68.8,
-        "wind_mph": 11.0,
-        "wind_dir_deg": 302
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -456,11 +440,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 80.4,
-        "wind_mph": 4.0,
-        "wind_dir_deg": 273
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -528,11 +508,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 81.2,
-        "wind_mph": 0.3,
-        "wind_dir_deg": 315
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -600,11 +576,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 67.0,
-        "wind_mph": 2.7,
-        "wind_dir_deg": 279
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -672,11 +644,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 63.0,
-        "wind_mph": 3.0,
-        "wind_dir_deg": 297
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -751,11 +719,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 79.0,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 31
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -823,11 +787,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 61.5,
-        "wind_mph": 4.1,
-        "wind_dir_deg": 319
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1113,7 +1073,7 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "80-68",
+        "record": "81-68",
         "pitcher_id": 601713,
         "pitcher_name": "Nick Pivetta",
         "pitcher_hand": "R",
@@ -1125,7 +1085,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "62-87",
+        "record": "62-88",
         "pitcher_id": 657277,
         "pitcher_name": "Logan Webb",
         "pitcher_hand": "R",
