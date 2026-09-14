@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "generated": "2026-09-13T22:42:46",
+  "generated": "2026-09-14T00:32:01",
   "games": [
     {
       "game_pk": 824225,
@@ -57,8 +57,8 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 77.4,
-        "wind_mph": 7.6,
+        "temp_f": 67.1,
+        "wind_mph": 10.8,
         "wind_dir_deg": 291
       },
       "factors": [],
@@ -129,9 +129,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 81.4,
-        "wind_mph": 2.0,
-        "wind_dir_deg": 276
+        "temp_f": 81.6,
+        "wind_mph": 3.4,
+        "wind_dir_deg": 148
       },
       "factors": [
         {
@@ -214,9 +214,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 84.7,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 307
+        "temp_f": 82.0,
+        "wind_mph": 3.6,
+        "wind_dir_deg": 173
       },
       "factors": [
         {
@@ -293,9 +293,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 71.1,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 318
+        "temp_f": 74.8,
+        "wind_mph": 4.8,
+        "wind_dir_deg": 146
       },
       "factors": [
         {
@@ -378,9 +378,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 79.0,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 263
+        "temp_f": 68.8,
+        "wind_mph": 11.0,
+        "wind_dir_deg": 302
       },
       "factors": [
         {
@@ -457,9 +457,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 82.3,
-        "wind_mph": 3.9,
-        "wind_dir_deg": 294
+        "temp_f": 80.4,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 273
       },
       "factors": [],
       "lean": "even",
@@ -529,9 +529,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 88.5,
-        "wind_mph": 7.3,
-        "wind_dir_deg": 137
+        "temp_f": 81.2,
+        "wind_mph": 0.3,
+        "wind_dir_deg": 315
       },
       "factors": [],
       "lean": "even",
@@ -601,9 +601,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 66.4,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 292
+        "temp_f": 67.0,
+        "wind_mph": 2.7,
+        "wind_dir_deg": 279
       },
       "factors": [],
       "lean": "even",
@@ -673,9 +673,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 61.1,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 280
+        "temp_f": 63.0,
+        "wind_mph": 3.0,
+        "wind_dir_deg": 297
       },
       "factors": [
         {
@@ -752,9 +752,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 81.1,
-        "wind_mph": 7.6,
-        "wind_dir_deg": 328
+        "temp_f": 79.0,
+        "wind_mph": 5.7,
+        "wind_dir_deg": 31
       },
       "factors": [],
       "lean": "even",
@@ -824,9 +824,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 69.5,
-        "wind_mph": 11.5,
-        "wind_dir_deg": 12
+        "temp_f": 61.5,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 319
       },
       "factors": [],
       "lean": "even",
@@ -876,7 +876,7 @@
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "66-83",
+        "record": "66-84",
         "pitcher_id": 702070,
         "pitcher_name": "Noah Cameron",
         "pitcher_hand": "L",
@@ -888,7 +888,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "81-68",
+        "record": "82-68",
         "pitcher_id": 801139,
         "pitcher_name": "Payton Tolle",
         "pitcher_hand": "L",
@@ -901,13 +901,13 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Noah Cameron holds RHB to a 0.647 OPS; Red Sox project 71% R-handed today."
+          "text": "Noah Cameron holds RHB to a 0.648 OPS; Red Sox project 71% R-handed today."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Payton Tolle holds RHB to a 0.628 OPS; Royals project 75% R-handed today."
+          "text": "Payton Tolle holds RHB to a 0.618 OPS; Royals project 75% R-handed today."
         }
       ],
       "lean": "even",
@@ -957,7 +957,7 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "70-79",
+        "record": "70-80",
         "pitcher_id": 682243,
         "pitcher_name": "Bryce Miller",
         "pitcher_hand": "R",
@@ -969,7 +969,7 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "60-89",
+        "record": "61-89",
         "pitcher_id": 682052,
         "pitcher_name": "Jacob Lopez",
         "pitcher_hand": "L",
@@ -982,7 +982,7 @@
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Jacob Lopez is vulnerable to RHB (0.823 OPS) and Mariners skew R-handed."
+          "text": "Jacob Lopez is vulnerable to RHB (0.839 OPS) and Mariners skew R-handed."
         }
       ],
       "lean": "away",
@@ -1032,7 +1032,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "73-76",
+        "record": "74-76",
         "pitcher_id": 615698,
         "pitcher_name": "Cal Quantrill",
         "pitcher_hand": "R",
@@ -1044,7 +1044,7 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "79-70",
+        "record": "79-71",
         "pitcher_id": 593958,
         "pitcher_name": "Eduardo Rodriguez",
         "pitcher_hand": "L",
@@ -1057,13 +1057,13 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Cal Quantrill holds RHB to a 0.544 OPS; D-backs project 71% R-handed today."
+          "text": "Cal Quantrill holds RHB to a 0.546 OPS; D-backs project 71% R-handed today."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Eduardo Rodriguez holds RHB to a 0.655 OPS; Rangers project 78% R-handed today."
+          "text": "Eduardo Rodriguez holds RHB to a 0.649 OPS; Rangers project 78% R-handed today."
         }
       ],
       "lean": "even",
@@ -1117,8 +1117,8 @@
         "pitcher_id": 601713,
         "pitcher_name": "Nick Pivetta",
         "pitcher_hand": "R",
-        "ml": -143,
-        "implied": 58.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Giants",
@@ -1129,8 +1129,8 @@
         "pitcher_id": 657277,
         "pitcher_name": "Logan Webb",
         "pitcher_hand": "R",
-        "ml": 119,
-        "implied": 45.7
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [],
@@ -1139,8 +1139,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
