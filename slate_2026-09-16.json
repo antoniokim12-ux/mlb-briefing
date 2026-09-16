@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "generated": "2026-09-16T21:49:22",
+  "generated": "2026-09-16T23:19:53",
   "games": [
     {
       "game_pk": 824382,
@@ -356,8 +356,8 @@
         "pitcher_id": 605483,
         "pitcher_name": "Blake Snell",
         "pitcher_hand": "L",
-        "ml": -231,
-        "implied": 69.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Reds",
@@ -368,13 +368,13 @@
         "pitcher_id": 671096,
         "pitcher_name": "Andrew Abbott",
         "pitcher_hand": "L",
-        "ml": 187,
-        "implied": 34.8
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 94.8,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 223
+        "temp_f": 93.3,
+        "wind_mph": 5.5,
+        "wind_dir_deg": 215
       },
       "factors": [
         {
@@ -389,8 +389,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -436,8 +435,8 @@
         "pitcher_id": 669620,
         "pitcher_name": "Brady Basso",
         "pitcher_hand": "L",
-        "ml": 157,
-        "implied": 38.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Rays",
@@ -448,13 +447,13 @@
         "pitcher_id": 607259,
         "pitcher_name": "Nick Martinez",
         "pitcher_hand": "R",
-        "ml": -191,
-        "implied": 65.6
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 86.2,
-        "wind_mph": 14.7,
-        "wind_dir_deg": 59
+        "temp_f": 86.7,
+        "wind_mph": 13.8,
+        "wind_dir_deg": 54
       },
       "factors": [
         {
@@ -469,8 +468,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -516,8 +514,8 @@
         "pitcher_id": 701656,
         "pitcher_name": "Logan Henderson",
         "pitcher_hand": "R",
-        "ml": -130,
-        "implied": 56.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Pirates",
@@ -528,13 +526,13 @@
         "pitcher_id": 683003,
         "pitcher_name": "Jared Jones",
         "pitcher_hand": "R",
-        "ml": 108,
-        "implied": 48.1
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 83.8,
-        "wind_mph": 1.4,
-        "wind_dir_deg": 252
+        "temp_f": 83.6,
+        "wind_mph": 1.1,
+        "wind_dir_deg": 37
       },
       "factors": [
         {
@@ -555,8 +553,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -602,8 +599,8 @@
         "pitcher_id": 554430,
         "pitcher_name": "Zack Wheeler",
         "pitcher_hand": "R",
-        "ml": -199,
-        "implied": 66.6
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Nationals",
@@ -614,13 +611,13 @@
         "pitcher_id": 688692,
         "pitcher_name": "Jared Simpson",
         "pitcher_hand": "L",
-        "ml": 163,
-        "implied": 38.0
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 83.1,
-        "wind_mph": 4.9,
-        "wind_dir_deg": 185
+        "temp_f": 82.9,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 190
       },
       "factors": [
         {
@@ -635,8 +632,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -682,8 +678,8 @@
         "pitcher_id": 605135,
         "pitcher_name": "Chris Bassitt",
         "pitcher_hand": "R",
-        "ml": -101,
-        "implied": 50.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Mets",
@@ -694,12 +690,12 @@
         "pitcher_id": 675540,
         "pitcher_name": "Xzavion Curry",
         "pitcher_hand": "R",
-        "ml": -119,
-        "implied": 54.3
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 71.9,
-        "wind_mph": 8.3,
+        "temp_f": 71.5,
+        "wind_mph": 8.1,
         "wind_dir_deg": 156
       },
       "factors": [
@@ -715,8 +711,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -762,8 +757,8 @@
         "pitcher_id": 702275,
         "pitcher_name": "JR Ritchie",
         "pitcher_hand": "R",
-        "ml": 138,
-        "implied": 42.0
+        "ml": 137,
+        "implied": 42.2
       },
       "home": {
         "team": "Cubs",
@@ -778,9 +773,9 @@
         "implied": 62.5
       },
       "weather": {
-        "temp_f": 67.2,
-        "wind_mph": 8.8,
-        "wind_dir_deg": 7
+        "temp_f": 67.8,
+        "wind_mph": 10.2,
+        "wind_dir_deg": 23
       },
       "factors": [],
       "lean": "even",
@@ -835,8 +830,8 @@
         "pitcher_id": 687562,
         "pitcher_name": "Jake Bennett",
         "pitcher_hand": "L",
-        "ml": -110,
-        "implied": 52.4
+        "ml": -111,
+        "implied": 52.6
       },
       "home": {
         "team": "Rangers",
@@ -847,13 +842,13 @@
         "pitcher_id": 669022,
         "pitcher_name": "MacKenzie Gore",
         "pitcher_hand": "L",
-        "ml": -109,
-        "implied": 52.2
+        "ml": -108,
+        "implied": 51.9
       },
       "weather": {
-        "temp_f": 96.5,
-        "wind_mph": 8.6,
-        "wind_dir_deg": 147
+        "temp_f": 95.8,
+        "wind_mph": 8.5,
+        "wind_dir_deg": 145
       },
       "factors": [],
       "lean": "even",
@@ -908,8 +903,8 @@
         "pitcher_id": 663738,
         "pitcher_name": "Daniel Lynch IV",
         "pitcher_hand": "L",
-        "ml": 140,
-        "implied": 41.7
+        "ml": 141,
+        "implied": 41.5
       },
       "home": {
         "team": "Astros",
@@ -923,7 +918,11 @@
         "ml": -170,
         "implied": 63.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 86.0,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 124
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1014,7 +1013,17 @@
       "lat": 33.80019044,
       "lon": -117.8823996,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          641487,
+          668227,
+          686527,
+          663728,
+          677594,
+          647304,
+          621493,
+          702284,
+          642215
+        ],
         "home": [
           687263,
           545361,
@@ -1036,8 +1045,8 @@
         "pitcher_id": 669923,
         "pitcher_name": "George Kirby",
         "pitcher_hand": "R",
-        "ml": -145,
-        "implied": 59.2
+        "ml": -131,
+        "implied": 56.7
       },
       "home": {
         "team": "Angels",
@@ -1048,18 +1057,11 @@
         "pitcher_id": 579328,
         "pitcher_name": "Yusei Kikuchi",
         "pitcher_hand": "L",
-        "ml": 120,
-        "implied": 45.5
+        "ml": 109,
+        "implied": 47.8
       },
       "weather": null,
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Mariners lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -1080,7 +1082,17 @@
       "lat": 33.445302,
       "lon": -112.066687,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          669065,
+          681715,
+          672640,
+          665052,
+          691594,
+          805300,
+          669364,
+          691788,
+          665923
+        ],
         "home": [
           663457,
           606466,
@@ -1102,8 +1114,8 @@
         "pitcher_id": 687473,
         "pitcher_name": "Ryan Gusto",
         "pitcher_hand": "R",
-        "ml": 113,
-        "implied": 46.9
+        "ml": 119,
+        "implied": 45.7
       },
       "home": {
         "team": "D-backs",
@@ -1114,18 +1126,11 @@
         "pitcher_id": 518876,
         "pitcher_name": "Merrill Kelly",
         "pitcher_hand": "R",
-        "ml": -137,
-        "implied": 57.8
+        "ml": -144,
+        "implied": 59.0
       },
       "weather": null,
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Marlins lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
