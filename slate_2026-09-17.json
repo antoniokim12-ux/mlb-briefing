@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "generated": "2026-09-17T21:49:56",
+  "generated": "2026-09-17T23:10:14",
   "games": [
     {
       "game_pk": 823334,
@@ -280,7 +280,7 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "83-69",
+        "record": "84-69",
         "pitcher_id": 650633,
         "pitcher_name": "Michael King",
         "pitcher_hand": "R",
@@ -292,7 +292,7 @@
         "team_full": "Colorado Rockies",
         "abbr": "COL",
         "team_id": 115,
-        "record": "56-96",
+        "record": "56-97",
         "pitcher_id": 685299,
         "pitcher_name": "Tanner Gordon",
         "pitcher_hand": "R",
@@ -309,13 +309,13 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Michael King holds LHB to a 0.624 OPS; Rockies project 75% L-handed today."
+          "text": "Michael King holds LHB to a 0.630 OPS; Rockies project 75% L-handed today."
         },
         {
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Tanner Gordon is vulnerable to RHB (0.850 OPS) and Padres skew R-handed."
+          "text": "Tanner Gordon is vulnerable to RHB (0.907 OPS) and Padres skew R-handed."
         }
       ],
       "lean": "away",
@@ -385,9 +385,9 @@
         "implied": 60.9
       },
       "weather": {
-        "temp_f": 81.5,
-        "wind_mph": 3.2,
-        "wind_dir_deg": 192
+        "temp_f": 80.6,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 71
       },
       "factors": [
         {
@@ -465,9 +465,9 @@
         "implied": 56.9
       },
       "weather": {
-        "temp_f": 76.0,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 171
+        "temp_f": 75.8,
+        "wind_mph": 6.6,
+        "wind_dir_deg": 168
       },
       "factors": [
         {
@@ -546,8 +546,8 @@
       },
       "weather": {
         "temp_f": 68.2,
-        "wind_mph": 10.7,
-        "wind_dir_deg": 1
+        "wind_mph": 12.3,
+        "wind_dir_deg": 15
       },
       "factors": [],
       "lean": "even",
@@ -602,8 +602,8 @@
         "pitcher_id": 543243,
         "pitcher_name": "Sonny Gray",
         "pitcher_hand": "R",
-        "ml": -131,
-        "implied": 56.7
+        "ml": -130,
+        "implied": 56.5
       },
       "home": {
         "team": "Rangers",
@@ -618,9 +618,9 @@
         "implied": 48.1
       },
       "weather": {
-        "temp_f": 96.0,
-        "wind_mph": 8.2,
-        "wind_dir_deg": 116
+        "temp_f": 96.2,
+        "wind_mph": 6.9,
+        "wind_dir_deg": 103
       },
       "factors": [],
       "lean": "even",
@@ -654,7 +654,17 @@
           805805,
           805346
         ],
-        "home": []
+        "home": [
+          687263,
+          545361,
+          685133,
+          694208,
+          694203,
+          666139,
+          672724,
+          642350,
+          623168
+        ]
       },
       "away": {
         "team": "Twins",
@@ -665,8 +675,8 @@
         "pitcher_id": 671737,
         "pitcher_name": "Taj Bradley",
         "pitcher_hand": "R",
-        "ml": -110,
-        "implied": 52.4
+        "ml": -105,
+        "implied": 51.2
       },
       "home": {
         "team": "Angels",
@@ -677,24 +687,20 @@
         "pitcher_id": 700712,
         "pitcher_name": "Walbert Ure\u00f1a",
         "pitcher_hand": "R",
-        "ml": -110,
-        "implied": 52.4
+        "ml": -115,
+        "implied": 53.5
       },
-      "weather": {
-        "temp_f": 74.5,
-        "wind_mph": 8.3,
-        "wind_dir_deg": 246
-      },
+      "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Angels lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Taj Bradley holds RHB to a 0.670 OPS; Angels project 62% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
