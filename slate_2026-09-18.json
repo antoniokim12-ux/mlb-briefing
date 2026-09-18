@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "generated": "2026-09-18T21:23:46",
+  "generated": "2026-09-18T22:53:33",
   "games": [
     {
       "game_pk": 824463,
@@ -41,8 +41,8 @@
         "pitcher_id": 605280,
         "pitcher_name": "Clay Holmes",
         "pitcher_hand": "R",
-        "ml": -155,
-        "implied": 60.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Reds",
@@ -53,13 +53,13 @@
         "pitcher_id": 695505,
         "pitcher_name": "Chase Burns",
         "pitcher_hand": "R",
-        "ml": 128,
-        "implied": 43.9
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 81.9,
-        "wind_mph": 8.8,
-        "wind_dir_deg": 7
+        "temp_f": 79.5,
+        "wind_mph": 7.3,
+        "wind_dir_deg": 23
       },
       "factors": [
         {
@@ -80,8 +80,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -127,8 +126,8 @@
         "pitcher_id": 677976,
         "pitcher_name": "Randy Dobnak",
         "pitcher_hand": "R",
-        "ml": 158,
-        "implied": 38.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Pirates",
@@ -139,13 +138,13 @@
         "pitcher_id": 694973,
         "pitcher_name": "Paul Skenes",
         "pitcher_hand": "R",
-        "ml": -193,
-        "implied": 65.9
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 74.7,
-        "wind_mph": 3.9,
-        "wind_dir_deg": 336
+        "temp_f": 73.7,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 352
       },
       "factors": [],
       "lean": "even",
@@ -153,8 +152,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -216,9 +214,9 @@
         "implied": 44.6
       },
       "weather": {
-        "temp_f": 79.6,
-        "wind_mph": 6.3,
-        "wind_dir_deg": 352
+        "temp_f": 81.0,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 355
       },
       "factors": [
         {
@@ -280,8 +278,8 @@
         "pitcher_id": 686930,
         "pitcher_name": "Mason Barnett",
         "pitcher_hand": "R",
-        "ml": 189,
-        "implied": 34.6
+        "ml": 198,
+        "implied": 33.6
       },
       "home": {
         "team": "Guardians",
@@ -292,13 +290,13 @@
         "pitcher_id": 682982,
         "pitcher_name": "Daniel Espino",
         "pitcher_hand": "R",
-        "ml": -233,
-        "implied": 70.0
+        "ml": -244,
+        "implied": 70.9
       },
       "weather": {
         "temp_f": 69.9,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 27
+        "wind_mph": 6.5,
+        "wind_dir_deg": 22
       },
       "factors": [
         {
@@ -382,9 +380,9 @@
         "implied": 57.8
       },
       "weather": {
-        "temp_f": 78.0,
-        "wind_mph": 8.9,
-        "wind_dir_deg": 122
+        "temp_f": 82.4,
+        "wind_mph": 11.7,
+        "wind_dir_deg": 83
       },
       "factors": [
         {
@@ -452,8 +450,8 @@
         "pitcher_id": 641835,
         "pitcher_name": "Tim Mayza",
         "pitcher_hand": "L",
-        "ml": 105,
-        "implied": 48.8
+        "ml": 108,
+        "implied": 48.1
       },
       "home": {
         "team": "Mets",
@@ -464,13 +462,13 @@
         "pitcher_id": 804267,
         "pitcher_name": "Zac Thornton",
         "pitcher_hand": "L",
-        "ml": -126,
-        "implied": 55.8
+        "ml": -131,
+        "implied": 56.7
       },
       "weather": {
-        "temp_f": 75.6,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 7
+        "temp_f": 75.5,
+        "wind_mph": 6.2,
+        "wind_dir_deg": 26
       },
       "factors": [],
       "lean": "even",
@@ -540,7 +538,11 @@
         "ml": -132,
         "implied": 56.9
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 65.8,
+        "wind_mph": 10.2,
+        "wind_dir_deg": 61
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -609,7 +611,11 @@
         "ml": 113,
         "implied": 46.9
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 93.6,
+        "wind_mph": 8.0,
+        "wind_dir_deg": 167
+      },
       "factors": [
         {
           "m": "+",
@@ -685,7 +691,11 @@
         "ml": 159,
         "implied": 38.6
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 70.3,
+        "wind_mph": 10.9,
+        "wind_dir_deg": 82
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -754,7 +764,11 @@
         "ml": 100,
         "implied": 50.0
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 83.3,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 120
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -823,7 +837,11 @@
         "ml": -108,
         "implied": 51.9
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 92.9,
+        "wind_mph": 3.6,
+        "wind_dir_deg": 300
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -845,8 +863,28 @@
       "lat": 33.80019044,
       "lon": -117.8823996,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          807712,
+          686797,
+          665019,
+          680777,
+          605137,
+          691181,
+          668904,
+          805805,
+          805346
+        ],
+        "home": [
+          687263,
+          545361,
+          642350,
+          687093,
+          694203,
+          672724,
+          518595,
+          695681,
+          685133
+        ]
       },
       "away": {
         "team": "Twins",
@@ -872,21 +910,12 @@
         "ml": -105,
         "implied": 51.2
       },
-      "weather": null,
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Angels lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Twins lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "weather": {
+        "temp_f": 75.2,
+        "wind_mph": 7.7,
+        "wind_dir_deg": 253
+      },
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -945,9 +974,9 @@
         "implied": 68.7
       },
       "weather": {
-        "temp_f": 72.7,
-        "wind_mph": 8.4,
-        "wind_dir_deg": 312
+        "temp_f": 73.1,
+        "wind_mph": 7.7,
+        "wind_dir_deg": 306
       },
       "factors": [
         {
@@ -977,7 +1006,17 @@
       "lat": 33.445302,
       "lon": -112.066687,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          502671,
+          641355,
+          671218,
+          700250,
+          642708,
+          682987,
+          806146,
+          669224,
+          683011
+        ],
         "home": [
           663457,
           606466,
@@ -999,8 +1038,8 @@
         "pitcher_id": 543037,
         "pitcher_name": "Gerrit Cole",
         "pitcher_hand": "R",
-        "ml": -115,
-        "implied": 53.5
+        "ml": -106,
+        "implied": 51.5
       },
       "home": {
         "team": "D-backs",
@@ -1011,22 +1050,15 @@
         "pitcher_id": 593958,
         "pitcher_name": "Eduardo Rodriguez",
         "pitcher_hand": "L",
-        "ml": -104,
-        "implied": 51.0
+        "ml": -113,
+        "implied": 53.1
       },
       "weather": {
-        "temp_f": 98.0,
-        "wind_mph": 6.1,
-        "wind_dir_deg": 287
+        "temp_f": 97.8,
+        "wind_mph": 1.6,
+        "wind_dir_deg": 188
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Yankees lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -1047,8 +1079,28 @@
       "lat": 34.07368,
       "lon": -118.24053,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          687551,
+          805811,
+          813841,
+          808982,
+          694376,
+          806367,
+          814154,
+          701852,
+          683766
+        ],
+        "home": [
+          605141,
+          669257,
+          606192,
+          518692,
+          500743,
+          663656,
+          571771,
+          669743,
+          800543
+        ]
       },
       "away": {
         "team": "Giants",
@@ -1071,26 +1123,26 @@
         "pitcher_id": 607192,
         "pitcher_name": "Tyler Glasnow",
         "pitcher_hand": "R",
-        "ml": -313,
+        "ml": -314,
         "implied": 75.8
       },
       "weather": {
-        "temp_f": 69.5,
-        "wind_mph": 6.7,
-        "wind_dir_deg": 256
+        "temp_f": 69.1,
+        "wind_mph": 7.3,
+        "wind_dir_deg": 259
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Dodgers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Cesar Perdomo holds RHB to a 0.581 OPS; Dodgers project 67% R-handed today."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Giants lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Tyler Glasnow holds LHB to a 0.551 OPS; Giants project 67% L-handed today."
         }
       ],
       "lean": "even",
