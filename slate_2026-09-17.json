@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "generated": "2026-09-18T00:54:08",
+  "generated": "2026-09-18T05:33:32",
   "games": [
     {
       "game_pk": 823334,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 78.2,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 238
+        "temp_f": 78.0,
+        "wind_mph": 4.2,
+        "wind_dir_deg": 254
       },
       "factors": [
         {
@@ -136,9 +136,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 85.7,
-        "wind_mph": 1.6,
-        "wind_dir_deg": 236
+        "temp_f": 85.0,
+        "wind_mph": 2.9,
+        "wind_dir_deg": 247
       },
       "factors": [
         {
@@ -221,9 +221,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 80.4,
-        "wind_mph": 12.8,
-        "wind_dir_deg": 63
+        "temp_f": 81.0,
+        "wind_mph": 13.5,
+        "wind_dir_deg": 68
       },
       "factors": [
         {
@@ -300,9 +300,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 76.2,
-        "wind_mph": 3.4,
-        "wind_dir_deg": 176
+        "temp_f": 79.0,
+        "wind_mph": 5.8,
+        "wind_dir_deg": 298
       },
       "factors": [
         {
@@ -365,7 +365,7 @@
         "team_full": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
-        "record": "67-85",
+        "record": "67-86",
         "pitcher_id": 607625,
         "pitcher_name": "Seth Lugo",
         "pitcher_hand": "R",
@@ -377,7 +377,7 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "76-76",
+        "record": "77-76",
         "pitcher_id": 699044,
         "pitcher_name": "Miguel Ullola",
         "pitcher_hand": "R",
@@ -385,16 +385,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 82.1,
-        "wind_mph": 0.0,
-        "wind_dir_deg": 270
+        "temp_f": 82.7,
+        "wind_mph": 3.5,
+        "wind_dir_deg": 125
       },
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Miguel Ullola holds LHB to a 0.466 OPS; Royals project 62% L-handed today."
+          "text": "Miguel Ullola holds LHB to a 0.568 OPS; Royals project 62% L-handed today."
         }
       ],
       "lean": "home",
@@ -444,7 +444,7 @@
         "team_full": "Philadelphia Phillies",
         "abbr": "PHI",
         "team_id": 143,
-        "record": "84-68",
+        "record": "85-68",
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": "R",
@@ -456,7 +456,7 @@
         "team_full": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
-        "record": "69-83",
+        "record": "69-84",
         "pitcher_id": 690997,
         "pitcher_name": "Nolan McLean",
         "pitcher_hand": "R",
@@ -464,16 +464,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 76.4,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 149
+        "temp_f": 78.3,
+        "wind_mph": 9.4,
+        "wind_dir_deg": 179
       },
       "factors": [
         {
           "m": "-",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Aaron Nola is vulnerable to LHB (0.798 OPS) and Mets skew L-handed."
+          "text": "Aaron Nola is vulnerable to LHB (0.782 OPS) and Mets skew L-handed."
         }
       ],
       "lean": "home",
@@ -523,7 +523,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "72-80",
+        "record": "72-81",
         "pitcher_id": 664285,
         "pitcher_name": "Framber Valdez",
         "pitcher_hand": "L",
@@ -535,14 +535,18 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "77-75",
+        "record": "78-75",
         "pitcher_id": 607200,
         "pitcher_name": "Erick Fedde",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 68.6,
+        "wind_mph": 9.5,
+        "wind_dir_deg": 9
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -591,7 +595,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "82-70",
+        "record": "83-70",
         "pitcher_id": 543243,
         "pitcher_name": "Sonny Gray",
         "pitcher_hand": "R",
@@ -603,7 +607,7 @@
         "team_full": "Texas Rangers",
         "abbr": "TEX",
         "team_id": 140,
-        "record": "76-76",
+        "record": "76-77",
         "pitcher_id": 641302,
         "pitcher_name": "Tyler Alexander",
         "pitcher_hand": "L",
@@ -659,24 +663,24 @@
         "team_full": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "record": "71-81",
+        "record": "71-82",
         "pitcher_id": 671737,
         "pitcher_name": "Taj Bradley",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Angels",
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "58-94",
+        "record": "59-94",
         "pitcher_id": 700712,
         "pitcher_name": "Walbert Ure\u00f1a",
         "pitcher_hand": "R",
-        "ml": -115,
-        "implied": 53.5
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -684,7 +688,7 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Taj Bradley holds RHB to a 0.670 OPS; Angels project 62% R-handed today."
+          "text": "Taj Bradley holds RHB to a 0.660 OPS; Angels project 62% R-handed today."
         }
       ],
       "lean": "away",
@@ -692,8 +696,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
