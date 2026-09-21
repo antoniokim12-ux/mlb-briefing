@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "generated": "2026-09-21T08:07:51",
+  "generated": "2026-09-21T22:22:13",
   "games": [
     {
       "game_pk": 824787,
@@ -9,8 +9,28 @@
       "lat": 39.283787,
       "lon": -76.621689,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          703520,
+          672386,
+          664770,
+          543807,
+          815873,
+          672960,
+          669701,
+          665926,
+          676391
+        ],
+        "home": [
+          687637,
+          624413,
+          683002,
+          691723,
+          687952,
+          694212,
+          677956,
+          681297,
+          676480
+        ]
       },
       "away": {
         "team": "Blue Jays",
@@ -21,8 +41,8 @@
         "pitcher_id": 702056,
         "pitcher_name": "Trey Yesavage",
         "pitcher_hand": "R",
-        "ml": -107,
-        "implied": 51.7
+        "ml": -110,
+        "implied": 52.4
       },
       "home": {
         "team": "Orioles",
@@ -33,28 +53,15 @@
         "pitcher_id": 669358,
         "pitcher_name": "Shane Baz",
         "pitcher_hand": "R",
-        "ml": -112,
-        "implied": 52.8
+        "ml": -110,
+        "implied": 52.4
       },
       "weather": {
-        "temp_f": 70.3,
-        "wind_mph": 8.0,
-        "wind_dir_deg": 36
+        "temp_f": 67.3,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 32
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Orioles lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Blue Jays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -75,8 +82,28 @@
       "lat": 42.3391151,
       "lon": -83.048695,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          695578,
+          695734,
+          694673,
+          682928,
+          686611,
+          678391,
+          691781,
+          660688,
+          696285
+        ],
+        "home": [
+          650402,
+          701678,
+          682985,
+          680664,
+          701162,
+          693307,
+          679529,
+          595879,
+          807726
+        ]
       },
       "away": {
         "team": "Nationals",
@@ -87,8 +114,8 @@
         "pitcher_id": 687792,
         "pitcher_name": "DJ Herz",
         "pitcher_hand": "L",
-        "ml": 129,
-        "implied": 43.7
+        "ml": 110,
+        "implied": 47.6
       },
       "home": {
         "team": "Tigers",
@@ -99,28 +126,15 @@
         "pitcher_id": 689981,
         "pitcher_name": "River Ryan",
         "pitcher_hand": "R",
-        "ml": -156,
-        "implied": 60.9
+        "ml": -133,
+        "implied": 57.1
       },
       "weather": {
-        "temp_f": 62.7,
-        "wind_mph": 9.1,
-        "wind_dir_deg": 33
+        "temp_f": 59.3,
+        "wind_mph": 9.8,
+        "wind_dir_deg": 21
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Tigers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Nationals lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -141,7 +155,17 @@
       "lat": 37.778383,
       "lon": -122.389448,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          805805,
+          807712,
+          686797,
+          665019,
+          680777,
+          702176,
+          693306,
+          691181,
+          668952
+        ],
         "home": []
       },
       "away": {
@@ -153,8 +177,8 @@
         "pitcher_id": 805673,
         "pitcher_name": "Zebby Matthews",
         "pitcher_hand": "R",
-        "ml": -118,
-        "implied": 54.1
+        "ml": -123,
+        "implied": 55.2
       },
       "home": {
         "team": "Giants",
@@ -165,12 +189,12 @@
         "pitcher_id": 694918,
         "pitcher_name": "Blade Tidwell",
         "pitcher_hand": "R",
-        "ml": -102,
-        "implied": 50.5
+        "ml": 102,
+        "implied": 49.5
       },
       "weather": {
-        "temp_f": 58.7,
-        "wind_mph": 10.4,
+        "temp_f": 59.3,
+        "wind_mph": 11.0,
         "wind_dir_deg": 264
       },
       "factors": [
@@ -179,12 +203,6 @@
           "side": "none",
           "label": "Lineups",
           "text": "Giants lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Twins lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
       "lean": "even",
