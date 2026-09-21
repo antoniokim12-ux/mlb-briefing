@@ -1,0 +1,204 @@
+{
+  "date": "2026-09-21",
+  "generated": "2026-09-21T08:07:51",
+  "games": [
+    {
+      "game_pk": 824787,
+      "game_time": "2026-09-21T22:35:00Z",
+      "venue": "Oriole Park at Camden Yards",
+      "lat": 39.283787,
+      "lon": -76.621689,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Blue Jays",
+        "team_full": "Toronto Blue Jays",
+        "abbr": "TOR",
+        "team_id": 141,
+        "record": "77-79",
+        "pitcher_id": 702056,
+        "pitcher_name": "Trey Yesavage",
+        "pitcher_hand": "R",
+        "ml": -107,
+        "implied": 51.7
+      },
+      "home": {
+        "team": "Orioles",
+        "team_full": "Baltimore Orioles",
+        "abbr": "BAL",
+        "team_id": 110,
+        "record": "75-81",
+        "pitcher_id": 669358,
+        "pitcher_name": "Shane Baz",
+        "pitcher_hand": "R",
+        "ml": -112,
+        "implied": 52.8
+      },
+      "weather": {
+        "temp_f": 70.3,
+        "wind_mph": 8.0,
+        "wind_dir_deg": 36
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Orioles lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Blue Jays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 824221,
+      "game_time": "2026-09-21T22:40:00Z",
+      "venue": "Comerica Park",
+      "lat": 42.3391151,
+      "lon": -83.048695,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Nationals",
+        "team_full": "Washington Nationals",
+        "abbr": "WSH",
+        "team_id": 120,
+        "record": "73-83",
+        "pitcher_id": 687792,
+        "pitcher_name": "DJ Herz",
+        "pitcher_hand": "L",
+        "ml": 129,
+        "implied": 43.7
+      },
+      "home": {
+        "team": "Tigers",
+        "team_full": "Detroit Tigers",
+        "abbr": "DET",
+        "team_id": 116,
+        "record": "73-83",
+        "pitcher_id": 689981,
+        "pitcher_name": "River Ryan",
+        "pitcher_hand": "R",
+        "ml": -156,
+        "implied": 60.9
+      },
+      "weather": {
+        "temp_f": 62.7,
+        "wind_mph": 9.1,
+        "wind_dir_deg": 33
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Tigers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Nationals lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 823169,
+      "game_time": "2026-09-22T01:45:00Z",
+      "venue": "Oracle Park",
+      "lat": 37.778383,
+      "lon": -122.389448,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Twins",
+        "team_full": "Minnesota Twins",
+        "abbr": "MIN",
+        "team_id": 142,
+        "record": "73-83",
+        "pitcher_id": 805673,
+        "pitcher_name": "Zebby Matthews",
+        "pitcher_hand": "R",
+        "ml": -118,
+        "implied": 54.1
+      },
+      "home": {
+        "team": "Giants",
+        "team_full": "San Francisco Giants",
+        "abbr": "SF",
+        "team_id": 137,
+        "record": "64-92",
+        "pitcher_id": 694918,
+        "pitcher_name": "Blade Tidwell",
+        "pitcher_hand": "R",
+        "ml": -102,
+        "implied": 50.5
+      },
+      "weather": {
+        "temp_f": 58.7,
+        "wind_mph": 10.4,
+        "wind_dir_deg": 264
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Giants lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Twins lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    }
+  ]
+}
