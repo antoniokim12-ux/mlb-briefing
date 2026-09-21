@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "generated": "2026-09-21T22:22:13",
+  "generated": "2026-09-21T23:42:07",
   "games": [
     {
       "game_pk": 824787,
@@ -41,8 +41,8 @@
         "pitcher_id": 702056,
         "pitcher_name": "Trey Yesavage",
         "pitcher_hand": "R",
-        "ml": -110,
-        "implied": 52.4
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Orioles",
@@ -53,13 +53,13 @@
         "pitcher_id": 669358,
         "pitcher_name": "Shane Baz",
         "pitcher_hand": "R",
-        "ml": -110,
-        "implied": 52.4
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 67.3,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 32
+        "temp_f": 65.4,
+        "wind_mph": 6.3,
+        "wind_dir_deg": 58
       },
       "factors": [],
       "lean": "even",
@@ -67,8 +67,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -114,8 +113,8 @@
         "pitcher_id": 687792,
         "pitcher_name": "DJ Herz",
         "pitcher_hand": "L",
-        "ml": 110,
-        "implied": 47.6
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Tigers",
@@ -126,13 +125,13 @@
         "pitcher_id": 689981,
         "pitcher_name": "River Ryan",
         "pitcher_hand": "R",
-        "ml": -133,
-        "implied": 57.1
+        "ml": null,
+        "implied": null
       },
       "weather": {
         "temp_f": 59.3,
         "wind_mph": 9.8,
-        "wind_dir_deg": 21
+        "wind_dir_deg": 11
       },
       "factors": [],
       "lean": "even",
@@ -140,8 +139,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -177,8 +175,8 @@
         "pitcher_id": 805673,
         "pitcher_name": "Zebby Matthews",
         "pitcher_hand": "R",
-        "ml": -123,
-        "implied": 55.2
+        "ml": -125,
+        "implied": 55.6
       },
       "home": {
         "team": "Giants",
@@ -189,13 +187,13 @@
         "pitcher_id": 694918,
         "pitcher_name": "Blade Tidwell",
         "pitcher_hand": "R",
-        "ml": 102,
-        "implied": 49.5
+        "ml": 104,
+        "implied": 49.0
       },
       "weather": {
-        "temp_f": 59.3,
-        "wind_mph": 11.0,
-        "wind_dir_deg": 264
+        "temp_f": 59.6,
+        "wind_mph": 10.7,
+        "wind_dir_deg": 269
       },
       "factors": [
         {
