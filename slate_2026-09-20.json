@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "generated": "2026-09-21T00:38:06",
+  "generated": "2026-09-21T05:56:07",
   "games": [
     {
       "game_pk": 823570,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 68.8,
+        "temp_f": 70.1,
         "wind_mph": 1.6,
-        "wind_dir_deg": 254
+        "wind_dir_deg": 262
       },
       "factors": [
         {
@@ -137,8 +137,8 @@
       },
       "weather": {
         "temp_f": 70.0,
-        "wind_mph": 2.3,
-        "wind_dir_deg": 17
+        "wind_mph": 4.1,
+        "wind_dir_deg": 9
       },
       "factors": [
         {
@@ -215,9 +215,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 81.0,
-        "wind_mph": 3.7,
-        "wind_dir_deg": 104
+        "temp_f": 84.1,
+        "wind_mph": 0.0,
+        "wind_dir_deg": 270
       },
       "factors": [],
       "lean": "even",
@@ -287,9 +287,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 64.3,
-        "wind_mph": 6.5,
-        "wind_dir_deg": 34
+        "temp_f": 64.7,
+        "wind_mph": 6.2,
+        "wind_dir_deg": 64
       },
       "factors": [
         {
@@ -366,9 +366,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 75.0,
-        "wind_mph": 7.6,
-        "wind_dir_deg": 87
+        "temp_f": 74.4,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 64
       },
       "factors": [
         {
@@ -445,9 +445,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 83.5,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 131
+        "temp_f": 83.4,
+        "wind_mph": 9.3,
+        "wind_dir_deg": 136
       },
       "factors": [
         {
@@ -504,7 +504,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "73-82",
+        "record": "73-83",
         "pitcher_id": 675512,
         "pitcher_name": "Troy Melton",
         "pitcher_hand": "R",
@@ -516,15 +516,26 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "79-76",
+        "record": "80-76",
         "pitcher_id": 663436,
         "pitcher_name": "Davis Martin",
         "pitcher_hand": "R",
         "ml": null,
         "implied": null
       },
-      "weather": null,
-      "factors": [],
+      "weather": {
+        "temp_f": 62.8,
+        "wind_mph": 22.1,
+        "wind_dir_deg": 44
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "22 mph wind (dir 44\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+        }
+      ],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -591,7 +602,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 85.9,
+        "wind_mph": 4.2,
+        "wind_dir_deg": 335
+      },
       "factors": [
         {
           "m": "+",
@@ -891,11 +906,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 72.6,
-        "wind_mph": 8.9,
-        "wind_dir_deg": 258
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -970,11 +981,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 73.7,
-        "wind_mph": 8.4,
-        "wind_dir_deg": 279
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1042,11 +1049,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 99.6,
-        "wind_mph": 2.5,
-        "wind_dir_deg": 90
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1095,7 +1098,7 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "97-58",
+        "record": "98-58",
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
@@ -1107,7 +1110,7 @@
         "team_full": "Baltimore Orioles",
         "abbr": "BAL",
         "team_id": 110,
-        "record": "75-80",
+        "record": "75-81",
         "pitcher_id": 687064,
         "pitcher_name": "Brandon Young",
         "pitcher_hand": "R",
@@ -1115,9 +1118,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 77.5,
-        "wind_mph": 4.4,
-        "wind_dir_deg": 285
+        "temp_f": 78.4,
+        "wind_mph": 1.8,
+        "wind_dir_deg": 277
       },
       "factors": [],
       "lean": "even",
