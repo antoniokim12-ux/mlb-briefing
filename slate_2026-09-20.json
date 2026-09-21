@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "generated": "2026-09-20T22:47:12",
+  "generated": "2026-09-21T00:38:06",
   "games": [
     {
       "game_pk": 823570,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 66.6,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 132
+        "temp_f": 68.8,
+        "wind_mph": 1.6,
+        "wind_dir_deg": 254
       },
       "factors": [
         {
@@ -136,9 +136,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 72.8,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 239
+        "temp_f": 70.0,
+        "wind_mph": 2.3,
+        "wind_dir_deg": 17
       },
       "factors": [
         {
@@ -215,9 +215,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 86.7,
-        "wind_mph": 2.9,
-        "wind_dir_deg": 261
+        "temp_f": 81.0,
+        "wind_mph": 3.7,
+        "wind_dir_deg": 104
       },
       "factors": [],
       "lean": "even",
@@ -287,9 +287,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 67.4,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 54
+        "temp_f": 64.3,
+        "wind_mph": 6.5,
+        "wind_dir_deg": 34
       },
       "factors": [
         {
@@ -366,9 +366,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 86.7,
-        "wind_mph": 1.7,
-        "wind_dir_deg": 67
+        "temp_f": 75.0,
+        "wind_mph": 7.6,
+        "wind_dir_deg": 87
       },
       "factors": [
         {
@@ -445,9 +445,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 88.8,
-        "wind_mph": 2.4,
-        "wind_dir_deg": 56
+        "temp_f": 83.5,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 131
       },
       "factors": [
         {
@@ -523,11 +523,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 64.9,
-        "wind_mph": 7.6,
-        "wind_dir_deg": 45
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -595,11 +591,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 88.0,
-        "wind_mph": 1.7,
-        "wind_dir_deg": 230
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -805,7 +797,7 @@
         "team_full": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "record": "72-83",
+        "record": "73-83",
         "pitcher_id": 665152,
         "pitcher_name": "Dean Kremer",
         "pitcher_hand": "R",
@@ -817,7 +809,7 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "60-95",
+        "record": "60-96",
         "pitcher_id": 696270,
         "pitcher_name": "Ryan Johnson",
         "pitcher_hand": "R",
@@ -825,9 +817,16 @@
         "implied": null
       },
       "weather": null,
-      "factors": [],
-      "lean": "even",
-      "weight": 0,
+      "factors": [
+        {
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Ryan Johnson is vulnerable to LHB (0.780 OPS) and Twins skew L-handed."
+        }
+      ],
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -873,7 +872,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "64-91",
+        "record": "64-92",
         "pitcher_id": 683363,
         "pitcher_name": "Matt Wilkinson",
         "pitcher_hand": "L",
@@ -885,20 +884,24 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "95-60",
+        "record": "96-60",
         "pitcher_id": 676263,
         "pitcher_name": "Jack Dreyer",
         "pitcher_hand": "L",
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 72.6,
+        "wind_mph": 8.9,
+        "wind_dir_deg": 258
+      },
       "factors": [
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Jack Dreyer holds RHB to a 0.644 OPS; Giants project 67% R-handed today."
+          "text": "Jack Dreyer holds RHB to a 0.649 OPS; Giants project 67% R-handed today."
         }
       ],
       "lean": "home",
@@ -967,7 +970,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 73.7,
+        "wind_mph": 8.4,
+        "wind_dir_deg": 279
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1016,7 +1023,7 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "89-65",
+        "record": "89-66",
         "pitcher_id": 701542,
         "pitcher_name": "Will Warren",
         "pitcher_hand": "R",
@@ -1028,7 +1035,7 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "81-74",
+        "record": "82-74",
         "pitcher_id": 669203,
         "pitcher_name": "Corbin Burnes",
         "pitcher_hand": "R",
@@ -1036,9 +1043,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 98.7,
-        "wind_mph": 3.1,
-        "wind_dir_deg": 111
+        "temp_f": 99.6,
+        "wind_mph": 2.5,
+        "wind_dir_deg": 90
       },
       "factors": [],
       "lean": "even",
@@ -1092,8 +1099,8 @@
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
-        "ml": -215,
-        "implied": 68.3
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Orioles",
@@ -1104,13 +1111,13 @@
         "pitcher_id": 687064,
         "pitcher_name": "Brandon Young",
         "pitcher_hand": "R",
-        "ml": 176,
-        "implied": 36.2
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 75.7,
-        "wind_mph": 2.0,
-        "wind_dir_deg": 207
+        "temp_f": 77.5,
+        "wind_mph": 4.4,
+        "wind_dir_deg": 285
       },
       "factors": [],
       "lean": "even",
@@ -1118,8 +1125,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
