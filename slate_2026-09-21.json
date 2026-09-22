@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "generated": "2026-09-21T23:42:07",
+  "generated": "2026-09-22T01:20:06",
   "games": [
     {
       "game_pk": 824787,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 65.4,
-        "wind_mph": 6.3,
-        "wind_dir_deg": 58
+        "temp_f": 64.6,
+        "wind_mph": 2.1,
+        "wind_dir_deg": 41
       },
       "factors": [],
       "lean": "even",
@@ -109,7 +109,7 @@
         "team_full": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "record": "73-83",
+        "record": "73-84",
         "pitcher_id": 687792,
         "pitcher_name": "DJ Herz",
         "pitcher_hand": "L",
@@ -121,7 +121,7 @@
         "team_full": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "record": "73-83",
+        "record": "74-83",
         "pitcher_id": 689981,
         "pitcher_name": "River Ryan",
         "pitcher_hand": "R",
@@ -129,13 +129,26 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 59.3,
-        "wind_mph": 9.8,
-        "wind_dir_deg": 11
+        "temp_f": 54.1,
+        "wind_mph": 9.6,
+        "wind_dir_deg": 16
       },
-      "factors": [],
-      "lean": "even",
-      "weight": 0,
+      "factors": [
+        {
+          "m": "-",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "DJ Herz is vulnerable to RHB (1.145 OPS) and Tigers skew R-handed."
+        },
+        {
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "River Ryan holds LHB to a 0.111 OPS; Nationals project 62% L-handed today."
+        }
+      ],
+      "lean": "home",
+      "weight": 2,
       "read": null,
       "total": null,
       "total_read": null,
@@ -164,7 +177,17 @@
           691181,
           668952
         ],
-        "home": []
+        "home": [
+          687551,
+          813841,
+          815589,
+          691785,
+          695391,
+          701852,
+          678545,
+          814154,
+          683766
+        ]
       },
       "away": {
         "team": "Twins",
@@ -175,8 +198,8 @@
         "pitcher_id": 805673,
         "pitcher_name": "Zebby Matthews",
         "pitcher_hand": "R",
-        "ml": -125,
-        "implied": 55.6
+        "ml": -132,
+        "implied": 56.9
       },
       "home": {
         "team": "Giants",
@@ -187,22 +210,15 @@
         "pitcher_id": 694918,
         "pitcher_name": "Blade Tidwell",
         "pitcher_hand": "R",
-        "ml": 104,
-        "implied": 49.0
+        "ml": 109,
+        "implied": 47.8
       },
       "weather": {
-        "temp_f": 59.6,
-        "wind_mph": 10.7,
-        "wind_dir_deg": 269
+        "temp_f": 59.5,
+        "wind_mph": 10.1,
+        "wind_dir_deg": 257
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Giants lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
