@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "generated": "2026-09-23T23:17:44",
+  "generated": "2026-09-24T00:58:46",
   "games": [
     {
       "game_pk": 824223,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 60.0,
-        "wind_mph": 13.0,
-        "wind_dir_deg": 66
+        "temp_f": 58.6,
+        "wind_mph": 5.9,
+        "wind_dir_deg": 70
       },
       "factors": [
         {
@@ -136,9 +136,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 61.2,
-        "wind_mph": 7.3,
-        "wind_dir_deg": 43
+        "temp_f": 58.5,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 35
       },
       "factors": [
         {
@@ -221,9 +221,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 63.2,
-        "wind_mph": 7.3,
-        "wind_dir_deg": 38
+        "temp_f": 58.5,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 35
       },
       "factors": [
         {
@@ -306,9 +306,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 68.4,
-        "wind_mph": 3.0,
-        "wind_dir_deg": 42
+        "temp_f": 74.5,
+        "wind_mph": 12.5,
+        "wind_dir_deg": 285
       },
       "factors": [
         {
@@ -385,9 +385,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 64.1,
-        "wind_mph": 8.0,
-        "wind_dir_deg": 72
+        "temp_f": 59.0,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 111
       },
       "factors": [
         {
@@ -464,9 +464,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 66.0,
-        "wind_mph": 11.9,
-        "wind_dir_deg": 58
+        "temp_f": 62.6,
+        "wind_mph": 10.9,
+        "wind_dir_deg": 64
       },
       "factors": [
         {
@@ -548,7 +548,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 61.5,
+        "wind_mph": 7.7,
+        "wind_dir_deg": 17
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -616,7 +620,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 53.7,
+        "wind_mph": 4.5,
+        "wind_dir_deg": 18
+      },
       "factors": [
         {
           "m": "+",
@@ -691,7 +699,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 71.4,
+        "wind_mph": 9.9,
+        "wind_dir_deg": 82
+      },
       "factors": [
         {
           "m": "+",
@@ -751,8 +763,8 @@
         "pitcher_id": 663542,
         "pitcher_name": "Bryan Hudson",
         "pitcher_hand": "L",
-        "ml": -120,
-        "implied": 54.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Royals",
@@ -763,8 +775,8 @@
         "pitcher_id": 607625,
         "pitcher_name": "Seth Lugo",
         "pitcher_hand": "R",
-        "ml": -101,
-        "implied": 50.2
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -786,8 +798,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -833,8 +844,8 @@
         "pitcher_id": 687473,
         "pitcher_name": "Ryan Gusto",
         "pitcher_hand": "R",
-        "ml": 159,
-        "implied": 38.6
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Cubs",
@@ -845,8 +856,8 @@
         "pitcher_id": 592332,
         "pitcher_name": "Kevin Gausman",
         "pitcher_hand": "R",
-        "ml": -194,
-        "implied": 66.0
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [],
@@ -855,8 +866,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -902,8 +912,8 @@
         "pitcher_id": 690997,
         "pitcher_name": "Nolan McLean",
         "pitcher_hand": "R",
-        "ml": -109,
-        "implied": 52.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Rangers",
@@ -914,8 +924,8 @@
         "pitcher_id": 674003,
         "pitcher_name": "Cody Bradford",
         "pitcher_hand": "L",
-        "ml": -110,
-        "implied": 52.4
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [],
@@ -924,8 +934,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -971,8 +980,8 @@
         "pitcher_id": 518876,
         "pitcher_name": "Merrill Kelly",
         "pitcher_hand": "R",
-        "ml": -167,
-        "implied": 62.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Rockies",
@@ -983,22 +992,17 @@
         "pitcher_id": 690279,
         "pitcher_name": "Mason Adams",
         "pitcher_hand": "R",
-        "ml": 137,
-        "implied": 42.2
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 73.4,
-        "wind_mph": 6.0,
-        "wind_dir_deg": 149
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -1059,11 +1063,7 @@
         "ml": 112,
         "implied": 47.2
       },
-      "weather": {
-        "temp_f": 89.0,
-        "wind_mph": 2.5,
-        "wind_dir_deg": 315
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -1124,8 +1124,8 @@
         "pitcher_id": 592662,
         "pitcher_name": "Robbie Ray",
         "pitcher_hand": "L",
-        "ml": 183,
-        "implied": 35.3
+        "ml": 184,
+        "implied": 35.2
       },
       "home": {
         "team": "Dodgers",
@@ -1136,14 +1136,10 @@
         "pitcher_id": 808967,
         "pitcher_name": "Yoshinobu Yamamoto",
         "pitcher_hand": "R",
-        "ml": -225,
-        "implied": 69.2
+        "ml": -226,
+        "implied": 69.3
       },
-      "weather": {
-        "temp_f": 70.3,
-        "wind_mph": 4.4,
-        "wind_dir_deg": 246
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1165,7 +1161,17 @@
       "lat": 47.591333,
       "lon": -122.33251,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          514888,
+          670541,
+          670623,
+          673237,
+          572233,
+          666211,
+          701358,
+          828599,
+          669397
+        ],
         "home": [
           641487,
           668227,
@@ -1187,8 +1193,8 @@
         "pitcher_id": 814490,
         "pitcher_name": "Ethan Pecko",
         "pitcher_hand": "R",
-        "ml": 104,
-        "implied": 49.0
+        "ml": 105,
+        "implied": 48.8
       },
       "home": {
         "team": "Mariners",
@@ -1203,9 +1209,9 @@
         "implied": 55.8
       },
       "weather": {
-        "temp_f": 57.6,
-        "wind_mph": 5.4,
-        "wind_dir_deg": 24
+        "temp_f": 57.0,
+        "wind_mph": 5.8,
+        "wind_dir_deg": 13
       },
       "factors": [
         {
@@ -1213,12 +1219,6 @@
           "side": "away",
           "label": "Handedness matchup",
           "text": "Ethan Pecko is vulnerable to LHB (0.791 OPS) and Mariners skew L-handed."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Astros lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
       "lean": "home",
