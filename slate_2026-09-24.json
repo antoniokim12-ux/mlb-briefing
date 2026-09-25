@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "generated": "2026-09-24T23:38:07",
+  "generated": "2026-09-25T01:00:04",
   "games": [
     {
       "game_pk": 823326,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 61.7,
-        "wind_mph": 7.4,
-        "wind_dir_deg": 57
+        "temp_f": 58.5,
+        "wind_mph": 5.5,
+        "wind_dir_deg": 47
       },
       "factors": [],
       "lean": "even",
@@ -129,9 +129,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 73.9,
-        "wind_mph": 5.9,
-        "wind_dir_deg": 99
+        "temp_f": 70.2,
+        "wind_mph": 10.8,
+        "wind_dir_deg": 73
       },
       "factors": [
         {
@@ -208,9 +208,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 67.6,
-        "wind_mph": 8.1,
-        "wind_dir_deg": 39
+        "temp_f": 63.0,
+        "wind_mph": 5.1,
+        "wind_dir_deg": 90
       },
       "factors": [],
       "lean": "even",
@@ -280,9 +280,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 89.7,
-        "wind_mph": 3.5,
-        "wind_dir_deg": 105
+        "temp_f": 91.4,
+        "wind_mph": 9.2,
+        "wind_dir_deg": 89
       },
       "factors": [],
       "lean": "even",
@@ -352,9 +352,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 71.8,
-        "wind_mph": 7.2,
-        "wind_dir_deg": 358
+        "temp_f": 67.7,
+        "wind_mph": 5.1,
+        "wind_dir_deg": 135
       },
       "factors": [
         {
@@ -411,7 +411,7 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "99-59",
+        "record": "100-59",
         "pitcher_id": 675660,
         "pitcher_name": "Shane Drohan",
         "pitcher_hand": "L",
@@ -423,7 +423,7 @@
         "team_full": "Philadelphia Phillies",
         "abbr": "PHI",
         "team_id": 143,
-        "record": "87-71",
+        "record": "87-72",
         "pitcher_id": 691725,
         "pitcher_name": "Andrew Painter",
         "pitcher_hand": "R",
@@ -431,9 +431,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 64.0,
-        "wind_mph": 9.1,
-        "wind_dir_deg": 50
+        "temp_f": 59.8,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 21
       },
       "factors": [],
       "lean": "even",
@@ -503,9 +503,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 60.5,
-        "wind_mph": 9.3,
-        "wind_dir_deg": 37
+        "temp_f": 53.2,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 27
       },
       "factors": [
         {
@@ -581,7 +581,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 60.9,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 20
+      },
       "factors": [
         {
           "m": "+",
@@ -656,7 +660,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 66.0,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 70
+      },
       "factors": [
         {
           "m": "-",
@@ -703,7 +711,7 @@
           680869,
           622268,
           666126,
-          675961,
+          811965,
           641680
         ]
       },
@@ -716,8 +724,8 @@
         "pitcher_id": 663567,
         "pitcher_name": "Peter Lambert",
         "pitcher_hand": "R",
-        "ml": -174,
-        "implied": 63.5
+        "ml": -179,
+        "implied": 64.2
       },
       "home": {
         "team": "Athletics",
@@ -728,8 +736,8 @@
         "pitcher_id": 686930,
         "pitcher_name": "Mason Barnett",
         "pitcher_hand": "R",
-        "ml": 144,
-        "implied": 41.0
+        "ml": 147,
+        "implied": 40.5
       },
       "weather": null,
       "factors": [
@@ -792,8 +800,8 @@
         "pitcher_id": 680570,
         "pitcher_name": "Grayson Rodriguez",
         "pitcher_hand": "R",
-        "ml": 162,
-        "implied": 38.2
+        "ml": 163,
+        "implied": 38.0
       },
       "home": {
         "team": "Mariners",
@@ -804,8 +812,8 @@
         "pitcher_id": 693433,
         "pitcher_name": "Bryan Woo",
         "pitcher_hand": "R",
-        "ml": -197,
-        "implied": 66.3
+        "ml": -199,
+        "implied": 66.6
       },
       "weather": null,
       "factors": [
