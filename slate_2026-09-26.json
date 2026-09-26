@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "generated": "2026-09-26T21:44:36",
+  "generated": "2026-09-26T23:14:04",
   "games": [
     {
       "game_pk": 822678,
@@ -260,7 +260,7 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "98-62",
+        "record": "99-62",
         "pitcher_id": 605483,
         "pitcher_name": "Blake Snell",
         "pitcher_hand": "L",
@@ -272,7 +272,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "65-95",
+        "record": "65-96",
         "pitcher_id": 683363,
         "pitcher_name": "Matt Wilkinson",
         "pitcher_hand": "L",
@@ -280,16 +280,16 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 67.8,
-        "wind_mph": 2.9,
-        "wind_dir_deg": 238
+        "temp_f": 69.2,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 263
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Blake Snell holds RHB to a 0.460 OPS; Giants project 67% R-handed today."
+          "text": "Blake Snell holds RHB to a 0.503 OPS; Giants project 67% R-handed today."
         }
       ],
       "lean": "away",
@@ -359,9 +359,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 59.4,
-        "wind_mph": 8.2,
-        "wind_dir_deg": 145
+        "temp_f": 58.3,
+        "wind_mph": 7.5,
+        "wind_dir_deg": 143
       },
       "factors": [],
       "lean": "even",
@@ -411,7 +411,7 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "93-67",
+        "record": "94-67",
         "pitcher_id": 608718,
         "pitcher_name": "Brent Suter",
         "pitcher_hand": "L",
@@ -423,7 +423,7 @@
         "team_full": "Miami Marlins",
         "abbr": "MIA",
         "team_id": 146,
-        "record": "79-81",
+        "record": "79-82",
         "pitcher_id": 667652,
         "pitcher_name": "Jack Ralston",
         "pitcher_hand": "R",
@@ -431,26 +431,26 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 85.4,
-        "wind_mph": 4.4,
-        "wind_dir_deg": 345
+        "temp_f": 85.0,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 342
       },
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Brent Suter holds RHB to a 0.663 OPS; Marlins project 78% R-handed today."
+          "text": "Brent Suter holds RHB to a 0.648 OPS; Marlins project 78% R-handed today."
         },
         {
-          "m": "+",
+          "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Jack Ralston holds LHB to a 0.636 OPS; Braves project 62% L-handed today."
+          "text": "Jack Ralston is vulnerable to LHB (0.808 OPS) and Braves skew L-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 2,
       "read": null,
       "total": null,
       "total_read": null,
@@ -500,8 +500,8 @@
         "pitcher_id": 676440,
         "pitcher_name": "Tanner Bibee",
         "pitcher_hand": "R",
-        "ml": -112,
-        "implied": 52.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Royals",
@@ -512,10 +512,14 @@
         "pitcher_id": 608379,
         "pitcher_name": "Michael Wacha",
         "pitcher_hand": "R",
-        "ml": -108,
-        "implied": 51.9
+        "ml": null,
+        "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 72.3,
+        "wind_mph": 5.7,
+        "wind_dir_deg": 149
+      },
       "factors": [
         {
           "m": "+",
@@ -529,8 +533,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -576,8 +579,8 @@
         "pitcher_id": 500779,
         "pitcher_name": "Jose Quintana",
         "pitcher_hand": "L",
-        "ml": 203,
-        "implied": 33.0
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "White Sox",
@@ -588,8 +591,8 @@
         "pitcher_id": 663436,
         "pitcher_name": "Davis Martin",
         "pitcher_hand": "R",
-        "ml": -252,
-        "implied": 71.6
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [],
@@ -598,8 +601,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -645,8 +647,8 @@
         "pitcher_id": 687273,
         "pitcher_name": "Quinn Mathews",
         "pitcher_hand": "L",
-        "ml": 134,
-        "implied": 42.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Brewers",
@@ -657,8 +659,8 @@
         "pitcher_id": 669160,
         "pitcher_name": "Dustin May",
         "pitcher_hand": "R",
-        "ml": -163,
-        "implied": 62.0
+        "ml": null,
+        "implied": null
       },
       "weather": null,
       "factors": [
@@ -674,8 +676,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -736,7 +737,11 @@
         "ml": -127,
         "implied": 55.9
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 58.7,
+        "wind_mph": 10.7,
+        "wind_dir_deg": 348
+      },
       "factors": [
         {
           "m": "-",
@@ -797,8 +802,8 @@
         "pitcher_id": null,
         "pitcher_name": "TBD",
         "pitcher_hand": null,
-        "ml": 109,
-        "implied": 47.8
+        "ml": 104,
+        "implied": 49.0
       },
       "home": {
         "team": "Padres",
@@ -809,10 +814,14 @@
         "pitcher_id": 621111,
         "pitcher_name": "Walker Buehler",
         "pitcher_hand": "R",
-        "ml": -131,
-        "implied": 56.7
+        "ml": -126,
+        "implied": 55.8
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.5,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 288
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -834,8 +843,28 @@
       "lat": 38.57994,
       "lon": -121.51246,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          665161,
+          670541,
+          670623,
+          514888,
+          673237,
+          572233,
+          828599,
+          701358,
+          666211
+        ],
+        "home": [
+          703607,
+          671732,
+          669127,
+          643446,
+          680869,
+          622268,
+          666126,
+          695720,
+          641680
+        ]
       },
       "away": {
         "team": "Astros",
@@ -846,8 +875,8 @@
         "pitcher_id": 669713,
         "pitcher_name": "Hayden Wesneski",
         "pitcher_hand": "R",
-        "ml": -161,
-        "implied": 61.7
+        "ml": -163,
+        "implied": 62.0
       },
       "home": {
         "team": "Athletics",
@@ -858,30 +887,24 @@
         "pitcher_id": 678022,
         "pitcher_name": "Jack Perkins",
         "pitcher_hand": "R",
-        "ml": 133,
-        "implied": 42.9
+        "ml": 134,
+        "implied": 42.7
       },
       "weather": {
-        "temp_f": 79.5,
-        "wind_mph": 5.8,
-        "wind_dir_deg": 242
+        "temp_f": 79.1,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 239
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Athletics lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Astros lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Jack Perkins is vulnerable to RHB (0.782 OPS) and Astros skew R-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -900,7 +923,17 @@
       "lat": 47.591333,
       "lon": -122.33251,
       "lineup_ids": {
-        "away": [],
+        "away": [
+          687263,
+          545361,
+          642350,
+          687093,
+          694203,
+          695681,
+          685133,
+          669326,
+          623168
+        ],
         "home": []
       },
       "away": {
@@ -927,11 +960,7 @@
         "ml": -162,
         "implied": 61.8
       },
-      "weather": {
-        "temp_f": 55.4,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 18
-      },
+      "weather": null,
       "factors": [
         {
           "m": "~",
@@ -940,14 +969,14 @@
           "text": "Mariners lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Angels lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Kade Anderson holds RHB to a 0.653 OPS; Angels project 88% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
