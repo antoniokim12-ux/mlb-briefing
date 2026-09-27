@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "generated": "2026-09-27T21:45:48",
+  "generated": "2026-09-27T23:28:56",
   "games": [
     {
       "game_pk": 822679,
@@ -195,7 +195,7 @@
         "team_full": "Chicago Cubs",
         "abbr": "CHC",
         "team_id": 112,
-        "record": "88-73",
+        "record": "89-73",
         "pitcher_id": 684007,
         "pitcher_name": "Shota Imanaga",
         "pitcher_hand": "L",
@@ -207,7 +207,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "87-74",
+        "record": "87-75",
         "pitcher_id": 656557,
         "pitcher_name": "Tanner Houck",
         "pitcher_hand": "R",
@@ -224,7 +224,7 @@
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Shota Imanaga holds RHB to a 0.691 OPS; Red Sox project 71% R-handed today."
+          "text": "Shota Imanaga holds RHB to a 0.699 OPS; Red Sox project 71% R-handed today."
         }
       ],
       "lean": "away",
@@ -274,7 +274,7 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "80-81",
+        "record": "81-81",
         "pitcher_id": 663567,
         "pitcher_name": "Peter Lambert",
         "pitcher_hand": "R",
@@ -286,7 +286,7 @@
         "team_full": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "record": "64-97",
+        "record": "64-98",
         "pitcher_id": 686751,
         "pitcher_name": "Seth Johnson",
         "pitcher_hand": "R",
@@ -303,7 +303,7 @@
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Seth Johnson is vulnerable to RHB (0.868 OPS) and Astros skew R-handed."
+          "text": "Seth Johnson is vulnerable to RHB (0.845 OPS) and Astros skew R-handed."
         }
       ],
       "lean": "away",
@@ -353,7 +353,7 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "99-62",
+        "record": "100-62",
         "pitcher_id": 676263,
         "pitcher_name": "Jack Dreyer",
         "pitcher_hand": "L",
@@ -365,7 +365,7 @@
         "team_full": "San Francisco Giants",
         "abbr": "SF",
         "team_id": 137,
-        "record": "65-96",
+        "record": "65-97",
         "pitcher_id": 693313,
         "pitcher_name": "Carson Seymour",
         "pitcher_hand": "R",
@@ -382,7 +382,7 @@
           "m": "-",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Carson Seymour is vulnerable to LHB (0.903 OPS) and Dodgers skew L-handed."
+          "text": "Carson Seymour is vulnerable to LHB (0.876 OPS) and Dodgers skew L-handed."
         }
       ],
       "lean": "away",
@@ -456,9 +456,16 @@
         "wind_mph": 11.4,
         "wind_dir_deg": 358
       },
-      "factors": [],
-      "lean": "even",
-      "weight": 0,
+      "factors": [
+        {
+          "m": "-",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Brandon Williamson is vulnerable to RHB (0.791 OPS) and Blue Jays skew R-handed."
+        }
+      ],
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
@@ -523,7 +530,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 71.9,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 87
+      },
       "factors": [
         {
           "m": "+",
@@ -598,7 +609,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 75.4,
+        "wind_mph": 9.6,
+        "wind_dir_deg": 357
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -647,7 +662,7 @@
         "team_full": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "record": "86-75",
+        "record": "86-76",
         "pitcher_id": 647336,
         "pitcher_name": "Michael Soroka",
         "pitcher_hand": "R",
@@ -659,7 +674,7 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "90-71",
+        "record": "91-71",
         "pitcher_id": 681190,
         "pitcher_name": "Randy V\u00e1squez",
         "pitcher_hand": "R",
@@ -715,7 +730,7 @@
         "team_full": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
-        "record": "62-99",
+        "record": "62-100",
         "pitcher_id": 579328,
         "pitcher_name": "Yusei Kikuchi",
         "pitcher_hand": "L",
@@ -727,7 +742,7 @@
         "team_full": "Seattle Mariners",
         "abbr": "SEA",
         "team_id": 136,
-        "record": "75-86",
+        "record": "76-86",
         "pitcher_id": 669302,
         "pitcher_name": "Logan Gilbert",
         "pitcher_hand": "R",
@@ -945,11 +960,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 85.9,
-        "wind_mph": 0.7,
-        "wind_dir_deg": 18
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1017,23 +1028,19 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 69.2,
-        "wind_mph": 6.1,
-        "wind_dir_deg": 84
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
           "side": "away",
           "label": "Handedness matchup",
-          "text": "Andre Pallante holds LHB to a 0.686 OPS; Brewers project 67% L-handed today."
+          "text": "Andre Pallante holds LHB to a 0.687 OPS; Brewers project 67% L-handed today."
         },
         {
           "m": "+",
           "side": "home",
           "label": "Handedness matchup",
-          "text": "Jacob Misiorowski holds RHB to a 0.585 OPS; Cardinals project 62% R-handed today."
+          "text": "Jacob Misiorowski holds RHB to a 0.582 OPS; Cardinals project 62% R-handed today."
         }
       ],
       "lean": "even",
