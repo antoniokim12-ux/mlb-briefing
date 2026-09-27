@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "generated": "2026-09-26T23:14:04",
+  "generated": "2026-09-27T01:01:58",
   "games": [
     {
       "game_pk": 822678,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 64.3,
-        "wind_mph": 12.3,
-        "wind_dir_deg": 350
+        "temp_f": 57.7,
+        "wind_mph": 8.8,
+        "wind_dir_deg": 333
       },
       "factors": [],
       "lean": "even",
@@ -129,9 +129,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 68.7,
-        "wind_mph": 5.1,
-        "wind_dir_deg": 2
+        "temp_f": 61.3,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 35
       },
       "factors": [
         {
@@ -208,9 +208,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 70.4,
+        "temp_f": 63.7,
         "wind_mph": 6.9,
-        "wind_dir_deg": 144
+        "wind_dir_deg": 341
       },
       "factors": [],
       "lean": "even",
@@ -280,9 +280,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 69.2,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 263
+        "temp_f": 64.6,
+        "wind_mph": 11.2,
+        "wind_dir_deg": 276
       },
       "factors": [
         {
@@ -359,9 +359,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 58.3,
-        "wind_mph": 7.5,
-        "wind_dir_deg": 143
+        "temp_f": 58.2,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 124
       },
       "factors": [],
       "lean": "even",
@@ -431,9 +431,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 85.0,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 342
+        "temp_f": 78.5,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 35
       },
       "factors": [
         {
@@ -516,9 +516,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 72.3,
-        "wind_mph": 5.7,
-        "wind_dir_deg": 149
+        "temp_f": 70.2,
+        "wind_mph": 3.1,
+        "wind_dir_deg": 69
       },
       "factors": [
         {
@@ -722,8 +722,8 @@
         "pitcher_id": 643377,
         "pitcher_name": "Griffin Jax",
         "pitcher_hand": "R",
-        "ml": 106,
-        "implied": 48.5
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Phillies",
@@ -734,14 +734,10 @@
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": "R",
-        "ml": -127,
-        "implied": 55.9
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 58.7,
-        "wind_mph": 10.7,
-        "wind_dir_deg": 348
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -755,8 +751,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -799,11 +794,11 @@
         "abbr": "AZ",
         "team_id": 109,
         "record": "86-74",
-        "pitcher_id": null,
-        "pitcher_name": "TBD",
-        "pitcher_hand": null,
-        "ml": 104,
-        "implied": 49.0
+        "pitcher_id": 664199,
+        "pitcher_name": "Taylor Clarke",
+        "pitcher_hand": "R",
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Padres",
@@ -814,22 +809,17 @@
         "pitcher_id": 621111,
         "pitcher_name": "Walker Buehler",
         "pitcher_hand": "R",
-        "ml": -126,
-        "implied": 55.8
+        "ml": null,
+        "implied": null
       },
-      "weather": {
-        "temp_f": 79.5,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 288
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -875,8 +865,8 @@
         "pitcher_id": 669713,
         "pitcher_name": "Hayden Wesneski",
         "pitcher_hand": "R",
-        "ml": -163,
-        "implied": 62.0
+        "ml": -168,
+        "implied": 62.7
       },
       "home": {
         "team": "Athletics",
@@ -887,14 +877,10 @@
         "pitcher_id": 678022,
         "pitcher_name": "Jack Perkins",
         "pitcher_hand": "R",
-        "ml": 134,
-        "implied": 42.7
+        "ml": 139,
+        "implied": 41.8
       },
-      "weather": {
-        "temp_f": 79.1,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 239
-      },
+      "weather": null,
       "factors": [
         {
           "m": "-",
@@ -934,7 +920,17 @@
           669326,
           623168
         ],
-        "home": []
+        "home": [
+          641487,
+          668227,
+          686527,
+          663728,
+          647304,
+          702284,
+          703197,
+          703155,
+          660844
+        ]
       },
       "away": {
         "team": "Angels",
@@ -945,8 +941,8 @@
         "pitcher_id": 696270,
         "pitcher_name": "Ryan Johnson",
         "pitcher_hand": "R",
-        "ml": 134,
-        "implied": 42.7
+        "ml": 130,
+        "implied": 43.5
       },
       "home": {
         "team": "Mariners",
@@ -957,16 +953,16 @@
         "pitcher_id": 807739,
         "pitcher_name": "Kade Anderson",
         "pitcher_hand": "L",
-        "ml": -162,
-        "implied": 61.8
+        "ml": -157,
+        "implied": 61.1
       },
       "weather": null,
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Mariners lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Ryan Johnson is vulnerable to LHB (0.780 OPS) and Mariners skew L-handed."
         },
         {
           "m": "+",
@@ -976,7 +972,7 @@
         }
       ],
       "lean": "home",
-      "weight": 1,
+      "weight": 2,
       "read": null,
       "total": null,
       "total_read": null,
