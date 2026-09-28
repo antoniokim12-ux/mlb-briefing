@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "generated": "2026-09-27T23:28:56",
+  "generated": "2026-09-28T01:17:33",
   "games": [
     {
       "game_pk": 822679,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 61.7,
-        "wind_mph": 8.9,
-        "wind_dir_deg": 307
+        "temp_f": 60.7,
+        "wind_mph": 7.5,
+        "wind_dir_deg": 323
       },
       "factors": [
         {
@@ -136,18 +136,11 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 62.7,
-        "wind_mph": 15.2,
-        "wind_dir_deg": 20
+        "temp_f": 61.7,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 8
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "15 mph wind (dir 20\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
@@ -215,9 +208,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 84.3,
-        "wind_mph": 0.5,
-        "wind_dir_deg": 243
+        "temp_f": 74.4,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 288
       },
       "factors": [
         {
@@ -294,9 +287,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 68.8,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 228
+        "temp_f": 78.0,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 233
       },
       "factors": [
         {
@@ -373,9 +366,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 64.1,
-        "wind_mph": 7.8,
-        "wind_dir_deg": 268
+        "temp_f": 61.1,
+        "wind_mph": 13.7,
+        "wind_dir_deg": 282
       },
       "factors": [
         {
@@ -452,9 +445,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 77.1,
-        "wind_mph": 11.4,
-        "wind_dir_deg": 358
+        "temp_f": 64.4,
+        "wind_mph": 3.4,
+        "wind_dir_deg": 58
       },
       "factors": [
         {
@@ -530,11 +523,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 71.9,
-        "wind_mph": 4.3,
-        "wind_dir_deg": 87
-      },
+      "weather": null,
       "factors": [
         {
           "m": "+",
@@ -609,11 +598,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 75.4,
-        "wind_mph": 9.6,
-        "wind_dir_deg": 357
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -960,7 +945,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 79.0,
+        "wind_mph": 2.9,
+        "wind_dir_deg": 67
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -1028,7 +1017,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 59.7,
+        "wind_mph": 3.6,
+        "wind_dir_deg": 43
+      },
       "factors": [
         {
           "m": "+",
@@ -1090,9 +1083,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 62.9,
-        "wind_mph": 15.4,
-        "wind_dir_deg": 48
+        "temp_f": 60.7,
+        "wind_mph": 11.8,
+        "wind_dir_deg": 33
       },
       "factors": [
         {
@@ -1106,12 +1099,6 @@
           "side": "none",
           "label": "Lineups",
           "text": "Orioles lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "15 mph wind (dir 48\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
