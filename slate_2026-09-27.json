@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "generated": "2026-09-28T01:17:33",
+  "generated": "2026-09-28T06:19:59",
   "games": [
     {
       "game_pk": 822679,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 60.7,
-        "wind_mph": 7.5,
-        "wind_dir_deg": 323
+        "temp_f": 61.1,
+        "wind_mph": 9.9,
+        "wind_dir_deg": 303
       },
       "factors": [
         {
@@ -136,9 +136,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 61.7,
-        "wind_mph": 6.8,
-        "wind_dir_deg": 8
+        "temp_f": 61.9,
+        "wind_mph": 9.3,
+        "wind_dir_deg": 352
       },
       "factors": [],
       "lean": "even",
@@ -208,9 +208,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 74.4,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 288
+        "temp_f": 74.5,
+        "wind_mph": 5.1,
+        "wind_dir_deg": 270
       },
       "factors": [
         {
@@ -287,9 +287,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 78.0,
-        "wind_mph": 8.6,
-        "wind_dir_deg": 233
+        "temp_f": 79.5,
+        "wind_mph": 7.3,
+        "wind_dir_deg": 236
       },
       "factors": [
         {
@@ -366,9 +366,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 61.1,
-        "wind_mph": 13.7,
-        "wind_dir_deg": 282
+        "temp_f": 62.1,
+        "wind_mph": 15.4,
+        "wind_dir_deg": 279
       },
       "factors": [
         {
@@ -376,6 +376,12 @@
           "side": "home",
           "label": "Handedness matchup",
           "text": "Carson Seymour is vulnerable to LHB (0.876 OPS) and Dodgers skew L-handed."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "15 mph wind (dir 279\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "away",
@@ -445,9 +451,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 64.4,
-        "wind_mph": 3.4,
-        "wind_dir_deg": 58
+        "temp_f": 67.1,
+        "wind_mph": 4.6,
+        "wind_dir_deg": 51
       },
       "factors": [
         {
@@ -523,7 +529,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 70.9,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 83
+      },
       "factors": [
         {
           "m": "+",
@@ -802,7 +812,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 66.8,
+        "wind_mph": 1.8,
+        "wind_dir_deg": 30
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -870,7 +884,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 60.7,
+        "wind_mph": 5.5,
+        "wind_dir_deg": 32
+      },
       "factors": [
         {
           "m": "-",
@@ -946,9 +964,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 79.0,
-        "wind_mph": 2.9,
-        "wind_dir_deg": 67
+        "temp_f": 79.2,
+        "wind_mph": 2.6,
+        "wind_dir_deg": 59
       },
       "factors": [],
       "lean": "even",
@@ -1018,9 +1036,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 59.7,
-        "wind_mph": 3.6,
-        "wind_dir_deg": 43
+        "temp_f": 60.4,
+        "wind_mph": 1.4,
+        "wind_dir_deg": 72
       },
       "factors": [
         {
@@ -1083,9 +1101,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 60.7,
-        "wind_mph": 11.8,
-        "wind_dir_deg": 33
+        "temp_f": 60.9,
+        "wind_mph": 11.4,
+        "wind_dir_deg": 11
       },
       "factors": [
         {
