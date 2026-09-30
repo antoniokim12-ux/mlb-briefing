@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "generated": "2026-09-29T23:59:00",
+  "generated": "2026-09-30T01:42:20",
   "games": [
     {
       "game_pk": 849845,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 82.2,
-        "wind_mph": 2.5,
-        "wind_dir_deg": 95
+        "temp_f": 73.6,
+        "wind_mph": 5.3,
+        "wind_dir_deg": 57
       },
       "factors": [
         {
@@ -116,7 +116,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "0-0",
+        "record": "1-0",
         "pitcher_id": 696146,
         "pitcher_name": "Hagen Smith",
         "pitcher_hand": "L",
@@ -128,7 +128,7 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "0-0",
+        "record": "0-1",
         "pitcher_id": 805123,
         "pitcher_name": "AJ Blubaugh",
         "pitcher_hand": "R",
@@ -136,9 +136,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 84.9,
-        "wind_mph": 2.1,
-        "wind_dir_deg": 148
+        "temp_f": 80.8,
+        "wind_mph": 6.8,
+        "wind_dir_deg": 134
       },
       "factors": [
         {
@@ -205,8 +205,8 @@
         "pitcher_id": 801139,
         "pitcher_name": "Payton Tolle",
         "pitcher_hand": "L",
-        "ml": 116,
-        "implied": 46.3
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Yankees",
@@ -217,13 +217,13 @@
         "pitcher_id": 693645,
         "pitcher_name": "Cam Schlittler",
         "pitcher_hand": "R",
-        "ml": -140,
-        "implied": 58.3
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 63.0,
-        "wind_mph": 3.3,
-        "wind_dir_deg": 312
+        "temp_f": 61.9,
+        "wind_mph": 4.8,
+        "wind_dir_deg": 311
       },
       "factors": [],
       "lean": "even",
@@ -231,8 +231,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -294,9 +293,9 @@
         "implied": 56.5
       },
       "weather": {
-        "temp_f": 72.8,
-        "wind_mph": 1.6,
-        "wind_dir_deg": 286
+        "temp_f": 72.4,
+        "wind_mph": 3.0,
+        "wind_dir_deg": 228
       },
       "factors": [
         {
