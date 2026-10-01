@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "generated": "2026-10-01T09:17:09",
+  "generated": "2026-10-01T22:57:11",
   "games": [
     {
       "game_pk": 849844,
@@ -9,8 +9,28 @@
       "lat": 33.890672,
       "lon": -84.467641,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          607208,
+          656941,
+          547180,
+          664761,
+          681082,
+          650559,
+          624641,
+          592663,
+          702222
+        ],
+        "home": [
+          686948,
+          660670,
+          621566,
+          671739,
+          643289,
+          573262,
+          663586,
+          645277,
+          642086
+        ]
       },
       "away": {
         "team": "Phillies",
@@ -18,11 +38,11 @@
         "abbr": "PHI",
         "team_id": 143,
         "record": "1-1",
-        "pitcher_id": null,
-        "pitcher_name": "TBD",
-        "pitcher_hand": null,
-        "ml": -118,
-        "implied": 54.1
+        "pitcher_id": 605400,
+        "pitcher_name": "Aaron Nola",
+        "pitcher_hand": "R",
+        "ml": -108,
+        "implied": 51.9
       },
       "home": {
         "team": "Braves",
@@ -30,33 +50,27 @@
         "abbr": "ATL",
         "team_id": 144,
         "record": "1-1",
-        "pitcher_id": null,
-        "pitcher_name": "TBD",
-        "pitcher_hand": null,
-        "ml": -102,
-        "implied": 50.5
+        "pitcher_id": 678061,
+        "pitcher_name": "Ray Kerr",
+        "pitcher_hand": "L",
+        "ml": -111,
+        "implied": 52.6
       },
       "weather": {
-        "temp_f": 79.4,
-        "wind_mph": 4.7,
-        "wind_dir_deg": 125
+        "temp_f": 75.9,
+        "wind_mph": 4.5,
+        "wind_dir_deg": 93
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Braves lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Phillies lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "-",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Aaron Nola is vulnerable to LHB (0.796 OPS) and Braves skew L-handed."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
