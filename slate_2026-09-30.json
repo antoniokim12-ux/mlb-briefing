@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "generated": "2026-09-30T22:43:35",
+  "generated": "2026-10-01T00:13:16",
   "games": [
     {
       "game_pk": 849841,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 83.7,
-        "wind_mph": 4.9,
-        "wind_dir_deg": 129
+        "temp_f": 75.3,
+        "wind_mph": 5.2,
+        "wind_dir_deg": 50
       },
       "factors": [],
       "lean": "even",
@@ -129,9 +129,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 90.7,
-        "wind_mph": 9.4,
-        "wind_dir_deg": 147
+        "temp_f": 83.0,
+        "wind_mph": 8.6,
+        "wind_dir_deg": 143
       },
       "factors": [
         {
@@ -198,8 +198,8 @@
         "pitcher_id": 543243,
         "pitcher_name": "Sonny Gray",
         "pitcher_hand": "R",
-        "ml": 113,
-        "implied": 46.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Yankees",
@@ -210,13 +210,13 @@
         "pitcher_id": 608331,
         "pitcher_name": "Max Fried",
         "pitcher_hand": "L",
-        "ml": -136,
-        "implied": 57.6
+        "ml": null,
+        "implied": null
       },
       "weather": {
         "temp_f": 65.2,
-        "wind_mph": 2.7,
-        "wind_dir_deg": 132
+        "wind_mph": 3.1,
+        "wind_dir_deg": 120
       },
       "factors": [
         {
@@ -237,8 +237,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -300,9 +299,9 @@
         "implied": 59.8
       },
       "weather": {
-        "temp_f": 69.3,
-        "wind_mph": 2.2,
-        "wind_dir_deg": 217
+        "temp_f": 69.1,
+        "wind_mph": 3.0,
+        "wind_dir_deg": 216
       },
       "factors": [],
       "lean": "even",
