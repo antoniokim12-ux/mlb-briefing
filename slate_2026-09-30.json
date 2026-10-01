@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "generated": "2026-10-01T00:13:16",
+  "generated": "2026-10-01T01:38:21",
   "games": [
     {
       "game_pk": 849841,
@@ -56,11 +56,7 @@
         "ml": null,
         "implied": null
       },
-      "weather": {
-        "temp_f": 75.3,
-        "wind_mph": 5.2,
-        "wind_dir_deg": 50
-      },
+      "weather": null,
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -109,7 +105,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "1-0",
+        "record": "2-0",
         "pitcher_id": 680732,
         "pitcher_name": "Sean Burke",
         "pitcher_hand": "R",
@@ -121,7 +117,7 @@
         "team_full": "Houston Astros",
         "abbr": "HOU",
         "team_id": 117,
-        "record": "0-1",
+        "record": "0-2",
         "pitcher_id": 686613,
         "pitcher_name": "Hunter Brown",
         "pitcher_hand": "R",
@@ -130,8 +126,8 @@
       },
       "weather": {
         "temp_f": 83.0,
-        "wind_mph": 8.6,
-        "wind_dir_deg": 143
+        "wind_mph": 9.3,
+        "wind_dir_deg": 132
       },
       "factors": [
         {
@@ -214,9 +210,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 65.2,
-        "wind_mph": 3.1,
-        "wind_dir_deg": 120
+        "temp_f": 66.5,
+        "wind_mph": 3.9,
+        "wind_dir_deg": 114
       },
       "factors": [
         {
@@ -299,9 +295,9 @@
         "implied": 59.8
       },
       "weather": {
-        "temp_f": 69.1,
-        "wind_mph": 3.0,
-        "wind_dir_deg": 216
+        "temp_f": 68.1,
+        "wind_mph": 3.4,
+        "wind_dir_deg": 212
       },
       "factors": [],
       "lean": "even",
