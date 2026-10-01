@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "generated": "2026-10-01T01:38:21",
+  "generated": "2026-10-01T06:49:19",
   "games": [
     {
       "game_pk": 849841,
@@ -56,7 +56,11 @@
         "ml": null,
         "implied": null
       },
-      "weather": null,
+      "weather": {
+        "temp_f": 74.3,
+        "wind_mph": 2.6,
+        "wind_dir_deg": 345
+      },
       "factors": [],
       "lean": "even",
       "weight": 0,
@@ -125,9 +129,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 83.0,
-        "wind_mph": 9.3,
-        "wind_dir_deg": 132
+        "temp_f": 82.4,
+        "wind_mph": 9.9,
+        "wind_dir_deg": 126
       },
       "factors": [
         {
@@ -190,7 +194,7 @@
         "team_full": "Boston Red Sox",
         "abbr": "BOS",
         "team_id": 111,
-        "record": "0-1",
+        "record": "0-2",
         "pitcher_id": 543243,
         "pitcher_name": "Sonny Gray",
         "pitcher_hand": "R",
@@ -202,7 +206,7 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "1-0",
+        "record": "2-0",
         "pitcher_id": 608331,
         "pitcher_name": "Max Fried",
         "pitcher_hand": "L",
@@ -210,9 +214,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 66.5,
-        "wind_mph": 3.9,
-        "wind_dir_deg": 114
+        "temp_f": 66.3,
+        "wind_mph": 3.6,
+        "wind_dir_deg": 137
       },
       "factors": [
         {
@@ -275,29 +279,29 @@
         "team_full": "Chicago Cubs",
         "abbr": "CHC",
         "team_id": 112,
-        "record": "0-1",
+        "record": "0-2",
         "pitcher_id": 592332,
         "pitcher_name": "Kevin Gausman",
         "pitcher_hand": "R",
-        "ml": 123,
-        "implied": 44.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Padres",
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "1-0",
+        "record": "2-0",
         "pitcher_id": 601713,
         "pitcher_name": "Nick Pivetta",
         "pitcher_hand": "R",
-        "ml": -149,
-        "implied": 59.8
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 68.1,
-        "wind_mph": 3.4,
-        "wind_dir_deg": 212
+        "temp_f": 70.6,
+        "wind_mph": 2.6,
+        "wind_dir_deg": 250
       },
       "factors": [],
       "lean": "even",
@@ -305,8 +309,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
