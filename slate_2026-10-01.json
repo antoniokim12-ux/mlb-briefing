@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "generated": "2026-10-01T22:57:11",
+  "generated": "2026-10-02T00:16:56",
   "games": [
     {
       "game_pk": 849844,
@@ -41,8 +41,8 @@
         "pitcher_id": 605400,
         "pitcher_name": "Aaron Nola",
         "pitcher_hand": "R",
-        "ml": -108,
-        "implied": 51.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Braves",
@@ -53,13 +53,13 @@
         "pitcher_id": 678061,
         "pitcher_name": "Ray Kerr",
         "pitcher_hand": "L",
-        "ml": -111,
-        "implied": 52.6
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 75.9,
+        "temp_f": 76.9,
         "wind_mph": 4.5,
-        "wind_dir_deg": 93
+        "wind_dir_deg": 81
       },
       "factors": [
         {
@@ -74,8 +74,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
