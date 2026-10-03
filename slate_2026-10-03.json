@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "generated": "2026-10-03T21:53:41",
+  "generated": "2026-10-03T23:24:29",
   "games": [
     {
       "game_pk": 849829,
@@ -116,7 +116,7 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "0-0",
+        "record": "0-1",
         "pitcher_id": 689266,
         "pitcher_name": "Dylan Dodd",
         "pitcher_hand": "L",
@@ -128,7 +128,7 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "0-0",
+        "record": "1-0",
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": "L",
@@ -199,8 +199,8 @@
         "pitcher_id": 543037,
         "pitcher_name": "Gerrit Cole",
         "pitcher_hand": "R",
-        "ml": 118,
-        "implied": 45.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Rays",
@@ -211,13 +211,13 @@
         "pitcher_id": 656876,
         "pitcher_name": "Drew Rasmussen",
         "pitcher_hand": "R",
-        "ml": -142,
-        "implied": 58.7
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 87.9,
-        "wind_mph": 4.3,
-        "wind_dir_deg": 228
+        "temp_f": 88.6,
+        "wind_mph": 3.5,
+        "wind_dir_deg": 81
       },
       "factors": [
         {
@@ -238,8 +238,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -285,8 +284,8 @@
         "pitcher_id": 592662,
         "pitcher_name": "Robbie Ray",
         "pitcher_hand": "L",
-        "ml": 171,
-        "implied": 36.9
+        "ml": 178,
+        "implied": 36.0
       },
       "home": {
         "team": "Brewers",
@@ -297,13 +296,13 @@
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
-        "ml": -209,
-        "implied": 67.6
+        "ml": -218,
+        "implied": 68.6
       },
       "weather": {
-        "temp_f": 56.7,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 150
+        "temp_f": 57.0,
+        "wind_mph": 4.4,
+        "wind_dir_deg": 137
       },
       "factors": [],
       "lean": "even",
