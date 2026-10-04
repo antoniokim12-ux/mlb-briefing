@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "generated": "2026-10-04T22:05:50",
+  "generated": "2026-10-04T23:38:49",
   "games": [
     {
       "game_pk": 849825,
@@ -37,7 +37,7 @@
         "team_full": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
-        "record": "0-1",
+        "record": "0-2",
         "pitcher_id": 650633,
         "pitcher_name": "Michael King",
         "pitcher_hand": "R",
@@ -49,7 +49,7 @@
         "team_full": "Milwaukee Brewers",
         "abbr": "MIL",
         "team_id": 158,
-        "record": "1-0",
+        "record": "2-0",
         "pitcher_id": 701656,
         "pitcher_name": "Logan Henderson",
         "pitcher_hand": "R",
@@ -120,8 +120,8 @@
         "pitcher_id": 678061,
         "pitcher_name": "Ray Kerr",
         "pitcher_hand": "L",
-        "ml": 173,
-        "implied": 36.6
+        "ml": 174,
+        "implied": 36.5
       },
       "home": {
         "team": "Dodgers",
@@ -132,13 +132,13 @@
         "pitcher_id": 605483,
         "pitcher_name": "Blake Snell",
         "pitcher_hand": "L",
-        "ml": -212,
-        "implied": 67.9
+        "ml": -213,
+        "implied": 68.1
       },
       "weather": {
-        "temp_f": 95.3,
-        "wind_mph": 9.0,
-        "wind_dir_deg": 238
+        "temp_f": 95.4,
+        "wind_mph": 8.4,
+        "wind_dir_deg": 237
       },
       "factors": [
         {
