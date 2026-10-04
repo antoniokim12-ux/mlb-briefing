@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "generated": "2026-10-03T23:24:29",
+  "generated": "2026-10-04T02:12:13",
   "games": [
     {
       "game_pk": 849829,
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 63.8,
-        "wind_mph": 7.3,
-        "wind_dir_deg": 62
+        "temp_f": 57.2,
+        "wind_mph": 3.2,
+        "wind_dir_deg": 92
       },
       "factors": [
         {
@@ -136,9 +136,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 102.0,
-        "wind_mph": 2.9,
-        "wind_dir_deg": 190
+        "temp_f": 94.5,
+        "wind_mph": 10.6,
+        "wind_dir_deg": 244
       },
       "factors": [
         {
@@ -195,7 +195,7 @@
         "team_full": "New York Yankees",
         "abbr": "NYY",
         "team_id": 147,
-        "record": "0-0",
+        "record": "0-1",
         "pitcher_id": 543037,
         "pitcher_name": "Gerrit Cole",
         "pitcher_hand": "R",
@@ -207,7 +207,7 @@
         "team_full": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
-        "record": "0-0",
+        "record": "1-0",
         "pitcher_id": 656876,
         "pitcher_name": "Drew Rasmussen",
         "pitcher_hand": "R",
@@ -215,9 +215,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 88.6,
-        "wind_mph": 3.5,
-        "wind_dir_deg": 81
+        "temp_f": 85.1,
+        "wind_mph": 0.3,
+        "wind_dir_deg": 324
       },
       "factors": [
         {
@@ -284,8 +284,8 @@
         "pitcher_id": 592662,
         "pitcher_name": "Robbie Ray",
         "pitcher_hand": "L",
-        "ml": 178,
-        "implied": 36.0
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Brewers",
@@ -296,13 +296,13 @@
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
-        "ml": -218,
-        "implied": 68.6
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 57.0,
-        "wind_mph": 4.4,
-        "wind_dir_deg": 137
+        "temp_f": 57.2,
+        "wind_mph": 1.9,
+        "wind_dir_deg": 116
       },
       "factors": [],
       "lean": "even",
@@ -310,8 +310,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
