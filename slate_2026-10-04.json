@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "generated": "2026-10-04T08:39:40",
+  "generated": "2026-10-04T22:05:50",
   "games": [
     {
       "game_pk": 849825,
@@ -9,8 +9,28 @@
       "lat": 43.02838,
       "lon": -87.97099,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          665487,
+          687957,
+          592518,
+          664034,
+          701538,
+          657757,
+          593428,
+          669134,
+          630105
+        ],
+        "home": [
+          694192,
+          668930,
+          641343,
+          661388,
+          669003,
+          592885,
+          686217,
+          806198,
+          666152
+        ]
       },
       "away": {
         "team": "Padres",
@@ -21,8 +41,8 @@
         "pitcher_id": 650633,
         "pitcher_name": "Michael King",
         "pitcher_hand": "R",
-        "ml": 119,
-        "implied": 45.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Brewers",
@@ -33,35 +53,28 @@
         "pitcher_id": 701656,
         "pitcher_name": "Logan Henderson",
         "pitcher_hand": "R",
-        "ml": -143,
-        "implied": 58.8
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 66.3,
-        "wind_mph": 12.4,
-        "wind_dir_deg": 306
+        "temp_f": 69.2,
+        "wind_mph": 12.2,
+        "wind_dir_deg": 304
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Padres lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Michael King holds LHB to a 0.635 OPS; Brewers project 67% L-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -75,8 +88,28 @@
       "lat": 34.07368,
       "lon": -118.24053,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          686948,
+          660670,
+          621566,
+          645277,
+          671739,
+          643289,
+          669221,
+          663586,
+          657041
+        ],
+        "home": [
+          605141,
+          660271,
+          669257,
+          518692,
+          606192,
+          663656,
+          681624,
+          500743,
+          669242
+        ]
       },
       "away": {
         "team": "Braves",
@@ -84,11 +117,11 @@
         "abbr": "ATL",
         "team_id": 144,
         "record": "0-1",
-        "pitcher_id": null,
-        "pitcher_name": "TBD",
-        "pitcher_hand": null,
-        "ml": 130,
-        "implied": 43.5
+        "pitcher_id": 678061,
+        "pitcher_name": "Ray Kerr",
+        "pitcher_hand": "L",
+        "ml": 173,
+        "implied": 36.6
       },
       "home": {
         "team": "Dodgers",
@@ -99,26 +132,26 @@
         "pitcher_id": 605483,
         "pitcher_name": "Blake Snell",
         "pitcher_hand": "L",
-        "ml": -158,
-        "implied": 61.2
+        "ml": -212,
+        "implied": 67.9
       },
       "weather": {
-        "temp_f": 94.1,
-        "wind_mph": 7.7,
-        "wind_dir_deg": 249
+        "temp_f": 95.3,
+        "wind_mph": 9.0,
+        "wind_dir_deg": 238
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Dodgers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Ray Kerr holds RHB to a 0.472 OPS; Dodgers project 62% R-handed today."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Braves lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Blake Snell holds RHB to a 0.503 OPS; Braves project 62% R-handed today."
         }
       ],
       "lean": "even",
