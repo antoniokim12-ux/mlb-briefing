@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "generated": "2026-10-05T09:29:24",
+  "generated": "2026-10-06T00:29:00",
   "games": [
     {
       "game_pk": 849834,
@@ -9,50 +9,70 @@
       "lat": 41.495861,
       "lon": -81.685255,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          803011,
+          691019,
+          678246,
+          808959,
+          643217,
+          671976,
+          695731,
+          805367,
+          695657
+        ],
+        "home": [
+          680757,
+          608070,
+          800050,
+          666176,
+          663993,
+          682657,
+          683953,
+          672275,
+          677587
+        ]
       },
       "away": {
         "team": "White Sox",
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "1-0",
+        "record": "2-0",
         "pitcher_id": 641743,
         "pitcher_name": "Anthony Kay",
         "pitcher_hand": "L",
-        "ml": 135,
-        "implied": 42.6
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Guardians",
         "team_full": "Cleveland Guardians",
         "abbr": "CLE",
         "team_id": 114,
-        "record": "0-1",
+        "record": "0-2",
         "pitcher_id": 668909,
         "pitcher_name": "Gavin Williams",
         "pitcher_hand": "R",
-        "ml": -163,
-        "implied": 62.0
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 59.9,
-        "wind_mph": 10.7,
-        "wind_dir_deg": 331
+        "temp_f": 55.7,
+        "wind_mph": 3.7,
+        "wind_dir_deg": 317
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Anthony Kay holds LHB to a 0.504 OPS; Guardians project 80% L-handed today."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "White Sox lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Gavin Williams holds LHB to a 0.621 OPS; White Sox project 75% L-handed today."
         }
       ],
       "lean": "even",
@@ -60,8 +80,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -75,8 +94,28 @@
       "lat": 27.767778,
       "lon": -82.6525,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          700250,
+          641355,
+          671277,
+          682987,
+          806146,
+          665862,
+          663757,
+          669224,
+          641857
+        ],
+        "home": [
+          650490,
+          666018,
+          691406,
+          689414,
+          802415,
+          683748,
+          676356,
+          680700,
+          670764
+        ]
       },
       "away": {
         "team": "Yankees",
@@ -87,8 +126,8 @@
         "pitcher_id": 693645,
         "pitcher_name": "Cam Schlittler",
         "pitcher_hand": "R",
-        "ml": -131,
-        "implied": 56.7
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Rays",
@@ -99,35 +138,28 @@
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": "R",
-        "ml": 109,
-        "implied": 47.8
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 81.7,
-        "wind_mph": 4.1,
-        "wind_dir_deg": 250
+        "temp_f": 83.1,
+        "wind_mph": 4.0,
+        "wind_dir_deg": 299
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Yankees lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Cam Schlittler holds LHB to a 0.560 OPS; Rays project 62% L-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
