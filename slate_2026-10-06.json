@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "generated": "2026-10-06T09:14:22",
+  "generated": "2026-10-06T22:50:11",
   "games": [
     {
       "game_pk": 849819,
@@ -9,8 +9,28 @@
       "lat": 33.890672,
       "lon": -84.467641,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          605141,
+          518692,
+          606192,
+          669257,
+          660271,
+          500743,
+          681624,
+          663656,
+          571771
+        ],
+        "home": [
+          686948,
+          660670,
+          621566,
+          645277,
+          671739,
+          643289,
+          657041,
+          663586,
+          673490
+        ]
       },
       "away": {
         "team": "Dodgers",
@@ -21,8 +41,8 @@
         "pitcher_id": 808967,
         "pitcher_name": "Yoshinobu Yamamoto",
         "pitcher_hand": "R",
-        "ml": -104,
-        "implied": 51.0
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Braves",
@@ -33,26 +53,26 @@
         "pitcher_id": 519242,
         "pitcher_name": "Chris Sale",
         "pitcher_hand": "L",
-        "ml": -115,
-        "implied": 53.5
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 73.5,
-        "wind_mph": 4.5,
-        "wind_dir_deg": 72
+        "temp_f": 76.2,
+        "wind_mph": 6.7,
+        "wind_dir_deg": 102
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Braves lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Yoshinobu Yamamoto holds RHB to a 0.586 OPS; Braves project 62% R-handed today."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Dodgers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Chris Sale holds RHB to a 0.570 OPS; Dodgers project 67% R-handed today."
         }
       ],
       "lean": "even",
@@ -60,8 +80,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -75,8 +94,28 @@
       "lat": 32.707861,
       "lon": -117.157278,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          694192,
+          641343,
+          661388,
+          668930,
+          592885,
+          669003,
+          806198,
+          686217,
+          687401
+        ],
+        "home": [
+          665487,
+          701538,
+          592518,
+          664034,
+          806956,
+          657757,
+          593428,
+          687957,
+          630105
+        ]
       },
       "away": {
         "team": "Brewers",
@@ -87,8 +126,8 @@
         "pitcher_id": 669160,
         "pitcher_name": "Dustin May",
         "pitcher_hand": "R",
-        "ml": 113,
-        "implied": 46.9
+        "ml": 114,
+        "implied": 46.7
       },
       "home": {
         "team": "Padres",
@@ -99,28 +138,15 @@
         "pitcher_id": 601713,
         "pitcher_name": "Nick Pivetta",
         "pitcher_hand": "R",
-        "ml": -136,
-        "implied": 57.6
+        "ml": -138,
+        "implied": 58.0
       },
       "weather": {
-        "temp_f": 84.5,
-        "wind_mph": 8.6,
-        "wind_dir_deg": 328
+        "temp_f": 84.4,
+        "wind_mph": 7.3,
+        "wind_dir_deg": 314
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Padres lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
