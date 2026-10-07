@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "generated": "2026-10-07T00:12:24",
+  "generated": "2026-10-07T01:52:25",
   "games": [
     {
       "game_pk": 849819,
@@ -37,7 +37,7 @@
         "team_full": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "record": "1-1",
+        "record": "2-1",
         "pitcher_id": 808967,
         "pitcher_name": "Yoshinobu Yamamoto",
         "pitcher_hand": "R",
@@ -49,7 +49,7 @@
         "team_full": "Atlanta Braves",
         "abbr": "ATL",
         "team_id": 144,
-        "record": "1-1",
+        "record": "1-2",
         "pitcher_id": 519242,
         "pitcher_name": "Chris Sale",
         "pitcher_hand": "L",
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 68.7,
-        "wind_mph": 4.5,
-        "wind_dir_deg": 95
+        "temp_f": 69.0,
+        "wind_mph": 4.1,
+        "wind_dir_deg": 58
       },
       "factors": [
         {
@@ -126,8 +126,8 @@
         "pitcher_id": 669160,
         "pitcher_name": "Dustin May",
         "pitcher_hand": "R",
-        "ml": 118,
-        "implied": 45.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Padres",
@@ -138,13 +138,13 @@
         "pitcher_id": 601713,
         "pitcher_name": "Nick Pivetta",
         "pitcher_hand": "R",
-        "ml": -143,
-        "implied": 58.8
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 84.1,
-        "wind_mph": 6.3,
-        "wind_dir_deg": 303
+        "temp_f": 85.7,
+        "wind_mph": 9.1,
+        "wind_dir_deg": 315
       },
       "factors": [],
       "lean": "even",
@@ -152,8 +152,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
