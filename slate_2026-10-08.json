@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "generated": "2026-10-08T09:20:00",
+  "generated": "2026-10-08T23:35:50",
   "games": [
     {
       "game_pk": 849832,
@@ -9,8 +9,28 @@
       "lat": 41.83,
       "lon": -87.634167,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          680757,
+          608070,
+          800050,
+          666176,
+          663993,
+          682657,
+          683953,
+          595978,
+          677587
+        ],
+        "home": [
+          805367,
+          545341,
+          678246,
+          808959,
+          502054,
+          686668,
+          691019,
+          695731,
+          695657
+        ]
       },
       "away": {
         "team": "Guardians",
@@ -37,22 +57,22 @@
         "implied": 50.7
       },
       "weather": {
-        "temp_f": 57.0,
-        "wind_mph": 5.8,
-        "wind_dir_deg": 129
+        "temp_f": 59.6,
+        "wind_mph": 5.0,
+        "wind_dir_deg": 150
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "White Sox lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Parker Messick holds RHB to a 0.599 OPS; White Sox project 62% R-handed today."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Hagen Smith holds LHB to a 0.534 OPS; Guardians project 67% L-handed today."
         }
       ],
       "lean": "even",
