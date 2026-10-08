@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "generated": "2026-10-07T23:23:35",
+  "generated": "2026-10-08T00:30:13",
   "games": [
     {
       "game_pk": 849833,
@@ -37,7 +37,7 @@
         "team_full": "Cleveland Guardians",
         "abbr": "CLE",
         "team_id": 114,
-        "record": "0-2",
+        "record": "1-2",
         "pitcher_id": 682982,
         "pitcher_name": "Daniel Espino",
         "pitcher_hand": "R",
@@ -49,7 +49,7 @@
         "team_full": "Chicago White Sox",
         "abbr": "CWS",
         "team_id": 145,
-        "record": "2-0",
+        "record": "2-1",
         "pitcher_id": 656794,
         "pitcher_name": "Sean Newcomb",
         "pitcher_hand": "L",
@@ -57,9 +57,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 69.7,
-        "wind_mph": 6.0,
-        "wind_dir_deg": 31
+        "temp_f": 61.9,
+        "wind_mph": 2.2,
+        "wind_dir_deg": 186
       },
       "factors": [
         {
@@ -142,9 +142,9 @@
         "implied": null
       },
       "weather": {
-        "temp_f": 78.0,
-        "wind_mph": 6.2,
-        "wind_dir_deg": 339
+        "temp_f": 71.9,
+        "wind_mph": 1.9,
+        "wind_dir_deg": 243
       },
       "factors": [],
       "lean": "even",
@@ -198,8 +198,8 @@
         "pitcher_id": 607259,
         "pitcher_name": "Nick Martinez",
         "pitcher_hand": "R",
-        "ml": 148,
-        "implied": 40.3
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Yankees",
@@ -210,13 +210,13 @@
         "pitcher_id": 608331,
         "pitcher_name": "Max Fried",
         "pitcher_hand": "L",
-        "ml": -180,
-        "implied": 64.3
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 57.1,
-        "wind_mph": 4.6,
-        "wind_dir_deg": 151
+        "temp_f": 57.8,
+        "wind_mph": 5.4,
+        "wind_dir_deg": 178
       },
       "factors": [
         {
@@ -231,8 +231,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
@@ -294,9 +293,9 @@
         "implied": 52.8
       },
       "weather": {
-        "temp_f": 78.6,
-        "wind_mph": 3.8,
-        "wind_dir_deg": 357
+        "temp_f": 77.0,
+        "wind_mph": 3.4,
+        "wind_dir_deg": 344
       },
       "factors": [],
       "lean": "even",
