@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-08",
+  "generated": "2026-10-08T09:20:00",
+  "games": [
+    {
+      "game_pk": 849832,
+      "game_time": "2026-10-09T00:00:00Z",
+      "venue": "Rate Field",
+      "lat": 41.83,
+      "lon": -87.634167,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Guardians",
+        "team_full": "Cleveland Guardians",
+        "abbr": "CLE",
+        "team_id": 114,
+        "record": "1-2",
+        "pitcher_id": 800048,
+        "pitcher_name": "Parker Messick",
+        "pitcher_hand": "L",
+        "ml": -117,
+        "implied": 53.9
+      },
+      "home": {
+        "team": "White Sox",
+        "team_full": "Chicago White Sox",
+        "abbr": "CWS",
+        "team_id": 145,
+        "record": "2-1",
+        "pitcher_id": 696146,
+        "pitcher_name": "Hagen Smith",
+        "pitcher_hand": "L",
+        "ml": -103,
+        "implied": 50.7
+      },
+      "weather": {
+        "temp_f": 57.0,
+        "wind_mph": 5.8,
+        "wind_dir_deg": 129
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "White Sox lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    }
+  ]
+}
