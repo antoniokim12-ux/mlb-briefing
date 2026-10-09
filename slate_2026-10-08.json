@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "generated": "2026-10-08T23:35:50",
+  "generated": "2026-10-09T00:44:08",
   "games": [
     {
       "game_pk": 849832,
@@ -41,8 +41,8 @@
         "pitcher_id": 800048,
         "pitcher_name": "Parker Messick",
         "pitcher_hand": "L",
-        "ml": -117,
-        "implied": 53.9
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "White Sox",
@@ -53,13 +53,13 @@
         "pitcher_id": 696146,
         "pitcher_name": "Hagen Smith",
         "pitcher_hand": "L",
-        "ml": -103,
-        "implied": 50.7
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 59.6,
-        "wind_mph": 5.0,
-        "wind_dir_deg": 150
+        "temp_f": 59.9,
+        "wind_mph": 6.0,
+        "wind_dir_deg": 74
       },
       "factors": [
         {
@@ -80,8 +80,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
