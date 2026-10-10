@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "generated": "2026-10-10T08:48:30",
+  "generated": "2026-10-10T22:05:49",
   "games": [
     {
       "game_pk": 849831,
@@ -9,8 +9,28 @@
       "lat": 41.495861,
       "lon": -81.685255,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          803011,
+          691019,
+          678246,
+          808959,
+          643217,
+          671976,
+          805367,
+          695657,
+          686668
+        ],
+        "home": [
+          680757,
+          608070,
+          800050,
+          666176,
+          663993,
+          683953,
+          672275,
+          690984,
+          677587
+        ]
       },
       "away": {
         "team": "White Sox",
@@ -21,8 +41,8 @@
         "pitcher_id": 680732,
         "pitcher_name": "Sean Burke",
         "pitcher_hand": "R",
-        "ml": 114,
-        "implied": 46.7
+        "ml": 119,
+        "implied": 45.7
       },
       "home": {
         "team": "Guardians",
@@ -33,30 +53,24 @@
         "pitcher_id": 668909,
         "pitcher_name": "Gavin Williams",
         "pitcher_hand": "R",
-        "ml": -137,
-        "implied": 57.8
+        "ml": -143,
+        "implied": 58.8
       },
       "weather": {
-        "temp_f": 68.5,
-        "wind_mph": 6.9,
-        "wind_dir_deg": 133
+        "temp_f": 65.6,
+        "wind_mph": 8.1,
+        "wind_dir_deg": 137
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "White Sox lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Gavin Williams holds LHB to a 0.621 OPS; White Sox project 67% L-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
