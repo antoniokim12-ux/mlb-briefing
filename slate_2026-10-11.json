@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "generated": "2026-10-11T09:10:46",
+  "generated": "2026-10-11T22:34:33",
   "games": [
     {
       "game_pk": 849809,
@@ -9,8 +9,28 @@
       "lat": 43.02838,
       "lon": -87.97099,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          605141,
+          518692,
+          669257,
+          660271,
+          606192,
+          571970,
+          681624,
+          663656,
+          571771
+        ],
+        "home": [
+          694192,
+          668930,
+          661388,
+          641343,
+          683734,
+          669003,
+          806198,
+          800325,
+          687401
+        ]
       },
       "away": {
         "team": "Dodgers",
@@ -21,8 +41,8 @@
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": "L",
-        "ml": -107,
-        "implied": 51.7
+        "ml": -112,
+        "implied": 52.8
       },
       "home": {
         "team": "Brewers",
@@ -33,30 +53,24 @@
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
-        "ml": -113,
-        "implied": 53.1
+        "ml": -107,
+        "implied": 51.7
       },
       "weather": {
-        "temp_f": 66.5,
-        "wind_mph": 4.5,
-        "wind_dir_deg": 160
+        "temp_f": 66.1,
+        "wind_mph": 4.3,
+        "wind_dir_deg": 158
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Dodgers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Tarik Skubal holds RHB to a 0.566 OPS; Brewers project 62% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
