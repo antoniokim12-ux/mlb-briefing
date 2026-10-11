@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "generated": "2026-10-10T23:55:35",
+  "generated": "2026-10-11T01:23:04",
   "games": [
     {
       "game_pk": 849831,
@@ -41,8 +41,8 @@
         "pitcher_id": 680732,
         "pitcher_name": "Sean Burke",
         "pitcher_hand": "R",
-        "ml": 124,
-        "implied": 44.6
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Guardians",
@@ -53,13 +53,13 @@
         "pitcher_id": 668909,
         "pitcher_name": "Gavin Williams",
         "pitcher_hand": "R",
-        "ml": -139,
-        "implied": 58.2
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 63.8,
-        "wind_mph": 7.0,
-        "wind_dir_deg": 153
+        "temp_f": 65.6,
+        "wind_mph": 9.0,
+        "wind_dir_deg": 148
       },
       "factors": [
         {
@@ -74,8 +74,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
