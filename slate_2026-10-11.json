@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "generated": "2026-10-11T22:34:33",
+  "generated": "2026-10-12T00:02:33",
   "games": [
     {
       "game_pk": 849809,
@@ -41,8 +41,8 @@
         "pitcher_id": 669373,
         "pitcher_name": "Tarik Skubal",
         "pitcher_hand": "L",
-        "ml": -112,
-        "implied": 52.8
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Brewers",
@@ -53,13 +53,13 @@
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
-        "ml": -107,
-        "implied": 51.7
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 66.1,
-        "wind_mph": 4.3,
-        "wind_dir_deg": 158
+        "temp_f": 66.6,
+        "wind_mph": 4.4,
+        "wind_dir_deg": 162
       },
       "factors": [
         {
@@ -74,8 +74,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
