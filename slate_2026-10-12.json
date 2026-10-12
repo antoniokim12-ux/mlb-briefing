@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-12",
+  "generated": "2026-10-12T09:35:53",
+  "games": [
+    {
+      "game_pk": 849812,
+      "game_time": "2026-10-12T21:00:00Z",
+      "venue": "American Family Field",
+      "lat": 43.02838,
+      "lon": -87.97099,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Dodgers",
+        "team_full": "Los Angeles Dodgers",
+        "abbr": "LAD",
+        "team_id": 119,
+        "record": "0-1",
+        "pitcher_id": 808967,
+        "pitcher_name": "Yoshinobu Yamamoto",
+        "pitcher_hand": "R",
+        "ml": -143,
+        "implied": 58.8
+      },
+      "home": {
+        "team": "Brewers",
+        "team_full": "Milwaukee Brewers",
+        "abbr": "MIL",
+        "team_id": 158,
+        "record": "1-0",
+        "pitcher_id": 701656,
+        "pitcher_name": "Logan Henderson",
+        "pitcher_hand": "R",
+        "ml": 119,
+        "implied": 45.7
+      },
+      "weather": {
+        "temp_f": 83.1,
+        "wind_mph": 13.1,
+        "wind_dir_deg": 217
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Dodgers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 849820,
+      "game_time": "2026-10-13T00:00:00Z",
+      "venue": "Tropicana Field",
+      "lat": 27.767778,
+      "lon": -82.6525,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Guardians",
+        "team_full": "Cleveland Guardians",
+        "abbr": "CLE",
+        "team_id": 114,
+        "record": "0-0",
+        "pitcher_id": 656492,
+        "pitcher_name": "Foster Griffin",
+        "pitcher_hand": "L",
+        "ml": 142,
+        "implied": 41.3
+      },
+      "home": {
+        "team": "Rays",
+        "team_full": "Tampa Bay Rays",
+        "abbr": "TB",
+        "team_id": 139,
+        "record": "0-0",
+        "pitcher_id": 656876,
+        "pitcher_name": "Drew Rasmussen",
+        "pitcher_hand": "R",
+        "ml": -172,
+        "implied": 63.2
+      },
+      "weather": {
+        "temp_f": 72.3,
+        "wind_mph": 4.6,
+        "wind_dir_deg": 321
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    }
+  ]
+}
