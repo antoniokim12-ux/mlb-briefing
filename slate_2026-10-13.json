@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "generated": "2026-10-13T09:39:22",
+  "generated": "2026-10-13T23:09:07",
   "games": [
     {
       "game_pk": 849813,
@@ -9,8 +9,28 @@
       "lat": 27.767778,
       "lon": -82.6525,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          680757,
+          608070,
+          800050,
+          666176,
+          663993,
+          683953,
+          690984,
+          595978,
+          677587
+        ],
+        "home": [
+          650490,
+          666018,
+          691406,
+          683748,
+          676356,
+          802415,
+          810938,
+          689414,
+          670764
+        ]
       },
       "away": {
         "team": "Guardians",
@@ -21,8 +41,8 @@
         "pitcher_id": 800048,
         "pitcher_name": "Parker Messick",
         "pitcher_hand": "L",
-        "ml": 119,
-        "implied": 45.7
+        "ml": 118,
+        "implied": 45.9
       },
       "home": {
         "team": "Rays",
@@ -33,28 +53,15 @@
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": "R",
-        "ml": -143,
-        "implied": 58.8
+        "ml": -132,
+        "implied": 56.9
       },
       "weather": {
-        "temp_f": 75.2,
-        "wind_mph": 4.7,
-        "wind_dir_deg": 4
+        "temp_f": 79.4,
+        "wind_mph": 2.2,
+        "wind_dir_deg": 324
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
