@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "generated": "2026-10-13T23:09:07",
+  "generated": "2026-10-13T23:59:46",
   "games": [
     {
       "game_pk": 849813,
@@ -41,8 +41,8 @@
         "pitcher_id": 800048,
         "pitcher_name": "Parker Messick",
         "pitcher_hand": "L",
-        "ml": 118,
-        "implied": 45.9
+        "ml": 117,
+        "implied": 46.1
       },
       "home": {
         "team": "Rays",
@@ -53,13 +53,13 @@
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": "R",
-        "ml": -132,
-        "implied": 56.9
+        "ml": -131,
+        "implied": 56.7
       },
       "weather": {
-        "temp_f": 79.4,
-        "wind_mph": 2.2,
-        "wind_dir_deg": 324
+        "temp_f": 78.8,
+        "wind_mph": 3.8,
+        "wind_dir_deg": 6
       },
       "factors": [],
       "lean": "even",
