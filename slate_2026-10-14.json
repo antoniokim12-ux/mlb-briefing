@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "generated": "2026-10-14T07:54:30",
+  "generated": "2026-10-14T21:58:48",
   "games": [
     {
       "game_pk": 849811,
@@ -9,8 +9,28 @@
       "lat": 34.07368,
       "lon": -118.24053,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          694192,
+          668930,
+          661388,
+          683734,
+          641343,
+          669003,
+          806198,
+          800325,
+          687401
+        ],
+        "home": [
+          605141,
+          518692,
+          606192,
+          663656,
+          681624,
+          660271,
+          669257,
+          500743,
+          669242
+        ]
       },
       "away": {
         "team": "Brewers",
@@ -21,8 +41,8 @@
         "pitcher_id": 688107,
         "pitcher_name": "Robert Gasser",
         "pitcher_hand": "L",
-        "ml": 149,
-        "implied": 40.2
+        "ml": 145,
+        "implied": 40.8
       },
       "home": {
         "team": "Dodgers",
@@ -33,30 +53,24 @@
         "pitcher_id": 605483,
         "pitcher_name": "Blake Snell",
         "pitcher_hand": "L",
-        "ml": -182,
-        "implied": 64.5
+        "ml": -176,
+        "implied": 63.8
       },
       "weather": {
-        "temp_f": 76.8,
-        "wind_mph": 6.7,
-        "wind_dir_deg": 227
+        "temp_f": 75.8,
+        "wind_mph": 7.9,
+        "wind_dir_deg": 237
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Dodgers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Blake Snell holds RHB to a 0.503 OPS; Brewers project 62% R-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "home",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
