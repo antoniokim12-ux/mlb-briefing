@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "generated": "2026-10-14T21:58:48",
+  "generated": "2026-10-14T23:30:46",
   "games": [
     {
       "game_pk": 849811,
@@ -41,8 +41,8 @@
         "pitcher_id": 688107,
         "pitcher_name": "Robert Gasser",
         "pitcher_hand": "L",
-        "ml": 145,
-        "implied": 40.8
+        "ml": 155,
+        "implied": 39.2
       },
       "home": {
         "team": "Dodgers",
@@ -53,13 +53,13 @@
         "pitcher_id": 605483,
         "pitcher_name": "Blake Snell",
         "pitcher_hand": "L",
-        "ml": -176,
-        "implied": 63.8
+        "ml": -175,
+        "implied": 63.6
       },
       "weather": {
-        "temp_f": 75.8,
-        "wind_mph": 7.9,
-        "wind_dir_deg": 237
+        "temp_f": 76.5,
+        "wind_mph": 7.5,
+        "wind_dir_deg": 234
       },
       "factors": [
         {
