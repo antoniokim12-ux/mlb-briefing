@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-15",
+  "generated": "2026-10-15T07:39:03",
+  "games": [
+    {
+      "game_pk": 849818,
+      "game_time": "2026-10-15T17:00:00Z",
+      "venue": "Progressive Field",
+      "lat": 41.495861,
+      "lon": -81.685255,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Rays",
+        "team_full": "Tampa Bay Rays",
+        "abbr": "TB",
+        "team_id": 139,
+        "record": "1-1",
+        "pitcher_id": 643377,
+        "pitcher_name": "Griffin Jax",
+        "pitcher_hand": "R",
+        "ml": 111,
+        "implied": 47.4
+      },
+      "home": {
+        "team": "Guardians",
+        "team_full": "Cleveland Guardians",
+        "abbr": "CLE",
+        "team_id": 114,
+        "record": "1-1",
+        "pitcher_id": 668909,
+        "pitcher_name": "Gavin Williams",
+        "pitcher_hand": "R",
+        "ml": -134,
+        "implied": 57.3
+      },
+      "weather": {
+        "temp_f": 61.0,
+        "wind_mph": 3.0,
+        "wind_dir_deg": 136
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    },
+    {
+      "game_pk": 849810,
+      "game_time": "2026-10-16T00:00:00Z",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "lat": 34.07368,
+      "lon": -118.24053,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Brewers",
+        "team_full": "Milwaukee Brewers",
+        "abbr": "MIL",
+        "team_id": 158,
+        "record": "3-0",
+        "pitcher_id": null,
+        "pitcher_name": "TBD",
+        "pitcher_hand": null,
+        "ml": 134,
+        "implied": 42.7
+      },
+      "home": {
+        "team": "Dodgers",
+        "team_full": "Los Angeles Dodgers",
+        "abbr": "LAD",
+        "team_id": 119,
+        "record": "0-3",
+        "pitcher_id": 607192,
+        "pitcher_name": "Tyler Glasnow",
+        "pitcher_hand": "R",
+        "ml": -162,
+        "implied": 61.8
+      },
+      "weather": {
+        "temp_f": 89.4,
+        "wind_mph": 2.3,
+        "wind_dir_deg": 274
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Dodgers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    }
+  ]
+}
