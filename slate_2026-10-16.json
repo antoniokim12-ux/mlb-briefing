@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "generated": "2026-10-16T21:49:39",
+  "generated": "2026-10-16T23:04:34",
   "games": [
     {
       "game_pk": 849817,
@@ -41,8 +41,8 @@
         "pitcher_id": 607259,
         "pitcher_name": "Nick Martinez",
         "pitcher_hand": "R",
-        "ml": -114,
-        "implied": 53.3
+        "ml": -110,
+        "implied": 52.4
       },
       "home": {
         "team": "Guardians",
@@ -53,13 +53,13 @@
         "pitcher_id": 542888,
         "pitcher_name": "Shawn Armstrong",
         "pitcher_hand": "R",
-        "ml": -105,
-        "implied": 51.2
+        "ml": -101,
+        "implied": 50.2
       },
       "weather": {
-        "temp_f": 51.8,
-        "wind_mph": 19.1,
-        "wind_dir_deg": 360
+        "temp_f": 52.2,
+        "wind_mph": 17.3,
+        "wind_dir_deg": 350
       },
       "factors": [
         {
@@ -78,7 +78,7 @@
           "m": "~",
           "side": "none",
           "label": "Wind",
-          "text": "19 mph wind (dir 360\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+          "text": "17 mph wind (dir 350\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
