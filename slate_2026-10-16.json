@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-16",
+  "generated": "2026-10-16T07:25:59",
+  "games": [
+    {
+      "game_pk": 849817,
+      "game_time": "2026-10-17T00:00:00Z",
+      "venue": "Progressive Field",
+      "lat": 41.495861,
+      "lon": -81.685255,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Rays",
+        "team_full": "Tampa Bay Rays",
+        "abbr": "TB",
+        "team_id": 139,
+        "record": "1-2",
+        "pitcher_id": 607259,
+        "pitcher_name": "Nick Martinez",
+        "pitcher_hand": "R",
+        "ml": -110,
+        "implied": 52.4
+      },
+      "home": {
+        "team": "Guardians",
+        "team_full": "Cleveland Guardians",
+        "abbr": "CLE",
+        "team_id": 114,
+        "record": "2-1",
+        "pitcher_id": null,
+        "pitcher_name": "TBD",
+        "pitcher_hand": null,
+        "ml": -109,
+        "implied": 52.2
+      },
+      "weather": {
+        "temp_f": 50.2,
+        "wind_mph": 16.4,
+        "wind_dir_deg": 331
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Wind",
+          "text": "16 mph wind (dir 331\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    }
+  ]
+}
