@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "generated": "2026-10-17T00:52:30",
+  "generated": "2026-10-17T05:18:56",
   "games": [
     {
       "game_pk": 849817,
@@ -9,28 +9,8 @@
       "lat": 41.495861,
       "lon": -81.685255,
       "lineup_ids": {
-        "away": [
-          650490,
-          666018,
-          802415,
-          691406,
-          689414,
-          683748,
-          676356,
-          680700,
-          670764
-        ],
-        "home": [
-          680757,
-          608070,
-          800050,
-          666176,
-          663993,
-          683953,
-          672275,
-          690984,
-          677587
-        ]
+        "away": [],
+        "home": []
       },
       "away": {
         "team": "Rays",
@@ -58,21 +38,21 @@
       },
       "weather": {
         "temp_f": 53.0,
-        "wind_mph": 13.1,
-        "wind_dir_deg": 1
+        "wind_mph": 12.1,
+        "wind_dir_deg": 26
       },
       "factors": [
         {
-          "m": "+",
-          "side": "away",
-          "label": "Handedness matchup",
-          "text": "Nick Martinez holds LHB to a 0.659 OPS; Guardians project 83% L-handed today."
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         },
         {
-          "m": "+",
-          "side": "home",
-          "label": "Handedness matchup",
-          "text": "Shawn Armstrong holds LHB to a 0.657 OPS; Rays project 62% L-handed today."
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
         }
       ],
       "lean": "even",
