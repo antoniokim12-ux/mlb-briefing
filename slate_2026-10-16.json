@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "generated": "2026-10-16T23:04:34",
+  "generated": "2026-10-17T00:52:30",
   "games": [
     {
       "game_pk": 849817,
@@ -41,8 +41,8 @@
         "pitcher_id": 607259,
         "pitcher_name": "Nick Martinez",
         "pitcher_hand": "R",
-        "ml": -110,
-        "implied": 52.4
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Guardians",
@@ -53,13 +53,13 @@
         "pitcher_id": 542888,
         "pitcher_name": "Shawn Armstrong",
         "pitcher_hand": "R",
-        "ml": -101,
-        "implied": 50.2
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 52.2,
-        "wind_mph": 17.3,
-        "wind_dir_deg": 350
+        "temp_f": 53.0,
+        "wind_mph": 13.1,
+        "wind_dir_deg": 1
       },
       "factors": [
         {
@@ -73,12 +73,6 @@
           "side": "home",
           "label": "Handedness matchup",
           "text": "Shawn Armstrong holds LHB to a 0.657 OPS; Rays project 62% L-handed today."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Wind",
-          "text": "17 mph wind (dir 350\u00b0) \u2014 enough to move fly balls; in/out effect depends on park orientation."
         }
       ],
       "lean": "even",
@@ -86,8 +80,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
