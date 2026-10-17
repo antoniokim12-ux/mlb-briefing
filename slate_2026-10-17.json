@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-17",
+  "generated": "2026-10-17T07:07:27",
+  "games": [
+    {
+      "game_pk": 849816,
+      "game_time": "2026-10-18T00:00:00Z",
+      "venue": "Progressive Field",
+      "lat": 41.495861,
+      "lon": -81.685255,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Rays",
+        "team_full": "Tampa Bay Rays",
+        "abbr": "TB",
+        "team_id": 139,
+        "record": "1-2",
+        "pitcher_id": 607259,
+        "pitcher_name": "Nick Martinez",
+        "pitcher_hand": "R",
+        "ml": -117,
+        "implied": 53.9
+      },
+      "home": {
+        "team": "Guardians",
+        "team_full": "Cleveland Guardians",
+        "abbr": "CLE",
+        "team_id": 114,
+        "record": "2-1",
+        "pitcher_id": 542888,
+        "pitcher_name": "Shawn Armstrong",
+        "pitcher_hand": "R",
+        "ml": -103,
+        "implied": 50.7
+      },
+      "weather": {
+        "temp_f": 44.2,
+        "wind_mph": 4.6,
+        "wind_dir_deg": 204
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    }
+  ]
+}
