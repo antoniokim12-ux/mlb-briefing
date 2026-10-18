@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-18",
+  "generated": "2026-10-18T07:21:44",
+  "games": [
+    {
+      "game_pk": 849817,
+      "game_time": "2026-10-18T21:08:00Z",
+      "venue": "Progressive Field",
+      "lat": 41.495861,
+      "lon": -81.685255,
+      "lineup_ids": {
+        "away": [],
+        "home": []
+      },
+      "away": {
+        "team": "Rays",
+        "team_full": "Tampa Bay Rays",
+        "abbr": "TB",
+        "team_id": 139,
+        "record": "2-2",
+        "pitcher_id": 656876,
+        "pitcher_name": "Drew Rasmussen",
+        "pitcher_hand": "R",
+        "ml": -135,
+        "implied": 57.4
+      },
+      "home": {
+        "team": "Guardians",
+        "team_full": "Cleveland Guardians",
+        "abbr": "CLE",
+        "team_id": 114,
+        "record": "2-2",
+        "pitcher_id": 800048,
+        "pitcher_name": "Parker Messick",
+        "pitcher_hand": "L",
+        "ml": 112,
+        "implied": 47.2
+      },
+      "weather": {
+        "temp_f": 60.3,
+        "wind_mph": 8.7,
+        "wind_dir_deg": 193
+      },
+      "factors": [
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        },
+        {
+          "m": "~",
+          "side": "none",
+          "label": "Lineups",
+          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+        }
+      ],
+      "lean": "even",
+      "weight": 0,
+      "read": null,
+      "total": null,
+      "total_read": null,
+      "started": false,
+      "odds_book": "DraftKings",
+      "_bullpen": {
+        "away": null,
+        "home": null,
+        "league": null
+      }
+    }
+  ]
+}
