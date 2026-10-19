@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "generated": "2026-10-19T08:00:24",
+  "generated": "2026-10-19T22:41:00",
   "games": [
     {
       "game_pk": 849815,
@@ -9,8 +9,28 @@
       "lat": 27.767778,
       "lon": -82.6525,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          680757,
+          608070,
+          800050,
+          666176,
+          663993,
+          683953,
+          672275,
+          690984,
+          677587
+        ],
+        "home": [
+          650490,
+          666018,
+          689414,
+          691406,
+          802415,
+          683748,
+          676356,
+          680700,
+          670764
+        ]
       },
       "away": {
         "team": "Guardians",
@@ -18,11 +38,11 @@
         "abbr": "CLE",
         "team_id": 114,
         "record": "2-3",
-        "pitcher_id": null,
-        "pitcher_name": "TBD",
-        "pitcher_hand": null,
-        "ml": 124,
-        "implied": 44.6
+        "pitcher_id": 542888,
+        "pitcher_name": "Shawn Armstrong",
+        "pitcher_hand": "R",
+        "ml": 130,
+        "implied": 43.5
       },
       "home": {
         "team": "Rays",
@@ -33,30 +53,24 @@
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": "R",
-        "ml": -150,
-        "implied": 60.0
+        "ml": -158,
+        "implied": 61.2
       },
       "weather": {
-        "temp_f": 72.0,
-        "wind_mph": 12.4,
-        "wind_dir_deg": 47
+        "temp_f": 70.0,
+        "wind_mph": 11.4,
+        "wind_dir_deg": 54
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Guardians lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Shawn Armstrong holds LHB to a 0.657 OPS; Rays project 62% L-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
