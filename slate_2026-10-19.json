@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "generated": "2026-10-19T23:58:55",
+  "generated": "2026-10-20T01:19:46",
   "games": [
     {
       "game_pk": 849815,
@@ -41,8 +41,8 @@
         "pitcher_id": 542888,
         "pitcher_name": "Shawn Armstrong",
         "pitcher_hand": "R",
-        "ml": 136,
-        "implied": 42.4
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Rays",
@@ -53,13 +53,13 @@
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": "R",
-        "ml": -152,
-        "implied": 60.3
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 71.5,
-        "wind_mph": 10.9,
-        "wind_dir_deg": 57
+        "temp_f": 70.8,
+        "wind_mph": 10.3,
+        "wind_dir_deg": 60
       },
       "factors": [
         {
@@ -74,8 +74,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
