@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generated": "2026-10-23T07:49:59",
+  "generated": "2026-10-23T21:44:58",
   "games": [
     {
       "game_pk": 849805,
@@ -9,8 +9,28 @@
       "lat": 43.02838,
       "lon": -87.97099,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          650490,
+          666018,
+          802415,
+          691406,
+          689414,
+          676356,
+          683748,
+          810938,
+          670764
+        ],
+        "home": [
+          694192,
+          641343,
+          592885,
+          661388,
+          668930,
+          669003,
+          806198,
+          686217,
+          666152
+        ]
       },
       "away": {
         "team": "Rays",
@@ -21,8 +41,8 @@
         "pitcher_id": 607259,
         "pitcher_name": "Nick Martinez",
         "pitcher_hand": "R",
-        "ml": 163,
-        "implied": 38.0
+        "ml": 159,
+        "implied": 38.6
       },
       "home": {
         "team": "Brewers",
@@ -33,30 +53,24 @@
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
-        "ml": -198,
-        "implied": 66.4
+        "ml": -194,
+        "implied": 66.0
       },
       "weather": {
-        "temp_f": 56.6,
-        "wind_mph": 3.9,
-        "wind_dir_deg": 127
+        "temp_f": 54.7,
+        "wind_mph": 4.4,
+        "wind_dir_deg": 137
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Nick Martinez holds LHB to a 0.659 OPS; Brewers project 67% L-handed today."
         }
       ],
-      "lean": "even",
-      "weight": 0,
+      "lean": "away",
+      "weight": 1,
       "read": null,
       "total": null,
       "total_read": null,
