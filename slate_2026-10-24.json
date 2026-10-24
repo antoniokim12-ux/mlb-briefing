@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "generated": "2026-10-24T07:31:18",
+  "generated": "2026-10-24T21:18:47",
   "games": [
     {
       "game_pk": 849802,
@@ -9,8 +9,28 @@
       "lat": 43.02838,
       "lon": -87.97099,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          650490,
+          666018,
+          802415,
+          691406,
+          689414,
+          680700,
+          676356,
+          683748,
+          670764
+        ],
+        "home": [
+          694192,
+          641343,
+          592885,
+          661388,
+          668930,
+          669003,
+          806198,
+          686217,
+          666152
+        ]
       },
       "away": {
         "team": "Rays",
@@ -21,8 +41,8 @@
         "pitcher_id": 656876,
         "pitcher_name": "Drew Rasmussen",
         "pitcher_hand": "R",
-        "ml": 106,
-        "implied": 48.5
+        "ml": 100,
+        "implied": 50.0
       },
       "home": {
         "team": "Brewers",
@@ -33,26 +53,26 @@
         "pitcher_id": 701656,
         "pitcher_name": "Logan Henderson",
         "pitcher_hand": "R",
-        "ml": -127,
-        "implied": 55.9
+        "ml": -121,
+        "implied": 54.8
       },
       "weather": {
-        "temp_f": 60.3,
-        "wind_mph": 5.4,
-        "wind_dir_deg": 176
+        "temp_f": 56.2,
+        "wind_mph": 4.4,
+        "wind_dir_deg": 155
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Drew Rasmussen holds LHB to a 0.568 OPS; Brewers project 67% L-handed today."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Logan Henderson holds LHB to a 0.592 OPS; Rays project 62% L-handed today."
         }
       ],
       "lean": "even",
