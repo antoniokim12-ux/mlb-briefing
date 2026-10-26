@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "generated": "2026-10-26T08:00:47",
+  "generated": "2026-10-26T22:56:03",
   "games": [
     {
       "game_pk": 849804,
@@ -9,8 +9,28 @@
       "lat": 27.767778,
       "lon": -82.6525,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          694192,
+          641343,
+          592885,
+          661388,
+          668930,
+          669003,
+          806198,
+          686217,
+          666152
+        ],
+        "home": [
+          650490,
+          668723,
+          802415,
+          691406,
+          810938,
+          676356,
+          683748,
+          663743,
+          670764
+        ]
       },
       "away": {
         "team": "Brewers",
@@ -21,8 +41,8 @@
         "pitcher_id": 688107,
         "pitcher_name": "Robert Gasser",
         "pitcher_hand": "L",
-        "ml": -101,
-        "implied": 50.2
+        "ml": -104,
+        "implied": 51.0
       },
       "home": {
         "team": "Rays",
@@ -33,28 +53,15 @@
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": "R",
-        "ml": -120,
-        "implied": 54.5
+        "ml": -116,
+        "implied": 53.7
       },
       "weather": {
-        "temp_f": 72.6,
-        "wind_mph": 12.4,
-        "wind_dir_deg": 26
+        "temp_f": 73.1,
+        "wind_mph": 13.8,
+        "wind_dir_deg": 38
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
