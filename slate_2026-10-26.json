@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "generated": "2026-10-26T22:56:03",
+  "generated": "2026-10-27T00:07:06",
   "games": [
     {
       "game_pk": 849804,
@@ -41,8 +41,8 @@
         "pitcher_id": 688107,
         "pitcher_name": "Robert Gasser",
         "pitcher_hand": "L",
-        "ml": -104,
-        "implied": 51.0
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Rays",
@@ -53,13 +53,13 @@
         "pitcher_id": 642547,
         "pitcher_name": "Freddy Peralta",
         "pitcher_hand": "R",
-        "ml": -116,
-        "implied": 53.7
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 73.1,
-        "wind_mph": 13.8,
-        "wind_dir_deg": 38
+        "temp_f": 72.7,
+        "wind_mph": 14.2,
+        "wind_dir_deg": 35
       },
       "factors": [],
       "lean": "even",
@@ -67,8 +67,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
