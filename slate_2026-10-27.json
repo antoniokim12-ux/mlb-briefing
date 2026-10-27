@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "generated": "2026-10-27T08:14:23",
+  "generated": "2026-10-27T22:44:57",
   "games": [
     {
       "game_pk": 849803,
@@ -9,8 +9,28 @@
       "lat": 27.767778,
       "lon": -82.6525,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          694192,
+          641343,
+          592885,
+          661388,
+          668930,
+          686217,
+          806198,
+          669003,
+          666152
+        ],
+        "home": [
+          650490,
+          666018,
+          691406,
+          689414,
+          676356,
+          802415,
+          668723,
+          680700,
+          670764
+        ]
       },
       "away": {
         "team": "Brewers",
@@ -18,11 +38,11 @@
         "abbr": "MIL",
         "team_id": 158,
         "record": "3-0",
-        "pitcher_id": null,
-        "pitcher_name": "TBD",
-        "pitcher_hand": null,
-        "ml": -141,
-        "implied": 58.5
+        "pitcher_id": 669160,
+        "pitcher_name": "Dustin May",
+        "pitcher_hand": "R",
+        "ml": -123,
+        "implied": 55.2
       },
       "home": {
         "team": "Rays",
@@ -33,28 +53,15 @@
         "pitcher_id": 643377,
         "pitcher_name": "Griffin Jax",
         "pitcher_hand": "R",
-        "ml": 117,
-        "implied": 46.1
+        "ml": 102,
+        "implied": 49.5
       },
       "weather": {
-        "temp_f": 74.3,
-        "wind_mph": 12.9,
-        "wind_dir_deg": 43
+        "temp_f": 73.6,
+        "wind_mph": 9.8,
+        "wind_dir_deg": 29
       },
-      "factors": [
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        },
-        {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
-        }
-      ],
+      "factors": [],
       "lean": "even",
       "weight": 0,
       "read": null,
