@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "generated": "2026-10-28T08:52:15",
+  "generated": "2026-10-28T22:54:54",
   "games": [
     {
       "game_pk": 849799,
@@ -9,8 +9,28 @@
       "lat": 27.767778,
       "lon": -82.6525,
       "lineup_ids": {
-        "away": [],
-        "home": []
+        "away": [
+          694192,
+          641343,
+          592885,
+          661388,
+          668930,
+          686217,
+          806198,
+          669003,
+          666152
+        ],
+        "home": [
+          650490,
+          666018,
+          691406,
+          689414,
+          676356,
+          802415,
+          810938,
+          668723,
+          670764
+        ]
       },
       "away": {
         "team": "Brewers",
@@ -21,8 +41,8 @@
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
-        "ml": -148,
-        "implied": 59.7
+        "ml": -144,
+        "implied": 59.0
       },
       "home": {
         "team": "Rays",
@@ -30,29 +50,29 @@
         "abbr": "TB",
         "team_id": 139,
         "record": "1-3",
-        "pitcher_id": null,
-        "pitcher_name": "TBD",
-        "pitcher_hand": null,
-        "ml": 123,
-        "implied": 44.8
+        "pitcher_id": 656876,
+        "pitcher_name": "Drew Rasmussen",
+        "pitcher_hand": "R",
+        "ml": 119,
+        "implied": 45.7
       },
       "weather": {
-        "temp_f": 75.0,
-        "wind_mph": 14.2,
-        "wind_dir_deg": 33
+        "temp_f": 75.5,
+        "wind_mph": 11.3,
+        "wind_dir_deg": 31
       },
       "factors": [
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Rays lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "away",
+          "label": "Handedness matchup",
+          "text": "Jacob Misiorowski holds RHB to a 0.582 OPS; Rays project 62% R-handed today."
         },
         {
-          "m": "~",
-          "side": "none",
-          "label": "Lineups",
-          "text": "Brewers lineup not posted yet \u2014 handedness matchup firms up ~2-4 hrs before first pitch."
+          "m": "+",
+          "side": "home",
+          "label": "Handedness matchup",
+          "text": "Drew Rasmussen holds LHB to a 0.568 OPS; Brewers project 67% L-handed today."
         }
       ],
       "lean": "even",
