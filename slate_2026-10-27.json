@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "generated": "2026-10-27T22:44:57",
+  "generated": "2026-10-28T00:06:47",
   "games": [
     {
       "game_pk": 849803,
@@ -41,8 +41,8 @@
         "pitcher_id": 669160,
         "pitcher_name": "Dustin May",
         "pitcher_hand": "R",
-        "ml": -123,
-        "implied": 55.2
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Rays",
@@ -53,13 +53,13 @@
         "pitcher_id": 643377,
         "pitcher_name": "Griffin Jax",
         "pitcher_hand": "R",
-        "ml": 102,
-        "implied": 49.5
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 73.6,
-        "wind_mph": 9.8,
-        "wind_dir_deg": 29
+        "temp_f": 74.8,
+        "wind_mph": 11.7,
+        "wind_dir_deg": 40
       },
       "factors": [],
       "lean": "even",
@@ -67,8 +67,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
