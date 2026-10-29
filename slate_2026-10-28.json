@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "generated": "2026-10-28T22:54:54",
+  "generated": "2026-10-29T00:28:42",
   "games": [
     {
       "game_pk": 849799,
@@ -41,8 +41,8 @@
         "pitcher_id": 694819,
         "pitcher_name": "Jacob Misiorowski",
         "pitcher_hand": "R",
-        "ml": -144,
-        "implied": 59.0
+        "ml": null,
+        "implied": null
       },
       "home": {
         "team": "Rays",
@@ -53,13 +53,13 @@
         "pitcher_id": 656876,
         "pitcher_name": "Drew Rasmussen",
         "pitcher_hand": "R",
-        "ml": 119,
-        "implied": 45.7
+        "ml": null,
+        "implied": null
       },
       "weather": {
-        "temp_f": 75.5,
-        "wind_mph": 11.3,
-        "wind_dir_deg": 31
+        "temp_f": 75.6,
+        "wind_mph": 10.8,
+        "wind_dir_deg": 27
       },
       "factors": [
         {
@@ -80,8 +80,7 @@
       "read": null,
       "total": null,
       "total_read": null,
-      "started": false,
-      "odds_book": "DraftKings",
+      "started": true,
       "_bullpen": {
         "away": null,
         "home": null,
